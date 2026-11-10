@@ -1,0 +1,122 @@
+{
+ "title": "DECISION CARD  ex19_a3_mes_loss  A3 expiry-Friday short  MES leg  2012-11-16 09:30",
+ "decision": "Rule: today 2012-11-16 is the monthly options expiry (Fri 2012-11-16)  ->  SHORT 1 MES at the 09:30 mark 1,352.25,\n    cover at the 16:00 mark, no stop",
+ "drivers": [
+  "Only the calendar decides: no price, trend, VWAP or EMA is read. The trade is the same every month (also on MNQ and MYM); the idea is that option-\n    hedging flows that lift prices into the morning settlement fade during the day.",
+  "A3 MES leg overall (v3/out/trades/A3.parquet): 181 trades, mean +16.26 $, 54% winners."
+ ],
+ "outcome": "OUTCOME: cover 1,357.00 at 16:00 -> -27.25 $ per micro after $3.50 costs (-4.75 pts)  =  WRONG.  Whole basket that\n    day: -44.75 $",
+ "why": "MES rose from 1,352.25 at 09:30 to 1,357.00 at 16:00, so the short lost -27.25 $. Nothing in A3 looks at price, so it cannot avoid such days;\n    only about half of expiry days are positive and the profit comes from a few big down days.",
+ "win": false,
+ "notes": [
+  "Edge vs an ordinary day: -27.25 $ minus C1 -5.78 $ = -21.47 $ (stored d_c1 -24.48 uses the 999-draw c1 -2.77). Prices recomputed from 1-minute bars and matched to\n    sessions_ES.parquet and A3.parquet.",
+  "C1 here = exact average over ALL same-year sessions with both prices; the stored c1 is the average of 999 random draws from those sessions, so the two differ by sampling\n    noise (harness.py:419-451; early-close days use the last price there, dropped here)."
+ ],
+ "inputs": [
+  {
+   "plain": "first day of month 2012-11: weekday",
+   "value": "Thursday",
+   "read": "info",
+   "where": "calendar_days.py:16"
+  },
+  {
+   "plain": "3rd Friday = 1st + (4 - weekday) mod 7 + 14 days",
+   "value": "2012-11-16",
+   "read": "fired",
+   "where": "calendar_days.py:16-18"
+  },
+  {
+   "plain": "is today a trading day? (else use day before)",
+   "value": "yes",
+   "read": "neutral",
+   "where": "calendar_days.py:17-21"
+  },
+  {
+   "plain": "quarterly (Mar/Jun/Sep/Dec) expiry? (NOT used)",
+   "value": "False",
+   "read": "neutral",
+   "where": "build_data.py:261"
+  },
+  {
+   "plain": "px 09:30 = open of the 09:30 minute (entry)",
+   "value": 1352.25,
+   "read": "info",
+   "where": "build_data.py:52-58"
+  },
+  {
+   "plain": "overnight move 18:00 -> 09:30 (pts, NOT used)",
+   "value": 1.75,
+   "read": "neutral",
+   "where": "context only"
+  },
+  {
+   "plain": "15-min EMA stack at 09:15 bar (NOT used): up",
+   "value": 1.0,
+   "read": "neutral",
+   "where": "context only; signals.py:98-99 (+1 up, -1 down, 0 mixed)"
+  },
+  {
+   "plain": "15-min close vs 18:00 session VWAP (NOT used)",
+   "value": 1.2962,
+   "read": "neutral",
+   "where": "context only; signals.py:46-48"
+  },
+  {
+   "plain": "AFTER decision: P&L if covered at 12:00",
+   "value": -18.5,
+   "read": "info",
+   "where": ""
+  },
+  {
+   "plain": "AFTER decision: worst open P&L while held",
+   "value": -37.5,
+   "read": "info",
+   "where": "1-minute highs"
+  },
+  {
+   "plain": "AFTER decision: best open P&L while held",
+   "value": 60.0,
+   "read": "info",
+   "where": "1-minute lows"
+  },
+  {
+   "plain": "AFTER decision: px 16:00 = cover",
+   "value": 1357.0,
+   "read": "info",
+   "where": "g3.py:104 A3_LEG"
+  },
+  {
+   "plain": "same day, MNQ leg: short 2,523.50 -> 2,531.25",
+   "value": -17.5,
+   "read": "info",
+   "where": "A3 basket, g3.py:106"
+  },
+  {
+   "plain": "C1: same trade on random 2012 days (exact mean, n=248)",
+   "value": -5.7782,
+   "read": "info",
+   "where": "harness.py:419-451; stored c1 -2.77"
+  }
+ ],
+ "example": "ex19_a3_mes_loss",
+ "recomputed": {
+  "px_0930": 1352.25,
+  "px_1200": 1355.25,
+  "px_1600": 1357.0,
+  "pnl_usd": -27.25,
+  "third_friday": "2012-11-16",
+  "c1_exact": -5.7782,
+  "c1_stored": -2.7674,
+  "worst_open_usd": -37.5,
+  "best_open_usd": 60.0,
+  "basket_total": -44.75,
+  "other_legs": [
+   {
+    "market": "MNQ",
+    "entry": 2523.5,
+    "exit": 2531.25,
+    "pnl": -17.5
+   }
+  ]
+ }
+}

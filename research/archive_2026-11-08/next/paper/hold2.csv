@@ -1,0 +1,212 @@
+date,model_or_lead,kind,signal,skip_rule,entry_time,entry_px,stop_px,exit_time,exit_px,exit_reason,net_pts,net_usd,net_bp,logged_at,note
+2026-09-01,overnight_break,live,none,,,,,,,,,,,2026-11-08 17:45:28,no fresh 5-min close beyond the overnight high/low in the 20-day trend direction 9:35-15:00
+2026-09-01,opening_range,live,short,,09:35,29099.25,29124.75,09:35,29125.0,stop,-26.25,-52.5,-9.020774,2026-11-08 17:45:28,R = -1.03
+2026-09-01,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-09-01,lead_calm_lasthalfhour_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a calm day (volatility tercile 2 of 3; trades only in tercile 1); prior close -> 15:29 = -128.5 bp
+2026-09-01,lead_cpi_jobs_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a CPI or jobs-report day
+2026-09-02,overnight_break,live,none,,,,,,,,,,,2026-11-08 17:45:28,no fresh 5-min close beyond the overnight high/low in the 20-day trend direction 9:35-15:00
+2026-09-02,opening_range,live,short,,09:35,29083.5,29102.75,09:40,29103.0,stop,-20.0,-40.0,-6.876692,2026-11-08 17:45:28,R = -1.04
+2026-09-02,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-09-02,lead_calm_lasthalfhour_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a calm day (volatility tercile 2 of 3; trades only in tercile 1); prior close -> 15:29 = +13.9 bp
+2026-09-02,lead_cpi_jobs_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a CPI or jobs-report day
+2026-09-03,overnight_break,live,none,,,,,,,,,,,2026-11-08 17:45:28,no fresh 5-min close beyond the overnight high/low in the 20-day trend direction 9:35-15:00
+2026-09-03,opening_range,live,long,,09:35,29254.25,29222.25,09:36,29222.0,stop,-32.75,-65.5,-11.19505,2026-11-08 17:45:28,R = -1.02
+2026-09-03,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-09-03,lead_calm_lasthalfhour_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a calm day (volatility tercile 2 of 3; trades only in tercile 1); prior close -> 15:29 = +117.4 bp
+2026-09-03,lead_cpi_jobs_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a CPI or jobs-report day
+2026-09-04,overnight_break,live,none,,,,,,,,,,,2026-11-08 17:45:28,no fresh 5-min close beyond the overnight high/low in the 20-day trend direction 9:35-15:00
+2026-09-04,opening_range,live,long,,09:35,29634.25,29554.5,10:31,29554.25,stop,-80.5,-161.0,-27.164743,2026-11-08 17:45:28,R = -1.01
+2026-09-04,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-09-04,lead_calm_lasthalfhour_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a calm day (volatility tercile 2 of 3; trades only in tercile 1); prior close -> 15:29 = -1.4 bp
+2026-09-04,lead_cpi_jobs_fade,lead,long,,08:45,29557.5,,09:45,29616.0,time,58.0,116.0,19.622935,2026-11-08 17:45:28,"jobs report day; 8:30-8:45 move -116.50 pts, faded"
+2026-09-08,overnight_break,live,none,,,,,,,,,,,2026-11-08 17:45:28,no fresh 5-min close beyond the overnight high/low in the 20-day trend direction 9:35-15:00
+2026-09-08,opening_range,live,short,,09:35,29600.0,29686.5,16:00,29543.75,close,55.75,111.5,18.8343,2026-11-08 17:45:28,R = +0.64
+2026-09-08,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-09-08,lead_calm_lasthalfhour_fade,lead,long,,15:30,29564.75,,16:00,29543.25,close,-22.0,-44.0,-7.441357,2026-11-08 17:45:28,"calm day (vol tercile 1); prior close -> 15:29 = -1.6 bp, faded"
+2026-09-08,lead_cpi_jobs_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a CPI or jobs-report day
+2026-09-09,overnight_break,live,none,,,,,,,,,,,2026-11-08 17:45:28,no fresh 5-min close beyond the overnight high/low in the 20-day trend direction 9:35-15:00
+2026-09-09,opening_range,live,long,,09:35,29478.5,29418.25,11:11,29418.0,stop,-61.0,-122.0,-20.693223,2026-11-08 17:45:28,R = -1.01
+2026-09-09,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-09-09,lead_calm_lasthalfhour_fade,lead,long,,15:30,29452.5,,16:00,29454.25,close,1.25,2.5,0.424416,2026-11-08 17:45:28,"calm day (vol tercile 1); prior close -> 15:29 = -31.1 bp, faded"
+2026-09-09,lead_cpi_jobs_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a CPI or jobs-report day
+2026-09-10,overnight_break,live,none,,,,,,,,,,,2026-11-08 17:45:28,no fresh 5-min close beyond the overnight high/low in the 20-day trend direction 9:35-15:00
+2026-09-10,opening_range,live,long,,09:35,29098.5,29057.5,16:00,29137.75,close,38.75,77.5,13.316952,2026-11-08 17:45:28,R = +0.95
+2026-09-10,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-09-10,lead_calm_lasthalfhour_fade,lead,long,,15:30,29159.0,,16:00,29137.75,close,-21.75,-43.5,-7.459167,2026-11-08 17:45:28,"calm day (vol tercile 1); prior close -> 15:29 = -100.0 bp, faded"
+2026-09-10,lead_cpi_jobs_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a CPI or jobs-report day
+2026-09-11,overnight_break,live,none,,,,,,,,,,,2026-11-08 17:45:28,no fresh 5-min close beyond the overnight high/low in the 20-day trend direction 9:35-15:00
+2026-09-11,opening_range,live,long,,09:35,29419.75,29347.25,10:47,29347.0,stop,-73.25,-146.5,-24.898452,2026-11-08 17:45:28,R = -1.01
+2026-09-11,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-09-11,lead_calm_lasthalfhour_fade,lead,short,,15:30,29414.0,,16:00,29387.0,close,26.5,53.0,9.009239,2026-11-08 17:45:28,"calm day (vol tercile 1); prior close -> 15:29 = +95.1 bp, faded"
+2026-09-11,lead_cpi_jobs_fade,lead,long,,08:45,29357.5,,09:45,29433.75,time,75.75,151.5,25.802826,2026-11-08 17:45:28,"CPI day; 8:30-8:45 move -28.50 pts, faded"
+2026-09-14,overnight_break,live,none,,,,,,,,,,,2026-11-08 17:45:28,no fresh 5-min close beyond the overnight high/low in the 20-day trend direction 9:35-15:00
+2026-09-14,opening_range,live,short,,09:35,28904.5,28932.75,09:43,28933.0,stop,-29.0,-58.0,-10.032953,2026-11-08 17:45:28,R = -1.03
+2026-09-14,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-09-14,lead_calm_lasthalfhour_fade,lead,long,,15:30,29224.5,,16:00,29151.0,close,-74.0,-148.0,-25.321437,2026-11-08 17:45:28,"calm day (vol tercile 1); prior close -> 15:29 = -55.3 bp, faded"
+2026-09-14,lead_cpi_jobs_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a CPI or jobs-report day
+2026-09-15,overnight_break,live,none,,,,,,,,,,,2026-11-08 17:45:28,no fresh 5-min close beyond the overnight high/low in the 20-day trend direction 9:35-15:00
+2026-09-15,opening_range,live,short,,09:35,29089.0,29128.75,09:38,29129.0,stop,-40.5,-81.0,-13.922669,2026-11-08 17:45:28,R = -1.02
+2026-09-15,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-09-15,lead_calm_lasthalfhour_fade,lead,long,,15:30,28950.0,,16:00,28960.0,close,9.5,19.0,3.281548,2026-11-08 17:45:28,"calm day (vol tercile 1); prior close -> 15:29 = -69.2 bp, faded"
+2026-09-15,lead_cpi_jobs_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a CPI or jobs-report day
+2026-09-16,overnight_break,live,none,,,,,,,,,,,2026-11-08 17:45:28,no fresh 5-min close beyond the overnight high/low in the 20-day trend direction 9:35-15:00
+2026-09-16,opening_range,live,skipped,R2 Fed day,09:35,29406.5,29380.0,09:36,29379.75,stop,-27.25,-54.5,-9.266738,2026-11-08 17:45:28,R = -1.03
+2026-09-16,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-09-16,lead_calm_lasthalfhour_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,first day after a roll (no same-contract prior close); prior close -> 15:29 = +59.3 bp
+2026-09-16,lead_cpi_jobs_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a CPI or jobs-report day
+2026-09-17,overnight_break,live,long,,13:05,29754.5,29717.25,13:30,29717.0,stop,-38.0,-76.0,-12.771499,2026-11-08 17:45:28,signal: 5-min close at 13:05; R = -1.02
+2026-09-17,opening_range,live,short,,09:35,29641.25,29737.25,10:28,29737.5,stop,-96.75,-193.5,-32.640049,2026-11-08 17:45:28,R = -1.01
+2026-09-17,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-09-17,lead_calm_lasthalfhour_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a calm day (volatility tercile 2 of 3; trades only in tercile 1); prior close -> 15:29 = +163.4 bp
+2026-09-17,lead_cpi_jobs_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a CPI or jobs-report day
+2026-09-18,overnight_break,live,none,,,,,,,,,,,2026-11-08 17:45:28,no fresh 5-min close beyond the overnight high/low in the 20-day trend direction 9:35-15:00 (expiry Friday: model off anyway)
+2026-09-18,opening_range,live,skipped,expiry Friday (only expiry_fade trades),09:35,29811.0,29842.0,09:40,29842.25,stop,-31.75,-63.5,-10.650342,2026-11-08 17:45:28,R = -1.02
+2026-09-18,expiry_fade,live,short,,09:30,29813.75,,16:00,29916.75,close,-103.5,-207.0,-34.715234,2026-11-08 17:45:28,monthly options-expiry day
+2026-09-18,lead_calm_lasthalfhour_fade,lead,short,,15:30,29831.25,,16:00,29916.75,close,-86.0,-172.0,-28.828587,2026-11-08 17:45:28,"calm day (vol tercile 1); prior close -> 15:29 = +29.2 bp, faded"
+2026-09-18,lead_cpi_jobs_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a CPI or jobs-report day
+2026-09-21,overnight_break,live,long,,09:40,30297.25,30250.25,17:00,30780.75,close,483.0,966.0,159.424356,2026-11-08 17:45:28,signal: 5-min close at 09:40; R = +10.30
+2026-09-21,opening_range,live,long,,09:35,30252.5,30216.5,16:00,30784.0,close,531.0,1062.0,175.524135,2026-11-08 17:45:28,R = +14.75
+2026-09-21,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-09-21,lead_calm_lasthalfhour_fade,lead,short,,15:30,30802.75,,16:00,30784.5,close,17.75,35.5,5.762426,2026-11-08 17:45:28,"calm day (vol tercile 1); prior close -> 15:29 = +296.6 bp, faded"
+2026-09-21,lead_cpi_jobs_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a CPI or jobs-report day
+2026-09-22,overnight_break,live,none,,,,,,,,,,,2026-11-08 17:45:28,no fresh 5-min close beyond the overnight high/low in the 20-day trend direction 9:35-15:00
+2026-09-22,opening_range,live,long,,09:35,30865.75,30763.5,16:00,31029.0,close,162.75,325.5,52.728775,2026-11-08 17:45:28,R = +1.59
+2026-09-22,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-09-22,lead_calm_lasthalfhour_fade,lead,short,,15:30,31020.25,,16:00,31029.5,close,-9.75,-19.5,-3.143083,2026-11-08 17:45:28,"calm day (vol tercile 1); prior close -> 15:29 = +76.8 bp, faded"
+2026-09-22,lead_cpi_jobs_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a CPI or jobs-report day
+2026-09-23,overnight_break,live,none,,,,,,,,,,,2026-11-08 17:45:28,no fresh 5-min close beyond the overnight high/low in the 20-day trend direction 9:35-15:00
+2026-09-23,opening_range,live,short,,09:35,30926.25,31013.0,16:00,30770.5,close,155.25,310.5,50.199667,2026-11-08 17:45:28,R = +1.79
+2026-09-23,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-09-23,lead_calm_lasthalfhour_fade,lead,long,,15:30,30754.0,,16:00,30770.0,close,15.5,31.0,5.040036,2026-11-08 17:45:28,"calm day (vol tercile 1); prior close -> 15:29 = -88.8 bp, faded"
+2026-09-23,lead_cpi_jobs_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a CPI or jobs-report day
+2026-09-24,overnight_break,live,none,,,,,,,,,,,2026-11-08 17:45:28,no fresh 5-min close beyond the overnight high/low in the 20-day trend direction 9:35-15:00
+2026-09-24,opening_range,live,long,,09:35,30540.75,30493.25,16:00,30756.5,close,215.25,430.5,70.480182,2026-11-08 17:45:28,R = +4.53
+2026-09-24,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-09-24,lead_calm_lasthalfhour_fade,lead,long,,15:30,30750.0,,16:00,30756.5,close,6.0,12.0,1.951235,2026-11-08 17:45:28,"calm day (vol tercile 1); prior close -> 15:29 = -6.3 bp, faded"
+2026-09-24,lead_cpi_jobs_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a CPI or jobs-report day
+2026-09-25,overnight_break,live,none,,,,,,,,,,,2026-11-08 17:45:28,no fresh 5-min close beyond the overnight high/low in the 20-day trend direction 9:35-15:00
+2026-09-25,opening_range,live,long,,09:35,30848.25,30767.5,10:05,30767.25,stop,-81.5,-163.0,-26.419865,2026-11-08 17:45:28,R = -1.01
+2026-09-25,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-09-25,lead_calm_lasthalfhour_fade,lead,short,,15:30,30865.25,,16:00,30891.75,close,-27.0,-54.0,-8.747631,2026-11-08 17:45:28,"calm day (vol tercile 1); prior close -> 15:29 = +35.4 bp, faded"
+2026-09-25,lead_cpi_jobs_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a CPI or jobs-report day
+2026-09-28,overnight_break,live,none,,,,,,,,,,,2026-11-08 17:45:28,no fresh 5-min close beyond the overnight high/low in the 20-day trend direction 9:35-15:00
+2026-09-28,opening_range,live,short,,09:35,30676.75,30759.25,16:00,30567.75,close,108.5,217.0,35.368517,2026-11-08 17:45:28,R = +1.32
+2026-09-28,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-09-28,lead_calm_lasthalfhour_fade,lead,long,,15:30,30596.0,,16:00,30567.25,close,-29.25,-58.5,-9.560151,2026-11-08 17:45:28,"calm day (vol tercile 1); prior close -> 15:29 = -95.6 bp, faded"
+2026-09-28,lead_cpi_jobs_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a CPI or jobs-report day
+2026-09-29,overnight_break,live,none,,,,,,,,,,,2026-11-08 17:45:28,no fresh 5-min close beyond the overnight high/low in the 20-day trend direction 9:35-15:00
+2026-09-29,opening_range,live,short,,09:35,30610.0,30725.5,16:00,30617.75,close,-8.25,-16.5,-2.695176,2026-11-08 17:45:28,R = -0.07
+2026-09-29,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-09-29,lead_calm_lasthalfhour_fade,lead,short,,15:30,30625.25,,16:00,30617.75,close,7.0,14.0,2.285677,2026-11-08 17:45:28,"calm day (vol tercile 1); prior close -> 15:29 = +18.9 bp, faded"
+2026-09-29,lead_cpi_jobs_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a CPI or jobs-report day
+2026-09-30,overnight_break,live,none,,,,,,,,,,,2026-11-08 17:45:28,no fresh 5-min close beyond the overnight high/low in the 20-day trend direction 9:35-15:00
+2026-09-30,opening_range,live,long,,09:35,30767.75,30683.0,15:59,30682.75,stop,-85.5,-171.0,-27.789063,2026-11-08 17:45:28,R = -1.01
+2026-09-30,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-09-30,lead_calm_lasthalfhour_fade,lead,short,,15:30,30833.0,,16:00,30694.0,close,138.5,277.0,44.91904,2026-11-08 17:45:28,"calm day (vol tercile 1); prior close -> 15:29 = +70.5 bp, faded"
+2026-09-30,lead_cpi_jobs_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a CPI or jobs-report day
+2026-10-01,overnight_break,live,none,,,,,,,,,,,2026-11-08 17:45:28,no fresh 5-min close beyond the overnight high/low in the 20-day trend direction 9:35-15:00
+2026-10-01,opening_range,live,long,,09:35,30808.75,30734.25,09:46,30734.0,stop,-75.25,-150.5,-24.425077,2026-11-08 17:45:28,R = -1.01
+2026-10-01,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-10-01,lead_calm_lasthalfhour_fade,lead,short,,15:30,30804.0,,16:00,30773.0,close,30.5,61.0,9.901231,2026-11-08 17:45:28,"calm day (vol tercile 1); prior close -> 15:29 = +35.9 bp, faded"
+2026-10-01,lead_cpi_jobs_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a CPI or jobs-report day
+2026-10-02,overnight_break,live,long,,10:05,31249.5,31138.75,11:00,31138.5,stop,-111.5,-223.0,-35.68,2026-11-08 17:45:28,signal: 5-min close at 10:05; R = -1.01
+2026-10-02,opening_range,live,short,,09:35,31145.25,31156.0,09:43,31156.25,stop,-11.5,-23.0,-3.692347,2026-11-08 17:45:28,R = -1.07
+2026-10-02,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-10-02,lead_calm_lasthalfhour_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a calm day (volatility tercile 2 of 3; trades only in tercile 1); prior close -> 15:29 = +90.3 bp
+2026-10-02,lead_cpi_jobs_fade,lead,short,,08:45,31104.0,,09:45,31177.5,time,-74.0,-148.0,-23.790961,2026-11-08 17:45:28,"jobs report day; 8:30-8:45 move +113.50 pts, faded"
+2026-10-05,overnight_break,live,long,,10:25,31231.5,31141.0,17:00,31339.25,close,107.25,214.5,34.341154,2026-11-08 17:45:28,signal: 5-min close at 10:25; R = +1.19
+2026-10-05,opening_range,live,long,,09:35,31156.5,31044.25,16:00,31338.0,close,181.0,362.0,58.094283,2026-11-08 17:45:28,R = +1.61
+2026-10-05,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-10-05,lead_calm_lasthalfhour_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a calm day (volatility tercile 2 of 3; trades only in tercile 1); prior close -> 15:29 = +91.7 bp
+2026-10-06,overnight_break,live,none,,,,,,,,,,,2026-11-08 17:45:28,no fresh 5-min close beyond the overnight high/low in the 20-day trend direction 9:35-15:00
+2026-10-06,opening_range,live,short,,09:35,31486.75,31567.0,10:07,31567.25,stop,-81.0,-162.0,-25.724902,2026-11-08 17:45:28,R = -1.01
+2026-10-06,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-10-06,lead_calm_lasthalfhour_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a calm day (volatility tercile 2 of 3; trades only in tercile 1); prior close -> 15:29 = +59.7 bp
+2026-10-07,overnight_break,live,none,,,,,,,,,,,2026-11-08 17:45:28,no fresh 5-min close beyond the overnight high/low in the 20-day trend direction 9:35-15:00
+2026-10-07,opening_range,live,long,,09:35,31255.75,31215.25,09:37,31215.0,stop,-41.25,-82.5,-13.197677,2026-11-08 17:45:28,R = -1.02
+2026-10-07,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-10-07,lead_calm_lasthalfhour_fade,lead,long,,15:30,31361.25,,16:00,31395.75,close,34.0,68.0,10.841491,2026-11-08 17:45:28,"calm day (vol tercile 1); prior close -> 15:29 = -37.9 bp, faded"
+2026-10-08,overnight_break,live,none,,,,,,,,,,,2026-11-08 17:45:28,no fresh 5-min close beyond the overnight high/low in the 20-day trend direction 9:35-15:00
+2026-10-08,opening_range,live,long,,09:35,31268.75,31196.0,09:54,31195.75,stop,-73.5,-147.0,-23.506084,2026-11-08 17:45:28,R = -1.01
+2026-10-08,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-10-08,lead_calm_lasthalfhour_fade,lead,long,,15:30,30937.75,,16:00,30976.25,close,38.0,76.0,12.282828,2026-11-08 17:45:28,"calm day (vol tercile 1); prior close -> 15:29 = -146.2 bp, faded"
+2026-10-09,overnight_break,live,none,,,,,,,,,,,2026-11-08 17:45:28,no fresh 5-min close beyond the overnight high/low in the 20-day trend direction 9:35-15:00
+2026-10-09,opening_range,live,short,,09:35,31145.0,31180.0,16:00,31112.5,close,32.0,64.0,10.27444,2026-11-08 17:45:28,R = +0.91
+2026-10-09,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-10-09,lead_calm_lasthalfhour_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a calm day (volatility tercile 2 of 3; trades only in tercile 1); prior close -> 15:29 = +45.6 bp
+2026-10-12,overnight_break,live,none,,,,,,,,,,,2026-11-08 17:45:28,no fresh 5-min close beyond the overnight high/low in the 20-day trend direction 9:35-15:00
+2026-10-12,opening_range,live,short,,09:35,30952.25,31048.75,16:00,30896.0,close,55.75,111.5,18.011469,2026-11-08 17:45:28,R = +0.58
+2026-10-12,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-10-12,lead_calm_lasthalfhour_fade,lead,long,,15:30,30875.5,,16:00,30895.5,close,19.5,39.0,6.315738,2026-11-08 17:45:28,"calm day (vol tercile 1); prior close -> 15:29 = -76.0 bp, faded"
+2026-10-13,overnight_break,live,none,,,,,,,,,,,2026-11-08 17:45:28,no fresh 5-min close beyond the overnight high/low in the 20-day trend direction 9:35-15:00
+2026-10-13,opening_range,live,long,,09:35,30648.75,30591.25,16:00,30788.5,close,139.25,278.5,45.434524,2026-11-08 17:45:28,R = +2.42
+2026-10-13,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-10-13,lead_calm_lasthalfhour_fade,lead,long,,15:30,30770.5,,16:00,30788.5,close,17.5,35.0,5.687312,2026-11-08 17:45:28,"calm day (vol tercile 1); prior close -> 15:29 = -40.5 bp, faded"
+2026-10-14,overnight_break,live,none,,,,,,,,,,,2026-11-08 17:45:28,no fresh 5-min close beyond the overnight high/low in the 20-day trend direction 9:35-15:00
+2026-10-14,opening_range,live,long,,09:35,30552.0,30505.0,09:38,30504.75,stop,-47.75,-95.5,-15.629219,2026-11-08 17:45:28,R = -1.02
+2026-10-14,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-10-14,lead_calm_lasthalfhour_fade,lead,long,,15:30,30193.5,,16:00,30185.25,close,-8.75,-17.5,-2.897999,2026-11-08 17:45:28,"calm day (vol tercile 1); prior close -> 15:29 = -193.6 bp, faded"
+2026-10-14,lead_cpi_jobs_fade,lead,long,,08:45,30582.25,,09:45,30586.25,time,3.5,7.0,1.144464,2026-11-08 17:45:28,"CPI day; 8:30-8:45 move -262.00 pts, faded"
+2026-10-15,overnight_break,live,none,,,,,,,,,,,2026-11-08 17:45:28,no fresh 5-min close beyond the overnight high/low in the 20-day trend direction 9:35-15:00
+2026-10-15,opening_range,live,short,,09:35,29720.75,29787.75,09:39,29788.0,stop,-67.75,-135.5,-22.79533,2026-11-08 17:45:28,R = -1.01
+2026-10-15,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-10-15,lead_calm_lasthalfhour_fade,lead,long,,15:30,30135.5,,16:00,30140.25,close,4.25,8.5,1.410309,2026-11-08 17:45:28,"calm day (vol tercile 1); prior close -> 15:29 = -16.5 bp, faded"
+2026-10-16,overnight_break,live,skipped,expiry Friday (only expiry_fade trades),09:40,29896.25,29977.5,17:00,29391.5,close,504.25,1008.5,168.665228,2026-11-08 17:45:28,signal: 5-min close at 09:40; R = +6.21
+2026-10-16,opening_range,live,skipped,expiry Friday (only expiry_fade trades),09:35,29970.0,30045.75,16:00,29379.5,close,590.0,1180.0,196.861888,2026-11-08 17:45:28,R = +7.79
+2026-10-16,expiry_fade,live,short,,09:30,30023.5,,16:00,29379.5,close,643.5,1287.0,214.330322,2026-11-08 17:45:28,monthly options-expiry day
+2026-10-16,lead_calm_lasthalfhour_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a calm day (volatility tercile 2 of 3; trades only in tercile 1); prior close -> 15:29 = -241.2 bp
+2026-10-19,overnight_break,live,none,,,,,,,,,,,2026-11-08 17:45:28,no fresh 5-min close beyond the overnight high/low in the 20-day trend direction 9:35-15:00
+2026-10-19,opening_range,live,short,,09:35,29772.75,29807.0,10:14,29807.25,stop,-35.0,-70.0,-11.755618,2026-11-08 17:45:28,R = -1.02
+2026-10-19,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-10-19,lead_calm_lasthalfhour_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a calm day (volatility tercile 2 of 3; trades only in tercile 1); prior close -> 15:29 = +144.5 bp
+2026-10-20,overnight_break,live,short,,09:45,29405.25,29504.75,09:45,29505.0,stop,-100.25,-200.5,-34.092552,2026-11-08 17:45:28,signal: 5-min close at 09:45; R = -1.01
+2026-10-20,opening_range,live,short,,09:35,29532.25,29605.5,09:58,29605.75,stop,-74.0,-148.0,-25.05714,2026-11-08 17:45:28,R = -1.01
+2026-10-20,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-10-20,lead_calm_lasthalfhour_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a calm day (volatility tercile 2 of 3; trades only in tercile 1); prior close -> 15:29 = -17.8 bp
+2026-10-21,overnight_break,live,none,,,,,,,,,,,2026-11-08 17:45:28,no fresh 5-min close beyond the overnight high/low in the 20-day trend direction 9:35-15:00
+2026-10-21,opening_range,live,long,,09:35,29880.75,29825.75,09:37,29825.5,stop,-55.75,-111.5,-18.657653,2026-11-08 17:45:28,R = -1.01
+2026-10-21,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-10-21,lead_calm_lasthalfhour_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a calm day (volatility tercile 2 of 3; trades only in tercile 1); prior close -> 15:29 = +116.3 bp
+2026-10-22,overnight_break,live,short,,10:25,29402.5,29523.0,17:00,29095.0,close,307.0,614.0,104.414666,2026-11-08 17:45:28,signal: 5-min close at 10:25; R = +2.55
+2026-10-22,opening_range,live,long,,09:35,29538.0,29465.25,09:45,29465.0,stop,-73.5,-147.0,-24.883412,2026-11-08 17:45:28,R = -1.01
+2026-10-22,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-10-22,lead_calm_lasthalfhour_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a calm day (volatility tercile 2 of 3; trades only in tercile 1); prior close -> 15:29 = -281.8 bp
+2026-10-23,overnight_break,live,none,,,,,,,,,,,2026-11-08 17:45:28,no fresh 5-min close beyond the overnight high/low in the 20-day trend direction 9:35-15:00
+2026-10-23,opening_range,live,long,,09:35,29040.75,28994.75,09:37,28994.5,stop,-46.75,-93.5,-16.098208,2026-11-08 17:45:28,R = -1.02
+2026-10-23,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-10-23,lead_calm_lasthalfhour_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a calm day (volatility tercile 2 of 3; trades only in tercile 1); prior close -> 15:29 = -1.5 bp
+2026-10-26,overnight_break,live,none,,,,,,,,,,,2026-11-08 17:45:28,no fresh 5-min close beyond the overnight high/low in the 20-day trend direction 9:35-15:00
+2026-10-26,opening_range,live,long,,09:35,29245.5,29165.25,16:00,29439.5,close,193.5,387.0,66.164591,2026-11-08 17:45:28,R = +2.41
+2026-10-26,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-10-26,lead_calm_lasthalfhour_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a calm day (volatility tercile 2 of 3; trades only in tercile 1); prior close -> 15:29 = +122.2 bp
+2026-10-27,overnight_break,live,none,,,,,,,,,,,2026-11-08 17:45:28,no fresh 5-min close beyond the overnight high/low in the 20-day trend direction 9:35-15:00
+2026-10-27,opening_range,live,long,,09:35,29625.75,29541.25,09:51,29541.0,stop,-85.25,-170.5,-28.775886,2026-11-08 17:45:28,R = -1.01
+2026-10-27,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-10-27,lead_calm_lasthalfhour_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a calm day (volatility tercile 2 of 3; trades only in tercile 1); prior close -> 15:29 = +130.0 bp
+2026-10-28,overnight_break,live,none,,,,,,,,,,,2026-11-08 17:45:28,no fresh 5-min close beyond the overnight high/low in the 20-day trend direction 9:35-15:00
+2026-10-28,opening_range,live,skipped,R2 Fed day,09:35,29931.0,29888.5,09:37,29888.25,stop,-43.25,-86.5,-14.450022,2026-11-08 17:45:28,R = -1.02
+2026-10-28,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-10-28,lead_calm_lasthalfhour_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a calm day (volatility tercile 2 of 3; trades only in tercile 1); prior close -> 15:29 = +21.0 bp
+2026-10-29,overnight_break,live,short,,09:35,29436.25,29533.5,09:40,29533.75,stop,-98.0,-196.0,-33.292284,2026-11-08 17:45:28,signal: 5-min close at 09:35; R = -1.01
+2026-10-29,opening_range,live,short,,09:35,29436.25,29630.5,11:30,29630.75,stop,-195.0,-390.0,-66.244289,2026-11-08 17:45:28,R = -1.00
+2026-10-29,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-10-29,lead_calm_lasthalfhour_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a calm day (volatility tercile 2 of 3; trades only in tercile 1); prior close -> 15:29 = -166.6 bp
+2026-10-30,overnight_break,live,short,,09:35,28692.25,28760.25,09:35,28760.5,stop,-68.75,-137.5,-23.960757,2026-11-08 17:45:28,signal: 5-min close at 09:35; R = -1.01
+2026-10-30,opening_range,live,short,,09:35,28692.25,28809.0,09:58,28809.25,stop,-117.5,-235.0,-40.951468,2026-11-08 17:45:28,R = -1.01
+2026-10-30,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-10-30,lead_calm_lasthalfhour_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a calm day (volatility tercile 2 of 3; trades only in tercile 1); prior close -> 15:29 = -397.1 bp
+2026-11-02,overnight_break,live,short,,12:35,28565.5,28639.5,17:00,28224.0,close,341.0,682.0,119.372681,2026-11-08 17:45:28,signal: 5-min close at 12:35; R = +4.61
+2026-11-02,opening_range,live,short,,09:35,28710.0,28738.75,09:41,28739.0,stop,-29.5,-59.0,-10.275076,2026-11-08 17:45:28,R = -1.03
+2026-11-02,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-11-02,lead_calm_lasthalfhour_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a calm day (volatility tercile 2 of 3; trades only in tercile 1); prior close -> 15:29 = -92.6 bp
+2026-11-03,overnight_break,live,none,,,,,,,,,,,2026-11-08 17:45:28,no fresh 5-min close beyond the overnight high/low in the 20-day trend direction 9:35-15:00
+2026-11-03,opening_range,live,long,,09:35,28316.5,28215.75,16:00,28300.25,close,-16.75,-33.5,-5.915331,2026-11-08 17:45:28,R = -0.17
+2026-11-03,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-11-03,lead_calm_lasthalfhour_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a calm day (volatility tercile 2 of 3; trades only in tercile 1); prior close -> 15:29 = +61.9 bp
+2026-11-04,overnight_break,live,none,,,,,,,,,,,2026-11-08 17:45:28,no fresh 5-min close beyond the overnight high/low in the 20-day trend direction 9:35-15:00
+2026-11-04,opening_range,live,short,,09:35,28416.0,28554.25,09:37,28554.5,stop,-139.0,-278.0,-48.915673,2026-11-08 17:45:28,R = -1.01
+2026-11-04,expiry_fade,live,none,,,,,,,,,,,2026-11-08 17:45:28,not an options-expiry day
+2026-11-04,lead_calm_lasthalfhour_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a calm day (volatility tercile 2 of 3; trades only in tercile 1); prior close -> 15:29 = +110.2 bp
+2026-11-05,lead_calm_lasthalfhour_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a calm day (volatility tercile 2 of 3; trades only in tercile 1); prior close -> 15:29 = -587.5 bp
+2026-11-06,lead_calm_lasthalfhour_fade,lead,none,,,,,,,,,,,2026-11-08 17:45:28,not a calm day (volatility tercile 3 of 3; trades only in tercile 1); prior close -> 15:29 = +169.5 bp
+2026-11-06,lead_cpi_jobs_fade,lead,long,,08:45,27094.75,,09:45,27272.75,time,177.5,355.0,65.511451,2026-11-08 17:45:28,"jobs report day; 8:30-8:45 move -67.00 pts, faded"

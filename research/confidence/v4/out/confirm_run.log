@@ -1,0 +1,198 @@
+sha256 verified: state_prep, state_gmm, shape_kmeans, discover.py
+/run/media/roflz/Disk 2/_/market_data/research/confidence/v4/confirm.py:77: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  d[f"xavg_ret_{h}_z"] = d[[c for c in xc if c.endswith(f"_ret_{h}_z")]].mean(1)
+/run/media/roflz/Disk 2/_/market_data/research/confidence/v4/confirm.py:77: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  d[f"xavg_ret_{h}_z"] = d[[c for c in xc if c.endswith(f"_ret_{h}_z")]].mean(1)
+ES: rows=525326 discovery relabel agreement state=1.00000 motif=1.00000 (n=280708)
+  confirmation rows=244618 sessions=901 labelled state=0.910 motif=0.955
+  conf state freq: [0.108, 0.18, 0.127, 0.089, 0.113, 0.059, 0.055, 0.066, 0.054, 0.056, 0.053, 0.039]
+  group tests done 3s
+  ES ridge fwd_5_z: alpha=10000 val corr=+0.0153
+  ES ridge fwd_15_z: alpha=10000 val corr=+0.0157
+  ES ridge fwd_60_z: alpha=100000 val corr=+0.0079
+  ES ridge fwd_eod_z: alpha=1000 val corr=+0.0399
+  ES ridge frng_15_z: alpha=1 val corr=+0.7916
+  ES ridge frng_60_z: alpha=1 val corr=+0.7909
+  ES knn fwd_5_z: k=1000 val corr=+0.0609
+  ES knn fwd_15_z: k=1000 val corr=+0.0451
+  ES knn fwd_60_z: k=50 val corr=+0.0236
+  ES knn fwd_eod_z: k=50 val corr=+0.0040
+  ES knn frng_15_z: k=50 val corr=+0.7396
+  ES knn frng_60_z: k=50 val corr=+0.7409
+  benchmarks done 78s
+/run/media/roflz/Disk 2/_/market_data/research/confidence/v4/confirm.py:77: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  d[f"xavg_ret_{h}_z"] = d[[c for c in xc if c.endswith(f"_ret_{h}_z")]].mean(1)
+/run/media/roflz/Disk 2/_/market_data/research/confidence/v4/confirm.py:77: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  d[f"xavg_ret_{h}_z"] = d[[c for c in xc if c.endswith(f"_ret_{h}_z")]].mean(1)
+NQ: rows=525326 discovery relabel agreement state=1.00000 motif=1.00000 (n=280708)
+  confirmation rows=244618 sessions=901 labelled state=0.910 motif=0.955
+  conf state freq: [0.11, 0.185, 0.124, 0.091, 0.109, 0.064, 0.051, 0.061, 0.05, 0.06, 0.053, 0.041]
+  group tests done 2s
+  NQ ridge fwd_5_z: alpha=1 val corr=+0.0060
+  NQ ridge fwd_15_z: alpha=1000 val corr=+0.0089
+  NQ ridge fwd_60_z: alpha=100000 val corr=+0.0056
+  NQ ridge fwd_eod_z: alpha=1 val corr=+0.0208
+  NQ ridge frng_15_z: alpha=1 val corr=+0.8099
+  NQ ridge frng_60_z: alpha=1 val corr=+0.8074
+  NQ knn fwd_5_z: k=1000 val corr=+0.0262
+  NQ knn fwd_15_z: k=50 val corr=+0.0230
+  NQ knn fwd_60_z: k=1000 val corr=+0.0129
+  NQ knn fwd_eod_z: k=1000 val corr=+0.0157
+  NQ knn frng_15_z: k=50 val corr=+0.7627
+  NQ knn frng_60_z: k=50 val corr=+0.7622
+  benchmarks done 78s
+/run/media/roflz/Disk 2/_/market_data/research/confidence/v4/confirm.py:77: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  d[f"xavg_ret_{h}_z"] = d[[c for c in xc if c.endswith(f"_ret_{h}_z")]].mean(1)
+/run/media/roflz/Disk 2/_/market_data/research/confidence/v4/confirm.py:77: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  d[f"xavg_ret_{h}_z"] = d[[c for c in xc if c.endswith(f"_ret_{h}_z")]].mean(1)
+YM: rows=523859 discovery relabel agreement state=1.00000 motif=1.00000 (n=279241)
+  confirmation rows=244618 sessions=901 labelled state=0.910 motif=0.955
+  conf state freq: [0.107, 0.21, 0.116, 0.078, 0.109, 0.06, 0.047, 0.063, 0.052, 0.059, 0.058, 0.041]
+  group tests done 2s
+  YM ridge fwd_5_z: alpha=1 val corr=+0.0166
+  YM ridge fwd_15_z: alpha=100 val corr=+0.0158
+  YM ridge fwd_60_z: alpha=10000 val corr=+0.0065
+  YM ridge fwd_eod_z: alpha=1000 val corr=+0.0531
+  YM ridge frng_15_z: alpha=1 val corr=+0.7839
+  YM ridge frng_60_z: alpha=1 val corr=+0.7789
+  YM knn fwd_5_z: k=50 val corr=+0.0276
+  YM knn fwd_15_z: k=50 val corr=+0.0312
+  YM knn fwd_60_z: k=1000 val corr=-0.0004
+  YM knn fwd_eod_z: k=200 val corr=+0.0026
+  YM knn frng_15_z: k=50 val corr=+0.7294
+  YM knn frng_60_z: k=50 val corr=+0.7207
+  benchmarks done 72s
+
+tests: dir=3408 (valid p 3104), size=852 (valid 774)
+  dir_mean: p<0.05 58/1552, q_BY<0.05 0, survive 0
+  dir_hit: p<0.05 227/1552, q_BY<0.05 18, survive 18
+  size: p<0.05 623/774, q_BY<0.05 562, survive 562
+
+SURVIVORS (top 40):
+   kind sym  h  group     n  n_sess   base  excess  excess_usd       z   q_by  ex_2223  ex_2425  n_mkt_same_sign
+dir_hit  ES  5     S4 25258     863 0.4659  0.0189         NaN  6.3634 0.0000   0.0206   0.0161                3
+dir_hit  NQ  5     S4 24215     858 0.4972  0.0180         NaN  6.1648 0.0000   0.0211   0.0131                3
+dir_hit  ES  5     S7 14691     768 0.4768  0.0226         NaN  5.9406 0.0000   0.0255   0.0174                3
+dir_hit  YM  5     M2 29264     901 0.4801  0.0153         NaN  5.7521 0.0001   0.0176   0.0123                3
+dir_hit  ES  5     S2 28247     872 0.4626 -0.0162         NaN -5.2571 0.0007  -0.0194  -0.0122                3
+dir_hit  NQ  5     S2 27500     875 0.4970 -0.0171         NaN -5.2592 0.0007  -0.0231  -0.0099                3
+dir_hit  NQ  5     M2 29106     901 0.4971  0.0147         NaN  5.0714 0.0015   0.0126   0.0176                3
+dir_hit  YM  5     S2 25881     882 0.4775 -0.0148         NaN -4.8930 0.0033  -0.0200  -0.0078                3
+dir_hit  ES 15     S4 25247     863 0.4870  0.0200         NaN  4.7516 0.0060   0.0179   0.0233                3
+dir_hit  YM  5     S7 14001     781 0.4861  0.0188         NaN  4.6392 0.0094   0.0242   0.0095                3
+dir_hit  YM 15     M2 29217     901 0.4924  0.0168         NaN  4.5330 0.0141   0.0174   0.0159                3
+dir_hit  ES  5     M2 28962     901 0.4688  0.0131         NaN  4.4287 0.0211   0.0155   0.0099                3
+dir_hit  ES  5  S4xM2  7572     826 0.4653  0.0250         NaN  4.3969 0.0226   0.0298   0.0178                3
+dir_hit  YM  5     S4 24292     865 0.4802  0.0150         NaN  4.3465 0.0256   0.0134   0.0174                3
+dir_hit  YM  5     S8 11605     851 0.4872  0.0205         NaN  4.3384 0.0256   0.0160   0.0272                3
+dir_hit  NQ  5  S4xM5  3663     728 0.4968  0.0337         NaN  4.3164 0.0265   0.0328   0.0351                3
+dir_hit  YM  5     S6 10465     770 0.4849 -0.0220         NaN -4.2006 0.0419  -0.0275  -0.0122                3
+dir_hit  YM 15  S3xM2  2324     569 0.4917  0.0504         NaN  4.1687 0.0455   0.0385   0.0685                3
+   size  ES 15  S9xM1  2102     481 1.9655  0.3759         NaN 20.8430 0.0000   0.3344   0.4211                3
+   size  NQ 15     S9 13265     677 2.0286  0.3290         NaN 20.2794 0.0000   0.3004   0.3618                3
+   size  ES 15     S9 12279     623 1.9940  0.3632         NaN 20.1437 0.0000   0.3235   0.4065                3
+   size  NQ 15  S9xM1  2246     497 1.9933  0.3508         NaN 19.9419 0.0000   0.3181   0.3870                3
+   size  ES 15    S11  8647     733 2.0412  0.3607         NaN 19.2092 0.0000   0.2904   0.4566                3
+   size  ES 15 S11xM2  3192     613 2.0258  0.4046         NaN 19.0695 0.0000   0.3156   0.5119                3
+   size  ES 15  S9xM2  1224     357 1.9933  0.3934         NaN 17.9184 0.0000   0.3413   0.4469                3
+   size  NQ 15  S9xM5  1410     423 2.0266  0.3141         NaN 17.6186 0.0000   0.2807   0.3511                3
+   size  NQ 60     S9 12157     662 2.7121  0.3193         NaN 17.4374 0.0000   0.2867   0.3573                3
+   size  ES 60     S9 10972     597 2.6962  0.3541         NaN 17.1562 0.0000   0.3084   0.4045                3
+   size  NQ 15  S9xM2  1295     370 2.0155  0.3696         NaN 17.1343 0.0000   0.3094   0.4370                3
+   size  YM 15    S11  9135     761 2.0898  0.2981         NaN 17.1007 0.0000   0.2709   0.3339                3
+   size  ES 15  S9xM5  1218     379 1.9851  0.3645         NaN 16.9689 0.0000   0.3162   0.4153                3
+   size  YM 15 S11xM2  3308     625 2.0764  0.3395         NaN 16.7580 0.0000   0.2913   0.4001                3
+   size  ES 15  S9xM8   771     315 2.0213  0.4053         NaN 16.7504 0.0000   0.3663   0.4433                3
+   size  NQ 15    S11  9117     745 2.1254  0.2995         NaN 16.7398 0.0000   0.2341   0.3840                3
+   size  ES 60  S9xM1  1833     445 2.6936  0.3620         NaN 16.5310 0.0000   0.3119   0.4144                3
+   size  ES 60    S11  8085     722 2.7138  0.3213         NaN 16.4797 0.0000   0.2573   0.4092                3
+   size  ES 15 S11xM8   782     400 2.0824  0.3301         NaN 16.2867 0.0000   0.3139   0.3532                3
+   size  NQ 15 S11xM2  3461     643 2.1095  0.3431         NaN 16.2104 0.0000   0.2617   0.4394                3
+   size  ES 60  S9xM0  1610     431 2.7023  0.3286         NaN 16.0291 0.0000   0.2928   0.3697                3
+   size  YM 15  S9xM1  2159     498 1.9793  0.3154         NaN 15.9473 0.0000   0.3056   0.3258                3
+
+ECON:
+sym  h  n_trades  trades_per_yr  gross_usd  net_usd  net_lo95  net_hi95  usd_per_yr  win_rate group  side  excess_z  excess_usd
+ ES  5     25258       7247.042      0.016   -3.484    -3.608    -3.359  -25248.086     0.333    S4  long     0.006       0.011
+ ES  5     14691       4215.151      0.164   -3.336    -3.622    -3.029  -14060.475     0.415    S7  long     0.033       0.158
+ ES  5     28247       8104.648      0.010   -3.490    -3.593    -3.385  -28288.440     0.293    S2 short    -0.005      -0.024
+ ES 15     11651       3342.913     -0.057   -3.557    -3.905    -3.204  -11892.072     0.412    S4  long     0.017      -0.032
+ ES  5     28962       8309.796      0.077   -3.423    -3.602    -3.247  -28443.019     0.332    M2 short    -0.003      -0.088
+ ES  5      7572       2172.563     -0.025   -3.525    -3.796    -3.277   -7658.128     0.341 S4xM2  long     0.011      -0.032
+ NQ  5     24215       6947.784      0.090   -1.910    -2.135    -1.687  -13269.363     0.402    S4 short    -0.005      -0.099
+ NQ  5     27500       7890.318      0.069   -1.931    -2.103    -1.756  -15232.618     0.401    S2  long     0.007       0.038
+ NQ  5     29106       8351.113      0.326   -1.674    -2.042    -1.326  -13981.213     0.414    M2 short    -0.027      -0.355
+ NQ  5      3663       1050.990      0.635   -1.365    -1.890    -0.851   -1434.890     0.459 S4xM5  long     0.050       0.615
+ YM  5     29264       8396.446      0.025   -1.975    -2.097    -1.850  -16585.592     0.348    M2  long     0.003       0.016
+ YM  5     25881       7425.794      0.023   -1.977    -2.056    -1.897  -14683.021     0.291    S2 short    -0.005      -0.014
+ YM  5     14001       4017.176      0.105   -1.895    -2.120    -1.657   -7611.144     0.412    S7  long     0.034       0.085
+ YM 15     13365       3834.695      0.058   -1.942    -2.255    -1.616   -7447.313     0.380    M2 short    -0.024      -0.123
+ YM  5     24292       6969.877      0.041   -1.959    -2.064    -1.862  -13651.828     0.328    S4  long     0.020       0.049
+ YM  5     11605       3329.714      0.199   -1.801    -2.039    -1.560   -5997.503     0.422    S8  long     0.031       0.153
+ YM  5     10465       3002.625      0.110   -1.890    -2.067    -1.694   -5674.717     0.376    S6 short    -0.030      -0.123
+ YM 15      1408        403.984      0.431   -1.569    -2.343    -0.704    -633.664     0.417 S3xM2  long     0.091       0.492
+
+BENCH:
+     n    corr  corr_lo  corr_hi      r2   r2_lo   r2_hi sym model    target param  top10_n_trades  top10_trades_per_yr  top10_gross_usd  top10_net_usd  top10_net_lo95  top10_net_hi95  top10_usd_per_yr  top10_win_rate
+222582  0.0031  -0.0027   0.0088 -0.0002 -0.0004 -0.0000  ES clock   fwd_5_z               47031.0           13494.1656           0.0189        -3.4811         -3.6745         -3.3053       -46974.2201          0.3847
+220846  0.0046  -0.0025   0.0120 -0.0003 -0.0006  0.0000  ES clock  fwd_15_z               15720.0            4510.3928           0.4379        -3.0621         -3.5837         -2.5940       -13811.2846          0.4334
+213034  0.0035  -0.0077   0.0150 -0.0001 -0.0005  0.0002  ES clock  fwd_60_z                8740.0            2507.6866           0.5094        -2.9906         -4.3295         -1.6632        -7499.3887          0.4600
+222582  0.0025  -0.0215   0.0269 -0.0003 -0.0012  0.0007  ES clock fwd_eod_z                 881.0             252.7771           9.7872         6.2872         -9.5806         23.0440         1589.2535          0.5153
+220747  0.6969   0.6826   0.7101  0.4650  0.4489  0.4799  ES clock frng_15_z                   NaN                  NaN              NaN            NaN             NaN             NaN               NaN             NaN
+212935  0.7076   0.6929   0.7215  0.4742  0.4576  0.4898  ES clock frng_60_z                   NaN                  NaN              NaN            NaN             NaN             NaN               NaN             NaN
+222582  0.0113   0.0054   0.0171 -0.0001 -0.0004  0.0002  ES ridge   fwd_5_z               41464.0           11896.8782           0.2796        -3.2204         -3.4200         -3.0396       -38312.9461          0.3985
+220846  0.0126   0.0061   0.0192  0.0001 -0.0003  0.0004  ES ridge  fwd_15_z               26889.0            7715.0096           0.6213        -2.8787         -3.2715         -2.4953       -22209.5241          0.4265
+213034  0.0173   0.0043   0.0300  0.0003 -0.0001  0.0006  ES ridge  fwd_60_z                9272.0            2660.3284           0.8154        -2.6846         -3.9555         -1.4755        -7142.0291          0.4632
+222582  0.0121  -0.0351   0.0628 -0.0028 -0.0098  0.0041  ES ridge fwd_eod_z                 717.0             205.7221          13.8145        10.3145         -7.8658         28.8853         2121.9217          0.5091
+220747  0.8196   0.8134   0.8254  0.6732  0.6628  0.6829  ES ridge frng_15_z                   NaN                  NaN              NaN            NaN             NaN             NaN               NaN             NaN
+212935  0.8146   0.8080   0.8209  0.6639  0.6532  0.6739  ES ridge frng_60_z                   NaN                  NaN              NaN            NaN             NaN             NaN               NaN             NaN
+ 74194  0.0188   0.0074   0.0297  0.0002 -0.0004  0.0009  ES   knn   fwd_5_z  1000         13963.0            4006.2732           0.6627        -2.8373         -3.2183         -2.4670       -11366.8641          0.4098
+ 74194  0.0055  -0.0038   0.0150 -0.0006 -0.0012 -0.0000  ES   knn  fwd_15_z  1000         14254.0            4089.7671           0.3845        -3.1155         -3.6597         -2.5504       -12741.5009          0.4402
+ 71590  0.0003  -0.0101   0.0105 -0.0167 -0.0198 -0.0137  ES   knn  fwd_60_z    50          7106.0            2038.8582           1.4164        -2.0836         -3.5135         -0.5976        -4248.1473          0.4828
+ 74194  0.0130  -0.0037   0.0289 -0.0146 -0.0202 -0.0094  ES   knn fwd_eod_z    50           881.0             252.7771           6.8048         3.3048        -14.2842         22.0347          835.3695          0.5062
+ 74161  0.7749   0.7667   0.7822  0.5942  0.5824  0.6048  ES   knn frng_15_z    50             NaN                  NaN              NaN            NaN             NaN             NaN               NaN             NaN
+ 71557  0.7878   0.7800   0.7950  0.6038  0.5928  0.6138  ES   knn frng_60_z    50             NaN                  NaN              NaN            NaN             NaN             NaN               NaN             NaN
+222581  0.0021  -0.0041   0.0088 -0.0003 -0.0005 -0.0000  NQ clock   fwd_5_z               47015.0           13489.5748          -0.0346        -2.0346         -2.4473         -1.6827       -27445.2523          0.4564
+220845  0.0026  -0.0066   0.0114 -0.0005 -0.0009 -0.0000  NQ clock  fwd_15_z               15624.0            4482.8484           0.7544        -1.2456         -2.2508         -0.2938        -5583.7630          0.4780
+213033  0.0001  -0.0172   0.0165 -0.0003 -0.0009  0.0003  NQ clock  fwd_60_z                6984.0            2003.8539           0.6682        -1.3318         -4.0512          1.5228        -2668.7925          0.4888
+222581  0.0014  -0.0228   0.0269 -0.0003 -0.0012  0.0007  NQ clock fwd_eod_z                 881.0             252.7771          16.6896        14.6896        -13.8897         43.6506         3713.1837          0.5301
+220746  0.7155   0.7014   0.7289  0.5012  0.4839  0.5170  NQ clock frng_15_z                   NaN                  NaN              NaN            NaN             NaN             NaN               NaN             NaN
+212934  0.7268   0.7119   0.7404  0.5127  0.4947  0.5295  NQ clock frng_60_z                   NaN                  NaN              NaN            NaN             NaN             NaN               NaN             NaN
+222581  0.0080   0.0020   0.0142 -0.0002 -0.0005  0.0001  NQ ridge   fwd_5_z               43070.0           12357.6728           0.5398        -1.4602         -1.8050         -1.0967       -18045.1576          0.4453
+220845  0.0077  -0.0004   0.0159 -0.0004 -0.0009  0.0001  NQ ridge  fwd_15_z               24576.0            7051.3621           0.8196        -1.1804         -1.9501         -0.3680        -8323.1380          0.4626
+213033  0.0102  -0.0036   0.0232  0.0001 -0.0004  0.0005  NQ ridge  fwd_60_z                8558.0            2455.4670           2.5966         0.5966         -1.6307          2.6838         1464.8734          0.4926
+222581  0.0094  -0.0463   0.0676 -0.0037 -0.0118  0.0051  NQ ridge fwd_eod_z                 853.0             244.7433           2.1612         0.1612        -30.1625         33.3815           39.4516          0.4736
+220746  0.8213   0.8154   0.8266  0.6762  0.6664  0.6852  NQ ridge frng_15_z                   NaN                  NaN              NaN            NaN             NaN             NaN               NaN             NaN
+212934  0.8187   0.8121   0.8247  0.6715  0.6608  0.6811  NQ ridge frng_60_z                   NaN                  NaN              NaN            NaN             NaN             NaN               NaN             NaN
+ 74194  0.0120   0.0025   0.0214 -0.0001 -0.0006  0.0004  NQ   knn   fwd_5_z  1000         14134.0            4055.3366           0.8533        -1.1467         -1.7019         -0.5914        -4650.4101          0.4731
+ 74135  0.0001  -0.0121   0.0115 -0.0165 -0.0196 -0.0137  NQ   knn  fwd_15_z    50         13951.0            4002.8301          -0.5959        -2.5959         -3.7128         -1.5056       -10391.1186          0.4711
+ 71531  0.0054  -0.0076   0.0185 -0.0011 -0.0021 -0.0000  NQ   knn  fwd_60_z  1000          6649.0            1907.7355          -0.4177        -2.4177         -5.3200          0.5200        -4612.2496          0.4903
+ 74194  0.0120  -0.0131   0.0355 -0.0004 -0.0027  0.0016  NQ   knn fwd_eod_z  1000           881.0             252.7771           8.0925         6.0925        -24.4974         35.8542         1540.0466          0.4972
+ 74102  0.7776   0.7704   0.7842  0.6002  0.5894  0.6100  NQ   knn frng_15_z    50             NaN                  NaN              NaN            NaN             NaN             NaN               NaN             NaN
+ 71498  0.7882   0.7806   0.7952  0.6077  0.5968  0.6173  NQ   knn frng_60_z    50             NaN                  NaN              NaN            NaN             NaN             NaN               NaN             NaN
+222580  0.0014  -0.0046   0.0075 -0.0003 -0.0006 -0.0001  YM clock   fwd_5_z               47064.0           13503.6339           0.0001        -1.9999         -2.1342         -1.8731       -27005.9767          0.3831
+220844  0.0002  -0.0069   0.0075 -0.0006 -0.0010 -0.0003  YM clock  fwd_15_z               15685.0            4500.3505           0.1491        -1.8509         -2.2445         -1.4532        -8329.8806          0.4391
+213032  0.0017  -0.0130   0.0159 -0.0004 -0.0010  0.0002  YM clock  fwd_60_z                7861.0            2255.4833           0.1363        -1.8637         -2.7933         -0.9755        -4203.5311          0.4637
+222580 -0.0009  -0.0082   0.0069 -0.0001 -0.0001  0.0000  YM clock fwd_eod_z                 881.0             252.7771           5.5023         3.5023         -7.4004         15.3688          885.2937          0.5267
+220745  0.7323   0.7188   0.7447  0.4882  0.4747  0.5006  YM clock frng_15_z                   NaN                  NaN              NaN            NaN             NaN             NaN               NaN             NaN
+212933  0.7447   0.7302   0.7587  0.4972  0.4828  0.5105  YM clock frng_60_z                   NaN                  NaN              NaN            NaN             NaN             NaN               NaN             NaN
+222580  0.0041  -0.0016   0.0099 -0.0004 -0.0007 -0.0001  YM ridge   fwd_5_z               43378.0           12446.0444           0.0363        -1.9637         -2.0842         -1.8370       -24440.1887          0.3569
+220844  0.0055  -0.0019   0.0131 -0.0006 -0.0010 -0.0001  YM ridge  fwd_15_z               25445.0            7300.6962           0.1020        -1.8980         -2.1534         -1.6529       -13856.6898          0.4013
+213032  0.0096  -0.0046   0.0232 -0.0004 -0.0013  0.0005  YM ridge  fwd_60_z                9179.0            2633.6447           0.6537        -1.3463         -2.1458         -0.5058        -3545.6221          0.4601
+222580  0.0253  -0.0242   0.0759 -0.0027 -0.0113  0.0056  YM ridge fwd_eod_z                 629.0             180.4731           6.7432         4.7432         -9.0357         18.9635          856.0278          0.5167
+220745  0.8319   0.8260   0.8372  0.6954  0.6856  0.7042  YM ridge frng_15_z                   NaN                  NaN              NaN            NaN             NaN             NaN               NaN             NaN
+212933  0.8241   0.8178   0.8300  0.6805  0.6706  0.6895  YM ridge frng_60_z                   NaN                  NaN              NaN            NaN             NaN             NaN               NaN             NaN
+ 74194  0.0008  -0.0104   0.0111 -0.0129 -0.0155 -0.0104  YM   knn   fwd_5_z    50         13863.0            3977.5811           0.0417        -1.9583         -2.2576         -1.6834        -7789.3221          0.3974
+ 73940 -0.0036  -0.0126   0.0052 -0.0170 -0.0195 -0.0146  YM   knn  fwd_15_z    50         13909.0            3990.7795          -0.2222        -2.2222         -2.6370         -1.8468        -8868.1438          0.4320
+ 71336  0.0039  -0.0089   0.0163 -0.0011 -0.0020 -0.0001  YM   knn  fwd_60_z  1000          6985.0            2004.1408           0.2951        -1.7049         -2.7612         -0.5418        -3416.9381          0.4747
+ 74194 -0.0046  -0.0240   0.0165 -0.0066 -0.0100 -0.0031  YM   knn fwd_eod_z   200           881.0             252.7771           3.4773         1.4773        -10.6230         14.7727          373.4272          0.5142
+ 73907  0.7927   0.7847   0.8002  0.6181  0.6069  0.6280  YM   knn frng_15_z    50             NaN                  NaN              NaN            NaN             NaN             NaN               NaN             NaN
+ 71303  0.7983   0.7907   0.8052  0.6139  0.6042  0.6226  YM   knn frng_60_z    50             NaN                  NaN              NaN            NaN             NaN             NaN               NaN             NaN
+Traceback (most recent call last):
+  File "/run/media/roflz/Disk 2/_/market_data/research/confidence/v4/confirm.py", line 351, in <module>
+    main()
+    ~~~~^^
+  File "/run/media/roflz/Disk 2/_/market_data/research/confidence/v4/confirm.py", line 343, in main
+    oos_rows=int(r.n), oos_auc=round(float(r.corr), 5),
+                                     ~~~~~^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'method'

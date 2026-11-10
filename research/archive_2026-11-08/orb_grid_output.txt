@@ -1,0 +1,126 @@
+  NQ: 5,567,303 1-min bars, 4220 dates with RTH bars, bars from a non-09:30 contract inside RTH: 0  (load 2.7s)
+
+################ MNQ: 720 combinations ################
+Check vs lit_p5 published A5 (10R target, stop at range end): 3931 trades, $11,415.00, 45.8 R, t 0.31
+Combinations with positive total R: 165 of 720; with t > 2: 6; t > 3: 0
+
+Top 15 by total R (in-sample, 2010-2026):
+entry  stop target  manage  trades  avg_R  total_R    t       usd yrs_up  R_2010_17  R_2018_26
+   A1  0.50  close    none    2387   0.34   807.43 2.79 14,382.50  12/17     -30.47     837.90
+   A1  0.50  close   be@1R    2387   0.24   568.84 2.31 13,265.00  10/17     -82.97     651.82
+   A3  0.50  close    none    3079   0.16   499.76 1.89 11,848.50  12/17     -12.90     512.66
+   A1  0.50  close  +1R@2R    2387   0.20   473.81 2.08 10,910.75  12/17     -48.85     522.66
+   A5  0.50  close  +1R@2R    3310   0.13   427.24 2.55 13,154.75  12/17      71.63     355.62
+   A5  0.50  close   be@1R    3310   0.11   378.23 2.13 10,562.50  11/17      80.06     298.17
+   A3  0.50  close   be@1R    3079   0.11   341.47 1.62  9,258.00  13/17       7.86     333.60
+   A5  0.50    10R  +1R@2R    3310   0.10   315.34 2.25 12,999.25  11/17      59.95     255.39
+   A5  0.50  close    none    3310   0.09   311.02 1.50  9,316.50  13/17      30.17     280.85
+   A5  0.50    10R    none    3310   0.09   310.25 1.72 12,187.50  13/17      38.79     271.47
+   A5  0.50    10R   be@1R    3310   0.09   283.66 1.93 10,610.50  11/17      65.38     218.28
+   A1  1.00  close    none    3431   0.08   277.36 1.25 13,860.50  10/17    -135.31     412.67
+   A3  1.00  close    none    3843   0.07   257.72 1.39 17,927.50   9/17    -154.14     411.86
+   A3  0.50  close  +1R@2R    3079   0.06   192.72 1.01  4,526.75  11/17      10.14     182.57
+   A5  0.50    10R trail2R    3310   0.05   173.21 1.53  8,657.50  11/17      -0.05     173.25
+
+By entry:
+       combos  median_total_R  best_total_R  share_positive
+entry                                                      
+A1        120         -284.01        807.43            0.13
+A3        120         -108.69        499.76            0.26
+A5        120          -35.61        427.24            0.40
+B1        120         -277.06        112.82            0.08
+B3        120         -104.75        115.85            0.21
+B5        120          -97.87        105.66            0.30
+
+By stop:
+      combos  median_total_R  best_total_R  share_positive
+stop                                                      
+0.5      180         -470.33        807.43            0.12
+1.0      180         -197.56        277.36            0.12
+1.5      180         -113.72         66.06            0.17
+2.0      180            1.02        139.67            0.51
+
+By target:
+        combos  median_total_R  best_total_R  share_positive
+target                                                      
+10R        120          -13.81        315.34            0.42
+1R         120         -297.79        -61.05            0.00
+2R         120         -248.59         51.83            0.08
+3R         120         -152.90         91.29            0.15
+5R         120          -86.88        129.45            0.28
+close      120          -14.60        807.43            0.44
+
+By manage:
+         combos  median_total_R  best_total_R  share_positive
+manage                                                       
++1R@2R      144         -115.95        473.81            0.26
+be@1R       144         -118.69        568.84            0.31
+none        144         -103.50        807.43            0.32
+trail1R     144         -202.06          3.04            0.01
+trail2R     144         -119.30        173.21            0.25
+
+WALK-FORWARD 2013-2026 (each year uses the best combination of all earlier years): 510.0 R, years up 10/14 | published A5 same years: 176.1 R
+picks: 2013: A1/0.5x/10R/none; 2014: A1/0.5x/10R/none; 2015: A3/0.5x/close/none; 2016: A5/0.5x/close/+1R@2R; 2017: A5/0.5x/close/be@1R; 2018: A5/0.5x/close/be@1R; 2019: A3/0.5x/close/none; 2020: A5/0.5x/close/be@1R; 2021: A5/0.5x/close/be@1R; 2022: A1/0.5x/close/none; 2023: A1/0.5x/close/none; 2024: A1/0.5x/close/none; 2025: A1/0.5x/close/none; 2026: A1/0.5x/close/none
+  ES: 5,742,093 1-min bars, 4220 dates with RTH bars, bars from a non-09:30 contract inside RTH: 0  (load 2.6s)
+
+################ MES: 720 combinations ################
+Check vs lit_p5 published A5 (10R target, stop at range end): 3549 trades, $-5,162.75, -371.0 R, t -2.66
+Combinations with positive total R: 1 of 720; with t > 2: 0; t > 3: 0
+
+Top 15 by total R (in-sample, 2010-2026):
+entry  stop target  manage  trades  avg_R  total_R     t       usd yrs_up  R_2010_17  R_2018_26
+   A1  0.50  close    none    1239   0.05    60.44  0.30   -136.50   5/15      29.60      30.84
+   A1  0.50  close   be@1R    1239  -0.03   -37.76 -0.22   -726.50   4/15     -20.90     -16.86
+   A1  0.50    10R    none    1239  -0.15  -188.68 -1.67 -3,170.25   4/15      14.99    -203.67
+   A1  0.50  close  +1R@2R    1239  -0.16  -195.96 -1.55 -2,115.25   4/15     -24.64    -171.32
+   A5  2.00     5R trail2R    3928  -0.05  -202.79 -2.22 -1,085.50   6/17    -241.08      38.29
+   A5  2.00    10R trail2R    3928  -0.05  -209.54 -2.27 -1,623.00   6/17    -240.72      31.18
+   A5  2.00  close trail2R    3928  -0.05  -211.70 -2.30 -1,674.25   6/17    -241.84      30.14
+   A5  2.00  close   be@1R    3928  -0.05  -211.83 -2.28 -3,400.50   6/17    -214.96       3.13
+   A3  0.50  close    none    1978  -0.11  -215.17 -1.17 -2,915.50   4/17     -92.02    -123.15
+   A5  2.00     5R   be@1R    3928  -0.06  -216.07 -2.46 -3,074.25   5/17    -214.52      -1.56
+   A5  2.00    10R   be@1R    3928  -0.06  -222.08 -2.43 -3,581.75   6/17    -215.42      -6.65
+   A5  2.00     3R   be@1R    3928  -0.06  -223.07 -2.74 -4,171.75   4/17    -217.62      -5.45
+   A5  2.00     3R trail2R    3928  -0.06  -230.22 -2.68 -3,595.50   5/17    -225.11      -5.12
+   A5  2.00  close    none    3928  -0.06  -230.63 -2.17 -3,008.00   6/17    -222.58      -8.05
+   B3  2.00     5R   be@1R    4067  -0.06  -231.16 -2.67 -4,575.75   7/17    -288.97      57.81
+
+By entry:
+       combos  median_total_R  best_total_R  share_positive
+entry                                                      
+A1        120         -552.83         60.44            0.01
+A3        120         -479.60       -215.17            0.00
+A5        120         -406.34       -202.79            0.00
+B1        120         -709.74       -324.92            0.00
+B3        120         -598.97       -231.16            0.00
+B5        120         -560.78       -259.97            0.00
+
+By stop:
+      combos  median_total_R  best_total_R  share_positive
+stop                                                      
+0.5      180         -813.72         60.44            0.01
+1.0      180         -631.27       -345.15            0.00
+1.5      180         -531.18       -315.21            0.00
+2.0      180         -363.88       -202.79            0.00
+
+By target:
+        combos  median_total_R  best_total_R  share_positive
+target                                                      
+10R        120         -476.18       -188.68            0.00
+1R         120         -571.62       -255.77            0.00
+2R         120         -549.85       -254.78            0.00
+3R         120         -519.75       -223.07            0.00
+5R         120         -484.04       -202.79            0.00
+close      120         -465.91         60.44            0.01
+
+By manage:
+         combos  median_total_R  best_total_R  share_positive
+manage                                                       
++1R@2R      144         -486.60       -195.96            0.00
+be@1R       144         -505.54        -37.76            0.00
+none        144         -489.03         60.44            0.01
+trail1R     144         -584.31       -298.36            0.00
+trail2R     144         -500.16       -202.79            0.00
+
+WALK-FORWARD 2013-2026 (each year uses the best combination of all earlier years): -56.3 R, years up 4/14 | published A5 same years: -283.4 R
+picks: 2013: A5/0.5x/10R/be@1R; 2014: A5/0.5x/10R/trail2R; 2015: A5/0.5x/2R/+1R@2R; 2016: A1/0.5x/close/none; 2017: A1/0.5x/close/none; 2018: A1/0.5x/close/none; 2019: A1/0.5x/close/none; 2020: A1/0.5x/close/none; 2021: A1/0.5x/close/none; 2022: A1/0.5x/close/none; 2023: A1/0.5x/close/none; 2024: A1/0.5x/close/none; 2025: A1/0.5x/close/none; 2026: A1/0.5x/close/none

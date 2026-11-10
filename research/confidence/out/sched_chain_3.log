@@ -1,0 +1,4 @@
+sc:ml_creamer_boost: AUC 0.620  kept 15,760 (5.8%)  -2.44 $/trade  all -2.22  random -2.41  (291s)
+sc:ml_creamer_experts: AUC 0.544  kept 262,539 (95.8%)  -2.17 $/trade  all -2.22  random -2.19  (1488s)
+/usr/lib/python3.14/multiprocessing/resource_tracker.py:396: UserWarning: resource_tracker: There appear to be 2 leaked semaphore objects to clean up at shutdown: {'/loky-129843-wc5wcna_', '/loky-129843-1un556zn'}
+  warnings.warn(

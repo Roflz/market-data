@@ -1,0 +1,26 @@
+R20 check: 331,394/331,394 rows bit-identical to entries.R20 (NaN rows 565)
+block NaN share at entries: ret1 0.002, ret2 0.002, ret3 0.002, ret5 0.002, ret10 0.002, ret20 0.002, ret60_volscaled 0.009, rsv5 0.002, rsv20 0.002, rsv60 0.009, prev_close_rsv20 0.002, bars_since_high20 0.002, bars_since_low20 0.002, bars_since_high60 0.009, bars_since_low60 0.009, range20_width 0.002
+skip (done): v1 all logit
+[mem] available 14156 MB -> start v1 all gbm
+v1      all          gbm  : auc 0.6228  kept 33,167  $/tr 0.15  all -2.22  random -2.00  $/yr 400  (163s)
+[mem] available 14863 MB -> start v1+A all logit
+v1+A    all          logit: auc 0.6194  kept 26,549  $/tr -0.85  all -2.22  random -1.98  $/yr -1796  (108s)
+[mem] available 14906 MB -> start v1+A all gbm
+v1+A    all          gbm  : auc 0.6231  kept 31,975  $/tr 0.07  all -2.22  random -2.16  $/yr 189  (213s)
+[mem] available 15113 MB -> start v1+B all logit
+v1+B    all          logit: auc 0.6191  kept 35,142  $/tr -1.35  all -2.22  random -2.17  $/yr -3794  (122s)
+[mem] available 15403 MB -> start v1+B all gbm
+v1+B    all          gbm  : auc 0.6225  kept 35,118  $/tr -0.04  all -2.22  random -2.00  $/yr -105  (190s)
+[mem] available 14679 MB -> start v1+A+B all logit
+v1+A+B  all          logit: auc 0.6193  kept 24,756  $/tr -0.84  all -2.22  random -2.09  $/yr -1666  (113s)
+[mem] available 16283 MB -> start v1+A+B all gbm
+v1+A+B  all          gbm  : auc 0.6231  kept 28,357  $/tr 0.34  all -2.22  random -2.13  $/yr 761  (270s)
+[mem] available 12184 MB -> start v1 cost_R<=0.15 logit
+v1      cost_R<=0.15 logit: auc 0.5208  kept 8,147  $/tr 2.28  all -1.53  random -1.47  $/yr 1487  (17s)
+[mem] available 13466 MB -> start v1 cost_R<=0.15 gbm
+v1      cost_R<=0.15 gbm  : auc 0.5201  kept 13,930  $/tr 2.29  all -1.53  random -1.23  $/yr 2553  (77s)
+[mem] available 12124 MB -> start v1+A+B cost_R<=0.15 logit
+v1+A+B  cost_R<=0.15 logit: auc 0.5222  kept 10,089  $/tr 0.99  all -1.53  random -1.54  $/yr 802  (23s)
+[mem] available 11609 MB -> start v1+A+B cost_R<=0.15 gbm
+v1+A+B  cost_R<=0.15 gbm  : auc 0.5182  kept 10,708  $/tr 1.44  all -1.53  random -1.58  $/yr 1233  (104s)
+wrote /run/media/roflz/Disk 2/_/market_data/research/confidence/out/feature_blocks_NQ.md

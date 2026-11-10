@@ -1,0 +1,24 @@
+{
+ "id": "v3round1_FINAL_EXAM",
+ "utc": "2026-11-09T20:28:44",
+ "spec": {
+  "prereg_file": "research/confidence/v3/PREREG.md",
+  "prereg_sha256": "c9aef6629ccc2da406c76355302bce241faba444d893678de2a3a38c3e682460",
+  "script": "research/confidence/v3/final_exam.py",
+  "script_sha256": "9b040d6f747ab03fb4c4fac39618259beac80438cb247eb9bf6fe17897fbe801",
+  "survivors": [
+   "A1",
+   "A3",
+   "A4"
+  ],
+  "descriptive": [
+   "A2"
+  ],
+  "window": "sessions 2025-07-01 (2025-06-30 18:00 ET) .. last complete session in the data at run time",
+  "primary": "P1 at 1 micro per trade (A1 + A3 basket + A4): daily d = net - C1 (999 same-year random sessions, same marks/side, seeds 1000k+chunk); PASSED if mean d > 0 with conservative stationary-bootstrap p <= 0.05 (max over blocks 1/5/10/20, B 5000, seed 20261109) AND P1 net $ > 0; NOT CONFIRMED if net > 0 but not significant; FAILED if net <= 0",
+  "components": "A1, A3, A4 p_d with Holm at 0.05 (descriptive)",
+  "guards": "--run --approved-by + env V3_FINAL_EXAM_APPROVED=YES_SPEND_THE_HOLDOUT + one-shot marker; NOT RUN as of freezing",
+  "caveat": "holdout already viewed for A1-A4 by 2026-11-08 archive runs; forward paper test is the binding confirmation"
+ },
+ "sha256": "f58a759e9216203bff917104bdeb5879112528a39155d30c8494b00d83dc264e"
+}

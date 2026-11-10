@@ -1,0 +1,248 @@
+{
+ "overnight_interval_count": 1731,
+ "overnight_csv_count": 1731,
+ "A": {
+  "exposure": {
+   "overnight_break": {
+    "trades": 1261,
+    "while_open_same_dir": 31,
+    "while_open_opposite": 166,
+    "share_same": 0.02458366375892149,
+    "share_opposite": 0.1316415543219667
+   },
+   "opening_range": {
+    "trades": 1261,
+    "while_open_same_dir": 78,
+    "while_open_opposite": 142,
+    "share_same": 0.061855670103092786,
+    "share_opposite": 0.11260904044409199
+   }
+  },
+  "correlation": {
+   "expiry_fade": {
+    "corr_all_days": 0.001814709251233905,
+    "corr_on_rule_days": NaN
+   },
+   "opening_range": {
+    "corr_all_days": 0.0037069612668781376,
+    "corr_on_rule_days": -0.00833965342200431
+   },
+   "overnight_break": {
+    "corr_all_days": -0.04737698922849936,
+    "corr_on_rule_days": -0.18501280639291565
+   },
+   "combined_three": {
+    "corr_all_days": -0.02041806424999887,
+    "maxdd_three": 7949.0,
+    "maxdd_three_plus_rule": 8154.5,
+    "total_three": 50657.0,
+    "total_three_plus_rule": 44581.0
+   }
+  }
+ },
+ "A1-MES": {
+  "exposure": {
+   "overnight_break": {
+    "trades": 1240,
+    "while_open_same_dir": 31,
+    "while_open_opposite": 151,
+    "share_same": 0.025,
+    "share_opposite": 0.1217741935483871
+   },
+   "opening_range": {
+    "trades": 1240,
+    "while_open_same_dir": 105,
+    "while_open_opposite": 175,
+    "share_same": 0.0846774193548387,
+    "share_opposite": 0.14112903225806453
+   }
+  },
+  "correlation": {
+   "expiry_fade": {
+    "corr_all_days": 0.004013269505357096,
+    "corr_on_rule_days": NaN
+   },
+   "opening_range": {
+    "corr_all_days": -0.0006639309543259085,
+    "corr_on_rule_days": -0.0358278516090898
+   },
+   "overnight_break": {
+    "corr_all_days": -0.04384740720808812,
+    "corr_on_rule_days": -0.17010970890932825
+   },
+   "combined_three": {
+    "corr_all_days": -0.021058838282227776,
+    "maxdd_three": 7949.0,
+    "maxdd_three_plus_rule": 8375.75,
+    "total_three": 50657.0,
+    "total_three_plus_rule": 43564.5
+   }
+  }
+ },
+ "A2-VWAP": {
+  "exposure": {
+   "overnight_break": {
+    "trades": 415,
+    "while_open_same_dir": 0,
+    "while_open_opposite": 101,
+    "share_same": 0.0,
+    "share_opposite": 0.2433734939759036
+   },
+   "opening_range": {
+    "trades": 415,
+    "while_open_same_dir": 2,
+    "while_open_opposite": 63,
+    "share_same": 0.004819277108433735,
+    "share_opposite": 0.15180722891566265
+   }
+  },
+  "correlation": {
+   "expiry_fade": {
+    "corr_all_days": 0.0009140741733725245,
+    "corr_on_rule_days": NaN
+   },
+   "opening_range": {
+    "corr_all_days": -0.0047244431191400095,
+    "corr_on_rule_days": -0.03303650200686799
+   },
+   "overnight_break": {
+    "corr_all_days": -0.09358656068404111,
+    "corr_on_rule_days": -0.4134350815998248
+   },
+   "combined_three": {
+    "corr_all_days": -0.04909612019422921,
+    "maxdd_three": 7949.0,
+    "maxdd_three_plus_rule": 7525.0,
+    "total_three": 50657.0,
+    "total_three_plus_rule": 48315.5
+   }
+  }
+ },
+ "B": {
+  "exposure": {
+   "overnight_break": {
+    "trades": 23,
+    "while_open_same_dir": 1,
+    "while_open_opposite": 1,
+    "share_same": 0.043478260869565216,
+    "share_opposite": 0.043478260869565216
+   },
+   "opening_range": {
+    "trades": 23,
+    "while_open_same_dir": 2,
+    "while_open_opposite": 1,
+    "share_same": 0.08695652173913043,
+    "share_opposite": 0.043478260869565216
+   }
+  },
+  "correlation": {
+   "expiry_fade": {
+    "corr_all_days": 0.000329678978006301,
+    "corr_on_rule_days": NaN
+   },
+   "opening_range": {
+    "corr_all_days": 0.0115337463220093,
+    "corr_on_rule_days": 0.33635327921962216
+   },
+   "overnight_break": {
+    "corr_all_days": 0.0171951892616169,
+    "corr_on_rule_days": 0.5296759209248593
+   },
+   "combined_three": {
+    "corr_all_days": 0.016308760186143134,
+    "maxdd_three": 7949.0,
+    "maxdd_three_plus_rule": 8008.0,
+    "total_three": 50657.0,
+    "total_three_plus_rule": 50431.5
+   }
+  }
+ },
+ "B-MES": {
+  "exposure": {
+   "overnight_break": {
+    "trades": 20,
+    "while_open_same_dir": 0,
+    "while_open_opposite": 1,
+    "share_same": 0.0,
+    "share_opposite": 0.05
+   },
+   "opening_range": {
+    "trades": 20,
+    "while_open_same_dir": 2,
+    "while_open_opposite": 2,
+    "share_same": 0.1,
+    "share_opposite": 0.1
+   }
+  },
+  "correlation": {
+   "expiry_fade": {
+    "corr_all_days": 0.00013629525944359395,
+    "corr_on_rule_days": NaN
+   },
+   "opening_range": {
+    "corr_all_days": -0.004915707801842731,
+    "corr_on_rule_days": -0.3050995530192958
+   },
+   "overnight_break": {
+    "corr_all_days": 0.02179970340206454,
+    "corr_on_rule_days": 0.6189085425475244
+   },
+   "combined_three": {
+    "corr_all_days": 0.007483998122439518,
+    "maxdd_three": 7949.0,
+    "maxdd_three_plus_rule": 7831.0,
+    "total_three": 50657.0,
+    "total_three_plus_rule": 50600.75
+   }
+  }
+ },
+ "B1": {
+  "exposure": {
+   "overnight_break": {
+    "trades": 20,
+    "while_open_same_dir": 1,
+    "while_open_opposite": 1,
+    "share_same": 0.05,
+    "share_opposite": 0.05
+   },
+   "opening_range": {
+    "trades": 20,
+    "while_open_same_dir": 2,
+    "while_open_opposite": 1,
+    "share_same": 0.1,
+    "share_opposite": 0.05
+   }
+  },
+  "correlation": {
+   "expiry_fade": {
+    "corr_all_days": 0.0005699034528567934,
+    "corr_on_rule_days": NaN
+   },
+   "opening_range": {
+    "corr_all_days": 0.011306603836515848,
+    "corr_on_rule_days": 0.5055353835638381
+   },
+   "overnight_break": {
+    "corr_all_days": 0.02284603442367388,
+    "corr_on_rule_days": 0.6826302610646319
+   },
+   "combined_three": {
+    "corr_all_days": 0.019003541030602613,
+    "maxdd_three": 7949.0,
+    "maxdd_three_plus_rule": 7949.0,
+    "total_three": 50657.0,
+    "total_three_plus_rule": 50361.0
+   }
+  }
+ },
+ "B_days_also_A": 7,
+ "C": {
+  "overnight_same_dir_as_failed_orb_at_reverse_entry": {
+   "trades": 1217,
+   "while_open_same_dir": 67,
+   "while_open_opposite": 2,
+   "share_same": 0.05505341002465078,
+   "share_opposite": 0.0016433853738701725
+  }
+ }
+}

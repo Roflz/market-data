@@ -1,0 +1,5 @@
+R1 at -1.0%: alone removed  603 total $  +43824 maxDD $-8,440 | with R2 removed  712 total $  +46814 maxDD $-7,614
+R1 at -1.5%: alone removed  324 total $  +43278 maxDD $-9,260 | with R2 removed  442 total $  +46598 maxDD $-8,436
+R1 at -2.0%: alone removed  172 total $  +47250 maxDD $-8,774 | with R2 removed  292 total $  +50657 maxDD $-7,949
+R1 at -2.5%: alone removed   98 total $  +44701 maxDD $-8,895 | with R2 removed  218 total $  +48108 maxDD $-8,070
+R1 at -3.0%: alone removed   57 total $  +42642 maxDD $-9,608 | with R2 removed  178 total $  +46058 maxDD $-8,783

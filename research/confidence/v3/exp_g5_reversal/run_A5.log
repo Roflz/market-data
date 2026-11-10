@@ -1,0 +1,19 @@
+{
+ "p_d": 0.07078584283143372,
+ "p_net": 0.5850829834033193,
+ "t_nw_d": 1.705908018272058,
+ "t_nw_net": -0.22258922931500877,
+ "usd_per_trade": -0.6126857022442314,
+ "d_per_trade": 4.683950267739159,
+ "failed_gates": [
+  "2_net_halves",
+  "4_wo_top10",
+  "5_winsor",
+  "6_mc_rank",
+  "7_gross_vs_cost",
+  "8_beats_drift",
+  "9_markets"
+ ],
+ "kill": false,
+ "seconds": 93.62924861907959
+}

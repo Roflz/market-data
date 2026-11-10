@@ -1,0 +1,639 @@
+{
+ "mnq": {
+  "n": 103,
+  "mean_net_usd": 36.209,
+  "total_net_usd": 3729.5,
+  "mean_gross_usd": 38.209,
+  "mean_net_bp": 11.866,
+  "mean_gross_pts": 19.104,
+  "t": 2.71,
+  "median_net_usd": 10.0,
+  "hit_rate": 0.534,
+  "worst": -246.5,
+  "best": 456.5,
+  "best5_share_of_total": 0.539,
+  "trades_per_year": 11.64,
+  "exit_reasons": {
+   "time": 103
+  },
+  "by_year": {
+   "2018": {
+    "count": 12,
+    "mean": 14.75,
+    "sum": 177.0
+   },
+   "2019": {
+    "count": 12,
+    "mean": 11.83,
+    "sum": 142.0
+   },
+   "2020": {
+    "count": 12,
+    "mean": -17.42,
+    "sum": -209.0
+   },
+   "2021": {
+    "count": 11,
+    "mean": 23.0,
+    "sum": 253.0
+   },
+   "2022": {
+    "count": 12,
+    "mean": 73.25,
+    "sum": 879.0
+   },
+   "2023": {
+    "count": 11,
+    "mean": 98.41,
+    "sum": 1082.5
+   },
+   "2024": {
+    "count": 12,
+    "mean": 37.33,
+    "sum": 448.0
+   },
+   "2025": {
+    "count": 11,
+    "mean": 17.59,
+    "sum": 193.5
+   },
+   "2026": {
+    "count": 10,
+    "mean": 76.35,
+    "sum": 763.5
+   }
+  },
+  "by_2yr_block": {
+   "2018-2019": {
+    "count": 24,
+    "mean": 13.29,
+    "sum": 319.0
+   },
+   "2020-2021": {
+    "count": 23,
+    "mean": 1.91,
+    "sum": 44.0
+   },
+   "2022-2023": {
+    "count": 23,
+    "mean": 85.28,
+    "sum": 1961.5
+   },
+   "2024-2025": {
+    "count": 23,
+    "mean": 27.89,
+    "sum": 641.5
+   },
+   "2026-2027": {
+    "count": 10,
+    "mean": 76.35,
+    "sum": 763.5
+   }
+  }
+ },
+ "mes": {
+  "n": 101,
+  "mean_net_usd": 3.827,
+  "total_net_usd": 386.5,
+  "mean_gross_usd": 7.327,
+  "mean_net_bp": 1.555,
+  "mean_gross_pts": 1.465,
+  "t": 0.475,
+  "median_net_usd": -8.5,
+  "hit_rate": 0.475,
+  "worst": -204.75,
+  "best": 269.0,
+  "best5_share_of_total": 3.043,
+  "trades_per_year": 11.41,
+  "exit_reasons": {
+   "time": 101
+  },
+  "by_year": {
+   "2018": {
+    "count": 11,
+    "mean": 3.66,
+    "sum": 40.25
+   },
+   "2019": {
+    "count": 12,
+    "mean": 1.08,
+    "sum": 13.0
+   },
+   "2020": {
+    "count": 12,
+    "mean": -14.96,
+    "sum": -179.5
+   },
+   "2021": {
+    "count": 10,
+    "mean": -18.5,
+    "sum": -185.0
+   },
+   "2022": {
+    "count": 12,
+    "mean": 42.12,
+    "sum": 505.5
+   },
+   "2023": {
+    "count": 11,
+    "mean": 4.0,
+    "sum": 44.0
+   },
+   "2024": {
+    "count": 12,
+    "mean": 4.1,
+    "sum": 49.25
+   },
+   "2025": {
+    "count": 11,
+    "mean": -4.41,
+    "sum": -48.5
+   },
+   "2026": {
+    "count": 10,
+    "mean": 14.75,
+    "sum": 147.5
+   }
+  },
+  "by_2yr_block": {
+   "2018-2019": {
+    "count": 23,
+    "mean": 2.32,
+    "sum": 53.25
+   },
+   "2020-2021": {
+    "count": 22,
+    "mean": -16.57,
+    "sum": -364.5
+   },
+   "2022-2023": {
+    "count": 23,
+    "mean": 23.89,
+    "sum": 549.5
+   },
+   "2024-2025": {
+    "count": 23,
+    "mean": 0.03,
+    "sum": 0.75
+   },
+   "2026-2027": {
+    "count": 10,
+    "mean": 14.75,
+    "sum": 147.5
+   }
+  }
+ },
+ "mnq_mean_gt0": true,
+ "mnq_t_gt2": true,
+ "mes_same_sign": true,
+ "PASS": true,
+ "random_direction_control_mnq": {
+  "reps": 1000,
+  "seed": 12345,
+  "actual_mean_net": 36.209,
+  "random_mean": -1.685,
+  "random_p95": 20.207,
+  "p_one_sided": 0.007
+ },
+ "random_direction_control_mes": {
+  "reps": 1000,
+  "seed": 12345,
+  "actual_mean_net": 3.827,
+  "random_mean": -3.161,
+  "random_p95": 9.226,
+  "p_one_sided": 0.201
+ },
+ "skipped_nfp_2018_2026_NQ": [
+  {
+   "date": "2021-04-02",
+   "reason": "9:45 bar missing"
+  },
+  {
+   "date": "2023-04-07",
+   "reason": "9:45 bar missing"
+  },
+  {
+   "date": "2026-04-03",
+   "reason": "9:45 bar missing"
+  }
+ ],
+ "skipped_nfp_2018_2026_ES": [
+  {
+   "date": "2018-05-04",
+   "reason": "zero move"
+  },
+  {
+   "date": "2021-04-02",
+   "reason": "9:45 bar missing"
+  },
+  {
+   "date": "2021-08-06",
+   "reason": "zero move"
+  },
+  {
+   "date": "2023-04-07",
+   "reason": "9:45 bar missing"
+  },
+  {
+   "date": "2026-04-03",
+   "reason": "9:45 bar missing"
+  }
+ ],
+ "nfp_days_2018_2026_in_list": 106
+}
+L1-NFP-2018-2026-MNQ-time                     n= 103 mean=   36.21 tot=   3729.5 t=  2.71 gross=  38.21 bp= 11.87 hit=0.53 b5=0.539
+L1-NFP-2010-2017-MNQ-time                     n=  88 mean=    1.72 tot=    151.5 t=  0.70 gross=   3.72 bp=  1.84 hit=0.51 b5=1.667
+L1-NFP-2010-2026-MNQ-time                     n= 191 mean=   20.32 tot=   3881.0 t=  2.75 gross=  22.32 bp=  7.25 hit=0.52 b5=0.518
+L1-CPI-2018-2026-MNQ-time                     n= 104 mean=   20.95 tot=   2178.5 t=  1.83 gross=  22.95 bp=  6.31 hit=0.56 b5=0.608
+L1-CPI-2010-2017-MNQ-time                     n=  88 mean=   -1.49 tot=   -131.5 t= -0.71 gross=   0.51 bp= -0.67 hit=0.50 b5=-1.312
+L1-CPI-2010-2026-MNQ-time                     n= 192 mean=   10.66 tot=   2047.0 t=  1.69 gross=  12.66 bp=  3.11 hit=0.53 b5=0.647
+L1-CPIorNFP-2018-2026-MNQ-time                n= 207 mean=   28.54 tot=   5908.0 t=  3.25 gross=  30.54 bp=  9.07 hit=0.55 b5=0.34
+L1-CPIorNFP-2010-2017-MNQ-time                n= 176 mean=    0.11 tot=     20.0 t=  0.07 gross=   2.11 bp=  0.59 hit=0.51 b5=12.675
+L1-CPIorNFP-2010-2026-MNQ-time                n= 383 mean=   15.48 tot=   5928.0 t=  3.19 gross=  17.48 bp=  5.17 hit=0.53 b5=0.339
+L1-NFP-2018-2026-MNQ-stop2x                   n= 103 mean=   29.24 tot=   3011.5 t=  2.30 gross=  31.24 bp= 10.48 hit=0.45 b5=0.654
+L1-NFP-2010-2017-MNQ-stop2x                   n=  88 mean=    0.15 tot=     13.0 t=  0.06 gross=   2.15 bp=  0.07 hit=0.44 b5=19.077
+L1-NFP-2010-2026-MNQ-stop2x                   n= 191 mean=   15.84 tot=   3024.5 t=  2.26 gross=  17.84 bp=  5.68 hit=0.45 b5=0.651
+L1-CPI-2018-2026-MNQ-stop2x                   n= 104 mean=   12.83 tot=   1334.0 t=  1.11 gross=  14.83 bp=  3.66 hit=0.48 b5=0.992
+L1-CPI-2010-2017-MNQ-stop2x                   n=  88 mean=   -2.57 tot=   -226.0 t= -1.58 gross=  -0.57 bp= -3.00 hit=0.35 b5=-0.692
+L1-CPI-2010-2026-MNQ-stop2x                   n= 192 mean=    5.77 tot=   1108.0 t=  0.92 gross=   7.77 bp=  0.61 hit=0.42 b5=1.194
+L1-CPIorNFP-2018-2026-MNQ-stop2x              n= 207 mean=   20.99 tot=   4345.5 t=  2.45 gross=  22.99 bp=  7.05 hit=0.46 b5=0.453
+L1-CPIorNFP-2010-2017-MNQ-stop2x              n= 176 mean=   -1.21 tot=   -213.0 t= -0.86 gross=   0.79 bp= -1.46 hit=0.40 b5=-1.169
+L1-CPIorNFP-2010-2026-MNQ-stop2x              n= 383 mean=   10.79 tot=   4132.5 t=  2.29 gross=  12.79 bp=  3.14 hit=0.43 b5=0.476
+L1-NFP-2018-2026-MNQ-strict_stop2x            n= 103 mean=   29.11 tot=   2998.5 t=  2.29 gross=  31.11 bp= 10.40 hit=0.45 b5=0.656
+L1-NFP-2010-2017-MNQ-strict_stop2x            n=  88 mean=    0.14 tot=     12.0 t=  0.06 gross=   2.14 bp=  0.08 hit=0.44 b5=20.667
+L1-NFP-2010-2026-MNQ-strict_stop2x            n= 191 mean=   15.76 tot=   3010.5 t=  2.25 gross=  17.76 bp=  5.64 hit=0.45 b5=0.654
+L1-CPI-2018-2026-MNQ-strict_stop2x            n= 104 mean=   14.53 tot=   1511.0 t=  1.29 gross=  16.53 bp=  4.07 hit=0.48 b5=0.876
+L1-CPI-2010-2017-MNQ-strict_stop2x            n=  88 mean=   -3.27 tot=   -288.0 t= -1.99 gross=  -1.27 bp= -4.09 hit=0.33 b5=-0.543
+L1-CPI-2010-2026-MNQ-strict_stop2x            n= 192 mean=    6.37 tot=   1223.0 t=  1.03 gross=   8.37 bp=  0.33 hit=0.41 b5=1.082
+L1-CPIorNFP-2018-2026-MNQ-strict_stop2x       n= 207 mean=   21.79 tot=   4509.5 t=  2.56 gross=  23.79 bp=  7.22 hit=0.46 b5=0.437
+L1-CPIorNFP-2010-2017-MNQ-strict_stop2x       n= 176 mean=   -1.57 tot=   -276.0 t= -1.11 gross=   0.43 bp= -2.01 hit=0.39 b5=-0.902
+L1-CPIorNFP-2010-2026-MNQ-strict_stop2x       n= 383 mean=   11.05 tot=   4233.5 t=  2.37 gross=  13.05 bp=  2.98 hit=0.43 b5=0.465
+L1-NFP-2018-2026-MES-time                     n= 101 mean=    3.83 tot=    386.5 t=  0.47 gross=   7.33 bp=  1.55 hit=0.47 b5=3.043
+L1-NFP-2010-2017-MES-time                     n=  88 mean=    0.46 tot=     40.8 t=  0.18 gross=   3.96 bp=  0.33 hit=0.49 b5=6.871
+L1-NFP-2010-2026-MES-time                     n= 189 mean=    2.26 tot=    427.2 t=  0.51 gross=   5.76 bp=  0.98 hit=0.48 b5=2.753
+L1-CPI-2018-2026-MES-time                     n= 103 mean=    6.21 tot=    639.5 t=  1.03 gross=   9.71 bp=  2.10 hit=0.55 b5=1.087
+L1-CPI-2010-2017-MES-time                     n=  84 mean=   -2.90 tot=   -244.0 t= -1.33 gross=   0.59 bp= -2.49 hit=0.46 b5=-0.666
+L1-CPI-2010-2026-MES-time                     n= 187 mean=    2.12 tot=    395.5 t=  0.61 gross=   5.62 bp=  0.04 hit=0.51 b5=1.757
+L1-CPIorNFP-2018-2026-MES-time                n= 204 mean=    5.03 tot=   1026.0 t=  1.00 gross=   8.53 bp=  1.83 hit=0.52 b5=1.146
+L1-CPIorNFP-2010-2017-MES-time                n= 172 mean=   -1.18 tot=   -203.2 t= -0.70 gross=   2.32 bp= -1.05 hit=0.48 b5=-1.402
+L1-CPIorNFP-2010-2026-MES-time                n= 376 mean=    2.19 tot=    822.8 t=  0.78 gross=   5.69 bp=  0.51 hit=0.50 b5=1.43
+L1-NFP-2018-2026-MES-stop2x                   n= 101 mean=   -5.42 tot=   -547.2 t= -0.69 gross=  -1.92 bp= -2.42 hit=0.39 b5=-2.042
+L1-NFP-2010-2017-MES-stop2x                   n=  88 mean=   -0.50 tot=    -44.2 t= -0.20 gross=   3.00 bp= -0.72 hit=0.43 b5=-6.328
+L1-NFP-2010-2026-MES-stop2x                   n= 189 mean=   -3.13 tot=   -591.5 t= -0.72 gross=   0.37 bp= -1.63 hit=0.41 b5=-1.889
+L1-CPI-2018-2026-MES-stop2x                   n= 103 mean=    1.56 tot=    160.8 t=  0.26 gross=   5.06 bp=  0.23 hit=0.47 b5=4.323
+L1-CPI-2010-2017-MES-stop2x                   n=  84 mean=   -3.54 tot=   -297.8 t= -1.96 gross=  -0.04 bp= -3.58 hit=0.36 b5=-0.546
+L1-CPI-2010-2026-MES-stop2x                   n= 187 mean=   -0.73 tot=   -137.0 t= -0.21 gross=   2.77 bp= -1.48 hit=0.42 b5=-5.073
+L1-CPIorNFP-2018-2026-MES-stop2x              n= 204 mean=   -1.90 tot=   -386.5 t= -0.39 gross=   1.60 bp= -1.08 hit=0.43 b5=-2.966
+L1-CPIorNFP-2010-2017-MES-stop2x              n= 172 mean=   -1.99 tot=   -342.0 t= -1.29 gross=   1.51 bp= -2.12 hit=0.40 b5=-0.833
+L1-CPIorNFP-2010-2026-MES-stop2x              n= 376 mean=   -1.94 tot=   -728.5 t= -0.70 gross=   1.56 bp= -1.55 hit=0.41 b5=-1.573
+L1-NFP-2018-2026-MES-strict_stop2x            n= 103 mean=   -5.56 tot=   -573.0 t= -0.72 gross=  -2.06 bp= -2.53 hit=0.38 b5=-1.95
+L1-NFP-2010-2017-MES-strict_stop2x            n=  88 mean=   -0.39 tot=    -34.2 t= -0.16 gross=   3.11 bp= -0.57 hit=0.43 b5=-8.175
+L1-NFP-2010-2026-MES-strict_stop2x            n= 191 mean=   -3.18 tot=   -607.2 t= -0.74 gross=   0.32 bp= -1.63 hit=0.40 b5=-1.84
+L1-CPI-2018-2026-MES-strict_stop2x            n= 104 mean=    1.89 tot=    196.0 t=  0.32 gross=   5.38 bp=  0.40 hit=0.47 b5=3.546
+L1-CPI-2010-2017-MES-strict_stop2x            n=  84 mean=   -3.47 tot=   -291.5 t= -1.90 gross=   0.03 bp= -3.36 hit=0.36 b5=-0.557
+L1-CPI-2010-2026-MES-strict_stop2x            n= 188 mean=   -0.51 tot=    -95.5 t= -0.15 gross=   2.99 bp= -1.28 hit=0.42 b5=-7.277
+L1-CPIorNFP-2018-2026-MES-strict_stop2x       n= 207 mean=   -1.82 tot=   -377.0 t= -0.38 gross=   1.68 bp= -1.05 hit=0.42 b5=-3.04
+L1-CPIorNFP-2010-2017-MES-strict_stop2x       n= 172 mean=   -1.89 tot=   -325.8 t= -1.23 gross=   1.61 bp= -1.93 hit=0.40 b5=-0.875
+L1-CPIorNFP-2010-2026-MES-strict_stop2x       n= 379 mean=   -1.85 tot=   -702.8 t= -0.68 gross=   1.65 bp= -1.45 hit=0.41 b5=-1.631
+L1-NFP-2018-2026-MES-time_nqsig               n= 103 mean=    8.21 tot=    845.8 t=  1.04 gross=  11.71 bp=  3.67 hit=0.52 b5=1.391
+L1-NFP-2010-2017-MES-time_nqsig               n=  88 mean=    0.83 tot=     73.2 t=  0.33 gross=   4.33 bp=  1.04 hit=0.51 b5=3.823
+L1-NFP-2010-2026-MES-time_nqsig               n= 191 mean=    4.81 tot=    919.0 t=  1.09 gross=   8.31 bp=  2.45 hit=0.52 b5=1.28
+L1-CPI-2018-2026-MES-time_nqsig               n= 104 mean=    7.50 tot=    779.8 t=  1.26 gross=  11.00 bp=  2.92 hit=0.58 b5=0.861
+L1-CPI-2010-2017-MES-time_nqsig               n=  88 mean=   -1.85 tot=   -163.0 t= -0.85 gross=   1.65 bp= -1.11 hit=0.49 b5=-1.089
+L1-CPI-2010-2026-MES-time_nqsig               n= 192 mean=    3.21 tot=    616.8 t=  0.95 gross=   6.71 bp=  1.07 hit=0.54 b5=1.088
+L1-CPIorNFP-2018-2026-MES-time_nqsig          n= 207 mean=    7.85 tot=   1625.5 t=  1.60 gross=  11.35 bp=  3.29 hit=0.55 b5=0.724
+L1-CPIorNFP-2010-2017-MES-time_nqsig          n= 176 mean=   -0.51 tot=    -89.8 t= -0.30 gross=   2.99 bp= -0.04 hit=0.50 b5=-3.175
+L1-CPIorNFP-2010-2026-MES-time_nqsig          n= 383 mean=    4.01 tot=   1535.8 t=  1.45 gross=   7.51 bp=  1.76 hit=0.53 b5=0.766
+{
+"L1-PLACEBO_nonrelease-2018-2026-MNQ-time": {
+"n": 1990,
+"mean_net_usd": -2.265,
+"total_net_usd": -4506.5,
+"mean_gross_usd": -0.265,
+"mean_net_bp": -1.527,
+"mean_gross_pts": -0.132,
+"t": -0.783,
+"median_net_usd": 2.0,
+"hit_rate": 0.508,
+"worst": -750.0,
+"best": 1311.0,
+"best5_share_of_total": -0.81,
+"trades_per_year": 224.89,
+"exit_reasons": {
+"time": 1990
+}
+},
+"L1-PLACEBO_nonrelease-2010-2017-MNQ-time": {
+"n": 1648,
+"mean_net_usd": -1.245,
+"total_net_usd": -2052.0,
+"mean_gross_usd": 0.755,
+"mean_net_bp": -1.247,
+"mean_gross_pts": 0.377,
+"t": -2.347,
+"median_net_usd": -1.0,
+"hit_rate": 0.47,
+"worst": -118.0,
+"best": 117.5,
+"best5_share_of_total": -0.227,
+"trades_per_year": 217.7,
+"exit_reasons": {
+"time": 1648
+}
+},
+"L1-PLACEBO_nonrelease-2010-2026-MNQ-time": {
+"n": 3638,
+"mean_net_usd": -1.803,
+"total_net_usd": -6558.5,
+"mean_gross_usd": 0.197,
+"mean_net_bp": -1.4,
+"mean_gross_pts": 0.099,
+"t": -1.127,
+"median_net_usd": -0.5,
+"hit_rate": 0.491,
+"worst": -750.0,
+"best": 1311.0,
+"best5_share_of_total": -0.556,
+"trades_per_year": 221.57,
+"exit_reasons": {
+"time": 3638
+}
+},
+"L1-PLACEBO_nonrelease-2018-2026-MES-time": {
+"n": 1947,
+"mean_net_usd": -5.261,
+"total_net_usd": -10243.25,
+"mean_gross_usd": -1.761,
+"mean_net_bp": -3.113,
+"mean_gross_pts": -0.352,
+"t": -3.785,
+"median_net_usd": -3.5,
+"hit_rate": 0.475,
+"worst": -506.0,
+"best": 552.75,
+"best5_share_of_total": -0.137,
+"trades_per_year": 220.03,
+"exit_reasons": {
+"time": 1947
+}
+},
+"L1-PLACEBO_nonrelease-2010-2017-MES-time": {
+"n": 1574,
+"mean_net_usd": -2.425,
+"total_net_usd": -3816.5,
+"mean_gross_usd": 1.075,
+"mean_net_bp": -2.849,
+"mean_gross_pts": 0.215,
+"t": -4.762,
+"median_net_usd": -2.25,
+"hit_rate": 0.437,
+"worst": -86.0,
+"best": 130.25,
+"best5_share_of_total": -0.131,
+"trades_per_year": 207.92,
+"exit_reasons": {
+"time": 1574
+}
+},
+"L1-PLACEBO_nonrelease-2010-2026-MES-time": {
+"n": 3521,
+"mean_net_usd": -3.993,
+"total_net_usd": -14059.75,
+"mean_gross_usd": -0.493,
+"mean_net_bp": -2.995,
+"mean_gross_pts": -0.099,
+"t": -4.98,
+"median_net_usd": -3.5,
+"hit_rate": 0.458,
+"worst": -506.0,
+"best": 552.75,
+"best5_share_of_total": -0.1,
+"trades_per_year": 214.45,
+"exit_reasons": {
+"time": 3521
+}
+}
+}
+{"overnight_break": {"days_with_both": 54, "of": 103}, "opening_range": {"days_with_both": 93, "of": 103}, "expiry_fade": {"days_with_both": 0, "of": 103}, "corr_L1_vs_existing_same_day_usd": -0.106, "worst_combined_day_usd": -444.0}
+{
+ "overnight_break": {
+  "2010-2017": {
+   "usd": {
+    "release_mean": -3.056,
+    "other_mean": -0.206,
+    "diff": -2.851,
+    "welch_t": -0.725,
+    "p_two_sided": 0.4701
+   },
+   "R": {
+    "release_mean": -0.18,
+    "other_mean": -0.019,
+    "diff": -0.161,
+    "welch_t": -0.82,
+    "p_two_sided": 0.4144
+   },
+   "bp": {
+    "release_mean": -3.68,
+    "other_mean": -0.277,
+    "diff": -3.403,
+    "welch_t": -0.645,
+    "p_two_sided": 0.5206
+   },
+   "n_release": 71,
+   "n_other": 700,
+   "release_total_usd": -217.0,
+   "cpi_days": {
+    "n": 42,
+    "mean_usd": -4.31
+   },
+   "nfp_days": {
+    "n": 29,
+    "mean_usd": -1.241
+   },
+   "perm_p_two_sided_usd": 0.509
+  },
+  "2018-2026": {
+   "usd": {
+    "release_mean": 44.172,
+    "other_mean": 22.453,
+    "diff": 21.719,
+    "welch_t": 0.804,
+    "p_two_sided": 0.4233
+   },
+   "R": {
+    "release_mean": 0.518,
+    "other_mean": 0.372,
+    "diff": 0.145,
+    "welch_t": 0.641,
+    "p_two_sided": 0.523
+   },
+   "bp": {
+    "release_mean": 15.703,
+    "other_mean": 8.348,
+    "diff": 7.355,
+    "welch_t": 0.948,
+    "p_two_sided": 0.3449
+   },
+   "n_release": 93,
+   "n_other": 867,
+   "release_total_usd": 4108.0,
+   "cpi_days": {
+    "n": 39,
+    "mean_usd": 24.949
+   },
+   "nfp_days": {
+    "n": 54,
+    "mean_usd": 58.056
+   },
+   "perm_p_two_sided_usd": 0.371
+  },
+  "2010-2026": {
+   "usd": {
+    "release_mean": 23.726,
+    "other_mean": 12.331,
+    "diff": 11.395,
+    "welch_t": 0.737,
+    "p_two_sided": 0.4622
+   },
+   "R": {
+    "release_mean": 0.216,
+    "other_mean": 0.198,
+    "diff": 0.018,
+    "welch_t": 0.115,
+    "p_two_sided": 0.9083
+   },
+   "bp": {
+    "release_mean": 7.312,
+    "other_mean": 4.495,
+    "diff": 2.817,
+    "welch_t": 0.564,
+    "p_two_sided": 0.5735
+   },
+   "n_release": 164,
+   "n_other": 1567,
+   "release_total_usd": 3891.0,
+   "cpi_days": {
+    "n": 81,
+    "mean_usd": 9.778
+   },
+   "nfp_days": {
+    "n": 83,
+    "mean_usd": 37.337
+   },
+   "perm_p_two_sided_usd": 0.423
+  },
+  "adopt_skip": false,
+  "worse_p05_2010_2017": false,
+  "worse_p05_2018_2026": false
+ },
+ "opening_range": {
+  "2010-2017": {
+   "usd": {
+    "release_mean": -1.42,
+    "other_mean": -0.362,
+    "diff": -1.059,
+    "welch_t": -0.329,
+    "p_two_sided": 0.7427
+   },
+   "R": {
+    "release_mean": -0.181,
+    "other_mean": -0.095,
+    "diff": -0.086,
+    "welch_t": -0.476,
+    "p_two_sided": 0.6344
+   },
+   "bp": {
+    "release_mean": -1.841,
+    "other_mean": -0.804,
+    "diff": -1.037,
+    "welch_t": -0.23,
+    "p_two_sided": 0.818
+   },
+   "n_release": 138,
+   "n_other": 1416,
+   "release_total_usd": -196.0,
+   "cpi_days": {
+    "n": 57,
+    "mean_usd": -2.728
+   },
+   "nfp_days": {
+    "n": 81,
+    "mean_usd": -0.5
+   },
+   "perm_p_two_sided_usd": 0.747
+  },
+  "2018-2026": {
+   "usd": {
+    "release_mean": 6.814,
+    "other_mean": 10.683,
+    "diff": -3.869,
+    "welch_t": -0.251,
+    "p_two_sided": 0.802
+   },
+   "R": {
+    "release_mean": 0.49,
+    "other_mean": 0.145,
+    "diff": 0.345,
+    "welch_t": 1.234,
+    "p_two_sided": 0.2187
+   },
+   "bp": {
+    "release_mean": 4.287,
+    "other_mean": 4.233,
+    "diff": 0.054,
+    "welch_t": 0.01,
+    "p_two_sided": 0.9923
+   },
+   "n_release": 191,
+   "n_other": 1764,
+   "release_total_usd": 1301.5,
+   "cpi_days": {
+    "n": 98,
+    "mean_usd": 9.842
+   },
+   "nfp_days": {
+    "n": 93,
+    "mean_usd": 3.624
+   },
+   "perm_p_two_sided_usd": 0.811
+  },
+  "2010-2026": {
+   "usd": {
+    "release_mean": 3.36,
+    "other_mean": 5.765,
+    "diff": -2.405,
+    "welch_t": -0.267,
+    "p_two_sided": 0.7894
+   },
+   "R": {
+    "release_mean": 0.208,
+    "other_mean": 0.038,
+    "diff": 0.17,
+    "welch_t": 0.946,
+    "p_two_sided": 0.345
+   },
+   "bp": {
+    "release_mean": 1.716,
+    "other_mean": 1.99,
+    "diff": -0.274,
+    "welch_t": -0.073,
+    "p_two_sided": 0.9417
+   },
+   "n_release": 329,
+   "n_other": 3180,
+   "release_total_usd": 1105.5,
+   "cpi_days": {
+    "n": 155,
+    "mean_usd": 5.219
+   },
+   "nfp_days": {
+    "n": 174,
+    "mean_usd": 1.704
+   },
+   "perm_p_two_sided_usd": 0.801
+  },
+  "adopt_skip": false,
+  "worse_p05_2010_2017": false,
+  "worse_p05_2018_2026": false
+ }
+}

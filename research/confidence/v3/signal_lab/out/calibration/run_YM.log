@@ -1,0 +1,42 @@
+[YM 15m] panel 173952 bars, 1936 sessions, build 1.8s
+[YM 15m] null done 134s: p_dir<0.05 0.010, classes {'INCONCLUSIVE': 200}
+[YM 15m] negatives done 176s: dir p<0.05 0.018, size p<0.05 0.000
+[YM 15m] positives done 184s: range_ratio +0.230 (+21%) p=4.3e-27 det=True, range4_ratio +0.214 (+9%) p=0.087 det=False, time_of_day +1.331 (+123%) p=0 det=True, news_830 +4.156 (+389%) p=5e-19 det=True, reversal -0.018 (+nan%) p=0.034 det=False
+[YM 15m] power rare_events rep 0 done 191s
+[YM 15m] power rare_events rep 1 done 198s
+[YM 15m] power rare_events rep 2 done 205s
+[YM 15m] power rare_events rep 3 done 212s
+[YM 15m] power rare_events rep 4 done 219s
+[YM 15m] power rare_events rep 5 done 226s
+[YM 15m] power rare_events rep 6 done 233s
+[YM 15m] power rare_events rep 7 done 240s
+[YM 15m] power continuous rep 0 done 246s
+[YM 15m] power continuous rep 1 done 253s
+[YM 15m] power continuous rep 2 done 260s
+[YM 15m] power continuous rep 3 done 266s
+[YM 15m] power continuous rep 4 done 273s
+[YM 15m] power continuous rep 5 done 279s
+[YM 15m] power continuous rep 6 done 286s
+[YM 15m] power continuous rep 7 done 293s
+[YM 15m] power done 293s: {"continuous": [0.0277, 0.047], "rare_events": [0.0756, 0.1143]}
+[YM 60m] panel 44179 bars, 1936 sessions, build 0.5s
+[YM 60m] null done 41s: p_dir<0.05 0.030, classes {'INCONCLUSIVE': 200}
+[YM 60m] negatives done 53s: dir p<0.05 0.000, size p<0.05 0.018
+[YM 60m] positives done 55s: range_ratio +0.269 (+25%) p=1e-26 det=True, range4_ratio +0.358 (+16%) p=1.5e-12 det=True, time_of_day +1.546 (+143%) p=0 det=True, news_830 +1.822 (+171%) p=1.6e-14 det=True, reversal +0.010 (+nan%) p=0.62 det=False
+[YM 60m] power rare_events rep 0 done 56s
+[YM 60m] power rare_events rep 1 done 58s
+[YM 60m] power rare_events rep 2 done 59s
+[YM 60m] power rare_events rep 3 done 60s
+[YM 60m] power rare_events rep 4 done 62s
+[YM 60m] power rare_events rep 5 done 63s
+[YM 60m] power rare_events rep 6 done 65s
+[YM 60m] power rare_events rep 7 done 66s
+[YM 60m] power continuous rep 0 done 67s
+[YM 60m] power continuous rep 1 done 68s
+[YM 60m] power continuous rep 2 done 70s
+[YM 60m] power continuous rep 3 done 71s
+[YM 60m] power continuous rep 4 done 72s
+[YM 60m] power continuous rep 5 done 73s
+[YM 60m] power continuous rep 6 done 75s
+[YM 60m] power continuous rep 7 done 76s
+[YM 60m] power done 76s: {"continuous": [0.0445, 0.0719], "rare_events": [0.0663, 0.1077]}

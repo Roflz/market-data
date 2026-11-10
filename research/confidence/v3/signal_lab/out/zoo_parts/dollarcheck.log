@@ -1,0 +1,91 @@
+             metric market  tf     hold        era  trades lab_dir_verdict        lab_dir_class  lab_edge_usd_2018_25  usd_excess  usd_se      z  cost_usd  usd_lo80
+0      fam_breakout     ES   5   dir_h2        all  144293       CONFIRMED   REAL BUT TOO SMALL                 0.089      -0.353   0.044 -8.000       3.5    -0.410
+1      fam_breakout     ES   5   dir_h2  2018-25H1   90285       CONFIRMED   REAL BUT TOO SMALL                 0.089      -0.400   0.071 -5.600       3.5    -0.491
+2   fam_compression     ES   5  dir_h16        all  376710       CONFIRMED   REAL BUT TOO SMALL                 0.602       0.148   0.166  0.894       3.5    -0.064
+3   fam_compression     ES   5  dir_h16  2018-25H1  190653       CONFIRMED   REAL BUT TOO SMALL                 0.602       0.274   0.326  0.839       3.5    -0.144
+4         mom14_div     ES   5  dir_h16        all  170974            none  CONFIDENTLY NOTHING                 0.254       0.395   0.167  2.365       3.5     0.181
+5         mom14_div     ES   5  dir_h16  2018-25H1   79938            none  CONFIDENTLY NOTHING                 0.254       0.546   0.351  1.556       3.5     0.096
+6          pat_doji     ES   5  dir_h16        all  185187        possible         INCONCLUSIVE                 0.872       0.105   0.142  0.740       3.5    -0.077
+7          pat_doji     ES   5  dir_h16  2018-25H1   74434        possible         INCONCLUSIVE                 0.872       0.327   0.341  0.959       3.5    -0.110
+8    tod_asia_18_02     ES   5   dir_h1        all  368852            none  CONFIDENTLY NOTHING                -0.000       0.023   0.010  2.399       3.5     0.011
+9    tod_asia_18_02     ES   5   dir_h1  2018-25H1  184568            none  CONFIDENTLY NOTHING                -0.000       0.027   0.019  1.467       3.5     0.003
+10     fam_breakout     ES  15   dir_h8        all   57379            none  CONFIDENTLY NOTHING                -0.119      -0.390   0.235 -1.659       3.5    -0.691
+11     fam_breakout     ES  15   dir_h8  2018-25H1   33627            none  CONFIDENTLY NOTHING                -0.119      -0.214   0.393 -0.544       3.5    -0.717
+12  fam_compression     ES  15   dir_h2        all  127720       CONFIRMED   REAL BUT TOO SMALL                 0.345       0.227   0.075  3.034       3.5     0.131
+13  fam_compression     ES  15   dir_h2  2018-25H1   64945       CONFIRMED   REAL BUT TOO SMALL                 0.345       0.339   0.148  2.294       3.5     0.149
+14        mom14_div     ES  15   dir_h1        all   50270            none  CONFIDENTLY NOTHING                 0.358      -0.055   0.074 -0.749       3.5    -0.150
+15        mom14_div     ES  15   dir_h1  2018-25H1   24250            none  CONFIDENTLY NOTHING                 0.358      -0.157   0.153 -1.029       3.5    -0.352
+16         pat_doji     ES  15  dir_eod        all   52292       CONFIRMED      REAL & TRADABLE                 9.692       0.410   2.057  0.199       3.5    -2.226
+17         pat_doji     ES  15  dir_eod  2018-25H1   24637       CONFIRMED      REAL & TRADABLE                 9.692       1.116   4.025  0.277       3.5    -4.042
+18   tod_asia_18_02     ES  15  dir_eod        all  122176            none         INCONCLUSIVE                 9.289       4.265   2.753  1.549       3.5     0.737
+19   tod_asia_18_02     ES  15  dir_eod  2018-25H1   61148            none         INCONCLUSIVE                 9.289       5.660   5.014  1.129       3.5    -0.766
+20     fam_breakout     ES  60   dir_h8        all   13823            none         INCONCLUSIVE                 3.275      -2.089   0.884 -2.363       3.5    -3.222
+21     fam_breakout     ES  60   dir_h8  2018-25H1    7569            none         INCONCLUSIVE                 3.275      -3.780   1.489 -2.538       3.5    -5.688
+22  fam_compression     ES  60  dir_eod        all   29753            none  CONFIDENTLY NOTHING                 3.275       0.903   2.035  0.444       3.5    -1.705
+23  fam_compression     ES  60  dir_eod  2018-25H1   14599            none  CONFIDENTLY NOTHING                 3.275       1.570   4.059  0.387       3.5    -3.632
+24        mom14_div     ES  60  dir_eod        all   12105            none  CONFIDENTLY NOTHING                 1.573       1.472   2.372  0.621       3.5    -1.568
+25        mom14_div     ES  60  dir_eod  2018-25H1    6038            none  CONFIDENTLY NOTHING                 1.573       3.088   4.619  0.669       3.5    -2.832
+26         pat_doji     ES  60   dir_h2        all   13886            none  CONFIDENTLY NOTHING                 0.488       0.016   0.363  0.044       3.5    -0.449
+27         pat_doji     ES  60   dir_h2  2018-25H1    6846            none  CONFIDENTLY NOTHING                 0.488      -0.201   0.703 -0.286       3.5    -1.102
+28   tod_asia_18_02     ES  60  dir_eod        all   30452        possible         INCONCLUSIVE                 5.538       4.102   2.720  1.508       3.5     0.616
+29   tod_asia_18_02     ES  60  dir_eod  2018-25H1   15242        possible         INCONCLUSIVE                 5.538       5.316   4.827  1.101       3.5    -0.870
+30     fam_breakout     NQ   5   dir_h2        all  207676            none  CONFIDENTLY NOTHING                 0.270      -0.328   0.056 -5.829       2.0    -0.400
+31     fam_breakout     NQ   5   dir_h2  2018-25H1  119944            none  CONFIDENTLY NOTHING                 0.270      -0.507   0.101 -5.023       2.0    -0.636
+32  fam_compression     NQ   5   dir_h4        all  374163        possible         INCONCLUSIVE                 0.389       0.089   0.077  1.157       2.0    -0.010
+33  fam_compression     NQ   5   dir_h4  2018-25H1  202333        possible         INCONCLUSIVE                 0.389       0.126   0.149  0.848       2.0    -0.064
+34        mom14_div     NQ   5   dir_h1        all  146890       CONFIRMED   REAL BUT TOO SMALL                 0.147      -0.041   0.038 -1.060       2.0    -0.090
+35        mom14_div     NQ   5   dir_h1  2018-25H1   69580       CONFIRMED   REAL BUT TOO SMALL                 0.147      -0.034   0.078 -0.440       2.0    -0.135
+36         pat_doji     NQ   5   dir_h8        all  145574       CONFIRMED   REAL BUT TOO SMALL                 1.035       0.237   0.155  1.528       2.0     0.038
+37         pat_doji     NQ   5   dir_h8  2018-25H1   73321       CONFIRMED   REAL BUT TOO SMALL                 1.035       0.446   0.315  1.416       2.0     0.042
+38   tod_asia_18_02     NQ   5  dir_h16        all  367371            none  CONFIDENTLY NOTHING                 0.379       0.137   0.224  0.611       2.0    -0.150
+39   tod_asia_18_02     NQ   5  dir_h16  2018-25H1  184521            none  CONFIDENTLY NOTHING                 0.379       0.267   0.465  0.575       2.0    -0.328
+40     fam_breakout     NQ  15   dir_h1        all   72642            none         INCONCLUSIVE                 0.203      -0.237   0.113 -2.102       2.0    -0.381
+41     fam_breakout     NQ  15   dir_h1  2018-25H1   40038            none         INCONCLUSIVE                 0.203      -0.344   0.189 -1.819       2.0    -0.586
+42  fam_compression     NQ  15  dir_eod        all  130356            none         INCONCLUSIVE                12.958       1.425   3.440  0.414       2.0    -2.984
+43  fam_compression     NQ  15  dir_eod  2018-25H1   67337            none         INCONCLUSIVE                12.958       2.656   6.417  0.414       2.0    -5.568
+44        mom14_div     NQ  15  dir_eod        all   46087            none         INCONCLUSIVE                 0.599      -1.244   2.080 -0.598       2.0    -3.910
+45        mom14_div     NQ  15  dir_eod  2018-25H1   22498            none         INCONCLUSIVE                 0.599      -2.432   4.508 -0.540       2.0    -8.210
+46         pat_doji     NQ  15  dir_eod        all   50582       CONFIRMED      REAL & TRADABLE                15.099       1.086   3.485  0.312       2.0    -3.381
+47         pat_doji     NQ  15  dir_eod  2018-25H1   25412       CONFIRMED      REAL & TRADABLE                15.099       1.895   6.575  0.288       2.0    -6.531
+48   tod_asia_18_02     NQ  15  dir_eod        all  122158            none         INCONCLUSIVE                12.766       4.799   4.473  1.073       2.0    -0.934
+49   tod_asia_18_02     NQ  15  dir_eod  2018-25H1   61141            none         INCONCLUSIVE                12.766       7.004   8.526  0.821       2.0    -3.924
+50     fam_breakout     NQ  60   dir_h8        all   15833            none         INCONCLUSIVE                 2.926      -2.108   1.257 -1.677       2.0    -3.719
+51     fam_breakout     NQ  60   dir_h8  2018-25H1    8202            none         INCONCLUSIVE                 2.926      -3.776   2.430 -1.554       2.0    -6.891
+52  fam_compression     NQ  60  dir_eod        all   30560            none         INCONCLUSIVE                 4.713       2.039   3.262  0.625       2.0    -2.142
+53  fam_compression     NQ  60  dir_eod  2018-25H1   15246            none         INCONCLUSIVE                 4.713       3.944   6.551  0.602       2.0    -4.452
+54        mom14_div     NQ  60  dir_h16        all   11784            none         INCONCLUSIVE                 1.967      -0.639   3.296 -0.194       2.0    -4.863
+55        mom14_div     NQ  60  dir_h16  2018-25H1    5786            none         INCONCLUSIVE                 1.967      -0.695   6.654 -0.104       2.0    -9.223
+56         pat_doji     NQ  60  dir_eod        all   14765            none         INCONCLUSIVE                 5.526       1.971   3.723  0.530       2.0    -2.800
+57         pat_doji     NQ  60  dir_eod  2018-25H1    7071            none         INCONCLUSIVE                 5.526       4.562   7.677  0.594       2.0    -5.277
+58   tod_asia_18_02     NQ  60  dir_eod        all   30452       CONFIRMED   REAL BUT TOO SMALL                 8.888       4.994   4.348  1.149       2.0    -0.578
+59   tod_asia_18_02     NQ  60  dir_eod  2018-25H1   15242       CONFIRMED   REAL BUT TOO SMALL                 8.888       7.373   8.405  0.877       2.0    -3.399
+60     fam_breakout     YM   5  dir_eod        all  110112            none  CONFIDENTLY NOTHING                 0.867       0.507   0.408  1.242       2.0    -0.016
+61     fam_breakout     YM   5  dir_eod  2018-25H1  110112            none  CONFIDENTLY NOTHING                 0.867       0.507   0.408  1.242       2.0    -0.016
+62  fam_compression     YM   5   dir_h4        all  191988       CONFIRMED   REAL BUT TOO SMALL                 0.323       0.169   0.070  2.425       2.0     0.080
+63  fam_compression     YM   5   dir_h4  2018-25H1  191988       CONFIRMED   REAL BUT TOO SMALL                 0.323       0.169   0.070  2.425       2.0     0.080
+64        mom14_div     YM   5  dir_eod        all   71869            none         INCONCLUSIVE                 0.002      -0.871   1.561 -0.558       2.0    -2.872
+65        mom14_div     YM   5  dir_eod  2018-25H1   71869            none         INCONCLUSIVE                 0.002      -0.871   1.561 -0.558       2.0    -2.872
+66         pat_doji     YM   5   dir_h4        all   69680       CONFIRMED   REAL BUT TOO SMALL                 0.660       0.159   0.092  1.735       2.0     0.042
+67         pat_doji     YM   5   dir_h4  2018-25H1   69680       CONFIRMED   REAL BUT TOO SMALL                 0.660       0.159   0.092  1.735       2.0     0.042
+68   tod_asia_18_02     YM   5   dir_h4        all  184384            none         INCONCLUSIVE                 0.281      -0.022   0.051 -0.428       2.0    -0.087
+69   tod_asia_18_02     YM   5   dir_h4  2018-25H1  184384            none         INCONCLUSIVE                 0.281      -0.022   0.051 -0.428       2.0    -0.087
+70     fam_breakout     YM  15   dir_h4        all   38053            none  CONFIDENTLY NOTHING                 0.017      -0.049   0.201 -0.246       2.0    -0.307
+71     fam_breakout     YM  15   dir_h4  2018-25H1   38053            none  CONFIDENTLY NOTHING                 0.017      -0.049   0.201 -0.246       2.0    -0.307
+72  fam_compression     YM  15   dir_h2        all   65914       CONFIRMED   REAL BUT TOO SMALL                 0.417       0.359   0.113  3.167       2.0     0.214
+73  fam_compression     YM  15   dir_h2  2018-25H1   65914       CONFIRMED   REAL BUT TOO SMALL                 0.417       0.359   0.113  3.167       2.0     0.214
+74        mom14_div     YM  15  dir_eod        all   22597            none         INCONCLUSIVE                 1.010      -1.071   2.731 -0.392       2.0    -4.571
+75        mom14_div     YM  15  dir_eod  2018-25H1   22597            none         INCONCLUSIVE                 1.010      -1.071   2.731 -0.392       2.0    -4.571
+76         pat_doji     YM  15  dir_h16        all   25341       CONFIRMED      REAL & TRADABLE                 5.060       0.284   0.771  0.369       2.0    -0.703
+77         pat_doji     YM  15  dir_h16  2018-25H1   25341       CONFIRMED      REAL & TRADABLE                 5.060       0.284   0.771  0.369       2.0    -0.703
+78   tod_asia_18_02     YM  15  dir_eod        all   61086            none         INCONCLUSIVE                 7.039       2.709   3.729  0.726       2.0    -2.070
+79   tod_asia_18_02     YM  15  dir_eod  2018-25H1   61086            none         INCONCLUSIVE                 7.039       2.709   3.729  0.726       2.0    -2.070
+80     fam_breakout     YM  60   dir_h1        all    8213            none         INCONCLUSIVE                 0.428       0.488   0.437  1.118       2.0    -0.072
+81     fam_breakout     YM  60   dir_h1  2018-25H1    8213            none         INCONCLUSIVE                 0.428       0.488   0.437  1.118       2.0    -0.072
+82  fam_compression     YM  60   dir_h1        all   15132            none         INCONCLUSIVE                 0.591       0.587   0.279  2.104       2.0     0.229
+83  fam_compression     YM  60   dir_h1  2018-25H1   15132            none         INCONCLUSIVE                 0.591       0.587   0.279  2.104       2.0     0.229
+84        mom14_div     YM  60   dir_h1        all    5835            none         INCONCLUSIVE                 0.471      -0.488   0.490 -0.996       2.0    -1.117
+85        mom14_div     YM  60   dir_h1  2018-25H1    5835            none         INCONCLUSIVE                 0.471      -0.488   0.490 -0.996       2.0    -1.117
+86         pat_doji     YM  60   dir_h8        all    7037            none         INCONCLUSIVE                 0.629       2.357   1.420  1.659       2.0     0.537
+87         pat_doji     YM  60   dir_h8  2018-25H1    7037            none         INCONCLUSIVE                 0.629       2.357   1.420  1.659       2.0     0.537
+88   tod_asia_18_02     YM  60  dir_h16        all   15225            none         INCONCLUSIVE                -1.820      -1.135   3.030 -0.375       2.0    -5.019
+89   tod_asia_18_02     YM  60  dir_h16  2018-25H1   15225            none         INCONCLUSIVE                -1.820      -1.135   3.030 -0.375       2.0    -5.019

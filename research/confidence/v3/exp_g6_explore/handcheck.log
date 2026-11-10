@@ -1,0 +1,12 @@
+       col market     session entry  exit  d  stop_pts  target_pts  h_entry_px  hand_entry_px  h_exit_px  hand_exit_px  h_kind hand_kind   h_pnl  hand_pnl                                               signal_check  match
+0  X1a_MES     ES  2022-03-08  0930  1600  1       NaN         NaN     4199.75        4199.75   4165.500      4165.500    time      time -174.75   -174.75                                                              True
+1   X2_MES     ES  2021-07-29  0930  1100 -1    10.000       10.00     4402.75        4402.75   4413.000      4413.000    stop      stop  -54.75    -54.75      prev 16:00 close 4392.75 gap 0.00228 side -1 pts 10.0   True
+2   X3_MES     ES  2025-06-16  0215  0930  1    27.125         NaN     5998.00        5998.00   6014.250      6014.250    time      time   77.75     77.75     range 5944.0-5997.75 mid 5970.875 stop_pts_hand 27.125   True
+3   X4_MES     ES  2016-11-10  1300  1330 -1       NaN         NaN     2166.50        2166.50   2167.750      2167.750    time      time   -9.75     -9.75                                                              True
+4   X5_MES     ES  2023-04-19  1200  1530 -1       NaN         NaN     4173.50        4173.50   4181.500      4181.500    time      time  -43.50    -43.50                          09:30->12:00 move 0.00361 side -1   True
+5   X2_MNQ     NQ  2017-05-05  0930  1100 -1    14.250       14.25     5637.75        5637.75   5623.500      5623.500  target    target   26.50     26.50      prev 16:00 close 5623.5 gap 0.00253 side -1 pts 14.25   True
+6   X3_MNQ     NQ  2021-07-09  0315  0930  1    54.625         NaN    14733.25       14733.25  14678.375     14678.375    stop      stop -111.75   -111.75  range 14640.75-14716.5 mid 14678.625 stop_pts_hand 54.625   True
+7   X5_MNQ     NQ  2019-07-08  1200  1530  1       NaN         NaN     7791.75        7791.75   7809.500      7809.500    time      time   33.50     33.50                          09:30->12:00 move -0.00329 side 1   True
+8  X1b_MYM     YM  2020-03-17  1000  1600  1       NaN         NaN    19947.00       19947.00  21263.000     21263.000    time      time  656.00    656.00                              px_1000-px_0930 -687.0 side 1   True
+9   X4_MYM     YM  2020-12-11  1300  1330 -1       NaN         NaN    29925.00       29925.00  29963.000     29963.000    time      time  -21.00    -21.00                                                              True
+hand-check: 10 / 10 trades match

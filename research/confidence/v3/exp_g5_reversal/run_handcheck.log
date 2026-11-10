@@ -1,0 +1,12 @@
+             col market     session entry  exit  d  h_entry_px  hand_entry_px  h_exit_px  hand_exit_px h_kind hand_kind   h_pnl  hand_pnl  raw_side  side_ok  match
+0             A5     ES  2025-05-26  1800  1645  1     5820.00        5820.00    5891.00       5891.00  close     close  351.50    351.50       1.0     True   True
+1             A5     ES  2015-03-11  1800  1645  1     2044.25        2044.25    2042.50       2042.50   time      time  -12.25    -12.25       1.0     True   True
+2             A5     ES  2017-10-10  1800  1645 -1     2543.25        2543.25    2549.00       2549.00   time      time  -32.25    -32.25      -1.0     True   True
+3           S5.5     ES  2024-06-11  0200  0300  1     5369.50        5369.50    5370.00       5370.00   time      time   -1.00     -1.00       NaN     True   True
+4             A5     NQ  2016-11-14  1800  1645  1     4753.00        4753.00    4694.25       4694.25   time      time -119.50   -119.50       1.0     True   True
+5             A5     NQ  2016-04-28  1800  1645  1     4432.00        4432.00    4383.25       4383.25   time      time  -99.50    -99.50       1.0     True   True
+6           S5.6     NQ  2023-09-22  0200  0930  1    14904.25       14904.25   14937.50      14937.50   time      time   64.50     64.50       NaN     True   True
+7             A5     YM  2023-12-14  1800  1645 -1    37488.00       37488.00   37618.00      37618.00   time      time  -67.00    -67.00      -1.0     True   True
+8             A5     YM  2020-06-18  1800  1645 -1    26020.00       26020.00   25929.00      25929.00   time      time   43.50     43.50      -1.0     True   True
+9  A5_N4_daypart     YM  2023-09-12  0930  1600 -1    34606.00       34606.00   34662.00      34662.00   time      time  -30.00    -30.00      -1.0     True   True
+hand-check: 10 / 10 prices+P&L match; A5 sides from raw data match: 10 / 10

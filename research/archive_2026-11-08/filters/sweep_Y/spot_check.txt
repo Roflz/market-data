@@ -1,0 +1,10 @@
+trade 3 2011-01-12 long signal 13:55 inst [np.int64(93735)]: hand ATR 1.2321 stop 2.4643 raw close 2301.75 width 0.001071 $risk 6.93 | pipeline ATR 1.2321 stop 2.4643 raw 2301.75 width 0.001071 $risk 6.93 | match True
+trade 400 2014-07-22 long signal 09:35 inst [np.int64(83745)]: hand ATR 2.6250 stop 5.2500 raw close 3949.25 width 0.001329 $risk 12.50 | pipeline ATR 2.6250 stop 5.2500 raw 3949.25 width 0.001329 $risk 12.50 | match True
+trade 900 2019-02-26 long signal 10:00 inst [np.int64(15657)]: hand ATR 8.9464 stop 17.8929 raw close 7131.25 width 0.002509 $risk 37.79 | pipeline ATR 8.9464 stop 17.8929 raw 7131.25 width 0.002509 $risk 37.79 | match True
+trade 1300 2022-12-27 short signal 09:30 inst [np.int64(20631)]: hand ATR 16.9643 stop 33.9286 raw close 11018.75 width 0.003079 $risk 69.86 | pipeline ATR 16.9643 stop 33.9286 raw 11018.75 width 0.003079 $risk 69.86 | match True
+trade 1700 2026-06-24 short signal 10:15 inst [np.int64(42004177)]: hand ATR 101.5714 stop 203.1429 raw close 29584.25 width 0.006867 $risk 408.29 | pipeline ATR 101.5714 stop 203.1429 raw 29584.25 width 0.006867 $risk 408.29 | match True
+trade 3 M4 independent 1.095238 pipeline 1.095238 match True; history sessions 2010-10-19..2011-01-11 (trade session 2011-01-12)
+trade 400 M4 independent 2.070423 pipeline 2.070423 match True; history sessions 2014-04-25..2014-07-21 (trade session 2014-07-22)
+trade 900 M4 independent 1.527439 pipeline 1.527439 match True; history sessions 2018-11-30..2019-02-25 (trade session 2019-02-26)
+trade 1300 M4 independent 1.312155 pipeline 1.312155 match True; history sessions 2022-10-03..2022-12-23 (trade session 2022-12-27)
+trade 1700 M4 independent 4.500000 pipeline 4.500000 match True; history sessions 2026-04-01..2026-06-23 (trade session 2026-06-24)

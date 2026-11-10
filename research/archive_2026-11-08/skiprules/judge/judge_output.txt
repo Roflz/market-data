@@ -1,0 +1,50 @@
+ctx last rows:
+             spx_ret_1d_prev   vix_prev
+Date                                  
+2026-11-04         0.364919  20.830000
+2026-11-05         1.581470  16.610001
+2026-11-06        -4.355660  28.180000
+next FOMC dates >= 2026-11-01: []
+
+===== R1 overnight_break: n=49 $-64.53 vs +13.41 t -3.76; bp -27.5 vs +4.8 t -2.82; R -0.395 vs +0.199 t -2.85
+  VIX tercile 2.0: cond n=6 bp +23.9 R +0.306 | other n=695 bp +7.5 R +0.311 | t(bp) +0.41 t(R) -0.01
+  VIX tercile 3.0: cond n=43 bp -34.7 R -0.493 | other n=332 bp +5.8 R +0.200 | t(bp) -3.23 t(R) -3.01
+  VIX_prev>=25: cond n=33 bp -32.3 R -0.394 | other n=178 bp +9.1 R +0.312 | t(bp) -2.57 t(R) -2.37
+  OLS bp ~ cond + log(vix_prev) + rv20: cond coef -34.859 (robust t -2.89); logvix coef +5.351 (t +0.59)
+  OLS R ~ cond + log(vix_prev) + rv20: cond coef -0.698 (robust t -3.03); logvix coef +0.270 (t +0.99)
+  circular-shift (bp): obs diff -32.267; 3866 shifts; share as bad or worse 0.00%; shift 1st pct -17.728
+  circular-shift (R): obs diff -0.594; 3866 shifts; share as bad or worse 1.73%; shift 1st pct -0.651
+  2010-2017: n=17 bp -7.1 vs -0.6 (t -0.31); R -0.091 vs -0.034 (t -0.13)
+  2018-2026: n=32 bp -38.3 vs +9.1 (t -3.57); R -0.556 vs +0.387 (t -4.42)
+  right tail: share of trades on cond days 2.8%; of top-5% R trades 0.0%; of top-1% 0.0%; best cond-day trades (usd): [190.5, 248.0, 354.0]
+  top-20 $ trades of model on cond days: 0; sum of cond-day positive trades $1402, negative $-4564
+  2021-26: cond trades/yr 2.6; other-day mean $+27.55; cond-day mean $-160.53
+    if rule useless (cond days = other days): skipping costs ~$71/yr; if real at observed size: keeping costs ~$413/yr; break-even shrink: effect only needs cond mean < $0... 
+  leave-one-year-out t(bp): min -2.18 (weakest) .. -3.30
+
+===== R1 opening_range: n=123 $-37.16 vs +4.42 t -3.33; bp -18.5 vs +1.6 t -3.00; R -0.444 vs +0.037 t -2.87
+  VIX tercile 2.0: cond n=16 bp -4.1 R -0.529 | other n=1434 bp +1.6 R +0.083 | t(bp) -0.39 t(R) -1.51
+  VIX tercile 3.0: cond n=107 bp -20.6 R -0.432 | other n=782 bp +3.5 R +0.068 | t(bp) -3.01 t(R) -2.47
+  VIX_prev>=25: cond n=87 bp -16.5 R -0.292 | other n=407 bp +9.4 R +0.211 | t(bp) -2.46 t(R) -1.94
+  OLS bp ~ cond + log(vix_prev) + rv20: cond coef -22.531 (robust t -2.94); logvix coef +9.210 (t +1.16)
+  OLS R ~ cond + log(vix_prev) + rv20: cond coef -0.587 (robust t -2.99); logvix coef +0.377 (t +1.68)
+  circular-shift (bp): obs diff -20.044; 4012 shifts; share as bad or worse 0.00%; shift 1st pct -11.823
+  circular-shift (R): obs diff -0.482; 4012 shifts; share as bad or worse 1.12%; shift 1st pct -0.492
+  2010-2017: n=39 bp -7.3 vs -0.9 (t -0.63); R -0.233 vs -0.102 (t -0.42)
+  2018-2026: n=84 bp -23.7 vs +3.5 (t -3.16); R -0.543 vs +0.147 (t -3.43)
+  right tail: share of trades on cond days 3.3%; of top-5% R trades 1.1%; of top-1% 2.6%; best cond-day trades (usd): [400.5, 588.0, 590.5]
+  top-20 $ trades of model on cond days: 0; sum of cond-day positive trades $3665, negative $-8236
+  2021-26: cond trades/yr 6.7; other-day mean $+9.50; cond-day mean $-73.54
+    if rule useless (cond days = other days): skipping costs ~$63/yr; if real at observed size: keeping costs ~$491/yr; break-even shrink: effect only needs cond mean < $0... 
+  leave-one-year-out t(bp): min -2.42 (weakest) .. -3.55
+
+===== R2 opening_range: n=122 $-28.23 vs +4.11 t -4.11; bp -10.9 vs +1.3 t -3.25; R -0.476 vs +0.038 t -2.81
+  circular-shift (bp): obs diff -12.170; 4012 shifts; share as bad or worse 1.02%; shift 1st pct -12.216
+  circular-shift (R): obs diff -0.514; 4012 shifts; share as bad or worse 0.67%; shift 1st pct -0.486
+  2010-2017: n=52 bp -2.5 vs -1.0 (t -0.23); R -0.126 vs -0.104 (t -0.06)
+  2018-2026: n=70 bp -17.1 vs +3.1 (t -4.99); R -0.737 vs +0.149 (t -5.06)
+  right tail: share of trades on cond days 3.3%; of top-5% R trades 1.6%; of top-1% 2.6%; best cond-day trades (usd): [306.0, 361.5, 405.5]
+  top-20 $ trades of model on cond days: 0; sum of cond-day positive trades $1750, negative $-5194
+  2021-26: cond trades/yr 8.1; other-day mean $+9.29; cond-day mean $-53.17
+    if rule useless (cond days = other days): skipping costs ~$75/yr; if real at observed size: keeping costs ~$428/yr; break-even shrink: effect only needs cond mean < $0... 
+  leave-one-year-out t(bp): min -2.51 (weakest) .. -3.76

@@ -1,0 +1,665 @@
+{
+ "chart": "modelB_mnq_win.png",
+ "card_image": "modelB_mnq_win_card.png",
+ "caption": "Model B MNQ 15-min long on 2021-02-04. Signal bar 13:00-13:15: rule(s) pb_break. Score 0.562 >= 2021 threshold 0.310, so kept. Entry at the 13:15 open 13,497.25, stop 13,455.00, time exit at close of 16:30-16:45 bar at 13,565.50: +134.50 $ per micro after costs.",
+ "how_picked": "numpy default_rng(20261109); among kept OOS trades (pre-holdout) of this market and outcome whose R is between the group's 25th and 75th percentile; one drawn at random",
+ "market": "MNQ",
+ "signal_bar_start": "2021-02-04 13:00:00",
+ "signal_bar_close": "2021-02-04 13:15:00",
+ "direction": 1,
+ "score": 0.5622391104698181,
+ "threshold": 0.30999647197729474,
+ "keep_share_q": 0.3,
+ "score_source": "v2/out/oos_M3_cls_hold_15m_exp.parquet:score (copied; model not refit)",
+ "threshold_source": "v2/out/models_folds.csv:threshold (cfg 15|hold|M3|cls|exp, fold 2021)",
+ "entry": 13497.25,
+ "stop": 13455.0,
+ "exit_price": 13565.5,
+ "exit_reason": "time exit at close of 16:30-16:45 bar (Lucid flat 16:45)",
+ "pnl_usd_stored": 134.5,
+ "R_stored": 1.5917159763313609,
+ "risk_usd": 84.5,
+ "rules_fired_stored": [
+  "pb_break"
+ ],
+ "rules_fired_recomputed": [
+  "pb_break"
+ ],
+ "patterns_last3": [
+  "12:30 bullish NR7 breakout up WITH",
+  "13:00 bullish inside-bar breakout up WITH",
+  "13:00 bearish close near the bar's high AGAINST",
+  "13:00 bearish 80/20 bar AGAINST",
+  "13:00 bearish close near the 5-bar high AGAINST"
+ ],
+ "last_swing_high": 13480.25,
+ "last_swing_low": 13391.75,
+ "recompute_check": {
+  "R20": {
+   "recomputed": 26.2125,
+   "stored": 26.212499618530273
+  },
+  "stop": {
+   "recomputed": 13455.0,
+   "stored": 13455.0
+  },
+  "entry": {
+   "recomputed": 13497.25,
+   "stored": 13497.25
+  },
+  "m15_c20": {
+   "recomputed": 1.617537461017533,
+   "stored": 1.617590069770813
+  },
+  "m15_c50": {
+   "recomputed": 2.0441993950866384,
+   "stored": 2.048058271408081
+  },
+  "m15_mom": {
+   "recomputed": 0.49886452477569776,
+   "stored": 0.4988645315170288
+  },
+  "vwap_dist": {
+   "recomputed": 2.3219908113088072,
+   "stored": 2.321990728378296
+  },
+  "day_room": {
+   "recomputed": 0.009537434430138294,
+   "stored": 0.009537434205412865
+  },
+  "m15_trend": {
+   "recomputed": 1.0,
+   "stored": 1.0
+  },
+  "m15_sw_room": {
+   "recomputed": -0.6580829756795422,
+   "stored": -0.6580829620361328
+  },
+  "m15_sw_cushion": {
+   "recomputed": 4.034334763948498,
+   "stored": 4.034334659576416
+  },
+  "rules_fired": {
+   "recomputed": "pb_break",
+   "stored": "pb_break"
+  },
+  "pnl_usd": {
+   "recomputed": 134.5,
+   "stored": 134.5
+  },
+  "m5_trend": {
+   "recomputed": 1.0,
+   "stored": 1.0
+  },
+  "m60_trend": {
+   "recomputed": 1.0,
+   "stored": 1.0
+  }
+ },
+ "discrepancies": [
+  "none above tolerance (2% or 0.001)"
+ ],
+ "recompute_sources": {
+  "R20": "features.py:176-183 on v3 bars",
+  "stop": "trigger_scan.py:78-81",
+  "entry": "labels.py:353",
+  "trend": "v2/dataset.py:110-119",
+  "swings": "signals.py:64-79,106-116",
+  "day_room": "features.py:278-293",
+  "exit": "exit walk on v3 15-min bars (v2 uses 1-minute walk, labels.py:295-334)"
+ },
+ "inputs": [
+  {
+   "key": "m5_trend",
+   "plain": "5-min trend (EMA8>20>50 and EMA50 rising)",
+   "value": 1.0,
+   "read": "agrees",
+   "model_constraint": "can only raise score",
+   "source": "v2_events_NQ_15.parquet:m5_trend"
+  },
+  {
+   "key": "m5_s820",
+   "plain": "5-min EMA8 minus EMA20 (R20)",
+   "value": 1.0812389850616455,
+   "read": "agrees",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:m5_s820"
+  },
+  {
+   "key": "m5_s2050",
+   "plain": "5-min EMA20 minus EMA50 (R20)",
+   "value": 1.3213669061660767,
+   "read": "agrees",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:m5_s2050"
+  },
+  {
+   "key": "m5_c20",
+   "plain": "5-min close minus EMA20 (R20)",
+   "value": 2.4199609756469727,
+   "read": "agrees",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:m5_c20"
+  },
+  {
+   "key": "m5_c50",
+   "plain": "5-min close minus EMA50 (R20)",
+   "value": 3.7413277626037598,
+   "read": "agrees",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:m5_c50"
+  },
+  {
+   "key": "m5_mom",
+   "plain": "5-min Momentum - 100 (14-bar % change)",
+   "value": 0.2525346279144287,
+   "read": "agrees",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:m5_mom"
+  },
+  {
+   "key": "m5_mslope3",
+   "plain": "5-min Momentum change over 3 bars",
+   "value": 0.10580085217952728,
+   "read": "agrees",
+   "model_constraint": "can only raise score",
+   "source": "v2_events_NQ_15.parquet:m5_mslope3"
+  },
+  {
+   "key": "m5_struct",
+   "plain": "5-min swing structure (HH+HL = +1)",
+   "value": 1.0,
+   "read": "agrees",
+   "model_constraint": "can only raise score",
+   "source": "v2_events_NQ_15.parquet:m5_struct"
+  },
+  {
+   "key": "m5_sw_room",
+   "plain": "5-min room to next swing ahead (R20)",
+   "value": -1.1587485074996948,
+   "read": "against (at/through it)",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:m5_sw_room"
+  },
+  {
+   "key": "m5_sw_cushion",
+   "plain": "5-min distance to last swing behind (R20)",
+   "value": 2.641946792602539,
+   "read": "info",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:m5_sw_cushion"
+  },
+  {
+   "key": "m15_trend",
+   "plain": "15-min trend (EMA8>20>50 and EMA50 rising)",
+   "value": 1.0,
+   "read": "agrees",
+   "model_constraint": "can only raise score",
+   "source": "v2_events_NQ_15.parquet:m15_trend"
+  },
+  {
+   "key": "m15_s820",
+   "plain": "15-min EMA8 minus EMA20 (R20)",
+   "value": 0.5806211829185486,
+   "read": "agrees",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:m15_s820"
+  },
+  {
+   "key": "m15_s2050",
+   "plain": "15-min EMA20 minus EMA50 (R20)",
+   "value": 0.43046826124191284,
+   "read": "agrees",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:m15_s2050"
+  },
+  {
+   "key": "m15_c20",
+   "plain": "15-min close minus EMA20 (R20)",
+   "value": 1.617590069770813,
+   "read": "agrees",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:m15_c20"
+  },
+  {
+   "key": "m15_c50",
+   "plain": "15-min close minus EMA50 (R20)",
+   "value": 2.048058271408081,
+   "read": "agrees",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:m15_c50"
+  },
+  {
+   "key": "m15_mom",
+   "plain": "15-min Momentum - 100 (14-bar % change)",
+   "value": 0.4988645315170288,
+   "read": "agrees",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:m15_mom"
+  },
+  {
+   "key": "m15_mslope3",
+   "plain": "15-min Momentum change over 3 bars",
+   "value": 0.3743407726287842,
+   "read": "agrees",
+   "model_constraint": "can only raise score",
+   "source": "v2_events_NQ_15.parquet:m15_mslope3"
+  },
+  {
+   "key": "m15_struct",
+   "plain": "15-min swing structure (HH+HL = +1)",
+   "value": 0.0,
+   "read": "neutral",
+   "model_constraint": "can only raise score",
+   "source": "v2_events_NQ_15.parquet:m15_struct"
+  },
+  {
+   "key": "m15_sw_room",
+   "plain": "15-min room to next swing ahead (R20)",
+   "value": -0.6580829620361328,
+   "read": "against (at/through it)",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:m15_sw_room"
+  },
+  {
+   "key": "m15_sw_cushion",
+   "plain": "15-min distance to last swing behind (R20)",
+   "value": 4.034334659576416,
+   "read": "info",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:m15_sw_cushion"
+  },
+  {
+   "key": "m60_trend",
+   "plain": "60-min trend (EMA8>20>50 and EMA50 rising)",
+   "value": 1.0,
+   "read": "agrees",
+   "model_constraint": "can only raise score",
+   "source": "v2_events_NQ_15.parquet:m60_trend"
+  },
+  {
+   "key": "m60_s820",
+   "plain": "60-min EMA8 minus EMA20 (R20)",
+   "value": 0.15888671576976776,
+   "read": "agrees",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:m60_s820"
+  },
+  {
+   "key": "m60_s2050",
+   "plain": "60-min EMA20 minus EMA50 (R20)",
+   "value": 0.6067857146263123,
+   "read": "agrees",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:m60_s2050"
+  },
+  {
+   "key": "m60_c20",
+   "plain": "60-min close minus EMA20 (R20)",
+   "value": 0.9383458495140076,
+   "read": "agrees",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:m60_c20"
+  },
+  {
+   "key": "m60_c50",
+   "plain": "60-min close minus EMA50 (R20)",
+   "value": 1.5451315641403198,
+   "read": "agrees",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:m60_c50"
+  },
+  {
+   "key": "m60_mom",
+   "plain": "60-min Momentum - 100 (14-bar % change)",
+   "value": 0.8227682113647461,
+   "read": "agrees",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:m60_mom"
+  },
+  {
+   "key": "m60_mslope3",
+   "plain": "60-min Momentum change over 3 bars",
+   "value": 0.6737091541290283,
+   "read": "agrees",
+   "model_constraint": "can only raise score",
+   "source": "v2_events_NQ_15.parquet:m60_mslope3"
+  },
+  {
+   "key": "m60_struct",
+   "plain": "60-min swing structure (HH+HL = +1)",
+   "value": -1.0,
+   "read": "against",
+   "model_constraint": "can only raise score",
+   "source": "v2_events_NQ_15.parquet:m60_struct"
+  },
+  {
+   "key": "m60_sw_room",
+   "plain": "60-min room to next swing ahead (R20)",
+   "value": -0.5743788480758667,
+   "read": "against (at/through it)",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:m60_sw_room"
+  },
+  {
+   "key": "m60_sw_cushion",
+   "plain": "60-min distance to last swing behind (R20)",
+   "value": 3.4656341075897217,
+   "read": "info",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:m60_sw_cushion"
+  },
+  {
+   "key": "day_room",
+   "plain": "room to high/low of day (R20)",
+   "value": 0.009537434205412865,
+   "read": "against (at/through it)",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:day_room"
+  },
+  {
+   "key": "day_cushion",
+   "plain": "distance to other end of day range",
+   "value": 5.808297634124756,
+   "read": "info",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:day_cushion"
+  },
+  {
+   "key": "day_pos",
+   "plain": "place in day range (1 = at trade-side extreme)",
+   "value": 0.9983606338500977,
+   "read": "info",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:day_pos"
+  },
+  {
+   "key": "day_range_R",
+   "plain": "day range so far (R20)",
+   "value": 5.817834854125977,
+   "read": "info",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:day_range_R"
+  },
+  {
+   "key": "vwap_side",
+   "plain": "side of session VWAP (+1 = trade side)",
+   "value": 1.0,
+   "read": "agrees",
+   "model_constraint": "can only raise score",
+   "source": "v2_events_NQ_15.parquet:vwap_side"
+  },
+  {
+   "key": "vwap_dist",
+   "plain": "distance from VWAP (R20)",
+   "value": 2.321990728378296,
+   "read": "agrees",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:vwap_dist"
+  },
+  {
+   "key": "gap",
+   "plain": "18:00 reopen gap, with trade (R20)",
+   "value": 0.5507394075393677,
+   "read": "agrees",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:gap"
+  },
+  {
+   "key": "prior_range",
+   "plain": "yesterday's range (R20)",
+   "value": 7.5441107749938965,
+   "read": "info",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:prior_range"
+  },
+  {
+   "key": "pat_with3",
+   "plain": "candle patterns WITH trade, last 3 bars",
+   "value": 2.0,
+   "read": "agrees",
+   "model_constraint": "can only raise score",
+   "source": "v2_events_NQ_15.parquet:pat_with3"
+  },
+  {
+   "key": "pat_against3",
+   "plain": "candle patterns AGAINST trade, last 3 bars",
+   "value": 3.0,
+   "read": "against",
+   "model_constraint": "can only lower score",
+   "source": "v2_events_NQ_15.parquet:pat_against3"
+  },
+  {
+   "key": "rev_at_low",
+   "plain": "reversal candle at the pullback low",
+   "value": 0.0,
+   "read": "neutral",
+   "model_constraint": "can only raise score",
+   "source": "v2_events_NQ_15.parquet:rev_at_low"
+  },
+  {
+   "key": "pb_depth",
+   "plain": "pullback depth (SH-PL)/(SH-SL)",
+   "value": null,
+   "read": "no value (NaN)",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:pb_depth"
+  },
+  {
+   "key": "pb_bars",
+   "plain": "pullback length (bars)",
+   "value": null,
+   "read": "no value (NaN)",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:pb_bars"
+  },
+  {
+   "key": "pb_div",
+   "plain": "hidden Momentum divergence",
+   "value": null,
+   "read": "no value (NaN)",
+   "model_constraint": "can only raise score",
+   "source": "v2_events_NQ_15.parquet:pb_div"
+  },
+  {
+   "key": "pb_momflip",
+   "plain": "Momentum crossed 100 in pullback",
+   "value": null,
+   "read": "no value (NaN)",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:pb_momflip"
+  },
+  {
+   "key": "min_since_18",
+   "plain": "minutes since 18:00 at entry",
+   "value": 1155.0,
+   "read": "info",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:min_since_18"
+  },
+  {
+   "key": "tod_18_22",
+   "plain": "time block 18-22h",
+   "value": 0.0,
+   "read": "info",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:tod_18_22"
+  },
+  {
+   "key": "tod_23_02",
+   "plain": "time block 23-02h",
+   "value": 0.0,
+   "read": "info",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:tod_23_02"
+  },
+  {
+   "key": "tod_03_08",
+   "plain": "time block 03-08h",
+   "value": 0.0,
+   "read": "info",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:tod_03_08"
+  },
+  {
+   "key": "tod_09_11",
+   "plain": "time block 09-11h",
+   "value": 0.0,
+   "read": "info",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:tod_09_11"
+  },
+  {
+   "key": "tod_12_16",
+   "plain": "time block 12-16h",
+   "value": 1.0,
+   "read": "info",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:tod_12_16"
+  },
+  {
+   "key": "dow",
+   "plain": "weekday (0 = Monday)",
+   "value": 3.0,
+   "read": "info",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:dow"
+  },
+  {
+   "key": "risk_R20",
+   "plain": "stop distance from close (R20)",
+   "value": 1.621363878250122,
+   "read": "info",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:risk_R20"
+  },
+  {
+   "key": "cost_R",
+   "plain": "round-trip cost / stop distance",
+   "value": 0.0235294122248888,
+   "read": "against",
+   "model_constraint": "can only lower score",
+   "source": "v2_events_NQ_15.parquet:cost_R"
+  },
+  {
+   "key": "cost_bar",
+   "plain": "round-trip cost / R20",
+   "value": 0.03814973682165146,
+   "read": "against",
+   "model_constraint": "can only lower score",
+   "source": "v2_events_NQ_15.parquet:cost_bar"
+  },
+  {
+   "key": "n_tf_agree",
+   "plain": "how many of 5/15/60 trends agree",
+   "value": 3.0,
+   "read": "agrees",
+   "model_constraint": "can only raise score",
+   "source": "v2_events_NQ_15.parquet:n_tf_agree"
+  },
+  {
+   "key": "mtf_trend60",
+   "plain": "60-min trend agrees (0/1)",
+   "value": 1.0,
+   "read": "agrees",
+   "model_constraint": "can only raise score",
+   "source": "v2_events_NQ_15.parquet:mtf_trend60"
+  },
+  {
+   "key": "mtf_trig5",
+   "plain": "5-min trigger same way, last 6 bars",
+   "value": 1.0,
+   "read": "agrees",
+   "model_constraint": "can only raise score",
+   "source": "v2_events_NQ_15.parquet:mtf_trig5"
+  },
+  {
+   "key": "mtf_mom5",
+   "plain": "5-min Momentum up & EMA8>20",
+   "value": 1.0,
+   "read": "agrees",
+   "model_constraint": "can only raise score",
+   "source": "v2_events_NQ_15.parquet:mtf_mom5"
+  },
+  {
+   "key": "mtf_score",
+   "plain": "sum of the 3 above",
+   "value": 3.0,
+   "read": "agrees",
+   "model_constraint": "can only raise score",
+   "source": "v2_events_NQ_15.parquet:mtf_score"
+  },
+  {
+   "key": "pb",
+   "plain": "rule: swing pullback detector",
+   "value": 0.0,
+   "read": "-",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:pb"
+  },
+  {
+   "key": "ema8_pb",
+   "plain": "rule: EMA8 pullback",
+   "value": 0.0,
+   "read": "-",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:ema8_pb"
+  },
+  {
+   "key": "ema20_pb",
+   "plain": "rule: EMA20 pullback",
+   "value": 0.0,
+   "read": "-",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:ema20_pb"
+  },
+  {
+   "key": "ema50_pb",
+   "plain": "rule: EMA50 pullback",
+   "value": 0.0,
+   "read": "-",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:ema50_pb"
+  },
+  {
+   "key": "mom_turn",
+   "plain": "rule: Momentum turn",
+   "value": 0.0,
+   "read": "-",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:mom_turn"
+  },
+  {
+   "key": "pb_break",
+   "plain": "rule: pullback-bar break",
+   "value": 1.0,
+   "read": "fired",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:pb_break"
+  },
+  {
+   "key": "n_rules",
+   "plain": "number of rules that fired",
+   "value": 1.0,
+   "read": "agrees",
+   "model_constraint": "can only raise score",
+   "source": "v2_events_NQ_15.parquet:n_rules"
+  },
+  {
+   "key": "mkt_ES",
+   "plain": "market is MES (0/1)",
+   "value": 0.0,
+   "read": "info",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:mkt_ES"
+  },
+  {
+   "key": "mkt_YM",
+   "plain": "market is MYM (0/1)",
+   "value": 0.0,
+   "read": "info",
+   "model_constraint": "free shape",
+   "source": "v2_events_NQ_15.parquet:mkt_YM"
+  }
+ ]
+}

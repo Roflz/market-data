@@ -1,0 +1,70 @@
+ES X1a lookahead_check ok 1232
+ES X1b lookahead_check ok 1203
+ES X2 lookahead_check ok 17364
+ES X3 lookahead_check ok 27732
+ES X4 lookahead_check ok 40510
+ES X5 lookahead_check ok 7906
+NQ X1a lookahead_check ok 1232
+NQ X1b lookahead_check ok 1223
+NQ X2 lookahead_check ok 16429
+NQ X3 lookahead_check ok 28696
+NQ X4 lookahead_check ok 40510
+NQ X5 lookahead_check ok 7680
+YM X1a lookahead_check ok 945
+YM X1b lookahead_check ok 897
+YM X2 lookahead_check ok 7843
+YM X3 lookahead_check ok 12640
+YM X4 lookahead_check ok 19059
+YM X5 lookahead_check ok 2949
+NQ X1a cross check True
+NQ X1b cross check True
+YM X1a cross check True
+YM X1b cross check True
+ES X1a entry-time re-run True
+ES X1b entry-time re-run True
+ES X2 entry-time re-run True
+ES X3 entry-time re-run True
+ES X4 entry-time re-run True
+ES X5 entry-time re-run True
+NQ X1a entry-time re-run True
+NQ X1b entry-time re-run True
+NQ X2 entry-time re-run True
+NQ X3 entry-time re-run True
+NQ X4 entry-time re-run True
+NQ X5 entry-time re-run True
+                 check sym  hid   n    ok  n_entries_compared
+0      lookahead_check  ES  X1a  20  True                1232
+1      lookahead_check  ES  X1b  20  True                1203
+2      lookahead_check  ES   X2  20  True               17364
+3      lookahead_check  ES   X3  20  True               27732
+4      lookahead_check  ES   X4  20  True               40510
+5      lookahead_check  ES   X5  20  True                7906
+6      lookahead_check  NQ  X1a  20  True                1232
+7      lookahead_check  NQ  X1b  20  True                1223
+8      lookahead_check  NQ   X2  20  True               16429
+9      lookahead_check  NQ   X3  20  True               28696
+10     lookahead_check  NQ   X4  20  True               40510
+11     lookahead_check  NQ   X5  20  True                7680
+12     lookahead_check  YM  X1a  20  True                 945
+13     lookahead_check  YM  X1b  20  True                 897
+14     lookahead_check  YM   X2  20  True                7843
+15     lookahead_check  YM   X3  20  True               12640
+16     lookahead_check  YM   X4  20  True               19059
+17     lookahead_check  YM   X5  20  True                2949
+18  cross_ES_truncated  NQ  X1a  20  True                1419
+19  cross_ES_truncated  NQ  X1b  20  True                1528
+20  cross_ES_truncated  YM  X1a  20  True                 908
+21  cross_ES_truncated  YM  X1b  20  True                 825
+22    entry_time_rerun  ES  X1a  20  True                  20
+23    entry_time_rerun  ES  X1b  20  True                  20
+24    entry_time_rerun  ES   X2  20  True                  20
+25    entry_time_rerun  ES   X3  20  True                  20
+26    entry_time_rerun  ES   X4  20  True                  20
+27    entry_time_rerun  ES   X5  20  True                  20
+28    entry_time_rerun  NQ  X1a  20  True                  20
+29    entry_time_rerun  NQ  X1b  20  True                  20
+30    entry_time_rerun  NQ   X2  20  True                  20
+31    entry_time_rerun  NQ   X3  20  True                  20
+32    entry_time_rerun  NQ   X4  20  True                  20
+33    entry_time_rerun  NQ   X5  20  True                  20
+ALL OK

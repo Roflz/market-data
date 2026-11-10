@@ -1,0 +1,24 @@
+S1 2010-12-31: raw NQ entry 2213.5 vs 2213.5, ES entry 1254.0 vs 1254.0, NQ exit 2217.75 vs 2217.75, ES exit 1254.25 vs 1254.25 (close of 15:59 bar); same inst: True -> OK
+S1 2010-12-31: independent b=0.998730 (vectorized 0.998730), e/s z=-1.9172 (vectorized -1.9172); signal uses bars up to 14:29 close only, entry at 14:30 open
+S1 2017-06-09: raw NQ entry 5756.75 vs 5756.75, ES entry 2429.75 vs 2429.75, NQ exit 5704.5 vs 5704.5, ES exit 2420.5 vs 2420.5 (open of 14:49 bar); same inst: True -> OK
+S1 2017-06-09: independent b=0.970774 (vectorized 0.970774), e/s z=-9.3177 (vectorized -9.3177); signal uses bars up to 14:29 close only, entry at 14:30 open
+   stop trade: exit at open of 14:49 bar, i.e. after the close of the prior bar triggered
+S1 2026-10-09: raw NQ entry 31112.5 vs 31112.5, ES entry 7862.5 vs 7862.5, NQ exit 31112.25 vs 31112.25, ES exit 7861.0 vs 7861.0 (close of 15:59 bar); same inst: True -> OK
+S1-V1 2013-11-26: raw NQ entry 3454.5 vs 3454.5, ES entry 1806.25 vs 1806.25, NQ exit 3446.75 vs 3446.75, ES exit 1802.0 vs 1802.0 (close of 15:59 bar); same inst: True -> OK
+S3 2026-11-05: raw NQ entry 26889.5 vs 26889.5, ES entry 7400.75 vs 7400.75, NQ exit 26742.5 vs 26742.5, ES exit 7381.25 vs 7381.25 (close of 15:59 bar); same inst: True -> OK
+S3 2018-04-17: raw NQ entry 6834.75 vs 6834.75, ES entry 2711.25 vs 2711.25, NQ exit 6826.25 vs 6826.25, ES exit 2706.5 vs 2706.5 (close of 15:59 bar); same inst: True -> OK
+S1-V2 2016-07-18: raw NQ entry 4617.5 vs 4617.5, ES entry 2160.75 vs 2160.75, NQ exit 4613.0 vs 4613.0, ES exit 2160.25 vs 2160.25 (close of 15:59 bar); same inst: True -> OK
+S2 seg 2010-09-01->2010-09-10 (roll): raw lead 1799.5->1893.25 vs 1799.5->1893.25, ES 1065.75->1109.75 vs 1065.75->1109.75; inst 26715/26715 -> OK
+S2 seg 2010-09-13->2010-10-01 (month_end): raw lead 1910.5->2011.5 vs 1910.5->2011.5, ES 1114.25->1144.0 vs 1114.25->1144.0; inst 3088/3088 -> OK
+S2-V2 seg 2017-08-01->2017-09-01 (month_end): raw lead 1422.6->1406.7 vs 1422.6->1406.7, ES 2470.0->2475.0 vs 2470.0->2475.0; inst 33094/33094 -> OK
+S1: trades spanning an instrument change = 0
+S1-V1: trades spanning an instrument change = 0
+S1-V2: trades spanning an instrument change = 0
+S3: trades spanning an instrument change = 0
+S3-V1: trades spanning an instrument change = 0
+S3-V2: trades spanning an instrument change = 0
+S1-C2: trades spanning an instrument change = 0
+S2: segments spanning an instrument change = 0
+S2-V1: segments spanning an instrument change = 0
+S2-V2: segments spanning an instrument change = 0
+ALL OK: True

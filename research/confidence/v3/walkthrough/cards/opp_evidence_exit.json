@@ -1,0 +1,131 @@
+{
+ "chart": "opp_evidence_exit.png",
+ "market": "MES",
+ "signal_bar_start": "2021-03-16 14:15:00",
+ "direction": -1,
+ "how_picked": "the first of the three random Model B examples (order mes_loss, mes_win, mnq_win) whose stored opp3_1b or opp4_1b exit fires before 16:45: modelB_mes_loss",
+ "caption": "The same MES 2021-03-16 trade, with the 7 opposite-evidence kinds checked at each 15-min close. N=3 would first trigger at 2021-03-16 16:15:00; N=4 at never. Model B ignores these and holds to 16:45 (-56.00 $).",
+ "evidence_kinds_source": "v2/dataset.py:221-237 (recomputed here on v3 bars)",
+ "first_reach": {
+  "3": {
+   "bar": "2021-03-16 16:00:00",
+   "bar_close": "2021-03-16 16:15:00",
+   "count": 3,
+   "exit_open": 3957.25,
+   "pnl": -58.5
+  },
+  "4": null
+ },
+ "grid": {
+  "2021-03-16 14:15:00": {
+   "1 reversal candle against": false,
+   "2 Momentum rose": false,
+   "3 close beyond EMA20 (wrong side)": false,
+   "4 EMA8 crossed EMA20 (wrong side)": false,
+   "5 close beyond last swing": false,
+   "6 60-min trend not with trade": false,
+   "7 5-min trigger the other way": false,
+   "count_1b": 0,
+   "count_2b": 0
+  },
+  "2021-03-16 14:30:00": {
+   "1 reversal candle against": false,
+   "2 Momentum rose": false,
+   "3 close beyond EMA20 (wrong side)": false,
+   "4 EMA8 crossed EMA20 (wrong side)": false,
+   "5 close beyond last swing": false,
+   "6 60-min trend not with trade": false,
+   "7 5-min trigger the other way": false,
+   "count_1b": 0,
+   "count_2b": 0
+  },
+  "2021-03-16 14:45:00": {
+   "1 reversal candle against": true,
+   "2 Momentum rose": true,
+   "3 close beyond EMA20 (wrong side)": false,
+   "4 EMA8 crossed EMA20 (wrong side)": false,
+   "5 close beyond last swing": false,
+   "6 60-min trend not with trade": false,
+   "7 5-min trigger the other way": false,
+   "count_1b": 2,
+   "count_2b": 2
+  },
+  "2021-03-16 15:00:00": {
+   "1 reversal candle against": false,
+   "2 Momentum rose": true,
+   "3 close beyond EMA20 (wrong side)": false,
+   "4 EMA8 crossed EMA20 (wrong side)": false,
+   "5 close beyond last swing": false,
+   "6 60-min trend not with trade": false,
+   "7 5-min trigger the other way": false,
+   "count_1b": 1,
+   "count_2b": 2
+  },
+  "2021-03-16 15:15:00": {
+   "1 reversal candle against": false,
+   "2 Momentum rose": false,
+   "3 close beyond EMA20 (wrong side)": false,
+   "4 EMA8 crossed EMA20 (wrong side)": false,
+   "5 close beyond last swing": false,
+   "6 60-min trend not with trade": false,
+   "7 5-min trigger the other way": false,
+   "count_1b": 0,
+   "count_2b": 1
+  },
+  "2021-03-16 15:30:00": {
+   "1 reversal candle against": false,
+   "2 Momentum rose": true,
+   "3 close beyond EMA20 (wrong side)": false,
+   "4 EMA8 crossed EMA20 (wrong side)": false,
+   "5 close beyond last swing": false,
+   "6 60-min trend not with trade": false,
+   "7 5-min trigger the other way": false,
+   "count_1b": 1,
+   "count_2b": 1
+  },
+  "2021-03-16 15:45:00": {
+   "1 reversal candle against": false,
+   "2 Momentum rose": false,
+   "3 close beyond EMA20 (wrong side)": false,
+   "4 EMA8 crossed EMA20 (wrong side)": false,
+   "5 close beyond last swing": false,
+   "6 60-min trend not with trade": false,
+   "7 5-min trigger the other way": false,
+   "count_1b": 0,
+   "count_2b": 1
+  },
+  "2021-03-16 16:00:00": {
+   "1 reversal candle against": true,
+   "2 Momentum rose": true,
+   "3 close beyond EMA20 (wrong side)": true,
+   "4 EMA8 crossed EMA20 (wrong side)": false,
+   "5 close beyond last swing": false,
+   "6 60-min trend not with trade": false,
+   "7 5-min trigger the other way": false,
+   "count_1b": 3,
+   "count_2b": 3
+  },
+  "2021-03-16 16:30:00": {
+   "1 reversal candle against": true,
+   "2 Momentum rose": false,
+   "3 close beyond EMA20 (wrong side)": true,
+   "4 EMA8 crossed EMA20 (wrong side)": false,
+   "5 close beyond last swing": false,
+   "6 60-min trend not with trade": false,
+   "7 5-min trigger the other way": false,
+   "count_1b": 2,
+   "count_2b": 3
+  }
+ },
+ "stored_labels": {
+  "t_exit_opp3_1b": "2021-03-16 16:31:00",
+  "t_exit_opp4_1b": "2021-03-16 16:45:00",
+  "t_exit_opp3_2b": "2021-03-16 16:31:00",
+  "pnl_opp3_1b": "-58.5",
+  "pnl_opp4_1b": "-56.0",
+  "pnl_hold": "-56.0"
+ },
+ "discrepancies": [
+  "none"
+ ]
+}

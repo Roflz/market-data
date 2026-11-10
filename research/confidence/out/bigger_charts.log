@@ -1,0 +1,25 @@
+NQ 15m: 331,394 events; cost as share of an average bar: 2013:40% 2016:21% 2019:12% 2022:4% 2024:5% 2025:3%
+  v1             all years -0.70 $/tr (26,382 kept, 2/13 yrs +; every signal -2.22)   2019+ -0.15 $/tr (15,528 kept)  (63s)
+  v1 + cost_bar  all years -0.84 $/tr (23,622 kept, 1/13 yrs +; every signal -2.22)   2019+ -0.23 $/tr (12,519 kept)  (68s)
+ES 15m: 312,213 events; cost as share of an average bar: 2013:50% 2016:35% 2019:27% 2022:10% 2024:16% 2025:10%
+  v1             all years -3.48 $/tr (21,747 kept, 0/13 yrs +; every signal -4.76)   2019+ -3.72 $/tr (14,502 kept)  (67s)
+  v1 + cost_bar  all years -3.66 $/tr (21,505 kept, 0/13 yrs +; every signal -4.76)   2019+ -3.94 $/tr (14,664 kept)  (58s)
+ES 60m: 72,661 events; cost as share of an average bar: 2013:25% 2016:17% 2019:12% 2022:5% 2024:7% 2025:4%
+  v1             all years -2.05 $/tr (6,492 kept, 3/13 yrs +; every signal -4.27)   2019+ -2.28 $/tr (4,394 kept)  (20s)
+  v1 + cost_bar  all years -1.99 $/tr (6,911 kept, 3/13 yrs +; every signal -4.27)   2019+ -1.20 $/tr (3,250 kept)  (21s)
+[04:00:19] ES 120m: 46,215 bars, 32,368 labelled entries (5s)
+ES 120m: 32,368 events; cost as share of an average bar: 2013:17% 2016:12% 2019:9% 2022:3% 2024:5% 2025:3%
+  v1             all years +2.36 $/tr (2,367 kept, 7/13 yrs +; every signal -4.02)   2019+ +5.50 $/tr (1,463 kept)  (16s)
+  v1 + cost_bar  all years +2.19 $/tr (2,771 kept, 7/13 yrs +; every signal -4.02)   2019+ +4.42 $/tr (1,815 kept)  (14s)
+YM 15m: 168,121 events; cost as share of an average bar: 2019:18% 2022:8% 2024:15% 2025:9%
+  v1             all years -2.71 $/tr (19,950 kept, 0/5 yrs +; every signal -2.67)   2019+ -2.71 $/tr (19,950 kept)  (15s)
+  v1 + cost_bar  all years -2.64 $/tr (17,889 kept, 0/5 yrs +; every signal -2.67)   2019+ -2.64 $/tr (17,889 kept)  (15s)
+[04:01:23] YM 60m: 44,268 bars, 37,025 labelled entries (3s)
+YM 60m: 37,025 events; cost as share of an average bar: 2019:8% 2022:4% 2024:6% 2025:4%
+  v1             all years -3.04 $/tr (2,683 kept, 2/5 yrs +; every signal -2.30)   2019+ -3.04 $/tr (2,683 kept)  (6s)
+  v1 + cost_bar  all years -3.56 $/tr (2,423 kept, 1/5 yrs +; every signal -2.30)   2019+ -3.56 $/tr (2,423 kept)  (6s)
+[04:01:39] YM 120m: 23,084 bars, 16,429 labelled entries (3s)
+YM 120m: 16,429 events; cost as share of an average bar: 2019:6% 2022:3% 2024:4% 2025:3%
+  v1             all years +5.87 $/tr (995 kept, 4/5 yrs +; every signal -1.86)   2019+ +5.87 $/tr (995 kept)  (4s)
+  v1 + cost_bar  all years +3.88 $/tr (1,189 kept, 3/5 yrs +; every signal -1.86)   2019+ +3.88 $/tr (1,189 kept)  (4s)
+done

@@ -1,0 +1,21 @@
+[01:41:42] loading out/entries_NQ_15.parquet (82 features; 11780 MB available)
+[01:41:44] 331,394 labelled events before the holdout (2010-06-07 00:30:00 .. 2025-06-30 16:00:00)
+[01:41:46] 30 clusters (natural cut 37, silhouette 0.219)
+[01:41:46] logit: fitting 82 features on the walk-forward folds
+  fit logit 2013: train 57367 test 21370 thr 0.4670 (18s)
+  fit logit 2014: train 78724 test 21354 thr 0.4416 (21s)
+  fit logit 2015: train 100164 test 22174 thr 0.4420 (18s)
+  fit logit 2016: train 122263 test 22366 thr 0.4408 (27s)
+  fit logit 2017: train 144704 test 21588 thr 0.4554 (18s)
+  fit logit 2018: train 166292 test 22031 thr 0.4551 (28s)
+  fit logit 2019: train 188256 test 21373 thr 0.4614 (29s)
+  fit logit 2020: train 209634 test 21674 thr 0.4403 (36s)
+  fit logit 2021: train 231313 test 21837 thr 0.4617 (27s)
+  fit logit 2022: train 253140 test 22344 thr 0.4515 (31s)
+  fit logit 2023: train 275551 test 22370 thr 0.4566 (41s)
+  fit logit 2024: train 297921 test 22395 thr 0.4564 (38s)
+  fit logit 2025H1: train 320243 test 11078 thr 0.4534 (40s)
+[01:48:02] logit: MDA (82 features, 30 clusters, 13 families, 3 shuffles)
+[01:58:51] SFI (single-feature logit and bins, model-free)
+[02:05:38] logit: done in 1432s; skipped folds []
+[02:05:38] wrote out/importance_NQ.md

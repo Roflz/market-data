@@ -1,0 +1,134 @@
+{
+ "title": "DECISION CARD  ex18_a3_mes_win  A3 expiry-Friday short  MES leg  2019-10-18 09:30",
+ "decision": "Rule: today 2019-10-18 is the monthly options expiry (Fri 2019-10-18)  ->  SHORT 1 MES at the 09:30 mark 2,991.75,\n    cover at the 16:00 mark, no stop",
+ "drivers": [
+  "Only the calendar decides: no price, trend, VWAP or EMA is read. The trade is the same every month (also on MNQ and MYM); the idea is that option-\n    hedging flows that lift prices into the morning settlement fade during the day.",
+  "A3 MES leg overall (v3/out/trades/A3.parquet): 181 trades, mean +16.26 $, 54% winners."
+ ],
+ "outcome": "OUTCOME: cover 2,985.25 at 16:00 -> +29.00 $ per micro after $3.50 costs (+6.50 pts)  =  RIGHT.  Whole basket that\n    day: +251.50 $",
+ "why": "As the expiry idea expects, MES drifted down through the day: 2,991.75 at 09:30 to 2,985.25 at 16:00, so the short earned +29.00 $.",
+ "win": true,
+ "notes": [
+  "Edge vs an ordinary day: +29.00 $ minus C1 -10.83 $ = +39.83 $ (stored d_c1 +38.85 uses the 999-draw c1 -9.85). Prices recomputed from 1-minute bars and matched to\n    sessions_ES.parquet and A3.parquet.",
+  "C1 here = exact average over ALL same-year sessions with both prices; the stored c1 is the average of 999 random draws from those sessions, so the two differ by sampling\n    noise (harness.py:419-451; early-close days use the last price there, dropped here)."
+ ],
+ "inputs": [
+  {
+   "plain": "first day of month 2019-10: weekday",
+   "value": "Tuesday",
+   "read": "info",
+   "where": "calendar_days.py:16"
+  },
+  {
+   "plain": "3rd Friday = 1st + (4 - weekday) mod 7 + 14 days",
+   "value": "2019-10-18",
+   "read": "fired",
+   "where": "calendar_days.py:16-18"
+  },
+  {
+   "plain": "is today a trading day? (else use day before)",
+   "value": "yes",
+   "read": "neutral",
+   "where": "calendar_days.py:17-21"
+  },
+  {
+   "plain": "quarterly (Mar/Jun/Sep/Dec) expiry? (NOT used)",
+   "value": "False",
+   "read": "neutral",
+   "where": "build_data.py:261"
+  },
+  {
+   "plain": "px 09:30 = open of the 09:30 minute (entry)",
+   "value": 2991.75,
+   "read": "info",
+   "where": "build_data.py:52-58"
+  },
+  {
+   "plain": "overnight move 18:00 -> 09:30 (pts, NOT used)",
+   "value": -6.0,
+   "read": "neutral",
+   "where": "context only"
+  },
+  {
+   "plain": "15-min EMA stack at 09:15 bar (NOT used): mixed",
+   "value": 0.0,
+   "read": "neutral",
+   "where": "context only; signals.py:98-99 (+1 up, -1 down, 0 mixed)"
+  },
+  {
+   "plain": "15-min close vs 18:00 session VWAP (NOT used)",
+   "value": -3.4335,
+   "read": "neutral",
+   "where": "context only; signals.py:46-48"
+  },
+  {
+   "plain": "AFTER decision: P&L if covered at 12:00",
+   "value": 30.25,
+   "read": "info",
+   "where": ""
+  },
+  {
+   "plain": "AFTER decision: worst open P&L while held",
+   "value": -36.25,
+   "read": "info",
+   "where": "1-minute highs"
+  },
+  {
+   "plain": "AFTER decision: best open P&L while held",
+   "value": 83.75,
+   "read": "info",
+   "where": "1-minute lows"
+  },
+  {
+   "plain": "AFTER decision: px 16:00 = cover",
+   "value": 2985.25,
+   "read": "info",
+   "where": "g3.py:104 A3_LEG"
+  },
+  {
+   "plain": "same day, MNQ leg: short 7,943.00 -> 7,876.00",
+   "value": 132.0,
+   "read": "info",
+   "where": "A3 basket, g3.py:106"
+  },
+  {
+   "plain": "same day, MYM leg: short 26,920.00 -> 26,735.00",
+   "value": 90.5,
+   "read": "info",
+   "where": "A3 basket, g3.py:106"
+  },
+  {
+   "plain": "C1: same trade on random 2019 days (exact mean, n=249)",
+   "value": -10.8343,
+   "read": "info",
+   "where": "harness.py:419-451; stored c1 -9.85"
+  }
+ ],
+ "example": "ex18_a3_mes_win",
+ "recomputed": {
+  "px_0930": 2991.75,
+  "px_1200": 2985.0,
+  "px_1600": 2985.25,
+  "pnl_usd": 29.0,
+  "third_friday": "2019-10-18",
+  "c1_exact": -10.8343,
+  "c1_stored": -9.8488,
+  "worst_open_usd": -36.25,
+  "best_open_usd": 83.75,
+  "basket_total": 251.5,
+  "other_legs": [
+   {
+    "market": "MNQ",
+    "entry": 7943.0,
+    "exit": 7876.0,
+    "pnl": 132.0
+   },
+   {
+    "market": "MYM",
+    "entry": 26920.0,
+    "exit": 26735.0,
+    "pnl": 90.5
+   }
+  ]
+ }
+}

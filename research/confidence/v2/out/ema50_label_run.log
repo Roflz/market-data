@@ -1,0 +1,49 @@
+NQ 30m: == trigger_scan ema50_pb: True (stop gap 0.0, 6,876 events); truncation mismatches: 0
+   lb3: 332,252 universe rows, setups tol0 6,876 [18s]
+   lb5: 332,252 universe rows, setups tol0 6,876 [19s]
+   lb8: 332,252 universe rows, setups tol0 6,876 [19s]
+NQ 30m done [58s]
+NQ 60m: == trigger_scan ema50_pb: True (stop gap 0.0, 3,084 events); truncation mismatches: 0
+   lb3: 155,526 universe rows, setups tol0 3,084 [11s]
+   lb5: 155,526 universe rows, setups tol0 3,084 [11s]
+   hand check (24 trades): max |label - hand| 0.0000
+   lb8: 155,526 universe rows, setups tol0 3,084 [11s]
+NQ 60m done [35s]
+NQ 120m: == trigger_scan ema50_pb: True (stop gap 0.0, 1,304 events); truncation mismatches: 0
+   lb3: 71,206 universe rows, setups tol0 1,304 [6s]
+   lb5: 71,206 universe rows, setups tol0 1,304 [6s]
+   lb8: 71,206 universe rows, setups tol0 1,304 [6s]
+NQ 120m done [19s]
+ES 30m: == trigger_scan ema50_pb: True (stop gap 0.0, 7,126 events); truncation mismatches: 0
+   lb3: 332,270 universe rows, setups tol0 7,126 [18s]
+   lb5: 332,270 universe rows, setups tol0 7,126 [19s]
+   lb8: 332,270 universe rows, setups tol0 7,126 [21s]
+ES 30m done [60s]
+ES 60m: == trigger_scan ema50_pb: True (stop gap 0.0, 3,173 events); truncation mismatches: 0
+   lb3: 155,534 universe rows, setups tol0 3,173 [11s]
+   lb5: 155,534 universe rows, setups tol0 3,173 [11s]
+   hand check (24 trades): max |label - hand| 0.0000
+   lb8: 155,534 universe rows, setups tol0 3,173 [12s]
+ES 60m done [36s]
+ES 120m: == trigger_scan ema50_pb: True (stop gap 0.0, 1,353 events); truncation mismatches: 0
+   lb3: 71,208 universe rows, setups tol0 1,353 [6s]
+   lb5: 71,208 universe rows, setups tol0 1,353 [6s]
+   lb8: 71,208 universe rows, setups tol0 1,353 [6s]
+ES 120m done [20s]
+YM 30m: == trigger_scan ema50_pb: True (stop gap 0.0, 3,550 events); truncation mismatches: 0
+   lb3: 165,916 universe rows, setups tol0 3,550 [9s]
+   lb5: 165,916 universe rows, setups tol0 3,550 [9s]
+   lb8: 165,916 universe rows, setups tol0 3,550 [9s]
+YM 30m done [28s]
+YM 60m: == trigger_scan ema50_pb: True (stop gap 0.0, 1,606 events); truncation mismatches: 0
+   lb3: 77,634 universe rows, setups tol0 1,606 [5s]
+   lb5: 77,634 universe rows, setups tol0 1,606 [5s]
+   hand check (24 trades): max |label - hand| 0.0000
+   lb8: 77,634 universe rows, setups tol0 1,606 [5s]
+YM 60m done [17s]
+YM 120m: == trigger_scan ema50_pb: True (stop gap 0.0, 703 events); truncation mismatches: 0
+   lb3: 35,580 universe rows, setups tol0 703 [3s]
+   lb5: 35,580 universe rows, setups tol0 703 [3s]
+   lb8: 35,580 universe rows, setups tol0 703 [3s]
+YM 120m done [9s]
+done

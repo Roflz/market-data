@@ -1,0 +1,12 @@
+-- overnight_break: other-day median $-15.50
+  <= -1.0: n=183 median $-34.50 (other -15.50) win 27.9% mean ex best trade $-17.37; best trade 2022-02-23 $+817.0 (prev SPX -1.01%)
+  <= -1.5: n=92 median $-60.25 (other -16.00) win 21.7% mean ex best trade $-42.40; best trade 2026-11-02 $+682.0 (prev SPX -1.82%)
+  <= -2.0: n=49 median $-61.00 (other -16.00) win 18.4% mean ex best trade $-73.25; best trade 2020-02-25 $+354.0 (prev SPX -3.35%)
+  <= -2.5: n=25 median $-110.00 (other -16.50) win 16.0% mean ex best trade $-120.77; best trade 2020-02-25 $+354.0 (prev SPX -3.35%)
+  <= -3.0: n=15 median $-62.50 (other -16.50) win 13.3% mean ex best trade $-127.50; best trade 2020-02-25 $+354.0 (prev SPX -3.35%)
+-- opening_range: other-day median $-16.00
+  <= -1.0: n=420 median $-33.75 (other -16.00) win 20.0% mean ex best trade $-14.20; best trade 2025-04-09 $+3986.5 (prev SPX -1.57%)
+  <= -1.5: n=232 median $-41.00 (other -16.50) win 16.8% mean ex best trade $-19.79; best trade 2025-04-09 $+3986.5 (prev SPX -1.57%)
+  <= -2.0: n=123 median $-46.50 (other -16.50) win 13.8% mean ex best trade $-42.30; best trade 2024-12-19 $+590.5 (prev SPX -2.95%)
+  <= -2.5: n=73 median $-52.00 (other -17.00) win 15.1% mean ex best trade $-44.85; best trade 2024-12-19 $+590.5 (prev SPX -2.95%)
+  <= -3.0: n=42 median $-70.75 (other -17.00) win 16.7% mean ex best trade $-55.66; best trade 2020-02-25 $+588.0 (prev SPX -3.35%)

@@ -1,0 +1,3286 @@
+{
+ "A": {
+  "A": {
+   "instrument": "MNQ",
+   "first_day": "2010-07-26",
+   "eligible_days": 1142,
+   "base_days": 3697,
+   "roll_days_skipped": 51,
+   "headline": {
+    "trades": 1261,
+    "days": 769,
+    "net_usd_per_trade": -4.818398096748612,
+    "total_usd": -6076.0,
+    "gross_usd_total": -3554.0,
+    "net_bp_per_trade": -3.1522418800129053,
+    "gross_bp_per_trade": -1.25401739048916,
+    "trades_per_year": 77.44749453505969,
+    "hit_rate": 0.5011895321173672,
+    "t_nw5_daily_bp": -4.731312434102771,
+    "t_iid_daily_bp": -5.111058938472515,
+    "t_iid_daily_usd": -3.1595029887584114,
+    "max_dd_usd": 6838.5,
+    "exit_mix": {
+     "time": 604,
+     "target": 462,
+     "stop": 195
+    },
+    "stress_total_usd": -6271.0,
+    "stress_bp_per_trade": -3.298517825193337,
+    "eras": {
+     "Jun2010-Dec2017": {
+      "trades": 628,
+      "net_usd": -1822.5,
+      "usd_per_trade": -2.9020700636942673,
+      "bp_per_trade": -3.89379850327372,
+      "gross_usd": -566.5,
+      "hit": 0.4840764331210191
+     },
+     "2018-01-01..2022-05-18": {
+      "trades": 266,
+      "net_usd": -302.5,
+      "usd_per_trade": -1.137218045112782,
+      "bp_per_trade": -0.5866693220941098,
+      "gross_usd": 229.5,
+      "hit": 0.5488721804511278
+     },
+     "2022-05-19..2024-12": {
+      "trades": 258,
+      "net_usd": -3782.5,
+      "usd_per_trade": -14.660852713178295,
+      "bp_per_trade": -5.18388086528139,
+      "gross_usd": -3266.5,
+      "hit": 0.4806201550387597
+     },
+     "2025-01..latest": {
+      "trades": 109,
+      "net_usd": -168.5,
+      "usd_per_trade": -1.5458715596330275,
+      "bp_per_trade": -0.33189218092427086,
+      "gross_usd": 49.5,
+      "hit": 0.5321100917431193
+     }
+    },
+    "blocks": {
+     "Jun2010-2011": {
+      "trades": 103,
+      "net_usd": -249.5,
+      "usd_per_trade": -2.4223300970873787,
+      "bp_per_trade": -5.295854584402056,
+      "gross_usd": -43.5,
+      "hit": 0.4368932038834951
+     },
+     "2012-13": {
+      "trades": 236,
+      "net_usd": -417.5,
+      "usd_per_trade": -1.7690677966101696,
+      "bp_per_trade": -3.2410412959478956,
+      "gross_usd": 54.5,
+      "hit": 0.5
+     },
+     "2014-15": {
+      "trades": 95,
+      "net_usd": -115.0,
+      "usd_per_trade": -1.2105263157894737,
+      "bp_per_trade": -1.692539181612221,
+      "gross_usd": 75.0,
+      "hit": 0.4842105263157895
+     },
+     "2016-17": {
+      "trades": 194,
+      "net_usd": -1040.5,
+      "usd_per_trade": -5.36340206185567,
+      "bp_per_trade": -5.021419947245465,
+      "gross_usd": -652.5,
+      "hit": 0.4896907216494845
+     },
+     "2018-19": {
+      "trades": 101,
+      "net_usd": -18.0,
+      "usd_per_trade": -0.1782178217821782,
+      "bp_per_trade": -0.22063197784151564,
+      "gross_usd": 184.0,
+      "hit": 0.5742574257425742
+     },
+     "2020-21": {
+      "trades": 160,
+      "net_usd": -630.5,
+      "usd_per_trade": -3.940625,
+      "bp_per_trade": -1.5199678256827471,
+      "gross_usd": -310.5,
+      "hit": 0.51875
+     },
+     "2022-23": {
+      "trades": 185,
+      "net_usd": -2499.0,
+      "usd_per_trade": -13.508108108108107,
+      "bp_per_trade": -5.262433108713517,
+      "gross_usd": -2129.0,
+      "hit": 0.4648648648648649
+     },
+     "2024-Nov2026": {
+      "trades": 187,
+      "net_usd": -1106.0,
+      "usd_per_trade": -5.9144385026737964,
+      "bp_per_trade": -1.5542392708938184,
+      "gross_usd": -732.0,
+      "hit": 0.5401069518716578
+     }
+    },
+    "blocks_positive": 0,
+    "gross_blocks_positive": 3,
+    "pts_per_trade_by_era": {
+     "Jun2010-Dec2017": -1.4510350318471337,
+     "2018-01-01..2022-05-18": -0.568609022556391,
+     "2022-05-19..2024-12": -7.330426356589148,
+     "2025-01..latest": -0.7729357798165137
+    }
+   },
+   "C1": {
+    "p95": -1.2924320008906853,
+    "mean": -2.1312452488592033,
+    "p50": -2.103460315953665,
+    "actual": -3.1522418800129053
+   },
+   "criteria": [
+    {
+     "name": "(i) day-level NW5 t on daily net bps >= 2.0",
+     "value": "-4.73",
+     "pass_": false
+    },
+    {
+     "name": "(ii) net P&L Jan 2025-latest > 0",
+     "value": "$-168",
+     "pass_": false
+    },
+    {
+     "name": "(iii) net > 0 in >= 6 of 8 two-year blocks",
+     "value": "0/8",
+     "pass_": false
+    },
+    {
+     "name": "(iv) mean net bps/trade > C1 95th pct",
+     "value": "-3.15 vs p95 -1.29",
+     "pass_": false
+    }
+   ],
+   "passed": false,
+   "C2_report": {
+    "trades": 4527,
+    "days": 2144,
+    "net_usd_per_trade": -4.437817539209189,
+    "total_usd": -20090.0,
+    "gross_usd_total": -11036.0,
+    "net_bp_per_trade": -3.002586689897893,
+    "gross_bp_per_trade": -1.1792935763420633,
+    "trades_per_year": 278.03711955607866,
+    "hit_rate": 0.5281643472498343,
+    "t_nw5_daily_bp": -6.467828197711417,
+    "t_iid_daily_bp": -6.2615278594959065,
+    "t_iid_daily_usd": -3.5298578862924113,
+    "max_dd_usd": 22660.0,
+    "exit_mix": {
+     "time": 1915,
+     "target": 1870,
+     "stop": 742
+    },
+    "stress_total_usd": -20832.0,
+    "stress_bp_per_trade": -3.154682248411759,
+    "eras": {
+     "Jun2010-Dec2017": {
+      "trades": 1968,
+      "net_usd": -5713.0,
+      "usd_per_trade": -2.9029471544715446,
+      "bp_per_trade": -4.321424923788833,
+      "gross_usd": -1777.0,
+      "hit": 0.5035569105691057
+     },
+     "2018-01-01..2022-05-18": {
+      "trades": 1325,
+      "net_usd": -4532.5,
+      "usd_per_trade": -3.420754716981132,
+      "bp_per_trade": -1.7389929655887353,
+      "gross_usd": -1882.5,
+      "hit": 0.5516981132075471
+     },
+     "2022-05-19..2024-12": {
+      "trades": 710,
+      "net_usd": -5503.0,
+      "usd_per_trade": -7.750704225352113,
+      "bp_per_trade": -2.6483438648662623,
+      "gross_usd": -4083.0,
+      "hit": 0.5366197183098591
+     },
+     "2025-01..latest": {
+      "trades": 524,
+      "net_usd": -4341.5,
+      "usd_per_trade": -8.28530534351145,
+      "bp_per_trade": -1.7245341062809443,
+      "gross_usd": -3293.5,
+      "hit": 0.549618320610687
+     }
+    },
+    "blocks": {
+     "Jun2010-2011": {
+      "trades": 447,
+      "net_usd": -984.5,
+      "usd_per_trade": -2.2024608501118568,
+      "bp_per_trade": -4.8732769678422745,
+      "gross_usd": -90.5,
+      "hit": 0.5190156599552572
+     },
+     "2012-13": {
+      "trades": 461,
+      "net_usd": -1328.5,
+      "usd_per_trade": -2.8817787418655096,
+      "bp_per_trade": -5.00062897837995,
+      "gross_usd": -406.5,
+      "hit": 0.4750542299349241
+     },
+     "2014-15": {
+      "trades": 595,
+      "net_usd": -2025.0,
+      "usd_per_trade": -3.403361344537815,
+      "bp_per_trade": -4.315189195357973,
+      "gross_usd": -835.0,
+      "hit": 0.5058823529411764
+     },
+     "2016-17": {
+      "trades": 465,
+      "net_usd": -1375.0,
+      "usd_per_trade": -2.956989247311828,
+      "bp_per_trade": -3.1255525056339324,
+      "gross_usd": -445.0,
+      "hit": 0.513978494623656
+     },
+     "2018-19": {
+      "trades": 602,
+      "net_usd": -1756.5,
+      "usd_per_trade": -2.9177740863787376,
+      "bp_per_trade": -1.9763337935888683,
+      "gross_usd": -552.5,
+      "hit": 0.5514950166112956
+     },
+     "2020-21": {
+      "trades": 564,
+      "net_usd": -3618.0,
+      "usd_per_trade": -6.414893617021277,
+      "bp_per_trade": -2.5143463407443107,
+      "gross_usd": -2490.0,
+      "hit": 0.549645390070922
+     },
+     "2022-23": {
+      "trades": 563,
+      "net_usd": -2118.5,
+      "usd_per_trade": -3.7628774422735347,
+      "bp_per_trade": -1.5790945626555641,
+      "gross_usd": -992.5,
+      "hit": 0.5417406749555951
+     },
+     "2024-Nov2026": {
+      "trades": 830,
+      "net_usd": -6884.0,
+      "usd_per_trade": -8.293975903614458,
+      "bp_per_trade": -1.9171941885011592,
+      "gross_usd": -5224.0,
+      "hit": 0.5457831325301205
+     }
+    },
+    "blocks_positive": 0,
+    "gross_blocks_positive": 0,
+    "pts_per_trade_by_era": {
+     "Jun2010-Dec2017": -1.4514735772357723,
+     "2018-01-01..2022-05-18": -1.710377358490566,
+     "2022-05-19..2024-12": -3.8753521126760564,
+     "2025-01..latest": -4.142652671755725
+    }
+   },
+   "fallback_exits": 0
+  },
+  "A1-MES": {
+   "instrument": "MES",
+   "first_day": "2010-07-26",
+   "eligible_days": 1159,
+   "base_days": 3695,
+   "roll_days_skipped": 53,
+   "headline": {
+    "trades": 1240,
+    "days": 748,
+    "net_usd_per_trade": -5.719758064516129,
+    "total_usd": -7092.5,
+    "gross_usd_total": -2752.5,
+    "net_bp_per_trade": -3.9082588040450976,
+    "gross_bp_per_trade": -0.9291381657152045,
+    "trades_per_year": 76.15772658483269,
+    "hit_rate": 0.47096774193548385,
+    "t_nw5_daily_bp": -8.988367603875894,
+    "t_iid_daily_bp": -8.83415930820247,
+    "t_iid_daily_usd": -7.127968331202465,
+    "max_dd_usd": 7494.5,
+    "exit_mix": {
+     "time": 617,
+     "target": 426,
+     "stop": 197
+    },
+    "stress_total_usd": -7585.0,
+    "stress_bp_per_trade": -4.229082615393017,
+    "eras": {
+     "Jun2010-Dec2017": {
+      "trades": 664,
+      "net_usd": -2359.0,
+      "usd_per_trade": -3.552710843373494,
+      "bp_per_trade": -4.010292962666964,
+      "gross_usd": -35.0,
+      "hit": 0.4623493975903614
+     },
+     "2018-01-01..2022-05-18": {
+      "trades": 220,
+      "net_usd": -1007.5,
+      "usd_per_trade": -4.579545454545454,
+      "bp_per_trade": -2.6523466311207713,
+      "gross_usd": -237.5,
+      "hit": 0.4863636363636364
+     },
+     "2022-05-19..2024-12": {
+      "trades": 247,
+      "net_usd": -3037.0,
+      "usd_per_trade": -12.295546558704453,
+      "bp_per_trade": -5.64120329636717,
+      "gross_usd": -2172.5,
+      "hit": 0.46558704453441296
+     },
+     "2025-01..latest": {
+      "trades": 109,
+      "net_usd": -689.0,
+      "usd_per_trade": -6.321100917431193,
+      "bp_per_trade": -1.8946139151907937,
+      "gross_usd": -307.5,
+      "hit": 0.5045871559633027
+     }
+    },
+    "blocks": {
+     "Jun2010-2011": {
+      "trades": 119,
+      "net_usd": -391.5,
+      "usd_per_trade": -3.2899159663865545,
+      "bp_per_trade": -5.200040660921638,
+      "gross_usd": 25.0,
+      "hit": 0.44537815126050423
+     },
+     "2012-13": {
+      "trades": 216,
+      "net_usd": -547.25,
+      "usd_per_trade": -2.533564814814815,
+      "bp_per_trade": -3.4528511382326807,
+      "gross_usd": 208.75,
+      "hit": 0.4675925925925926
+     },
+     "2014-15": {
+      "trades": 108,
+      "net_usd": -486.75,
+      "usd_per_trade": -4.506944444444445,
+      "bp_per_trade": -4.549437268584281,
+      "gross_usd": -108.75,
+      "hit": 0.4351851851851852
+     },
+     "2016-17": {
+      "trades": 221,
+      "net_usd": -933.5,
+      "usd_per_trade": -4.223981900452489,
+      "bp_per_trade": -3.6510163696643794,
+      "gross_usd": -160.0,
+      "hit": 0.4796380090497738
+     },
+     "2018-19": {
+      "trades": 85,
+      "net_usd": -201.25,
+      "usd_per_trade": -2.3676470588235294,
+      "bp_per_trade": -1.634611164556733,
+      "gross_usd": 96.25,
+      "hit": 0.5058823529411764
+     },
+     "2020-21": {
+      "trades": 127,
+      "net_usd": -937.0,
+      "usd_per_trade": -7.377952755905512,
+      "bp_per_trade": -3.938963578148629,
+      "gross_usd": -492.5,
+      "hit": 0.4566929133858268
+     },
+     "2022-23": {
+      "trades": 188,
+      "net_usd": -2204.25,
+      "usd_per_trade": -11.724734042553191,
+      "bp_per_trade": -5.725616505235177,
+      "gross_usd": -1546.25,
+      "hit": 0.4734042553191489
+     },
+     "2024-Nov2026": {
+      "trades": 176,
+      "net_usd": -1391.0,
+      "usd_per_trade": -7.903409090909091,
+      "bp_per_trade": -2.65795547391276,
+      "gross_usd": -775.0,
+      "hit": 0.4943181818181818
+     }
+    },
+    "blocks_positive": 0,
+    "gross_blocks_positive": 3,
+    "pts_per_trade_by_era": {
+     "Jun2010-Dec2017": -0.7105421686746988,
+     "2018-01-01..2022-05-18": -0.9159090909090907,
+     "2022-05-19..2024-12": -2.4591093117408906,
+     "2025-01..latest": -1.264220183486238
+    }
+   },
+   "C1": {
+    "p95": -2.4473635949118604,
+    "mean": -3.1063533249619417,
+    "p50": -3.1084684027932843,
+    "actual": -3.9082588040450976
+   },
+   "criteria": [
+    {
+     "name": "(i) day-level NW5 t on daily net bps >= 2.4",
+     "value": "-8.99",
+     "pass_": false
+    },
+    {
+     "name": "(ii) net P&L Jan 2025-latest > 0",
+     "value": "$-689",
+     "pass_": false
+    },
+    {
+     "name": "(iii) net > 0 in >= 6 of 8 two-year blocks",
+     "value": "0/8",
+     "pass_": false
+    },
+    {
+     "name": "(iv) mean net bps/trade > C1 95th pct",
+     "value": "-3.91 vs p95 -2.45",
+     "pass_": false
+    }
+   ],
+   "passed": false,
+   "C2_report": {
+    "trades": 4532,
+    "days": 2106,
+    "net_usd_per_trade": -5.794240953221536,
+    "total_usd": -26259.5,
+    "gross_usd_total": -10397.5,
+    "net_bp_per_trade": -4.177348273935634,
+    "gross_bp_per_trade": -1.3217699802753486,
+    "trades_per_year": 278.3442071632756,
+    "hit_rate": 0.5154457193292145,
+    "t_nw5_daily_bp": -11.992841276098192,
+    "t_iid_daily_bp": -11.22629045153377,
+    "t_iid_daily_usd": -8.184045311432183,
+    "max_dd_usd": 27038.25,
+    "exit_mix": {
+     "target": 1849,
+     "time": 1830,
+     "stop": 853
+    },
+    "stress_total_usd": -28392.0,
+    "stress_bp_per_trade": -4.574138819957964,
+    "eras": {
+     "Jun2010-Dec2017": {
+      "trades": 1981,
+      "net_usd": -9334.75,
+      "usd_per_trade": -4.712140333165068,
+      "bp_per_trade": -5.642118544406825,
+      "gross_usd": -2401.25,
+      "hit": 0.48813730439172137
+     },
+     "2018-01-01..2022-05-18": {
+      "trades": 1322,
+      "net_usd": -6439.5,
+      "usd_per_trade": -4.871028744326778,
+      "bp_per_trade": -2.821517419063727,
+      "gross_usd": -1812.5,
+      "hit": 0.5416036308623298
+     },
+     "2022-05-19..2024-12": {
+      "trades": 720,
+      "net_usd": -5592.5,
+      "usd_per_trade": -7.767361111111111,
+      "bp_per_trade": -3.482170925085391,
+      "gross_usd": -3072.5,
+      "hit": 0.5291666666666667
+     },
+     "2025-01..latest": {
+      "trades": 509,
+      "net_usd": -4892.75,
+      "usd_per_trade": -9.612475442043221,
+      "bp_per_trade": -2.9813289723823964,
+      "gross_usd": -3111.25,
+      "hit": 0.5343811394891945
+     }
+    },
+    "blocks": {
+     "Jun2010-2011": {
+      "trades": 435,
+      "net_usd": -1966.25,
+      "usd_per_trade": -4.5201149425287355,
+      "bp_per_trade": -7.373642941717156,
+      "gross_usd": -443.75,
+      "hit": 0.503448275862069
+     },
+     "2012-13": {
+      "trades": 491,
+      "net_usd": -2211.0,
+      "usd_per_trade": -4.5030549898167,
+      "bp_per_trade": -5.957861398946424,
+      "gross_usd": -492.5,
+      "hit": 0.47046843177189407
+     },
+     "2014-15": {
+      "trades": 592,
+      "net_usd": -3019.5,
+      "usd_per_trade": -5.100506756756757,
+      "bp_per_trade": -5.244374174425175,
+      "gross_usd": -947.5,
+      "hit": 0.4831081081081081
+     },
+     "2016-17": {
+      "trades": 463,
+      "net_usd": -2138.0,
+      "usd_per_trade": -4.617710583153348,
+      "bp_per_trade": -4.189033906437498,
+      "gross_usd": -517.5,
+      "hit": 0.49892008639308855
+     },
+     "2018-19": {
+      "trades": 629,
+      "net_usd": -2626.5,
+      "usd_per_trade": -4.175675675675675,
+      "bp_per_trade": -2.9640968708946174,
+      "gross_usd": -425.0,
+      "hit": 0.5516693163751988
+     },
+     "2020-21": {
+      "trades": 543,
+      "net_usd": -3389.25,
+      "usd_per_trade": -6.24171270718232,
+      "bp_per_trade": -3.106758914219415,
+      "gross_usd": -1488.75,
+      "hit": 0.5359116022099447
+     },
+     "2022-23": {
+      "trades": 570,
+      "net_usd": -4017.5,
+      "usd_per_trade": -7.048245614035087,
+      "bp_per_trade": -3.3800835882620084,
+      "gross_usd": -2022.5,
+      "hit": 0.5280701754385965
+     },
+     "2024-Nov2026": {
+      "trades": 809,
+      "net_usd": -6891.5,
+      "usd_per_trade": -8.518541409147096,
+      "bp_per_trade": -2.8141790772350648,
+      "gross_usd": -4060.0,
+      "hit": 0.5315203955500618
+     }
+    },
+    "blocks_positive": 0,
+    "gross_blocks_positive": 0,
+    "pts_per_trade_by_era": {
+     "Jun2010-Dec2017": -0.9424280666330135,
+     "2018-01-01..2022-05-18": -0.9742057488653554,
+     "2022-05-19..2024-12": -1.5534722222222221,
+     "2025-01..latest": -1.9224950884086445
+    }
+   },
+   "fallback_exits": 0
+  },
+  "A2-VWAP": {
+   "instrument": "MNQ",
+   "first_day": "2010-07-26",
+   "eligible_days": 1142,
+   "base_days": 3697,
+   "roll_days_skipped": 51,
+   "headline": {
+    "trades": 415,
+    "days": 263,
+    "net_usd_per_trade": -5.642168674698795,
+    "total_usd": -2341.5,
+    "gross_usd_total": -1511.5,
+    "net_bp_per_trade": -3.3110600359655,
+    "gross_bp_per_trade": -1.443099018037326,
+    "trades_per_year": 25.488271397343198,
+    "hit_rate": 0.44096385542168676,
+    "t_nw5_daily_bp": -2.1191771826037895,
+    "t_iid_daily_bp": -2.432996814635614,
+    "t_iid_daily_usd": -1.5783533489552761,
+    "max_dd_usd": 3601.5,
+    "exit_mix": {
+     "time": 360,
+     "stop": 33,
+     "target": 22
+    },
+    "stress_total_usd": -2374.5,
+    "stress_bp_per_trade": -3.3813873856668875,
+    "eras": {
+     "Jun2010-Dec2017": {
+      "trades": 203,
+      "net_usd": -604.0,
+      "usd_per_trade": -2.9753694581280787,
+      "bp_per_trade": -3.919440239425201,
+      "gross_usd": -198.0,
+      "hit": 0.42857142857142855
+     },
+     "2018-01-01..2022-05-18": {
+      "trades": 88,
+      "net_usd": -497.5,
+      "usd_per_trade": -5.653409090909091,
+      "bp_per_trade": -2.2799091505307363,
+      "gross_usd": -321.5,
+      "hit": 0.5113636363636364
+     },
+     "2022-05-19..2024-12": {
+      "trades": 83,
+      "net_usd": -1300.0,
+      "usd_per_trade": -15.662650602409638,
+      "bp_per_trade": -4.291433823105486,
+      "gross_usd": -1134.0,
+      "hit": 0.39759036144578314
+     },
+     "2025-01..latest": {
+      "trades": 41,
+      "net_usd": 60.0,
+      "usd_per_trade": 1.4634146341463414,
+      "bp_per_trade": -0.5273788721440636,
+      "gross_usd": 142.0,
+      "hit": 0.43902439024390244
+     }
+    },
+    "blocks": {
+     "Jun2010-2011": {
+      "trades": 38,
+      "net_usd": -56.0,
+      "usd_per_trade": -1.4736842105263157,
+      "bp_per_trade": -3.0011794990520326,
+      "gross_usd": 20.0,
+      "hit": 0.42105263157894735
+     },
+     "2012-13": {
+      "trades": 73,
+      "net_usd": -115.0,
+      "usd_per_trade": -1.5753424657534247,
+      "bp_per_trade": -2.958883721437441,
+      "gross_usd": 31.0,
+      "hit": 0.4246575342465753
+     },
+     "2014-15": {
+      "trades": 22,
+      "net_usd": 8.0,
+      "usd_per_trade": 0.36363636363636365,
+      "bp_per_trade": -0.6897741135896687,
+      "gross_usd": 52.0,
+      "hit": 0.4090909090909091
+     },
+     "2016-17": {
+      "trades": 70,
+      "net_usd": -441.0,
+      "usd_per_trade": -6.3,
+      "bp_per_trade": -6.434685792506181,
+      "gross_usd": -301.0,
+      "hit": 0.44285714285714284
+     },
+     "2018-19": {
+      "trades": 30,
+      "net_usd": 164.0,
+      "usd_per_trade": 5.466666666666667,
+      "bp_per_trade": 3.70128798386626,
+      "gross_usd": 224.0,
+      "hit": 0.6333333333333333
+     },
+     "2020-21": {
+      "trades": 55,
+      "net_usd": -724.5,
+      "usd_per_trade": -13.172727272727272,
+      "bp_per_trade": -6.030634908587295,
+      "gross_usd": -614.5,
+      "hit": 0.43636363636363634
+     },
+     "2022-23": {
+      "trades": 60,
+      "net_usd": -251.5,
+      "usd_per_trade": -4.191666666666666,
+      "bp_per_trade": -1.284384667969103,
+      "gross_usd": -131.5,
+      "hit": 0.48333333333333334
+     },
+     "2024-Nov2026": {
+      "trades": 67,
+      "net_usd": -925.5,
+      "usd_per_trade": -13.813432835820896,
+      "bp_per_trade": -4.190062474446374,
+      "gross_usd": -791.5,
+      "hit": 0.3582089552238806
+     }
+    },
+    "blocks_positive": 2,
+    "gross_blocks_positive": 4,
+    "pts_per_trade_by_era": {
+     "Jun2010-Dec2017": -1.4876847290640394,
+     "2018-01-01..2022-05-18": -2.8267045454545454,
+     "2022-05-19..2024-12": -7.831325301204819,
+     "2025-01..latest": 0.7317073170731707
+    }
+   },
+   "C1": {
+    "p95": 0.06864443371788538,
+    "mean": -1.955091499002041,
+    "p50": -1.9428925721700954,
+    "actual": -3.3110600359655
+   },
+   "criteria": [
+    {
+     "name": "(i) day-level NW5 t on daily net bps >= 2.4",
+     "value": "-2.12",
+     "pass_": false
+    },
+    {
+     "name": "(ii) net P&L Jan 2025-latest > 0",
+     "value": "$60",
+     "pass_": true
+    },
+    {
+     "name": "(iii) net > 0 in >= 6 of 8 two-year blocks",
+     "value": "2/8",
+     "pass_": false
+    },
+    {
+     "name": "(iv) mean net bps/trade > C1 95th pct",
+     "value": "-3.31 vs p95 0.07",
+     "pass_": false
+    }
+   ],
+   "passed": false,
+   "C2_report": {
+    "trades": 2082,
+    "days": 1134,
+    "net_usd_per_trade": -5.04106628242075,
+    "total_usd": -10495.5,
+    "gross_usd_total": -6331.5,
+    "net_bp_per_trade": -3.4387725082067817,
+    "gross_bp_per_trade": -1.625144524961811,
+    "trades_per_year": 127.87127963679166,
+    "hit_rate": 0.43611911623439004,
+    "t_nw5_daily_bp": -4.597549401606013,
+    "t_iid_daily_bp": -4.144391897455259,
+    "t_iid_daily_usd": -2.4013845928543147,
+    "max_dd_usd": 11096.0,
+    "exit_mix": {
+     "time": 1731,
+     "stop": 203,
+     "target": 148
+    },
+    "stress_total_usd": -10698.5,
+    "stress_bp_per_trade": -3.5308858188960404,
+    "eras": {
+     "Jun2010-Dec2017": {
+      "trades": 916,
+      "net_usd": -2952.5,
+      "usd_per_trade": -3.2232532751091703,
+      "bp_per_trade": -4.580102555871209,
+      "gross_usd": -1120.5,
+      "hit": 0.40829694323144106
+     },
+     "2018-01-01..2022-05-18": {
+      "trades": 616,
+      "net_usd": -2226.0,
+      "usd_per_trade": -3.6136363636363638,
+      "bp_per_trade": -2.1813668862779485,
+      "gross_usd": -994.0,
+      "hit": 0.45292207792207795
+     },
+     "2022-05-19..2024-12": {
+      "trades": 301,
+      "net_usd": -3177.5,
+      "usd_per_trade": -10.556478405315614,
+      "bp_per_trade": -4.035151426999657,
+      "gross_usd": -2575.5,
+      "hit": 0.45514950166112955
+     },
+     "2025-01..latest": {
+      "trades": 249,
+      "net_usd": -2139.5,
+      "usd_per_trade": -8.592369477911646,
+      "bp_per_trade": -1.629911001744494,
+      "gross_usd": -1641.5,
+      "hit": 0.4738955823293173
+     }
+    },
+    "blocks": {
+     "Jun2010-2011": {
+      "trades": 187,
+      "net_usd": -356.5,
+      "usd_per_trade": -1.9064171122994653,
+      "bp_per_trade": -4.312647816165547,
+      "gross_usd": 17.5,
+      "hit": 0.42780748663101603
+     },
+     "2012-13": {
+      "trades": 221,
+      "net_usd": -687.5,
+      "usd_per_trade": -3.1108597285067874,
+      "bp_per_trade": -5.530606031596474,
+      "gross_usd": -245.5,
+      "hit": 0.38461538461538464
+     },
+     "2014-15": {
+      "trades": 290,
+      "net_usd": -1174.5,
+      "usd_per_trade": -4.05,
+      "bp_per_trade": -4.887384769827827,
+      "gross_usd": -594.5,
+      "hit": 0.41724137931034483
+     },
+     "2016-17": {
+      "trades": 218,
+      "net_usd": -734.0,
+      "usd_per_trade": -3.36697247706422,
+      "bp_per_trade": -3.437171024413665,
+      "gross_usd": -298.0,
+      "hit": 0.4036697247706422
+     },
+     "2018-19": {
+      "trades": 290,
+      "net_usd": -1609.5,
+      "usd_per_trade": -5.55,
+      "bp_per_trade": -3.853017824465107,
+      "gross_usd": -1029.5,
+      "hit": 0.42758620689655175
+     },
+     "2020-21": {
+      "trades": 272,
+      "net_usd": -552.5,
+      "usd_per_trade": -2.03125,
+      "bp_per_trade": -0.7935093168522857,
+      "gross_usd": -8.5,
+      "hit": 0.49264705882352944
+     },
+     "2022-23": {
+      "trades": 210,
+      "net_usd": -2431.5,
+      "usd_per_trade": -11.57857142857143,
+      "bp_per_trade": -4.817691677861351,
+      "gross_usd": -2011.5,
+      "hit": 0.41904761904761906
+     },
+     "2024-Nov2026": {
+      "trades": 394,
+      "net_usd": -2949.5,
+      "usd_per_trade": -7.4860406091370555,
+      "bp_per_trade": -1.571638236748492,
+      "gross_usd": -2161.5,
+      "hit": 0.47715736040609136
+     }
+    },
+    "blocks_positive": 0,
+    "gross_blocks_positive": 1,
+    "pts_per_trade_by_era": {
+     "Jun2010-Dec2017": -1.6116266375545851,
+     "2018-01-01..2022-05-18": -1.8068181818181819,
+     "2022-05-19..2024-12": -5.278239202657807,
+     "2025-01..latest": -4.296184738955823
+    }
+   },
+   "fallback_exits": 0
+  }
+ },
+ "B": {
+  "B": {
+   "instrument": "MNQ",
+   "calibration": {
+    "armed_days": 23,
+    "events_traded": 23,
+    "mean_pre_bp_negative": -45.49501891372317,
+    "mean_pre_bp_positive": 96.77826563992407,
+    "n_negative": 20,
+    "n_positive": 3,
+    "source_ES_means": "about -37 / +36 bps (Christensen-Oomen-Reno, cv 4.0, one event per day)"
+   },
+   "headline": {
+    "trades": 23,
+    "days": 23,
+    "net_usd_per_trade": -9.804347826086957,
+    "total_usd": -225.5,
+    "gross_usd_total": -179.5,
+    "net_bp_per_trade": -2.49346047590861,
+    "gross_bp_per_trade": -1.1803530307507828,
+    "trades_per_year": 1.4010590393595732,
+    "hit_rate": 0.5217391304347826,
+    "t_nw5_daily_bp": -0.6837748269361911,
+    "t_iid_daily_bp": -0.46544878973394127,
+    "t_iid_daily_usd": -0.5574943206870199,
+    "max_dd_usd": 358.5,
+    "exit_mix": {
+     "time": 21,
+     "stop": 2
+    },
+    "stress_total_usd": -227.5,
+    "stress_bp_per_trade": -2.5400701297316424,
+    "eras": {
+     "Jun2010-Dec2017": {
+      "trades": 8,
+      "net_usd": -43.5,
+      "usd_per_trade": -5.4375,
+      "bp_per_trade": -3.656676428001361,
+      "gross_usd": -27.5,
+      "hit": 0.375
+     },
+     "2018-01-01..2022-05-18": {
+      "trades": 6,
+      "net_usd": 110.0,
+      "usd_per_trade": 18.333333333333332,
+      "bp_per_trade": 4.763674486712962,
+      "gross_usd": 122.0,
+      "hit": 0.6666666666666666
+     },
+     "2022-05-19..2024-12": {
+      "trades": 3,
+      "net_usd": 66.5,
+      "usd_per_trade": 22.166666666666668,
+      "bp_per_trade": 5.2193509831848885,
+      "gross_usd": 72.5,
+      "hit": 0.6666666666666666
+     },
+     "2025-01..latest": {
+      "trades": 6,
+      "net_usd": -358.5,
+      "usd_per_trade": -59.75,
+      "bp_per_trade": -12.056046565286595,
+      "gross_usd": -346.5,
+      "hit": 0.5
+     }
+    },
+    "blocks": {
+     "Jun2010-2011": {
+      "trades": 1,
+      "net_usd": 5.5,
+      "usd_per_trade": 5.5,
+      "bp_per_trade": 12.353998203054807,
+      "gross_usd": 7.5,
+      "hit": 1.0
+     },
+     "2012-13": {
+      "trades": 1,
+      "net_usd": 4.5,
+      "usd_per_trade": 4.5,
+      "bp_per_trade": 8.619038498371959,
+      "gross_usd": 6.5,
+      "hit": 1.0
+     },
+     "2014-15": {
+      "trades": 1,
+      "net_usd": -18.5,
+      "usd_per_trade": -18.5,
+      "bp_per_trade": -21.554235115926833,
+      "gross_usd": -16.5,
+      "hit": 0.0
+     },
+     "2016-17": {
+      "trades": 5,
+      "net_usd": -35.0,
+      "usd_per_trade": -7.0,
+      "bp_per_trade": -5.734442601902165,
+      "gross_usd": -25.0,
+      "hit": 0.2
+     },
+     "2018-19": {
+      "trades": 2,
+      "net_usd": -79.0,
+      "usd_per_trade": -39.5,
+      "bp_per_trade": -23.856864690998755,
+      "gross_usd": -75.0,
+      "hit": 0.5
+     },
+     "2020-21": {
+      "trades": 4,
+      "net_usd": 189.0,
+      "usd_per_trade": 47.25,
+      "bp_per_trade": 19.073944075568818,
+      "gross_usd": 197.0,
+      "hit": 0.75
+     },
+     "2022-23": {
+      "trades": 2,
+      "net_usd": 0.5,
+      "usd_per_trade": 0.25,
+      "bp_per_trade": -1.2079841916337415,
+      "gross_usd": 4.5,
+      "hit": 0.5
+     },
+     "2024-Nov2026": {
+      "trades": 7,
+      "net_usd": -292.5,
+      "usd_per_trade": -41.785714285714285,
+      "bp_per_trade": -7.751751151271063,
+      "gross_usd": -278.5,
+      "hit": 0.5714285714285714
+     }
+    },
+    "blocks_positive": 4,
+    "gross_blocks_positive": 4,
+    "pts_per_trade_by_era": {
+     "Jun2010-Dec2017": -2.71875,
+     "2018-01-01..2022-05-18": 9.166666666666666,
+     "2022-05-19..2024-12": 11.083333333333334,
+     "2025-01..latest": -29.875
+    },
+    "t_event_nw5_bp": -0.6837748269361911,
+    "t_event_iid_bp": -0.46544878973394127
+   },
+   "C1": {
+    "p95": 7.172478730570188,
+    "mean": -1.4730417418461081,
+    "actual": -2.49346047590861
+   },
+   "drift_control": null,
+   "criteria": [
+    {
+     "name": "power: >= 200 events",
+     "value": "23",
+     "pass_": false
+    },
+    {
+     "name": "(i) event-level t >= 2.0 (min of NW5 and iid, net bps)",
+     "value": "NW5 -0.68, iid -0.47",
+     "pass_": false
+    },
+    {
+     "name": "(ii) net P&L Jan 2018-latest > 0",
+     "value": "$-182",
+     "pass_": false
+    },
+    {
+     "name": "(iii) net > 0 in >= 6 of 8 blocks",
+     "value": "4/8",
+     "pass_": false
+    },
+    {
+     "name": "(iv) mean net bps > C1 95th pct",
+     "value": "-2.49 vs 7.17",
+     "pass_": false
+    }
+   ],
+   "passed": false,
+   "C2_arming_entry": {
+    "trades": 23,
+    "days": 23,
+    "net_usd_per_trade": 0.7391304347826086,
+    "total_usd": 17.0,
+    "gross_usd_total": 63.0,
+    "net_bp_per_trade": 1.5425438446074897,
+    "gross_bp_per_trade": 2.8561603595094183,
+    "trades_per_year": 1.4010590393595732,
+    "hit_rate": 0.5652173913043478,
+    "t_nw5_daily_bp": 0.44867719957213587,
+    "t_iid_daily_bp": 0.2974201995312519,
+    "t_iid_daily_usd": 0.04284105548886521,
+    "max_dd_usd": 234.0,
+    "exit_mix": {
+     "time": 21,
+     "stop": 2
+    },
+    "stress_total_usd": 15.0,
+    "stress_bp_per_trade": 1.4959041097296129,
+    "eras": {
+     "Jun2010-Dec2017": {
+      "trades": 8,
+      "net_usd": -27.5,
+      "usd_per_trade": -3.4375,
+      "bp_per_trade": -1.2298573175232992,
+      "gross_usd": -11.5,
+      "hit": 0.375
+     },
+     "2018-01-01..2022-05-18": {
+      "trades": 6,
+      "net_usd": 192.5,
+      "usd_per_trade": 32.083333333333336,
+      "bp_per_trade": 11.371325898991328,
+      "gross_usd": 204.5,
+      "hit": 0.8333333333333334
+     },
+     "2022-05-19..2024-12": {
+      "trades": 3,
+      "net_usd": 86.0,
+      "usd_per_trade": 28.666666666666668,
+      "bp_per_trade": 7.614310487200353,
+      "gross_usd": 92.0,
+      "hit": 0.6666666666666666
+     },
+     "2025-01..latest": {
+      "trades": 6,
+      "net_usd": -234.0,
+      "usd_per_trade": -39.0,
+      "bp_per_trade": -7.625586648231727,
+      "gross_usd": -222.0,
+      "hit": 0.5
+     }
+    },
+    "blocks": {
+     "Jun2010-2011": {
+      "trades": 1,
+      "net_usd": 7.0,
+      "usd_per_trade": 7.0,
+      "bp_per_trade": 15.739179314221472,
+      "gross_usd": 9.0,
+      "hit": 1.0
+     },
+     "2012-13": {
+      "trades": 1,
+      "net_usd": 7.0,
+      "usd_per_trade": 7.0,
+      "bp_per_trade": 13.416387158600863,
+      "gross_usd": 9.0,
+      "hit": 1.0
+     },
+     "2014-15": {
+      "trades": 1,
+      "net_usd": -14.5,
+      "usd_per_trade": -14.5,
+      "bp_per_trade": -16.90567797598228,
+      "gross_usd": -12.5,
+      "hit": 0.0
+     },
+     "2016-17": {
+      "trades": 5,
+      "net_usd": -27.0,
+      "usd_per_trade": -5.4,
+      "bp_per_trade": -4.4177494074052905,
+      "gross_usd": -17.0,
+      "hit": 0.2
+     },
+     "2018-19": {
+      "trades": 2,
+      "net_usd": -31.5,
+      "usd_per_trade": -15.75,
+      "bp_per_trade": -9.552447974511358,
+      "gross_usd": -27.5,
+      "hit": 0.5
+     },
+     "2020-21": {
+      "trades": 4,
+      "net_usd": 224.0,
+      "usd_per_trade": 56.0,
+      "bp_per_trade": 21.83321283574267,
+      "gross_usd": 232.0,
+      "hit": 1.0
+     },
+     "2022-23": {
+      "trades": 2,
+      "net_usd": 16.5,
+      "usd_per_trade": 8.25,
+      "bp_per_trade": 1.9032647392641948,
+      "gross_usd": 20.5,
+      "hit": 0.5
+     },
+     "2024-Nov2026": {
+      "trades": 7,
+      "net_usd": -164.5,
+      "usd_per_trade": -23.5,
+      "bp_per_trade": -3.8167311294739554,
+      "gross_usd": -150.5,
+      "hit": 0.5714285714285714
+     }
+    },
+    "blocks_positive": 4,
+    "gross_blocks_positive": 4,
+    "pts_per_trade_by_era": {
+     "Jun2010-Dec2017": -1.71875,
+     "2018-01-01..2022-05-18": 16.041666666666668,
+     "2022-05-19..2024-12": 14.333333333333334,
+     "2025-01..latest": -19.5
+    }
+   },
+   "splits": {
+    "calm": {
+     "trades": 17,
+     "net_usd": 117.0,
+     "bp_per_trade": 0.9844505946737444,
+     "usd_per_trade": 6.882352941176471,
+     "t_iid": 0.16859101647255625
+    },
+    "not_calm": {
+     "trades": 6,
+     "net_usd": -342.5,
+     "bp_per_trade": -12.347541842558613,
+     "usd_per_trade": -57.083333333333336,
+     "t_iid": -1.012817957115411
+    },
+    "negative_burst": {
+     "trades": 20,
+     "net_usd": -296.0,
+     "bp_per_trade": -4.757537521579194,
+     "usd_per_trade": -14.8,
+     "t_iid": -0.8993338580448128
+    },
+    "positive_burst": {
+     "trades": 3,
+     "net_usd": 70.5,
+     "bp_per_trade": 12.600386495228625,
+     "usd_per_trade": 23.5,
+     "t_iid": 0.5542286231373866
+    },
+    "without_top10pct_M": {
+     "trades": 20,
+     "net_usd": -40.0,
+     "bp_per_trade": -1.3412278958118355,
+     "usd_per_trade": -2.0,
+     "t_iid": -0.2360052065520265
+    },
+    "top10pct_M": {
+     "trades": 3,
+     "net_usd": -185.5,
+     "bp_per_trade": -10.175011009887108,
+     "usd_per_trade": -61.833333333333336,
+     "t_iid": -0.5511315387584365
+    }
+   },
+   "fallback_exits": 0
+  },
+  "B-MES": {
+   "instrument": "MES",
+   "calibration": {
+    "armed_days": 20,
+    "events_traded": 20,
+    "mean_pre_bp_negative": -36.13190709859742,
+    "mean_pre_bp_positive": 104.39539273469703,
+    "n_negative": 19,
+    "n_positive": 1,
+    "source_ES_means": "about -37 / +36 bps (Christensen-Oomen-Reno, cv 4.0, one event per day)"
+   },
+   "headline": {
+    "trades": 20,
+    "days": 20,
+    "net_usd_per_trade": -2.8125,
+    "total_usd": -56.25,
+    "gross_usd_total": 13.75,
+    "net_bp_per_trade": -0.5100742752126799,
+    "gross_bp_per_trade": 1.480131072489128,
+    "trades_per_year": 1.2183122081387592,
+    "hit_rate": 0.55,
+    "t_nw5_daily_bp": -0.17549535188019788,
+    "t_iid_daily_bp": -0.10289620007494066,
+    "t_iid_daily_usd": -0.22840657228681763,
+    "max_dd_usd": 211.0,
+    "exit_mix": {
+     "time": 17,
+     "stop": 3
+    },
+    "stress_total_usd": -63.75,
+    "stress_bp_per_trade": -0.6742561758323689,
+    "eras": {
+     "Jun2010-Dec2017": {
+      "trades": 5,
+      "net_usd": 17.5,
+      "usd_per_trade": 3.5,
+      "bp_per_trade": 5.3630470234398855,
+      "gross_usd": 35.0,
+      "hit": 0.6
+     },
+     "2018-01-01..2022-05-18": {
+      "trades": 4,
+      "net_usd": -11.5,
+      "usd_per_trade": -2.875,
+      "bp_per_trade": -2.460838564375562,
+      "gross_usd": 2.5,
+      "hit": 0.5
+     },
+     "2022-05-19..2024-12": {
+      "trades": 7,
+      "net_usd": -50.75,
+      "usd_per_trade": -7.25,
+      "bp_per_trade": -2.8250386027749594,
+      "gross_usd": -26.25,
+      "hit": 0.5714285714285714
+     },
+     "2025-01..latest": {
+      "trades": 4,
+      "net_usd": -11.5,
+      "usd_per_trade": -2.875,
+      "bp_per_trade": -1.8495240361315142,
+      "gross_usd": 2.5,
+      "hit": 0.5
+     }
+    },
+    "blocks": {
+     "Jun2010-2011": {
+      "trades": 1,
+      "net_usd": 20.25,
+      "usd_per_trade": 20.25,
+      "bp_per_trade": 32.0855614973262,
+      "gross_usd": 23.75,
+      "hit": 1.0
+     },
+     "2012-13": {
+      "trades": 0,
+      "net_usd": 0.0,
+      "usd_per_trade": null,
+      "bp_per_trade": null,
+      "gross_usd": 0.0,
+      "hit": null
+     },
+     "2014-15": {
+      "trades": 1,
+      "net_usd": -9.75,
+      "usd_per_trade": -9.75,
+      "bp_per_trade": -9.433962264150944,
+      "gross_usd": -6.25,
+      "hit": 0.0
+     },
+     "2016-17": {
+      "trades": 3,
+      "net_usd": 7.0,
+      "usd_per_trade": 2.3333333333333335,
+      "bp_per_trade": 1.3878786280080553,
+      "gross_usd": 17.5,
+      "hit": 0.6666666666666666
+     },
+     "2018-19": {
+      "trades": 0,
+      "net_usd": 0.0,
+      "usd_per_trade": null,
+      "bp_per_trade": null,
+      "gross_usd": 0.0,
+      "hit": null
+     },
+     "2020-21": {
+      "trades": 4,
+      "net_usd": -11.5,
+      "usd_per_trade": -2.875,
+      "bp_per_trade": -2.460838564375562,
+      "gross_usd": 2.5,
+      "hit": 0.5
+     },
+     "2022-23": {
+      "trades": 2,
+      "net_usd": 8.0,
+      "usd_per_trade": 4.0,
+      "bp_per_trade": 1.9269148890187644,
+      "gross_usd": 15.0,
+      "hit": 0.5
+     },
+     "2024-Nov2026": {
+      "trades": 9,
+      "net_usd": -70.25,
+      "usd_per_trade": -7.805555555555555,
+      "bp_per_trade": -3.4474662379987007,
+      "gross_usd": -38.75,
+      "hit": 0.5555555555555556
+     }
+    },
+    "blocks_positive": 3,
+    "gross_blocks_positive": 4,
+    "pts_per_trade_by_era": {
+     "Jun2010-Dec2017": 0.6999999999999998,
+     "2018-01-01..2022-05-18": -0.5750000000000004,
+     "2022-05-19..2024-12": -1.4499999999999993,
+     "2025-01..latest": -0.5749999999999995
+    },
+    "t_event_nw5_bp": -0.17549535188019788,
+    "t_event_iid_bp": -0.10289620007494066
+   },
+   "C1": {
+    "p95": 8.226997924981669,
+    "mean": -1.0075424779216846,
+    "actual": -0.5100742752126799
+   },
+   "drift_control": null,
+   "criteria": [
+    {
+     "name": "power: >= 200 events",
+     "value": "20",
+     "pass_": false
+    },
+    {
+     "name": "(i) event-level t >= 2.4 (min of NW5 and iid, net bps)",
+     "value": "NW5 -0.18, iid -0.10",
+     "pass_": false
+    },
+    {
+     "name": "(ii) net P&L Jan 2018-latest > 0",
+     "value": "$-74",
+     "pass_": false
+    },
+    {
+     "name": "(iii) net > 0 in >= 6 of 8 blocks",
+     "value": "3/8",
+     "pass_": false
+    },
+    {
+     "name": "(iv) mean net bps > C1 95th pct",
+     "value": "-0.51 vs 8.23",
+     "pass_": false
+    }
+   ],
+   "passed": false,
+   "C2_arming_entry": {
+    "trades": 20,
+    "days": 20,
+    "net_usd_per_trade": -2.5625,
+    "total_usd": -51.25,
+    "gross_usd_total": 18.75,
+    "net_bp_per_trade": 0.9829402436145456,
+    "gross_bp_per_trade": 2.9744339324365745,
+    "trades_per_year": 1.2183122081387592,
+    "hit_rate": 0.6,
+    "t_nw5_daily_bp": 0.28732610909393447,
+    "t_iid_daily_bp": 0.1976026172340363,
+    "t_iid_daily_usd": -0.24017798670994112,
+    "max_dd_usd": 207.5,
+    "exit_mix": {
+     "time": 17,
+     "stop": 3
+    },
+    "stress_total_usd": -58.75,
+    "stress_bp_per_trade": 0.8187274338207677,
+    "eras": {
+     "Jun2010-Dec2017": {
+      "trades": 5,
+      "net_usd": 32.5,
+      "usd_per_trade": 6.5,
+      "bp_per_trade": 9.579865951221477,
+      "gross_usd": 50.0,
+      "hit": 0.6
+     },
+     "2018-01-01..2022-05-18": {
+      "trades": 4,
+      "net_usd": 24.75,
+      "usd_per_trade": 6.1875,
+      "bp_per_trade": 2.6940101652837725,
+      "gross_usd": 38.75,
+      "hit": 0.5
+     },
+     "2022-05-19..2024-12": {
+      "trades": 7,
+      "net_usd": -32.0,
+      "usd_per_trade": -4.571428571428571,
+      "bp_per_trade": -1.556957867557878,
+      "gross_usd": -7.5,
+      "hit": 0.5714285714285714
+     },
+     "2025-01..latest": {
+      "trades": 4,
+      "net_usd": -76.5,
+      "usd_per_trade": -19.125,
+      "bp_per_trade": -7.029465118011605,
+      "gross_usd": -62.5,
+      "hit": 0.75
+     }
+    },
+    "blocks": {
+     "Jun2010-2011": {
+      "trades": 1,
+      "net_usd": 30.25,
+      "usd_per_trade": 30.25,
+      "bp_per_trade": 48.03493449781659,
+      "gross_usd": 33.75,
+      "hit": 1.0
+     },
+     "2012-13": {
+      "trades": 0,
+      "net_usd": 0.0,
+      "usd_per_trade": null,
+      "bp_per_trade": null,
+      "gross_usd": 0.0,
+      "hit": null
+     },
+     "2014-15": {
+      "trades": 1,
+      "net_usd": -7.25,
+      "usd_per_trade": -7.25,
+      "bp_per_trade": -7.017543859649122,
+      "gross_usd": -3.75,
+      "hit": 0.0
+     },
+     "2016-17": {
+      "trades": 3,
+      "net_usd": 9.5,
+      "usd_per_trade": 3.1666666666666665,
+      "bp_per_trade": 2.293979705979972,
+      "gross_usd": 20.0,
+      "hit": 0.6666666666666666
+     },
+     "2018-19": {
+      "trades": 0,
+      "net_usd": 0.0,
+      "usd_per_trade": null,
+      "bp_per_trade": null,
+      "gross_usd": 0.0,
+      "hit": null
+     },
+     "2020-21": {
+      "trades": 4,
+      "net_usd": 24.75,
+      "usd_per_trade": 6.1875,
+      "bp_per_trade": 2.6940101652837725,
+      "gross_usd": 38.75,
+      "hit": 0.5
+     },
+     "2022-23": {
+      "trades": 2,
+      "net_usd": 19.25,
+      "usd_per_trade": 9.625,
+      "bp_per_trade": 4.736810834465265,
+      "gross_usd": 26.25,
+      "hit": 0.5
+     },
+     "2024-Nov2026": {
+      "trades": 9,
+      "net_usd": -127.75,
+      "usd_per_trade": -14.194444444444445,
+      "bp_per_trade": -5.387798579320233,
+      "gross_usd": -96.25,
+      "hit": 0.6666666666666666
+     }
+    },
+    "blocks_positive": 4,
+    "gross_blocks_positive": 4,
+    "pts_per_trade_by_era": {
+     "Jun2010-Dec2017": 1.2999999999999998,
+     "2018-01-01..2022-05-18": 1.2374999999999998,
+     "2022-05-19..2024-12": -0.9142857142857139,
+     "2025-01..latest": -3.8249999999999993
+    }
+   },
+   "splits": {
+    "calm": {
+     "trades": 14,
+     "net_usd": 89.75,
+     "bp_per_trade": 2.808105780515947,
+     "usd_per_trade": 6.410714285714286,
+     "t_iid": 0.814241530822585
+    },
+    "not_calm": {
+     "trades": 6,
+     "net_usd": -146.0,
+     "bp_per_trade": -8.252494405246143,
+     "usd_per_trade": -24.333333333333332,
+     "t_iid": -0.5538932280777418
+    },
+    "negative_burst": {
+     "trades": 19,
+     "net_usd": -189.0,
+     "bp_per_trade": -2.6684360141419488,
+     "usd_per_trade": -9.947368421052632,
+     "t_iid": -0.5672669209131934
+    },
+    "positive_burst": {
+     "trades": 1,
+     "net_usd": 132.75,
+     "bp_per_trade": 40.49879876444343,
+     "usd_per_trade": 132.75,
+     "t_iid": NaN
+    },
+    "without_top10pct_M": {
+     "trades": 18,
+     "net_usd": -189.25,
+     "bp_per_trade": -2.8208079229710292,
+     "usd_per_trade": -10.51388888888889,
+     "t_iid": -0.5675182057603712
+    },
+    "top10pct_M": {
+     "trades": 2,
+     "net_usd": 133.0,
+     "bp_per_trade": 20.286528554612463,
+     "usd_per_trade": 66.5,
+     "t_iid": NaN
+    }
+   },
+   "fallback_exits": 0
+  },
+  "B1": {
+   "instrument": "MNQ",
+   "calibration": {
+    "armed_days": 23,
+    "events_traded": 20,
+    "mean_pre_bp_negative": -45.49501891372317,
+    "mean_pre_bp_positive": NaN,
+    "n_negative": 20,
+    "n_positive": 0,
+    "source_ES_means": "about -37 / +36 bps (Christensen-Oomen-Reno, cv 4.0, one event per day)"
+   },
+   "headline": {
+    "trades": 20,
+    "days": 20,
+    "net_usd_per_trade": -14.8,
+    "total_usd": -296.0,
+    "gross_usd_total": -256.0,
+    "net_bp_per_trade": -4.757537521579194,
+    "gross_bp_per_trade": -3.3189095082083853,
+    "trades_per_year": 1.2183122081387592,
+    "hit_rate": 0.5,
+    "t_nw5_daily_bp": -1.5116402772490882,
+    "t_iid_daily_bp": -0.8993338580448128,
+    "t_iid_daily_usd": -0.9773115337344569,
+    "max_dd_usd": 306.0,
+    "exit_mix": {
+     "time": 18,
+     "stop": 2
+    },
+    "stress_total_usd": -298.0,
+    "stress_bp_per_trade": -4.811138623475681,
+    "eras": {
+     "Jun2010-Dec2017": {
+      "trades": 8,
+      "net_usd": -43.5,
+      "usd_per_trade": -5.4375,
+      "bp_per_trade": -3.656676428001361,
+      "gross_usd": -27.5,
+      "hit": 0.375
+     },
+     "2018-01-01..2022-05-18": {
+      "trades": 5,
+      "net_usd": -19.5,
+      "usd_per_trade": -3.9,
+      "bp_per_trade": -2.9045672161508156,
+      "gross_usd": -9.5,
+      "hit": 0.6
+     },
+     "2022-05-19..2024-12": {
+      "trades": 3,
+      "net_usd": 66.5,
+      "usd_per_trade": 22.166666666666668,
+      "bp_per_trade": 5.2193509831848885,
+      "gross_usd": 72.5,
+      "hit": 0.6666666666666666
+     },
+     "2025-01..latest": {
+      "trades": 4,
+      "net_usd": -299.5,
+      "usd_per_trade": -74.875,
+      "bp_per_trade": -16.758138969093398,
+      "gross_usd": -291.5,
+      "hit": 0.5
+     }
+    },
+    "blocks": {
+     "Jun2010-2011": {
+      "trades": 1,
+      "net_usd": 5.5,
+      "usd_per_trade": 5.5,
+      "bp_per_trade": 12.353998203054807,
+      "gross_usd": 7.5,
+      "hit": 1.0
+     },
+     "2012-13": {
+      "trades": 1,
+      "net_usd": 4.5,
+      "usd_per_trade": 4.5,
+      "bp_per_trade": 8.619038498371959,
+      "gross_usd": 6.5,
+      "hit": 1.0
+     },
+     "2014-15": {
+      "trades": 1,
+      "net_usd": -18.5,
+      "usd_per_trade": -18.5,
+      "bp_per_trade": -21.554235115926833,
+      "gross_usd": -16.5,
+      "hit": 0.0
+     },
+     "2016-17": {
+      "trades": 5,
+      "net_usd": -35.0,
+      "usd_per_trade": -7.0,
+      "bp_per_trade": -5.734442601902165,
+      "gross_usd": -25.0,
+      "hit": 0.2
+     },
+     "2018-19": {
+      "trades": 2,
+      "net_usd": -79.0,
+      "usd_per_trade": -39.5,
+      "bp_per_trade": -23.856864690998755,
+      "gross_usd": -75.0,
+      "hit": 0.5
+     },
+     "2020-21": {
+      "trades": 3,
+      "net_usd": 59.5,
+      "usd_per_trade": 19.833333333333332,
+      "bp_per_trade": 11.063631100414476,
+      "gross_usd": 65.5,
+      "hit": 0.6666666666666666
+     },
+     "2022-23": {
+      "trades": 2,
+      "net_usd": 0.5,
+      "usd_per_trade": 0.25,
+      "bp_per_trade": -1.2079841916337415,
+      "gross_usd": 4.5,
+      "hit": 0.5
+     },
+     "2024-Nov2026": {
+      "trades": 5,
+      "net_usd": -233.5,
+      "usd_per_trade": -46.7,
+      "bp_per_trade": -9.79170690871029,
+      "gross_usd": -223.5,
+      "hit": 0.6
+     }
+    },
+    "blocks_positive": 4,
+    "gross_blocks_positive": 4,
+    "pts_per_trade_by_era": {
+     "Jun2010-Dec2017": -2.71875,
+     "2018-01-01..2022-05-18": -1.95,
+     "2022-05-19..2024-12": 11.083333333333334,
+     "2025-01..latest": -37.4375
+    },
+    "t_event_nw5_bp": -1.5116402772490882,
+    "t_event_iid_bp": -0.8993338580448128
+   },
+   "C1": {
+    "p95": 6.612632725874532,
+    "mean": -1.9284090969469816,
+    "actual": -4.757537521579194
+   },
+   "drift_control": {
+    "p95": 3.9257479642883144,
+    "mean": -1.8535765038700356,
+    "actual": -4.757537521579194
+   },
+   "criteria": [
+    {
+     "name": "power: >= 200 events",
+     "value": "20",
+     "pass_": false
+    },
+    {
+     "name": "(i) event-level t >= 2.4 (min of NW5 and iid, net bps)",
+     "value": "NW5 -1.51, iid -0.90",
+     "pass_": false
+    },
+    {
+     "name": "(ii) net P&L Jan 2018-latest > 0",
+     "value": "$-252",
+     "pass_": false
+    },
+    {
+     "name": "(iii) net > 0 in >= 6 of 8 blocks",
+     "value": "4/8",
+     "pass_": false
+    },
+    {
+     "name": "(iv) mean net bps > C1 95th pct",
+     "value": "-4.76 vs 6.61",
+     "pass_": false
+    },
+    {
+     "name": "(iv-b) B1 mean net bps > drift-control 95th pct",
+     "value": "-4.76 vs 3.93",
+     "pass_": false
+    }
+   ],
+   "passed": false,
+   "C2_arming_entry": {
+    "trades": 20,
+    "days": 20,
+    "net_usd_per_trade": -4.5,
+    "total_usd": -90.0,
+    "gross_usd_total": -50.0,
+    "net_bp_per_trade": -0.584704805651181,
+    "gross_bp_per_trade": 0.8545536679639701,
+    "trades_per_year": 1.2183122081387592,
+    "hit_rate": 0.55,
+    "t_nw5_daily_bp": -0.21282927271717247,
+    "t_iid_daily_bp": -0.1155275013511913,
+    "t_iid_daily_usd": -0.2992493182734233,
+    "max_dd_usd": 214.0,
+    "exit_mix": {
+     "time": 18,
+     "stop": 2
+    },
+    "stress_total_usd": -92.0,
+    "stress_bp_per_trade": -0.638340500760739,
+    "eras": {
+     "Jun2010-Dec2017": {
+      "trades": 8,
+      "net_usd": -27.5,
+      "usd_per_trade": -3.4375,
+      "bp_per_trade": -1.2298573175232992,
+      "gross_usd": -11.5,
+      "hit": 0.375
+     },
+     "2018-01-01..2022-05-18": {
+      "trades": 5,
+      "net_usd": 43.0,
+      "usd_per_trade": 8.6,
+      "bp_per_trade": 3.6966666606685754,
+      "gross_usd": 53.0,
+      "hit": 0.8
+     },
+     "2022-05-19..2024-12": {
+      "trades": 3,
+      "net_usd": 86.0,
+      "usd_per_trade": 28.666666666666668,
+      "bp_per_trade": 7.614310487200353,
+      "gross_usd": 92.0,
+      "hit": 0.6666666666666666
+     },
+     "2025-01..latest": {
+      "trades": 4,
+      "net_usd": -191.5,
+      "usd_per_trade": -47.875,
+      "bp_per_trade": -10.795375584445292,
+      "gross_usd": -183.5,
+      "hit": 0.5
+     }
+    },
+    "blocks": {
+     "Jun2010-2011": {
+      "trades": 1,
+      "net_usd": 7.0,
+      "usd_per_trade": 7.0,
+      "bp_per_trade": 15.739179314221472,
+      "gross_usd": 9.0,
+      "hit": 1.0
+     },
+     "2012-13": {
+      "trades": 1,
+      "net_usd": 7.0,
+      "usd_per_trade": 7.0,
+      "bp_per_trade": 13.416387158600863,
+      "gross_usd": 9.0,
+      "hit": 1.0
+     },
+     "2014-15": {
+      "trades": 1,
+      "net_usd": -14.5,
+      "usd_per_trade": -14.5,
+      "bp_per_trade": -16.90567797598228,
+      "gross_usd": -12.5,
+      "hit": 0.0
+     },
+     "2016-17": {
+      "trades": 5,
+      "net_usd": -27.0,
+      "usd_per_trade": -5.4,
+      "bp_per_trade": -4.4177494074052905,
+      "gross_usd": -17.0,
+      "hit": 0.2
+     },
+     "2018-19": {
+      "trades": 2,
+      "net_usd": -31.5,
+      "usd_per_trade": -15.75,
+      "bp_per_trade": -9.552447974511358,
+      "gross_usd": -27.5,
+      "hit": 0.5
+     },
+     "2020-21": {
+      "trades": 3,
+      "net_usd": 74.5,
+      "usd_per_trade": 24.833333333333332,
+      "bp_per_trade": 12.529409750788531,
+      "gross_usd": 80.5,
+      "hit": 1.0
+     },
+     "2022-23": {
+      "trades": 2,
+      "net_usd": 16.5,
+      "usd_per_trade": 8.25,
+      "bp_per_trade": 1.9032647392641948,
+      "gross_usd": 20.5,
+      "hit": 0.5
+     },
+     "2024-Nov2026": {
+      "trades": 5,
+      "net_usd": -122.0,
+      "usd_per_trade": -24.4,
+      "bp_per_trade": -4.829020070941699,
+      "gross_usd": -112.0,
+      "hit": 0.6
+     }
+    },
+    "blocks_positive": 4,
+    "gross_blocks_positive": 4,
+    "pts_per_trade_by_era": {
+     "Jun2010-Dec2017": -1.71875,
+     "2018-01-01..2022-05-18": 4.3,
+     "2022-05-19..2024-12": 14.333333333333334,
+     "2025-01..latest": -23.9375
+    }
+   },
+   "splits": {
+    "calm": {
+     "trades": 16,
+     "net_usd": -12.5,
+     "bp_per_trade": -1.6480764307236366,
+     "usd_per_trade": -0.78125,
+     "t_iid": -0.29701439013232445
+    },
+    "not_calm": {
+     "trades": 4,
+     "net_usd": -283.5,
+     "bp_per_trade": -17.195381885001424,
+     "usd_per_trade": -70.875,
+     "t_iid": -1.19822811083514
+    },
+    "negative_burst": {
+     "trades": 20,
+     "net_usd": -296.0,
+     "bp_per_trade": -4.757537521579194,
+     "usd_per_trade": -14.8,
+     "t_iid": -0.8993338580448128
+    },
+    "positive_burst": {
+     "trades": 0,
+     "net_usd": 0.0,
+     "bp_per_trade": NaN,
+     "usd_per_trade": NaN,
+     "t_iid": NaN
+    },
+    "without_top10pct_M": {
+     "trades": 18,
+     "net_usd": 44.5,
+     "bp_per_trade": -1.104104922799218,
+     "usd_per_trade": 2.4722222222222223,
+     "t_iid": -0.21697915054050282
+    },
+    "top10pct_M": {
+     "trades": 2,
+     "net_usd": -340.5,
+     "bp_per_trade": -37.638430910598984,
+     "usd_per_trade": -170.25,
+     "t_iid": NaN
+    }
+   },
+   "fallback_exits": 0
+  }
+ },
+ "C": {
+  "B0_check": {
+   "csv_count": 3509,
+   "b0_count": 3509,
+   "csv_total_usd": 19438.0,
+   "b0_total_usd": 19438.0,
+   "only_csv": 0,
+   "only_b0": 0,
+   "max_abs_usd_diff": 0.0,
+   "exit_label_mismatch": 0,
+   "match": true
+  },
+  "failure_counts": {
+   "orb_days": 3509,
+   "failure_signal_days": 2465,
+   "stopped_before_or_in_failure_bar": 1229,
+   "early_close_days_excluded": 11,
+   "events": 1217
+  },
+  "C": {
+   "instrument": "MNQ",
+   "headline": {
+    "trades": 1217,
+    "days": 1217,
+    "net_usd_per_trade": -8.35127362366475,
+    "total_usd": -10163.5,
+    "gross_usd_total": -7729.5,
+    "net_bp_per_trade": -3.4461827945767727,
+    "gross_bp_per_trade": -1.7212290182446417,
+    "trades_per_year": 74.1342978652435,
+    "hit_rate": 0.30238290879211177,
+    "t_nw5_daily_bp": -2.5890429786113227,
+    "t_iid_daily_bp": -2.3256015186548193,
+    "t_iid_daily_usd": -2.240603392820055,
+    "max_dd_usd": 10220.5,
+    "exit_mix": {
+     "stop": 734,
+     "time": 483
+    },
+    "stress_total_usd": -10897.5,
+    "stress_bp_per_trade": -3.963838854188538,
+    "eras": {
+     "Jun2010-Dec2017": {
+      "trades": 510,
+      "net_usd": -1495.5,
+      "usd_per_trade": -2.9323529411764704,
+      "bp_per_trade": -3.87063463635342,
+      "gross_usd": -475.5,
+      "hit": 0.2980392156862745
+     },
+     "2018-01-01..2022-05-18": {
+      "trades": 345,
+      "net_usd": -2753.5,
+      "usd_per_trade": -7.981159420289855,
+      "bp_per_trade": -4.125632321882565,
+      "gross_usd": -2063.5,
+      "hit": 0.30144927536231886
+     },
+     "2022-05-19..2024-12": {
+      "trades": 209,
+      "net_usd": 2442.5,
+      "usd_per_trade": 11.686602870813397,
+      "bp_per_trade": 3.534983530022924,
+      "gross_usd": 2860.5,
+      "hit": 0.3397129186602871
+     },
+     "2025-01..latest": {
+      "trades": 153,
+      "net_usd": -8357.0,
+      "usd_per_trade": -54.62091503267974,
+      "bp_per_trade": -10.035615707091468,
+      "gross_usd": -8051.0,
+      "hit": 0.2679738562091503
+     }
+    },
+    "blocks": {
+     "Jun2010-2011": {
+      "trades": 93,
+      "net_usd": -176.5,
+      "usd_per_trade": -1.8978494623655915,
+      "bp_per_trade": -4.267481149624841,
+      "gross_usd": 9.5,
+      "hit": 0.3118279569892473
+     },
+     "2012-13": {
+      "trades": 139,
+      "net_usd": -315.5,
+      "usd_per_trade": -2.2697841726618706,
+      "bp_per_trade": -3.5651452781825013,
+      "gross_usd": -37.5,
+      "hit": 0.302158273381295
+     },
+     "2014-15": {
+      "trades": 141,
+      "net_usd": -849.5,
+      "usd_per_trade": -6.024822695035461,
+      "bp_per_trade": -7.103791538637404,
+      "gross_usd": -567.5,
+      "hit": 0.24113475177304963
+     },
+     "2016-17": {
+      "trades": 137,
+      "net_usd": -154.0,
+      "usd_per_trade": -1.1240875912408759,
+      "bp_per_trade": -0.5836358905831567,
+      "gross_usd": 120.0,
+      "hit": 0.34306569343065696
+     },
+     "2018-19": {
+      "trades": 164,
+      "net_usd": -1221.5,
+      "usd_per_trade": -7.448170731707317,
+      "bp_per_trade": -4.9394933041780265,
+      "gross_usd": -893.5,
+      "hit": 0.27439024390243905
+     },
+     "2020-21": {
+      "trades": 154,
+      "net_usd": -66.0,
+      "usd_per_trade": -0.42857142857142855,
+      "bp_per_trade": -0.673086691566283,
+      "gross_usd": 242.0,
+      "hit": 0.34415584415584416
+     },
+     "2022-23": {
+      "trades": 151,
+      "net_usd": -195.5,
+      "usd_per_trade": -1.294701986754967,
+      "bp_per_trade": -0.6578944704250196,
+      "gross_usd": 106.5,
+      "hit": 0.33112582781456956
+     },
+     "2024-Nov2026": {
+      "trades": 238,
+      "net_usd": -7185.0,
+      "usd_per_trade": -30.189075630252102,
+      "bp_per_trade": -5.071035626214732,
+      "gross_usd": -6709.0,
+      "hit": 0.2857142857142857
+     }
+    },
+    "blocks_positive": 0,
+    "gross_blocks_positive": 4,
+    "pts_per_trade_by_era": {
+     "Jun2010-Dec2017": -1.4661764705882352,
+     "2018-01-01..2022-05-18": -3.9905797101449276,
+     "2022-05-19..2024-12": 5.8433014354066986,
+     "2025-01..latest": -27.31045751633987
+    },
+    "t_event_nw5_bp": -2.5890429786113227,
+    "t_event_iid_bp": -2.3256015186548193
+   },
+   "random_ctl": {
+    "p95": 1.5137876714447185,
+    "mean": -0.8218624254453194,
+    "actual": -3.4461827945767727
+   },
+   "criteria": [
+    {
+     "name": "(i) reverse-leg event-level t >= 2.0 (min NW5/iid, net bps)",
+     "value": "NW5 -2.59, iid -2.33",
+     "pass_": false
+    },
+    {
+     "name": "(ii) reverse-leg net Jan 2018-latest > 0",
+     "value": "$-8,668 (Jan 2025-latest $-8,357)",
+     "pass_": false
+    },
+    {
+     "name": "(iii) reverse-leg net > 0 in >= 6 of 8 blocks",
+     "value": "0/8",
+     "pass_": false
+    },
+    {
+     "name": "(iv) mean net bps > random-direction 95th pct",
+     "value": "-3.45 vs 1.51",
+     "pass_": false
+    },
+    {
+     "name": "(v) mean daily (book - B0) > 0 and book maxDD <= B0 maxDD",
+     "value": "mean diff $-4.801/day; maxDD book $10,516 vs B0 $4,352",
+     "pass_": false
+    }
+   ],
+   "passed": false,
+   "extra": {
+    "post2025_usd": -8357.0
+   },
+   "books": {
+    "B0": {
+     "days": 3509,
+     "total_usd": 19438.0,
+     "mean_daily_usd": 5.53946993445426,
+     "max_dd_usd": 4351.5,
+     "t_iid": 2.0283758494514816
+    },
+    "B1_plain_exit": {
+     "days": 3509,
+     "total_usd": 12753.5,
+     "mean_daily_usd": 3.63451125676831,
+     "max_dd_usd": 3821.0,
+     "t_iid": 1.6021846772597088
+    },
+    "B2_or_variant": {
+     "days": 3509,
+     "total_usd": 2590.0,
+     "mean_daily_usd": 0.7381020233684811,
+     "max_dd_usd": 10515.5,
+     "t_iid": 0.27850846181235145
+    },
+    "B1_minus_B0": {
+     "days": 3509,
+     "total_usd": -6684.5,
+     "mean_daily_usd": -1.9049586776859504,
+     "max_dd_usd": 8842.0,
+     "t_iid": -1.260692675601005
+    },
+    "B2_minus_B0": {
+     "days": 3509,
+     "total_usd": -16848.0,
+     "mean_daily_usd": -4.801367911085779,
+     "max_dd_usd": 17133.5,
+     "t_iid": -2.1712292575743946
+    },
+    "B1_minus_B0_on_event_days": {
+     "days": 1217,
+     "total_usd": -6684.5,
+     "mean_daily_usd": -5.4926047658175845,
+     "max_dd_usd": 8842.0,
+     "t_iid": -1.2608922709370276
+    }
+   },
+   "orb_early_exit_stats": {
+    "events": 1217,
+    "orb_exit_usd": -43323.0,
+    "orb_baseline_usd_same_days": -36638.5
+   }
+  },
+  "C1-calm": {
+   "instrument": "MNQ",
+   "headline": {
+    "trades": 686,
+    "days": 686,
+    "net_usd_per_trade": -9.29737609329446,
+    "total_usd": -6378.0,
+    "gross_usd_total": -5006.0,
+    "net_bp_per_trade": -3.8242030500044097,
+    "gross_bp_per_trade": -2.040648495659625,
+    "trades_per_year": 41.78810873915944,
+    "hit_rate": 0.30612244897959184,
+    "t_nw5_daily_bp": -2.363425591239858,
+    "t_iid_daily_bp": -2.4104226302521963,
+    "t_iid_daily_usd": -2.2916111631123974,
+    "max_dd_usd": 6440.0,
+    "exit_mix": {
+     "stop": 408,
+     "time": 278
+    },
+    "stress_total_usd": -6786.0,
+    "stress_bp_per_trade": -4.3514367510766805,
+    "eras": {
+     "Jun2010-Dec2017": {
+      "trades": 329,
+      "net_usd": -900.0,
+      "usd_per_trade": -2.735562310030395,
+      "bp_per_trade": -3.694223438235533,
+      "gross_usd": -242.0,
+      "hit": 0.3069908814589666
+     },
+     "2018-01-01..2022-05-18": {
+      "trades": 141,
+      "net_usd": -1274.0,
+      "usd_per_trade": -9.035460992907801,
+      "bp_per_trade": -4.882584416071465,
+      "gross_usd": -992.0,
+      "hit": 0.2978723404255319
+     },
+     "2022-05-19..2024-12": {
+      "trades": 142,
+      "net_usd": 1079.5,
+      "usd_per_trade": 7.602112676056338,
+      "bp_per_trade": 1.3415402111760872,
+      "gross_usd": 1363.5,
+      "hit": 0.352112676056338
+     },
+     "2025-01..latest": {
+      "trades": 74,
+      "net_usd": -5283.5,
+      "usd_per_trade": -71.39864864864865,
+      "bp_per_trade": -12.29808227627652,
+      "gross_usd": -5135.5,
+      "hit": 0.22972972972972974
+     }
+    },
+    "blocks": {
+     "Jun2010-2011": {
+      "trades": 46,
+      "net_usd": -110.5,
+      "usd_per_trade": -2.402173913043478,
+      "bp_per_trade": -5.63496307600624,
+      "gross_usd": -18.5,
+      "hit": 0.34782608695652173
+     },
+     "2012-13": {
+      "trades": 109,
+      "net_usd": -211.5,
+      "usd_per_trade": -1.9403669724770642,
+      "bp_per_trade": -2.97117570327235,
+      "gross_usd": 6.5,
+      "hit": 0.3119266055045872
+     },
+     "2014-15": {
+      "trades": 68,
+      "net_usd": -346.0,
+      "usd_per_trade": -5.088235294117647,
+      "bp_per_trade": -6.0188497385047715,
+      "gross_usd": -210.0,
+      "hit": 0.25
+     },
+     "2016-17": {
+      "trades": 106,
+      "net_usd": -232.0,
+      "usd_per_trade": -2.188679245283019,
+      "bp_per_trade": -2.1042573189452134,
+      "gross_usd": -20.0,
+      "hit": 0.32075471698113206
+     },
+     "2018-19": {
+      "trades": 56,
+      "net_usd": -590.0,
+      "usd_per_trade": -10.535714285714286,
+      "bp_per_trade": -6.609924471177002,
+      "gross_usd": -478.0,
+      "hit": 0.25
+     },
+     "2020-21": {
+      "trades": 83,
+      "net_usd": -494.5,
+      "usd_per_trade": -5.957831325301205,
+      "bp_per_trade": -3.1318026605738254,
+      "gross_usd": -328.5,
+      "hit": 0.3373493975903614
+     },
+     "2022-23": {
+      "trades": 97,
+      "net_usd": 12.0,
+      "usd_per_trade": 0.12371134020618557,
+      "bp_per_trade": -0.9393667710448464,
+      "gross_usd": 206.0,
+      "hit": 0.35051546391752575
+     },
+     "2024-Nov2026": {
+      "trades": 121,
+      "net_usd": -4405.5,
+      "usd_per_trade": -36.40909090909091,
+      "bp_per_trade": -5.67594886874913,
+      "gross_usd": -4163.5,
+      "hit": 0.2727272727272727
+     }
+    },
+    "blocks_positive": 1,
+    "gross_blocks_positive": 2,
+    "pts_per_trade_by_era": {
+     "Jun2010-Dec2017": -1.3677811550151975,
+     "2018-01-01..2022-05-18": -4.5177304964539005,
+     "2022-05-19..2024-12": 3.801056338028169,
+     "2025-01..latest": -35.69932432432432
+    },
+    "t_event_nw5_bp": -2.363425591239858,
+    "t_event_iid_bp": -2.4104226302521963
+   },
+   "random_ctl": {
+    "p95": 1.4735439641573995,
+    "mean": -1.035613011464053,
+    "actual": -3.8242030500044097
+   },
+   "criteria": [
+    {
+     "name": "(i) reverse-leg event-level t >= 2.4 (min NW5/iid, net bps)",
+     "value": "NW5 -2.36, iid -2.41",
+     "pass_": false
+    },
+    {
+     "name": "(ii) reverse-leg net Jan 2018-latest > 0",
+     "value": "$-5,478 (Jan 2025-latest $-5,284)",
+     "pass_": false
+    },
+    {
+     "name": "(iii) reverse-leg net > 0 in >= 6 of 8 blocks",
+     "value": "1/8",
+     "pass_": false
+    },
+    {
+     "name": "(iv) mean net bps > random-direction 95th pct",
+     "value": "-3.82 vs 1.47",
+     "pass_": false
+    },
+    {
+     "name": "(v) mean daily (book - B0) > 0 and book maxDD <= B0 maxDD",
+     "value": "mean diff $-3.723/day; maxDD book $7,540 vs B0 $4,352",
+     "pass_": false
+    }
+   ],
+   "passed": false,
+   "extra": {
+    "post2025_usd": -5283.5
+   },
+   "books": {
+    "B0": {
+     "days": 3509,
+     "total_usd": 19438.0,
+     "mean_daily_usd": 5.53946993445426,
+     "max_dd_usd": 4351.5,
+     "t_iid": 2.0283758494514816
+    },
+    "B1_plain_exit": {
+     "days": 3509,
+     "total_usd": 12753.5,
+     "mean_daily_usd": 3.63451125676831,
+     "max_dd_usd": 3821.0,
+     "t_iid": 1.6021846772597088
+    },
+    "B2_or_variant": {
+     "days": 3509,
+     "total_usd": 6375.5,
+     "mean_daily_usd": 1.8168994015389,
+     "max_dd_usd": 7540.0,
+     "t_iid": 0.7478356602150132
+    },
+    "B1_minus_B0": {
+     "days": 3509,
+     "total_usd": -6684.5,
+     "mean_daily_usd": -1.9049586776859504,
+     "max_dd_usd": 8842.0,
+     "t_iid": -1.260692675601005
+    },
+    "B2_minus_B0": {
+     "days": 3509,
+     "total_usd": -13062.5,
+     "mean_daily_usd": -3.7225705329153604,
+     "max_dd_usd": 13514.5,
+     "t_iid": -2.1065326166926304
+    },
+    "B1_minus_B0_on_event_days": {
+     "days": 1217,
+     "total_usd": -6684.5,
+     "mean_daily_usd": -5.4926047658175845,
+     "max_dd_usd": 8842.0,
+     "t_iid": -1.2608922709370276
+    }
+   },
+   "orb_early_exit_stats": {
+    "events": 1217,
+    "orb_exit_usd": -43323.0,
+    "orb_baseline_usd_same_days": -36638.5
+   }
+  },
+  "C2-target": {
+   "instrument": "MNQ",
+   "headline": {
+    "trades": 1217,
+    "days": 1217,
+    "net_usd_per_trade": -1.923582580115037,
+    "total_usd": -2341.0,
+    "gross_usd_total": 93.0,
+    "net_bp_per_trade": -1.6020225877610437,
+    "gross_bp_per_trade": 0.1229311885710872,
+    "trades_per_year": 74.1342978652435,
+    "hit_rate": 0.5324568611339359,
+    "t_nw5_daily_bp": -1.8162959230125906,
+    "t_iid_daily_bp": -1.7272732096630408,
+    "t_iid_daily_usd": -0.7550258655648157,
+    "max_dd_usd": 3048.0,
+    "exit_mix": {
+     "target": 627,
+     "stop": 522,
+     "time": 68
+    },
+    "stress_total_usd": -2863.0,
+    "stress_bp_per_trade": -1.9693724043838796,
+    "eras": {
+     "Jun2010-Dec2017": {
+      "trades": 510,
+      "net_usd": -1225.0,
+      "usd_per_trade": -2.4019607843137254,
+      "bp_per_trade": -3.375498110813045,
+      "gross_usd": -205.0,
+      "hit": 0.5235294117647059
+     },
+     "2018-01-01..2022-05-18": {
+      "trades": 345,
+      "net_usd": -275.5,
+      "usd_per_trade": -0.7985507246376812,
+      "bp_per_trade": 0.24514853764431319,
+      "gross_usd": 414.5,
+      "hit": 0.5507246376811594
+     },
+     "2022-05-19..2024-12": {
+      "trades": 209,
+      "net_usd": -417.0,
+      "usd_per_trade": -1.9952153110047848,
+      "bp_per_trade": -1.2077180336789866,
+      "gross_usd": 1.0,
+      "hit": 0.5311004784688995
+     },
+     "2025-01..latest": {
+      "trades": 153,
+      "net_usd": -423.5,
+      "usd_per_trade": -2.7679738562091503,
+      "bp_per_trade": -0.39425247868573243,
+      "gross_usd": -117.5,
+      "hit": 0.5228758169934641
+     }
+    },
+    "blocks": {
+     "Jun2010-2011": {
+      "trades": 93,
+      "net_usd": -176.5,
+      "usd_per_trade": -1.8978494623655915,
+      "bp_per_trade": -4.167787242295559,
+      "gross_usd": 9.5,
+      "hit": 0.5376344086021505
+     },
+     "2012-13": {
+      "trades": 139,
+      "net_usd": -381.0,
+      "usd_per_trade": -2.741007194244604,
+      "bp_per_trade": -4.3627859794723065,
+      "gross_usd": -103.0,
+      "hit": 0.49640287769784175
+     },
+     "2014-15": {
+      "trades": 141,
+      "net_usd": -552.5,
+      "usd_per_trade": -3.9184397163120566,
+      "bp_per_trade": -4.474242958898434,
+      "gross_usd": -270.5,
+      "hit": 0.5035460992907801
+     },
+     "2016-17": {
+      "trades": 137,
+      "net_usd": -115.0,
+      "usd_per_trade": -0.8394160583941606,
+      "bp_per_trade": -0.7051409826995346,
+      "gross_usd": 159.0,
+      "hit": 0.5620437956204379
+     },
+     "2018-19": {
+      "trades": 164,
+      "net_usd": 390.5,
+      "usd_per_trade": 2.3810975609756095,
+      "bp_per_trade": 1.780835978066982,
+      "gross_usd": 718.5,
+      "hit": 0.5792682926829268
+     },
+     "2020-21": {
+      "trades": 154,
+      "net_usd": 139.5,
+      "usd_per_trade": 0.9058441558441559,
+      "bp_per_trade": 0.4125207596986052,
+      "gross_usd": 447.5,
+      "hit": 0.5454545454545454
+     },
+     "2022-23": {
+      "trades": 151,
+      "net_usd": -1946.0,
+      "usd_per_trade": -12.887417218543046,
+      "bp_per_trade": -4.753662733123248,
+      "gross_usd": -1644.0,
+      "hit": 0.4768211920529801
+     },
+     "2024-Nov2026": {
+      "trades": 238,
+      "net_usd": 300.0,
+      "usd_per_trade": 1.2605042016806722,
+      "bp_per_trade": 0.5632786660273233,
+      "gross_usd": 776.0,
+      "hit": 0.5462184873949579
+     }
+    },
+    "blocks_positive": 3,
+    "gross_blocks_positive": 5,
+    "pts_per_trade_by_era": {
+     "Jun2010-Dec2017": -1.2009803921568627,
+     "2018-01-01..2022-05-18": -0.3992753623188406,
+     "2022-05-19..2024-12": -0.9976076555023924,
+     "2025-01..latest": -1.3839869281045751
+    },
+    "t_event_nw5_bp": -1.8162959230125906,
+    "t_event_iid_bp": -1.7272732096630408
+   },
+   "random_ctl": {
+    "p95": 0.08224348433173144,
+    "mean": -1.346541058503637,
+    "actual": -1.6020225877610437
+   },
+   "criteria": [
+    {
+     "name": "(i) reverse-leg event-level t >= 2.4 (min NW5/iid, net bps)",
+     "value": "NW5 -1.82, iid -1.73",
+     "pass_": false
+    },
+    {
+     "name": "(ii) reverse-leg net Jan 2018-latest > 0",
+     "value": "$-1,116 (Jan 2025-latest $-424)",
+     "pass_": false
+    },
+    {
+     "name": "(iii) reverse-leg net > 0 in >= 6 of 8 blocks",
+     "value": "3/8",
+     "pass_": false
+    },
+    {
+     "name": "(iv) mean net bps > random-direction 95th pct",
+     "value": "-1.60 vs 0.08",
+     "pass_": false
+    },
+    {
+     "name": "(v) mean daily (book - B0) > 0 and book maxDD <= B0 maxDD",
+     "value": "mean diff $-2.572/day; maxDD book $3,992 vs B0 $4,352",
+     "pass_": false
+    }
+   ],
+   "passed": false,
+   "extra": {
+    "post2025_usd": -423.5
+   },
+   "books": {
+    "B0": {
+     "days": 3509,
+     "total_usd": 19438.0,
+     "mean_daily_usd": 5.53946993445426,
+     "max_dd_usd": 4351.5,
+     "t_iid": 2.0283758494514816
+    },
+    "B1_plain_exit": {
+     "days": 3509,
+     "total_usd": 12753.5,
+     "mean_daily_usd": 3.63451125676831,
+     "max_dd_usd": 3821.0,
+     "t_iid": 1.6021846772597088
+    },
+    "B2_or_variant": {
+     "days": 3509,
+     "total_usd": 10412.5,
+     "mean_daily_usd": 2.9673696209746367,
+     "max_dd_usd": 3992.5,
+     "t_iid": 1.2172473701348072
+    },
+    "B1_minus_B0": {
+     "days": 3509,
+     "total_usd": -6684.5,
+     "mean_daily_usd": -1.9049586776859504,
+     "max_dd_usd": 8842.0,
+     "t_iid": -1.260692675601005
+    },
+    "B2_minus_B0": {
+     "days": 3509,
+     "total_usd": -9025.5,
+     "mean_daily_usd": -2.572100313479624,
+     "max_dd_usd": 10235.0,
+     "t_iid": -1.2667102854864032
+    },
+    "B1_minus_B0_on_event_days": {
+     "days": 1217,
+     "total_usd": -6684.5,
+     "mean_daily_usd": -5.4926047658175845,
+     "max_dd_usd": 8842.0,
+     "t_iid": -1.2608922709370276
+    }
+   },
+   "orb_early_exit_stats": {
+    "events": 1217,
+    "orb_exit_usd": -43323.0,
+    "orb_baseline_usd_same_days": -36638.5
+   }
+  }
+ },
+ "overlap": {
+  "overnight_interval_count": 1731,
+  "overnight_csv_count": 1731,
+  "A": {
+   "exposure": {
+    "overnight_break": {
+     "trades": 1261,
+     "while_open_same_dir": 31,
+     "while_open_opposite": 166,
+     "share_same": 0.02458366375892149,
+     "share_opposite": 0.1316415543219667
+    },
+    "opening_range": {
+     "trades": 1261,
+     "while_open_same_dir": 78,
+     "while_open_opposite": 142,
+     "share_same": 0.061855670103092786,
+     "share_opposite": 0.11260904044409199
+    }
+   },
+   "correlation": {
+    "expiry_fade": {
+     "corr_all_days": 0.001814709251233905,
+     "corr_on_rule_days": NaN
+    },
+    "opening_range": {
+     "corr_all_days": 0.0037069612668781376,
+     "corr_on_rule_days": -0.00833965342200431
+    },
+    "overnight_break": {
+     "corr_all_days": -0.04737698922849936,
+     "corr_on_rule_days": -0.18501280639291565
+    },
+    "combined_three": {
+     "corr_all_days": -0.02041806424999887,
+     "maxdd_three": 7949.0,
+     "maxdd_three_plus_rule": 8154.5,
+     "total_three": 50657.0,
+     "total_three_plus_rule": 44581.0
+    }
+   }
+  },
+  "A1-MES": {
+   "exposure": {
+    "overnight_break": {
+     "trades": 1240,
+     "while_open_same_dir": 31,
+     "while_open_opposite": 151,
+     "share_same": 0.025,
+     "share_opposite": 0.1217741935483871
+    },
+    "opening_range": {
+     "trades": 1240,
+     "while_open_same_dir": 105,
+     "while_open_opposite": 175,
+     "share_same": 0.0846774193548387,
+     "share_opposite": 0.14112903225806453
+    }
+   },
+   "correlation": {
+    "expiry_fade": {
+     "corr_all_days": 0.004013269505357096,
+     "corr_on_rule_days": NaN
+    },
+    "opening_range": {
+     "corr_all_days": -0.0006639309543259085,
+     "corr_on_rule_days": -0.0358278516090898
+    },
+    "overnight_break": {
+     "corr_all_days": -0.04384740720808812,
+     "corr_on_rule_days": -0.17010970890932825
+    },
+    "combined_three": {
+     "corr_all_days": -0.021058838282227776,
+     "maxdd_three": 7949.0,
+     "maxdd_three_plus_rule": 8375.75,
+     "total_three": 50657.0,
+     "total_three_plus_rule": 43564.5
+    }
+   }
+  },
+  "A2-VWAP": {
+   "exposure": {
+    "overnight_break": {
+     "trades": 415,
+     "while_open_same_dir": 0,
+     "while_open_opposite": 101,
+     "share_same": 0.0,
+     "share_opposite": 0.2433734939759036
+    },
+    "opening_range": {
+     "trades": 415,
+     "while_open_same_dir": 2,
+     "while_open_opposite": 63,
+     "share_same": 0.004819277108433735,
+     "share_opposite": 0.15180722891566265
+    }
+   },
+   "correlation": {
+    "expiry_fade": {
+     "corr_all_days": 0.0009140741733725245,
+     "corr_on_rule_days": NaN
+    },
+    "opening_range": {
+     "corr_all_days": -0.0047244431191400095,
+     "corr_on_rule_days": -0.03303650200686799
+    },
+    "overnight_break": {
+     "corr_all_days": -0.09358656068404111,
+     "corr_on_rule_days": -0.4134350815998248
+    },
+    "combined_three": {
+     "corr_all_days": -0.04909612019422921,
+     "maxdd_three": 7949.0,
+     "maxdd_three_plus_rule": 7525.0,
+     "total_three": 50657.0,
+     "total_three_plus_rule": 48315.5
+    }
+   }
+  },
+  "B": {
+   "exposure": {
+    "overnight_break": {
+     "trades": 23,
+     "while_open_same_dir": 1,
+     "while_open_opposite": 1,
+     "share_same": 0.043478260869565216,
+     "share_opposite": 0.043478260869565216
+    },
+    "opening_range": {
+     "trades": 23,
+     "while_open_same_dir": 2,
+     "while_open_opposite": 1,
+     "share_same": 0.08695652173913043,
+     "share_opposite": 0.043478260869565216
+    }
+   },
+   "correlation": {
+    "expiry_fade": {
+     "corr_all_days": 0.000329678978006301,
+     "corr_on_rule_days": NaN
+    },
+    "opening_range": {
+     "corr_all_days": 0.0115337463220093,
+     "corr_on_rule_days": 0.33635327921962216
+    },
+    "overnight_break": {
+     "corr_all_days": 0.0171951892616169,
+     "corr_on_rule_days": 0.5296759209248593
+    },
+    "combined_three": {
+     "corr_all_days": 0.016308760186143134,
+     "maxdd_three": 7949.0,
+     "maxdd_three_plus_rule": 8008.0,
+     "total_three": 50657.0,
+     "total_three_plus_rule": 50431.5
+    }
+   }
+  },
+  "B-MES": {
+   "exposure": {
+    "overnight_break": {
+     "trades": 20,
+     "while_open_same_dir": 0,
+     "while_open_opposite": 1,
+     "share_same": 0.0,
+     "share_opposite": 0.05
+    },
+    "opening_range": {
+     "trades": 20,
+     "while_open_same_dir": 2,
+     "while_open_opposite": 2,
+     "share_same": 0.1,
+     "share_opposite": 0.1
+    }
+   },
+   "correlation": {
+    "expiry_fade": {
+     "corr_all_days": 0.00013629525944359395,
+     "corr_on_rule_days": NaN
+    },
+    "opening_range": {
+     "corr_all_days": -0.004915707801842731,
+     "corr_on_rule_days": -0.3050995530192958
+    },
+    "overnight_break": {
+     "corr_all_days": 0.02179970340206454,
+     "corr_on_rule_days": 0.6189085425475244
+    },
+    "combined_three": {
+     "corr_all_days": 0.007483998122439518,
+     "maxdd_three": 7949.0,
+     "maxdd_three_plus_rule": 7831.0,
+     "total_three": 50657.0,
+     "total_three_plus_rule": 50600.75
+    }
+   }
+  },
+  "B1": {
+   "exposure": {
+    "overnight_break": {
+     "trades": 20,
+     "while_open_same_dir": 1,
+     "while_open_opposite": 1,
+     "share_same": 0.05,
+     "share_opposite": 0.05
+    },
+    "opening_range": {
+     "trades": 20,
+     "while_open_same_dir": 2,
+     "while_open_opposite": 1,
+     "share_same": 0.1,
+     "share_opposite": 0.05
+    }
+   },
+   "correlation": {
+    "expiry_fade": {
+     "corr_all_days": 0.0005699034528567934,
+     "corr_on_rule_days": NaN
+    },
+    "opening_range": {
+     "corr_all_days": 0.011306603836515848,
+     "corr_on_rule_days": 0.5055353835638381
+    },
+    "overnight_break": {
+     "corr_all_days": 0.02284603442367388,
+     "corr_on_rule_days": 0.6826302610646319
+    },
+    "combined_three": {
+     "corr_all_days": 0.019003541030602613,
+     "maxdd_three": 7949.0,
+     "maxdd_three_plus_rule": 7949.0,
+     "total_three": 50657.0,
+     "total_three_plus_rule": 50361.0
+    }
+   }
+  },
+  "B_days_also_A": 7,
+  "C": {
+   "overnight_same_dir_as_failed_orb_at_reverse_entry": {
+    "trades": 1217,
+    "while_open_same_dir": 67,
+    "while_open_opposite": 2,
+    "share_same": 0.05505341002465078,
+    "share_opposite": 0.0016433853738701725
+   }
+  }
+ },
+ "checks": [
+  "SPOT CHECKS (raw CSV, minute loops)",
+  "  fade 2015-04-15 dec 13:30 P=4419.5 side short entry 4419.5 stop 4431.0 tgt 4413.75 -> exit 4422.75 at 14:30 (time); csv: 4419.5/4422.75/14:30/time  OK",
+  "  fade 2013-05-20 dec 13:00 P=3021.5 side long entry 3021.75 stop 3012.75 tgt 3026.0 -> exit 3012.75 at 13:46 (stop); csv: 3021.75/3012.75/13:46/stop  OK",
+  "  fade 2023-05-23 dec 12:30 P=13835.25 side long entry 13835.5 stop 13801.75 tgt 13852.25 -> exit 13801.75 at 12:38 (stop); csv: 13835.5/13801.75/12:38/stop  OK",
+  "  fade 2021-11-05 dec 13:00 P=16382.0 side long entry 16381.75 stop 16335.25 tgt 16405.25 -> exit 16335.25 at 13:25 (stop); csv: 16381.75/16335.25/13:25/stop  OK",
+  "  fade 2010-09-14 dec 11:30 P=1927.5 side short entry 1927.75 stop 1936.0 tgt 1923.25 -> exit 1936.0 at 12:25 (stop); csv: 1927.75/1936.0/12:25/stop  OK",
+  "  fade 2010-07-27 dec 13:30 P=1878.5 side long entry 1878.75 stop 1870.25 tgt 1882.75 -> exit 1882.75 at 13:48 (target); csv: 1878.75/1882.75/13:48/target  OK",
+  "  fade 2026-09-24 dec 11:30 P=7729.25 side long entry 7729.25 stop 7704.0 tgt 7742.0 -> exit 7742.0 at 12:15 (target); csv: 7729.25/7742.0/12:15/target  OK",
+  "  fade 2021-07-14 dec 11:30 P=4364.5 side long entry 4364.5 stop 4355.5 tgt 4369.0 -> exit 4355.5 at 11:47 (stop); csv: 4364.5/4355.5/11:47/stop  OK",
+  "  vwap 2023-12-29 dec 12:30 P=16952.25 side long entry 16952.0 stop 16884.75 tgt 17019.5 -> exit 17019.5 at 13:08 (target); csv: 16952.0/17019.5/13:08/target  OK",
+  "  vwap 2016-04-28 dec 14:00 P=4409.0 side long entry 4409.0 stop 4393.75 tgt 4424.25 -> exit 4393.75 at 14:45 (stop); csv: 4409.0/4393.75/14:45/stop  OK",
+  "  B 2026-06-11 arm 13:30 peak 13:30 entry 13:32 @29117.5 M=426.25 stop 29543.75 -> 29209.25 at 13:47 (time); csv arm 13:30 peak 13:30 29117.5/29209.25/13:47  OK",
+  "  B 2017-06-09 arm 12:16 peak 12:16 entry 12:18 @5835.25 M=23.0 stop 5812.25 -> 5832.5 at 12:33 (time); csv arm 12:16 peak 12:16 5835.25/5832.5/12:33  OK",
+  "  B 2021-01-08 arm 13:23 peak 13:23 entry 13:25 @12969.25 M=55.0 stop 12914.25 -> 12967.0 at 13:40 (time); csv arm 13:23 peak 13:23 12969.25/12967.0/13:40  OK",
+  "  B 2024-02-12 arm 14:19 peak 14:19 entry 14:21 @5037.5 M=14.75 stop 5022.75 -> 5041.0 at 14:36 (time); csv arm 14:19 peak 14:19 5037.5/5041.0/14:36  OK",
+  "  B 2026-03-31 arm 12:40 peak 12:41 entry 12:43 @6555.75 M=67.75 stop 6623.5 -> 6528.5 at 12:58 (time); csv arm 12:40 peak 12:41 6555.75/6528.5/12:58  OK",
+  "  C 2025-08-28 ORB long OR 23629.75-23742.25 mid 23686.0 fail bar 09:45 rev entry 09:50@23657.75 stop 23737.25 -> 23737.25 at 11:16 (stop); csv 09:45 23657.75/23737.25/11:16/stop  OK",
+  "  C 2022-11-30 ORB long OR 11518.75-11569.25 mid 11544.0 fail bar 09:35 rev entry 09:40@11540.0 stop 11573.75 -> 11573.75 at 09:42 (stop); csv 09:35 11540.0/11573.75/09:42/stop  OK",
+  "  C 2015-02-24 ORB short OR 4435.0-4443.25 mid 4439.125 fail bar 10:05 rev entry 10:10@4439.25 stop 4426.5 -> 4448.75 at 14:00 (time); csv 10:05 4439.25/4448.75/14:00/time  OK",
+  "  C 2026-03-10 ORB long OR 24990.5-25081.75 mid 25036.125 fail bar 09:35 rev entry 09:40@25014.0 stop 25038.25 -> 25038.25 at 09:40 (stop); csv 09:35 25014.0/25038.25/09:40/stop  OK",
+  "  C 2010-06-16 ORB long OR 1886.75-1892.0 mid 1889.375 fail bar 10:30 rev entry 10:35@1889.0 stop 1898.75 -> 1898.75 at 11:08 (stop); csv 10:30 1889.0/1898.75/11:08/stop  OK",
+  "ROLL CHECKS",
+  "  roll check A: 1261 trades, violations 0",
+  "  roll check A1-MES: 1240 trades, violations 0",
+  "  roll check A2-VWAP: 415 trades, violations 0",
+  "  roll check B: 23 trades, violations 0",
+  "  roll check B-MES: 20 trades, violations 0",
+  "  roll check B1: 20 trades, violations 0",
+  "  roll check C reverse: 1217 trades, violations 0",
+  "  roll check C2 reverse: 1217 trades, violations 0",
+  "LOOK-AHEAD CHECKS",
+  "  A: entries at/after decision bar, no overlapping positions (violations 0), all flat by 15:00",
+  "  A1-MES: entries at/after decision bar, no overlapping positions (violations 0), all flat by 15:00",
+  "  A2-VWAP: entries at/after decision bar, no overlapping positions (violations 0), all flat by 15:00",
+  "  B: entry bar >= peak+2 (peak confirmed by the close of bar peak+1), entry <= 14:30, exit <= 14:45: True",
+  "  B-MES: entry bar >= peak+2 (peak confirmed by the close of bar peak+1), entry <= 14:30, exit <= 14:45: True",
+  "  B1: entry bar >= peak+2 (peak confirmed by the close of bar peak+1), entry <= 14:30, exit <= 14:45: True",
+  "  C: reverse entry at/after the bar following the failure 5-min bar's close (all)"
+ ],
+ "rule_table": [
+  {
+   "rule": "A",
+   "instrument": "MNQ",
+   "primary": true,
+   "trades": 1261,
+   "net_usd_per_trade": -4.818,
+   "total_usd": -6076.0,
+   "gross_bp_per_trade": -1.254,
+   "net_bp_per_trade": -3.152,
+   "trades_per_year": 77.4,
+   "t": -4.731,
+   "passed": false,
+   "criteria": [
+    {
+     "name": "(i) day-level NW5 t on daily net bps >= 2.0",
+     "value": "-4.73",
+     "pass": false
+    },
+    {
+     "name": "(ii) net P&L Jan 2025-latest > 0",
+     "value": "$-168",
+     "pass": false
+    },
+    {
+     "name": "(iii) net > 0 in >= 6 of 8 two-year blocks",
+     "value": "0/8",
+     "pass": false
+    },
+    {
+     "name": "(iv) mean net bps/trade > C1 95th pct",
+     "value": "-3.15 vs p95 -1.29",
+     "pass": false
+    }
+   ],
+   "trades_csv": "/tmp/claude-1000/-home-roflz--claude-spares-spare-NhXWo6/fb7c622e-dc01-4189-9bb7-9001db03cb79/scratchpad/tests/s11_X/trades_A.csv"
+  },
+  {
+   "rule": "A1-MES",
+   "instrument": "MES",
+   "primary": false,
+   "trades": 1240,
+   "net_usd_per_trade": -5.72,
+   "total_usd": -7092.5,
+   "gross_bp_per_trade": -0.929,
+   "net_bp_per_trade": -3.908,
+   "trades_per_year": 76.2,
+   "t": -8.988,
+   "passed": false,
+   "criteria": [
+    {
+     "name": "(i) day-level NW5 t on daily net bps >= 2.4",
+     "value": "-8.99",
+     "pass": false
+    },
+    {
+     "name": "(ii) net P&L Jan 2025-latest > 0",
+     "value": "$-689",
+     "pass": false
+    },
+    {
+     "name": "(iii) net > 0 in >= 6 of 8 two-year blocks",
+     "value": "0/8",
+     "pass": false
+    },
+    {
+     "name": "(iv) mean net bps/trade > C1 95th pct",
+     "value": "-3.91 vs p95 -2.45",
+     "pass": false
+    }
+   ],
+   "trades_csv": "/tmp/claude-1000/-home-roflz--claude-spares-spare-NhXWo6/fb7c622e-dc01-4189-9bb7-9001db03cb79/scratchpad/tests/s11_X/trades_A1-MES.csv"
+  },
+  {
+   "rule": "A2-VWAP",
+   "instrument": "MNQ",
+   "primary": false,
+   "trades": 415,
+   "net_usd_per_trade": -5.642,
+   "total_usd": -2341.5,
+   "gross_bp_per_trade": -1.443,
+   "net_bp_per_trade": -3.311,
+   "trades_per_year": 25.5,
+   "t": -2.119,
+   "passed": false,
+   "criteria": [
+    {
+     "name": "(i) day-level NW5 t on daily net bps >= 2.4",
+     "value": "-2.12",
+     "pass": false
+    },
+    {
+     "name": "(ii) net P&L Jan 2025-latest > 0",
+     "value": "$60",
+     "pass": true
+    },
+    {
+     "name": "(iii) net > 0 in >= 6 of 8 two-year blocks",
+     "value": "2/8",
+     "pass": false
+    },
+    {
+     "name": "(iv) mean net bps/trade > C1 95th pct",
+     "value": "-3.31 vs p95 0.07",
+     "pass": false
+    }
+   ],
+   "trades_csv": "/tmp/claude-1000/-home-roflz--claude-spares-spare-NhXWo6/fb7c622e-dc01-4189-9bb7-9001db03cb79/scratchpad/tests/s11_X/trades_A2-VWAP.csv"
+  },
+  {
+   "rule": "B",
+   "instrument": "MNQ",
+   "primary": true,
+   "trades": 23,
+   "net_usd_per_trade": -9.804,
+   "total_usd": -225.5,
+   "gross_bp_per_trade": -1.18,
+   "net_bp_per_trade": -2.493,
+   "trades_per_year": 1.4,
+   "t": -0.684,
+   "passed": false,
+   "criteria": [
+    {
+     "name": "power: >= 200 events",
+     "value": "23",
+     "pass": false
+    },
+    {
+     "name": "(i) event-level t >= 2.0 (min of NW5 and iid, net bps)",
+     "value": "NW5 -0.68, iid -0.47",
+     "pass": false
+    },
+    {
+     "name": "(ii) net P&L Jan 2018-latest > 0",
+     "value": "$-182",
+     "pass": false
+    },
+    {
+     "name": "(iii) net > 0 in >= 6 of 8 blocks",
+     "value": "4/8",
+     "pass": false
+    },
+    {
+     "name": "(iv) mean net bps > C1 95th pct",
+     "value": "-2.49 vs 7.17",
+     "pass": false
+    }
+   ],
+   "trades_csv": "/tmp/claude-1000/-home-roflz--claude-spares-spare-NhXWo6/fb7c622e-dc01-4189-9bb7-9001db03cb79/scratchpad/tests/s11_X/trades_B.csv"
+  },
+  {
+   "rule": "B-MES",
+   "instrument": "MES",
+   "primary": false,
+   "trades": 20,
+   "net_usd_per_trade": -2.812,
+   "total_usd": -56.25,
+   "gross_bp_per_trade": 1.48,
+   "net_bp_per_trade": -0.51,
+   "trades_per_year": 1.2,
+   "t": -0.175,
+   "passed": false,
+   "criteria": [
+    {
+     "name": "power: >= 200 events",
+     "value": "20",
+     "pass": false
+    },
+    {
+     "name": "(i) event-level t >= 2.4 (min of NW5 and iid, net bps)",
+     "value": "NW5 -0.18, iid -0.10",
+     "pass": false
+    },
+    {
+     "name": "(ii) net P&L Jan 2018-latest > 0",
+     "value": "$-74",
+     "pass": false
+    },
+    {
+     "name": "(iii) net > 0 in >= 6 of 8 blocks",
+     "value": "3/8",
+     "pass": false
+    },
+    {
+     "name": "(iv) mean net bps > C1 95th pct",
+     "value": "-0.51 vs 8.23",
+     "pass": false
+    }
+   ],
+   "trades_csv": "/tmp/claude-1000/-home-roflz--claude-spares-spare-NhXWo6/fb7c622e-dc01-4189-9bb7-9001db03cb79/scratchpad/tests/s11_X/trades_B-MES.csv"
+  },
+  {
+   "rule": "B1",
+   "instrument": "MNQ",
+   "primary": false,
+   "trades": 20,
+   "net_usd_per_trade": -14.8,
+   "total_usd": -296.0,
+   "gross_bp_per_trade": -3.319,
+   "net_bp_per_trade": -4.758,
+   "trades_per_year": 1.2,
+   "t": -1.512,
+   "passed": false,
+   "criteria": [
+    {
+     "name": "power: >= 200 events",
+     "value": "20",
+     "pass": false
+    },
+    {
+     "name": "(i) event-level t >= 2.4 (min of NW5 and iid, net bps)",
+     "value": "NW5 -1.51, iid -0.90",
+     "pass": false
+    },
+    {
+     "name": "(ii) net P&L Jan 2018-latest > 0",
+     "value": "$-252",
+     "pass": false
+    },
+    {
+     "name": "(iii) net > 0 in >= 6 of 8 blocks",
+     "value": "4/8",
+     "pass": false
+    },
+    {
+     "name": "(iv) mean net bps > C1 95th pct",
+     "value": "-4.76 vs 6.61",
+     "pass": false
+    },
+    {
+     "name": "(iv-b) B1 mean net bps > drift-control 95th pct",
+     "value": "-4.76 vs 3.93",
+     "pass": false
+    }
+   ],
+   "trades_csv": "/tmp/claude-1000/-home-roflz--claude-spares-spare-NhXWo6/fb7c622e-dc01-4189-9bb7-9001db03cb79/scratchpad/tests/s11_X/trades_B1.csv"
+  },
+  {
+   "rule": "C",
+   "instrument": "MNQ",
+   "primary": true,
+   "trades": 1217,
+   "net_usd_per_trade": -8.351,
+   "total_usd": -10163.5,
+   "gross_bp_per_trade": -1.721,
+   "net_bp_per_trade": -3.446,
+   "trades_per_year": 74.1,
+   "t": -2.589,
+   "passed": false,
+   "criteria": [
+    {
+     "name": "(i) reverse-leg event-level t >= 2.0 (min NW5/iid, net bps)",
+     "value": "NW5 -2.59, iid -2.33",
+     "pass": false
+    },
+    {
+     "name": "(ii) reverse-leg net Jan 2018-latest > 0",
+     "value": "$-8,668 (Jan 2025-latest $-8,357)",
+     "pass": false
+    },
+    {
+     "name": "(iii) reverse-leg net > 0 in >= 6 of 8 blocks",
+     "value": "0/8",
+     "pass": false
+    },
+    {
+     "name": "(iv) mean net bps > random-direction 95th pct",
+     "value": "-3.45 vs 1.51",
+     "pass": false
+    },
+    {
+     "name": "(v) mean daily (book - B0) > 0 and book maxDD <= B0 maxDD",
+     "value": "mean diff $-4.801/day; maxDD book $10,516 vs B0 $4,352",
+     "pass": false
+    }
+   ],
+   "trades_csv": "/tmp/claude-1000/-home-roflz--claude-spares-spare-NhXWo6/fb7c622e-dc01-4189-9bb7-9001db03cb79/scratchpad/tests/s11_X/trades_C_reverse_leg.csv"
+  },
+  {
+   "rule": "C1-calm",
+   "instrument": "MNQ",
+   "primary": false,
+   "trades": 686,
+   "net_usd_per_trade": -9.297,
+   "total_usd": -6378.0,
+   "gross_bp_per_trade": -2.041,
+   "net_bp_per_trade": -3.824,
+   "trades_per_year": 41.8,
+   "t": -2.41,
+   "passed": false,
+   "criteria": [
+    {
+     "name": "(i) reverse-leg event-level t >= 2.4 (min NW5/iid, net bps)",
+     "value": "NW5 -2.36, iid -2.41",
+     "pass": false
+    },
+    {
+     "name": "(ii) reverse-leg net Jan 2018-latest > 0",
+     "value": "$-5,478 (Jan 2025-latest $-5,284)",
+     "pass": false
+    },
+    {
+     "name": "(iii) reverse-leg net > 0 in >= 6 of 8 blocks",
+     "value": "1/8",
+     "pass": false
+    },
+    {
+     "name": "(iv) mean net bps > random-direction 95th pct",
+     "value": "-3.82 vs 1.47",
+     "pass": false
+    },
+    {
+     "name": "(v) mean daily (book - B0) > 0 and book maxDD <= B0 maxDD",
+     "value": "mean diff $-3.723/day; maxDD book $7,540 vs B0 $4,352",
+     "pass": false
+    }
+   ],
+   "trades_csv": "/tmp/claude-1000/-home-roflz--claude-spares-spare-NhXWo6/fb7c622e-dc01-4189-9bb7-9001db03cb79/scratchpad/tests/s11_X/trades_C1-calm_reverse_leg.csv"
+  },
+  {
+   "rule": "C2-target",
+   "instrument": "MNQ",
+   "primary": false,
+   "trades": 1217,
+   "net_usd_per_trade": -1.924,
+   "total_usd": -2341.0,
+   "gross_bp_per_trade": 0.123,
+   "net_bp_per_trade": -1.602,
+   "trades_per_year": 74.1,
+   "t": -1.816,
+   "passed": false,
+   "criteria": [
+    {
+     "name": "(i) reverse-leg event-level t >= 2.4 (min NW5/iid, net bps)",
+     "value": "NW5 -1.82, iid -1.73",
+     "pass": false
+    },
+    {
+     "name": "(ii) reverse-leg net Jan 2018-latest > 0",
+     "value": "$-1,116 (Jan 2025-latest $-424)",
+     "pass": false
+    },
+    {
+     "name": "(iii) reverse-leg net > 0 in >= 6 of 8 blocks",
+     "value": "3/8",
+     "pass": false
+    },
+    {
+     "name": "(iv) mean net bps > random-direction 95th pct",
+     "value": "-1.60 vs 0.08",
+     "pass": false
+    },
+    {
+     "name": "(v) mean daily (book - B0) > 0 and book maxDD <= B0 maxDD",
+     "value": "mean diff $-2.572/day; maxDD book $3,992 vs B0 $4,352",
+     "pass": false
+    }
+   ],
+   "trades_csv": "/tmp/claude-1000/-home-roflz--claude-spares-spare-NhXWo6/fb7c622e-dc01-4189-9bb7-9001db03cb79/scratchpad/tests/s11_X/trades_C2-target_reverse_leg.csv"
+  }
+ ]
+}

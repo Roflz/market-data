@@ -1,0 +1,17 @@
+REAL data, lean pipeline: 1894 trades, net 314.2 R, $19,897, avg 0.166 R/trade, 2018-26 337.9 R  (7s)
+  20/200 null markets done (43s)
+  40/200 null markets done (64s)
+  60/200 null markets done (86s)
+  80/200 null markets done (111s)
+  100/200 null markets done (132s)
+  120/200 null markets done (155s)
+  140/200 null markets done (178s)
+  160/200 null markets done (201s)
+  180/200 null markets done (225s)
+  200/200 null markets done (246s)
+
+=== BASE on 200 sign-randomized NQ markets vs the real market ===
+  drift zero     : null net R median -178.1 (5%-95%: -314.4 to -23.1, max +51.5); real +314.2 R -> empirical p = 0.010; 2018-26 only: p = 0.010
+  drift preserved: null net R median -119.7 (5%-95%: -263.3 to +12.8, max +67.7); real +314.2 R -> empirical p = 0.010; 2018-26 only: p = 0.010
+
+Saved null_test_results.csv (246s)

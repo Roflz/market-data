@@ -1,0 +1,283 @@
+{
+ "title": "DECISION CARD  ex15_a1_mnq_loss  A1 noise band  MNQ  2021-02-16",
+ "decision": "Rule at 12:00: 5-min close 13,750.25 < lower band 13,760.26  ->  SHORT 1 MNQ at the 12:00 mark 13,749.75 (no stop)",
+ "drivers": [
+  "Only one thing: did the 5-min close at the half-hour check leave the noise band? sigma = how far MNQ is usually from its 09:30 open by this time of\n    day (last 14 full sessions).",
+  "After entry: hold while the close stays beyond BOTH the band and the 09:30 VWAP; flat or reverse otherwise; everything closed at the 16:00 mark."
+ ],
+ "outcome": "OUTCOME: 1 trade(s) today, total -55.50 $ per micro after $2.00 per trade  =  WRONG",
+ "why": "The move out of the noise zone did not follow through: price fell back inside the band or through VWAP, so A1 exited (or reversed) at a loss;\n    most A1 trades lose small, the edge comes from a few big trend days.",
+ "win": false,
+ "notes": [
+  "Cross-check: replicated position path matches g1lib.make_signal legs: True. sigma sessions: 2021-01-26 .. 2021-02-12. Trades: v3/out/trades/A1.parquet."
+ ],
+ "inputs": [
+  {
+   "plain": "09:30 open (band anchor)",
+   "value": 13835.75,
+   "read": "info",
+   "where": "px_0930, g1lib.py:91"
+  },
+  {
+   "plain": "previous close (prev_close_1600)",
+   "value": 13872.0,
+   "read": "info",
+   "where": "g1lib.py:92-94"
+  },
+  {
+   "plain": "noise sigma at 12:00 (% avg |move from open|, 14 days)",
+   "value": 0.5456,
+   "read": "info",
+   "where": "g1lib.py:95-103"
+  },
+  {
+   "plain": "upper band = max(open, prev close) x (1 + sigma)",
+   "value": 13947.6906,
+   "read": "info",
+   "where": "g1lib.py:107"
+  },
+  {
+   "plain": "lower band = min(open, prev close) x (1 - sigma)",
+   "value": 13760.2572,
+   "read": "agrees",
+   "where": "g1lib.py:108"
+  },
+  {
+   "plain": "close of 5-min bar ending 12:00",
+   "value": 13750.25,
+   "read": "agrees",
+   "where": "g1lib.py:48-75"
+  },
+  {
+   "plain": "RTH VWAP from 09:30 (exit line only)",
+   "value": 13826.6898,
+   "read": "agrees",
+   "where": "g1lib.py:49-60,119-120"
+  },
+  {
+   "plain": "position before the check",
+   "value": 0.0,
+   "read": "info",
+   "where": "g1lib.py:111-125"
+  },
+  {
+   "plain": "10:00 close 13,853.00 band 13,805.32-13,902.51 VWAP 13,844.20",
+   "value": "stay flat",
+   "read": "neutral",
+   "where": ""
+  },
+  {
+   "plain": "10:30 close 13,864.25 band 13,786.41-13,921.47 VWAP 13,844.92",
+   "value": "stay flat",
+   "read": "neutral",
+   "where": ""
+  },
+  {
+   "plain": "11:00 close 13,833.50 band 13,788.87-13,919.01 VWAP 13,846.10",
+   "value": "stay flat",
+   "read": "neutral",
+   "where": ""
+  },
+  {
+   "plain": "11:30 close 13,784.00 band 13,766.55-13,941.38 VWAP 13,838.22",
+   "value": "stay flat",
+   "read": "neutral",
+   "where": ""
+  },
+  {
+   "plain": "12:00 close 13,750.25 band 13,760.26-13,947.69 VWAP 13,826.69",
+   "value": "ENTER SHORT",
+   "read": "agrees",
+   "where": ""
+  },
+  {
+   "plain": "AFTER: 12:30 close 13,776.25 band 13,750.61-13,957.37 VWAP 13,815.29",
+   "value": "EXIT short (inside)",
+   "read": "neutral",
+   "where": ""
+  },
+  {
+   "plain": "AFTER: 13:00 close 13,789.75 band 13,742.29-13,965.71 VWAP 13,812.15",
+   "value": "stay flat",
+   "read": "neutral",
+   "where": ""
+  },
+  {
+   "plain": "AFTER: 13:30 close 13,788.50 band 13,753.27-13,954.69 VWAP 13,811.00",
+   "value": "stay flat",
+   "read": "neutral",
+   "where": ""
+  },
+  {
+   "plain": "AFTER: 14:00 close 13,754.75 band 13,744.47-13,963.52 VWAP 13,808.93",
+   "value": "stay flat",
+   "read": "neutral",
+   "where": ""
+  },
+  {
+   "plain": "AFTER: 14:30 close 13,792.50 band 13,744.03-13,963.96 VWAP 13,807.62",
+   "value": "stay flat",
+   "read": "neutral",
+   "where": ""
+  },
+  {
+   "plain": "AFTER: 15:00 close 13,773.75 band 13,735.78-13,972.23 VWAP 13,806.52",
+   "value": "stay flat",
+   "read": "neutral",
+   "where": ""
+  },
+  {
+   "plain": "AFTER: 15:30 close 13,768.75 band 13,739.07-13,968.94 VWAP 13,804.71",
+   "value": "stay flat",
+   "read": "neutral",
+   "where": ""
+  }
+ ],
+ "example": "ex15_a1_mnq_loss",
+ "checks": [
+  {
+   "check": "1000",
+   "time": "2021-02-16 10:00:00",
+   "close_5m": 13853.0,
+   "upper_band": 13902.5126,
+   "lower_band": 13805.3171,
+   "rth_vwap": 13844.2001,
+   "sigma_pct": 0.22,
+   "pos_before": 0,
+   "pos_after": 0,
+   "action": "stay flat"
+  },
+  {
+   "check": "1030",
+   "time": "2021-02-16 10:30:00",
+   "close_5m": 13864.25,
+   "upper_band": 13921.4674,
+   "lower_band": 13786.4119,
+   "rth_vwap": 13844.9152,
+   "sigma_pct": 0.3566,
+   "pos_before": 0,
+   "pos_after": 0,
+   "action": "stay flat"
+  },
+  {
+   "check": "1100",
+   "time": "2021-02-16 11:00:00",
+   "close_5m": 13833.5,
+   "upper_band": 13919.0059,
+   "lower_band": 13788.8669,
+   "rth_vwap": 13846.098,
+   "sigma_pct": 0.3389,
+   "pos_before": 0,
+   "pos_after": 0,
+   "action": "stay flat"
+  },
+  {
+   "check": "1130",
+   "time": "2021-02-16 11:30:00",
+   "close_5m": 13784.0,
+   "upper_band": 13941.38,
+   "lower_band": 13766.5513,
+   "rth_vwap": 13838.215,
+   "sigma_pct": 0.5001,
+   "pos_before": 0,
+   "pos_after": 0,
+   "action": "stay flat"
+  },
+  {
+   "check": "1200",
+   "time": "2021-02-16 12:00:00",
+   "close_5m": 13750.25,
+   "upper_band": 13947.6906,
+   "lower_band": 13760.2572,
+   "rth_vwap": 13826.6898,
+   "sigma_pct": 0.5456,
+   "pos_before": 0,
+   "pos_after": -1,
+   "action": "ENTER SHORT"
+  },
+  {
+   "check": "1230",
+   "time": "2021-02-16 12:30:00",
+   "close_5m": 13776.25,
+   "upper_band": 13957.3664,
+   "lower_band": 13750.6067,
+   "rth_vwap": 13815.2905,
+   "sigma_pct": 0.6154,
+   "pos_before": -1,
+   "pos_after": 0,
+   "action": "EXIT short (inside)"
+  },
+  {
+   "check": "1300",
+   "time": "2021-02-16 13:00:00",
+   "close_5m": 13789.75,
+   "upper_band": 13965.7086,
+   "lower_band": 13742.2862,
+   "rth_vwap": 13812.1453,
+   "sigma_pct": 0.6755,
+   "pos_before": 0,
+   "pos_after": 0,
+   "action": "stay flat"
+  },
+  {
+   "check": "1330",
+   "time": "2021-02-16 13:30:00",
+   "close_5m": 13788.5,
+   "upper_band": 13954.6948,
+   "lower_band": 13753.2713,
+   "rth_vwap": 13811.0034,
+   "sigma_pct": 0.5961,
+   "pos_before": 0,
+   "pos_after": 0,
+   "action": "stay flat"
+  },
+  {
+   "check": "1400",
+   "time": "2021-02-16 14:00:00",
+   "close_5m": 13754.75,
+   "upper_band": 13963.517,
+   "lower_band": 13744.4722,
+   "rth_vwap": 13808.9284,
+   "sigma_pct": 0.6597,
+   "pos_before": 0,
+   "pos_after": 0,
+   "action": "stay flat"
+  },
+  {
+   "check": "1430",
+   "time": "2021-02-16 14:30:00",
+   "close_5m": 13792.5,
+   "upper_band": 13963.9568,
+   "lower_band": 13744.0335,
+   "rth_vwap": 13807.6227,
+   "sigma_pct": 0.6629,
+   "pos_before": 0,
+   "pos_after": 0,
+   "action": "stay flat"
+  },
+  {
+   "check": "1500",
+   "time": "2021-02-16 15:00:00",
+   "close_5m": 13773.75,
+   "upper_band": 13972.2323,
+   "lower_band": 13735.7796,
+   "rth_vwap": 13806.5202,
+   "sigma_pct": 0.7226,
+   "pos_before": 0,
+   "pos_after": 0,
+   "action": "stay flat"
+  },
+  {
+   "check": "1530",
+   "time": "2021-02-16 15:30:00",
+   "close_5m": 13768.75,
+   "upper_band": 13968.9375,
+   "lower_band": 13739.0658,
+   "rth_vwap": 13804.7114,
+   "sigma_pct": 0.6988,
+   "pos_before": 0,
+   "pos_after": 0,
+   "action": "stay flat"
+  }
+ ]
+}

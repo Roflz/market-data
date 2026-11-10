@@ -1,0 +1,127 @@
+{
+ "title": "DECISION CARD  ex16_a4_mnq_win  A4 release fade  MNQ  2015-11-06 08:45",
+ "decision": "Rule: m = px 08:45 4,682.75 - px 08:30 4,702.00 = -19.25 pts < 0  ->  LONG 1 MNQ at 4,682.75, exit 09:45 mark, no stop\n    (all skip checks passed: True)",
+ "drivers": [
+  "Only the sign of the 08:30-08:45 move on a NFP day decides the side. Its size, the trend, VWAP and the EMAs are NOT inputs (listed below as context,\n    marked NOT used).",
+  "A4 overall (v3/out/trades/A4.parquet): 356 trades, mean +12.24 $ per trade, 52% winners, 43% long."
+ ],
+ "outcome": "OUTCOME: exit 4,693.50 at 09:45 -> +19.50 $ per micro after $2.00 costs (+10.75 pts)  =  RIGHT",
+ "why": "The first reaction to the NFP number (-19.25 pts by 08:45) overshot and partly reversed within the hour: price was 4,693.50 at 09:45 vs 4,682.75\n    at entry, so the fade earned +19.50 $.",
+ "win": true,
+ "notes": [
+  "Edge vs an ordinary day: this trade +19.50 $ minus C1 -2.95 $ = +22.45 $ (stored d_i +21.30 uses the 999-draw c1 -1.80). Prices recomputed from 1-minute bars and matched\n    to sessions_NQ.parquet and A4.parquet.",
+  "C1 here = exact average over ALL same-year sessions with both prices; the stored c1 is the average of 999 random draws from those sessions, so the two differ by sampling\n    noise (harness.py:419-451; early-close days use the last price there, dropped here)."
+ ],
+ "inputs": [
+  {
+   "plain": "scheduled release today (NFP)",
+   "value": "yes",
+   "read": "fired",
+   "where": "sessions nfp/cpi; build_data.py:252-259"
+  },
+  {
+   "plain": "contract-roll session? (skip if yes)",
+   "value": "False",
+   "read": "neutral",
+   "where": "g4lib.py:58-60"
+  },
+  {
+   "plain": "price age at 08:30 / 08:45 / 09:45 (skip if > 5 min)",
+   "value": "0 / 0 / 0 min",
+   "read": "neutral",
+   "where": "g4lib.py:61-63,71"
+  },
+  {
+   "plain": "px 08:30 = open of the 08:30 minute",
+   "value": 4702.0,
+   "read": "info",
+   "where": "build_data.py:52-58"
+  },
+  {
+   "plain": "px 08:45 = open of the 08:45 minute",
+   "value": 4682.75,
+   "read": "info",
+   "where": "build_data.py:52-58"
+  },
+  {
+   "plain": "m = px 08:45 - px 08:30 (points)",
+   "value": -19.25,
+   "read": "fired",
+   "where": "g4lib.py:74"
+  },
+  {
+   "plain": "side = opposite of m -> LONG",
+   "value": 1.0,
+   "read": "fired",
+   "where": "g4lib.py:84"
+  },
+  {
+   "plain": "m in 15-min R20 units (size of move, NOT used)",
+   "value": -5.8779,
+   "read": "neutral",
+   "where": "context only; features.py:176-183"
+  },
+  {
+   "plain": "15-min EMA stack at 08:30 bar (NOT used): mixed",
+   "value": 0.0,
+   "read": "neutral",
+   "where": "context only; signals.py:98-99 (+1 up, -1 down, 0 mixed)"
+  },
+  {
+   "plain": "15-min close vs 18:00 session VWAP (NOT used)",
+   "value": -10.9953,
+   "read": "neutral",
+   "where": "context only; signals.py:46-48"
+  },
+  {
+   "plain": "AFTER decision: px 09:30 (cash open)",
+   "value": 4689.5,
+   "read": "info",
+   "where": ""
+  },
+  {
+   "plain": "AFTER decision: P&L if exited at 09:30 instead",
+   "value": 11.5,
+   "read": "info",
+   "where": ""
+  },
+  {
+   "plain": "AFTER decision: px 09:45 = exit",
+   "value": 4693.5,
+   "read": "info",
+   "where": "g4lib.py:66 exit_='0945'"
+  },
+  {
+   "plain": "AFTER decision: worst open P&L while held",
+   "value": -15.5,
+   "read": "info",
+   "where": "1-minute lows/highs"
+  },
+  {
+   "plain": "AFTER decision: best open P&L while held",
+   "value": 43.0,
+   "read": "info",
+   "where": "1-minute lows/highs"
+  },
+  {
+   "plain": "C1: same trade on random 2015 days (exact mean, n=258)",
+   "value": -2.9516,
+   "read": "info",
+   "where": "harness.py:419-451; stored c1 -1.80"
+  }
+ ],
+ "example": "ex16_a4_mnq_win",
+ "recomputed": {
+  "px_0830": 4702.0,
+  "px_0845": 4682.75,
+  "px_0930": 4689.5,
+  "px_0945": 4693.5,
+  "m_pts": -19.25,
+  "side": 1,
+  "pnl_usd": 19.5,
+  "c1_exact": -2.9516,
+  "c1_stored": -1.7993,
+  "worst_open_usd": -15.5,
+  "best_open_usd": 43.0
+ }
+}

@@ -1,0 +1,51 @@
+NQ: per-trade sd of random 60-min hold trades: all 159.1, 2018+ 221.5, 2022+ 271.3; mean long +2.51, short -5.22
+ES: per-trade sd of random 60-min hold trades: all 99.5, 2018+ 134.3, 2022+ 156.6; mean long -1.65, short -7.11
+YM: per-trade sd of random 60-min hold trades: all 98.5, 2018+ 98.5, 2022+ 102.5; mean long +0.56, short -4.87
+B all3: trades 39859, per-trade sd 113.8, mean +2.98, edge vs drift +1.36 (sd 114.9)
+B MNQ: trades 16713, per-trade sd 143.0, mean +5.22, edge vs drift +0.87 (sd 144.9)
+B MES: trades 12189, per-trade sd 97.1, mean +1.94, edge vs drift +1.97 (sd 97.1)
+daily corr random-long NQ/ES/YM 2018+:
+ [[1.   0.86 0.64]
+ [0.86 1.   0.81]
+ [0.64 0.81 1.  ]]  effective N (rho-bar, Li-Ji): [1.46 2.  ]
+                  series    T   mean       sd  sr_ann  t_iid  t_hac   vif   acf1   acf5  absacf1  absacf20  pw_block  pw_block_abs  z_boot_L1  z_boot_L10  z_boot_L60   kurt
+  random_long_60_hold_NQ 3840  1.750  117.516   0.236  0.923  1.023 0.814 -0.110 -0.034    0.442     0.310     2.728       129.527      0.942       1.054       1.352 45.921
+  random_long_60_hold_ES 3840 -1.800   73.102  -0.391 -1.525 -1.739 0.769 -0.101 -0.029    0.390     0.250     3.152       124.498     -1.518      -1.784      -2.177 40.426
+  random_long_60_hold_YM 1917  0.976   76.192   0.203  0.561  0.644 0.759 -0.114 -0.042    0.257     0.137     5.501        61.830      0.581       0.728       0.850 23.610
+            B_all3_daily 3183 40.100 1254.049   0.508  1.804  1.924 0.879 -0.036 -0.067    0.371     0.298     2.460       115.806      1.771       1.835       2.064 32.623
+B_all3_minus_drift_daily 3183 20.047 1240.800   0.256  0.912  0.999 0.832 -0.043 -0.073    0.392     0.315     9.555       115.971      0.921       1.040       1.275 30.484
+             B_MNQ_daily 3183 28.270  703.857   0.638  2.266  2.486 0.831 -0.048 -0.060    0.330     0.306     1.000       116.989      2.249       2.356       2.409 30.336
+ B_MNQ_minus_drift_daily 3183  5.678  700.525   0.129  0.457  0.519 0.778 -0.059 -0.068    0.353     0.321    11.560       117.270      0.441       0.561       0.730 28.222
+             B_MES_daily 3183  8.668  410.043   0.336  1.193  1.217 0.961 -0.022 -0.055    0.338     0.277     3.108       114.013      1.179       1.240       1.326 43.165
+ B_MES_minus_drift_daily 3183  8.799  403.565   0.346  1.230  1.294 0.904 -0.034 -0.058    0.357     0.294     8.102       113.929      1.221       1.321       1.635 42.107
+
+Sessions needed (years at 252/yr) for t >= bar; vif 1
+  SR_ann 0.50: t2@50%    4032 (16.0y) t2@80%    8139 (32.3y) t3@50%    9072 (36.0y) t3@80%   14876 (59.0y)
+  SR_ann 0.75: t2@50%    1792 ( 7.1y) t2@80%    3618 (14.4y) t3@50%    4032 (16.0y) t3@80%    6612 (26.2y)
+  SR_ann 1.00: t2@50%    1008 ( 4.0y) t2@80%    2035 ( 8.1y) t3@50%    2268 ( 9.0y) t3@80%    3719 (14.8y)
+  SR_ann 1.50: t2@50%     448 ( 1.8y) t2@80%     904 ( 3.6y) t3@50%    1008 ( 4.0y) t3@80%    1653 ( 6.6y)
+  SR_ann 2.00: t2@50%     252 ( 1.0y) t2@80%     509 ( 2.0y) t3@50%     567 ( 2.3y) t3@80%     930 ( 3.7y)
+  SR_ann 3.00: t2@50%     112 ( 0.4y) t2@80%     226 ( 0.9y) t3@50%     252 ( 1.0y) t3@80%     413 ( 1.6y)
+
+t-bar implied by DSR>=0.95 (null var) and by one-sided Bonferroni 5%, by effective trials N
+  N      1: DSR bar t >= 1.64; Bonferroni t >= 1.64; E[max z] 0.00
+  N      3: DSR bar t >= 2.50; Bonferroni t >= 2.13; E[max z] 0.85
+  N     10: DSR bar t >= 3.22; Bonferroni t >= 2.58; E[max z] 1.57
+  N     30: DSR bar t >= 3.72; Bonferroni t >= 2.94; E[max z] 2.07
+  N    100: DSR bar t >= 4.18; Bonferroni t >= 3.29; E[max z] 2.53
+  N    300: DSR bar t >= 4.54; Bonferroni t >= 3.59; E[max z] 2.90
+  N   1000: DSR bar t >= 4.90; Bonferroni t >= 3.89; E[max z] 3.26
+  N   4300: DSR bar t >= 5.29; Bonferroni t >= 4.23; E[max z] 3.65
+  N  43457: DSR bar t >= 5.85; Bonferroni t >= 4.73; E[max z] 4.21
+
+Locked holdout ~342 sessions: SR_ann detectable at one-sided 5% with 50% power 1.41, 80% power 2.13; t>=3 at 50%: 2.58
+
+Trades needed (t>=3, 50% / 80% power) for per-trade edge e with sd s:
+  edge $2 sd $60:     8100 /    13282
+  edge $3 sd $60:     3600 /     5903
+  edge $5 sd $60:     1296 /     2125
+  edge $3 sd $100:    10000 /    16398
+  edge $5 sd $100:     3600 /     5903
+  edge $10 sd $100:      900 /     1476
+  edge $20 sd $150:      506 /      830
+  edge $37 sd $150:      148 /      243

@@ -1,0 +1,2 @@
+sc:stat_nb_woe: AUC 0.613  kept 23,124 (8.4%)  -1.84 $/trade  all -2.22  random -2.28  (91s)
+sc:stat_woe_scorecard: AUC 0.622  kept 33,361 (12.2%)  -0.60 $/trade  all -2.22  random -2.08  (239s)

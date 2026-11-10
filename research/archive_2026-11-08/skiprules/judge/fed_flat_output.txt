@@ -1,0 +1,8 @@
+  NQ: 5,567,303 1-min bars, 4220 dates with RTH bars, bars from a non-09:30 contract inside RTH: 0  (load 2.7s)
+rebuilt Fed-day trades 122 csv 122 match hold usd: True
+hold to close: n=122 $-28.23/trade; flat at 13:59: $-17.20/trade
+stopped before 13:59 under hold: 88 ; stopped after: 19 ; held to close: 15
+  2010-2017: n=52 hold $-1.85  flat13:59 $-7.37  (after-14:00 part $+5.52)
+  2018-2026: n=70 hold $-47.83  flat13:59 $-24.51  (after-14:00 part $-23.32)
+  2021-2026: n=47 hold $-53.17  flat13:59 $-28.59  (after-14:00 part $-24.59)
+other days mean $+4.11; 2018+ $+7.67; 2021+ $+9.29

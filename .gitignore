@@ -1,0 +1,26 @@
+# Raw market data and vendored Python libraries (large; data is re-downloadable, libraries reinstallable)
+data/
+pylib/
+
+# Caches
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Large binary research artifacts (rebuilt by the scripts)
+*.parquet
+*.npy
+*.npz
+
+# Video files and extracted frames (transcripts and notes are kept)
+*.mp4
+*.jpg
+
+# Individual result files over 10 MB (rebuilt by the scripts)
+lit_p5_orb_trades.csv
+research/confidence/v3/signal_lab/out/zoo_parts/res_*.pkl
+research/confidence/v2/out/evalc_eval.csv
+research/signals/out/pullbacks_NQ_5.csv
+research/confidence/v3/exp_g6_explore/g6_stage1.pkl
+research/confidence/v2/out/luck_eval.csv
+research/confidence/v5/out/sizing_twins.csv

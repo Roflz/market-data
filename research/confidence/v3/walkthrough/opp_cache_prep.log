@@ -1,0 +1,42 @@
+ex12_oppexit_mym_loss entry 23943.0 rule {'t': Timestamp('2018-04-25 08:00:00'), 'px': 23986.0, 'how': "rule exit at the next bar's first-minute open", 'pnl': -23.5} hold {'t': Timestamp('2018-04-25 09:30:00'), 'px': 24034.05, 'how': 'stop (1-minute walk, +1 tick slip)', 'pnl': -47.524999999999636} stored opp3 -23.5 2018-04-25 08:01:00 hold -47.524999999999636 2018-04-25 10:00:00
+   2018-04-25 01:00:00 1 1 .X..... [] []
+   2018-04-25 02:00:00 1 1 .X..... ['spinning_top', 'inside_bar'] []
+   2018-04-25 03:00:00 1 1 .X..... ['spinning_top', 'outside_bar'] []
+   2018-04-25 04:00:00 1 1 .X..... ['clv_extreme', 'bar_80_20'] []
+   2018-04-25 05:00:00 2 2 XX..... ['tweezer'] []
+   2018-04-25 06:00:00 0 2 ....... ['clv_extreme', 'clv5_extreme'] []
+   2018-04-25 07:00:00 3 3 XX....X ['marubozu', 'engulfing', 'outside_bar', 'tweezer', 'tall_trend_bar', 'five_lower_lows_higher_highs'] ['pb_break']
+   2018-04-25 08:00:00 1 3 ......X ['spinning_top'] ['ema50_pb', 'pb_break']
+   2018-04-25 09:00:00 1 1 ......X ['clv_extreme'] ['ema20_pb', 'ema8_pb', 'pb_break']
+   2018-04-25 10:00:00 2 3 XX..... ['piercing', 'inside_bar', 'tall_trend_bar'] []
+   2018-04-25 11:00:00 1 3 ......X ['clv_extreme'] ['ema20_pb', 'ema50_pb', 'mom_turn']
+   2018-04-25 12:00:00 2 3 XX..... ['piercing'] []
+Traceback (most recent call last):
+  File "/run/media/roflz/Disk 2/_/market_data/research/confidence/v3/walkthrough/opp_prep.py", line 59, in <module>
+    assert m.index.tz_localize(None).max() < HOLDOUT
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+Command exited with non-zero status 1
+	Command being timed: "python3 -W ignore v3/walkthrough/opp_prep.py"
+	User time (seconds): 2.09
+	System time (seconds): 0.27
+	Percent of CPU this job got: 122%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.93
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 748204
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 46127
+	Voluntary context switches: 146
+	Involuntary context switches: 82
+	Swaps: 0
+	File system inputs: 80
+	File system outputs: 120
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1

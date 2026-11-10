@@ -1,0 +1,5 @@
+v1 180 v2 180
+in v1 not v2: ['2012-09-03 Mon', '2014-09-01 Mon', '2018-09-03 Mon', '2019-09-02 Mon', '2024-09-02 Mon']
+in v2 not v1: ['2012-09-04 Tue', '2014-09-02 Tue', '2018-09-04 Tue', '2019-09-03 Tue', '2024-09-03 Tue']
+theoretical first NYSE days: 180 | equal to v2: True
+theoretical not in v2: [] | v2 not theoretical: []

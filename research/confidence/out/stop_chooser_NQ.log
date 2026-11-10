@@ -1,0 +1,95 @@
+NQ: 331,394 events x 9 options, 80 common features, min stop dist 0.25 pts (4s)
+  reg-ridge fold 2013: train 57,351 test 21,370 thr -1.635 keep 19.7% (14s)
+  reg-ridge fold 2014: train 78,715 test 21,354 thr -1.758 keep 32.7% (25s)
+  reg-ridge fold 2015: train 100,164 test 22,174 thr -1.591 keep 30.2% (43s)
+  reg-ridge fold 2016: train 122,252 test 22,366 thr -1.244 keep 21.4% (62s)
+  reg-ridge fold 2017: train 144,704 test 21,588 thr -0.308 keep 6.6% (81s)
+  reg-ridge fold 2018: train 166,292 test 22,031 thr -1.087 keep 17.3% (109s)
+  reg-ridge fold 2019: train 188,249 test 21,373 thr -0.066 keep 13.6% (111s)
+  reg-ridge fold 2020: train 209,626 test 21,674 thr 0.081 keep 22.7% (97s)
+  reg-ridge fold 2021: train 231,301 test 21,837 thr 0.992 keep 27.3% (127s)
+  reg-ridge fold 2022: train 253,130 test 22,344 thr 1.322 keep 25.3% (96s)
+  reg-ridge fold 2023: train 275,551 test 22,370 thr 3.524 keep 7.9% (110s)
+  reg-ridge fold 2024: train 297,921 test 22,395 thr 3.096 keep 10.9% (122s)
+  reg-ridge fold 2025H1: train 320,228 test 11,078 thr 4.539 keep 10.2% (139s)
+                         n  trades_per_year  usd_per_trade  usd_per_year  p5_usd_per_trade  p95_usd_per_trade
+strategy                                                                                                     
+fixed_pattern       273954         21925.32          -2.22     -48623.93               NaN                NaN
+fixed_pattern_min1  273954         21925.32          -2.31     -50594.92               NaN                NaN
+fixed_pattern_cost  273954         21925.32          -2.16     -47304.15               NaN                NaN
+fixed_swing5        273954         21925.32          -1.80     -39544.88               NaN                NaN
+fixed_swing10       273954         21925.32          -2.08     -45675.66               NaN                NaN
+fixed_avg1          273954         21925.32          -2.51     -54955.29               NaN                NaN
+fixed_avg2          273954         21925.32          -2.32     -50885.46               NaN                NaN
+fixed_usd40         273954         21925.32          -2.32     -50931.70               NaN                NaN
+fixed_usd100        273954         21925.32          -2.19     -47974.32               NaN                NaN
+best_fixed_train    273954         21925.32          -2.00     -43829.84               NaN                NaN
+random_option       273954         21925.32          -2.21     -48498.92             -2.37              -2.08
+oracle              273954         21925.32          36.30     795792.53               NaN                NaN
+chooser_all         273954         21925.32          -1.90     -41662.83               NaN                NaN
+chooser_thr          52704          4218.05          -0.71      -3000.03               NaN                NaN
+rskip_chosen         52704          4218.05          -1.83      -7707.17             -2.20              -1.39
+rskip_bestfixed      52704          4218.05          -2.03      -8559.16             -2.55              -1.58
+     diff_vs_best_fixed   diff_se                                                                                                  picks
+220            0.098836  0.112305  pattern:7%,pattern_min1:0%,pattern_cost:27%,swing5:7%,swing10:6%,avg1:1%,avg2:6%,usd40:16%,usd100:29%
+Traceback (most recent call last):
+  File "/run/media/roflz/Disk 2/_/market_data/research/confidence/stop_chooser.py", line 460, in <module>
+    main(sym, tuple(args[1:]) or ("reg-hgb", "clf-hgb", "reg-ridge"))
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/roflz/Disk 2/_/market_data/research/confidence/stop_chooser.py", line 426, in main
+    O, F = run_chooser(D["Xc"].to_numpy(np.float32), D["Xopt"], D["P"], D["t"], te, cfg=cfg, d=D["d"],
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                       verbose=True)
+                       ^^^^^^^^^^^^^
+  File "/run/media/roflz/Disk 2/_/market_data/research/confidence/stop_chooser.py", line 290, in run_chooser
+    Sv = cached(it)[va]
+         ~~~~~~^^^^
+  File "/run/media/roflz/Disk 2/_/market_data/research/confidence/stop_chooser.py", line 271, in cached
+    cache[key] = fit_predict(cfg, Xc, Xopt, P, w, fit_idx, every)[0].astype(np.float32)
+                 ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/roflz/Disk 2/_/market_data/research/confidence/stop_chooser.py", line 220, in fit_predict
+    return fit_predict_reg(cfg, Xc, Xopt, P, w, fit_idx, pred_idx, alphas=alphas, val_idx=val_idx)
+  File "/run/media/roflz/Disk 2/_/market_data/research/confidence/stop_chooser.py", line 194, in fit_predict_reg
+    m = _fit_reg(cfg, Xf, P[fit_idx, k], wf_, a)
+  File "/run/media/roflz/Disk 2/_/market_data/research/confidence/stop_chooser.py", line 167, in _fit_reg
+    return HistGradientBoostingRegressor(**cfg.hgb).fit(X, y, sample_weight=w)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/roflz/Disk 2/_/market_data/pylib/sklearn/base.py", line 1403, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/run/media/roflz/Disk 2/_/market_data/pylib/sklearn/ensemble/_hist_gradient_boosting/gradient_boosting.py", line 603, in fit
+    X_binned_train = self._bin_data(
+        X_train, sample_weight_train, is_training_data=True
+    )
+  File "/run/media/roflz/Disk 2/_/market_data/pylib/sklearn/ensemble/_hist_gradient_boosting/gradient_boosting.py", line 1122, in _bin_data
+    X_binned = self._bin_mapper.fit_transform(
+        X, sample_weight=sample_weight
+    )  # F-aligned array
+  File "/run/media/roflz/Disk 2/_/market_data/pylib/sklearn/utils/_set_output.py", line 327, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/run/media/roflz/Disk 2/_/market_data/pylib/sklearn/base.py", line 969, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+           ~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/run/media/roflz/Disk 2/_/market_data/pylib/sklearn/ensemble/_hist_gradient_boosting/binning.py", line 287, in fit
+    non_cat_thresholds = Parallel(n_jobs=self.n_threads, backend="threading")(
+        delayed(_find_binning_thresholds)(
+    ...<3 lines>...
+        if not self.is_categorical_[f_idx]
+    )
+  File "/run/media/roflz/Disk 2/_/market_data/pylib/sklearn/utils/parallel.py", line 91, in __call__
+    return super().__call__(iterable_with_config_and_warning_filters)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/roflz/Disk 2/_/market_data/pylib/joblib/parallel.py", line 2012, in __call__
+    return output if self.return_generator else list(output)
+                                                ~~~~^^^^^^^^
+  File "/run/media/roflz/Disk 2/_/market_data/pylib/joblib/parallel.py", line 1940, in _get_sequential_output
+    res = func(*args, **kwargs)
+  File "/run/media/roflz/Disk 2/_/market_data/pylib/sklearn/utils/parallel.py", line 184, in __call__
+    return self.function(*args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/run/media/roflz/Disk 2/_/market_data/pylib/sklearn/ensemble/_hist_gradient_boosting/binning.py", line 82, in _find_binning_thresholds
+    bin_thresholds = sliding_window_view(distinct_values, 2).mean(axis=1)
+                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/roflz/Disk 2/_/market_data/pylib/numpy/lib/_stride_tricks_impl.py", line 439, in sliding_window_view
+    raise ValueError(
+        'window shape cannot be larger than input array shape')
+ValueError: window shape cannot be larger than input array shape

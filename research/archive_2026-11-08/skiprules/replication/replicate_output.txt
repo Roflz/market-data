@@ -1,0 +1,124 @@
+MES overnight_break: 1750 raw trades -> 1658 after cash-day / expiry-Friday filter, 2011-01-03..2026-11-05
+MES opening_range (A5T csv): 3549 -> 3379 after expiry-Friday filter; non-cash days left: 0
+  ES: 5,742,093 1-min bars, 4220 dates with RTH bars, bars from a non-09:30 contract inside RTH: 0  (load 2.4s)
+MES opening_range (chosen_models construction): 3369 trades
+
+=================== R1 (SPX prev day <= -2%) ===================
+MNQ overnight_break (as traded)    n=  49  $  -64.53/tr  win  18.4%  tot $    -3162 | other n= 1731 $  13.41/tr win  31.9%  | t  -3.76
+   2010-2015                       n=  13  $    0.54/tr  win  23.1%  tot $        7 | other n=  559 $  -0.68/tr win  29.7%  | t   0.08
+   2016-2020                       n=  21  $  -36.24/tr  win  23.8%  tot $     -761 | other n=  523 $  10.92/tr win  32.5%  | t  -1.48
+   2021-2026                       n=  15  $ -160.53/tr  win   6.7%  tot $    -2408 | other n=  649 $  27.55/tr win  33.3%  | t  -4.75
+MES overnight_break                n=  48  $  -32.25/tr  win  20.8%  tot $    -1548 | other n= 1610 $   1.96/tr win  31.5%  | t  -1.94
+   2010-2015                       n=  13  $  -18.88/tr  win  23.1%  tot $     -246 | other n=  503 $  -1.75/tr win  31.0%  | t  -1.11
+   2016-2020                       n=  22  $  -14.75/tr  win  22.7%  tot $     -324 | other n=  471 $   0.57/tr win  30.6%  | t  -0.44
+   2021-2026                       n=  13  $  -75.23/tr  win  15.4%  tot $     -978 | other n=  636 $   5.91/tr win  32.5%  | t  -3.69
+MNQ opening_range (as traded)      n= 123  $  -37.16/tr  win  13.8%  tot $    -4570 | other n= 3629 $   4.42/tr win  23.5%  | t  -3.33
+   2010-2015                       n=  34  $  -10.21/tr  win  14.7%  tot $     -347 | other n= 1153 $  -0.81/tr win  21.6%  | t  -1.98
+   2016-2020                       n=  50  $  -27.11/tr  win  14.0%  tot $    -1356 | other n= 1121 $   3.65/tr win  24.0%  | t  -1.43
+   2021-2026                       n=  39  $  -73.54/tr  win  12.8%  tot $    -2868 | other n= 1355 $   9.50/tr win  24.8%  | t  -3.07
+MNQ opening_range (A5T csv)        n= 122  $  -36.43/tr  win  13.9%  tot $    -4445 | other n= 3618 $   4.57/tr win  23.6%  | t  -3.27
+   2010-2015                       n=  34  $  -10.21/tr  win  14.7%  tot $     -347 | other n= 1149 $  -0.83/tr win  21.7%  | t  -1.98
+   2016-2020                       n=  49  $  -25.10/tr  win  14.3%  tot $    -1230 | other n= 1114 $   4.15/tr win  24.1%  | t  -1.34
+   2021-2026                       n=  39  $  -73.54/tr  win  12.8%  tot $    -2868 | other n= 1355 $   9.50/tr win  24.8%  | t  -3.07
+MES opening_range (A5T csv)        n= 121  $  -21.24/tr  win  14.9%  tot $    -2570 | other n= 3258 $  -1.06/tr win  20.7%  | t  -2.21
+   2010-2015                       n=  33  $   -2.33/tr  win  18.2%  tot $      -77 | other n=  936 $  -1.30/tr win  22.0%  | t  -0.08
+   2016-2020                       n=  49  $  -16.00/tr  win  14.3%  tot $     -784 | other n=  989 $  -2.63/tr win  20.1%  | t  -0.73
+   2021-2026                       n=  39  $  -43.82/tr  win  12.8%  tot $    -1709 | other n= 1333 $   0.28/tr win  20.2%  | t  -3.84
+MES opening_range (chosen_models)  n= 122  $  -22.11/tr  win  14.8%  tot $    -2697 | other n= 3247 $  -1.12/tr win  20.7%  | t  -2.31
+   2010-2015                       n=  33  $   -2.33/tr  win  18.2%  tot $      -77 | other n=  929 $  -1.22/tr win  22.1%  | t  -0.08
+   2016-2020                       n=  50  $  -18.23/tr  win  14.0%  tot $     -911 | other n=  986 $  -2.92/tr win  20.0%  | t  -0.85
+   2021-2026                       n=  39  $  -43.82/tr  win  12.8%  tot $    -1709 | other n= 1332 $   0.29/tr win  20.2%  | t  -3.84
+
+=================== R2 (scheduled FOMC day) ===================
+MNQ overnight_break (as traded)    n=  59  $  -12.54/tr  win  20.3%  tot $     -740 | other n= 1721 $  12.08/tr win  31.9%  | t  -1.46
+   2010-2015                       n=  20  $    3.02/tr  win  35.0%  tot $       60 | other n=  552 $  -0.79/tr win  29.3%  | t   0.41
+   2016-2020                       n=  19  $   13.66/tr  win  15.8%  tot $      260 | other n=  525 $   8.94/tr win  32.8%  | t   0.17
+   2021-2026                       n=  20  $  -53.00/tr  win  10.0%  tot $    -1060 | other n=  644 $  25.67/tr win  33.4%  | t  -1.93
+MES overnight_break                n=  55  $   -7.16/tr  win  20.0%  tot $     -394 | other n= 1603 $   1.24/tr win  31.6%  | t  -0.77
+   2010-2015                       n=  19  $    2.88/tr  win  26.3%  tot $       55 | other n=  497 $  -2.37/tr win  31.0%  | t   0.49
+   2016-2020                       n=  12  $    7.12/tr  win  25.0%  tot $       86 | other n=  481 $  -0.30/tr win  30.4%  | t   0.38
+   2021-2026                       n=  24  $  -22.25/tr  win  12.5%  tot $     -534 | other n=  625 $   5.31/tr win  33.0%  | t  -1.29
+MNQ opening_range (as traded)      n= 122  $  -28.23/tr  win  10.7%  tot $    -3444 | other n= 3630 $   4.11/tr win  23.6%  | t  -4.11
+   2010-2015                       n=  37  $   -1.62/tr  win  16.2%  tot $      -60 | other n= 1150 $  -1.06/tr win  21.6%  | t  -0.10
+   2016-2020                       n=  38  $  -23.29/tr  win   5.3%  tot $     -885 | other n= 1133 $   3.19/tr win  24.2%  | t  -4.55
+   2021-2026                       n=  47  $  -53.17/tr  win  10.6%  tot $    -2499 | other n= 1347 $   9.29/tr win  24.9%  | t  -3.31
+MNQ opening_range (A5T csv)        n= 122  $  -28.23/tr  win  10.7%  tot $    -3444 | other n= 3618 $   4.30/tr win  23.7%  | t  -4.13
+   2010-2015                       n=  37  $   -1.62/tr  win  16.2%  tot $      -60 | other n= 1146 $  -1.08/tr win  21.6%  | t  -0.09
+   2016-2020                       n=  38  $  -23.29/tr  win   5.3%  tot $     -885 | other n= 1125 $   3.80/tr win  24.3%  | t  -4.66
+   2021-2026                       n=  47  $  -53.17/tr  win  10.6%  tot $    -2499 | other n= 1347 $   9.29/tr win  24.9%  | t  -3.31
+MES opening_range (A5T csv)        n= 111  $  -14.74/tr  win   9.9%  tot $    -1636 | other n= 3268 $  -1.34/tr win  20.8%  | t  -3.02
+   2010-2015                       n=  31  $   -0.44/tr  win  12.9%  tot $      -14 | other n=  938 $  -1.36/tr win  22.2%  | t   0.10
+   2016-2020                       n=  34  $  -12.14/tr  win  11.8%  tot $     -413 | other n= 1004 $  -2.96/tr win  20.1%  | t  -1.72
+   2021-2026                       n=  46  $  -26.30/tr  win   6.5%  tot $    -1210 | other n= 1326 $  -0.10/tr win  20.4%  | t  -3.41
+MES opening_range (chosen_models)  n= 113  $  -14.65/tr  win   9.7%  tot $    -1656 | other n= 3256 $  -1.43/tr win  20.8%  | t  -3.02
+   2010-2015                       n=  33  $   -1.00/tr  win  12.1%  tot $      -33 | other n=  929 $  -1.27/tr win  22.3%  | t   0.03
+   2016-2020                       n=  34  $  -12.14/tr  win  11.8%  tot $     -413 | other n= 1002 $  -3.37/tr win  20.0%  | t  -1.64
+   2021-2026                       n=  46  $  -26.30/tr  win   6.5%  tot $    -1210 | other n= 1325 $  -0.09/tr win  20.5%  | t  -3.41
+
+=================== overlap with the MNQ versions ===================
+
+--- MNQ_ob vs MES_ob on r1 days ---
+  condition days traded: MNQ_ob 47, MES_ob 47, both 31, only MNQ_ob 16, only MES_ob 16
+  on shared days: corr($) 0.76, corr(bp) 0.76, same side 90%, same win/loss sign 90%
+  shared days: MNQ_ob $-44.52/day (-23.7 bp), MES_ob $-34.82/day (-26.3 bp)
+  all shared trading days (1037): corr($) 0.76, same side 94%
+  MES_ob condition days with no MNQ_ob trade: n=16, $-29.28/day, win 25%
+  Welch t in bp per day: MNQ_ob -2.76, MES_ob -1.69, average of both versions per day -2.55 (n cond days 63)
+  MES-on-MNQ regression (all shared days) slope 0.55; MES residual on condition days -9.3 bp vs 0.3 bp other, Welch t -0.95
+
+--- MNQ_or vs MES_or on r1 days ---
+  condition days traded: MNQ_or 123, MES_or 121, both 118, only MNQ_or 5, only MES_or 3
+  on shared days: corr($) 0.50, corr(bp) 0.50, same side 84%, same win/loss sign 89%
+  shared days: MNQ_or $-37.32/day (-17.8 bp), MES_or $-21.42/day (-11.7 bp)
+  all shared trading days (3286): corr($) 0.58, same side 81%
+  MES_or condition days with no MNQ_or trade: n=3, $-13.92/day, win 0%
+  Welch t in bp per day: MNQ_or -3.00, MES_or -1.54, average of both versions per day -2.71 (n cond days 126)
+  MES-on-MNQ regression (all shared days) slope 0.42; MES residual on condition days -2.3 bp vs 0.1 bp other, Welch t -0.38
+
+--- MNQ_or vs MES_or on r2 days ---
+  condition days traded: MNQ_or 122, MES_or 111, both 107, only MNQ_or 15, only MES_or 4
+  on shared days: corr($) 0.54, corr(bp) 0.49, same side 84%, same win/loss sign 88%
+  shared days: MNQ_or $-30.99/day (-12.0 bp), MES_or $-14.82/day (-8.2 bp)
+  all shared trading days (3286): corr($) 0.58, same side 81%
+  MES_or condition days with no MNQ_or trade: n=4, $-12.56/day, win 0%
+  Welch t in bp per day: MNQ_or -3.25, MES_or -2.27, average of both versions per day -3.10 (n cond days 126)
+  MES-on-MNQ regression (all shared days) slope 0.42; MES residual on condition days -1.2 bp vs 0.0 bp other, Welch t -0.43
+
+--- MNQ_ob vs MES_ob on r2 days ---
+  condition days traded: MNQ_ob 56, MES_ob 55, both 32, only MNQ_ob 24, only MES_ob 23
+  on shared days: corr($) 0.55, corr(bp) 0.74, same side 84%, same win/loss sign 78%
+  shared days: MNQ_ob $1.23/day (11.3 bp), MES_ob $9.43/day (6.3 bp)
+  all shared trading days (1037): corr($) 0.76, same side 94%
+  MES_ob condition days with no MNQ_ob trade: n=23, $-30.24/day, win 13%
+  Welch t in bp per day: MNQ_ob -0.83, MES_ob -0.33, average of both versions per day -1.58 (n cond days 79)
+  MES-on-MNQ regression (all shared days) slope 0.55; MES residual on condition days 4.1 bp vs -0.1 bp other, Welch t 0.66
+
+--- MNQ_or vs MES_or_cm on r1 days ---
+  condition days traded: MNQ_or 123, MES_or_cm 122, both 119, only MNQ_or 4, only MES_or_cm 3
+  on shared days: corr($) 0.50, corr(bp) 0.50, same side 84%, same win/loss sign 89%
+  shared days: MNQ_or $-38.06/day (-18.4 bp), MES_or_cm $-22.31/day (-12.5 bp)
+  all shared trading days (3275): corr($) 0.58, same side 81%
+  MES_or_cm condition days with no MNQ_or trade: n=3, $-13.92/day, win 0%
+  Welch t in bp per day: MNQ_or -3.00, MES_or_cm -1.64, average of both versions per day -2.71 (n cond days 126)
+  MES-on-MNQ regression (all shared days) slope 0.42; MES residual on condition days -2.7 bp vs 0.1 bp other, Welch t -0.45
+
+--- MNQ_or vs MES_or_cm on r2 days ---
+  condition days traded: MNQ_or 122, MES_or_cm 113, both 108, only MNQ_or 14, only MES_or_cm 5
+  on shared days: corr($) 0.54, corr(bp) 0.49, same side 83%, same win/loss sign 88%
+  shared days: MNQ_or $-30.81/day (-12.0 bp), MES_or_cm $-14.77/day (-8.2 bp)
+  all shared trading days (3275): corr($) 0.58, same side 81%
+  MES_or_cm condition days with no MNQ_or trade: n=5, $-12.00/day, win 0%
+  Welch t in bp per day: MNQ_or -3.25, MES_or_cm -2.30, average of both versions per day -3.13 (n cond days 127)
+  MES-on-MNQ regression (all shared days) slope 0.42; MES residual on condition days -1.1 bp vs 0.0 bp other, Welch t -0.40
+
+=================== MES R1 threshold sensitivity (spx_ret_1d_prev <= x) ===================
+MES overnight_break                <= -1.0: n=175 $ -19.85 t -2.86 | <= -1.5: n= 93 $ -39.39 t -4.01 | <= -2.0: n= 48 $ -32.25 t -1.94 | <= -2.5: n= 25 $ -58.40 t -2.84 | <= -3.0: n= 17 $ -63.43 t -2.16
+MES opening_range (A5T csv)        <= -1.0: n=400 $ -12.39 t -2.37 | <= -1.5: n=222 $ -17.97 t -2.45 | <= -2.0: n=121 $ -21.24 t -2.21 | <= -2.5: n= 71 $ -23.54 t -1.55 | <= -3.0: n= 41 $ -29.99 t -1.30
+MNQ overnight_break (as traded)    <= -1.0: n=183 $ -12.81 t -1.90 | <= -1.5: n= 92 $ -34.53 t -2.51 | <= -2.0: n= 49 $ -64.53 t -3.76 | <= -2.5: n= 25 $-101.78 t -3.44 | <= -3.0: n= 15 $ -95.40 t -2.38
+MNQ opening_range (as traded)      <= -1.0: n=420 $  -4.67 t -0.68 | <= -1.5: n=232 $  -2.52 t -0.28 | <= -2.0: n=123 $ -37.16 t -3.33 | <= -2.5: n= 73 $ -36.15 t -2.10 | <= -3.0: n= 42 $ -40.33 t -1.68
+
+mirror: SPX prev day >= +2%
+  MES overnight_break                n= 40 $   8.62 win 22.5% t  0.32
+  MES opening_range (A5T csv)        n= 88 $   4.16 win 20.5% t  0.49
+  MNQ overnight_break (as traded)    n= 44 $   2.05 win 31.8% t -0.34
+  MNQ opening_range (as traded)      n= 97 $  18.30 win 25.8% t  0.75

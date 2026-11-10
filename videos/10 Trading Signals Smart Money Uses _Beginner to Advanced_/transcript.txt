@@ -1,0 +1,575 @@
+00:00:00  Most traders get in too late, exit too
+00:00:02  early, or fall for the same traps over
+00:00:04  and over again. But what if you could
+00:00:06  spot the exact moments when smart money
+00:00:08  steps in, and use those moments to trade
+00:00:10  with confidence? In this video, you'll
+00:00:13  learn 10 powerful trading signals that
+00:00:15  actually work across forex, crypto, and
+00:00:18  stocks. Here are the 10 game-changing
+00:00:20  signals you're about to unlock. The
+00:00:22  fakey setup, Fibonacci golden zone
+00:00:24  reversals, moving average crossovers,
+00:00:27  WOFF spring, WOFF up thrust, Ballinger
+00:00:30  bands breakout, Bowlinger bands
+00:00:33  reversal, the triple top, the triple
+00:00:35  bottom, and the stop hunt signal. Each
+00:00:38  one comes with clear examples and real
+00:00:40  trading logic. No fluff, no noise. So
+00:00:42  before we jump in, make sure to hit the
+00:00:44  like button, subscribe, and turn on the
+00:00:46  bell because what you're about to learn
+00:00:48  can change the way you trade. Let's
+00:00:50  start with the first trading signal,
+00:00:51  which is the fakeie signal. The fakey is
+00:00:53  a powerful price action setup where the
+00:00:55  market fakes a breakout and then snaps
+00:00:57  back in the opposite direction. It's
+00:00:58  designed to trap breakout traders and
+00:01:00  catch them on the wrong side of the
+00:01:02  market. Now, let's break down the
+00:01:04  anatomy of the fakey setup. First, the
+00:01:07  market forms an inside bar, a small
+00:01:09  candle completely inside the previous
+00:01:11  candle's range. Then, price breaks out
+00:01:13  of the inside bar, tricking traders into
+00:01:15  thinking a new trend is starting. But
+00:01:17  instead of continuing, the market
+00:01:19  quickly reverses and closes back inside
+00:01:21  the inside bars range. That's the
+00:01:23  fakeie. A fake breakout followed by a
+00:01:25  real move in the opposite direction.
+00:01:27  There are a few variations of the fakey
+00:01:29  pattern you need to know. A bullish
+00:01:31  fakey where price fakes a downside
+00:01:33  breakout and then explodes upward. A
+00:01:35  bearish fakey where price fakes an
+00:01:37  upside breakout and then collapses
+00:01:38  downward. Sometimes the fake happens
+00:01:41  with two or three small candles after
+00:01:42  the inside bar before the fake breakout.
+00:01:45  This is a deeper trap that fools even
+00:01:47  more traders. No matter which variation
+00:01:49  you spot, the key is always the same.
+00:01:52  First, a fake breakout, then a quick
+00:01:54  rejection, followed by a strong move in
+00:01:56  the opposite direction. The fakey setup
+00:01:59  is all about catching the trap before
+00:02:00  the real move happens. Look at this
+00:02:03  chart. As you can see, the market hit
+00:02:05  this level and reversed, forming a key
+00:02:07  level of support. When the price pulled
+00:02:09  back again, a fakey pattern formed, a
+00:02:11  clear smart money trap. After the fakey,
+00:02:14  we can place our entry at the close of
+00:02:16  the candle that made the false break,
+00:02:18  set a stop loss below it, and target the
+00:02:20  next move. Now, look at what happened
+00:02:22  next. As expected, the market moved in
+00:02:25  the targeted direction. Look at another
+00:02:27  chart. The market pushed up, hit this
+00:02:29  level, and reversed, forming a key level
+00:02:31  of resistance. It pushed up again, and
+00:02:33  as it approached the level, a fakey
+00:02:35  setup formed. This faky setup is a smart
+00:02:38  money trap because the formation of the
+00:02:39  inside bar at this area indicates
+00:02:41  indecision. The breakout of the inside
+00:02:43  bar suggests that buyers are likely to
+00:02:45  push the market higher. But once the
+00:02:47  price closed back inside the mother bar,
+00:02:49  it confirmed the breakout was a trap.
+00:02:51  When this pattern forms, we can
+00:02:53  anticipate that the market is likely to
+00:02:55  move down. You would place your entry at
+00:02:57  the close of the candle that made the
+00:02:58  false break, set a stop loss above it,
+00:03:00  and target the next key level. Now look
+00:03:03  at what happened next. As you can see,
+00:03:05  the market moved down and reached the
+00:03:07  next key support level just as expected.
+00:03:09  Look at another chart example here. The
+00:03:12  market hit and reversed, then hit and
+00:03:14  reversed again, forming a clear trend
+00:03:15  line. When the market retraced once
+00:03:17  more, a fakey setup signal formed. This
+00:03:20  signal indicates the end of the
+00:03:21  retracement and the beginning of a new
+00:03:23  impulsive move downward. You would place
+00:03:26  your entry at the close of the candle
+00:03:27  that made the false break, set a stop
+00:03:29  loss above it, and target the next key
+00:03:31  level. Now, look at what happened next.
+00:03:33  The market moved in the targeted
+00:03:35  direction. However, this signal is not a
+00:03:38  holy grail. Even good fakey setups can
+00:03:40  fail which is why proper money
+00:03:42  management is essential to succeed over
+00:03:44  the long run. Now let's move to the next
+00:03:46  trading signal which is the Fibonacci
+00:03:48  golden zone reversal signal. Look at
+00:03:50  this chart. After a strong move up, the
+00:03:52  market started to retrace. When we draw
+00:03:55  the Fibonacci retracement from the low
+00:03:56  to the high of the move, you can see the
+00:03:58  pullback comes into the golden zone
+00:04:00  which is between the 50% and 61.8%
+00:04:03  levels. This area is very important
+00:04:05  because smart money often steps in to
+00:04:07  buy from this zone during an uptrend.
+00:04:09  But again, you don't just jump in when
+00:04:11  price touches the Fibonacci level. You
+00:04:13  wait for a bullish confirmation like a
+00:04:15  strong bullish candle. Once the signal
+00:04:17  forms, you place your entry at the
+00:04:19  confirmation, set your stop loss just
+00:04:21  below the 61.8% level, and target the
+00:04:24  next resistance or the previous high.
+00:04:26  Now, look at what happened next. As
+00:04:28  expected, the market bounced from the
+00:04:30  golden zone and continued higher. Look
+00:04:33  at another chart example. The market
+00:04:35  made a strong move down, then started to
+00:04:37  retrace higher. We draw the Fibonacci
+00:04:39  retracement from the high to the low,
+00:04:41  and notice something interesting. The
+00:04:43  retracement slows down right inside the
+00:04:45  golden zone between the 50% and 61.8%
+00:04:48  levels. This zone often acts like a
+00:04:51  hidden battlefield where smart money
+00:04:52  prepares the next move. As price reaches
+00:04:55  this area, instead of breaking through,
+00:04:57  it shows clear signs of weakness. A
+00:05:00  strong bearish rejection candle forms,
+00:05:02  hinting that sellers are stepping back
+00:05:04  in. At this point, we have a high
+00:05:06  probability setup. You would place your
+00:05:08  entry at the close of the bearish
+00:05:10  candle, set your stop loss just above
+00:05:11  the 61.8% level, and target the next
+00:05:14  support level or the previous low. Now,
+00:05:17  watch what happened next. The market
+00:05:19  failed to break the golden zone and drop
+00:05:21  sharply, following the path we
+00:05:24  anticipated. But as always, even
+00:05:26  powerful zones like this one aren't
+00:05:28  foolproof. some setups will fail. This
+00:05:31  is why using smart money management is
+00:05:33  not optional. It's what keeps you in the
+00:05:35  game for the long run. Next up, the
+00:05:37  moving average crossover signal. In this
+00:05:40  strategy, we use the 20 period simple
+00:05:42  moving average and the 50 period simple
+00:05:44  moving average to identify trend
+00:05:46  reversals and trading opportunities.
+00:05:48  Let's look at the first example. When
+00:05:51  the 20 simple moving average crosses
+00:05:53  above the 50 simple moving average, it
+00:05:55  gives us a buy signal. In this case, the
+00:05:57  crossover happened right after a
+00:05:59  consolidation phase, and what followed
+00:06:01  was a strong bullish move. If you
+00:06:04  entered the trade after the crossover
+00:06:05  and place your stop below the recent
+00:06:07  swing low, the risk-to-reward ratio was
+00:06:09  massive. This is the kind of setup that
+00:06:11  can tilt the odds in your favor. Now,
+00:06:13  let's move to the next example. This
+00:06:15  time, the 20 simple moving average
+00:06:17  crosses below the 50 simple moving
+00:06:19  average, triggering a sell signal. If
+00:06:21  you shorted the market after the
+00:06:22  crossover and placed your stop above the
+00:06:24  recent swing high, the reward far
+00:06:27  outweighed the risk. These are the kinds
+00:06:29  of trades that get traders excited. But
+00:06:30  here's the truth that most people don't
+00:06:32  talk about. If you rely only on raw
+00:06:34  crossover signals, it's just a matter of
+00:06:36  time before your account gets blown up.
+00:06:38  Before I show you how to use this
+00:06:40  strategy the right way, let's go through
+00:06:41  the biggest mistakes traders make with
+00:06:43  crossover strategies so you can avoid
+00:06:45  them, too. The first mistake is trading
+00:06:47  in a ranging market. This strategy only
+00:06:50  works well in trending markets. If the
+00:06:51  market is ranging, you'll get signal
+00:06:53  after signal and most of them will be
+00:06:55  false. In this example, look how many
+00:06:57  fake crossovers happen during the
+00:06:59  sideways movement. Every entry turned
+00:07:00  into a loss and if you keep doing this,
+00:07:02  your account will bleed out. The second
+00:07:04  mistake is trading crossovers on lower
+00:07:06  time frames. Lower time frames mean more
+00:07:09  noise, more ranging markets, and more
+00:07:11  false signals. The crossover strategy
+00:07:13  was designed for trending environments
+00:07:15  and trends are much more reliable on
+00:07:17  higher time frames like the 1 hour, 4
+00:07:19  hour or daily charts. On the 5minut or
+00:07:21  15-minut chart, you'll be trading in
+00:07:23  chop most of the time and that's where
+00:07:25  most traders lose money. Now that you
+00:07:28  know what not to do, let me show you how
+00:07:30  to use the moving average crossover
+00:07:31  strategy correctly so you only trade the
+00:07:34  best signals. We will continue using the
+00:07:36  20 and 50 simple moving average
+00:07:38  crossover, but this time we will combine
+00:07:40  it with support and resistance breakouts
+00:07:42  for extra confirmation. Look at this
+00:07:44  chart here. We have a clear bullish
+00:07:46  crossover signal where the 20 simple
+00:07:49  moving average crosses above the 50
+00:07:51  simple moving average. But the crossover
+00:07:54  alone isn't enough. We identify a key
+00:07:56  resistance level just above the price
+00:07:58  action and we wait for a breakout of
+00:08:00  that resistance. This breakout acts as
+00:08:02  our confirmation that the crossover is
+00:08:04  valid. As you can see, after the
+00:08:06  resistance is broken, the price
+00:08:08  accelerates strongly in the direction of
+00:08:10  the crossover, giving us a much higher
+00:08:12  probability trade. Now, let's look at
+00:08:14  another example. This time, the 20
+00:08:16  simple moving average crosses below the
+00:08:18  50 simple moving average, giving us a
+00:08:20  bearish crossover signal. Again, we
+00:08:22  identify a support level beneath the
+00:08:24  price and we wait for the breakout.
+00:08:26  After the support is broken, we get our
+00:08:28  confirmation and that's our signal to
+00:08:30  enter the trade. Look at what happened
+00:08:32  next. As expected, the market continued
+00:08:34  moving strongly in our favor. Combining
+00:08:37  the crossover with support and
+00:08:38  resistance breakouts filters out false
+00:08:41  signals and dramatically improves the
+00:08:42  quality of your trades. Next, let's
+00:08:45  break down the WOFF spring signal. The
+00:08:48  WOFF spring happens during a ranging
+00:08:50  market after a downtrend. After a strong
+00:08:52  move down, sellers start taking profits
+00:08:55  and the market stops trending. This
+00:08:57  causes price to move sideways, bouncing
+00:08:59  between support and resistance. Once
+00:09:02  Smart Money has finished selling their
+00:09:04  positions, they look for a way to buy
+00:09:05  the dip. But before they do that, they
+00:09:07  need to trap more retail traders. So,
+00:09:10  what happens? The market breaks below
+00:09:12  the support level, making it look like
+00:09:14  the downtrend is continuing. Retail
+00:09:16  traders panic and sell the breakout,
+00:09:18  thinking the market will crash further.
+00:09:20  But instead of continuing lower, the
+00:09:22  price quickly closes back inside the
+00:09:24  range. This move, breaking the support
+00:09:27  and then snapping back up, is called a
+00:09:29  spring. and it's a highquality trading
+00:09:31  signal that shows smart money has
+00:09:33  entered the market ready to push price
+00:09:34  higher. Once you spot the spring, here's
+00:09:37  exactly what you do. You place your
+00:09:39  entry at the close of the candle that
+00:09:40  made the false breakout. Your stop loss
+00:09:43  goes just below the lowest point of the
+00:09:44  range to protect yourself in case the
+00:09:46  market fakes again. And your target is
+00:09:48  the next resistance level above. Look at
+00:09:51  what happened next. As expected, the
+00:09:53  market bounced strongly off the spring
+00:09:54  and went straight to the target. That's
+00:09:56  the power of understanding how smart
+00:09:58  money traps retail traders and how you
+00:10:00  can use it to take high probability
+00:10:02  trades. Now, let's move to the WOFF up
+00:10:04  thrust. After a strong uptrend, buyers
+00:10:06  start taking profits. The market slows
+00:10:08  down and starts moving sideways,
+00:10:10  creating a clear resistance and support
+00:10:12  zone. But smart money isn't finished
+00:10:14  yet. They need to trap more breakout
+00:10:16  buyers before reversing the market. So,
+00:10:19  the price breaks above the resistance
+00:10:21  level, triggering breakout trades from
+00:10:23  retail traders who think the uptrend
+00:10:24  will continue. But instead of holding
+00:10:26  above resistance, the market quickly
+00:10:28  reverses and closes back inside the
+00:10:31  range. This false breakout is called an
+00:10:33  up thrust, and it's a powerful signal
+00:10:35  that the market is ready to move lower.
+00:10:38  Here's how to trade the up thrust
+00:10:39  properly. You enter at the close of the
+00:10:41  candle that falls back below the
+00:10:43  resistance level. Your stop loss goes
+00:10:45  just above the resistance level. Your
+00:10:47  target is the next major support zone
+00:10:48  below the range. Look at what happened
+00:10:51  after the entry. As expected, the market
+00:10:53  reversed sharply and dropped toward the
+00:10:55  target, proving again that smart money
+00:10:57  always moves first while retail traders
+00:10:59  get trapped. The next trading signal is
+00:11:01  the Ballinger bands breakout. So, what
+00:11:03  are Ballinger bands? Ballinger bands are
+00:11:06  a popular technical analysis tool made
+00:11:08  up of three main parts. The upper band,
+00:11:11  which acts as dynamic resistance, the
+00:11:14  middle line, which is a 20 period moving
+00:11:16  average, and the lower band, which acts
+00:11:18  as dynamic support. The Ballinger bands
+00:11:21  breakout occurs when the market breaks
+00:11:23  out of a sideways range and starts a new
+00:11:25  trend. If you can time the breakout
+00:11:27  correctly, you can capture explosive
+00:11:29  moves, often with a very tight
+00:11:31  stop-loss. Now, here's how to spot a
+00:11:34  valid Ballinger bands breakout. Step
+00:11:36  one, start by identifying a sideways
+00:11:38  market. Look for areas where the
+00:11:40  Ballinger bands are squeezed tightly
+00:11:42  together. This shows low volatility and
+00:11:44  consolidation. During this phase, the
+00:11:46  price should stay within the bands,
+00:11:48  bouncing between the upper and lower
+00:11:49  boundaries. The upper band acts as
+00:11:51  resistance and the lower band acts as
+00:11:54  support. Wait for a strong breakout
+00:11:56  candle that closes outside the bands.
+00:11:58  That candle must break above the upper
+00:12:00  band for a bullish breakout or below the
+00:12:03  lower band for a bearish breakout. Let's
+00:12:05  look at a bullish example. We have a
+00:12:07  tight range. The bands are squeezed and
+00:12:09  the price has been moving sideways. Then
+00:12:11  we get a solid green candle that breaks
+00:12:13  and closes above the upper band. This
+00:12:15  signals that momentum has entered the
+00:12:16  market and this is a valid breakout
+00:12:18  setup. Now a bearish example again we
+00:12:21  spot a tight sideways range. The bands
+00:12:23  are narrow. The candles are moving
+00:12:25  sideways and price remains inside the
+00:12:27  range for a long time. Then comes the
+00:12:29  breakout. A large red candle breaks
+00:12:31  below the lower band and closes
+00:12:33  strongly. This is also a valid breakout
+00:12:35  setup and a strong signal to consider a
+00:12:38  short entry. When used properly, the
+00:12:40  Ballinger bands breakout strategy helps
+00:12:42  you enter the market just before trends
+00:12:44  begin and with the tightest possible
+00:12:45  risk. Now, let's move to the next
+00:12:48  trading signal, the Ballinger bands
+00:12:50  reversal setup. Bowlinger bands aren't
+00:12:52  just useful for breakouts. They also
+00:12:54  give us high probability reversal
+00:12:56  signals. As we mentioned earlier, price
+00:12:58  stays inside the Ballinger bands most of
+00:13:00  the time. So, when price touches the
+00:13:02  upper or lower band, it often signals a
+00:13:04  potential reversal. Let's start with a
+00:13:06  sell setup. In this chart, the market is
+00:13:09  moving sideways and trading inside the
+00:13:10  Ballinger bands. Price touches the upper
+00:13:13  band and right after that it gets
+00:13:15  rejected and starts moving down. This is
+00:13:17  a clean reversal from the upper band. A
+00:13:20  simple and effective signal that sellers
+00:13:22  are stepping in. You can place your
+00:13:24  entry after the rejection candle. Set
+00:13:26  your stop loss just above the high and
+00:13:28  target the lower band as your
+00:13:29  take-profit.
+00:13:35  Now let's look at a buy setup. Here the
+00:13:38  market is ranging again. Price touches
+00:13:39  the lower band and immediately bounces
+00:13:41  upward. That bounce shows buyers are
+00:13:44  defending the level. This is a great
+00:13:45  opportunity to go long. You enter after
+00:13:48  the bullish rejection candle. Set your
+00:13:50  stop loss below the low and target the
+00:13:52  upper band for your take profit. Now
+00:13:54  let's make this reversal signal more
+00:13:56  advanced by combining support and
+00:13:57  resistance with the upper and lower
+00:13:59  Ballinger bands. Look at this chart. The
+00:14:02  market is clearly ranging, trading
+00:14:04  between the upper and lower bands. Price
+00:14:06  touches the upper band and gets
+00:14:07  rejected, then moves down and touches
+00:14:09  the lower band, bouncing back up. Based
+00:14:11  on this behavior, we can draw our
+00:14:13  support level near the lower band and
+00:14:15  our resistance level near the upper
+00:14:17  band. Now, watch what happens next. As
+00:14:20  price approaches the upper band again
+00:14:22  and also hits the resistance level we
+00:14:24  drew, it gets rejected with force. This
+00:14:27  is a clear signal that the market is
+00:14:29  likely to drop and move back toward the
+00:14:30  lower band. This kind of setup gives us
+00:14:33  extra confirmation combining the
+00:14:35  Ballinger band rejection with a
+00:14:37  horizontal key level. Now let's flip the
+00:14:39  setup and look at a bullish reversal.
+00:14:41  The market is still ranging and this
+00:14:43  time price touches the lower band and
+00:14:44  bounces up. We draw our support level at
+00:14:47  that bounce area and a resistance level
+00:14:49  at the recent highs near the upper band.
+00:14:52  Look what happens when price returns to
+00:14:54  the lower band again and also touches
+00:14:57  the support level. It rejects strongly
+00:14:59  forming a reversal and heading back up
+00:15:00  toward the upper band. When support
+00:15:02  lines up with the lower Ballinger band,
+00:15:04  it gives us a high confident buy setup
+00:15:06  with tight risk and a clear target. The
+00:15:09  next trading signal is the triple top
+00:15:11  breakout. This setup is all about
+00:15:13  spotting buyer exhaustion before the
+00:15:15  market reverses. In this example, we're
+00:15:17  looking at the New Zealand dollar
+00:15:19  against the US dollar daily chart. After
+00:15:21  a strong uptrend, price starts to slow
+00:15:24  down and prints three distinct peaks.
+00:15:26  The first top forms and price pulls
+00:15:28  back. Buyers push up again, but the
+00:15:30  second top fails to break higher. Then
+00:15:32  comes the third attempt and it fails
+00:15:34  too. This is a clear sign that bulls are
+00:15:37  running out of strength. Now pay
+00:15:39  attention to the neckline, the
+00:15:40  horizontal support level that connects
+00:15:42  the lows between the tops. Once price
+00:15:44  breaks below this neckline, we get our
+00:15:46  sell signal. Enter the trade as soon as
+00:15:48  the candle closes below the neckline.
+00:15:50  Place your stop loss above the neckline.
+00:15:52  Your target is the next major support
+00:15:54  level. As you can see on the chart, once
+00:15:57  the neckline breaks, price drops
+00:15:59  aggressively. This move happens fast
+00:16:01  because buyers are trapped and smart
+00:16:03  money steps in on the sell side. The
+00:16:05  triple top breakout is one of the
+00:16:06  cleanest reversal signals. And when you
+00:16:08  see a structure like this with three
+00:16:10  failed highs and a strong neckline
+00:16:11  break, you know it's time to act. Now,
+00:16:13  let's flip the script and look at a
+00:16:15  powerful bullish reversal setup, the
+00:16:17  triple bottom breakout. Just like the
+00:16:19  triple top signals buyer exhaustion, the
+00:16:21  triple bottom shows us when sellers are
+00:16:23  running out of steam. Here's how it
+00:16:25  works. After a strong downtrend, price
+00:16:28  finds support and bounces off the same
+00:16:29  area multiple times. The first bottom
+00:16:32  forms, price bounces, sellers push down
+00:16:34  again, second bottom. Still no
+00:16:36  breakdown. One more push from the bears.
+00:16:39  Third bottom. And again, price holds.
+00:16:42  That's the signal. Three pushes down,
+00:16:44  three failures. Sellers tried three
+00:16:46  times and couldn't break the level.
+00:16:48  That's not weakness from buyers. That's
+00:16:50  weakness from the sellers. Now we focus
+00:16:52  on the neckline, the horizontal
+00:16:54  resistance level connecting the highs
+00:16:56  between those lows. This is our trigger
+00:16:58  zone. Once price breaks and closes above
+00:17:00  that neckline, we get our buy signal. We
+00:17:03  enter the trade as soon as the breakout
+00:17:04  candle closes above the neckline. We
+00:17:07  place our stop loss below the neckline
+00:17:08  or under the third bottom. The target is
+00:17:10  the next resistance level or a projected
+00:17:12  move equal to the height of the pattern.
+00:17:14  Look at what happens when the breakout
+00:17:16  comes.
+00:17:24  Price launches upward, buyers step in,
+00:17:28  sellers are forced to cover, and
+00:17:29  momentum takes over. This is where most
+00:17:32  retail traders are still waiting for
+00:17:33  confirmation, and you're ready in the
+00:17:35  move. Let's move to the last trading
+00:17:38  signal, and this one is all about taking
+00:17:40  advantage of what's called a stop hunt
+00:17:42  to find powerful trade opportunities. If
+00:17:45  you're not familiar with a stop hunt,
+00:17:46  here's a quick breakdown. Let's say
+00:17:48  price bounces off the same support level
+00:17:50  multiple times. Naturally, retail
+00:17:52  traders start to view this as a strong
+00:17:54  level. And the next time price comes
+00:17:55  back down, many of them look to buy
+00:17:57  again, expecting another bounce. Price
+00:18:00  touches the level and bounces up. So,
+00:18:02  they enter long positions and place
+00:18:04  their stop losses just below that
+00:18:05  support. But instead of bouncing again,
+00:18:07  price dips below the level, triggers all
+00:18:09  those stop- losses, and then suddenly
+00:18:11  reverses back up.
+00:18:13  Okay, that's what we call a stop hunt. A
+00:18:16  move institutions use to take out weak
+00:18:18  hands before driving the market in the
+00:18:19  real direction. Now, here's the key. We
+00:18:22  don't want to get caught by the trap. We
+00:18:24  want to trade with it. And here's how to
+00:18:27  do it step by step. Look for a support
+00:18:29  or resistance level that's clear and
+00:18:31  obvious. Why obvious? Because that's
+00:18:33  where most retail traders are placing
+00:18:35  their entries and stop- losses. And
+00:18:37  that's exactly where smart money looks
+00:18:39  for liquidity. In this example, we can
+00:18:42  see price rejected this resistance level
+00:18:44  before. So, we know traders are watching
+00:18:46  it. Now, we wait for price to break
+00:18:48  above the resistance
+00:18:51  level. Once the breakout happens, don't
+00:18:54  rush in. Here's the smart part. As soon
+00:18:57  as the breakout happens, we place a
+00:18:58  limit sell order just below the key
+00:19:00  level. If the breakout turns out to be a
+00:19:03  stop hunt, price will reverse, trigger
+00:19:05  our sell order, and we catch the move
+00:19:07  down. But if the breakout is real and
+00:19:09  price continues rising, our sell order
+00:19:12  is never triggered and we lose nothing.
+00:19:14  Now, we can also go a step further. We
+00:19:16  place a limit buy order above the
+00:19:18  breakout candle just in case the
+00:19:20  breakout is genuine. So, now we're ready
+00:19:23  for both directions. If it's a fake
+00:19:26  breakout, our sell order is triggered.
+00:19:27  If it's a real breakout, our buy order
+00:19:29  is triggered. Either way, we're only in
+00:19:31  the trade if price commits to a
+00:19:33  direction. Once one of the orders is
+00:19:35  triggered, we cancel the other. In this
+00:19:37  example, price broke out, then reversed
+00:19:39  and triggered our sell limit order. We
+00:19:42  immediately placed our stop loss above
+00:19:44  the resistance level and set our target
+00:19:46  at a minimum of three times the
+00:19:47  stop-loss distance. Look at what
+00:19:49  happened
+00:19:59  next. The market dropped sharply and hit
+00:20:01  our target with precision. This is how
+00:20:04  you trade like smart money, using the
+00:20:06  stop hunts that trap others to build
+00:20:08  high probability setups for yourself.
+00:20:10  That's it for today's video. If you
+00:20:12  found value, drop a like, subscribe, and
+00:20:14  hit the bell so you don't miss the next
+00:20:15  one. Let me know in the comments which
+00:20:17  signal was your favorite.

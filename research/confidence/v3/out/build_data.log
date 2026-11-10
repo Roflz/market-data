@@ -1,0 +1,21 @@
+NQ: 5,009,053 kept 1-min rows, 3877 sessions, 61 two-contract sessions (1s)
+/run/media/roflz/Disk 2/_/market_data/research/confidence/v3/build_data.py:233: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  out["dow"] = out.index.dayofweek.astype(np.int8)
+  sessions_NQ: (3877, 233) 2010-06-07 .. 2025-06-30 (2s)
+  bars_NQ_5: (1039577, 17) (4s)
+  bars_NQ_15: (347117, 17) (5s)
+  bars_NQ_60: (88465, 17) (6s)
+ES: 5,175,279 kept 1-min rows, 3877 sessions, 61 two-contract sessions (1s)
+/run/media/roflz/Disk 2/_/market_data/research/confidence/v3/build_data.py:233: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  out["dow"] = out.index.dayofweek.astype(np.int8)
+  sessions_ES: (3877, 233) 2010-06-07 .. 2025-06-30 (2s)
+  bars_ES_5: (1041326, 17) (4s)
+  bars_ES_15: (347273, 17) (5s)
+  bars_ES_60: (88467, 17) (6s)
+YM: 2,590,563 kept 1-min rows, 1936 sessions, 30 two-contract sessions (1s)
+/run/media/roflz/Disk 2/_/market_data/research/confidence/v3/build_data.py:233: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  out["dow"] = out.index.dayofweek.astype(np.int8)
+  sessions_YM: (1936, 233) 2018-01-02 .. 2025-06-30 (1s)
+  bars_YM_5: (521564, 17) (2s)
+  bars_YM_15: (173952, 17) (2s)
+  bars_YM_60: (44179, 17) (3s)

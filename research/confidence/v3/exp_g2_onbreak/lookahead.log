@@ -1,0 +1,8 @@
+A2 signal NQ: lookahead_check 20 cuts OK (entries compared 24930)
+A2 signal ES: lookahead_check 20 cuts OK (entries compared 22193)
+A2 signal YM: lookahead_check 20 cuts OK (entries compared 10718)
+ORB signal NQ: lookahead_check 20 cuts OK (entries compared 43516)
+ORB signal ES: lookahead_check 20 cuts OK (entries compared 42215)
+A2 targeted truncation at the entry time: 20/20 reproduce the signal
+ORB targeted truncation at the entry time: 20/20 reproduce the signal
+NO-LOOK-AHEAD: all checks passed

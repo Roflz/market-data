@@ -1,0 +1,29 @@
+model,date,side,entry,fill,stop_px,stop_pts,risk_1micro,how,c100_hand,c100_builder,c200_hand,c200_builder,c200scaled_hand,c200scaled_builder,all_match
+overnight_break,2018-01-17,long,12:40,10668.25,10658.5,9.68,21.36,"signal bar 12:35, 2xATR14(5m)=9.68",4,4,9,9,2,2,True
+overnight_break,2018-04-24,short,10:20,10473.75,10502.25,28.36,58.71,"signal bar 10:15, 2xATR14(5m)=28.36",1,1,3,3,0,0,True
+overnight_break,2019-04-05,long,10:10,11346.5,11330.0,16.5,35.0,"signal bar 10:05, 2xATR14(5m)=16.50",2,2,5,5,1,1,True
+overnight_break,2020-04-09,long,09:45,12001.0,11933.0,67.89,137.79,"signal bar 09:40, 2xATR14(5m)=67.89",0,0,1,1,0,0,True
+overnight_break,2023-01-04,short,10:05,14412.75,14489.0,76.18,154.36,"signal bar 10:00, 2xATR14(5m)=76.18",0,0,1,1,0,0,True
+overnight_break,2023-05-16,long,09:45,16868.75,16839.75,28.79,59.57,"signal bar 09:40, 2xATR14(5m)=28.79",1,1,3,3,1,1,True
+overnight_break,2023-07-17,long,09:35,18934.75,18908.25,26.39,54.79,"signal bar 09:30, 2xATR14(5m)=26.39",1,1,3,3,2,2,True
+overnight_break,2024-06-03,long,09:35,21248.75,21222.25,26.32,54.64,"signal bar 09:30, 2xATR14(5m)=26.32",1,1,3,3,2,2,True
+overnight_break,2024-07-05,long,10:00,22766.75,22716.25,50.36,102.71,"signal bar 09:55, 2xATR14(5m)=50.36",0,0,1,1,1,1,True
+overnight_break,2026-08-13,long,09:35,30238.75,30181.0,57.71,117.43,"signal bar 09:30, 2xATR14(5m)=57.71",0,0,1,1,1,1,True
+opening_range,2015-02-18,short,09:35,4378.5,4382.75,4.5,11.0,"9:30 open 4380.00, 9:34 close 4378.50, candle high 4382.75",9,9,10,10,2,2,True
+opening_range,2015-07-13,long,09:35,4453.5,4448.25,5.25,12.5,"9:30 open 4448.50, 9:34 close 4453.25, candle low 4448.25",8,8,10,10,2,2,True
+opening_range,2018-10-15,short,09:35,7122.75,7161.0,38.0,78.0,"9:30 open 7148.50, 9:34 close 7123.25, candle high 7161.00",1,1,2,2,0,0,True
+opening_range,2019-01-09,long,09:35,6587.75,6569.0,18.25,38.5,"9:30 open 6584.75, 9:34 close 6587.00, candle low 6569.00",2,2,5,5,1,1,True
+opening_range,2023-05-12,long,09:35,13480.5,13464.25,16.0,34.0,"9:30 open 13468.00, 9:34 close 13480.00, candle low 13464.25",2,2,5,5,2,2,True
+opening_range,2023-10-03,long,09:35,14906.5,14873.5,33.75,69.5,"9:30 open 14880.25, 9:34 close 14907.00, candle low 14873.50",1,1,2,2,1,1,True
+opening_range,2024-01-12,short,09:35,16991.0,17014.25,24.0,50.0,"9:30 open 17008.00, 9:34 close 16990.50, candle high 17014.25",2,2,4,4,2,2,True
+opening_range,2025-12-09,short,09:35,25580.0,25639.0,58.75,119.5,"9:30 open 25618.50, 9:34 close 25580.50, candle high 25639.00",0,0,1,1,1,1,True
+opening_range,2026-03-19,short,09:35,24356.75,24429.25,72.25,146.5,"9:30 open 24428.25, 9:34 close 24357.25, candle high 24429.25",0,0,1,1,1,1,True
+opening_range,2026-04-22,short,09:35,26823.0,26892.75,68.25,138.5,"9:30 open 26881.00, 9:34 close 26824.75, candle high 26892.75",0,0,1,1,1,1,True
+expiry_fade,2012-11-16,short,09:30,2523.5,,34.7,71.41,ADR20=37.01 x K=0.938,1,1,2,2,0,0,True
+expiry_fade,2018-05-18,short,09:30,6885.25,,94.34,190.67,ADR20=100.61 x K=0.938,0,0,1,1,0,0,True
+expiry_fade,2023-09-15,short,09:30,15610.5,,194.51,391.02,ADR20=207.45 x K=0.938,0,0,0,0,0,0,True
+expiry_fade,2024-03-15,short,09:30,18152.5,,194.05,390.11,ADR20=206.96 x K=0.938,0,0,0,0,0,0,True
+opening_range,2026-06-01,long,09:35,30379.75,30309.5,71.25,144.5,"9:30 open 30343.00, 9:34 close 30380.50, candle low 30309.50",0,0,1,1,1,1,True
+overnight_break,2026-06-01,long,13:30,31213.5,31157.0,56.43,114.86,"signal bar 13:25, 2xATR14(5m)=56.43",0,0,1,1,1,1,True
+opening_range,2026-06-02,short,09:35,30476.5,30567.75,91.25,184.5,"9:30 open 30557.00, 9:34 close 30476.75, candle high 30567.75",0,0,1,1,1,1,True
+overnight_break,2026-06-02,long,10:00,31214.25,31128.0,86.21,174.43,"signal bar 09:55, 2xATR14(5m)=86.21",0,0,1,1,1,1,True

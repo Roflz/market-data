@@ -1,0 +1,24 @@
+A1: lookahead_check 20 cuts OK, legs compared 132624
+A1: time_trades dropped {'unknown_session': 0, 'exit_not_after_entry': 0, 'no_entry_price': 1}
+A1: 3278 trades, legs 12622, C1 drawn 0.9888 (30s)
+S1.1: lookahead_check 20 cuts OK, legs compared 128502
+S1.1: time_trades dropped {'unknown_session': 0, 'exit_not_after_entry': 0, 'no_entry_price': 1}
+S1.1: 3403 trades, legs 12243, C1 drawn 0.9884 (61s)
+S1.2: lookahead_check 20 cuts OK, legs compared 56500
+S1.2: time_trades dropped {'unknown_session': 0, 'exit_not_after_entry': 0, 'no_entry_price': 0}
+S1.2: 1712 trades, legs 6183, C1 drawn 0.9875 (77s)
+S1.6: lookahead_check 20 cuts OK, legs compared 132624
+S1.6: time_trades dropped {'unknown_session': 0, 'exit_not_after_entry': 0, 'no_entry_price': 1}
+S1.6: 3278 trades, legs 12622, C1 drawn 0.9888 (105s)
+N1.lb10: time_trades dropped {'unknown_session': 0, 'exit_not_after_entry': 0, 'no_entry_price': 1}
+N1.lb10: 3349 trades, legs 12688, C1 drawn 0.9887 (130s)
+N1.lb20: time_trades dropped {'unknown_session': 0, 'exit_not_after_entry': 0, 'no_entry_price': 0}
+N1.lb20: 3202 trades, legs 12499, C1 drawn 0.9886 (158s)
+N1.hour: lookahead_check 20 cuts OK, legs compared 65565
+N1.hour: time_trades dropped {'unknown_session': 0, 'exit_not_after_entry': 0, 'no_entry_price': 0}
+N1.hour: 2452 trades, legs 6221, C1 drawn 0.9897 (180s)
+S1.4: lookahead_check OK
+S1.4: subset of A1, 1979 trades (rebuilt through the signal: identical)
+S1.5: subset of A1, 3135 trades (rebuilt through the signal: identical)
+A1 truncation re-check (cut at exit mark): 20/20 trades reproduced
+build time 193s

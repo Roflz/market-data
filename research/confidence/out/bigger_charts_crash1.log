@@ -1,0 +1,37 @@
+NQ 15m: 331,394 events; cost as share of an average bar: 2013:40% 2016:21% 2019:12% 2022:4% 2024:5% 2025:3%
+  v1             all years -0.70 $/tr (26,382 kept, 2/13 yrs +; every signal -2.22)   2019+ -0.15 $/tr (15,528 kept)  (83s)
+  v1 + cost_bar  all years -0.84 $/tr (23,622 kept, 1/13 yrs +; every signal -2.22)   2019+ -0.23 $/tr (12,519 kept)  (78s)
+ES 15m: 312,213 events; cost as share of an average bar: 2013:50% 2016:35% 2019:27% 2022:10% 2024:16% 2025:10%
+  v1             all years -3.48 $/tr (21,747 kept, 0/13 yrs +; every signal -4.76)   2019+ -3.72 $/tr (14,502 kept)  (66s)
+  v1 + cost_bar  all years -3.66 $/tr (21,505 kept, 0/13 yrs +; every signal -4.76)   2019+ -3.94 $/tr (14,664 kept)  (71s)
+[03:52:48] ES 60m: 89,841 bars, 72,661 labelled entries (4s)
+ES 60m: 72,661 events; cost as share of an average bar: 2013:25% 2016:17% 2019:12% 2022:5% 2024:7% 2025:4%
+  v1             all years -2.05 $/tr (6,492 kept, 3/13 yrs +; every signal -4.27)   2019+ -2.28 $/tr (4,394 kept)  (22s)
+  v1 + cost_bar  all years -1.99 $/tr (6,911 kept, 3/13 yrs +; every signal -4.27)   2019+ -1.20 $/tr (3,250 kept)  (21s)
+Traceback (most recent call last):
+  File "/run/media/roflz/Disk 2/_/market_data/research/confidence/run_bigger_charts.py", line 70, in <module>
+    main()
+    ~~~~^^
+  File "/run/media/roflz/Disk 2/_/market_data/research/confidence/run_bigger_charts.py", line 32, in main
+    rp.build_entries(sym, tf).to_parquet(path, compression="zstd")
+    ~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/run/media/roflz/Disk 2/_/market_data/research/confidence/run_pipeline.py", line 173, in build_entries
+    b, F = fe.build_features(sym, tf, others=others)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/roflz/Disk 2/_/market_data/research/confidence/features.py", line 433, in build_features
+    bb["R20"] = r20(b, tick)
+    ~~^^^^^^^
+  File "/run/media/roflz/Disk 2/_/market_data/pylib/pandas/core/frame.py", line 4659, in __setitem__
+    self._set_item(key, value)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/run/media/roflz/Disk 2/_/market_data/pylib/pandas/core/frame.py", line 4895, in _set_item
+    value, refs = self._sanitize_column(value)
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/run/media/roflz/Disk 2/_/market_data/pylib/pandas/core/frame.py", line 6406, in _sanitize_column
+    com.require_length_match(value, self.index)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/run/media/roflz/Disk 2/_/market_data/pylib/pandas/core/common.py", line 612, in require_length_match
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Length of values (50407) does not match length of index (50439)

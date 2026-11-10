@@ -1,0 +1,22 @@
+### calibrate_real.py ES 15-min  (run 2026-11-09 12:59)
+panel: 347273 bars, 3877 sessions, build 1.6s
+
+NULL: 200 random persistent signals on real ES 15-min prices; share with p < 0.05 (should be ~0.05; binomial sd ~0.015):
+                    p_boot   p_nw  p_placebo  p_placebo_emp      p
+col                                                               
+abs_h4               0.040  0.045      0.065          0.060  0.020
+dir_h1               0.055  0.050      0.055          0.055  0.050
+dir_h16              0.065  0.065      0.065          0.065  0.055
+dir_h4               0.050  0.050      0.050          0.050  0.040
+p_dir(6 horizons)    0.000  0.000      0.000          0.000  0.015
+p_size(6 horizons)   0.000  0.000      0.000          0.000  0.025
+path                 0.035  0.040      0.040          0.040  0.035
+sd of t at h16 (16 overlapping bars): honest (session bootstrap) 0.98, naive bar-level iid 3.01  (honest should be ~1)
+
+POSITIVE CONTROLS
+  next-bar reversal, default controls: dir_h1 effect -0.0053 R20 (CI -0.0148 .. +0.0042), IC -0.0024, p 0.27, placebo rank p 0.253, same sign 10/16 years; verdict: MES 15-min: no measurable direction effect (best -0.005 R20 over the next 1 bar (15 min), p=1).
+  next-bar reversal, without last-bar-sign control: dir_h1 effect -0.0217 R20 (CI -0.0312 .. -0.0123), IC -0.0097, p 6.9e-06, placebo rank p 0.00026, same sign 15/16 years; verdict: MES 15-min: POSSIBLE direction effect -0.022 average bars over the next 1 bar (15 min) (top fifth vs bottom fifth of the metric), not confirmed (p=4.1e-05, single metric: no batch q, replicated=n/a, 15 of 16 years); best leg (bottom fifth, long) grosses $+0.16 and nets $-3.34 per micro per trade after $3.50 costs -> not tradable on its own.
+  leverage: back-4 return -> next-4 range: rng_h4 effect -0.1676 R20 (CI -0.1985 .. -0.1367), IC -0.0370, p 2.8e-19, placebo rank p 0.00026, same sign 15/16 years; verdict: MES 15-min size: the market moves 10% LESS in the metric's top fifth than in its bottom fifth over the next 1 bar (15 min) (-0.054 R20, possible, p=4.5e-28, 15 of 16 years same sign).
+
+runtime 80s
+

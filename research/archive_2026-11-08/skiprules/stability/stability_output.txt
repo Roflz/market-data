@@ -1,0 +1,197 @@
+Trades: 5729; missing spx_ret_1d_prev: 0
+
+==================== R1 / overnight_break (condition column: r1)
+full sample            cond n=  49 $  -64.53 win  18.4% | other n= 1731 $ +13.41 win  31.9% | diff   -77.94 t  -3.76
+-- 1. sub-periods
+2010-2015              cond n=  13 $   +0.54 win  23.1% | other n=  559 $  -0.68 win  29.7% | diff    +1.22 t  +0.08
+2016-2020              cond n=  21 $  -36.24 win  23.8% | other n=  523 $ +10.92 win  32.5% | diff   -47.16 t  -1.48
+2021-2026              cond n=  15 $ -160.53 win   6.7% | other n=  649 $ +27.55 win  33.3% | diff  -188.08 t  -4.75
+-- 1b. calendar years (only years with condition trades)
+   2011: cond n=  7 $  -14.36 (sum    -100) win  14.3% | other-days same year $  +3.03
+   2012: cond n=  2 $  +22.75 (sum     +46) win  50.0% | other-days same year $  -1.52
+   2013: cond n=  1 $  -12.50 (sum     -12) win   0.0% | other-days same year $  -2.17
+   2014: cond n=  2 $  +53.25 (sum    +106) win  50.0% | other-days same year $  -1.95
+   2015: cond n=  1 $  -32.00 (sum     -32) win   0.0% | other-days same year $  -0.35
+   2016: cond n=  4 $  -13.38 (sum     -54) win  25.0% | other-days same year $  +0.95
+   2018: cond n=  5 $  -56.50 (sum    -282) win  20.0% | other-days same year $ +26.28
+   2020: cond n= 12 $  -35.42 (sum    -425) win  25.0% | other-days same year $ +22.41
+   2021: cond n=  1 $ -158.50 (sum    -158) win   0.0% | other-days same year $ +32.62
+   2022: cond n=  8 $ -102.50 (sum    -820) win  12.5% | other-days same year $ +35.72
+   2023: cond n=  1 $  -89.50 (sum     -90) win   0.0% | other-days same year $ +13.88
+   2024: cond n=  2 $ -212.50 (sum    -425) win   0.0% | other-days same year $ +30.21
+   2025: cond n=  2 $ -267.75 (sum    -536) win   0.0% | other-days same year $ +27.67
+   2026: cond n=  1 $ -379.50 (sum    -380) win   0.0% | other-days same year $ +25.31
+   years with condition trades: 14; cond $/trade below same-year other-day avg: 12; below full-sample other-day avg ($+13.41): 12
+-- 3. concentration (condition days)
+   cond total $-3162 over 49 trades / 47 days
+   worst 5 days: 2020-09-04 -441, 2025-04-04 -426, 2026-06-08 -380, 2020-03-17 -238, 2024-08-06 -224 (sum -1708)
+   without worst 5 days: n=43 total $-1454 $-33.80/trade win 20.9% t vs other -2.54
+   (for symmetry, without best 5 days: $-98.01/trade)
+   median: cond $-61.00 vs other $-16.00
+   trimmed mean (5% each tail): cond $-65.76 vs other $-3.71
+   share of cond trades that are stops: 81.6% vs other 66.3%
+-- 4. long vs short
+long                   cond n=  14 $  -63.54 win  14.3% | other n= 1200 $ +12.50 win  33.2% | diff   -76.04 t  -1.98
+short                  cond n=  35 $  -64.93 win  20.0% | other n=  531 $ +15.47 win  28.8% | diff   -80.40 t  -3.03
+
+==================== R1 / opening_range (condition column: r1)
+full sample            cond n= 123 $  -37.16 win  13.8% | other n= 3629 $  +4.42 win  23.5% | diff   -41.58 t  -3.33
+-- 1. sub-periods
+2010-2015              cond n=  34 $  -10.21 win  14.7% | other n= 1153 $  -0.81 win  21.6% | diff    -9.40 t  -1.98
+2016-2020              cond n=  50 $  -27.11 win  14.0% | other n= 1121 $  +3.65 win  24.0% | diff   -30.76 t  -1.43
+2021-2026              cond n=  39 $  -73.54 win  12.8% | other n= 1355 $  +9.50 win  24.8% | diff   -83.04 t  -3.07
+-- 1b. calendar years (only years with condition trades)
+   2010: cond n=  4 $   -3.00 (sum     -12) win  25.0% | other-days same year $  -2.50
+   2011: cond n= 17 $   -5.74 (sum     -98) win  17.6% | other-days same year $  -0.73
+   2012: cond n=  3 $  -14.83 (sum     -44) win   0.0% | other-days same year $  -1.21
+   2013: cond n=  1 $   -7.50 (sum      -8) win   0.0% | other-days same year $  +0.61
+   2014: cond n=  4 $   +3.00 (sum     +12) win  25.0% | other-days same year $  +1.65
+   2015: cond n=  5 $  -39.50 (sum    -198) win   0.0% | other-days same year $  -3.34
+   2016: cond n=  5 $  +54.90 (sum    +274) win  60.0% | other-days same year $  +2.13
+   2018: cond n= 15 $  -29.80 (sum    -447) win   6.7% | other-days same year $ +14.71
+   2019: cond n=  5 $  -35.50 (sum    -178) win   0.0% | other-days same year $  +3.05
+   2020: cond n= 25 $  -40.22 (sum   -1006) win  12.0% | other-days same year $  -0.25
+   2021: cond n=  5 $  -64.90 (sum    -324) win   0.0% | other-days same year $  +7.55
+   2022: cond n= 20 $  -66.12 (sum   -1322) win  20.0% | other-days same year $ +24.34
+   2023: cond n=  1 $  -46.00 (sum     -46) win   0.0% | other-days same year $  -0.78
+   2024: cond n=  4 $  +58.50 (sum    +234) win  25.0% | other-days same year $ +12.42
+   2025: cond n=  6 $ -124.58 (sum    -748) win   0.0% | other-days same year $ +19.62
+   2026: cond n=  3 $ -220.50 (sum    -662) win   0.0% | other-days same year $  -7.61
+   years with condition trades: 16; cond $/trade below same-year other-day avg: 13; below full-sample other-day avg ($+4.42): 14
+-- 3. concentration (condition days)
+   cond total $-4570 over 123 trades / 123 days
+   worst 5 days: 2026-06-08 -334, 2020-09-04 -249, 2022-05-06 -218, 2026-11-06 -207, 2022-02-04 -206 (sum -1213)
+   without worst 5 days: n=118 total $-3358 $-28.45/trade win 14.4% t vs other -2.67
+   (for symmetry, without best 5 days: $-57.80/trade)
+   median: cond $-46.50 vs other $-16.50
+   trimmed mean (5% each tail): cond $-51.17 vs other $-12.48
+   share of cond trades that are stops: 86.2% vs other 75.1%
+-- 4. long vs short
+long                   cond n=  63 $  -35.48 win  12.7% | other n= 1868 $  +5.68 win  25.7% | diff   -41.17 t  -2.86
+short                  cond n=  60 $  -38.92 win  15.0% | other n= 1761 $  +3.07 win  21.2% | diff   -41.99 t  -2.02
+
+==================== R2 / opening_range (condition column: fomc)
+full sample            cond n= 122 $  -28.23 win  10.7% | other n= 3630 $  +4.11 win  23.6% | diff   -32.34 t  -4.11
+-- 1. sub-periods
+2010-2015              cond n=  37 $   -1.62 win  16.2% | other n= 1150 $  -1.06 win  21.6% | diff    -0.56 t  -0.10
+2016-2020              cond n=  38 $  -23.29 win   5.3% | other n= 1133 $  +3.19 win  24.2% | diff   -26.48 t  -4.55
+2021-2026              cond n=  47 $  -53.17 win  10.6% | other n= 1347 $  +9.29 win  24.9% | diff   -62.46 t  -3.31
+-- 1b. calendar years (only years with condition trades)
+   2010: cond n=  2 $  -13.00 (sum     -26) win   0.0% | other-days same year $  -2.34
+   2011: cond n=  7 $   -4.79 (sum     -34) win  14.3% | other-days same year $  -1.01
+   2012: cond n=  6 $   +8.08 (sum     +48) win  50.0% | other-days same year $  -1.69
+   2013: cond n=  7 $   +3.57 (sum     +25) win  14.3% | other-days same year $  +0.46
+   2014: cond n=  7 $  -13.14 (sum     -92) win   0.0% | other-days same year $  +2.16
+   2015: cond n=  8 $   +2.25 (sum     +18) win  12.5% | other-days same year $  -4.37
+   2016: cond n=  8 $   -3.94 (sum     -32) win  12.5% | other-days same year $  +3.56
+   2017: cond n=  7 $   -0.64 (sum      -4) win  14.3% | other-days same year $  -1.34
+   2018: cond n=  8 $  -39.12 (sum    -313) win   0.0% | other-days same year $ +13.67
+   2019: cond n=  8 $  -24.75 (sum    -198) win   0.0% | other-days same year $  +3.18
+   2020: cond n=  7 $  -48.29 (sum    -338) win   0.0% | other-days same year $  -3.10
+   2021: cond n=  8 $  -26.94 (sum    -216) win  12.5% | other-days same year $  +7.18
+   2022: cond n=  8 $  -93.12 (sum    -745) win   0.0% | other-days same year $ +20.58
+   2023: cond n=  8 $   -8.25 (sum     -66) win  12.5% | other-days same year $  -0.72
+   2024: cond n=  8 $  -15.56 (sum    -124) win  25.0% | other-days same year $ +14.18
+   2025: cond n=  8 $  -60.12 (sum    -481) win  12.5% | other-days same year $ +18.63
+   2026: cond n=  7 $ -123.86 (sum    -867) win   0.0% | other-days same year $  -6.72
+   years with condition trades: 17; cond $/trade below same-year other-day avg: 13; below full-sample other-day avg ($+4.11): 16
+-- 3. concentration (condition days)
+   cond total $-3444 over 122 trades / 122 days
+   worst 5 days: 2026-07-29 -242, 2026-06-17 -176, 2024-07-31 -160, 2022-01-26 -156, 2026-04-29 -144 (sum -878)
+   without worst 5 days: n=117 total $-2566 $-21.94/trade win 11.1% t vs other -3.42
+   (for symmetry, without best 5 days: $-40.84/trade)
+   median: cond $-24.25 vs other $-17.00
+   trimmed mean (5% each tail): cond $-35.01 vs other $-12.80
+   share of cond trades that are stops: 87.7% vs other 75.1%
+-- 4. long vs short
+long                   cond n=  47 $  -11.88 win  12.8% | other n= 1884 $  +4.75 win  25.6% | diff   -16.63 t  -1.12
+short                  cond n=  75 $  -38.47 win   9.3% | other n= 1746 $  +3.42 win  21.5% | diff   -41.89 t  -4.82
+
+==================== R2-context / overnight_break (condition column: fomc)
+full sample            cond n=  59 $  -12.54 win  20.3% | other n= 1721 $ +12.08 win  31.9% | diff   -24.62 t  -1.46
+-- 1. sub-periods
+2010-2015              cond n=  20 $   +3.02 win  35.0% | other n=  552 $  -0.79 win  29.3% | diff    +3.81 t  +0.41
+2016-2020              cond n=  19 $  +13.66 win  15.8% | other n=  525 $  +8.94 win  32.8% | diff    +4.72 t  +0.17
+2021-2026              cond n=  20 $  -53.00 win  10.0% | other n=  644 $ +25.67 win  33.4% | diff   -78.67 t  -1.93
+-- 1b. calendar years (only years with condition trades)
+   2011: cond n=  3 $   -9.00 (sum     -27) win  33.3% | other-days same year $  +2.21
+   2012: cond n=  4 $   +5.00 (sum     +20) win  50.0% | other-days same year $  -1.33
+   2013: cond n=  3 $   +8.50 (sum     +26) win  33.3% | other-days same year $  -2.54
+   2014: cond n=  5 $   -9.50 (sum     -48) win  20.0% | other-days same year $  -0.56
+   2015: cond n=  5 $  +17.90 (sum     +90) win  40.0% | other-days same year $  -1.45
+   2016: cond n=  6 $  -12.92 (sum     -78) win  16.7% | other-days same year $  +1.22
+   2017: cond n=  3 $  -13.50 (sum     -40) win   0.0% | other-days same year $  -0.29
+   2018: cond n=  3 $  -24.67 (sum     -74) win   0.0% | other-days same year $ +23.97
+   2019: cond n=  2 $  -25.75 (sum     -52) win   0.0% | other-days same year $  +5.82
+   2020: cond n=  5 $ +100.60 (sum    +503) win  40.0% | other-days same year $ +12.36
+   2021: cond n=  5 $  -88.50 (sum    -442) win   0.0% | other-days same year $ +36.35
+   2022: cond n=  4 $  +59.88 (sum    +240) win  25.0% | other-days same year $ +24.59
+   2023: cond n=  4 $  -67.12 (sum    -268) win   0.0% | other-days same year $ +15.83
+   2024: cond n=  2 $ +136.50 (sum    +273) win  50.0% | other-days same year $ +24.44
+   2025: cond n=  3 $ -104.00 (sum    -312) win   0.0% | other-days same year $ +25.91
+   2026: cond n=  2 $ -274.75 (sum    -550) win   0.0% | other-days same year $ +27.76
+   years with condition trades: 16; cond $/trade below same-year other-day avg: 10; below full-sample other-day avg ($+12.08): 12
+-- 3. concentration (condition days)
+   cond total $-740 over 59 trades / 56 days
+   worst 5 days: 2026-07-29 -354, 2026-03-18 -195, 2021-03-17 -176, 2025-06-18 -124, 2021-07-28 -122 (sum -972)
+   without worst 5 days: n=53 total $+232 $+4.37/trade win 22.6% t vs other -0.46
+   (for symmetry, without best 5 days: $-44.24/trade)
+   median: cond $-22.00 vs other $-16.50
+   trimmed mean (5% each tail): cond $-19.61 vs other $-4.62
+   share of cond trades that are stops: 78.0% vs other 66.4%
+-- 4. long vs short
+long                   cond n=  41 $   +2.74 win  22.0% | other n= 1173 $ +11.93 win  33.4% | diff    -9.19 t  -0.46
+short                  cond n=  18 $  -47.36 win  16.7% | other n=  548 $ +12.40 win  28.6% | diff   -59.76 t  -1.93
+
+==================== 2. R1 thresholds (prior-day S&P return <= -X%) and exclusive bands
+-- overnight_break
+<= -1.0%               cond n= 183 $  -12.81 win  27.9% | other n= 1597 $ +14.02 win  31.9% | diff   -26.83 t  -1.90
+<= -1.5%               cond n=  92 $  -34.53 win  21.7% | other n= 1688 $ +13.76 win  32.0% | diff   -48.29 t  -2.51
+<= -2.0%               cond n=  49 $  -64.53 win  18.4% | other n= 1731 $ +13.41 win  31.9% | diff   -77.94 t  -3.76
+<= -2.5%               cond n=  25 $ -101.78 win  16.0% | other n= 1755 $ +12.88 win  31.7% | diff  -114.66 t  -3.44
+<= -3.0%               cond n=  15 $  -95.40 win  13.3% | other n= 1765 $ +12.17 win  31.7% | diff  -107.57 t  -2.38
+band (-1.5,-1.0]       cond n=  91 $   +9.15 win  34.1% | other n= 1689 $ +11.38 win  31.4% | diff    -2.23 t  -0.11
+band (-2.0,-1.5]       cond n=  43 $   -0.34 win  25.6% | other n= 1737 $ +11.55 win  31.7% | diff   -11.89 t  -0.37
+band (-2.5,-2.0]       cond n=  24 $  -25.73 win  20.8% | other n= 1756 $ +11.77 win  31.7% | diff   -37.50 t  -1.74
+band (-3.0,-2.5]       cond n=  10 $ -111.35 win  20.0% | other n= 1770 $ +11.96 win  31.6% | diff  -123.31 t  -2.45
+band (-99,-3.0]        cond n=  15 $  -95.40 win  13.3% | other n= 1765 $ +12.17 win  31.7% | diff  -107.57 t  -2.38
+control >= +2.0%       cond n=  44 $   +2.05 win  31.8% | other n= 1736 $ +11.50 win  31.5% | diff    -9.45 t  -0.34
+-- opening_range
+<= -1.0%               cond n= 420 $   -4.67 win  20.0% | other n= 3332 $  +4.03 win  23.6% | diff    -8.70 t  -0.68
+<= -1.5%               cond n= 232 $   -2.52 win  16.8% | other n= 3520 $  +3.42 win  23.6% | diff    -5.94 t  -0.28
+<= -2.0%               cond n= 123 $  -37.16 win  13.8% | other n= 3629 $  +4.42 win  23.5% | diff   -41.58 t  -3.33
+<= -2.5%               cond n=  73 $  -36.15 win  15.1% | other n= 3679 $  +3.83 win  23.4% | diff   -39.98 t  -2.10
+<= -3.0%               cond n=  42 $  -40.33 win  16.7% | other n= 3710 $  +3.55 win  23.3% | diff   -43.88 t  -1.68
+band (-1.5,-1.0]       cond n= 188 $   -7.33 win  23.9% | other n= 3564 $  +3.60 win  23.2% | diff   -10.93 t  -1.02
+band (-2.0,-1.5]       cond n= 109 $  +36.57 win  20.2% | other n= 3643 $  +2.05 win  23.3% | diff   +34.52 t  +0.81
+band (-2.5,-2.0]       cond n=  50 $  -38.63 win  12.0% | other n= 3702 $  +3.62 win  23.4% | diff   -42.25 t  -3.41
+band (-3.0,-2.5]       cond n=  31 $  -30.48 win  12.9% | other n= 3721 $  +3.33 win  23.3% | diff   -33.82 t  -1.22
+band (-99,-3.0]        cond n=  42 $  -40.33 win  16.7% | other n= 3710 $  +3.55 win  23.3% | diff   -43.88 t  -1.68
+control >= +2.0%       cond n=  97 $  +18.30 win  25.8% | other n= 3655 $  +2.65 win  23.1% | diff   +15.65 t  +0.75
+
+==================== 5. R2 splits (opening_range on scheduled Fed days)
+-- opening_range
+press conf             cond n=  92 $  -34.43 win  10.9% | other n= 3630 $  +4.11 win  23.6% | diff   -38.54 t  -3.91
+no press conf          cond n=  30 $   -9.22 win  10.0% | other n= 3630 $  +4.11 win  23.6% | diff   -13.32 t  -1.82
+Fed day < 2019         cond n=  60 $   -6.82 win  13.3% | other n= 1820 $  +1.31 win  22.8% | diff    -8.13 t  -1.74
+Fed day >= 2019        cond n=  62 $  -48.95 win   8.1% | other n= 1810 $  +6.92 win  24.5% | diff   -55.87 t  -3.88
+<2019 press conf       cond n=  30 $   -4.42 win  16.7% | other n= 1820 $  +1.31 win  22.8% | diff    -5.73 t  -0.93
+<2019 no press conf    cond n=  30 $   -9.22 win  10.0% | other n= 1820 $  +1.31 win  22.8% | diff   -10.53 t  -1.52
+-- overnight_break
+press conf             cond n=  41 $  -17.49 win  17.1% | other n= 1721 $ +12.08 win  31.9% | diff   -29.57 t  -1.25
+no press conf          cond n=  18 $   -1.28 win  27.8% | other n= 1721 $ +12.08 win  31.9% | diff   -13.36 t  -1.25
+Fed day < 2019         cond n=  32 $   -4.11 win  25.0% | other n=  872 $  +2.70 win  30.2% | diff    -6.81 t  -1.07
+Fed day >= 2019        cond n=  27 $  -22.54 win  14.8% | other n=  849 $ +21.71 win  33.7% | diff   -44.25 t  -1.22
+<2019 press conf       cond n=  14 $   -7.75 win  21.4% | other n=  872 $  +2.70 win  30.2% | diff   -10.45 t  -1.56
+<2019 no press conf    cond n=  18 $   -1.28 win  27.8% | other n=  872 $  +2.70 win  30.2% | diff    -3.98 t  -0.40
+
+opening_range trades hit by both R1 and R2: 2
+
+==================== 6. System effect (all three models, 1 micro each, daily equity)
+baseline  trades  5729 removed    0 (removed $       +0) | total $   +39518 | maxDD $-9,608 (2025-11-24 -> 2026-08-03) | worst year $-785 (2015) | expiry_fade +8006, opening_range +11460, overnight_break +20052
+R1 only   trades  5557 removed  172 (removed $    -7732) | total $   +47250 | maxDD $-8,774 (2025-11-24 -> 2026-08-03) | worst year $-556 (2015) | expiry_fade +8006, opening_range +16031, overnight_break +23214
+R2 only   trades  5607 removed  122 (removed $    -3444) | total $   +42962 | maxDD $-8,783 (2025-11-24 -> 2026-08-03) | worst year $-803 (2015) | expiry_fade +8006, opening_range +14904, overnight_break +20052
+R1 + R2   trades  5437 removed  292 (removed $   -11140) | total $   +50657 | maxDD $-7,949 (2025-11-24 -> 2026-08-03) | worst year $-574 (2015) | expiry_fade +8006, opening_range +19438, overnight_break +23214
+removed $ by sub-period:
+  R1 only: 2010-2015 n=47 $-340, 2016-2020 n=71 $-2116, 2021-2026 n=54 $-5276
+  R2 only: 2010-2015 n=37 $-60, 2016-2020 n=38 $-885, 2021-2026 n=47 $-2499

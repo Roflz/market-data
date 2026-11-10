@@ -1,0 +1,93 @@
+feature,coef_raw_median,coef_std_median,sign_stability,share_pos,n_folds,points,points_1sd,unit,meaning
+tod_close,-1.0190125708079754,-0.28799912,1.0,0.0,13,-29,-8,when true,signal bar is in the US close (15:00-16:45 ET)
+tod_uspre,0.8160359595988717,0.22023775,1.0,1.0,13,24,6,when true,signal bar is in US pre-market (08:00-09:30 ET)
+dist_stop_R,-0.7682727869670257,-2.2236257,1.0,0.0,13,-22,-64,per average bar,"distance from price to the stop, in R"
+mae_R,0.707671873053587,0.19752717,1.0,1.0,13,20,6,per 1R,"worst open loss so far, in R"
+open_R,0.5468186957121686,1.6782446,1.0,1.0,13,16,48,per 1R,"open profit now, in R (1R = the initial risk)"
+dist_ema20,-0.539366154688536,-0.6856561,1.0,0.0,13,-16,-20,per average bar,price beyond the 20-bar EMA in the trade's direction
+tod_europe,0.34683233922256684,0.15931627,1.0,1.0,13,10,5,when true,signal bar is in Europe hours (02:00-08:00 ET)
+dist_ema8,0.29897824135469847,0.23581351,0.9230769230769231,0.9230769230769231,13,9,7,per average bar,price beyond the 8-bar EMA in the trade's direction
+tod_open,0.23292587146691243,0.04538761,1.0,1.0,13,7,1,when true,signal bar is in the US open hour (09:30-10:30 ET)
+tod_asia,-0.19097876059634297,-0.0848026,1.0,0.0,13,-6,-2,when true,signal bar is in Asia hours (18:00-02:00 ET)
+pat_shooting_star,0.20739210174451553,0.015218508,1.0,1.0,13,6,0,per firing (+1 with / -1 against),shooting star fired on the signal bar in the trade's direction (+1) or against it (-1)
+ema20_slope,0.1657283228032664,0.19207738,1.0,1.0,13,5,6,per average bar,"slope of the 20-bar EMA over 10 bars, in the trade's direction"
+pat_piercing,-0.17705621470284214,-0.024006315,1.0,0.0,13,-5,-1,per firing (+1 with / -1 against),piercing fired on the signal bar in the trade's direction (+1) or against it (-1)
+mfe_R,0.1497589225673345,0.4790386,1.0,1.0,13,4,14,per 1R,"best open profit so far, in R"
+tod_midday,-0.1233360512389962,-0.051187474,1.0,0.0,13,-4,-1,when true,signal bar is in US midday (10:30-15:00 ET)
+pat_tweezer,0.14982996668586704,0.04038781,1.0,1.0,13,4,1,per firing (+1 with / -1 against),tweezer fired on the signal bar in the trade's direction (+1) or against it (-1)
+mom_slope3,-0.12152882165971274,-0.0350117,1.0,0.0,13,-4,-1,per 1% move,"change of 14-bar momentum over the last 3 bars, in the trade's direction"
+pat_three_inside,0.1507007688264891,0.009994222,1.0,1.0,13,4,0,per firing (+1 with / -1 against),three inside fired on the signal bar in the trade's direction (+1) or against it (-1)
+pat_morning_evening_star,0.12468522219735437,0.007642667,1.0,1.0,13,4,0,per firing (+1 with / -1 against),morning evening star fired on the signal bar in the trade's direction (+1) or against it (-1)
+bars_held,-0.11187248855905385,-0.94094557,1.0,0.0,13,-3,-27,per bar held,15-minute bars held so far
+day_range_rel,-0.08955540679897135,-0.04039705,1.0,0.0,13,-3,-1,per 1x the average,today's range so far compared with an average day's full range
+fam_breakout,0.0882412085891156,0.036472153,1.0,1.0,13,3,1,per firing (+1 with / -1 against),any breakout-type pattern fired with the trade (+1) or against it (-1)
+pat_nr7,-0.0975338257097043,-0.03321382,1.0,0.0,13,-3,-1,when present,the signal bar is a nr7 (no direction)
+pat_dark_cloud,0.1069322494732518,0.013487202,1.0,1.0,13,3,0,per firing (+1 with / -1 against),dark cloud fired on the signal bar in the trade's direction (+1) or against it (-1)
+mins_to_1645,0.0011494491694714194,0.40388614,1.0,1.0,13,2,12,per hour left,time left until the 16:45 flat time
+dist_ema50,0.05292118331343681,0.12462801,1.0,1.0,13,2,4,per average bar,price beyond the 50-bar EMA in the trade's direction
+above_ema20_share,0.061385441653803295,0.03858423,1.0,1.0,13,2,1,per 1 on a -1..+1 scale,share of the last 20 closes on the trade's side of the 20-bar EMA
+fam_closeloc,0.05749097697716511,0.03833029,0.9230769230769231,0.9230769230769231,13,2,1,per firing (+1 with / -1 against),any closeloc-type pattern fired with the trade (+1) or against it (-1)
+clv,-0.05547568133914597,-0.034209616,1.0,0.0,13,-2,-1,per 1 on a -1..+1 scale,where the signal bar closed in its range (+1 = at the trade's end of the bar)
+pat_bar_80_20,-0.06676609152953993,-0.027351543,1.0,0.0,13,-2,-1,per firing (+1 with / -1 against),bar 80 20 fired on the signal bar in the trade's direction (+1) or against it (-1)
+pat_inside_bar,0.07613232869412313,0.023754856,1.0,1.0,13,2,1,when present,the signal bar is a inside bar (no direction)
+pat_pin_bar,-0.08406554167761447,-0.01705947,1.0,0.0,13,-2,0,per firing (+1 with / -1 against),pin bar fired on the signal bar in the trade's direction (+1) or against it (-1)
+pat_marubozu,0.07107576617822126,0.015247529,0.7692307692307693,0.7692307692307693,13,2,0,per firing (+1 with / -1 against),marubozu fired on the signal bar in the trade's direction (+1) or against it (-1)
+pat_inside_bar_breakout,-0.06195023088149063,-0.01472335,1.0,0.0,13,-2,0,per firing (+1 with / -1 against),inside bar breakout fired on the signal bar in the trade's direction (+1) or against it (-1)
+pat_harami,0.08346696531887349,0.014048403,1.0,1.0,13,2,0,per firing (+1 with / -1 against),harami fired on the signal bar in the trade's direction (+1) or against it (-1)
+pat_dragonfly_doji,-0.07133312722516011,-0.00810819,0.9230769230769231,0.07692307692307693,13,-2,0,per firing (+1 with / -1 against),dragonfly doji fired on the signal bar in the trade's direction (+1) or against it (-1)
+pat_hanging_man,0.08299870812852496,0.0063985432,1.0,1.0,13,2,0,per firing (+1 with / -1 against),hanging man fired on the signal bar in the trade's direction (+1) or against it (-1)
+vol_rel,0.032068400520476,0.0694924,1.0,1.0,13,1,2,per 1x the average,signal bar's volume compared with the 20-bar average
+h1_mom,0.04873307704012841,0.038703647,1.0,1.0,13,1,1,per 1% move,60-minute 14-bar momentum in the trade's direction
+fibpos_10,0.025460083180538634,0.037849817,1.0,1.0,13,1,1,per whole swing leg,"where price sits inside the last 10-bar swing leg (0 = leg start, 1 = leg end), positive when the leg runs in the trade's direction"
+ema_stack,-0.03819540059922409,-0.030448422,1.0,0.0,13,-1,-1,per +1 (with the trade),EMA 8/20/50 stacked in the trade's direction (+1) or against (-1)
+struct_10,-0.03845345704486496,-0.028370861,1.0,0.0,13,-1,-1,per +1 (with the trade),"10-bar swings: higher highs AND higher lows in the trade's direction (+1), opposite (-1)"
+struct_5,0.03500577630548009,0.025652222,1.0,1.0,13,1,1,per +1 (with the trade),"5-bar swings: higher highs AND higher lows in the trade's direction (+1), opposite (-1)"
+x_NQ_ema_stack,-0.034684488785465234,-0.024561474,1.0,0.0,13,-1,-1,per +1 (with the trade),NQ's EMA 8/20/50 stack in the trade's direction
+x_NQ_ret,-0.03434288411573228,-0.019514907,1.0,0.0,13,-1,-1,per average bar,"NQ's same 15-minute bar (close minus open) in the trade's direction, in NQ's average bars"
+dow_0,-0.046511683210566354,-0.018739074,1.0,0.0,13,-1,-1,when true,session is a Monday
+gap_open,0.019668903228983688,0.018307742,0.9230769230769231,0.9230769230769231,13,1,1,per average bar,"today's opening gap, in the trade's direction"
+x_ES_ema_stack,-0.026619282680656813,-0.017285723,0.9230769230769231,0.07692307692307693,13,-1,0,per +1 (with the trade),ES's EMA 8/20/50 stack in the trade's direction
+pat_tall_trend_bar,0.05128125297491348,0.01679051,0.7692307692307693,0.7692307692307693,13,1,0,per firing (+1 with / -1 against),tall trend bar fired on the signal bar in the trade's direction (+1) or against it (-1)
+fam_reversal,-0.034068646180504716,-0.016489567,1.0,0.0,13,-1,0,per firing (+1 with / -1 against),any reversal-type pattern fired with the trade (+1) or against it (-1)
+mkt_NQ,0.03171865784185553,0.015857652,1.0,1.0,13,1,0,when true,the trade is in MNQ
+h1_struct_5,-0.0208859912625889,-0.015795588,1.0,0.0,13,-1,0,per +1 (with the trade),60-minute swing structure in the trade's direction
+rng_rel,-0.02196020904718911,-0.014715447,0.9230769230769231,0.07692307692307693,13,-1,0,per 1 average bar of range,signal bar's range compared with the average bar
+fam_continuation,-0.03313282386843486,-0.012690421,0.6923076923076923,0.3076923076923077,13,-1,0,per firing (+1 with / -1 against),any continuation-type pattern fired with the trade (+1) or against it (-1)
+mom_x100,-0.03740338275709514,-0.012402329,1.0,0.0,13,-1,0,per +1 (with the trade),14-bar momentum just turned in the trade's direction (crossed zero)
+dow_4,-0.029109942541722705,-0.011555672,1.0,0.0,13,-1,0,when true,session is a Friday
+mom,0.02620318575199226,0.01091881,1.0,1.0,13,1,0,per 1% move,14-bar momentum (% move over 14 bars) in the trade's direction
+dow_1,0.02707885564993049,0.010853967,1.0,1.0,13,1,0,when true,session is a Tuesday
+mkt_ES,-0.02151468730172693,-0.01074794,0.9230769230769231,0.07692307692307693,13,-1,0,when true,the trade is in MES
+body_frac,-0.03507429013625908,-0.009658673,1.0,0.0,13,-1,0,from 0 (no body) to 1 (all body),signal bar's body as a share of its range
+pat_clv5_extreme,0.021272840183472495,0.00912872,1.0,1.0,13,1,0,per firing (+1 with / -1 against),clv5 extreme fired on the signal bar in the trade's direction (+1) or against it (-1)
+pat_doji,-0.024710931366954632,-0.008899905,1.0,0.0,13,-1,0,when present,the signal bar is a doji (no direction)
+dow_3,0.02201653665415442,0.008734397,1.0,1.0,13,1,0,when true,session is a Thursday
+pat_outside_bar,-0.035532364436677906,-0.008690333,1.0,0.0,13,-1,0,per firing (+1 with / -1 against),outside bar fired on the signal bar in the trade's direction (+1) or against it (-1)
+brk_5,-0.04899607210525574,-0.008414774,1.0,0.0,13,-1,0,per +1 (with the trade),"this bar is the first close through the last 5-bar swing, in the trade's direction"
+dow_2,0.017944875421460456,0.007197783,0.7692307692307693,0.7692307692307693,13,1,0,when true,session is a Wednesday
+atfib_10,-0.020323872084651206,-0.006038334,1.0,0.0,13,-1,0,when true,price is at a 38.2/50/61.8% retracement of the last 10-bar swing leg
+pat_gravestone_doji,0.05107788335851143,0.0060307323,1.0,1.0,13,1,0,per firing (+1 with / -1 against),gravestone doji fired on the signal bar in the trade's direction (+1) or against it (-1)
+pat_hammer,-0.03575885603038101,-0.0029348964,0.8461538461538461,0.15384615384615385,13,-1,0,per firing (+1 with / -1 against),hammer fired on the signal bar in the trade's direction (+1) or against it (-1)
+dist_swhi_10,-0.010273155441727383,-0.06441586,1.0,0.0,13,0,-2,per average bar,"how far price is beyond the last 10-bar swing on the PROFIT side (long: swing high, short: swing low); negative = that swing is still ahead"
+day_ret,-0.012139343937202028,-0.0478308,1.0,0.0,13,0,-1,per average bar,"move since today's session open, in the trade's direction"
+dist_swhi_5,0.00476020068482162,0.017801272,0.9230769230769231,0.9230769230769231,13,0,1,per average bar,"how far price is beyond the last 5-bar swing on the PROFIT side (long: swing high, short: swing low); negative = that swing is still ahead"
+fibpos_5,0.006564818126445629,0.010047,0.7692307692307693,0.7692307692307693,13,0,0,per whole swing leg,"where price sits inside the last 5-bar swing leg (0 = leg start, 1 = leg end), positive when the leg runs in the trade's direction"
+dist_vwap,-0.00633398165038646,-0.009551759,0.6153846153846154,0.38461538461538464,13,0,0,per average bar,price beyond the session VWAP in the trade's direction
+dist_swlo_5,-0.002556155548290492,-0.009132105,1.0,0.0,13,0,0,per average bar,"how far price is from the last 5-bar swing on the STOP side (long: swing low, short: swing high); positive = that many average bars of room"
+x_YM_ema_stack,0.013364589070442134,0.008051902,0.5384615384615384,0.5384615384615384,13,0,0,per +1 (with the trade),YM's EMA 8/20/50 stack in the trade's direction
+x_ES_ret,-0.012364251018810233,-0.00633228,0.7692307692307693,0.23076923076923078,13,0,0,per average bar,"ES's same 15-minute bar (close minus open) in the trade's direction, in ES's average bars"
+pat_clv_extreme,-0.009236086004489821,-0.0058683627,0.6153846153846154,0.38461538461538464,13,0,0,per firing (+1 with / -1 against),clv extreme fired on the signal bar in the trade's direction (+1) or against it (-1)
+dist_swlo_10,0.0009606629251654009,0.005520323,0.7692307692307693,0.7692307692307693,13,0,0,per average bar,"how far price is from the last 10-bar swing on the STOP side (long: swing low, short: swing high); positive = that many average bars of room"
+fam_exhaustion,0.016447024777923498,0.0031778999,0.9230769230769231,0.9230769230769231,13,0,0,per firing (+1 with / -1 against),any exhaustion-type pattern fired with the trade (+1) or against it (-1)
+pat_five_lower_lows_higher_highs,0.016447024777923498,0.0031778999,0.9230769230769231,0.9230769230769231,13,0,0,per firing (+1 with / -1 against),five lower lows higher highs fired on the signal bar in the trade's direction (+1) or against it (-1)
+pat_engulfing,-0.011110399717620326,-0.0028868455,0.6923076923076923,0.3076923076923077,13,0,0,per firing (+1 with / -1 against),engulfing fired on the signal bar in the trade's direction (+1) or against it (-1)
+h1_ema_stack,-0.0028653445822916434,-0.002470544,0.6153846153846154,0.38461538461538464,13,0,0,per +1 (with the trade),60-minute EMA 8/20/50 stacked in the trade's direction
+pat_nr7_breakout,0.005974227648428548,0.0017624212,0.5384615384615384,0.5384615384615384,13,0,0,per firing (+1 with / -1 against),nr7 breakout fired on the signal bar in the trade's direction (+1) or against it (-1)
+pat_three_soldiers_crows,-0.015272904970028913,-0.0009092404,0.6923076923076923,0.3076923076923077,13,0,0,per firing (+1 with / -1 against),three soldiers crows fired on the signal bar in the trade's direction (+1) or against it (-1)
+mkt_YM,-0.002264221389147465,-0.00088771957,0.5384615384615384,0.0,13,0,0,when true,the trade is in MYM
+atfib_5,-0.001944051986649498,-0.0006873175,0.6153846153846154,0.38461538461538464,13,0,0,when true,price is at a 38.2/50/61.8% retracement of the last 5-bar swing leg
+pat_inverted_hammer,-0.00848503298221031,-0.0006304796,0.5384615384615384,0.46153846153846156,13,0,0,per firing (+1 with / -1 against),inverted hammer fired on the signal bar in the trade's direction (+1) or against it (-1)
+brk_10,-0.003928501161765878,-0.0005241206,0.6923076923076923,0.3076923076923077,13,0,0,per +1 (with the trade),"this bar is the first close through the last 10-bar swing, in the trade's direction"
+pat_spinning_top,0.0013822877287833668,0.000497286,0.5384615384615384,0.5384615384615384,13,0,0,when present,the signal bar is a spinning top (no direction)
+x_YM_ret,0.0,0.0,0.0,0.3076923076923077,13,0,0,per average bar,"YM's same 15-minute bar (close minus open) in the trade's direction, in YM's average bars"
+(intercept),2.4387292861938477,1.3173591,1.0,1.0,13,70,38,per unit,base score

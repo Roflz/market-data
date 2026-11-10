@@ -1,0 +1,43 @@
+logged S3.7-dropLD
+      policy  consistency window  n_starts  pass_pct  twin_pass_pct  within_10  twin_within_10  bust_pct  twin_bust_pct  days_pass_median  rank_p_pass
+0    1 micro          0.4  2013+      3211    26.752         34.211        0.0           0.000    53.908         55.516             270.0        0.535
+1    1 micro          0.4  2018+      1935    44.393         30.588        0.0           0.000    23.514         52.974             270.0        0.228
+2    1 micro          0.4  2022+       901     0.000         19.028        0.0           0.000    31.077         48.402               NaN        1.000
+3    1 micro          0.5  2013+      3211    26.752         38.623        0.0           0.002    53.908         53.581             227.0        0.604
+4    1 micro          0.5  2018+      1935    44.393         36.451        0.0           0.003    23.514         50.838             227.0        0.317
+5    1 micro          0.5  2022+       901     0.000         26.297        0.0           0.003    31.077         47.405               NaN        1.000
+6   3 micros          0.4  2013+      3211    46.310         37.852        0.0           0.008    42.417         55.739             213.0        0.297
+7   3 micros          0.4  2018+      1935    59.225         37.814        0.0           0.014    22.067         51.551             191.0        0.119
+8   3 micros          0.4  2022+       901    31.521         25.103        0.0           0.009    28.302         53.002             463.5        0.366
+9   3 micros          0.5  2013+      3211    51.728         42.253        0.0           0.033    41.015         53.533             166.0        0.297
+10  3 micros          0.5  2018+      1935    65.891         43.535        0.0           0.056    22.067         49.472             152.0        0.099
+11  3 micros          0.5  2022+       901    45.838         33.457        0.0           0.030    28.302         51.828             329.0        0.277
+12  5 micros          0.4  2013+      3211    51.697         42.396        0.0           0.011    41.046         51.781             203.0        0.267
+13  5 micros          0.4  2018+      1935    62.532         43.607        0.0           0.018    25.426         46.729             195.0        0.069
+14  5 micros          0.4  2022+       901    40.954         31.752        0.0           0.013    33.185         48.061             334.0        0.307
+15  5 micros          0.5  2013+      3211    53.753         47.209        0.0           0.069    41.046         49.064             145.0        0.337
+16  5 micros          0.5  2018+      1935    65.943         48.500        0.0           0.112    25.426         45.315             134.0        0.069
+17  5 micros          0.5  2022+       901    48.280         39.545        0.0           0.072    33.185         47.336             237.0        0.307
+	Command being timed: "python3 v3/exp_g3_expiry/fix_labor_day/eval_log_S3.7.py"
+	User time (seconds): 22.07
+	System time (seconds): 0.19
+	Percent of CPU this job got: 101%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:21.95
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 406956
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 46267
+	Voluntary context switches: 431
+	Involuntary context switches: 1206
+	Swaps: 0
+	File system inputs: 24
+	File system outputs: 48
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

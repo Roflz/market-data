@@ -1,0 +1,147 @@
+NQ: frames + 1-minute loaded (6s)
+  NQ 60m: 23,075 events, 39,823 trend-pool rows (0s)
+    hold           2s  $-2.20/trade
+    ema_cross      2s  $-1.83/trade
+    fixed15        1s  $-1.81/trade
+    opp1_1b        1s  $-1.70/trade
+    opp1_2b        1s  $-1.83/trade
+    opp2_1b        1s  $-1.20/trade
+    opp2_2b        1s  $-1.29/trade
+    opp3_1b        1s  $-1.00/trade
+    opp3_2b        1s  $-0.91/trade
+    opp4_1b        1s  $-2.17/trade
+    opp4_2b        1s  $-1.41/trade
+  NQ 60m saved: 23,075 events x 140 cols, 39,823 pool rows (15s)
+  NQ 15m: 96,919 events, 173,188 trend-pool rows (2s)
+    hold           4s  $-0.63/trade
+    ema_cross      3s  $-0.55/trade
+    fixed15        2s  $-2.00/trade
+    opp1_1b        1s  $-1.93/trade
+    opp1_2b        1s  $-1.96/trade
+    opp2_1b        1s  $-1.59/trade
+    opp2_2b        1s  $-1.68/trade
+    opp3_1b        3s  $-0.80/trade
+    opp3_2b        2s  $-1.02/trade
+    opp4_1b        3s  $-0.38/trade
+    opp4_2b        3s  $-0.53/trade
+  NQ 15m saved: 96,919 events x 140 cols, 173,188 pool rows (29s)
+  NQ 5m: 285,371 events, 533,147 trend-pool rows (4s)
+    hold           9s  $-1.27/trade
+    ema_cross      5s  $-1.44/trade
+    fixed15        3s  $-2.31/trade
+    opp1_1b        1s  $-1.97/trade
+    opp1_2b        1s  $-1.98/trade
+    opp2_1b        2s  $-1.80/trade
+    opp2_2b        1s  $-1.82/trade
+    opp3_1b        3s  $-1.66/trade
+    opp3_2b        3s  $-1.77/trade
+    opp4_1b        5s  $-1.56/trade
+    opp4_2b        5s  $-1.56/trade
+  NQ 5m saved: 285,371 events x 140 cols, 533,147 pool rows (45s)
+NQ done (95s)
+ES: frames + 1-minute loaded (6s)
+  ES 60m: 22,937 events, 40,096 trend-pool rows (0s)
+    hold           2s  $-3.90/trade
+    ema_cross      2s  $-3.48/trade
+    fixed15        1s  $-3.58/trade
+    opp1_1b        1s  $-3.59/trade
+    opp1_2b        1s  $-3.55/trade
+    opp2_1b        1s  $-3.39/trade
+    opp2_2b        1s  $-3.30/trade
+    opp3_1b        1s  $-3.06/trade
+    opp3_2b        1s  $-2.77/trade
+    opp4_1b        1s  $-3.77/trade
+    opp4_2b        1s  $-3.93/trade
+  ES 60m saved: 22,937 events x 140 cols, 40,096 pool rows (15s)
+  ES 15m: 93,585 events, 175,490 trend-pool rows (1s)
+    hold           4s  $-3.61/trade
+    ema_cross      3s  $-3.15/trade
+    fixed15        2s  $-4.54/trade
+    opp1_1b        1s  $-3.66/trade
+    opp1_2b        1s  $-3.64/trade
+    opp2_1b        1s  $-3.62/trade
+    opp2_2b        1s  $-3.57/trade
+    opp3_1b        3s  $-3.30/trade
+    opp3_2b        2s  $-3.23/trade
+    opp4_1b        3s  $-3.23/trade
+    opp4_2b        3s  $-3.04/trade
+  ES 15m saved: 93,585 events x 140 cols, 175,490 pool rows (29s)
+  ES 5m: 269,527 events, 548,265 trend-pool rows (3s)
+    hold           9s  $-4.27/trade
+    ema_cross      5s  $-4.39/trade
+    fixed15        3s  $-4.56/trade
+    opp1_1b        1s  $-3.60/trade
+    opp1_2b        1s  $-3.59/trade
+    opp2_1b        2s  $-3.65/trade
+    opp2_2b        1s  $-3.59/trade
+    opp3_1b        3s  $-3.95/trade
+    opp3_2b        3s  $-3.92/trade
+    opp4_1b        5s  $-4.35/trade
+    opp4_2b        5s  $-4.34/trade
+  ES 5m saved: 269,527 events x 140 cols, 548,265 pool rows (45s)
+ES done (96s)
+YM: frames + 1-minute loaded (3s)
+  YM 60m: 11,455 events, 19,781 trend-pool rows (0s)
+    hold           1s  $-2.51/trade
+    ema_cross      1s  $-2.17/trade
+    fixed15        1s  $-2.15/trade
+    opp1_1b        0s  $-2.37/trade
+    opp1_2b        0s  $-2.26/trade
+    opp2_1b        0s  $-1.95/trade
+    opp2_2b        0s  $-1.93/trade
+    opp3_1b        1s  $-0.68/trade
+    opp3_2b        1s  $-1.05/trade
+    opp4_1b        1s  $-1.45/trade
+    opp4_2b        1s  $-1.35/trade
+  YM 60m saved: 11,455 events x 140 cols, 19,781 pool rows (7s)
+  YM 15m: 48,919 events, 86,140 trend-pool rows (1s)
+    hold           2s  $-0.95/trade
+    ema_cross      2s  $-1.08/trade
+    fixed15        1s  $-2.53/trade
+    opp1_1b        0s  $-2.06/trade
+    opp1_2b        0s  $-2.05/trade
+    opp2_1b        1s  $-1.79/trade
+    opp2_2b        1s  $-1.84/trade
+    opp3_1b        1s  $-1.89/trade
+    opp3_2b        1s  $-2.04/trade
+    opp4_1b        2s  $-1.36/trade
+    opp4_2b        1s  $-1.39/trade
+  YM 15m saved: 48,919 events x 140 cols, 86,140 pool rows (13s)
+  YM 5m: 145,755 events, 264,962 trend-pool rows (2s)
+    hold           4s  $-1.68/trade
+    ema_cross      2s  $-2.34/trade
+    fixed15        1s  $-2.44/trade
+    opp1_1b        1s  $-2.01/trade
+    opp1_2b        0s  $-2.01/trade
+    opp2_1b        1s  $-1.95/trade
+    opp2_2b        1s  $-1.93/trade
+    opp3_1b        1s  $-2.11/trade
+    opp3_2b        1s  $-2.09/trade
+    opp4_1b        2s  $-2.37/trade
+    opp4_2b        2s  $-2.38/trade
+  YM 5m saved: 145,755 events x 140 cols, 264,962 pool rows (21s)
+YM done (44s)
+done
+	Command being timed: "python3 -u v2/dataset.py NQ ES YM --tf 60,15,5"
+	User time (seconds): 227.07
+	System time (seconds): 10.09
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:56.26
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3183744
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1925639
+	Voluntary context switches: 12907
+	Involuntary context switches: 23942
+	Swaps: 0
+	File system inputs: 89496
+	File system outputs: 819312
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

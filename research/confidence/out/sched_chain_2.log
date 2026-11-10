@@ -1,0 +1,5 @@
+sc:stat_shrink_combo: AUC 0.619  kept 28,206 (10.3%)  -0.76 $/trade  all -2.22  random -2.22  (411s)
+sc:stat_screen_nb: AUC 0.597  kept 51,359 (18.7%)  -1.86 $/trade  all -2.22  random -2.33  (55s)
+sc:stat_screen_sa: AUC 0.593  kept 53,612 (19.6%)  -1.96 $/trade  all -2.22  random -2.35  (54s)
+sc:stat_screen_rvm: AUC 0.601  kept 72,262 (26.4%)  -2.02 $/trade  all -2.22  random -2.30  (202s)
+Terminated                 python3 compare_approaches.py NQ sc:$s

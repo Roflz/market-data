@@ -1,0 +1,27 @@
+[lab] panel ES 15m: 347273 bars, 3877 sessions, built in 1.5s
+[lab] panel ES 15m done: 2 metrics in 4.1s
+[lab] panel ES 60m: 88467 bars, 3877 sessions, built in 0.3s
+[lab] panel ES 60m done: 2 metrics in 0.9s
+[lab] panel NQ 15m: 347117 bars, 3877 sessions, built in 1.3s
+[lab] panel NQ 15m done: 2 metrics in 3.5s
+[lab] panel NQ 60m: 88465 bars, 3877 sessions, built in 0.3s
+[lab] panel NQ 60m done: 2 metrics in 0.9s
+[lab] panel YM 15m: 173952 bars, 1936 sessions, built in 0.6s
+[lab] panel YM 15m done: 2 metrics in 1.5s
+[lab] panel YM 60m: 44179 bars, 1936 sessions, built in 0.1s
+[lab] panel YM 60m done: 2 metrics in 0.4s
+                  metric market  tf lookahead best_dir  dir_effect  q_dir dir_verdict     dir_class best_size   size_pct        q_size size_verdict
+0    ema20_pullback_long     ES  15    passed   dir_h1   -0.011176    1.0        none  INCONCLUSIVE    abs_h2   8.181791  1.582280e-08    CONFIRMED
+1   ema20_pullback_short     ES  15    passed  dir_eod   -0.298674    1.0        none  INCONCLUSIVE    abs_h1   2.684948  1.000000e+00         none
+2    ema20_pullback_long     ES  60    passed   dir_h1   -0.022745    1.0        none  INCONCLUSIVE    abs_h1  10.594829  1.227887e-03    CONFIRMED
+3   ema20_pullback_short     ES  60    passed  dir_h16   -0.046184    1.0        none  INCONCLUSIVE    abs_h1   5.104563  1.000000e+00         none
+4    ema20_pullback_long     NQ  15    passed   dir_h4   -0.021165    1.0        none  INCONCLUSIVE    abs_h8   4.591091  1.000000e+00         none
+5   ema20_pullback_short     NQ  15    passed   dir_h1   -0.021177    1.0        none  INCONCLUSIVE    abs_h1   4.835186  2.204428e-02    CONFIRMED
+6    ema20_pullback_long     NQ  60    passed   dir_h1   -0.033121    1.0        none  INCONCLUSIVE    abs_h4   5.045581  1.000000e+00         none
+7   ema20_pullback_short     NQ  60    passed   dir_h8   -0.083656    1.0        none  INCONCLUSIVE    abs_h1   4.680836  1.000000e+00         none
+8    ema20_pullback_long     YM  15    passed   dir_h1   -0.009003    1.0        none  INCONCLUSIVE    abs_h1   8.081251  2.607600e-03    CONFIRMED
+9   ema20_pullback_short     YM  15    passed   dir_h2   -0.026805    1.0        none  INCONCLUSIVE    abs_h8  -2.145384  1.000000e+00         none
+10   ema20_pullback_long     YM  60    passed   dir_h2   -0.023116    1.0        none  INCONCLUSIVE    abs_h1   7.075391  1.000000e+00         none
+11  ema20_pullback_short     YM  60    passed   dir_h4   -0.084542    1.0        none  INCONCLUSIVE    abs_h1   5.746274  1.000000e+00         none
+
+[try_idea] impact cards: /run/media/roflz/Disk 2/_/market_data/research/confidence/v3/signal_lab/out/ideas/example_idea/cards

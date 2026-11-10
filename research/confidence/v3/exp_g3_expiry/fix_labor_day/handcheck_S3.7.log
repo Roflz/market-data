@@ -1,0 +1,37 @@
+ES 2019-09-02 Mon 09:30 1-min volume: 432
+ES 2019-09-03 Tue 09:30 1-min volume: 15164
+NQ 2024-09-02 Mon 09:30 1-min volume: 227
+NQ 2024-09-03 Tue 09:30 1-min volume: 4495
+YM 2018-09-03 Mon 09:30 1-min volume: 168
+YM 2018-09-04 Tue 09:30 1-min volume: 1395
+  market     session entry  exit  d  h_entry_px  hand_entry_px  h_exit_px  hand_exit_px h_kind hand_kind   h_pnl  hand_pnl  match
+0     ES  2019-09-03  1800  0930  1     2899.00        2899.00    2904.00       2904.00   time      time   21.50     21.50   True
+1     ES  2021-06-01  1800  0930  1     4192.00        4192.00    4228.75       4228.75   time      time  180.25    180.25   True
+2     NQ  2024-09-03  1800  0930  1    19646.50       19646.50   19478.00      19478.00   time      time -339.00   -339.00   True
+3     NQ  2015-04-01  1800  0930  1     4321.75        4321.75    4327.50       4327.50   time      time    9.50      9.50   True
+4     YM  2018-09-04  1800  0930  1    26026.00       26026.00   25916.00      25916.00   time      time  -57.00    -57.00   True
+5     YM  2021-09-01  1800  0930  1    35382.00       35382.00   35372.00      35372.00   time      time   -7.00     -7.00   True
+hand-check: 6 / 6 trades match
+	Command being timed: "python3 v3/exp_g3_expiry/fix_labor_day/handcheck_S3.7.py"
+	User time (seconds): 1.69
+	System time (seconds): 0.43
+	Percent of CPU this job got: 155%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.36
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1604988
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 36254
+	Voluntary context switches: 154
+	Involuntary context switches: 40
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

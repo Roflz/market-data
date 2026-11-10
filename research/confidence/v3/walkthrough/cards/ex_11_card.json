@@ -1,0 +1,679 @@
+{
+ "title": "DECISION CARD  ex11_m1_mes_win  MES LONG  signal bar 2016-11-15 10:45-11:00",
+ "decision": "M1 score 0.3139 >= 2016 threshold 0.2910  ->  KEPT: enter at the 11:00 open 2,167.75, stop 2,162.75",
+ "drivers": [
+  "Rules that fired on the signal bar: ema20_pb (any rule firing makes the bar a candidate)",
+  "M1 adds fixed points per yes/no signal (+20 points = double the weighted odds of a winner). This trade's points (2016 coefficients), biggest first;\n    total +5.2 points:",
+  "-11.2 points  round-trip cost / stop distance",
+  " +6.4 points  close on the trade's side of VWAP",
+  " +2.9 points  60-min trend with the trade",
+  " +1.7 points  a 5-min pullback trigger the same way in the last 6 five-min bars",
+  " +1.4 points  market offset (MES)",
+  " +1.2 points  15-min Momentum(14) rising over 3 bars",
+  " +1.1 points  60-min swings with the trade",
+  "Plain count over all 69 Model B inputs: 31 agree, 5 against"
+ ],
+ "outcome": "OUTCOME: exit 2,178.50 at 16:44 (time (16:45 flat)) -> +50.25 $ per micro after $3.50 costs (+2.01 R)  =  RIGHT",
+ "why": "The long worked: price moved our way after entry and the stop was never hit, so holding to 16:45 kept the gain.",
+ "win": true,
+ "notes": [
+  "Score: v2/out/models_scores_15.parquet (15|hold|M1|cls|exp, model not refit); threshold: v2/out/models_folds.csv fold 2016. Inputs: v2/out/v2_events_ES_15.parquet.\n    Entry/exit/P&L recomputed by a stop-first 1-minute walk (labels.py:295-334). Values are 'with the trade' (+ = good for this side), distances in R20.",
+  "For comparison: Model B score 0.363 vs 0.378 (skipped); M1 score 0.314 vs 0.291 (kept).",
+  "Recomputed from v3 bars vs value the model read: R20 (15-min, pts) +2.08 vs +2.08; VWAP side (+1 = trade side) +1.00 vs +1.00; room to high/low of day (R20) +1.08 vs\n    +1.08; 60-min trend (with trade) +1.00 vs +1.00",
+  "implied M1 intercept -0.9615; same fold, 200 random rows: -0.9615 .. -0.9615",
+  "No discrepancies between recomputed and stored values."
+ ],
+ "inputs": [
+  {
+   "plain": "5-min trend (EMA8>20>50 and EMA50 rising)",
+   "value": 1.0,
+   "read": "agrees",
+   "where": "m5_trend (can only raise score)"
+  },
+  {
+   "plain": "5-min EMA8 minus EMA20 (R20)",
+   "value": 0.2794,
+   "read": "agrees",
+   "where": "m5_s820 (free shape)"
+  },
+  {
+   "plain": "5-min EMA20 minus EMA50 (R20)",
+   "value": 0.3912,
+   "read": "agrees",
+   "where": "m5_s2050 (free shape)"
+  },
+  {
+   "plain": "5-min close minus EMA20 (R20)",
+   "value": 0.6595,
+   "read": "agrees",
+   "where": "m5_c20 (free shape)"
+  },
+  {
+   "plain": "5-min close minus EMA50 (R20)",
+   "value": 1.0507,
+   "read": "agrees",
+   "where": "m5_c50 (free shape)"
+  },
+  {
+   "plain": "5-min Momentum - 100 (14-bar % change)",
+   "value": 0.1849,
+   "read": "agrees",
+   "where": "m5_mom (free shape)"
+  },
+  {
+   "plain": "5-min Momentum change over 3 bars",
+   "value": 0.1271,
+   "read": "agrees",
+   "where": "m5_mslope3 (can only raise score)"
+  },
+  {
+   "plain": "5-min swing structure (HH+HL = +1)",
+   "value": 0.0,
+   "read": "neutral",
+   "where": "m5_struct (can only raise score)"
+  },
+  {
+   "plain": "5-min room to next swing ahead (R20)",
+   "value": -0.0,
+   "read": "against",
+   "where": "m5_sw_room (free shape)"
+  },
+  {
+   "plain": "5-min distance to last swing behind (R20)",
+   "value": 2.4324,
+   "read": "info",
+   "where": "m5_sw_cushion (free shape)"
+  },
+  {
+   "plain": "15-min trend (EMA8>20>50 and EMA50 rising)",
+   "value": 1.0,
+   "read": "agrees",
+   "where": "m15_trend (can only raise score)"
+  },
+  {
+   "plain": "15-min EMA8 minus EMA20 (R20)",
+   "value": 0.3632,
+   "read": "agrees",
+   "where": "m15_s820 (free shape)"
+  },
+  {
+   "plain": "15-min EMA20 minus EMA50 (R20)",
+   "value": 0.3042,
+   "read": "agrees",
+   "where": "m15_s2050 (free shape)"
+  },
+  {
+   "plain": "15-min close minus EMA20 (R20)",
+   "value": 0.959,
+   "read": "agrees",
+   "where": "m15_c20 (free shape)"
+  },
+  {
+   "plain": "15-min close minus EMA50 (R20)",
+   "value": 1.2632,
+   "read": "agrees",
+   "where": "m15_c50 (free shape)"
+  },
+  {
+   "plain": "15-min Momentum - 100 (14-bar % change)",
+   "value": 0.208,
+   "read": "agrees",
+   "where": "m15_mom (free shape)"
+  },
+  {
+   "plain": "15-min Momentum change over 3 bars",
+   "value": 0.0348,
+   "read": "neutral",
+   "where": "m15_mslope3 (can only raise score)"
+  },
+  {
+   "plain": "15-min swing structure (HH+HL = +1)",
+   "value": 0.0,
+   "read": "neutral",
+   "where": "m15_struct (can only raise score)"
+  },
+  {
+   "plain": "15-min room to next swing ahead (R20)",
+   "value": -0.0,
+   "read": "against",
+   "where": "m15_sw_room (free shape)"
+  },
+  {
+   "plain": "15-min distance to last swing behind (R20)",
+   "value": 2.1687,
+   "read": "info",
+   "where": "m15_sw_cushion (free shape)"
+  },
+  {
+   "plain": "60-min trend (EMA8>20>50 and EMA50 rising)",
+   "value": 1.0,
+   "read": "agrees",
+   "where": "m60_trend (can only raise score)"
+  },
+  {
+   "plain": "60-min EMA8 minus EMA20 (R20)",
+   "value": 0.1939,
+   "read": "agrees",
+   "where": "m60_s820 (free shape)"
+  },
+  {
+   "plain": "60-min EMA20 minus EMA50 (R20)",
+   "value": 0.5075,
+   "read": "agrees",
+   "where": "m60_s2050 (free shape)"
+  },
+  {
+   "plain": "60-min close minus EMA20 (R20)",
+   "value": 0.8027,
+   "read": "agrees",
+   "where": "m60_c20 (free shape)"
+  },
+  {
+   "plain": "60-min close minus EMA50 (R20)",
+   "value": 1.3102,
+   "read": "agrees",
+   "where": "m60_c50 (free shape)"
+  },
+  {
+   "plain": "60-min Momentum - 100 (14-bar % change)",
+   "value": 0.2196,
+   "read": "agrees",
+   "where": "m60_mom (free shape)"
+  },
+  {
+   "plain": "60-min Momentum change over 3 bars",
+   "value": 0.1386,
+   "read": "agrees",
+   "where": "m60_mslope3 (can only raise score)"
+  },
+  {
+   "plain": "60-min swing structure (HH+HL = +1)",
+   "value": 1.0,
+   "read": "agrees",
+   "where": "m60_struct (can only raise score)"
+  },
+  {
+   "plain": "60-min room to next swing ahead (R20)",
+   "value": 0.6,
+   "read": "agrees",
+   "where": "m60_sw_room (free shape)"
+  },
+  {
+   "plain": "60-min distance to last swing behind (R20)",
+   "value": 1.6,
+   "read": "info",
+   "where": "m60_sw_cushion (free shape)"
+  },
+  {
+   "plain": "room to high/low of day (R20)",
+   "value": 1.0843,
+   "read": "agrees",
+   "where": "day_room (free shape)"
+  },
+  {
+   "plain": "distance to other end of day range",
+   "value": 4.3373,
+   "read": "info",
+   "where": "day_cushion (free shape)"
+  },
+  {
+   "plain": "place in day range (1 = at trade-side extreme)",
+   "value": 0.8,
+   "read": "info",
+   "where": "day_pos (free shape)"
+  },
+  {
+   "plain": "day range so far (R20)",
+   "value": 5.4217,
+   "read": "info",
+   "where": "day_range_R (free shape)"
+  },
+  {
+   "plain": "side of session VWAP (+1 = trade side)",
+   "value": 1.0,
+   "read": "agrees",
+   "where": "vwap_side (can only raise score)"
+  },
+  {
+   "plain": "distance from VWAP (R20)",
+   "value": 0.8276,
+   "read": "agrees",
+   "where": "vwap_dist (free shape)"
+  },
+  {
+   "plain": "18:00 reopen gap, with trade (R20)",
+   "value": 0.0,
+   "read": "neutral",
+   "where": "gap (free shape)"
+  },
+  {
+   "plain": "yesterday's range (R20)",
+   "value": 10.7229,
+   "read": "info",
+   "where": "prior_range (free shape)"
+  },
+  {
+   "plain": "candle patterns WITH trade, last 3 bars",
+   "value": 0.0,
+   "read": "neutral",
+   "where": "pat_with3 (can only raise score)"
+  },
+  {
+   "plain": "candle patterns AGAINST trade, last 3 bars",
+   "value": 1.0,
+   "read": "against",
+   "where": "pat_against3 (can only lower score)"
+  },
+  {
+   "plain": "reversal candle at the pullback low",
+   "value": 0.0,
+   "read": "neutral",
+   "where": "rev_at_low (can only raise score)"
+  },
+  {
+   "plain": "pullback depth (SH-PL)/(SH-SL)",
+   "value": null,
+   "read": "neutral",
+   "where": "pb_depth (free shape)"
+  },
+  {
+   "plain": "pullback length (bars)",
+   "value": null,
+   "read": "neutral",
+   "where": "pb_bars (free shape)"
+  },
+  {
+   "plain": "hidden Momentum divergence",
+   "value": null,
+   "read": "neutral",
+   "where": "pb_div (can only raise score)"
+  },
+  {
+   "plain": "Momentum crossed 100 in pullback",
+   "value": null,
+   "read": "neutral",
+   "where": "pb_momflip (free shape)"
+  },
+  {
+   "plain": "minutes since 18:00 at entry",
+   "value": 1020.0,
+   "read": "info",
+   "where": "min_since_18 (free shape)"
+  },
+  {
+   "plain": "time block 18-22h",
+   "value": 0.0,
+   "read": "info",
+   "where": "tod_18_22 (free shape)"
+  },
+  {
+   "plain": "time block 23-02h",
+   "value": 0.0,
+   "read": "info",
+   "where": "tod_23_02 (free shape)"
+  },
+  {
+   "plain": "time block 03-08h",
+   "value": 0.0,
+   "read": "info",
+   "where": "tod_03_08 (free shape)"
+  },
+  {
+   "plain": "time block 09-11h",
+   "value": 1.0,
+   "read": "info",
+   "where": "tod_09_11 (free shape)"
+  },
+  {
+   "plain": "time block 12-16h",
+   "value": 0.0,
+   "read": "info",
+   "where": "tod_12_16 (free shape)"
+  },
+  {
+   "plain": "weekday (0 = Monday)",
+   "value": 1.0,
+   "read": "info",
+   "where": "dow (free shape)"
+  },
+  {
+   "plain": "stop distance from close (R20)",
+   "value": 2.2892,
+   "read": "info",
+   "where": "risk_R20 (free shape)"
+  },
+  {
+   "plain": "round-trip cost / stop distance",
+   "value": 0.1474,
+   "read": "against",
+   "where": "cost_R (can only lower score)"
+  },
+  {
+   "plain": "round-trip cost / R20",
+   "value": 0.3373,
+   "read": "against",
+   "where": "cost_bar (can only lower score)"
+  },
+  {
+   "plain": "how many of 5/15/60 trends agree",
+   "value": 3.0,
+   "read": "agrees",
+   "where": "n_tf_agree (can only raise score)"
+  },
+  {
+   "plain": "60-min trend agrees (0/1)",
+   "value": 1.0,
+   "read": "agrees",
+   "where": "mtf_trend60 (can only raise score)"
+  },
+  {
+   "plain": "5-min trigger same way, last 6 bars",
+   "value": 1.0,
+   "read": "agrees",
+   "where": "mtf_trig5 (can only raise score)"
+  },
+  {
+   "plain": "5-min Momentum up & EMA8>20",
+   "value": 1.0,
+   "read": "agrees",
+   "where": "mtf_mom5 (can only raise score)"
+  },
+  {
+   "plain": "sum of the 3 above",
+   "value": 3.0,
+   "read": "agrees",
+   "where": "mtf_score (can only raise score)"
+  },
+  {
+   "plain": "rule: swing pullback detector",
+   "value": 0.0,
+   "read": "neutral",
+   "where": "pb (free shape)"
+  },
+  {
+   "plain": "rule: EMA8 pullback",
+   "value": 0.0,
+   "read": "neutral",
+   "where": "ema8_pb (free shape)"
+  },
+  {
+   "plain": "rule: EMA20 pullback",
+   "value": 1.0,
+   "read": "fired",
+   "where": "ema20_pb (free shape)"
+  },
+  {
+   "plain": "rule: EMA50 pullback",
+   "value": 0.0,
+   "read": "neutral",
+   "where": "ema50_pb (free shape)"
+  },
+  {
+   "plain": "rule: Momentum turn",
+   "value": 0.0,
+   "read": "neutral",
+   "where": "mom_turn (free shape)"
+  },
+  {
+   "plain": "rule: pullback-bar break",
+   "value": 0.0,
+   "read": "neutral",
+   "where": "pb_break (free shape)"
+  },
+  {
+   "plain": "number of rules that fired",
+   "value": 1.0,
+   "read": "agrees",
+   "where": "n_rules (can only raise score)"
+  },
+  {
+   "plain": "market is MES (0/1)",
+   "value": 1.0,
+   "read": "info",
+   "where": "mkt_ES (free shape)"
+  },
+  {
+   "plain": "market is MYM (0/1)",
+   "value": 0.0,
+   "read": "info",
+   "where": "mkt_YM (free shape)"
+  }
+ ],
+ "example": "ex11_m1_mes_win",
+ "system": "M1 points scorecard",
+ "score": 0.3139,
+ "threshold": 0.291,
+ "kept": true,
+ "entry_time": "2016-11-15 11:00:00",
+ "entry_px": 2167.75,
+ "stop": 2162.75,
+ "exit_minute": "2016-11-15 16:44:00",
+ "exit_px": 2178.5,
+ "exit_kind": "time (16:45 flat)",
+ "pnl_usd_per_micro": 50.25,
+ "R": 2.01,
+ "risk_usd": 25.0,
+ "m1_points": [
+  {
+   "signal": "cost_R",
+   "plain": "round-trip cost / stop distance",
+   "value": 0.1474,
+   "coef": -2.6304,
+   "points": -11.1848
+  },
+  {
+   "signal": "sig_vwap",
+   "plain": "close on the trade's side of VWAP",
+   "value": 1.0,
+   "coef": 0.2234,
+   "points": 6.4473
+  },
+  {
+   "signal": "sig_trend60",
+   "plain": "60-min trend with the trade",
+   "value": 1.0,
+   "coef": 0.1016,
+   "points": 2.9308
+  },
+  {
+   "signal": "sig_trig5",
+   "plain": "a 5-min pullback trigger the same way in the last 6 five-min bars",
+   "value": 1.0,
+   "coef": 0.0594,
+   "points": 1.7136
+  },
+  {
+   "signal": "mkt_ES",
+   "plain": "market offset (MES)",
+   "value": 1.0,
+   "coef": 0.0487,
+   "points": 1.4041
+  },
+  {
+   "signal": "sig_mom15_up",
+   "plain": "15-min Momentum(14) rising over 3 bars",
+   "value": 1.0,
+   "coef": 0.0425,
+   "points": 1.2251
+  },
+  {
+   "signal": "sig_struct60",
+   "plain": "60-min swings with the trade",
+   "value": 1.0,
+   "coef": 0.0386,
+   "points": 1.115
+  },
+  {
+   "signal": "sig_trend5",
+   "plain": "5-min EMA 8/20/50 stack + EMA50 slope with the trade",
+   "value": 1.0,
+   "coef": 0.0352,
+   "points": 1.0152
+  },
+  {
+   "signal": "sig_mom5_up",
+   "plain": "5-min Momentum(14) rising over 3 bars (with the trade)",
+   "value": 1.0,
+   "coef": 0.0124,
+   "points": 0.3582
+  },
+  {
+   "signal": "sig_mom5_bar",
+   "plain": "last 5-min bar: Momentum up and EMA8 > EMA20",
+   "value": 1.0,
+   "coef": 0.0053,
+   "points": 0.1533
+  },
+  {
+   "signal": "sig_trend15",
+   "plain": "15-min trend with the trade",
+   "value": 1.0,
+   "coef": 0.0,
+   "points": 0.0
+  },
+  {
+   "signal": "sig_struct15",
+   "plain": "15-min swings: higher highs AND higher lows (mirror for shorts)",
+   "value": 0.0,
+   "coef": 0.021,
+   "points": 0.0
+  },
+  {
+   "signal": "sig_mom60_up",
+   "plain": "60-min Momentum(14) rising over 3 bars",
+   "value": 1.0,
+   "coef": 0.0,
+   "points": 0.0
+  },
+  {
+   "signal": "sig_candles",
+   "plain": "more candle patterns with than against the trade (last 3 bars)",
+   "value": 0.0,
+   "coef": 0.0188,
+   "points": 0.0
+  },
+  {
+   "signal": "sig_rev_low",
+   "plain": "reversal candle at the pullback low (or the bar after)",
+   "value": 0.0,
+   "coef": 0.0445,
+   "points": 0.0
+  },
+  {
+   "signal": "sig_room60",
+   "plain": ">= 1 R20 room to the 60-min swing on the target side",
+   "value": 0.0,
+   "coef": 0.0,
+   "points": 0.0
+  },
+  {
+   "signal": "sig_room_day",
+   "plain": ">= 1 R20 room to the high (low) of day",
+   "value": 1.0,
+   "coef": 0.0,
+   "points": 0.0
+  },
+  {
+   "signal": "sig_multi_rule",
+   "plain": "2+ pullback rules fire on the bar",
+   "value": 0.0,
+   "coef": 0.0,
+   "points": 0.0
+  },
+  {
+   "signal": "sig_pb_div",
+   "plain": "pullback detector: momentum divergence at the pullback low",
+   "value": 0.0,
+   "coef": 0.0,
+   "points": 0.0
+  },
+  {
+   "signal": "sig_x_trend5",
+   "plain": "5-min trend against the trade",
+   "value": -0.0,
+   "coef": 0.0,
+   "points": -0.0
+  },
+  {
+   "signal": "sig_x_trend15",
+   "plain": "15-min trend against the trade",
+   "value": -0.0,
+   "coef": 0.0,
+   "points": -0.0
+  },
+  {
+   "signal": "sig_x_trend60",
+   "plain": "60-min trend against the trade",
+   "value": -0.0,
+   "coef": 0.1318,
+   "points": -0.0
+  },
+  {
+   "signal": "sig_x_struct15",
+   "plain": "15-min swings against the trade",
+   "value": -0.0,
+   "coef": 0.0488,
+   "points": -0.0
+  },
+  {
+   "signal": "sig_x_struct60",
+   "plain": "60-min swings against the trade",
+   "value": -0.0,
+   "coef": 0.0,
+   "points": -0.0
+  },
+  {
+   "signal": "sig_x_candles",
+   "plain": "more candle patterns against than with the trade",
+   "value": -1.0,
+   "coef": 0.0,
+   "points": -0.0
+  },
+  {
+   "signal": "sig_x_res60",
+   "plain": "60-min swing on the target side less than 0.5 R20 away (into resistance)",
+   "value": -0.0,
+   "coef": 0.0239,
+   "points": -0.0
+  },
+  {
+   "signal": "sig_x_hod",
+   "plain": "within 0.25 R20 of the high (low) of day",
+   "value": -0.0,
+   "coef": 0.0898,
+   "points": -0.0
+  },
+  {
+   "signal": "mkt_YM",
+   "plain": "market offset (MYM)",
+   "value": 0.0,
+   "coef": 0.0,
+   "points": 0.0
+  }
+ ],
+ "recompute_checks": [
+  {
+   "item": "R20 (15-min, pts)",
+   "recomputed": 2.075,
+   "model_value": 2.075
+  },
+  {
+   "item": "VWAP side (+1 = trade side)",
+   "recomputed": 1.0,
+   "model_value": 1.0
+  },
+  {
+   "item": "room to high/low of day (R20)",
+   "recomputed": 1.0843,
+   "model_value": 1.0843
+  },
+  {
+   "item": "60-min trend (with trade)",
+   "recomputed": 1.0,
+   "model_value": 1.0
+  }
+ ],
+ "discrepancies": [],
+ "selection_rule": "OOS trades KEPT by M1 whose largest |points| input is sig_room_day/sig_x_hod/cost_R (fold's own coefficients), win, R_hold in 25-75th pct; group size 2963",
+ "seed": "default_rng([20261109, 11])"
+}

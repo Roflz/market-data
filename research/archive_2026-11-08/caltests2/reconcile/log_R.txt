@@ -1,0 +1,80 @@
+cash days 4126: 2010-06-07 .. 2026-11-06; months 197 (201006..202610); END=2026-10-30
+loading 1-minute bars ...
+1-min fallbacks (target bar missing, used last bar within 10 min before): {'ES': {599: 0, 779: 1, 899: 0, 954: 0}, 'NQ': {899: 0}}
+
+=== 5. End-of-month reversal held one month ===
+[5-primary] MES n=180 gross=51.0757bp net=47.2459bp net$=47.772 tot$=8599.0 2tk$=44.494 excess=None t=0.8728 post n=74 post$=41.892 blocks=7/9
+    notes: Year/period by exit month (holding month). Months 196 (holding Jul 2010..Oct 2026); zero-signal months 16; rolls charged in 65 months. Buy-and-hold (1 MES long every month, same cost rule): mean $146.23/month, total $28660, t 2.79; post-2019 B&H $212.65/month. Strategy per calendar month (flat=0): $43.87; minus B&H $-102.35/month (paired t -1.38); post-2019 strategy $37.80 vs B&H $212.65. Months long 92, short 88. PASS=False
+[5a-longonly] MES n=92 gross=176.092bp net=171.95bp net$=232.226 tot$=21364.75 2tk$=228.856 excess=None t=3.2837 post n=33 post$=380.0 blocks=8/9
+    notes: Long-only (r_w4<0 months). Per calendar month incl. flat months: $109.00 vs B&H $146.23 (diff $-37.22, paired t -0.92); post-2019 per month $152.93 vs B&H $212.65. Long-only months mean $232.23 vs B&H mean over the same months $232.23. PASS=False
+[5-buyhold-reference] MES n=196 gross=108.9344bp net=105.1159bp net$=146.226 tot$=28660.25 2tk$=142.897 excess=None t=2.7867 post n=82 post$=212.649 blocks=8/9
+    notes: Reference only (not a trial): 1 MES long every month T(m)->T(m+1), 1 RT + 1 RT per roll.
+
+=== 6. Turn-of-month [-1,+3] ===
+[6-MES] MES n=197 gross=25.9299bp net=23.0677bp net$=34.057 tot$=6709.25 2tk$=31.557 excess=6.1926 t=0.4399 post n=0 post$=0.0 blocks=6/9
+    notes: Excess = net bp - same-year benchmark (mean gross bp of 4-session windows not overlapping any [T-1,T+3] holding period; 2744 windows, yearly means -44.8..49.4 bp). Gross excess mean 9.055 bp (t 0.64). Blocks field = net $; blocks of net excess positive 6/9. t_event is on net excess bp. Paper sample ended 2005 so all events are post-paper (post_paper fields = full sample). PASS=False
+[6a-MNQ] MNQ n=197 gross=37.1603bp net=35.3152bp net$=60.279 tot$=11875.0 2tk$=59.279 excess=10.983 t=0.6408 post n=0 post$=0.0 blocks=8/9
+    notes: Excess = net bp - same-year benchmark (mean gross bp of 4-session windows not overlapping any [T-1,T+3] holding period; 2744 windows, yearly means -74.9..54.7 bp). Gross excess mean 12.828 bp (t 0.75). Blocks field = net $; blocks of net excess positive 6/9. t_event is on net excess bp. Paper sample ended 2005 so all events are post-paper (post_paper fields = full sample). PASS=False
+
+=== 7. VIX-settlement Wednesday ===
+VIX settlement days: 197 (2010-06-16..2026-10-21); not Wednesday: ['2014-03-18', '2019-03-19', '2022-03-15', '2024-06-18', '2025-03-18', '2026-05-19']
+[7-ES-overnight] ES n=197 mean=-2.716bp cmp=3.323bp (n=3923) diff=-6.039 welch t=-1.224 blocks=5/9
+[7-ES-intraday] ES n=197 mean=-5.786bp cmp=2.603bp (n=3924) diff=-8.389 welch t=-1.431 blocks=3/9
+[7-NQ-overnight] NQ n=197 mean=-2.164bp cmp=4.731bp (n=3923) diff=-6.895 welch t=-1.319 blocks=4/9
+[7-NQ-intraday] NQ n=197 mean=-3.823bp cmp=2.988bp (n=3924) diff=-6.811 welch t=-0.941 blocks=3/9
+
+=== 8. Overnight into quarterly expiry ===
+[8-MES-quarterly] MES n=66 gross=4.7641bp net=1.8679bp net$=-5.981 tot$=-394.75 2tk$=-8.481 excess=1.8306 t=0.2659 post n=19 post$=-35.211 blocks=5/9
+    notes: Benchmark: all other cash_day overnights excl. all pre-expiry nights, mean 2.933 bp (n=3923, full sample). benchmark_excess_bp/t_event are GROSS excess (pass rule); net excess mean -1.066 bp. Skipped (instrument changed): []. Period by entry date; post-paper = E after 2021-12. PASS=False
+[8a-MES-offquarterly] MES n=131 gross=5.1829bp net=2.3216bp net$=3.418 tot$=447.75 2tk$=0.918 excess=2.2494 t=0.4684 post n=39 post$=-0.006 blocks=7/9
+    notes: Benchmark: all other cash_day overnights excl. all pre-expiry nights, mean 2.933 bp (n=3923, full sample). benchmark_excess_bp/t_event are GROSS excess (pass rule); net excess mean -0.612 bp. Skipped (instrument changed): []. Period by entry date; post-paper = E after 2021-12. PASS=False
+[8-MNQ-quarterly] MNQ n=66 gross=10.138bp net=8.2644bp net$=11.083 tot$=731.5 2tk$=10.083 excess=5.8811 t=0.7457 post n=19 post$=13.553 blocks=5/9
+    notes: Benchmark: all other cash_day overnights excl. all pre-expiry nights, mean 4.257 bp (n=3923, full sample). benchmark_excess_bp/t_event are GROSS excess (pass rule); net excess mean 4.007 bp. Skipped (instrument changed): []. Period by entry date; post-paper = E after 2021-12. PASS=False
+[8a-MNQ-offquarterly] MNQ n=131 gross=5.8368bp net=3.9908bp net$=2.725 tot$=357.0 2tk$=1.725 excess=1.5799 t=0.2665 post n=39 post$=-18.795 blocks=7/9
+    notes: Benchmark: all other cash_day overnights excl. all pre-expiry nights, mean 4.257 bp (n=3923, full sample). benchmark_excess_bp/t_event are GROSS excess (pass rule); net excess mean -0.266 bp. Skipped (instrument changed): []. Period by entry date; post-paper = E after 2021-12. PASS=False
+
+=== 9. Quarterly-expiry close (rebalance) ===
+[9-ES-lasthour] ES n=66 mean=-9.319bp cmp=4.300bp (n=619) diff=-13.619 welch t=-3.439 blocks=2/9
+[9-ES-lasthour-Dec] ES n=16 mean=-15.048bp cmp=4.300bp (n=619) diff=-19.348 welch t=-2.176 blocks=1/8
+[9-ES-overnight] ES n=66 mean=2.955bp cmp=2.837bp (n=635) diff=0.118 welch t=0.013 blocks=6/9
+[9-ES-overnight-Dec] ES n=16 mean=2.291bp cmp=2.837bp (n=635) diff=-0.546 welch t=-0.036 blocks=6/8
+[9-NQ-lasthour] NQ n=66 mean=-7.308bp cmp=3.896bp (n=619) diff=-11.205 welch t=-2.562 blocks=4/9
+[9-NQ-lasthour-Dec] NQ n=16 mean=-17.466bp cmp=3.896bp (n=619) diff=-21.362 welch t=-2.443 blocks=2/8
+[9-NQ-overnight] NQ n=66 mean=8.189bp cmp=2.960bp (n=635) diff=5.228 welch t=0.532 blocks=6/9
+[9-NQ-overnight-Dec] NQ n=16 mean=8.611bp cmp=2.960bp (n=635) diff=5.651 welch t=0.353 blocks=6/8
+
+=== 10. Russell reconstitution ===
+R days: ['2017-06-23', '2018-06-22', '2019-06-28', '2020-06-26', '2021-06-25', '2022-06-24', '2023-06-23', '2024-06-28', '2025-06-27', '2026-06-26']
+[10-RTY-lasthour] RTY n=9 mean=8.090bp cmp=3.856bp (n=452) diff=4.234 welch t=0.331 blocks=3/5
+[10-RTY-close-to-10am] RTY n=9 mean=23.651bp cmp=4.049bp (n=436) diff=19.602 welch t=0.694 blocks=3/5
+[10-ES-lasthour] ES n=10 mean=5.027bp cmp=3.211bp (n=477) diff=1.816 welch t=0.172 blocks=3/6
+[10-ES-close-to-10am] ES n=10 mean=18.693bp cmp=1.909bp (n=477) diff=16.784 welch t=0.842 blocks=5/6
+
+=== 11. Quarter-end window dressing ===
+[11-QE] MES n=66 gross=3.5111bp net=0.6122bp net$=-4.144 tot$=-273.5 2tk$=-6.644 excess=-17.6652 t=-0.8201 post n=0 post$=0.0 blocks=4/9
+    notes: Excess = QE net bp - same-year mean gross bp of the T-3->T window in non-quarter-end months (mean benchmark 18.28 bp). Gross excess -14.766 bp (t -0.69). Paper sample ended 1998: all events post-paper. PASS=False
+[11a-nonQE] MES n=131 gross=19.2947bp net=16.4424bp net$=18.17 tot$=2380.25 2tk$=15.67 excess=None t=0.7636 post n=0 post$=0.0 blocks=5/9
+    notes: Same T-3->T long window in the 8 non-quarter-end months (comparison). Welch t of QE vs non-QE gross bp: -0.65. All post-paper.
+
+=== 12. Threshold-rebalancing signal ===
+ZN: days without a 15:00 ET bar (used last earlier bar): 29; of which bar not on same date: 1
+signal: n=4119 mean=0.2837% sd=0.4166% |sig|>=0.5% days: 1599
+[12-forecast-ES] slope=-2746.535 bp/unit NW t=-2.574 OLS t=-6.848; post-2023Q1 slope=-947.360 t=-0.619
+[12a-forecast-NQ] slope=-3150.686 bp/unit NW t=-2.843 OLS t=-6.496; post-2023Q1 slope=-1667.462 t=-0.921
+[12-tradable] MES n=1599 gross=2.9947bp net=1.9129bp net$=3.312 tot$=5295.5 2tk$=2.386 excess=None t=0.7427 post n=343 post$=-0.187 blocks=5/9
+    notes: Day-level: events = days in position (long 219, short 1380); position -sign(signal_t) when |signal_t|>=0.5%, close t->close t+1; costs per contract traded ($1.75/side) assigned to the new position's day (exit costs to the last day held); position changes 1114; plus 1 RT whenever a held position crosses a contract roll (27 times). Without roll costs: mean $3.371/day, t 0.76. PASS=False
+
+=== 13. Stock-only month-end fade ===
+[13] MES n=196 gross=14.9851bp net=11.3569bp net$=18.149 tot$=3557.25 2tk$=14.973 excess=None t=0.7389 post n=43 post$=60.971 blocks=8/9
+    notes: Months Jul 2010..Oct 2026 (Jun 2010 lacks T_prev). Position -sign(G_ES-1) held close t->close t+1 for t=T-4..T, exit close T+1; G_ES from the 15:55 price (15:54-bar close; 12:59-bar close on early-close days: ['2010-11-26', '2011-11-25', '2012-12-24', '2013-11-29', '2013-12-24', '2014-11-28', '2014-12-24', '2015-11-27', '2015-12-24', '2016-11-25', '2017-11-24', '2018-12-24', '2019-11-29', '2019-12-24', '2020-11-27', '2020-12-24', '2021-11-26', '2022-11-25', '2023-11-24', '2024-11-29', '2024-12-24', '2025-11-28', '2025-12-24']) vs close of T_prev, back-adjusted. Flips 52; contracts traded per month avg 2.54; zero-signal days 1. bp base = raw close of T-4. Post-paper = months after 2023-03. PASS=False
+
+=== 14. Dash-for-cash entry-day scan ===
+L ambiguities: []
+[14-L-1] MES n=197 gross=22.6843bp net=19.8149bp net$=19.635 tot$=3868.0 2tk$=17.135 excess=4.8396 t=0.4031 post n=154 post$=20.25 blocks=7/9
+    notes: Entry = L-1 close, exit close of T-1; regime from L's date; months skipped (entry not before T-1): 0. Excess = net bp - same-year mean gross bp of all same-length close-to-close windows starting outside every T-8..T+3. Gross excess 7.709 bp. By regime: T+3 era (L=T-4): n=87 net excess -10.03 bp t -0.62, net $11.97 | T+2 era (L=T-3): n=80 net excess 37.65 bp t 1.69, net $62.14 | T+1 era (L=T-2): n=30 net excess -39.55 bp t -2.19, net $-71.50
+[14-L] MES n=197 gross=25.2047bp net=22.3343bp net$=28.061 tot$=5528.0 2tk$=25.561 excess=10.9632 t=1.0736 post n=154 post$=29.528 blocks=7/9
+    notes: Entry = L+0 close, exit close of T-1; regime from L's date; months skipped (entry not before T-1): 0. Excess = net bp - same-year mean gross bp of all same-length close-to-close windows starting outside every T-8..T+3. Gross excess 13.834 bp. By regime: T+3 era (L=T-4): n=87 net excess 10.10 bp t 0.60, net $23.73 | T+2 era (L=T-3): n=80 net excess 23.33 bp t 1.43, net $53.77 | T+1 era (L=T-2): n=30 net excess -19.52 bp t -1.33, net $-27.92
+[14-L+1] MES n=167 gross=27.453bp net=24.2656bp net$=35.647 tot$=5953.0 2tk$=33.147 excess=16.0434 t=1.7105 post n=124 post$=41.944 blocks=8/8
+    notes: Entry = L+1 close, exit close of T-1; regime from L's date; months skipped (entry not before T-1): 30. Excess = net bp - same-year mean gross bp of all same-length close-to-close windows starting outside every T-8..T+3. Gross excess 19.231 bp. By regime: T+3 era (L=T-4): n=87 net excess 6.01 bp t 0.45, net $15.11 | T+2 era (L=T-3): n=80 net excess 26.96 bp t 2.04, net $57.98 | T+1 era (L=T-2): n=0 (skipped)
+14 like-for-like on the 167 months where L+1 exists: {'14-L-1': 12.814, '14-L': 16.438, '14-L+1': 16.043}
+14 peak (mean net excess): {'14-L-1': np.float64(4.84), '14-L': np.float64(10.963), '14-L+1': np.float64(16.043)} -> peak at 14-L+1

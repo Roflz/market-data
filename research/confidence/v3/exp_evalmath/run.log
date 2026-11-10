@@ -1,0 +1,10 @@
+section A: 180 rows, 3.3s
+section B2: 30 rows, 0.4s
+section C: 72 rows, 1.0s
+section D: 160 rows, 2.6s
+section F: 666 rows, 9.0s
+section E: 81 rows, 4.4s
+section B: 540 rows, 30.5s
+section E05: 81 rows, 4.4s
+section E20: 81 rows, 4.3s
+total 59.8s

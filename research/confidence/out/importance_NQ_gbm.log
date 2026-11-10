@@ -1,0 +1,4 @@
+[02:16:30] loading out/entries_NQ_15.parquet (82 features; 15433 MB available)
+[02:16:32] 331,394 labelled events before the holdout (2010-06-07 00:30:00 .. 2025-06-30 16:00:00)
+[02:16:36] 30 clusters (natural cut 37, silhouette 0.219)
+[02:16:36] gbm: fitting 82 features on the walk-forward folds

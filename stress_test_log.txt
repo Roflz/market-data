@@ -1,0 +1,128 @@
+
+################ MNQ: overnight-level break + daily trend ################
+
+A. Parameter neighborhood: avg R per trade (after costs) by initial stop (rows) x exit (cols); break within 5 min, daily EMA20 trend, max 3 trades/day
+     ema60   hold  trail_3  trail_4  trail_6
+1.0  0.229  0.229    0.145    0.205    0.240
+1.5  0.206  0.208    0.138    0.200    0.206
+2.0  0.166  0.166    0.113    0.155    0.165
+2.5  0.129  0.126    0.078    0.109    0.127
+3.0  0.096  0.092    0.065    0.086    0.102
+4.0  0.071  0.067    0.049    0.074    0.082
+6.0  0.045  0.046    0.032    0.047    0.056
+  share of the 35 stop x exit cells with positive R: 100%; with t > 2: 100%
+
+A2. Entry-rule variations (exit trail_6, stop 2): break freshness x trend filter x trades/day
+ break within (min) trend filter  max/day  trades     net  R_per_trade  t_stat  years_up  years  y2026
+                  5        ema20        1    1848 19414.0        0.168   3.354        11     16 1999.0
+                  5        ema20        3    1894 19975.0        0.165   3.355        11     16 2712.5
+                  5        ret5d        1    1625 15106.0        0.136   2.591        12     16 4663.5
+                  5        ret5d        3    1625 15106.0        0.136   2.591        12     16 4663.5
+                  5         none        1    2907 14571.0        0.112   2.813        12     16 -493.0
+                  5         none        3    3270 12388.0        0.079   2.168        12     16  259.5
+                 10        ema20        1    2085 25088.0        0.175   3.734        11     16 3801.5
+                 10        ema20        3    2170 25449.0        0.173   3.778        11     16 4359.5
+                 10        ret5d        1    1812 15756.5        0.127   2.589        11     16 5311.0
+                 10        ret5d        3    1836 15945.0        0.128   2.637        11     16 5155.5
+                 10         none        1    3214 18108.0        0.114   3.018        11     16 1709.5
+                 10         none        3    3691 18090.5        0.086   2.501        12     16 2477.0
+                 15        ema20        1    2182 24434.5        0.168   3.672        12     16 4197.5
+                 15        ema20        3    2320 23795.0        0.156   3.543        11     16 4570.0
+                 15        ret5d        1    1886 14589.5        0.110   2.317        10     16 5084.5
+                 15        ret5d        3    1937 14024.0        0.101   2.170        10     16 4929.0
+                 15         none        1    3328 14890.0        0.102   2.777        11     16 1680.0
+                 15         none        3    3920 13413.0        0.071   2.153        12     16 1162.5
+
+B. Cost sensitivity (trail_6, stop 2): net $ 2011-2026 and avg R
+ slippage ticks/side  commission $  trades     net  R_per_trade  t_stat  years_up  years  y2026
+                   1           1.0    1894 19975.0        0.165   3.355        11     16 2712.5
+                   1           2.0    1894 18081.0        0.122   2.473        11     16 2622.5
+                   2           1.0    1894 18086.5        0.123   2.512        11     16 2645.5
+                   2           2.0    1894 16192.5        0.080   1.625        11     16 2555.5
+                   3           1.0    1894 16308.5        0.075   1.542        10     16 2579.0
+                   3           2.0    1894 14414.5        0.032   0.650        10     16 2489.0
+                   4           1.0    1894 14317.0        0.035   0.721        10     16 2512.5
+                   4           2.0    1894 12423.0       -0.008  -0.172         9     16 2422.5
+
+C. Stability (trail_6, stop 2)
+  2011-2017: 838 trades, avg -0.020 R, t=-0.29, net $-336
+  2018-2026: 1056 trades, avg 0.312 R, t=4.46, net $20,311
+  by vol_tercile: quiet: +0.289R (n=632), normal: +0.118R (n=631), volatile: +0.089R (n=631)
+  by hour: 9: +0.289R (n=1071), 10: +0.022R (n=436), 11: +0.027R (n=154), 12: +0.186R (n=84), 13: -0.293R (n=82), 14: -0.024R (n=67)
+  by weekday: Fri: +0.193R (n=347), Mon: +0.184R (n=399), Thu: +0.184R (n=389), Tue: +0.197R (n=374), Wed: +0.072R (n=385)
+
+D. Monte Carlo, 10,000 simulated years (block bootstrap of whole months from 2018-2026 and from all years)
+  sampling 2018-2026: yearly P&L median $2,114 (5%: $-980, 95%: $6,212); P(losing year) 14%; max drawdown median $1,341, 95th pct $2,630
+  sampling 2011-2026: yearly P&L median $1,072 (5%: $-1,123, 95%: $4,379); P(losing year) 22%; max drawdown median $1,066, 95th pct $2,176
+  initial risk per trade at 1 micro: median $34 (2024-26: $118); for 1% risk per trade that implies an account of about $11,793
+
+E. Overfitting statistics
+  Deflated Sharpe, N=   70 trials: observed per-session SR 0.0525 (annualized 0.83), expected best-of-N by luck 0.0529 -> probability the true SR > 0 = 0.487
+  Deflated Sharpe, N=  980 trials: observed per-session SR 0.0525 (annualized 0.83), expected best-of-N by luck 0.0716 -> probability the true SR > 0 = 0.090
+  Deflated Sharpe, N= 5000 trials: observed per-session SR 0.0525 (annualized 0.83), expected best-of-N by luck 0.0813 -> probability the true SR > 0 = 0.022
+  Probability of Backtest Overfitting (CSCV, 16 blocks, 12870 splits, 70 variants): 0.25  (median out-of-sample rank of the in-sample best: 0.72; 0.5 = coin flip, 1.0 = always the best)
+  share of the 70 variants with positive total R: 94%
+
+################ MES: overnight-level break + daily trend ################
+
+A. Parameter neighborhood: avg R per trade (after costs) by initial stop (rows) x exit (cols); break within 5 min, daily EMA20 trend, max 3 trades/day
+     ema60   hold  trail_3  trail_4  trail_6
+1.0 -0.136 -0.136   -0.161   -0.110   -0.128
+1.5 -0.013 -0.013   -0.043   -0.014   -0.019
+2.0 -0.000  0.000   -0.037   -0.012   -0.018
+2.5  0.003  0.006   -0.030    0.002    0.003
+3.0  0.003  0.005   -0.023    0.014    0.010
+4.0  0.017  0.017   -0.017    0.013    0.024
+6.0  0.011  0.012   -0.012    0.008    0.017
+  share of the 35 stop x exit cells with positive R: 49%; with t > 2: 0%
+
+A2. Entry-rule variations (exit trail_6, stop 2): break freshness x trend filter x trades/day
+ break within (min) trend filter  max/day  trades      net  R_per_trade  t_stat  years_up  years   y2026
+                  5        ema20        1    1728  2072.00       -0.012  -0.249         8     16 1444.50
+                  5        ema20        3    1765  1606.25       -0.018  -0.389         8     16 1250.25
+                  5        ret5d        1    1445   747.50       -0.048  -0.940         7     16 1825.50
+                  5        ret5d        3    1445   747.50       -0.048  -0.940         7     16 1825.50
+                  5         none        1    2773  -626.75       -0.055  -1.472         7     16 2336.50
+                  5         none        3    3023 -3444.25       -0.067  -1.892         7     16 1534.50
+                 10        ema20        1    1962  1274.25       -0.004  -0.092         8     16 1038.00
+                 10        ema20        3    2026  1599.00       -0.009  -0.211         9     16  790.25
+                 10        ret5d        1    1634   127.25       -0.033  -0.678         8     16 1458.50
+                 10        ret5d        3    1647   348.00       -0.028  -0.576         8     16 1458.50
+                 10         none        1    3075 -3473.75       -0.057  -1.636         7     16 1453.25
+                 10         none        3    3411 -4398.50       -0.062  -1.860         7     16  541.00
+                 15        ema20        1    2065  1608.75        0.004   0.093         8     16  573.50
+                 15        ema20        3    2167  2078.00       -0.003  -0.065         9     16  333.75
+                 15        ret5d        1    1714   439.75       -0.025  -0.542         8     16 1499.25
+                 15        ret5d        3    1753   284.50       -0.024  -0.515         8     16 1419.50
+                 15         none        1    3189 -3556.50       -0.056  -1.632         7     16 1182.50
+                 15         none        3    3608 -3884.25       -0.058  -1.800         7     16  318.00
+
+B. Cost sensitivity (trail_6, stop 2): net $ 2011-2026 and avg R
+ slippage ticks/side  commission $  trades       net  R_per_trade  t_stat  years_up  years   y2026
+                   1           1.0    1765   1606.25       -0.018  -0.389         8     16 1250.25
+                   1           2.0    1765   -158.75       -0.062  -1.319         6     16 1149.25
+                   2           1.0    1765  -2771.25       -0.124  -2.675         4     16  670.25
+                   2           2.0    1765  -4536.25       -0.168  -3.612         4     16  569.25
+                   3           1.0    1765  -6721.25       -0.224  -4.842         3     16  486.50
+                   3           2.0    1765  -8486.25       -0.267  -5.780         3     16  385.50
+                   4           1.0    1765 -11366.25       -0.353  -7.801         2     16   76.50
+                   4           2.0    1765 -13131.25       -0.397  -8.742         2     16  -24.50
+
+C. Stability (trail_6, stop 2)
+  2011-2017: 754 trades, avg -0.185 R, t=-2.96, net $-2,325
+  2018-2026: 1011 trades, avg 0.106 R, t=1.57, net $3,932
+  by vol_tercile: quiet: +0.053R (n=589), normal: +0.002R (n=588), volatile: -0.110R (n=588)
+  by hour: 9: +0.053R (n=856), 10: -0.150R (n=416), 11: -0.057R (n=198), 12: -0.004R (n=108), 13: -0.067R (n=87), 14: +0.023R (n=100)
+  by weekday: Fri: +0.033R (n=351), Mon: +0.077R (n=323), Thu: -0.089R (n=360), Tue: +0.028R (n=355), Wed: -0.125R (n=376)
+
+D. Monte Carlo, 10,000 simulated years (block bootstrap of whole months from 2018-2026 and from all years)
+  sampling 2018-2026: yearly P&L median $340 (5%: $-1,207, 95%: $2,457); P(losing year) 37%; max drawdown median $861, 95th pct $1,738
+  sampling 2011-2026: yearly P&L median $-1 (5%: $-1,120, 95%: $1,684); P(losing year) 50%; max drawdown median $743, 95th pct $1,487
+  initial risk per trade at 1 micro: median $27 (2024-26: $57); for 1% risk per trade that implies an account of about $5,714
+
+E. Overfitting statistics
+  Deflated Sharpe, N=   70 trials: observed per-session SR -0.0061 (annualized -0.10), expected best-of-N by luck 0.0738 -> probability the true SR > 0 = 0.000
+  Deflated Sharpe, N=  980 trials: observed per-session SR -0.0061 (annualized -0.10), expected best-of-N by luck 0.0999 -> probability the true SR > 0 = 0.000
+  Deflated Sharpe, N= 5000 trials: observed per-session SR -0.0061 (annualized -0.10), expected best-of-N by luck 0.1133 -> probability the true SR > 0 = 0.000
+  Probability of Backtest Overfitting (CSCV, 16 blocks, 12870 splits, 70 variants): 0.17  (median out-of-sample rank of the in-sample best: 0.66; 0.5 = coin flip, 1.0 = always the best)
+  share of the 70 variants with positive total R: 33%

@@ -1,0 +1,74 @@
+{
+ "A|reconciled": {
+  "trades": 1271,
+  "total_usd": -6065.5,
+  "usd_per_trade": -4.772,
+  "net_bp": -3.105,
+  "gross_bp": -1.208,
+  "t_nw5": -4.696,
+  "t_iid": -5.064,
+  "post2025": -181.5,
+  "blocks_pos": 0,
+  "tpy": 78.06
+ },
+ "A|sens_rollproxy_skip": {
+  "trades": 1260,
+  "total_usd": -5915.5,
+  "usd_per_trade": -4.695,
+  "net_bp": -3.13,
+  "gross_bp": -1.228,
+  "t_nw5": -4.717,
+  "t_iid": -5.077,
+  "post2025": 82.5,
+  "blocks_pos": 0,
+  "tpy": 77.39
+ },
+ "A1-MES|reconciled": {
+  "trades": 1256,
+  "total_usd": -7157.25,
+  "usd_per_trade": -5.698,
+  "net_bp": -3.889,
+  "gross_bp": -0.909,
+  "t_nw5": -8.975,
+  "t_iid": -8.847,
+  "post2025": -679.75,
+  "blocks_pos": 0,
+  "tpy": 77.14
+ },
+ "A1-MES|sens_rollproxy_skip": {
+  "trades": 1248,
+  "total_usd": -7150.5,
+  "usd_per_trade": -5.73,
+  "net_bp": -3.895,
+  "gross_bp": -0.913,
+  "t_nw5": -8.984,
+  "t_iid": -8.82,
+  "post2025": -679.75,
+  "blocks_pos": 0,
+  "tpy": 76.65
+ },
+ "A2-VWAP|reconciled": {
+  "trades": 422,
+  "total_usd": -2512.0,
+  "usd_per_trade": -5.953,
+  "net_bp": -3.311,
+  "gross_bp": -1.454,
+  "t_nw5": -2.134,
+  "t_iid": -2.469,
+  "post2025": -114.5,
+  "blocks_pos": 2,
+  "tpy": 25.92
+ },
+ "A2-VWAP|sens_rollproxy_skip": {
+  "trades": 420,
+  "total_usd": -2517.0,
+  "usd_per_trade": -5.993,
+  "net_bp": -3.324,
+  "gross_bp": -1.471,
+  "t_nw5": -2.134,
+  "t_iid": -2.467,
+  "post2025": -114.5,
+  "blocks_pos": 2,
+  "tpy": 25.8
+ }
+}

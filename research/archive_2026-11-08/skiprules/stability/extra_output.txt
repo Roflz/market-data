@@ -1,0 +1,53 @@
+                   R   bp
+model                    
+expiry_fade      0.0  1.0
+opening_range    1.0  1.0
+overnight_break  1.0  1.0
+median $|usd| by period and model:
+per              2010-15  2016-20  2021-26
+model                                     
+expiry_fade         39.0     97.4    306.9
+opening_range       21.1     55.4    150.1
+overnight_break     23.5     62.3    173.8
+R1 overnight_break [R] all: -0.395 vs +0.199 (t -2.85, n=49) | 2010-2015: -0.103 vs -0.054 (t -0.09, n=13) | 2016-2020: -0.229 vs +0.317 (t -1.59, n=21) | 2021-2026: -0.880 vs +0.323 (t -7.55, n=15)
+R1 overnight_break [bp] all: -27.505 vs +4.762 (t -2.82, n=49) | 2010-2015: -4.330 vs -0.856 (t -0.13, n=13) | 2016-2020: -24.679 vs +6.841 (t -1.66, n=21) | 2021-2026: -51.547 vs +7.925 (t -4.63, n=15)
+R1 opening_range [R] all: -0.444 vs +0.037 (t -2.87, n=123) | 2010-2015: -0.594 vs -0.123 (t -1.95, n=34) | 2016-2020: -0.364 vs +0.107 (t -1.78, n=50) | 2021-2026: -0.418 vs +0.115 (t -1.51, n=39)
+R1 opening_range [bp] all: -18.486 vs +1.558 (t -3.00, n=123) | 2010-2015: -17.379 vs -1.406 (t -1.82, n=34) | 2016-2020: -15.260 vs +2.687 (t -1.29, n=50) | 2021-2026: -23.588 vs +3.146 (t -3.09, n=39)
+R2 opening_range [R] all: -0.476 vs +0.038 (t -2.81, n=122) | 2010-2015: -0.229 vs -0.133 (t -0.26, n=37) | 2016-2020: -0.588 vs +0.110 (t -2.01, n=38) | 2021-2026: -0.580 vs +0.124 (t -2.78, n=47)
+R2 opening_range [bp] all: -10.873 vs +1.296 (t -3.25, n=122) | 2010-2015: -2.719 vs -1.836 (t -0.10, n=37) | 2016-2020: -14.230 vs +2.462 (t -3.61, n=38) | 2021-2026: -14.578 vs +2.990 (t -3.05, n=47)
+-- thresholds bp overnight_break
+  <= -1.0: n=183 bp -4.93 vs +4.88 t -1.60; R +0.012 vs +0.203 t -1.24
+  <= -1.5: n=92 bp -16.99 vs +5.01 t -2.57; R -0.266 vs +0.207 t -2.74
+  <= -2.0: n=49 bp -27.51 vs +4.76 t -2.82; R -0.395 vs +0.199 t -2.85
+  <= -2.5: n=25 bp -40.55 vs +4.51 t -2.86; R -0.486 vs +0.193 t -2.57
+  <= -3.0: n=15 bp -46.10 vs +4.30 t -2.20; R -0.502 vs +0.189 t -1.91
+  band (-1.5,-1.0]: n=91 $ mean +9.15 median -21.00 top3 $ [519.0, 580.0, 817.0] mean-ex-top3 -12.31 bp +7.27
+  band (-2.0,-1.5]: n=43 $ mean -0.34 median -59.50 top3 $ [506.0, 572.0, 682.0] mean-ex-top3 -44.36 bp -5.01
+  band (-2.5,-2.0]: n=24 $ mean -25.73 median -43.50 top3 $ [135.5, 190.5, 248.0] mean-ex-top3 -56.74 bp -13.92
+-- thresholds bp opening_range
+  <= -1.0: n=420 bp -2.55 vs +1.34 t -0.84; R -0.081 vs +0.034 t -0.87
+  <= -1.5: n=232 bp -6.33 vs +1.38 t -1.06; R -0.241 vs +0.039 t -1.61
+  <= -2.0: n=123 bp -18.49 vs +1.56 t -3.00; R -0.444 vs +0.037 t -2.87
+  <= -2.5: n=73 bp -18.42 vs +1.28 t -1.97; R -0.335 vs +0.028 t -1.48
+  <= -3.0: n=42 bp -18.04 vs +1.12 t -1.22; R -0.352 vs +0.026 t -1.42
+  band (-1.5,-1.0]: n=188 $ mean -7.33 median -25.50 top3 $ [531.0, 576.5, 785.5] mean-ex-top3 -17.68 bp +2.12
+  band (-2.0,-1.5]: n=109 $ mean +36.57 median -30.50 top3 $ [687.0, 1550.5, 3986.5] mean-ex-top3 -21.11 bp +7.39
+  band (-2.5,-2.0]: n=50 $ mean -38.63 median -36.00 top3 $ [143.0, 169.0, 291.5] mean-ex-top3 -53.94 bp -18.58
+OR Fed <2019: n=60 bp -5.93 vs +0.32 t -1.03 | $ -6.82 vs +1.31 t -1.74
+OR Fed >=2019: n=62 bp -15.65 vs +2.28 t -4.04 | $ -48.95 vs +6.92 t -3.88
+OR Fed 2018+: n=70 bp -17.06 vs +3.09 t -4.99 | $ -47.83 vs +7.67 t -4.34
+OR Fed <2018: n=52 bp -2.55 vs -1.00 t -0.23 | $ -1.85 vs -0.47 t -0.28
+2011-18 pc: n=30 $ -4.42 bp -2.72 vs other bp +0.71 t -0.46
+2011-18 no pc: n=28 $ -8.95 bp -7.36 vs other bp +0.71 t -0.81
+OR Fed 2010-2015: long n=17 $-7.97, short n=20 $+3.77
+OR Fed 2016-2020: long n=15 $-21.67, short n=23 $-24.35
+OR Fed 2021-2026: long n=15 $-6.53, short n=32 $-75.03
+overnight_break R1 2010-2015: long n=4 $-16.50, short n=9 $+8.11
+overnight_break R1 2016-2020: long n=7 $-25.07, short n=14 $-41.82
+overnight_break R1 2021-2026: long n=3 $-216.00, short n=12 $-146.67
+opening_range R1 2010-2015: long n=17 $-6.12, short n=17 $-14.29
+opening_range R1 2016-2020: long n=29 $-24.57, short n=21 $-30.62
+opening_range R1 2021-2026: long n=17 $-83.47, short n=22 $-65.86
+placebo R1 ob: removed-trade sum -3162; random 49 trades sum <= obs in 0.00% of 20000
+placebo R1 or: removed-trade sum -4570; random 123 trades sum <= obs in 0.01% of 20000
+placebo R2 or: removed-trade sum -3444; random 122 trades sum <= obs in 0.27% of 20000

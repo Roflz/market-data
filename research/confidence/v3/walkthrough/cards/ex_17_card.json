@@ -1,0 +1,127 @@
+{
+ "title": "DECISION CARD  ex17_a4_mnq_loss  A4 release fade  MNQ  2011-09-02 08:45",
+ "decision": "Rule: m = px 08:45 2,190.25 - px 08:30 2,212.25 = -22.00 pts < 0  ->  LONG 1 MNQ at 2,190.25, exit 09:45 mark, no stop\n    (all skip checks passed: True)",
+ "drivers": [
+  "Only the sign of the 08:30-08:45 move on a NFP day decides the side. Its size, the trend, VWAP and the EMAs are NOT inputs (listed below as context,\n    marked NOT used).",
+  "A4 overall (v3/out/trades/A4.parquet): 356 trades, mean +12.24 $ per trade, 52% winners, 43% long."
+ ],
+ "outcome": "OUTCOME: exit 2,175.25 at 09:45 -> -32.00 $ per micro after $2.00 costs (-15.00 pts)  =  WRONG",
+ "why": "The -22.00-point first reaction did NOT reverse: it kept going the same way to 2,175.25 by 09:45, so fading it lost -32.00 $. A4 has no stop and\n    only a 52% win rate; it relies on reversals being bigger than continuations on average.",
+ "win": false,
+ "notes": [
+  "Edge vs an ordinary day: this trade -32.00 $ minus C1 -2.86 $ = -29.14 $ (stored d_i -29.69 uses the 999-draw c1 -2.31). Prices recomputed from 1-minute bars and matched\n    to sessions_NQ.parquet and A4.parquet.",
+  "C1 here = exact average over ALL same-year sessions with both prices; the stored c1 is the average of 999 random draws from those sessions, so the two differ by sampling\n    noise (harness.py:419-451; early-close days use the last price there, dropped here)."
+ ],
+ "inputs": [
+  {
+   "plain": "scheduled release today (NFP)",
+   "value": "yes",
+   "read": "fired",
+   "where": "sessions nfp/cpi; build_data.py:252-259"
+  },
+  {
+   "plain": "contract-roll session? (skip if yes)",
+   "value": "False",
+   "read": "neutral",
+   "where": "g4lib.py:58-60"
+  },
+  {
+   "plain": "price age at 08:30 / 08:45 / 09:45 (skip if > 5 min)",
+   "value": "0 / 0 / 0 min",
+   "read": "neutral",
+   "where": "g4lib.py:61-63,71"
+  },
+  {
+   "plain": "px 08:30 = open of the 08:30 minute",
+   "value": 2212.25,
+   "read": "info",
+   "where": "build_data.py:52-58"
+  },
+  {
+   "plain": "px 08:45 = open of the 08:45 minute",
+   "value": 2190.25,
+   "read": "info",
+   "where": "build_data.py:52-58"
+  },
+  {
+   "plain": "m = px 08:45 - px 08:30 (points)",
+   "value": -22.0,
+   "read": "fired",
+   "where": "g4lib.py:74"
+  },
+  {
+   "plain": "side = opposite of m -> LONG",
+   "value": 1.0,
+   "read": "fired",
+   "where": "g4lib.py:84"
+  },
+  {
+   "plain": "m in 15-min R20 units (size of move, NOT used)",
+   "value": -5.641,
+   "read": "neutral",
+   "where": "context only; features.py:176-183"
+  },
+  {
+   "plain": "15-min EMA stack at 08:30 bar (NOT used): down",
+   "value": -1.0,
+   "read": "neutral",
+   "where": "context only; signals.py:98-99 (+1 up, -1 down, 0 mixed)"
+  },
+  {
+   "plain": "15-min close vs 18:00 session VWAP (NOT used)",
+   "value": -9.8925,
+   "read": "neutral",
+   "where": "context only; signals.py:46-48"
+  },
+  {
+   "plain": "AFTER decision: px 09:30 (cash open)",
+   "value": 2180.25,
+   "read": "info",
+   "where": ""
+  },
+  {
+   "plain": "AFTER decision: P&L if exited at 09:30 instead",
+   "value": -22.0,
+   "read": "info",
+   "where": ""
+  },
+  {
+   "plain": "AFTER decision: px 09:45 = exit",
+   "value": 2175.25,
+   "read": "info",
+   "where": "g4lib.py:66 exit_='0945'"
+  },
+  {
+   "plain": "AFTER decision: worst open P&L while held",
+   "value": -39.5,
+   "read": "info",
+   "where": "1-minute lows/highs"
+  },
+  {
+   "plain": "AFTER decision: best open P&L while held",
+   "value": 1.5,
+   "read": "info",
+   "where": "1-minute lows/highs"
+  },
+  {
+   "plain": "C1: same trade on random 2011 days (exact mean, n=258)",
+   "value": -2.8566,
+   "read": "info",
+   "where": "harness.py:419-451; stored c1 -2.31"
+  }
+ ],
+ "example": "ex17_a4_mnq_loss",
+ "recomputed": {
+  "px_0830": 2212.25,
+  "px_0845": 2190.25,
+  "px_0930": 2180.25,
+  "px_0945": 2175.25,
+  "m_pts": -22.0,
+  "side": 1,
+  "pnl_usd": -32.0,
+  "c1_exact": -2.8566,
+  "c1_stored": -2.3068,
+  "worst_open_usd": -39.5,
+  "best_open_usd": 1.5
+ }
+}

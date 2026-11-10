@@ -1,0 +1,20 @@
+{
+ "id": "v3round1_G6-exploratory",
+ "utc": "2026-11-09T19:35:04",
+ "spec": {
+  "prereg_file": "research/confidence/v3/PREREG.md",
+  "prereg_sha256": "c9aef6629ccc2da406c76355302bce241faba444d893678de2a3a38c3e682460",
+  "window": "sessions 2010-06-07..2025-06-27 (YM 2018+), holdout never used",
+  "primary_statistic": "d_t = sum over session trades of (net_U1 - mean of 999 C1 draws: same marks, side, stop, random same-year session)",
+  "test": "conservative stationary bootstrap p (max over blocks 1,5,10,20; B=5000; seed 20261109); Holm alpha 0.03 over {A1..A5,P0}; intersection with p_net<=0.05",
+  "gates": "PREREG.md section 0.5 (1-9)",
+  "kill": "mean d <= 0 or U1 net <= 0 in 2018-25H1",
+  "group": "G6",
+  "family": "F1/F2/F3",
+  "tier": "B-exploratory",
+  "items": "X1-X5",
+  "rules": "PREREG.md section 3",
+  "id": "G6-exploratory"
+ },
+ "sha256": "d46e4c6d9bb184a510e664b4369afabd25d0589c2a1ad9369d96abf9e0e8028d"
+}

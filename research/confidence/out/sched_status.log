@@ -1,0 +1,10 @@
+01:00 START chain 0 (available 21570 MB): python3 stop_options.py NQ && python3 compare_stops.py NQ
+01:02 START chain 1 (available 19311 MB): python3 ablate_cost.py
+01:04 START chain 2 (available 17598 MB): for s in stat_shrink_combo stat_screen_nb stat_screen_sa stat_screen_rvm stat_screen_dma stat_screen
+01:18 END chain 1 (exit 0) available 18026 MB
+01:18 START chain 3 (available 18141 MB): python3 compare_approaches.py NQ sc:ml_creamer_boost; python3 compare_approaches.py NQ sc:ml_creamer
+01:18 END chain 0 (exit 0) available 19358 MB
+01:20 START chain 4 (available 19625 MB): python3 compare_approaches.py NQ prior
+02:16 END chain 4 (exit 0) available 15278 MB
+02:16 END chain 3 (exit 0) available 15284 MB
+02:16 END chain 2 (exit 0) available 14897 MB

@@ -1,0 +1,92 @@
+[lab] panel ES 5m: 1041326 bars, 3877 sessions, built in 4.8s
+[lab] panel ES 5m done: 4 metrics in 12.9s
+[lab] panel ES 15m: 347273 bars, 3877 sessions, built in 1.5s
+[lab] panel ES 15m done: 4 metrics in 4.0s
+[lab] panel ES 60m: 88467 bars, 3877 sessions, built in 0.3s
+[lab] panel ES 60m done: 4 metrics in 1.1s
+[lab] panel NQ 5m: 1039577 bars, 3877 sessions, built in 4.4s
+[lab] panel NQ 5m done: 4 metrics in 12.7s
+[lab] panel NQ 15m: 347117 bars, 3877 sessions, built in 1.7s
+[lab] panel NQ 15m done: 4 metrics in 4.8s
+[lab] panel NQ 60m: 88465 bars, 3877 sessions, built in 0.4s
+[lab] panel NQ 60m done: 4 metrics in 1.3s
+[lab] panel YM 5m: 521564 bars, 1936 sessions, built in 2.7s
+[lab] panel YM 5m done: 4 metrics in 6.7s
+[lab] panel YM 15m: 173952 bars, 1936 sessions, built in 1.2s
+[lab] panel YM 15m done: 4 metrics in 2.9s
+[lab] panel YM 60m: 44179 bars, 1936 sessions, built in 0.3s
+[lab] panel YM 60m done: 4 metrics in 0.7s
+            metric market  tf best_dir  dir_effect     p_dir     q_dir dir_verdict best_size   size_pct         q_size size_verdict
+0        ema20_gap     ES   5   dir_h1   -0.006849  0.022107  0.214915        none    abs_h1  -6.850106   3.532637e-28    CONFIRMED
+1       momentum14     ES   5   dir_h1   -0.003388  0.845469  1.000000        none    abs_h1  -7.692381   8.135750e-43    CONFIRMED
+2       above_vwap     ES   5   dir_h1   -0.002551  0.495901  1.000000        none    abs_h1  -1.175638   8.417502e-04    CONFIRMED
+3   big_bar_follow     ES   5  dir_eod    0.123206  0.727609  1.000000        none    abs_h1  26.343665  3.460292e-135    CONFIRMED
+4        ema20_gap     ES  15   dir_h4   -0.009558  1.000000  1.000000        none    abs_h1  -9.228588   7.280348e-21    CONFIRMED
+5       momentum14     ES  15   dir_h1    0.004020  1.000000  1.000000        none    abs_h1  -8.837188   3.481772e-22    CONFIRMED
+6       above_vwap     ES  15  dir_h16    0.029868  1.000000  1.000000        none    abs_h1  -4.146834   3.938829e-14    CONFIRMED
+7   big_bar_follow     ES  15   dir_h4    0.019989  1.000000  1.000000        none    abs_h1  23.947351   4.953516e-54    CONFIRMED
+8        ema20_gap     ES  60   dir_h1    0.005746  1.000000  1.000000        none    abs_h1 -13.304679   1.281611e-15    CONFIRMED
+9       momentum14     ES  60   dir_h1    0.017158  0.253907  1.000000        none    abs_h1  -9.377203   4.370482e-09    CONFIRMED
+10      above_vwap     ES  60   dir_h8    0.031898  1.000000  1.000000        none    abs_h1  -7.623426   6.010567e-18    CONFIRMED
+11  big_bar_follow     ES  60   dir_h2    0.031357  0.387038  1.000000        none    abs_h1  23.413863   2.690637e-29    CONFIRMED
+12       ema20_gap     NQ   5   dir_h1    0.003077  1.000000  1.000000        none    abs_h1  -6.378898   8.015809e-25    CONFIRMED
+13      momentum14     NQ   5  dir_eod   -0.311381  0.429035  1.000000        none    abs_h1  -7.677838   4.889879e-40    CONFIRMED
+14      above_vwap     NQ   5   dir_h8   -0.006927  1.000000  1.000000        none    abs_h1  -1.321381   1.213543e-02    CONFIRMED
+15  big_bar_follow     NQ   5   dir_h4    0.022930  0.110009  0.977163        none    abs_h1  25.667401  1.608784e-137    CONFIRMED
+16       ema20_gap     NQ  15   dir_h1    0.009304  0.669771  1.000000        none    abs_h1  -8.048914   3.344325e-16    CONFIRMED
+17      momentum14     NQ  15   dir_h1    0.007301  1.000000  1.000000        none    abs_h1  -8.076650   1.049054e-18    CONFIRMED
+18      above_vwap     NQ  15  dir_eod    0.262653  1.000000  1.000000        none    abs_h1  -4.356379   1.317457e-08    CONFIRMED
+19  big_bar_follow     NQ  15   dir_h2    0.019293  0.644408  1.000000        none    abs_h1  22.867052   1.124958e-78    CONFIRMED
+20       ema20_gap     NQ  60  dir_eod   -0.076624  1.000000  1.000000        none    abs_h1 -11.080221   1.006081e-12    CONFIRMED
+21      momentum14     NQ  60   dir_h1    0.024067  0.040928  0.387134        none    abs_h1  -8.314905   5.912868e-09    CONFIRMED
+22      above_vwap     NQ  60  dir_h16    0.055821  1.000000  1.000000        none    abs_h1  -6.746685   1.969397e-13    CONFIRMED
+23  big_bar_follow     NQ  60   dir_h4    0.052296  0.111683  0.977163        none    abs_h1  19.541535   3.481772e-22    CONFIRMED
+24       ema20_gap     YM   5  dir_h16   -0.108964  0.198354  1.000000        none    abs_h1  -7.679357   3.669598e-12    CONFIRMED
+25      momentum14     YM   5  dir_h16   -0.073811  0.724830  1.000000        none    abs_h1  -7.319790   1.119050e-14    CONFIRMED
+26      above_vwap     YM   5   dir_h1   -0.002365  1.000000  1.000000        none    abs_h1  -1.354293   5.411411e-01         none
+27  big_bar_follow     YM   5  dir_eod    0.172461  1.000000  1.000000        none    abs_h2  22.522843   1.871634e-82    CONFIRMED
+28       ema20_gap     YM  15   dir_h8   -0.016332  1.000000  1.000000        none    abs_h1  -9.813933   1.224644e-10    CONFIRMED
+29      momentum14     YM  15   dir_h8   -0.043322  1.000000  1.000000        none    abs_h1  -7.726675   1.311454e-06    CONFIRMED
+30      above_vwap     YM  15  dir_h16    0.062358  1.000000  1.000000        none    abs_h1  -4.681028   5.119209e-05    CONFIRMED
+31  big_bar_follow     YM  15   dir_h4    0.041760  1.000000  1.000000        none    abs_h1  22.344217   6.858771e-29    CONFIRMED
+32       ema20_gap     YM  60   dir_h1    0.016060  1.000000  1.000000        none    abs_h1  -9.776389   1.726693e-03    CONFIRMED
+33      momentum14     YM  60   dir_h4    0.043929  1.000000  1.000000        none    abs_h1 -10.063988   5.924349e-06    CONFIRMED
+34      above_vwap     YM  60   dir_h4    0.015071  1.000000  1.000000        none    abs_h1  -6.080852   7.811473e-05    CONFIRMED
+35  big_bar_follow     YM  60   dir_h1    0.041700  0.172397  1.000000        none    abs_h1  25.223796   3.710704e-11    CONFIRMED
+ema20_gap ES 5: 3.0s
+momentum14 ES 5: 1.7s
+above_vwap ES 5: 1.7s
+big_bar_follow ES 5: 1.3s
+ema20_gap ES 15: 0.9s
+momentum14 ES 15: 0.5s
+above_vwap ES 15: 0.6s
+big_bar_follow ES 15: 0.4s
+ema20_gap ES 60: 0.2s
+momentum14 ES 60: 0.1s
+above_vwap ES 60: 0.2s
+big_bar_follow ES 60: 0.1s
+ema20_gap NQ 5: 3.1s
+momentum14 NQ 5: 1.8s
+above_vwap NQ 5: 1.8s
+big_bar_follow NQ 5: 1.6s
+ema20_gap NQ 15: 1.1s
+momentum14 NQ 15: 0.6s
+above_vwap NQ 15: 0.8s
+big_bar_follow NQ 15: 0.5s
+ema20_gap NQ 60: 0.3s
+momentum14 NQ 60: 0.2s
+above_vwap NQ 60: 0.2s
+big_bar_follow NQ 60: 0.2s
+ema20_gap YM 5: 1.3s
+momentum14 YM 5: 0.8s
+above_vwap YM 5: 1.0s
+big_bar_follow YM 5: 0.8s
+ema20_gap YM 15: 0.5s
+momentum14 YM 15: 0.4s
+above_vwap YM 15: 0.5s
+big_bar_follow YM 15: 0.3s
+ema20_gap YM 60: 0.1s
+momentum14 YM 60: 0.1s
+above_vwap YM 60: 0.1s
+big_bar_follow YM 60: 0.1s
+total 47.5s

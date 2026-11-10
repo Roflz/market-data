@@ -1,0 +1,43 @@
+[12:41:42] run X1a ES
+[12:41:47] run X1b ES
+[12:41:50] run X2 ES
+[12:42:02] run X3 ES
+[12:42:23] run X4 ES
+[12:42:37] run X5 ES
+[12:42:44] run X1a NQ
+[12:42:48] run X1b NQ
+[12:42:54] run X2 NQ
+[12:43:04] run X3 NQ
+[12:43:22] run X4 NQ
+[12:43:41] run X5 NQ
+[12:43:46] run X1a YM
+[12:43:49] run X1b YM
+[12:43:52] run X2 YM
+[12:44:00] run X3 YM
+[12:44:11] run X4 YM
+[12:44:19] run X5 YM
+[12:44:23] report X1a
+[12:44:32] report X1a_MES
+[12:44:43] report X1a_MNQ
+[12:44:59] report X1a_MYM
+[12:45:11] report X1b
+[12:45:22] report X1b_MES
+[12:45:35] report X1b_MNQ
+[12:45:43] report X1b_MYM
+[12:45:52] report X2
+[12:46:00] report X2_MES
+[12:46:09] report X2_MNQ
+[12:46:17] report X2_MYM
+[12:46:28] report X3
+[12:46:41] report X3_MES
+[12:46:50] report X3_MNQ
+[12:46:59] report X3_MYM
+[12:47:09] report X4
+[12:47:19] report X4_MES
+[12:47:30] report X4_MNQ
+[12:47:45] report X4_MYM
+[12:47:56] report X5
+[12:48:09] report X5_MES
+[12:48:22] report X5_MNQ
+[12:48:35] report X5_MYM
+[12:48:43] stage 1 done in 421s

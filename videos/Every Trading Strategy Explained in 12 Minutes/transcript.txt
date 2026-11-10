@@ -1,0 +1,312 @@
+00:00:00  Fibonacci retracements it is a tool that
+00:00:03  displays horizontal lines based on the
+00:00:05  Fibonacci numbers these lines can then
+00:00:07  be used as key support and resistance
+00:00:09  levels to use the Fibonacci retracement
+00:00:11  tool you first start by identifying a
+00:00:14  swing low and swing high on a chart then
+00:00:16  drag the tool from the swing low to the
+00:00:18  swing High next wait for the price to
+00:00:21  make a pull back to one of these levels
+00:00:23  ideally the 0.382 Fibonacci level
+00:00:26  because that's the most common level
+00:00:28  where price tends to reverse from so if
+00:00:30  price touches that level that could be a
+00:00:32  good buy entry keep in mind that price
+00:00:35  could also reverse from other Fibonacci
+00:00:37  levels combine it with other
+00:00:39  confirmation signals to get a better
+00:00:41  entry breakout patterns it is when price
+00:00:44  makes a sudden and significant movement
+00:00:46  towards One Direction This usually forms
+00:00:49  after the market makes a consolidation
+00:00:51  period for example here we can see that
+00:00:53  the price is consolidating then it
+00:00:56  suddenly moves sharply to the downside
+00:00:58  this is called a Breakout to take
+00:01:00  advantage of this Traders could use
+00:01:02  specific patterns as a guide to identify
+00:01:04  breakouts before they happen most
+00:01:06  notable breakout patterns includes
+00:01:08  wedges triangles and the rectangle
+00:01:11  pattern reversal patterns it is when
+00:01:15  price moves in the opposite direction of
+00:01:16  the current Trend and forms a counter
+00:01:18  Trend specific patterns could be
+00:01:20  identified in a chart which could help
+00:01:22  Traders predict reversals before they
+00:01:24  happen most notable reversal patterns
+00:01:26  are double top and bottoms triple top
+00:01:29  and bottoms
+00:01:30  Head and Shoulders cups and
+00:01:33  handles aliot wave it is a theory that
+00:01:36  suggests that market tends to move in a
+00:01:38  series of five waves before reversing
+00:01:40  and forming another set of waves in the
+00:01:42  opposite direction by understanding the
+00:01:44  Elliot wave sequence Traders could
+00:01:46  predict where the price is Heading by
+00:01:48  following the pattern in a chart we can
+00:01:50  label each point of the Waves as 1 2 3 4
+00:01:53  5 and ABC now there are specific rules
+00:01:57  to ensure that a movement is considered
+00:01:59  as a valid Elliot wave first wave 2
+00:02:02  cannot be longer than wave 1 and usually
+00:02:05  pulls back to the 0.618 Fibonacci level
+00:02:09  second wave three must be the longest
+00:02:11  wave amongst Wave 1 3 and five third
+00:02:16  Wave 4 must remain above the peak of
+00:02:18  wave 1 and usually pulls back to the
+00:02:21  0.382 Fibonacci level so here's an
+00:02:24  example of the Elliot wave in action in
+00:02:26  this chart we can see that the price
+00:02:28  resembles a possible one 23 Elliot wave
+00:02:31  and So based on the theory of wave 4
+00:02:33  which is that price tends to pull back
+00:02:35  to the 0.382 Fibonacci level before
+00:02:38  continuing upwards we can use this as a
+00:02:40  potential buy entry when price makes a
+00:02:44  pullback fair value gaps a fair value
+00:02:47  Gap occurs when a candle forms a
+00:02:49  significant Gap due to an imbalance of
+00:02:52  buying or selling to find a fair value
+00:02:54  Gap you first need to find a candle with
+00:02:56  a large body then draw a rectangle at
+00:02:58  the Gap place between the previous
+00:03:00  candles swick and the next candles swick
+00:03:03  this level now acts as a potential
+00:03:05  magnet where price May revisit before
+00:03:07  continuing its
+00:03:09  movement Candlestick patterns it is a
+00:03:13  technique that Traders use to analyze
+00:03:14  future price movements by looking at
+00:03:17  specific Candlestick shapes notable
+00:03:19  Candlestick patterns include engulfing
+00:03:21  patterns which signal strong momentum
+00:03:23  towards the direction of the engulfing
+00:03:24  candle hammer and shooting star patterns
+00:03:27  which indicates rejection as shown by
+00:03:29  the long Wick on one side DOI patterns
+00:03:32  which signals neutrality in the market
+00:03:35  ha kanashi it is an indicator that fully
+00:03:38  replaces a traditional Candlestick chart
+00:03:40  to a hinachi chart when applied it tends
+00:03:43  to give less noise than a traditional
+00:03:45  Candlestick a green hinachi candle
+00:03:47  signals that the price is on an uptrend
+00:03:50  and a red HK kanashi candle signals that
+00:03:52  the price is on a downtrend the size of
+00:03:54  the candle's body also indicates how
+00:03:56  strong a trend is the larger the candle
+00:03:58  the stronger the trend keep in mind that
+00:04:00  the ha kanashi only acts as an indicator
+00:04:02  it does not display the real market
+00:04:04  price moon phases it is a concept that
+00:04:08  utilizes moon cycles to time the market
+00:04:11  moon face Traders believe that Moon
+00:04:12  cycles are correlated with human
+00:04:14  emotions and behavior which could have
+00:04:16  an influence on the market specific Moon
+00:04:18  phases are believed to be favorable
+00:04:20  towards a certain Trend a new moon means
+00:04:23  the market tends to be bullish and a
+00:04:25  full moon means the market tends to be
+00:04:27  bearish today it is used mostly As as a
+00:04:29  confirmation tool
+00:04:32  ranko it replaces a traditional
+00:04:34  Candlestick chart to a ranco chart so
+00:04:37  unlike a traditional Candlestick which
+00:04:39  forms a new candle based on a certain
+00:04:41  period of time a ranco chart forms its
+00:04:43  block based on the change of price for
+00:04:46  example every 1% change in price a
+00:04:49  wrinkle block appears this means that
+00:04:51  each wrinkle block represents a 1%
+00:04:54  change in price of course you can change
+00:04:56  the parameters of this through the
+00:04:57  indicator settings Traders could utilize
+00:05:00  ranco Tarts to filter out noise and
+00:05:01  identify Trends a Green rankle Block
+00:05:04  signals an uptrend and a red rankle
+00:05:06  block signals a downtrend and keep in
+00:05:08  mind that Rano charts only acts as an
+00:05:10  indicator it does not display the real
+00:05:13  market price harmonic patterns these are
+00:05:16  Advanced price patterns that follows a
+00:05:18  specific shape based on Fibonacci
+00:05:20  numbers Traders can then use these
+00:05:22  specific shapes to predict future price
+00:05:24  movements for example a bullish bad
+00:05:26  pattern is formed when price makes a
+00:05:28  series of four movements ments that is
+00:05:30  shaped like the letter M each point can
+00:05:32  be labeled as x a b c and d and each of
+00:05:35  these points has a specific guideline
+00:05:37  for example point x to point B needs to
+00:05:40  have a value between 0.382 and 0.5 point
+00:05:43  a to c needs to have a value between
+00:05:46  0.382 and
+00:05:48  0.886 and the same thing works for the
+00:05:50  other points next these specific
+00:05:52  guidelines can then be applied onto a
+00:05:54  real chart so if you see a price forming
+00:05:57  a series of four movements you can apply
+00:05:59  the har monic pattern tool to check if
+00:06:00  the price that formed matches a patterns
+00:06:04  guideline if it does then you can take a
+00:06:06  position based on the pattern that
+00:06:09  formed there are multiple harmonic
+00:06:11  patterns that exist most notable are
+00:06:13  butterfly bat crab and each have their
+00:06:17  own unique values support and resistance
+00:06:21  these are key levels that formed
+00:06:22  horizontally where the price has bounced
+00:06:24  off in the past and could possibly
+00:06:26  bounce again in the future if the level
+00:06:28  is below the Price It's called support
+00:06:31  where you can take a buy position if the
+00:06:33  price approaches it and if the level is
+00:06:35  above the price it's called resistance
+00:06:37  where you can take a sell position if
+00:06:38  the price approaches it Dynamic support
+00:06:41  and resistance similar to support and
+00:06:44  resistance Dynamic support and
+00:06:45  resistance also acts as key levels but
+00:06:48  instead of using static horizontal lines
+00:06:50  it uses indicators like the moving
+00:06:52  average to act as our key level trend
+00:06:55  lines trend lines are key levels that
+00:06:57  form diagonally during a trend Market
+00:07:00  you can use trend lines to identify the
+00:07:02  overall direction of the price upwards
+00:07:04  trend line means bullish downwards trend
+00:07:06  line means bearish and similar to
+00:07:08  support and resistance you can also use
+00:07:10  the trend line to identify possible
+00:07:12  entry scenarios for example if price
+00:07:15  retraces back to a trend line it can be
+00:07:17  a good opportunity to take a buy
+00:07:20  position gone angles it is a tool that
+00:07:23  displays multiple lines that spread
+00:07:26  continuously on different angles these
+00:07:28  lines can then act as possible key
+00:07:30  levels and could also help you measure
+00:07:31  the strength of a trend price moving
+00:07:33  within the Steep angles of the tool
+00:07:35  indicates a strong Trend and price
+00:07:37  moving within the shallow angles of the
+00:07:39  tool indicates a weak Trend to apply the
+00:07:42  Gan angles first you go to settings then
+00:07:45  make sure to check the lock price to Bar
+00:07:47  ratio next identify a market range and
+00:07:51  mark the swing low and the swing highs
+00:07:52  of that range then draw a straight
+00:07:55  vertical line at the start of the range
+00:07:57  after that select the trend angle tool
+00:08:00  and measure
+00:08:02  45° then use the gun fan tool and place
+00:08:05  it at the 45°
+00:08:08  angle momentum indicators these are the
+00:08:11  types of indicator that measures the
+00:08:13  direction and strength of a trend it is
+00:08:15  most effective when used in trending
+00:08:17  markets some of the most notable
+00:08:18  momentum indicators are macd an upwards
+00:08:21  crossover indicates a bullish Trend
+00:08:23  while a downwards crossover indicates a
+00:08:25  bearish trend moving averages price
+00:08:28  being above the moving average signals a
+00:08:30  bullish Trend and price being below
+00:08:32  signals a bearish trend parabolic are a
+00:08:35  DOT below the price indicates a bullish
+00:08:37  Trend and a DOT above the price
+00:08:39  indicates a bearish trend super Trend
+00:08:42  green signal indicates a bullish Trend
+00:08:44  and a red signal indicates a bearish
+00:08:46  trend
+00:08:48  oscillators these are the types of
+00:08:50  indicator that displays the relative
+00:08:51  strength of a price it is most effective
+00:08:54  when used on choppy or sideways markets
+00:08:56  most notable oscillators include RSI
+00:08:59  when the line is in the oversold region
+00:09:01  it indicates a possible reversal to the
+00:09:03  upside if it's in the overbought region
+00:09:05  it indicates a possible reversal to the
+00:09:07  downside stochastic if both lines are at
+00:09:10  oversold it signals a possible reversal
+00:09:13  to the upside and if both lines are at
+00:09:15  overbought it signals a possible
+00:09:17  reversal to the downside these two lines
+00:09:19  can also cross over each other to
+00:09:21  predict future price movements
+00:09:23  divergences divergences occur when an
+00:09:25  indicator displays an opposite signal of
+00:09:27  the real price movement when this
+00:09:29  happens it is usually a sign that the
+00:09:31  trend might reverse divergences could
+00:09:34  occur in many indicators such as the
+00:09:35  macd stochastic and the RSI for example
+00:09:40  here using the macd indicator you can
+00:09:42  see that the price is forming higher
+00:09:44  highs which is bullish but the indicator
+00:09:46  shows the opposite a lower highs which
+00:09:49  is bearish in this case this is a
+00:09:51  bearish Divergence which signals that
+00:09:53  the price may form a reversal and so you
+00:09:55  can take a sell position
+00:09:59  volume indicators these are types of
+00:10:02  indicator that shows the strength behind
+00:10:04  a price Movement by tracking the trading
+00:10:06  volume notable volume indicators include
+00:10:09  price volume which displays the volume
+00:10:11  for each candle the longer the bar the
+00:10:13  higher the volume volume weighted
+00:10:15  average price which shows the ratio of
+00:10:17  an asset's price to its total volume it
+00:10:20  can be traded like a moving average or
+00:10:22  as a dynamic support and resistance
+00:10:24  volume profiles it displays a volume bar
+00:10:27  horizontally which can be treated as key
+00:10:29  levels for potential entry
+00:10:31  positions supply and demand also
+00:10:34  referred to as order blocks these are
+00:10:37  zones where significant price movements
+00:10:39  have occurred if price moves
+00:10:40  significantly upwards from a level it is
+00:10:43  considered a demand Zone and if price
+00:10:45  moves significantly downwards from a
+00:10:47  level it is considered a supply Zone
+00:10:49  just like support and resistance these
+00:10:51  zones can be treated as key levels for
+00:10:53  potential entry
+00:10:55  positions Market structure Market
+00:10:57  structure is when Trader anal izes the
+00:10:59  behavior condition and flow of the
+00:11:02  market an uptrend structure is
+00:11:04  characterized by Price forming higher
+00:11:06  highs and higher lows while downtrend
+00:11:08  structure is characterized by Price
+00:11:10  forming lower highs and lower
+00:11:12  lows break of structure it is when price
+00:11:16  breaks the previous price Peak during a
+00:11:18  trend for example if the price forms a
+00:11:21  higher highs and higher lows this break
+00:11:23  of the previous highs is called Break of
+00:11:25  structure change of character it occurs
+00:11:28  when price breaks the previous structure
+00:11:30  during a trend often signaling a
+00:11:32  reversal from that current trend for
+00:11:35  example if the price is forming higher
+00:11:37  highs and higher lows then it breaks the
+00:11:39  previous lows forming lower lows this is
+00:11:41  called a change of character so did I
+00:11:44  miss any strategy let me know in the
+00:11:46  comments below and if you find this
+00:11:48  enjoyable kindly do a small favor by
+00:11:50  liking the video and subscribe to the
+00:11:52  channel it only takes two clicks but it
+00:11:54  means so much to me you can also check
+00:11:56  out my other videos as well so thank you
+00:11:58  for watching and I'll see you see you in
+00:11:59  the next video

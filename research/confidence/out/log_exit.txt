@@ -1,0 +1,37 @@
+[23:36:48] === stage exit
+[23:36:49] exit pooled: 2,339,456 rows
+  exit vote fold 2013: n_train=326929 n_test=128390 thr=0.7595 auc=0.536
+  exit vote fold 2014: n_train=454971 n_test=124937 thr=0.7725 auc=0.551
+  exit vote fold 2015: n_train=580670 n_test=127095 thr=0.7882 auc=0.549
+  exit vote fold 2016: n_train=707094 n_test=125611 thr=0.8386 auc=0.537
+  exit vote fold 2017: n_train=833376 n_test=129525 thr=0.7859 auc=0.536
+  exit vote fold 2018: n_train=962901 n_test=190423 thr=0.7655 auc=0.540
+  exit vote fold 2019: n_train=1152496 n_test=182571 thr=0.8364 auc=0.532
+  exit vote fold 2020: n_train=1335268 n_test=191115 thr=0.8044 auc=0.526
+  exit vote fold 2021: n_train=1526333 n_test=184634 thr=0.8749 auc=0.544
+  exit vote fold 2022: n_train=1710961 n_test=180489 thr=0.8625 auc=0.539
+  exit vote fold 2023: n_train=1892133 n_test=174842 thr=0.8605 auc=0.543
+  exit vote fold 2024: n_train=2066975 n_test=182509 thr=0.8471 auc=0.539
+  exit vote fold 2025H1: n_train=2248720 n_test=89972 thr=0.8173 auc=0.543
+[23:37:43] exit pooled vote: done in 51s  AUC 0.539, exit share 65.5%, gain +0.061 $/trade vs hold; random +0.084, opp -0.068; net learned +3.18 vs hold +3.12
+  exit logit fold 2013: n_train=326929 n_test=128390 thr=0.9038 auc=0.666
+  exit logit fold 2014: n_train=454971 n_test=124937 thr=0.8077 auc=0.674
+  exit logit fold 2015: n_train=580670 n_test=127095 thr=0.8347 auc=0.663
+  exit logit fold 2016: n_train=707094 n_test=125611 thr=0.9181 auc=0.666
+  exit logit fold 2017: n_train=833376 n_test=129525 thr=0.9256 auc=0.664
+  exit logit fold 2018: n_train=962901 n_test=190423 thr=0.9305 auc=0.655
+  exit logit fold 2019: n_train=1152496 n_test=182571 thr=0.8922 auc=0.656
+  exit logit fold 2020: n_train=1335268 n_test=191115 thr=0.9057 auc=0.639
+  exit logit fold 2021: n_train=1526333 n_test=184634 thr=0.9684 auc=0.662
+  exit logit fold 2022: n_train=1710961 n_test=180489 thr=0.9391 auc=0.664
+  exit logit fold 2023: n_train=1892133 n_test=174842 thr=0.8674 auc=0.663
+  exit logit fold 2024: n_train=2066975 n_test=182509 thr=0.8691 auc=0.663
+  exit logit fold 2025H1: n_train=2248720 n_test=89972 thr=0.7780 auc=0.649
+[23:56:23] exit pooled logit: done in 1115s  AUC 0.660, exit share 70.7%, gain +0.330 $/trade vs hold; random +0.102, opp -0.068; net learned +3.45 vs hold +3.12
+  exit gbm fold 2013: n_train=326929 n_test=128390 thr=0.9395 auc=0.675
+  exit gbm fold 2014: n_train=454971 n_test=124937 thr=0.9399 auc=0.675
+  exit gbm fold 2015: n_train=580670 n_test=127095 thr=0.9302 auc=0.673
+  exit gbm fold 2016: n_train=707094 n_test=125611 thr=0.9667 auc=0.672
+  exit gbm fold 2017: n_train=833376 n_test=129525 thr=0.9655 auc=0.671
+  exit gbm fold 2018: n_train=962901 n_test=190423 thr=0.8626 auc=0.659
+  exit gbm fold 2019: n_train=1152496 n_test=182571 thr=0.9095 auc=0.661

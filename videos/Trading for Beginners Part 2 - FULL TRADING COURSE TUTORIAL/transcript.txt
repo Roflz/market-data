@@ -1,0 +1,2641 @@
+00:00:00  all right guys welcome back this is part
+00:00:02  two of trading for beginners part one
+00:00:05  has literally had millions of views so
+00:00:08  there's no doubt in the value that
+00:00:10  people get from that video and if you
+00:00:12  haven't already watched that I recommend
+00:00:13  you go and watch that one before you
+00:00:14  watch this one the purpose and the
+00:00:17  objective of this series is to get you
+00:00:20  to consistently profitable trading
+00:00:21  without having to blow your money and
+00:00:23  put tons and thousands of pounds into
+00:00:26  some Guru or some scammer is just going
+00:00:28  to take your money not really give you
+00:00:30  the value I'm really trying to teach you
+00:00:31  to fish yourself here so that you don't
+00:00:34  so you can actually grow your money and
+00:00:36  not lose it the whole point of Financial
+00:00:38  Freedom and wealth creation is to grow
+00:00:40  your money and not give it away or blow
+00:00:42  it in these silly kind of schemes and
+00:00:44  things like that so the purpose and the
+00:00:46  objective for this one this particular
+00:00:48  video is applying everything you learned
+00:00:51  in the first one and now I'm gonna delve
+00:00:53  into strategy development I'm going to
+00:00:56  go into the ins and outs of some very
+00:00:58  very powerful tools and some platforms
+00:01:00  that you can use to now take that
+00:01:03  forward and develop as a Trader and
+00:01:05  build a strategy and actually start
+00:01:07  trading and bringing in some decent
+00:01:09  income so that's the goal for this and
+00:01:12  before I get into that the prerequisites
+00:01:14  are really go and watch part one if you
+00:01:17  haven't already watched part one if you
+00:01:18  have watched part one already then you
+00:01:21  should you know have the account open
+00:01:23  the broker account and everything like
+00:01:25  that you should have got the back
+00:01:26  testing spreadsheet and everything and
+00:01:28  if you haven't the links are in this
+00:01:29  video below as well the next
+00:01:31  prerequisite is subscribe to the channel
+00:01:33  subscribe to the channel and let us know
+00:01:35  in the comments that you're here I do
+00:01:38  reply to every comment and I love to see
+00:01:40  who's following along and who's here for
+00:01:42  the first time or who's following the
+00:01:44  whole series and also make sure that you
+00:01:47  hit the bookmark this video okay so
+00:01:49  bookmark the videos so that you can keep
+00:01:51  coming back to it this is going to be
+00:01:53  another one that you're going to want to
+00:01:54  watch multiple times the first one was
+00:01:56  watch multiple times and this is going
+00:01:58  to be the same and you might also can
+00:01:59  consider downloading the video onto your
+00:02:02  device if you're traveling it's great
+00:02:04  for that if you're on a flight or you
+00:02:06  buy the beach or somewhere with no
+00:02:07  signal you've got it there on your phone
+00:02:09  or on your iPad or on your device to
+00:02:11  watch over and over again as you please
+00:02:13  so that's the prerequisites and there's
+00:02:16  another one which is Beware of the
+00:02:18  scammers there are scammy accounts
+00:02:20  unfortunately there's accounts replying
+00:02:22  to fake comments with my logo my picture
+00:02:25  and it's not me the only comments below
+00:02:28  should say Creator next to it or with a
+00:02:32  with a verified badge next to it so that
+00:02:35  that's the only comments that are coming
+00:02:36  from me if you're getting asked to
+00:02:38  Whatsapp or telegram or anything like
+00:02:40  that or you're getting fake stories of
+00:02:42  results that is not me or my team or
+00:02:45  anyone here remember I want you to grow
+00:02:47  your money not give it away
+00:02:49  so with that said if you have watched
+00:02:53  part one and you're here welcome back
+00:02:55  buckle up uh it's gonna be another long
+00:02:57  one so you're in for a treat we're in
+00:03:00  for a long ride here
+00:03:01  um and you can also play along you
+00:03:03  should have the account open if you've
+00:03:04  got the account open now on the broker
+00:03:06  account and everything go and do that
+00:03:08  now if you haven't but if you have you
+00:03:09  can literally play along as we go and
+00:03:12  you're going to get through this thing
+00:03:13  with very very efficient results one
+00:03:16  final thing to say is the video is cut
+00:03:18  into chapters and I've timelined all
+00:03:20  those chapters so that you can quickly
+00:03:22  navigate back to bits that you found
+00:03:24  interesting
+00:03:26  um or more relevant to you but we're
+00:03:28  going to go through strategy we're going
+00:03:30  to go through in-depth trading platform
+00:03:33  stuff I'm going to talk about testing
+00:03:34  and journaling in particular I'm going
+00:03:36  to touch on that as well I'm going to
+00:03:37  talk about fees I'm going to talk about
+00:03:39  scaling your wealth via trading and
+00:03:42  really just cover off all of the
+00:03:44  questions that people had from the first
+00:03:46  video part one so hopefully I cover
+00:03:49  everything that you want to see if I
+00:03:52  don't then let me know in the comments
+00:03:53  if you've got any questions and as
+00:03:54  always I'll answer my best as best I can
+00:03:57  let's get stuck in all right so what I'm
+00:03:59  going to do now is get stuck straight
+00:04:00  into giving you guys some Rules of
+00:04:03  Engagement into an actual strategy that
+00:04:05  you can go and test and trade because in
+00:04:08  the last part one we went through kind
+00:04:11  of the concepts and principles of
+00:04:12  developing a strategy and what it was
+00:04:14  made up of and many of you went away and
+00:04:16  and had great results with that and
+00:04:19  particularly those of you guys that went
+00:04:20  on to the 30-day Trader challenge mind
+00:04:23  was blown how much you know how
+00:04:25  fantastic you guys did on that challenge
+00:04:28  um but what I want to do is give you a
+00:04:30  place to start up because sometimes you
+00:04:33  can say well I don't really know where
+00:04:35  to start and you don't know what you
+00:04:36  don't know so sometimes you just need a
+00:04:39  strategy as a basis so that you can put
+00:04:42  the Reps in get the practice behind you
+00:04:44  of how to go and use this stuff what I
+00:04:47  will say though is no one ever became
+00:04:50  consistently profitable by taking a
+00:04:52  strategy from someone and then just
+00:04:54  going a Trader exactly how it was and
+00:04:56  I'll say that now because you can give
+00:04:58  the most profitable strategy to two
+00:05:00  different Traders one will make money
+00:05:01  with it and the other won't and the
+00:05:03  reason being is because everyone's got
+00:05:04  different eyes everyone's got different
+00:05:06  personalities and and you want to pick a
+00:05:09  strategy that suits you your time frame
+00:05:12  when you can trade it and all the rest
+00:05:14  of it right so what I'm going to share
+00:05:16  with you now is a very very simple Trend
+00:05:19  strategy that anyone can do it's on the
+00:05:23  daily time frame so the higher time
+00:05:25  frame and it's something that you can
+00:05:27  spend very little time doing but have
+00:05:31  have amazing results with this strategy
+00:05:34  alone has been capable of bringing me in
+00:05:37  a great income on its own uh so I'm
+00:05:40  excited to share it with you so let's
+00:05:43  talk about the Rules of Engagement first
+00:05:45  and then what I'll do is show you some
+00:05:47  real live examples on the charts because
+00:05:48  we know that they are a little bit
+00:05:50  different when you go into the live
+00:05:52  markets the theory is all great but when
+00:05:54  you see the live charts it's a different
+00:05:55  story so first things first we're going
+00:05:57  to look at the identify phase okay now
+00:06:01  we're looking at the daily time frames
+00:06:03  here
+00:06:04  and we know that markets move in Cycles
+00:06:07  we learned this in part one we've got
+00:06:09  phase one phase two phase one phase two
+00:06:11  and when we're in a trend an upward
+00:06:13  Trend uh we get the runs and the
+00:06:16  pullbacks this trade strategy that I'm
+00:06:19  about to share with you we're interested
+00:06:21  in those pullbacks okay so you want to
+00:06:25  think of this if then syntax going on
+00:06:28  it's if then right so if we are in Phase
+00:06:31  One this is not a trade for you if we're
+00:06:33  in phase two and we've got a pullback
+00:06:35  that's when we start looking for this
+00:06:38  particular setup and in a bullish setup
+00:06:41  we're looking for the pool back down and
+00:06:43  in a bearish setup we're looking for a
+00:06:45  pullback up in the phase twos make sense
+00:06:48  pretty simple right
+00:06:50  another filter that we want to look for
+00:06:53  is if we're at previous structure
+00:06:56  support and that becomes resistance or
+00:06:58  previous structure resistance becomes
+00:07:00  support that could be an additional
+00:07:02  filter that we add into this strategy to
+00:07:04  make it even more high high strike rate
+00:07:07  basically a higher probability setup now
+00:07:10  you can go and test this on lots of
+00:07:12  different markets every different Market
+00:07:13  I've tested it on a handful of markets
+00:07:15  of which I trade it on
+00:07:17  um and I've tweaked my portfolio to suit
+00:07:21  but go and test this on any of the major
+00:07:25  markets or any any indices or anything
+00:07:27  that you want to trade it on really
+00:07:28  stock market and you'll you'll find
+00:07:32  phenomenal results I'm sure so first
+00:07:34  things first we just want to identify
+00:07:36  what phase we're looking for and we know
+00:07:38  now that we're looking for the pullback
+00:07:40  in a bullish or bearish Market to catch
+00:07:43  that continuation to catch that next run
+00:07:45  so the next thing we want to do is
+00:07:47  predict where Market's likely to go
+00:07:48  right now a great predictor that gives
+00:07:51  you a high probability prediction that
+00:07:53  markets likely to go and continue in the
+00:07:57  direction that it's the prevailing trend
+00:07:59  is exponential moving averages I touched
+00:08:02  on this in part one but in part two I'm
+00:08:04  going to be sharing and I'm going to
+00:08:05  show you how to set all these up in a
+00:08:07  minute but I want to share with you
+00:08:09  three powerful exponential moving
+00:08:12  averages and the reason I like to use
+00:08:14  exponential moving averages rather than
+00:08:15  standard moving averages just as a quick
+00:08:18  now is
+00:08:19  they're faster reacting so you get that
+00:08:22  feedback quicker because all of these
+00:08:24  indicators are lagging anyway so what I
+00:08:27  do like to do is use an exponential
+00:08:28  moving average because it's faster
+00:08:30  acting and also I like to use three of
+00:08:33  them because when all three of them are
+00:08:36  in Confluence and say the same thing and
+00:08:38  there's congruency between all three
+00:08:41  that's a very very powerful way to use
+00:08:43  these filters into a high probability
+00:08:45  prediction so if we're looking at the
+00:08:49  pullback we want to predict that the
+00:08:51  Market's likely to carry on with that
+00:08:53  extension using exponential moving
+00:08:55  averages is a great way to do that and
+00:08:57  I'm going to be using the eight
+00:08:58  exponential moving average the 20 and
+00:09:01  the 50 and it's always a good idea to
+00:09:03  color those different colors so you can
+00:09:06  easily identify which ones which for
+00:09:08  this strategy and other strategies don't
+00:09:10  worry too much about that at the moment
+00:09:11  I'm going to show you exactly how to
+00:09:12  settle this up just for now just take
+00:09:15  the notes right so so far identify
+00:09:17  bullish or bearish Trend second and look
+00:09:20  for the pullback in a bullish or bearish
+00:09:22  Trend third
+00:09:24  consider using exponential moving
+00:09:27  averages 8 20 and 50. and in fact don't
+00:09:30  consider using them use them for this
+00:09:32  particular strategy so what that looks
+00:09:35  like here is we're looking for a Fanning
+00:09:38  effect where the eight has to be before
+00:09:41  the 20 and the 20 has to be above the 50
+00:09:45  in a bullish Trend or in a bearish trend
+00:09:47  the eight has to be below the 20 and the
+00:09:50  20 has to be below the 50 in other words
+00:09:52  the 8 has to be nearest to price
+00:09:55  and the 20 has to be second closest to
+00:09:58  price and then the 50 has to be uh the
+00:10:01  third closest to price I've shown it a
+00:10:03  very very simple diagram here that
+00:10:06  should be very easy to understand we
+00:10:08  want this nice Fanning effect the more
+00:10:10  that they fan out the higher probability
+00:10:13  that the trend is strengthening and is
+00:10:16  going to continue in that direction okay
+00:10:18  so something that wouldn't be valid is
+00:10:21  this can you see where we've got the
+00:10:23  pullback here and they've started to
+00:10:25  cross over that wouldn't be valid
+00:10:27  whereas this one would have been all
+00:10:29  right so we're looking for the pullback
+00:10:31  we're looking for the 8 the 20 the 50 in
+00:10:34  that order eight being closest to price
+00:10:36  then 20 then 50 and when they start
+00:10:38  crossing over like this that is an
+00:10:40  invalid setup we don't want to look at a
+00:10:42  pullback at all or look at a setup at
+00:10:44  all when the exponential moving averages
+00:10:47  are crossing like this because that
+00:10:48  means that there could be a reversal
+00:10:49  very soon or a lot of consolidation
+00:10:52  meaning you'll be in the trade for
+00:10:54  longer than you need to be all right so
+00:10:56  identify predict the next part is decide
+00:10:59  how do we decide
+00:11:01  to get involved to start engaging in the
+00:11:03  setup because we we've identified the
+00:11:05  trend we've identified the pullback
+00:11:07  we've now
+00:11:09  um you know predicted that the Market's
+00:11:11  likely to continue by using our
+00:11:13  exponential moving averages to give us a
+00:11:15  bit of confidence that we're likely to
+00:11:17  uh you know go in the direction of
+00:11:19  prevailing Trend now we just need to
+00:11:21  decide how we can get involved and what
+00:11:25  we're looking for is particular price
+00:11:27  action patterns okay so we're looking
+00:11:29  remember I went through the price action
+00:11:31  patterns in part one the six principles
+00:11:33  of price
+00:11:34  price action patterns can be a doji
+00:11:36  candle or a high test Wick candle this
+00:11:39  particular strategy what we're looking
+00:11:40  for is when we're in a bearish setup
+00:11:44  we're looking for the open and the close
+00:11:46  to be in the lower 30 of the entire
+00:11:50  candle body all right
+00:11:53  now I know this is a lot to take in and
+00:11:54  you're going to want to re-watch but I
+00:11:56  encourage you to keep re-watching until
+00:11:57  you understand this
+00:11:59  all right so you just want
+00:12:02  if we're looking for
+00:12:04  um a pullback and looking for a
+00:12:06  continuation bearish we want to know
+00:12:09  that the the prices extended up remember
+00:12:11  that tug of war and then pushed and been
+00:12:14  rejected all the way down so we've
+00:12:16  opened and closed in the lower 30 as per
+00:12:19  this diagram right here okay
+00:12:22  um we also want to make sure and we can
+00:12:24  use this we can use the Fibonacci tours
+00:12:27  I showed you in the last video how to
+00:12:29  measure using Fibonacci tools you can
+00:12:31  set up your Fibonacci tool to have a 30
+00:12:33  measure on there 50 measure some people
+00:12:36  like 50 some people like
+00:12:38  33.3 as in a third I like to be below
+00:12:42  the 30 okay so open and close in the
+00:12:45  lower 30 of the entire candle body now
+00:12:48  you might develop this and have rules
+00:12:50  for the length of the wick and all the
+00:12:52  rest of it and I encourage you to build
+00:12:54  those rules later on but for now to get
+00:12:58  used to this strategy I want you
+00:12:59  following along just as exactly as I'm
+00:13:01  giving it to you here now in a bullish
+00:13:04  setup where we're looking for a pullback
+00:13:06  down and then catching the uh the run to
+00:13:09  the upside we obviously want to look for
+00:13:12  bullish candles which means that open
+00:13:14  and the close needs to be in the upper
+00:13:16  30 not the lower 30 and the same rules
+00:13:20  apply okay so as a very basic diagram it
+00:13:23  will look something like this in a
+00:13:25  bullish setup we wait for the pullback
+00:13:27  we want to find one of those candles
+00:13:29  that price action pattern right at that
+00:13:32  pullback around that that zone where the
+00:13:34  eight moving average is which I'll
+00:13:36  explain more in a minute so around these
+00:13:38  zones remember we never catch the bottom
+00:13:40  and sell the top very rarely can we do
+00:13:43  that on a consistent basis but this is
+00:13:46  going to provide you a darn good uh
+00:13:48  close try at that all right about as
+00:13:51  good as it gets so we want to look for
+00:13:53  this Candlestick pattern around this
+00:13:56  Zone in a bullish market and then in a
+00:13:58  bearish market of course you want to
+00:14:00  look for it on the pool back up open and
+00:14:02  close of the candle in the lower 30 of
+00:14:05  the body and here open and close in the
+00:14:08  lower upper 30 of the body makes sense
+00:14:12  cool now
+00:14:14  if we're looking for a bearish setup
+00:14:16  here's the rules for the eight okay so
+00:14:20  we know that our exponential moving
+00:14:21  averages need to be Fanning out and in
+00:14:23  order so that's why we use three of them
+00:14:25  but the only actual exponential moving
+00:14:28  average we use for the signal for the
+00:14:31  decide part is the eight which is the
+00:14:33  one closest to price if you remember so
+00:14:35  what we're looking for is our candle our
+00:14:38  price action pattern that we're using to
+00:14:39  decide to get in
+00:14:41  um to be either touching it has to
+00:14:44  either touch or be above the eight
+00:14:48  exponential moving average in a bearish
+00:14:50  setup in a bullish setup it's the
+00:14:53  opposite the price action pattern that
+00:14:56  we're looking for with the open and the
+00:14:58  close in the upper 30 of the candle
+00:15:00  needs to either touch or be below the
+00:15:04  eight exponential moving average okay I
+00:15:07  won't repeat it for the sake of keeping
+00:15:09  this video not as long as it needs you
+00:15:11  know as short as possible but you get
+00:15:14  the point and re-watch it if you need to
+00:15:17  so for instance this candle here would
+00:15:20  be valid in a bearish setup because we
+00:15:22  touched it this one would be valid
+00:15:24  because we touched it this one would be
+00:15:26  valid because it's above it
+00:15:28  this one wouldn't be valid because it
+00:15:31  hasn't touched it or isn't above it all
+00:15:33  right and in a bullish setup we touch it
+00:15:35  here so that's tick we touch it here
+00:15:38  good to go we are below it here so
+00:15:41  that's good to go uh which is of course
+00:15:43  it would have touched it at some point
+00:15:45  and then this one here is not valid
+00:15:47  because we haven't touched it and we're
+00:15:49  not below it in a bullish setup makes
+00:15:51  sense very very easy very simple to
+00:15:54  understand now it's time to execute so
+00:15:57  we've identified the trend we've
+00:15:59  identified the pullback we've just saw
+00:16:01  we've predicted that markets got a
+00:16:03  higher probability of extending on in
+00:16:05  direction of our prediction because of
+00:16:08  the exponential moving average
+00:16:09  Confluence and the power behind using
+00:16:12  all three we've then decided how to get
+00:16:14  involved by waiting for a certain price
+00:16:17  action pattern to play out now we have
+00:16:19  to execute the trade okay so here's some
+00:16:22  real examples in a real chart now as you
+00:16:27  can see every single one of these
+00:16:29  candles is a setup so you can see at the
+00:16:33  top left here we've got
+00:16:34  um this candle here now you might be
+00:16:37  asking well this one looks a little bit
+00:16:39  like one well either it wasn't in the 30
+00:16:43  or we didn't trigger into the trade on
+00:16:47  the next candle therefore we went to the
+00:16:50  next candle I'll explain more about that
+00:16:52  in a moment right but essentially all of
+00:16:53  these signals are entry signals that
+00:16:57  I've told you about you can see the
+00:16:59  eight exponential moving average this
+00:17:01  one touched it right this one touched it
+00:17:04  now this one might not be in the uh
+00:17:06  lower 30 again I've shown some other
+00:17:09  examples where some people like to use a
+00:17:11  50. just bear in mind if you use a 50
+00:17:13  you're not going to have as higher
+00:17:15  strike rate okay you're not going to
+00:17:17  have as high quality setups
+00:17:19  um you can see one here you can see one
+00:17:21  here you can see one here and these are
+00:17:23  what the price action patterns look like
+00:17:24  touching or being above that exponential
+00:17:27  eight moving average in a bearish trend
+00:17:31  Okay so
+00:17:33  first things first when we get our entry
+00:17:36  signal we're going to use this one as an
+00:17:38  example and this is a bench test
+00:17:39  remember
+00:17:41  um we're basically we get our signal and
+00:17:44  we want once the signal is closed okay
+00:17:46  so this will be on the changeover of the
+00:17:49  daily Market this is the daily time
+00:17:51  frame once we get the signal and we pull
+00:17:54  back into the eight eight moving average
+00:17:56  what we want to do here is we want to
+00:17:59  set a cell stop order now remember what
+00:18:02  a sell stop order is a sell stop order
+00:18:05  is an order that won't trigger until
+00:18:09  price action pushes lower to that to
+00:18:13  that point that you've positioned that
+00:18:14  order and starts trading lower than the
+00:18:17  price it's currently trading so it's an
+00:18:19  instruction to your broker to say if we
+00:18:21  push lower to this price point here
+00:18:24  which is lower than we're currently
+00:18:26  trading please enter me into this
+00:18:28  position all right and then you're going
+00:18:29  to enter your position and you're gonna
+00:18:31  get in okay so your sell stop order goes
+00:18:34  in once the candle's closed why do we
+00:18:36  have to wait for it to close well we
+00:18:38  have to wait for it to close because it
+00:18:40  might not be a valid candle right if you
+00:18:43  wait five ten minutes it might not close
+00:18:45  in the lower 30 percent so you have to
+00:18:48  wait for it to close in the UK
+00:18:51  that is around 10 p.m at night or it's
+00:18:54  at 10 p.m at night in in New York it's 5
+00:18:57  p.m in the afternoon
+00:18:59  um and anywhere in between right so you
+00:19:01  have to Google what is 5 p.m Eastern
+00:19:05  Standard Time in my country in my town
+00:19:07  and you'll get the time that the
+00:19:09  crossover happens okay
+00:19:12  um so because it's worldwide so once the
+00:19:14  candle sets up the execution is you put
+00:19:17  a sell stop order two Pips below the low
+00:19:20  of that signal candle all right so if
+00:19:24  this closed at zero point one zero zero
+00:19:30  zero you put the sell stop order at
+00:19:33  um naught point
+00:19:36  998 or something right okay so it's two
+00:19:39  Pips below the actual glow of this not
+00:19:44  the close the low so all you do is you
+00:19:46  bring on your
+00:19:48  um cross hair you hover it over that
+00:19:50  signal candle and you say right okay
+00:19:52  that uh the low of that candle was one
+00:19:57  dollar flat therefore my sell stop order
+00:19:59  needs to go at naught point nine nine
+00:20:04  nine eight right two Pips below you get
+00:20:07  the point so two Pips below for the sell
+00:20:09  stop order now you can see once you get
+00:20:11  triggered into that
+00:20:13  you're going to want to set a buy stop
+00:20:15  order which is going to be used as your
+00:20:17  stop loss remember stop loss is just a
+00:20:19  terminology for an order it's not an
+00:20:22  actual order like order type it's a a
+00:20:26  terminology all of these orders can be
+00:20:28  used as a stop loss we're using a buy
+00:20:31  stop which is the opposite of a sell
+00:20:32  stop because it tells the broker that
+00:20:35  okay now I'm in the trade if we push up
+00:20:37  to this price higher than we're
+00:20:39  currently trading I've accepted I'm
+00:20:41  wrong I want to buy back my position
+00:20:43  easy right so sell stop order to get in
+00:20:47  buy stop order you guessed it goes two
+00:20:50  Pips above the high of the signal candle
+00:20:53  okay so you can see this is below the
+00:20:56  low this is above the high and now we're
+00:20:58  in the trade we've been triggered in the
+00:21:00  trade by the following day so the last
+00:21:02  order we need to set is the target order
+00:21:05  now you can have fun with this and go
+00:21:08  two to one three to one trades but what
+00:21:10  I'm going to give you as a you know
+00:21:13  initial Target placement some of you
+00:21:16  might set multiple Targets on this but
+00:21:19  what you want to do as an initial uh
+00:21:21  Target is just go for a one to one okay
+00:21:23  it's a simple way to test it because
+00:21:25  that's gonna you'll probably find the
+00:21:27  most conservative and possibly the worst
+00:21:31  results doing that but you're going to
+00:21:33  have somewhere to start knowing that it
+00:21:35  can only get better because now you can
+00:21:37  start looking at multiple targets or
+00:21:40  um you know two to one Etc but what I've
+00:21:44  found is this is a very profitable
+00:21:45  system just trading a one-to-one anyway
+00:21:47  because the strike rate's so high
+00:21:49  particularly if you're using the
+00:21:51  exponential moving averages the 30 rule
+00:21:54  on the candle body uh one to one is
+00:21:57  going to be great and remember this is
+00:21:58  the daily time frame as well so you're
+00:22:00  going to avoid a lot of rollover costs
+00:22:02  and things like that uh because you want
+00:22:05  to get in and out okay this this is even
+00:22:08  though it's just a one-to-one trade this
+00:22:09  could take a day or two or three days
+00:22:12  um so you don't have been it too long
+00:22:13  and I'm going to talk about fees and
+00:22:15  stuff later on as well so Target taking
+00:22:18  in this this instance we're using a buy
+00:22:20  limit order because we're setting a
+00:22:21  limit order to buy back our short
+00:22:24  position okay so we just set a buy limit
+00:22:28  order and the buy limit order goes an
+00:22:30  equal measured move between the entry
+00:22:32  and the stop and the entry and the
+00:22:34  target so you very simply measure how
+00:22:37  many Pips it is between your entry and
+00:22:38  your stop based on the two Pips below
+00:22:41  entry and the two Pips above stop and
+00:22:43  then you set that exact pip uh value to
+00:22:48  the Target to the buy limit in this case
+00:22:51  make sense
+00:22:52  now you'll see that there's lots and
+00:22:54  lots of opportunities here and it all
+00:22:56  looks fine and dandy I do want to go and
+00:23:00  show you a real example that's playing
+00:23:02  out right now on a chart just so you can
+00:23:04  see this in real time and I'll walk you
+00:23:06  through the orders and everything okay
+00:23:08  so just to recap The Rules of Engagement
+00:23:10  before we take a look at some actual
+00:23:12  intricacies on the chart
+00:23:14  to recap if you're looking for a sell
+00:23:16  signal a short trade first of all you
+00:23:18  have to identify the bearish market okay
+00:23:21  you have to identify that pin bar or the
+00:23:24  open and close of that bearish signal in
+00:23:26  the lower 30 percent you need to make
+00:23:29  sure that the moving averages are all in
+00:23:32  order so the eight needs to be nearest
+00:23:33  to price the 8 needs to be below the 20
+00:23:36  and the 20 needs to be below the 50 okay
+00:23:39  the next thing is to look for that pin
+00:23:41  bar and then get your entries set your
+00:23:44  cell stop order will go two Pips below
+00:23:46  the low in a sell order
+00:23:48  and your stop loss once you're triggered
+00:23:51  in will be two Pips above the high of
+00:23:53  the signal candle the pin bar and then
+00:23:55  your target will be a buy limit which
+00:23:57  will be in a a one-to-one measured move
+00:24:01  from the entry to the stop and of course
+00:24:05  if you're looking for a bullish you need
+00:24:07  to make sure that you identify the
+00:24:09  opposite right so a bullish Market
+00:24:12  um a pullback down then you need to look
+00:24:14  for a bullish pin bar which is be the
+00:24:16  open and the close in the upper 30
+00:24:18  percent
+00:24:19  the eight EMA needs to be above the 20
+00:24:22  the 20 needs to be above the 50 okay and
+00:24:25  then you need to wait for a touch of
+00:24:26  that eight EMA or make sure that the
+00:24:29  Signal's touching it or below it same
+00:24:31  with the bearish should have mentioned
+00:24:32  that and then your your target sorry
+00:24:37  your entry will go two Pips above the
+00:24:40  high of the signal candle your cell stop
+00:24:43  order will go two Pips below the low of
+00:24:47  the signal candle and then your uh
+00:24:50  profit Target will be a one-to-one
+00:24:51  measured move from your stop loss to
+00:24:53  your entry to your target so that might
+00:24:56  be a lot to take in you've got all the
+00:24:58  rules here if you click on the link
+00:25:00  below I'm going to give you the download
+00:25:02  for this this trade plan that you can
+00:25:04  take so go and download that before you
+00:25:07  move on and now I'm going to take you
+00:25:09  into a chart just to show you an example
+00:25:11  of one of these setups so let's get
+00:25:13  stuck into that now before I show you
+00:25:14  the actual chart example just quickly I
+00:25:17  want to reiterate the fact that in a
+00:25:19  bullish Trend or a bearish trend when
+00:25:21  we're looking for these phase two
+00:25:24  pullbacks sometimes you know as I said
+00:25:27  before we're not going to catch the
+00:25:29  bottom and sell the top but we're not
+00:25:31  going to catch the top and buy the
+00:25:32  bottom it it's very difficult to do that
+00:25:34  in actual reality what we're looking for
+00:25:36  is somewhere around here right so we
+00:25:40  might catch this on the way down we
+00:25:42  might catch it on the way as it starts
+00:25:44  to retrace back up as I showed you in
+00:25:46  the example just now it's you're not
+00:25:49  going to pick the the dead Bottom now
+00:25:52  some instances you might I'm not saying
+00:25:54  you won't do that at all and when you
+00:25:55  can do that it might be that you only
+00:25:57  look for situations where you do catch
+00:26:00  the bottom somehow right but in reality
+00:26:02  we're looking to get in around here
+00:26:05  whether that's on the way down or on the
+00:26:07  way up that's going to be the optimal
+00:26:09  place for getting in and that's where
+00:26:11  you're going to be looking for these
+00:26:12  signals so you don't just stop looking
+00:26:14  for the signals as soon as you start
+00:26:16  rallying to the upside you can actually
+00:26:18  wait for the pullback touch of the EMA
+00:26:20  and get involved on its way back up
+00:26:24  um as long as the rules that I've just
+00:26:25  been over are all met so let's take a
+00:26:28  look at the charts and I'll show you
+00:26:30  exactly what I mean all right so we've
+00:26:31  got a real live chart of the pound
+00:26:33  dollar in front of me and you can see
+00:26:36  I've got the exponential moving averages
+00:26:38  on the chart here and the way that I've
+00:26:40  set those up is color coded the same as
+00:26:42  the presentation that I just gave you
+00:26:44  just so you you're familiar the 8 is
+00:26:47  yellow the 20 is pink and the 50 is blue
+00:26:50  and the way you go and set those up in
+00:26:51  trade nation is you go to your studies
+00:26:54  you go to moving average and then you
+00:26:57  can set
+00:26:58  where it says simple you change that to
+00:27:01  exponential change the period and you
+00:27:03  can change the color and then uh and
+00:27:05  then you're good to go okay so now we've
+00:27:07  got our exponential moving averages and
+00:27:09  our bearish chart okay this is the daily
+00:27:12  time frame on the pound dollar you can
+00:27:14  see it's bearish and you can see if
+00:27:16  you've trained your eye and you've
+00:27:17  watched part one you've got phase one
+00:27:19  phase two phase one phase two phase one
+00:27:23  phase two phase one phase two and so on
+00:27:25  and so on and so on right we've got the
+00:27:27  runs and the pullbacks and this is a
+00:27:29  very nice harmonically moving Trend
+00:27:31  where previous support is becoming
+00:27:33  resistance
+00:27:35  Etc but we're not here to talk about
+00:27:36  that we're here to talk about this
+00:27:37  particular strategy so you can see just
+00:27:40  starting from the top left that the
+00:27:42  moving averages are Fanning out nicely
+00:27:44  here right so the eight is below the 20
+00:27:47  the 20 is below the 50. they're in the
+00:27:49  right order the eight closest to price
+00:27:51  and you can see here there's a little
+00:27:53  area where it crossed over where we
+00:27:54  won't be looking for setups and then
+00:27:56  here there's a crossover where we
+00:27:58  wouldn't be looking for setups and then
+00:28:00  other than that it's Fanning out nicely
+00:28:02  where we will be looking for setups now
+00:28:04  I'm just going to show you a couple of
+00:28:06  signals now of course this is in
+00:28:08  hindsight because it's the only way that
+00:28:09  I can show you this stuff but this is
+00:28:12  pretty recent I think this is uh what we
+00:28:15  October
+00:28:19  um yeah so this is about
+00:28:20  in the last 12 months okay so this is
+00:28:23  the daily chart for the last 12 months
+00:28:25  now
+00:28:26  first of all you can see we're in phase
+00:28:28  one we don't touch the aema we start to
+00:28:30  pull back here and now what we're doing
+00:28:33  when we're getting this pullback we're
+00:28:34  immediately looking for that price
+00:28:36  action pattern what do we need we need
+00:28:38  it to test the aema then we need the
+00:28:40  open and close to be in the lower 30
+00:28:42  percent and that's when we're interested
+00:28:44  that's our decide part we're not going
+00:28:46  to execute any trades until the decide
+00:28:48  Parts met so we've identified a bearish
+00:28:50  trend we've predicted that markets
+00:28:52  likely to go lower based on the
+00:28:54  exponential moving averages Fanning out
+00:28:56  in order that's a Confluence indicator
+00:28:59  now we can start looking for the decide
+00:29:01  or to decide we need that candle now the
+00:29:03  First Signal candle you're going to see
+00:29:05  that could potentially be a setup here
+00:29:07  is this one here right now the reason
+00:29:10  this isn't a signal is because it
+00:29:13  actually closes in the 50 the open and
+00:29:16  closes in the 50 but it looks like one
+00:29:18  right this is where you might want to
+00:29:19  get your Fibonacci tool zoom in on the
+00:29:22  candle and measure the candle body to
+00:29:24  make sure that we're in that lower 30
+00:29:27  so that actually isn't a valid signal
+00:29:30  although it might look like one and I
+00:29:32  wanted to show you that because this is
+00:29:34  the difference of looking at real charts
+00:29:35  they're not as pretty they're not as
+00:29:37  like it's not Theory this is real
+00:29:39  practical applications and it's always
+00:29:42  uglier when we're doing this stuff so
+00:29:44  you can see that's not a signal that's
+00:29:46  not a signal right this one here
+00:29:50  again very very close but I've measured
+00:29:52  that out and it's not the lower 30
+00:29:54  that's actually it hits about 35 percent
+00:29:57  and then you just keep looking through
+00:29:59  so you've got one here potentially
+00:30:01  you've got one here potentially right
+00:30:02  this one here
+00:30:04  um but what I'm going to do is I'm going
+00:30:06  to give you a very very clear indication
+00:30:08  of what one meets the rules right so you
+00:30:11  can see
+00:30:12  as we pull back here
+00:30:14  um you can see that there's actually one
+00:30:17  uh here's an interesting one right so
+00:30:19  this one here
+00:30:21  is valid
+00:30:23  now that's valid because we pulled up
+00:30:25  two we're up in that pullback phase we
+00:30:28  touch the aema the open and the closes
+00:30:31  in the lower 30 percent but guess what
+00:30:33  this one doesn't trigger so you'd set
+00:30:35  your cell stop order below the low but
+00:30:38  wait for the open of the next day and
+00:30:40  the next day doesn't trigger the order
+00:30:42  so you close that order off that's the
+00:30:44  last rule of the trade plan but guess
+00:30:46  what happens next the next day is
+00:30:48  another entry signal and you might have
+00:30:50  days where you get multiple entry
+00:30:52  signals and this one we we set the
+00:30:55  orders again so the order would have
+00:30:57  been
+00:30:58  um the order would have been
+00:31:00  two Pips below the low of this candle
+00:31:03  okay so you can uh you can figure out
+00:31:05  what the lower that candle was at 22.45
+00:31:08  and you'd put your order at 22 uh 43
+00:31:12  okay which is two Pips below so your
+00:31:15  sell stop order would go here
+00:31:18  your stop your stop loss order would go
+00:31:21  two Pips above the high so if the higher
+00:31:24  of that candle is at 22.33 it'd be at 22
+00:31:28  to 35 and your stop loss would be there
+00:31:31  and then you just measure that and you
+00:31:34  can use measuring tools all the fibs as
+00:31:36  I said before and then you just want a
+00:31:38  one-to-one
+00:31:39  Target all right so you're getting in
+00:31:42  here let me just make this really really
+00:31:44  clear for you so let's color this in and
+00:31:46  there you go right so we've got our
+00:31:48  entries
+00:31:50  um whoops got our entries stops and
+00:31:53  targets all set let's delete that one
+00:31:55  off and you can see it's a one to one
+00:31:58  you'd work out what a one to one is
+00:32:00  based on Pips and that's it like you can
+00:32:02  see this one triggered in hit targets
+00:32:04  and then stored at that level and then
+00:32:07  again we've got another one here if I
+00:32:09  show you this you don't stop like you
+00:32:11  once you're out you don't stop looking
+00:32:12  for these things you've got one here
+00:32:14  okay so that one then
+00:32:16  tip the eight moving average you're
+00:32:18  gonna have to double check to see if it
+00:32:20  did you can zoom in that one hit we hit
+00:32:23  Targets on that one again got another
+00:32:25  pullback I think there was uh let's have
+00:32:27  a look here so we've got none here
+00:32:30  remember we're checking for above the
+00:32:31  eight EMA as well
+00:32:33  um and you want to double check that it
+00:32:35  looks like I've uh
+00:32:38  looks like I've lost my 20 EMA let's
+00:32:40  bring that back on
+00:32:42  um so we've got our 20 moving average
+00:32:44  here they start to cross so we wouldn't
+00:32:46  be interested in that the eight crosses
+00:32:47  the the 20 we're not interested in that
+00:32:49  anymore okay so this would you know any
+00:32:52  signals in here would have been the last
+00:32:54  chance signal before we start crossing
+00:32:56  over and then we start looking again
+00:32:58  once we fan out again so we just go
+00:33:01  right okay
+00:33:02  predictions that we're likely to
+00:33:04  continue is high again because we've
+00:33:05  pulled back we've got a signal here okay
+00:33:08  that one looks like uh it may have hit
+00:33:11  targets or may not
+00:33:13  that's a that's a tough one you'd have
+00:33:15  to do the analysis on that but this is
+00:33:17  how you go and test this stuff right you
+00:33:19  go and test the stuff right here's one
+00:33:21  here I'm not sure that one touched the
+00:33:23  aema and that's another point if it
+00:33:25  doesn't touch it's not valid don't don't
+00:33:27  say it's close enough right you can you
+00:33:31  can't be half pregnant and you need
+00:33:33  consistency in your trading so it has to
+00:33:35  be binary yes or no if it's not yes or
+00:33:39  no it's not a trade okay so hopefully
+00:33:42  that makes sense you can see a couple of
+00:33:44  examples here on the pound dollar this
+00:33:46  is one pair by the way and I've just
+00:33:47  skimmed through there's probably four or
+00:33:49  five maybe six opportunities here uh
+00:33:52  from April to October so in the sixth
+00:33:55  month there's probably one a month on
+00:33:57  this one pair and then you've got 28
+00:34:00  combinations of all the all the major
+00:34:02  markets to go and Test Plus indices and
+00:34:04  other markets so you can see that if you
+00:34:07  can just grasp this and know it you know
+00:34:09  know the ins and outs of this strategy
+00:34:11  bear in mind this is the daily time
+00:34:13  frame it takes you five minutes to check
+00:34:15  through this each night you can really
+00:34:17  start to stack up multiple markets and
+00:34:19  it doesn't really take a lot of time to
+00:34:21  do that and you can end up with a
+00:34:23  phenomenal uh trading strategy that
+00:34:25  doesn't take you a lot of time and
+00:34:27  you're getting one percent two percent
+00:34:28  three percent five percent you know
+00:34:30  multiple markets before these trades
+00:34:32  play out uh so you know it's a
+00:34:35  phenomenal strategy all right so now
+00:34:36  you're familiar with a strategy and
+00:34:38  you've got something I'm sure you're
+00:34:39  excited to run off into the charts and
+00:34:42  start testing or trading don't do that
+00:34:45  just yet you know let's go through this
+00:34:47  video the right way now I'm going to go
+00:34:49  into a platform called trading View and
+00:34:52  I'm going to show you exactly how you
+00:34:54  can take everything you've got at the
+00:34:55  moment Implement that into trading view
+00:34:58  which is a phenomenal platform lots of
+00:35:00  people have given me message requests
+00:35:02  and things to go through this platform
+00:35:04  but I'm also going to show you how to
+00:35:05  integrate your broker I'm going to talk
+00:35:07  about broker integration and I'm going
+00:35:09  to be talking about how trade Nation
+00:35:11  integrate with this platform them as
+00:35:13  well should you want to and then I'm
+00:35:15  going to show you how to use this
+00:35:16  platform to really level up your trading
+00:35:19  using all of the cool tools and features
+00:35:21  and tips that are going to really really
+00:35:23  you're going to benefit from in your
+00:35:25  trading so let's get stuck in all right
+00:35:27  so some of you may already know about
+00:35:29  this platform this is trading View and
+00:35:32  due to popular demand I'm doing a
+00:35:34  segment on trading view because not only
+00:35:36  is it a very powerful platform it's very
+00:35:38  cheap it's very accessible it's got
+00:35:41  every feature that you possibly need and
+00:35:44  what's more is you can integrate trade
+00:35:46  Nation or whoever your broker is with
+00:35:49  this particular platform and I'm going
+00:35:51  to share with you some
+00:35:53  basic features I'm going to share with
+00:35:55  you some navigation tips how to get
+00:35:57  everything you need out of this platform
+00:35:59  to work on and develop in your trading
+00:36:02  through based on what we've been over so
+00:36:04  far so I'm going to be walking you
+00:36:06  through this I'm also going to be doing
+00:36:07  a a further series on this particular
+00:36:12  platform showing you guys eyes all the
+00:36:14  different utilities and features and all
+00:36:17  the rest of it so definitely subscribe
+00:36:20  to the channel if you want to see that
+00:36:21  if you're not already before I get stuck
+00:36:24  into this platform though because what
+00:36:26  we're going to do now is we're going to
+00:36:27  show you guys a setup we're going to
+00:36:29  look for a setup I'm going to show you
+00:36:30  how to put all the indicators on that
+00:36:32  you need how to measure the right
+00:36:34  candle signals how to use the EMAs how
+00:36:37  to really build your discretion in this
+00:36:40  platform I will give you a word of
+00:36:42  warning this platform as powerful it is
+00:36:45  it's got tens of millions of users right
+00:36:48  now when I started using this it had
+00:36:49  like a couple of thousand and now
+00:36:53  there's like literally 50 million plus
+00:36:55  users of this particular platform
+00:36:58  and
+00:36:59  it does have a social aspect to it
+00:37:02  meaning there's a forum and I would
+00:37:04  advise you as a word of warning to stay
+00:37:07  away from Trading forums they are
+00:37:09  absolutely toxic poison signal Services
+00:37:11  everyone's got an opinion and for
+00:37:14  particularly for newer Traders if you go
+00:37:16  into a room like that or an environment
+00:37:18  like that where everyone's telling you
+00:37:19  that they know best
+00:37:21  it's going to cause you a lot of
+00:37:23  distress a lot of anxiety and you're not
+00:37:26  going to be focused on the goal at hand
+00:37:28  which is becoming a consistently
+00:37:29  profitable professional Trader okay I'll
+00:37:32  say this every single professional
+00:37:34  Trader I've met does not tell you what's
+00:37:37  going to happen or if you're right or
+00:37:38  wrong in your analysis because
+00:37:41  professional Traders appreciate that
+00:37:43  there's thousands of ways to make money
+00:37:44  in the markets and it and none of that
+00:37:46  actually matters the technical setup
+00:37:48  they don't have a first clue about what
+00:37:50  someone else is developing as a system
+00:37:52  so they don't care right so anyone
+00:37:55  telling you that they know what the
+00:37:56  Market's going to do or putting out
+00:37:58  trade ideas and all the rest of it just
+00:38:00  block it out it's it's noise it's
+00:38:02  rubbish and there is an element of this
+00:38:04  platform where you can get lost in that
+00:38:06  so don't say I didn't warn you uh let's
+00:38:09  get stuck in so the first things first
+00:38:11  below this video is a link and if you
+00:38:15  use that link you'll be able to sign up
+00:38:16  basically they do a partnership
+00:38:17  affiliate program on here where if you
+00:38:20  recommend a friend or refer a friend uh
+00:38:23  you will get I think it's 15 or
+00:38:25  something for everyone that signs up so
+00:38:26  if you use that link in my description
+00:38:29  to open an account with these then it's
+00:38:32  a great way to support this channel you
+00:38:34  know I'm not really benefiting from it
+00:38:35  but it's keeping it all in-house and
+00:38:37  hopefully you've got some value from
+00:38:38  this so if you're going to open an
+00:38:40  account there you go fifteen dollars in
+00:38:42  the uh in the kitty so uh do that go and
+00:38:46  use the link below sign up to this
+00:38:47  platform
+00:38:48  the next thing I'll say is when they
+00:38:52  when Black Friday Cyber Monday comes
+00:38:54  around this platform offers great deals
+00:38:57  so one of the things I like to do
+00:39:00  um and again this is a wealth creation
+00:39:01  uh tip if you like because you want to
+00:39:04  save as much money as you can grow as
+00:39:06  much money as you can when Black Friday
+00:39:08  Cyber Monday come around they do like
+00:39:10  get three years for the price of one or
+00:39:13  two years for one or whatever it might
+00:39:15  be but it's a really good discount we
+00:39:17  always make sure that we upgrade all of
+00:39:19  our software subscriptions on Black
+00:39:21  Friday because they tend to give the
+00:39:22  best deals this is one of them this one
+00:39:24  really gives a good deal on Black Friday
+00:39:26  Cyber Monday so if you're signing up now
+00:39:28  doesn't matter
+00:39:30  couple of months time when Black Friday
+00:39:31  comes around you can renew your
+00:39:34  membership and get a really good deal
+00:39:35  and what I would say is if you're
+00:39:37  serious about trading this is a
+00:39:39  relatively cheap platform if you go to
+00:39:41  uh the pricing you're going to see that
+00:39:43  it's uh I think it's free for starters
+00:39:46  but if you start you getting the
+00:39:48  different
+00:39:49  um subscription models
+00:39:50  the professionals like you can get a pro
+00:39:53  for like 19 a month or something like
+00:39:56  that which is ridiculously cheap if
+00:39:58  you're serious about this
+00:40:00  um aside from Trading I use this for the
+00:40:02  stock screeners I use my stock pick I do
+00:40:04  stock picking on this uh General
+00:40:06  analysis it's just great for Market
+00:40:08  views news and things like that so it's
+00:40:10  just a great tool to have if you're
+00:40:12  serious about Building Wealth in
+00:40:13  investing and trading I would consider
+00:40:15  it
+00:40:16  um but if you use the link below you can
+00:40:18  sign up for the free account and
+00:40:19  whatever you so uh let's get stuck in so
+00:40:22  I'm going to get straight into the
+00:40:24  products and go to super charts right
+00:40:25  now this should look pretty familiar on
+00:40:27  the right hand side you've got a watch
+00:40:29  list now your watch list might look a
+00:40:31  bit blank and the way that you add to
+00:40:33  that watch list is you click plus and
+00:40:35  you say uh euro dollar okay and we're
+00:40:40  going to add the euro dollar to our
+00:40:42  watch list so you can see here that I've
+00:40:43  got my euro dollar selected now you
+00:40:47  should be familiar with this you could
+00:40:48  build out your watch list I recommend
+00:40:49  going through the list and putting all
+00:40:51  28 combinations of every major pair on
+00:40:54  the right hand column you can screenshot
+00:40:56  mine and copy mine but these I I put all
+00:40:59  different markets in here I've got sjm
+00:41:01  which is schmuckers which is one of my
+00:41:02  investments I've got lots of other
+00:41:04  markets sometimes I just look at markets
+00:41:06  uh for the sake of it you know we've got
+00:41:08  some other Market you know some stocks
+00:41:09  in here that I just keep an eye on
+00:41:12  um so it's real you know it's not
+00:41:14  relevant to you but the next thing you
+00:41:16  want to do is find yourself familiar
+00:41:19  with the the chart okay so we know that
+00:41:21  we've got the prices down the right hand
+00:41:22  side we've got the the Crosshair here
+00:41:25  here we've got the time down the bottom
+00:41:29  now I'm going to go up here and what you
+00:41:31  can do is just go on The Daily time
+00:41:33  frame this is where you select the time
+00:41:35  frames we're looking at the daily for
+00:41:37  this particular strategy as you guys
+00:41:39  know
+00:41:40  and then you can customize this to
+00:41:43  whatever color you like so I'm using
+00:41:44  white if you prefer
+00:41:46  um if you prefer dark mode you can use
+00:41:50  Dart mode you can change the colors of
+00:41:51  the candles you can change the colors of
+00:41:53  the of the canvas you know the
+00:41:56  background you can put lines grid lines
+00:41:58  you can really go to town with it and
+00:42:00  customize it just how you like it to
+00:42:02  suit your your you know your preference
+00:42:06  so that's really the Aesthetics you can
+00:42:09  go and go nuts on all that stuff down
+00:42:11  the right hand side here you've got
+00:42:13  alerts okay now an alert is something
+00:42:16  where you can actually set an alert on
+00:42:19  the chart and it will text message you
+00:42:21  or email you or make a audible noise
+00:42:24  um just like this you can just put ADD
+00:42:26  alert if if price crosses that you can
+00:42:29  set it to Crossing or cross up cross
+00:42:30  down again I'm not going to cover this
+00:42:32  in this video but I'll do that in later
+00:42:34  videos these are really useful tools
+00:42:36  that you can use in your trading if you
+00:42:38  don't want to be glued to the charts all
+00:42:40  the time which I'm assuming most of you
+00:42:41  don't uh there's a all I'm going to go
+00:42:44  through here is this bit here that says
+00:42:47  chats and ideas stream that's the Forum
+00:42:51  side of things that you just want to
+00:42:52  stay away from yeah just don't open it
+00:42:55  it's horrendous it's a uh it's just a
+00:42:58  forum of toxicity if you want to hide
+00:43:00  the watch list you just tap this button
+00:43:03  here I like to have it there because I'm
+00:43:04  using a big Monitor and I can see
+00:43:06  everything clearly over on the left hand
+00:43:09  side you've got all of the tools so this
+00:43:11  looks familiar to the trade Nation setup
+00:43:13  and you've got some other things up here
+00:43:16  where you can select you can change the
+00:43:18  um the pair there the market there
+00:43:20  you've got some indicators that we can
+00:43:22  add which you can see I've got the EMAs
+00:43:24  on here as well
+00:43:26  um and you've got some templates and
+00:43:29  stuff like that bar replay is great for
+00:43:31  testing the the charting package got 360
+00:43:33  rotational view which is great down the
+00:43:36  bottom here I've got the RSI indicator
+00:43:38  on here already and I've got the ATR
+00:43:40  because I like to see what the average
+00:43:41  true range is of each pair
+00:43:44  now
+00:43:45  let's get stuck into the actual
+00:43:48  nitty-gritty of this strategy that we've
+00:43:51  been looking at
+00:43:52  there's the navigation for basic the
+00:43:55  first the last thing you're going to
+00:43:56  want to know how to do if you're looking
+00:43:59  to integrate a broker account now if you
+00:44:01  go down to here let me just sign out of
+00:44:03  this quickly you can see I've got a
+00:44:05  paper trading yours will look like this
+00:44:07  if you click on trading panel
+00:44:10  um you'll see a bunch of Brokers okay
+00:44:12  now trade nation is one of the Brokers
+00:44:16  that integrates with uh trading view so
+00:44:19  if you've opened your trade Nation
+00:44:20  account you literally just click on
+00:44:22  trade nation and there is job done you
+00:44:25  get it done
+00:44:26  um you can also run a paper trading
+00:44:29  account if you want to just use their
+00:44:31  own trading view demo account okay if
+00:44:34  you've got another broker and they're in
+00:44:37  this list you just click on your broker
+00:44:39  select them and you can log in right all
+00:44:42  it's going to do is ask you for your
+00:44:44  login details you put in your username
+00:44:46  password it'll go for a couple of
+00:44:48  questions link it in it's as simple as
+00:44:50  that
+00:44:52  um yeah I can use or you can just
+00:44:53  connect with paper trading account if
+00:44:55  you don't yet have a broker okay and
+00:44:57  here is going to tell you all your
+00:44:58  positions orders history account history
+00:45:01  journal and this is this is just a paper
+00:45:03  trading account I use for demonstrations
+00:45:05  and things like that right so paper
+00:45:07  trading just to tick that down we're now
+00:45:09  connecting into paper trading and what
+00:45:12  we're going to do is just have a look
+00:45:13  and see if we can see any setups based
+00:45:16  on the strategy we've just been over in
+00:45:18  real time so I'm going to remove all
+00:45:19  these drawings all I've got left on this
+00:45:21  chart now is just the exponential moving
+00:45:24  averages and you can see we're in uh
+00:45:27  we're going through the phases here
+00:45:28  let's take a look at another Market
+00:45:30  let's take a look at the pound let's
+00:45:33  just remove all these drawing tools
+00:45:35  first thing I'm going to do as well is
+00:45:37  just alter the colors of these because
+00:45:40  I'm going to keep the 8 in yellow again
+00:45:43  you just add them like this by the way
+00:45:45  you can just click indicators typing EMA
+00:45:50  moving average exponential and that will
+00:45:52  add that into the chart you can see it's
+00:45:55  just added this uh this red this one
+00:45:57  here okay so you can just delete that
+00:46:01  off if you're not using it but you just
+00:46:03  double click on that and it will tell
+00:46:05  you that is the nine moving average uh
+00:46:09  it calculated on the close which is how
+00:46:12  we leave it style is the color you want
+00:46:14  it
+00:46:15  um and it's already an exponential
+00:46:16  moving average so we can just leave that
+00:46:19  but I'm going to delete that one off
+00:46:20  because I've got my three but what I
+00:46:21  will do is I'll keep the colors the same
+00:46:24  as
+00:46:26  um as we used them before so I'll make
+00:46:28  this one yellow I'll just make it a
+00:46:31  little bit dot of a darker yellow the 20
+00:46:34  as you see this is the 20 I'm going to
+00:46:37  make this
+00:46:38  um pink which it already is by looks of
+00:46:41  it let's just make it a little bit of a
+00:46:42  lighter pink uh okay and then the
+00:46:46  50 just double check it's the 50 I'm
+00:46:49  gonna make a blue as we did before and
+00:46:53  now this all matches everything's
+00:46:55  uniform everything's as it was so now
+00:46:58  what we're going to do
+00:46:59  is look for a
+00:47:02  daily chore right a setup that we we
+00:47:05  want to identify as as our strategy
+00:47:07  right so I'm going to flick through some
+00:47:09  of these pairs and see if we can
+00:47:11  identify a nice uh
+00:47:14  Trend continuation setup okay okay
+00:47:17  here's an interesting one because at the
+00:47:19  time of this recording it's Friday
+00:47:20  afternoon and the markets start to slow
+00:47:23  down on a Friday afternoon all the
+00:47:24  institutional Traders go away for the
+00:47:26  weekend start winding down celebrating
+00:47:28  their huge profits and uh and it starts
+00:47:31  to slow down a little bit right so this
+00:47:33  is an opportunity that could play out
+00:47:35  into today or over the weekend you'd
+00:47:37  have to hold it over the weekend and
+00:47:39  then you know get the profits on Monday
+00:47:41  or Sunday nights open
+00:47:43  and here it is right so this is the
+00:47:46  dollar Yen if I show you the signal set
+00:47:49  up it's here we're in a nice bullish
+00:47:51  Trend we are pulling back uh in phase
+00:47:54  two we've pulled back we've touched the
+00:47:57  um eight moving average okay
+00:48:00  we've got our nice pin bar there we go
+00:48:02  perfect pin bar open and close in the
+00:48:05  upper 30 because remember we're looking
+00:48:07  for a bullish setup and you can either
+00:48:10  do that
+00:48:12  um by using fibs Okay so let's just uh
+00:48:14  bring on the FIB retracement tool which
+00:48:17  is this one here and you can go from top
+00:48:20  to bottom whoop sorry it'll be bottom to
+00:48:23  top sorry so bottom to top and you can
+00:48:27  see that it's up in that upper 30 you
+00:48:31  can you can add 30 to this or
+00:48:34  33.33 and you'll see that there's 30
+00:48:38  it's up open and close in the upper 30
+00:48:41  right so that's a valid signal we've got
+00:48:45  a bullish move we've got our nice
+00:48:46  Fanning exponential moving averages
+00:48:48  we've got our pin bar set up so our
+00:48:51  order in this case and this is a trade
+00:48:53  that I'm actually in
+00:48:55  um went in our buy stop order went two
+00:48:58  Pips above the high so you can just
+00:49:00  hover your crossbar cross hair over this
+00:49:03  candle and you can see at the top there
+00:49:04  it says o h l c and it's all got numbers
+00:49:08  next to it okay what do they mean well
+00:49:10  that means open high low close so the
+00:49:13  higher of this candle I'm hovering over
+00:49:15  is
+00:49:16  147.56 so my order went in at one four
+00:49:20  seven fifty eight when I set my buy stop
+00:49:23  order so 147 58 is where my order went
+00:49:27  in and of course the market the next
+00:49:29  today's candle Friday's candle this is
+00:49:31  Thursday's candle this is Friday's
+00:49:33  candle I was triggered in today into
+00:49:36  that trade so then as soon as I'm
+00:49:38  triggered in I get my stop loss in place
+00:49:40  right so my stop loss goes two Pips
+00:49:44  below the low of the signal candle so if
+00:49:46  you hover over and check the low you can
+00:49:48  see up there it says
+00:49:50  14701 so I go to 147 uh nine nine now
+00:49:57  some people if there's an even handle
+00:49:59  number so like 147 flat it's always wise
+00:50:02  to give a little bit more Breathing Room
+00:50:03  some people like to go two Pips below
+00:50:05  that which would mean a three pip stop
+00:50:07  loss on this uh but for the sake of this
+00:50:10  demonstration we're just going to do it
+00:50:11  as per the rules so we're going two Pips
+00:50:13  below the lower this candle this is our
+00:50:16  entry okay so this is the thing I love
+00:50:18  about this trade is it's in play and
+00:50:20  there's no way I can hide or show you
+00:50:23  winners only because there's always
+00:50:25  going to be losing trades as well but
+00:50:27  what I want to show you is how you can
+00:50:28  start setting these things up right so
+00:50:31  we now we've got our entry at 147.58
+00:50:34  we've got our stop loss at
+00:50:37  146.99 now we need to set our
+00:50:41  um profit Target there's a couple of
+00:50:43  ways you can do this okay this platform
+00:50:46  has these long and short position tools
+00:50:49  so if I click on that what I'm going to
+00:50:51  be able to do is click on the price that
+00:50:53  we got in and boom just like that we get
+00:50:56  this nice
+00:50:57  um ratio tool our risk reward tool and
+00:51:01  it tells you when you're at a one to one
+00:51:03  so you see right there risk reward ratio
+00:51:05  one to one that means this price point
+00:51:08  here 148.17 is exactly a measured move
+00:51:12  of the the stop loss it will tell you
+00:51:15  the exact amount right so you see 59
+00:51:17  Pips 59 Pips great it tells you what
+00:51:21  you're risking
+00:51:22  right it tells you everything lots of
+00:51:25  great information on here that you
+00:51:26  you'll find useful the other thing you
+00:51:28  can do is use a ruler so you go from the
+00:51:31  entry to the stop as I said you see it's
+00:51:35  50 58 Pips 58.4 so then you would just
+00:51:38  say okay well I need to go
+00:51:40  58.4 from my entry uh 58.4 or you might
+00:51:45  like to just get over a one to one just
+00:51:47  over a one to one right so you go okay
+00:51:49  well that's 58.4 there so that's where I
+00:51:52  need to get in right and so on or you do
+00:51:55  it mathematically in your head or you
+00:51:58  can just do it with fibs again right so
+00:52:00  you just bring on a fib
+00:52:03  go here and then you say right I'm going
+00:52:06  to use 50 is where my entry is here's
+00:52:10  where the uh the stop losses and you can
+00:52:13  put the 100 on there and you can do it
+00:52:14  that way as well I don't recommend doing
+00:52:16  that that gets bit finicky best way is
+00:52:19  just to use a one-to-one the last way
+00:52:21  that I'll show you to do it which is
+00:52:22  quite popular with with Traders is to go
+00:52:25  to
+00:52:26  um the rectangle tool okay and just draw
+00:52:30  on manually so you've got your entry
+00:52:32  here you can draw this rectangle tool
+00:52:35  and then what you can do is just clone
+00:52:37  this or Ctrl C Ctrl V and then there you
+00:52:42  go you've got your nice little
+00:52:43  one-to-one there and you know exactly
+00:52:45  where to put your stop loss if you want
+00:52:47  to be a little bit more you know crucial
+00:52:49  and critical about it then you want to
+00:52:51  do it mathematically you use a ruler or
+00:52:53  use the long position tool so for this
+00:52:57  example I'm just going to clone this
+00:53:00  just to show you guys where the target
+00:53:02  would be okay and the target would be
+00:53:04  right here and we'll color this in green
+00:53:09  um
+00:53:10  and there you have it so I gave you a
+00:53:12  bearish example using the trade Nation
+00:53:15  platform and I showed you a real live
+00:53:17  example this is a bullish example that's
+00:53:19  right now in play and this orders we're
+00:53:21  actually in this order right now on my
+00:53:23  Live account this is the trade that I'm
+00:53:26  actually in
+00:53:27  hopefully it plays out before the
+00:53:29  weekend close because I don't like
+00:53:30  holding trades over the weekend I don't
+00:53:32  mind if it's on the daily time frame but
+00:53:34  I'd still prefer not to
+00:53:36  um but this is a trade that I'm in and
+00:53:38  hopefully if this is a one percent risk
+00:53:40  because you've calculated your position
+00:53:42  size correctly and you've got in you
+00:53:44  know if you've got incorrectly based on
+00:53:46  your account size and you're risking one
+00:53:48  percent then this will be one percent
+00:53:50  right if this is half a percent this
+00:53:52  would be half a percent so this could be
+00:53:54  a one percent trade over the weekend
+00:53:56  which would be lovely right that's one
+00:53:58  pair that we've looked at
+00:54:00  um out of 28 combinations now before you
+00:54:04  run off and get excited and start going
+00:54:06  and test some of this stuff I just want
+00:54:08  to show you one really important thing
+00:54:09  or a couple of important things that
+00:54:11  will help you along your way this is the
+00:54:13  New Zealand Cad and you can see on this
+00:54:16  pair we've had quite a few entries
+00:54:17  recently we had one here one here we've
+00:54:21  also had a one here which is above the
+00:54:24  eight EMA which is a winner we had
+00:54:26  another one here which was is a winner
+00:54:28  and now right now at Market we're just
+00:54:31  about to set up a new one potentially
+00:54:34  and I say potentially because of a
+00:54:36  course we've got to wait for today's
+00:54:37  candle to close for this literally this
+00:54:40  candle that's in play to validate as a
+00:54:43  as a you know a signal that's useful a
+00:54:46  verified signal a valid signal so we
+00:54:49  can't take this yet because it might
+00:54:51  close above the 30 but if it closes now
+00:54:54  you know if it was to close now where it
+00:54:56  is right now this would be a valid
+00:54:58  signal so this is one for Sunday night
+00:55:00  to come back and get your orders on as
+00:55:03  the Market opens again so this is a
+00:55:05  trade that's really fresh right now and
+00:55:07  you can go and look at right now
+00:55:10  um now
+00:55:12  there's a setup for you but what I
+00:55:13  wanted to show you was sometimes when
+00:55:16  you're testing some of these and you
+00:55:17  want to see it like if you're going back
+00:55:19  and doing some testing in hindsight you
+00:55:22  want to use some of the
+00:55:24  um the bar replay features because it
+00:55:26  will show it will get you more of a
+00:55:28  realistic feel and it's really easy to
+00:55:30  use you just hit the replay button up
+00:55:32  here and you can select the time so this
+00:55:35  is going to be
+00:55:36  one upd per second and you can set it
+00:55:40  faster 10 per second but if we just
+00:55:43  leave it on one and we just hit this
+00:55:45  button here you can select where you
+00:55:46  wanted to play from
+00:55:48  and then you can just hit play and it
+00:55:51  will just show you every second how the
+00:55:53  candles played out so you can practice
+00:55:56  in real time seeing valid setups uh and
+00:56:00  which is a really cool thing to do
+00:56:02  particularly if you're new to this stuff
+00:56:03  you can see it in real time because it's
+00:56:05  it's one thing to see them in hindsight
+00:56:07  but another thing to see them in real
+00:56:10  Market time and this is kind of a
+00:56:12  simulation that will show you that kind
+00:56:15  of thing right now there's one more
+00:56:17  thing because sometimes you'll you'll
+00:56:19  come you'll Arise at a situation
+00:56:22  um like this one for instance where you
+00:56:24  don't know if it pushed down and
+00:56:26  triggered your order before you got
+00:56:28  stopped out say not not quite this but
+00:56:30  you know what I mean right let's just
+00:56:32  say this one you don't know what
+00:56:33  happened first you don't know if it
+00:56:35  pushed down and you've got into the
+00:56:36  order and then stopped you out
+00:56:39  um because on this one you'd have your
+00:56:41  let's just say for instance this was a
+00:56:43  order it's not because it doesn't hit
+00:56:45  the um the eight moving average but
+00:56:46  let's just say that you've got your
+00:56:48  order are in here and then Mark the next
+00:56:50  Market it looks like it triggered you in
+00:56:53  but when you're testing and it's
+00:56:55  historical you don't know if this pushed
+00:56:57  down first or it pushed up which would
+00:56:59  invalidate the trade anyway you wouldn't
+00:57:01  be taking the trade in the first place
+00:57:02  so sometimes you can Arise at a
+00:57:05  situation where you go hmm I don't know
+00:57:07  if this was a winner or a loser or would
+00:57:10  I have taken it in the first place so
+00:57:12  the best thing to do for that is to see
+00:57:14  what order it played out and of course
+00:57:16  you can do that by going down on a lower
+00:57:17  time frame so I can see that this is the
+00:57:19  16th uh Wednesday the 16th of August I
+00:57:22  can literally just go down to the hourly
+00:57:25  chart right or the 15 minute chart go to
+00:57:27  that same time 16th of August there you
+00:57:30  go there's my bar and you can basically
+00:57:32  see what happened did it go up first and
+00:57:35  then down and in this case yes it did it
+00:57:38  went up first invalidated the trade then
+00:57:41  pushed down and I wouldn't have been in
+00:57:43  the trade anyway makes sense because
+00:57:45  it's gone above where my stop loss would
+00:57:47  have been so in validates the trade so I
+00:57:50  wouldn't have taken that trade whereas
+00:57:52  if you was looking at it you might have
+00:57:53  thought oh I would have got in it
+00:57:55  triggered me in and then it stopped me
+00:57:58  out see what I mean so it makes all the
+00:58:00  difference so it's a little trick to
+00:58:01  make sure you're getting accurate back
+00:58:03  testing results because that's the most
+00:58:05  important thing that you get you you
+00:58:07  know the purpose of back testing is to
+00:58:10  lower your expectations as I always say
+00:58:14  not increase them so there's a nice
+00:58:16  little setup for you to watch out uh on
+00:58:19  the New Zealand CAD so now what I would
+00:58:22  advise you do is pause the video here
+00:58:25  and go and take a look and see if you
+00:58:27  can find any entries see if you can find
+00:58:29  any setups it doesn't matter if they're
+00:58:30  historical you're going to find tons of
+00:58:32  these things go and find the historical
+00:58:35  hindsight ones and then you can train
+00:58:37  your eye to see them in real time and
+00:58:39  then when you come back we're going to
+00:58:40  be talking about testing and journaling
+00:58:42  a little bit more on this but before you
+00:58:44  go just one last thing on these features
+00:58:47  here some of you are asking what the
+00:58:48  these little flags are remember I showed
+00:58:50  you guys Forex Factory calendar well
+00:58:52  these are similar news events that just
+00:58:54  get printed on the charts and it's
+00:58:56  really really handy because it tells you
+00:58:58  when they're due out so if we go to
+00:59:00  another pair here you can see that due
+00:59:02  out in the future we've got the bank of
+00:59:04  England interest rate decision here uh
+00:59:06  21st of September at 12 o'clock and the
+00:59:09  forecast and the previous so it's really
+00:59:11  good at a glance just to have access to
+00:59:13  this information so you know what's
+00:59:15  coming up and whether or not you decide
+00:59:17  to stay out of the trade so this is
+00:59:19  trading view go and open an account
+00:59:21  using the link in the description
+00:59:23  familiarize yourself with it set up your
+00:59:26  watch list for all of the pairs that you
+00:59:28  want to take a look at or go and test
+00:59:30  and let's do this together let's go and
+00:59:31  try and find some of these setups
+00:59:33  together and I'll come back to this in
+00:59:37  just a bit once you've done that save
+00:59:39  the video bookmark the video and in the
+00:59:41  next section I'll talk about journaling
+00:59:43  testing and we're also going to be
+00:59:44  talking about unnecessary fees so it's
+00:59:46  very important that you catch carry on
+00:59:48  watching this I'll see you when you get
+00:59:50  back alright have fun welcome back I'm
+00:59:53  glad you're back now it's time to get
+00:59:55  into some serious business and I say
+00:59:56  that because trading is a business as I
+00:59:59  went over in the previous part one and I
+01:00:02  want to touch on journaling and how it
+01:00:04  can really help you improve your trading
+01:00:06  I'm going to talk about some back
+01:00:07  testing Concepts using this I'm going to
+01:00:09  give you an example I'm also going to
+01:00:11  give you a couple of tools that you can
+01:00:13  actually download as well in a minute
+01:00:16  first of all I'm going to go through it
+01:00:17  but the reason this is so important is
+01:00:19  because this the this is the bit that
+01:00:21  most Traders Skip and this is the reason
+01:00:23  they aren't successful this is the
+01:00:25  reason that ninety percent of Traders
+01:00:27  fail because they don't do this bit so I
+01:00:30  just want you to promise me and I want
+01:00:31  you to put in the comments right now I
+01:00:33  promise I'm going to do this bit if
+01:00:35  you're serious about trading and you've
+01:00:37  watched all of part one and you've
+01:00:38  watched all up to here in part two and
+01:00:40  about an hour in
+01:00:42  I want you to comment below and say I am
+01:00:44  in I'm doing this properly I promise to
+01:00:47  commit to this I'm serious about this
+01:00:49  because that is an affirmation in itself
+01:00:52  and it's going to give you some
+01:00:54  accountability
+01:00:55  um by putting it in the comments there
+01:00:57  as well because we're all watching you
+01:00:58  right so first of all we can all test
+01:01:01  our data we go back and one by one we
+01:01:04  check through
+01:01:05  um what trade played out and we enter as
+01:01:08  per part one I told you the date the
+01:01:11  time where we got in where we got out if
+01:01:13  we made any air you know if there was
+01:01:15  any news out or any notes and things
+01:01:16  like that and we can really get a good
+01:01:19  idea of the win percentage win loss
+01:01:22  percentage of our of our system our
+01:01:24  performance of our system historically
+01:01:26  we can even use that data to then look
+01:01:28  at Equity growth and how aggressive we
+01:01:31  can
+01:01:32  um you know increase our position size
+01:01:35  and what that's going to do to our
+01:01:36  Equity curve and etc etc but the beauty
+01:01:39  of that is is it it gives you all of the
+01:01:43  the data for your mental psychology for
+01:01:46  your mental stability going forward
+01:01:48  because you've got in black and white to
+01:01:50  say this system has been profitable in
+01:01:53  the past so if all I do is trade it
+01:01:55  exactly the same as I tested it
+01:01:57  there's a high probability in fact
+01:01:59  there's a exact probability of X percent
+01:02:02  that this should be profitable going
+01:02:04  forward
+01:02:05  now that's great but what about when you
+01:02:08  do go forward we have to keep journaling
+01:02:11  the trades not just for technical
+01:02:14  performance but for your own self-review
+01:02:17  your performance because there's going
+01:02:19  to be times where you're you start to
+01:02:22  lose your Edge and there's going to be
+01:02:24  times where you can use this information
+01:02:25  going forward to review on a quarterly
+01:02:28  basis and not only review yourself but
+01:02:30  then review the figures where are you
+01:02:32  leaving money on the table where can you
+01:02:34  be a bit more aggressive what about your
+01:02:36  stop loss is it optimal position sizing
+01:02:38  is your target optimal is is the the
+01:02:42  candle signal that you're looking for is
+01:02:44  that optimal are you looking for it on a
+01:02:47  pullback or anywhere on the pullback or
+01:02:49  run
+01:02:50  and does that make a difference right
+01:02:52  how you increase your position size does
+01:02:55  that make a difference are you too
+01:02:56  aggressive on that and it's causing you
+01:02:58  to have a big you know maybe you
+01:02:59  increase your position size after a big
+01:03:02  um you know winning streak and you you
+01:03:04  increase it too much and because of that
+01:03:06  the next losing streak causes you to
+01:03:08  lose more of your account than you need
+01:03:09  to all of these things are an ongoing
+01:03:12  process as a Trader and these are things
+01:03:14  that you have to stay on top of forever
+01:03:17  okay it's not you just take a strategy
+01:03:19  and trade it into the sunset and now
+01:03:21  you're a Trader that is not what makes
+01:03:23  successful Traders successful I just
+01:03:25  want to get that out of the way
+01:03:27  so journaling what is it about I've done
+01:03:30  a full series on trading journaling I
+01:03:33  did a four-part video series on trading
+01:03:36  journaling and you can go and watch this
+01:03:38  in fact go and bookmark this now and
+01:03:40  watch it immediately or watch it after
+01:03:41  this uh after this part two
+01:03:44  but definitely stick those in your
+01:03:46  library all four videos and go and watch
+01:03:48  all those because I go through very you
+01:03:50  know a lot of detail but essentially the
+01:03:53  purpose of journaling is what gets
+01:03:55  measured gets mastered so we're talking
+01:03:56  about
+01:03:58  um you know what you should be looking
+01:04:00  at in terms of recording when you're
+01:04:02  trading and I went all over that in the
+01:04:04  back testing it's basically the same you
+01:04:06  want to be looking at the entry date the
+01:04:08  entry time the currency pair the the
+01:04:10  trading system the type of Entry the
+01:04:12  time frame as much information as
+01:04:15  possible your entry uh price your Target
+01:04:18  price your stop loss price if you've got
+01:04:20  multiple targets all of those you want
+01:04:23  all of those things all of the errors
+01:04:24  made in your live testing of course and
+01:04:27  you're back testing you don't make
+01:04:28  errors but in your real trading you do
+01:04:31  so it's self-review as well so you can
+01:04:34  go on to look at you know we've got
+01:04:37  trading journals which I'm going to give
+01:04:38  you a download uh in the description of
+01:04:41  this but a basic trading journal would
+01:04:43  just be reviewing yourself how you felt
+01:04:45  on a scale of one to ten how desperate
+01:04:47  were you to get in the trade or fearful
+01:04:50  to stay out of the trade and scale that
+01:04:52  on a naught to ten basis and only enter
+01:04:54  trades when you're on a five or a six
+01:04:57  say
+01:04:58  um how you felt when placing the trade
+01:05:00  how you felt when exiting the trade what
+01:05:02  mistakes you made the details of the
+01:05:04  mistakes the screenshots what actions
+01:05:06  have you taken to improve because
+01:05:08  ultimately your self-review comes down
+01:05:11  to
+01:05:12  the goal is to trade a trade plan
+01:05:15  flawlessly as per your back testing so
+01:05:17  you want to be tracking any excess loss
+01:05:20  any bigger losses you take than you
+01:05:22  should have you know with your trade
+01:05:25  plan says one percent you shouldn't you
+01:05:26  should be noting all the trades that
+01:05:28  take more than one percent
+01:05:31  uh you want to be taking note of any
+01:05:34  errors in your trading and you want to
+01:05:36  know what you gained or lost as a result
+01:05:39  of those errors you want to look at
+01:05:41  missed entries you want to look at
+01:05:43  trades that you were in that shouldn't
+01:05:44  have been in and you want to look at
+01:05:46  trade management and all of the you know
+01:05:48  any money that you've gained or lost as
+01:05:51  a result of not trading your trade plan
+01:05:53  flawlessly is an error and you know you
+01:05:57  want that to be zero zero errors every
+01:05:59  single month that's that's the whole
+01:06:01  point of journaling and also
+01:06:04  so that's your self development but on
+01:06:07  the on the technical side on the analog
+01:06:09  on the figures side right the profit
+01:06:11  side uh not only were your emotions
+01:06:14  cause you to lose or gain profit luckily
+01:06:18  um but your performance of the actual
+01:06:21  strategy itself as well you want to keep
+01:06:23  track of that because you can lose your
+01:06:25  Edge right so you can lose your Edge so
+01:06:27  guess what if you Journal your trades
+01:06:29  you can look at the back testing and go
+01:06:30  actually this is this is declining from
+01:06:34  my back testing or this is getting
+01:06:36  better than my the my back testing and
+01:06:38  then you can ask yourself am I still
+01:06:39  trading it the same way or if you go for
+01:06:41  a big drawdown you can say am I still
+01:06:44  trading it right am I am am I still on
+01:06:46  track you know is this right is for
+01:06:48  losing trades in a row normal is seven
+01:06:51  losing trades in a row normal well you
+01:06:52  look back at your back testing and say
+01:06:54  well your Journal trades and say well
+01:06:55  every year this has been the case so
+01:06:57  it's pretty normal and it gives you that
+01:06:59  mental stability another reason
+01:07:02  is
+01:07:03  you can look at different targets and
+01:07:06  you can start to see how aggressive you
+01:07:09  can become what money you're leaving on
+01:07:11  the table as a result of being too
+01:07:13  conservative or not giving a stop loss
+01:07:15  enough breathing room or taking a Target
+01:07:17  too soon can you take targets further
+01:07:19  away all of this stuff is Mega important
+01:07:22  okay to the point where you can
+01:07:24  literally go on to your spreadsheet and
+01:07:27  go okay well I can look at
+01:07:30  August is that profitable perhaps
+01:07:32  there's a certain pair that isn't
+01:07:34  profitable and it's caused its Death By
+01:07:35  A Thousand Cuts it's causing me to lose
+01:07:37  some money and if I just wipe that pair
+01:07:39  out I'll be profitable perhaps there's a
+01:07:41  time of day that a certain strategy
+01:07:43  doesn't perform very well is if there's
+01:07:46  a
+01:07:47  um certain month or a certain day of the
+01:07:49  week right a certain news event all of
+01:07:52  these patterns are what you need to keep
+01:07:54  on top of to develop an edge as a Trader
+01:07:56  and this is what no one talks about this
+01:07:58  is what you know this isn't sexy this
+01:08:01  isn't something you can sell and what
+01:08:03  this is why I'm giving it to you right
+01:08:05  this is free information and I need you
+01:08:07  to know it because I'm sick to death of
+01:08:09  Traders just
+01:08:11  blowing money unnecessarily because you
+01:08:14  don't need to
+01:08:15  right so what do we need to do we need
+01:08:19  to keep track so I'm gonna run you
+01:08:21  through an example here okay and then as
+01:08:25  I say what you can do is once you've got
+01:08:27  all the all the journal trades here
+01:08:28  after a quarter of trading you compare
+01:08:30  to your back testing and you say well
+01:08:32  okay
+01:08:33  win percentage has gone down a little
+01:08:34  bit
+01:08:35  um strike rate's gone down maybe strike
+01:08:38  rate's gone up maybe I've made a few
+01:08:39  errors and you're just on top of it and
+01:08:41  it gives you peace of mind gives you
+01:08:44  peace of mind
+01:08:45  so what are we looking at here we're
+01:08:47  looking at some trades let's just take a
+01:08:50  look at one trade and I'll tell you how
+01:08:51  to fill this out
+01:08:52  let's get stuck in so let's just use
+01:08:55  this one as an example right you can see
+01:08:57  here
+01:08:58  um that this would have been the first
+01:08:59  trade in this little this bit on the
+01:09:02  screen here right you could use this one
+01:09:04  or you could use this one Whatever right
+01:09:05  we're going to use this one so this is
+01:09:07  the 18th of August what we're going to
+01:09:10  do is we're going to go straight in and
+01:09:12  we're going to say right on the 18th of
+01:09:13  August
+01:09:15  um 18.
+01:09:16  all right
+01:09:18  2023 okay that's the first date now
+01:09:23  we're just going to go back to our chart
+01:09:26  I'm going to say we entered the trade
+01:09:28  and obviously we got in on the close of
+01:09:30  the candle so in the UK at the open of
+01:09:33  the next Market is 10 p.m all right so
+01:09:36  we just literally go what time did we
+01:09:38  get in well it was 10 uh in fact I'll
+01:09:41  just use
+01:09:42  24-hour timings currency pair was the
+01:09:46  New Zealand dollar
+01:09:49  CAD I believe
+01:09:51  New Zealand CAD
+01:09:53  uh yep okay next up we go what is the
+01:09:58  chart interval we know that's the daily
+01:10:00  why are we recording this well as I say
+01:10:03  if you've got multiple time frames that
+01:10:05  you trade we can then use this data and
+01:10:08  then use pivot tables to say Can you
+01:10:11  tell me
+01:10:12  what's the most tight what's the most
+01:10:15  profitable chart interval right and if
+01:10:18  you don't track it you don't know it so
+01:10:20  what gets measured can't get mastered
+01:10:21  like if what's not measured can't get
+01:10:23  mastered what's measured gets mastered
+01:10:26  so you track as much as possible we've
+01:10:28  got the chore system which is this the
+01:10:30  name of this strategy I called it the
+01:10:31  daily chore type of Entry pin bar now in
+01:10:35  here you could put pin bar 30 pin bar
+01:10:38  fifty percent right pin bar 20 you might
+01:10:42  even trial pin bar doji's only right in
+01:10:45  the lower 10 you might even just put
+01:10:48  Hammer candles so you can you can start
+01:10:50  tracking the types of Entry signal
+01:10:53  average true range and CTS we're not
+01:10:55  going to go into that in this it's kind
+01:10:56  of irrelevant for this strategy uh entry
+01:10:59  price so now you'll just go back to the
+01:11:01  chart and you say right okay well
+01:11:03  um once this candle entered I entered
+01:11:06  two Pips below the low and in this case
+01:11:08  it was uh uh 0.8 flat or 0.8009 okay so
+01:11:13  we're gonna say
+01:11:15  um entry price was naught point
+01:11:19  8009 that was our entry price and our
+01:11:22  initial stop loss
+01:11:24  obviously is two Pips above the highest
+01:11:27  so here's the candle here at eight uh
+01:11:30  8053 so we're gonna be 805 5. this does
+01:11:35  get a lot quicker particularly if you
+01:11:36  have
+01:11:37  um the spreadsheet on one side and the
+01:11:40  chart on the other side it does get a
+01:11:43  lot quicker I promise you uh
+01:11:45  but this is why you can start to see why
+01:11:49  people don't do this people don't do it
+01:11:52  so 8055 0.8055
+01:11:58  okay and then our Target One Price okay
+01:12:02  and remember this is Journal trade so
+01:12:04  we're pretending that we've just taken
+01:12:06  this trade this week say or today I
+01:12:08  recommend that you journal on the day of
+01:12:10  the trade and when you close it out you
+01:12:13  complete the journal
+01:12:14  so the Target price
+01:12:17  um would have been a one to one so if
+01:12:19  we're 55 it's basically 55 Pips below
+01:12:23  this so let's just say
+01:12:25  um seven
+01:12:28  uh let's just bring up let's let's do it
+01:12:31  as I
+01:12:32  as I said right so we're going to enter
+01:12:35  uh
+01:12:36  0.8
+01:12:37  here
+01:12:39  stop loss is going to go above the high
+01:12:42  which is 805.5 and then we're going to
+01:12:45  look at a one to one
+01:12:48  okay so this is the way I do it
+01:12:49  literally you can do it like this
+01:12:51  there's a one to one so the the price
+01:12:53  that you're getting
+01:12:55  um
+01:12:57  is 7963 okay so 7963
+01:13:02  Target One price 0.7963
+01:13:05  we don't have a Target Two price but you
+01:13:08  might you might have another Target
+01:13:10  price okay Target three price Etc
+01:13:13  then the close date so the close date is
+01:13:16  when we get stopped out right so look
+01:13:18  you can see that we didn't hit targets
+01:13:21  and we actually got stopped out on the
+01:13:22  next day which was the 22nd of August
+01:13:25  2023 so we just literally go down here
+01:13:28  and we say close date 22nd 08 2023
+01:13:35  close time again is going to be that
+01:13:38  could be any time in the day so if you
+01:13:40  did want an accurate time you go back to
+01:13:43  the chart and you go uh down a time
+01:13:46  frame and you would find that I'm not
+01:13:48  going to do that in this video because
+01:13:49  it would just take too long but
+01:13:52  let's just say this moved up and about
+01:13:54  uh I don't know 3 P.M or something we
+01:13:57  got we got stopped out you find out the
+01:13:59  exact time and I recommend you do find
+01:14:01  out the exact time we can just put 1500
+01:14:05  hours in here and the position exit
+01:14:07  right is where you exited so this is
+01:14:10  going to be the stop loss or the target
+01:14:13  okay in this case it's going to be the
+01:14:15  stop loss price so it's
+01:14:18  0.8055
+01:14:20  0.8055 all right bang got that now chart
+01:14:25  notes you can put any chart notes here
+01:14:27  you can say oh there was news out or
+01:14:30  there was some kind of news announcement
+01:14:31  or I had you know I got in late or
+01:14:34  whatever or there was a bit of
+01:14:36  volatility something got something
+01:14:38  happened any relevant chart notes rules
+01:14:41  followed that's where you want to 100
+01:14:44  did you did you follow the rules of the
+01:14:46  trade plan this is going to force you to
+01:14:48  self-review if you if you see a lot of
+01:14:50  no's there or naught percents that's
+01:14:52  going to make you Buck your ideas up
+01:14:54  right that's a reason that you're not
+01:14:56  profitable errors made did you make any
+01:14:59  errors
+01:15:00  human error okay remember excessive loss
+01:15:03  management
+01:15:05  things you should have shouldn't be in
+01:15:07  trade you shouldn't be in
+01:15:09  then you can see that this particular
+01:15:11  trade was a 46 pip loss okay next one we
+01:15:15  go on to the next one we do exactly the
+01:15:17  same thing again we get another trade
+01:15:18  come up on you know a couple of days
+01:15:21  later this is 4th of September
+01:15:24  and we do exactly the same thing right
+01:15:27  entry price two Pips below the low time
+01:15:31  date Etc I'll speed this up and I'll
+01:15:34  enter the next couple of trades right
+01:15:37  now
+01:15:38  thank you
+01:15:40  [Music]
+01:15:50  okay so I've just filled in free trades
+01:15:53  literally from the last few weeks on
+01:15:56  that New Zealand Cad and you can see I
+01:15:58  entered
+01:16:00  um the first one here which was a loser
+01:16:01  second one here which was a winner set
+01:16:04  third one here which was a winner and
+01:16:05  then of course we've got a one that
+01:16:06  we're watching right now which hopefully
+01:16:09  can be another winner and um if it
+01:16:12  closes below this previous Low by the
+01:16:14  way on a side note that's a good
+01:16:15  indication that it will go lower because
+01:16:17  that's a lower low lower close
+01:16:20  um but there's another one you know
+01:16:21  there's a couple that I've missed out
+01:16:22  but the last few last couple of weeks on
+01:16:24  this
+01:16:25  um we've filled in and what that looks
+01:16:27  like here is this so we've got three and
+01:16:30  would you look at that we've got a
+01:16:32  similar win loss percentage now I'm not
+01:16:34  saying that three trades should make
+01:16:36  your mind up about it being close enough
+01:16:37  to your back testing of course I can't
+01:16:40  sit here and journal every trade for
+01:16:41  weeks on end this video be you know I'd
+01:16:44  have to do that in real time I want to
+01:16:46  show you how to journal in the
+01:16:48  importance of journaling and how you use
+01:16:51  it to continuously develop your Edge
+01:16:53  over the rest of the other Traders
+01:16:55  because that's what we're trying to do
+01:16:56  and how you can be consistently
+01:16:58  profitable long term okay so
+01:17:02  that's the importance of journaling guys
+01:17:04  and I just want you to make sure that
+01:17:07  you go and watch the other series of
+01:17:08  videos on journaling because that goes
+01:17:10  into a lot of detail on the other
+01:17:12  aspects that are important but I just
+01:17:14  wanted to give you a real practical
+01:17:16  guide as to why it's important and then
+01:17:19  guess what you can start looking at your
+01:17:21  live Equity now and you can start
+01:17:23  increasing your position size or keeping
+01:17:25  track of your Equity curve or knowing
+01:17:28  when to be a little bit more aggressive
+01:17:29  on increasing your position size okay
+01:17:31  and then you've got this Equity curve to
+01:17:34  show to investors attract investors and
+01:17:36  things like that right so so much so
+01:17:39  much benefit to doing this stuff and
+01:17:41  then after a quarter or a year you go to
+01:17:44  the tune up and you can start using
+01:17:46  pivot tables and say right I want to
+01:17:47  compare
+01:17:48  currency pair chart interval trading
+01:17:51  system date time month you know entry
+01:17:54  price initial stop loss and you can
+01:17:56  start using these tables to start
+01:17:58  seeing where you're leaving money on the
+01:18:00  table that's that's what I want to get
+01:18:02  you excited about I want you to
+01:18:03  understand there's a bit of work to do
+01:18:05  here and this is absolutely necessary
+01:18:08  this is required for you to be a
+01:18:10  profitable Trader so just to summarize
+01:18:12  it's going to allow you to review
+01:18:14  yourself and make sure that your
+01:18:17  emotional performance and your
+01:18:18  self-performance is getting better it's
+01:18:20  also going to allow you to journal the
+01:18:23  system and strategy performance to make
+01:18:26  sure that that is still getting better
+01:18:28  and better and when you combine those
+01:18:30  two that's how you consistently get new
+01:18:33  more more profits all right so that's it
+01:18:37  I promise not to be on about journaling
+01:18:40  anymore but what I do want to talk about
+01:18:42  right now is fees and how that affects
+01:18:45  your trading all right I hope you're
+01:18:46  enjoying this as much as you enjoyed the
+01:18:48  first one part one if you are let me
+01:18:50  know in the comments it really does help
+01:18:53  to know that we're on the right track
+01:18:54  and everyone's getting value from this
+01:18:55  and I'm going to consider doing more of
+01:18:58  these you know I'm doing a stock picking
+01:19:00  for beginners I'm going to be doing a
+01:19:03  start a business for beginners and I'm
+01:19:06  going to roll this series out with this
+01:19:08  level of detail across all of those I've
+01:19:10  had success with and I'm going to share
+01:19:12  with you guys everything I've learned so
+01:19:14  if you're enjoying it take a minute to
+01:19:16  just let me know in the comments and
+01:19:18  also don't forget to subscribe and like
+01:19:21  this video lots of people just watch
+01:19:22  this video don't give it a little like
+01:19:24  take a second just to do that please and
+01:19:26  that will really help the channel
+01:19:28  okay I'm going to talk quickly about
+01:19:30  fees and why they matter because the
+01:19:31  whole point of me putting all this
+01:19:33  energy into these videos is to help you
+01:19:36  grow wealth and keep your money and grow
+01:19:39  your money okay and not give it away and
+01:19:42  you lose it okay because I've had so
+01:19:45  many messages from people losing money I
+01:19:47  don't want any more of that this is my
+01:19:48  gift to the trading Community to make
+01:19:51  sure that I eliminate that or at least
+01:19:54  reduce it as much as I possibly can all
+01:19:57  these horrible Guru people out there
+01:20:00  taking your money they don't care you
+01:20:02  know they don't care they're just
+01:20:03  they're narcissists
+01:20:06  and they've got no intention
+01:20:09  um of keeping your best interest at
+01:20:11  heart so let's talk about fees real
+01:20:13  quick the four main categories
+01:20:16  um that affect you donating money back
+01:20:19  to the market is silly donations which
+01:20:21  is basically trading when you don't know
+01:20:23  what you're doing having the urge to
+01:20:25  trade live money without having a proven
+01:20:27  system that you there's no excuse for
+01:20:28  you not to have one other than the fact
+01:20:30  that you're you've got a fear of missing
+01:20:32  out or something just take the time to
+01:20:34  test the system and go and you know
+01:20:36  tweak it and then start slowly
+01:20:39  the results are exponential people under
+01:20:42  like they they completely overestimate
+01:20:44  what's achievable in a short period of
+01:20:46  time and then when they realize there's
+01:20:47  a bit of work to do they underestimate
+01:20:49  what's achievable in a two-year
+01:20:51  three-year period which is exponential
+01:20:54  growth okay
+01:20:56  the rollover costs people just placing
+01:20:58  trades negative carry there's actually
+01:21:01  positive carry which you can use to your
+01:21:03  advantage which I'll go over in a later
+01:21:04  video but rollover costs are where the
+01:21:07  broker's charging you to be in the trade
+01:21:09  on a daily basis every time you know and
+01:21:12  you're not aware of that so even when
+01:21:14  you've got a profitable trade it's not
+01:21:16  as profitable as you thought and you
+01:21:17  don't know why that's because of
+01:21:18  rollover costs spread fluctuations
+01:21:22  that's where unethical Traders just
+01:21:25  change their spreads during the Asia
+01:21:27  session or when you're not looking at
+01:21:29  the charts and everyone's gone out for
+01:21:31  dinner they change up the spreads and it
+01:21:34  it's crazy which is another reason why I
+01:21:36  love trade Nation because they honor
+01:21:39  their fixed spreads they're fixed
+01:21:40  spreads so even if you're paying a
+01:21:42  little bit more it doesn't matter I'd
+01:21:44  rather have fixed spreads and know where
+01:21:46  I stand and have certainty in my
+01:21:47  projections and then tax okay people
+01:21:50  don't do their tax properly or they
+01:21:52  don't feel like I just touch on tax real
+01:21:55  quick
+01:21:56  I'll knock this one on the head straight
+01:21:58  away tax on trading again I've done a
+01:22:00  whole video with a broker and an
+01:22:02  accountant you can go and watch that
+01:22:04  video right here
+01:22:07  um and it's about I think it's about an
+01:22:09  hour long but you can go and watch it
+01:22:10  and it's really informative But
+01:22:12  ultimately it comes down to this check
+01:22:14  out with your accountant Even book a
+01:22:17  free meeting with an accountant and
+01:22:18  lawyer talk about what you want to do
+01:22:20  and they'll give you the best advice but
+01:22:22  in the UK you can open a spread betting
+01:22:25  account which is classed as a gambling
+01:22:27  account that's the only difference
+01:22:28  between a spread betting account and a
+01:22:30  another you know a cfd account it really
+01:22:33  makes no difference to the you know what
+01:22:35  you can do in the account
+01:22:37  except it's classed as gambling
+01:22:40  so the Inland Revenue here in in the UK
+01:22:44  will close it as gambling and they'll
+01:22:45  say okay you're not taxed on gambling
+01:22:47  profits great but
+01:22:49  it is you're going to be investigating
+01:22:50  on a case-by-case basis so first of all
+01:22:53  you have to have a primary income of at
+01:22:54  least 15 grand
+01:22:56  right so you have to have another job
+01:22:59  basically second of all there's a limit
+01:23:01  to how much you can have in that spread
+01:23:03  betting account of a hundred grand
+01:23:05  now if you were stacking shelves at
+01:23:08  Tesco for one day a week uh or Costco
+01:23:12  for one day a week and you're earning
+01:23:14  like I don't know five grand a year
+01:23:16  doing part-time one day a week and
+01:23:18  you're earning 70 grand on your Trading
+01:23:21  they're not going to class Costco as
+01:23:23  your primary income they'll say come on
+01:23:25  you know you're earning more from
+01:23:26  Trading than you are in Costco this is
+01:23:29  your primary income so you need to pay
+01:23:30  up you need to cough up the tax and that
+01:23:33  is where you don't want to get caught
+01:23:34  out you end up giving back a big fine
+01:23:37  and you're giving it all back you know
+01:23:39  you're not going to be better off over
+01:23:40  time so get all this stuff right get it
+01:23:43  clear
+01:23:44  know where you stand max out your spread
+01:23:46  button account by all means but then
+01:23:48  consider you know making sure that
+01:23:51  you're keeping tabs on all of the tax on
+01:23:53  profits
+01:23:54  now I do talk about reinvesting money
+01:23:56  and how you cannot pay tax or defer your
+01:23:59  tax because you're putting it into new
+01:24:01  Investments but that's a whole other
+01:24:02  course and I'll talk about that in
+01:24:04  another video let's talk about silly
+01:24:06  donations silly donations are just
+01:24:08  literally blowing the money without
+01:24:09  knowing what you're doing that's it okay
+01:24:11  rollover costs I've already explained
+01:24:13  spread fluctuations I've already
+01:24:15  explained and tax I've explained now why
+01:24:17  do fees matter let me give you in a real
+01:24:19  example here of why fees matter
+01:24:22  so let's just say that you're investing
+01:24:25  200 a week for 50 years you've heard all
+01:24:28  these gurus say if you invest 200 a week
+01:24:30  50 years you'll be a multi-millionaire
+01:24:32  blah blah blah blah blah right now let's
+01:24:33  just assume that there's a four percent
+01:24:36  inflation rate okay so you're going to
+01:24:39  increase that four percent annually to
+01:24:41  counter that inflation well
+01:24:44  if you was to get eight percent return
+01:24:47  after uh 50 years you'd have 11.6
+01:24:51  million net worth great that's factual
+01:24:54  okay and that's what you'd have now
+01:24:57  let's just say that there's a fund that
+01:25:00  performs identically to that or you like
+01:25:03  you perform exactly the same identically
+01:25:05  to that performance but there's a one
+01:25:07  percent fee difference all right so
+01:25:09  seven percent net
+01:25:11  well you end up with 8.4 million and
+01:25:14  although you might not care about that
+01:25:16  because it's still 8.4 million that's
+01:25:18  still a 3.2 million pounds difference or
+01:25:22  dollar difference but here's where it
+01:25:23  really matters
+01:25:25  let's just say if you invest 20 of your
+01:25:28  income at an eight percent return per
+01:25:30  year that will take 27 years to replace
+01:25:34  your income and become financially free
+01:25:35  now if you do the same thing at a seven
+01:25:38  percent return it will take you 34 years
+01:25:41  now that is a one percent difference but
+01:25:45  a seven years that you have to work for
+01:25:49  longer than the person who retired seven
+01:25:51  years ago imagine what you could do with
+01:25:54  seven years in seven years
+01:25:57  that's a long time and that is just a
+01:25:59  one percent difference in fee now where
+01:26:02  might you see a one percent difference
+01:26:03  in fee
+01:26:04  in your broker fluctuations okay so you
+01:26:08  only have to be wrong
+01:26:10  and give silly donations and payroll
+01:26:13  over costs and play pay stupid spread
+01:26:16  fluctuations to the degree of one
+01:26:19  percent difference and it can have an
+01:26:22  astronomical effect on your trading
+01:26:23  returns over time so I just want you to
+01:26:26  bear that in mind because
+01:26:28  you might be very resentful when you get
+01:26:30  five years seven years ten years down
+01:26:32  the line and you think my performance
+01:26:34  has been awesome why have I not got the
+01:26:36  money that I thought I would have this
+01:26:38  is why pay attention to fees because
+01:26:40  fees matter another reason to use trade
+01:26:45  Nation I know I keep banging on about it
+01:26:47  but that is why I use them okay with
+01:26:49  that out the way it's finally time to
+01:26:51  get on to the final segment of this
+01:26:53  training where I'm going to be talking
+01:26:55  to you how you can really accelerate
+01:26:58  your trading returns I'm going to go
+01:27:00  over some do's and don'ts let's get
+01:27:02  stuck in all right so as I said the goal
+01:27:04  of this series was to make you or get
+01:27:07  you to professional level trading as
+01:27:08  efficiently as possible that was the
+01:27:10  goal I set out in part one right at the
+01:27:12  beginning and I really really want to
+01:27:15  leave this series with my hand on my
+01:27:17  heart and say that was the best
+01:27:19  information I could have given so in
+01:27:21  order to leave that lasting Mark I need
+01:27:23  to be able to go away and know that I've
+01:27:25  given you all of the tips and tricks uh
+01:27:28  that I would tell literally on my
+01:27:30  deathbed I would leave for the rest of
+01:27:32  the world if I had one piece of paper
+01:27:34  where I could write this is what
+01:27:36  everyone should do this is it so I'm
+01:27:38  going to share with you some do's and
+01:27:40  don'ts and some considerations so that
+01:27:42  you can actually get towards
+01:27:44  professional trading and not lose a load
+01:27:46  of money and waste a load of time so
+01:27:48  consider this imagine I gave you some
+01:27:51  concrete and some bricks and some
+01:27:52  playing cards and I told you to build
+01:27:55  the most strongest structure that you
+01:27:58  could possibly build with those
+01:27:59  materials how would you build it the
+01:28:02  chances are you would put the concrete
+01:28:04  down first as a solid foundation then
+01:28:07  you would put some bricks on top as you
+01:28:09  see many houses are built that way and
+01:28:11  then the playing cards would form the
+01:28:13  roof and the kind of intern interior
+01:28:15  furnaces and things like that right
+01:28:17  because you know that if the roof
+01:28:19  collapses it doesn't destroy the rest of
+01:28:21  the house and then if the bricks
+01:28:23  collapse at least the foundations are
+01:28:25  still there you're building a solid
+01:28:26  structure and I want you to think of
+01:28:28  this as kind of a pyramid
+01:28:30  now when it comes to Trading
+01:28:32  people don't see this pyramid but in
+01:28:35  actual fact as you move into trading
+01:28:38  you're going into the Realms of
+01:28:39  speculation and with speculation yes
+01:28:41  there's more potentially more reward
+01:28:43  there's more leverage there's you know
+01:28:45  it's it requires more of your skill and
+01:28:48  time and effort to learn it's something
+01:28:50  that only you can control which is why
+01:28:53  it's crazy that people just give their
+01:28:54  money to other traders to him to trade
+01:28:56  because that's not what you should be
+01:28:58  doing if you're if you're going to
+01:28:59  implement a speculation strategy into
+01:29:02  your wealth creation uh strategy overall
+01:29:04  strategy you need to be the Speculator
+01:29:06  you need to take control of it therefore
+01:29:08  you need to develop the skill and the
+01:29:10  truth is there's tears of this game that
+01:29:13  need you and demand you to earn your
+01:29:15  right to risk every step along the way
+01:29:18  now what most people do
+01:29:21  is they build a pyramid like this and
+01:29:23  they have all of their net worth their
+01:29:26  most of their capital in speculation and
+01:29:29  guess what happens
+01:29:31  it topples over that is not going to
+01:29:33  last very long right and it topples over
+01:29:35  because one you've got most of your net
+01:29:37  worth in high speculation that's very
+01:29:40  volatile emotionally and you know
+01:29:42  physically uh two you've never managed
+01:29:45  large sums of money in or pulled large
+01:29:49  sums of money out of the economy in a
+01:29:51  business environment for most people so
+01:29:53  what makes you think that you're going
+01:29:54  to remain calm when you pull large sums
+01:29:56  of money out of the markets in a
+01:29:57  speculation environment right uh you
+01:30:00  know I had a time in April 2020
+01:30:03  um when I had my largest trade-in day it
+01:30:05  was about 133 000 in a day and that was
+01:30:09  even a little bit tough for me uh
+01:30:12  without getting a bit cocky or a bit
+01:30:14  excited right and I've been trading for
+01:30:16  many many many many years up to that
+01:30:18  point so if you do that and you pull a
+01:30:21  large sum of money out of the market
+01:30:22  what makes you think you can manage that
+01:30:24  if you've never had any any experience
+01:30:26  managing money whatsoever right the next
+01:30:29  reason is your IQ okay okay now the
+01:30:32  reason I say IQ is because there was a
+01:30:34  study done in India and I've said about
+01:30:35  this before about Farmers IQ levels when
+01:30:38  the when the market was low and there
+01:30:40  was a drought and they they didn't have
+01:30:41  any money their IQ dropped significantly
+01:30:44  okay by 30 percent and when there was a
+01:30:48  good market and everything times were
+01:30:50  good again and the money was flowing it
+01:30:52  raised by 30 and what that means is if
+01:30:54  you're trying to learn to trade
+01:30:56  desperate for money I have messages
+01:30:58  every day people say I'm desperate for
+01:31:00  money I need to learn to trade
+01:31:01  if you're in that position
+01:31:03  that very position is what's going to
+01:31:05  stop you from being able to learn to
+01:31:07  trade because you need a higher IQ to
+01:31:09  learn to trade and I know there's people
+01:31:11  out there with white teeth and jazz
+01:31:14  hands telling you that anyone can learn
+01:31:16  to trade and they exploit their kids
+01:31:18  clicking mouses and saying he can do it
+01:31:20  and they'd say my Gardener can do it in
+01:31:22  an hour that's rubbish those are
+01:31:24  criminals okay and the truth is you need
+01:31:27  a high IQ at least 115 IQ to trade so if
+01:31:32  you haven't got an IQ there it's either
+01:31:34  down towards your situation you're in in
+01:31:36  poverty and Desperation and you
+01:31:38  shouldn't even consider trading at that
+01:31:39  point or you're just not cut out you
+01:31:42  know you're just not a logical minded
+01:31:44  person and that's okay there's plenty of
+01:31:46  other ways you can make money if you're
+01:31:47  not right it's it's this isn't the be or
+01:31:50  an end all right and these are over like
+01:31:52  these are really really easy to overcome
+01:31:54  so here's what your next step should be
+01:31:56  right now and promise me you're gonna do
+01:32:00  these promise me in the comments you're
+01:32:01  going to do these okay so before I get
+01:32:03  into those here's what not to do do not
+01:32:06  do these do not take signal Services
+01:32:08  okay don't take signals you don't know
+01:32:12  what the strategy is you don't have the
+01:32:14  mental capability to stick with the plan
+01:32:16  because you don't know the probabilities
+01:32:18  you're not in control whatsoever and if
+01:32:20  someone ever decides to stop taking you
+01:32:22  know giving you those signals well you
+01:32:25  know what do you do then right no good
+01:32:26  it's a complete waste of time
+01:32:29  next do not give money to wolves do not
+01:32:32  give money to people who keep changing
+01:32:34  their message and they look like they're
+01:32:36  giving you advice but they're actually
+01:32:38  just trying to get you into their
+01:32:39  brokerage or you know you have to open
+01:32:41  an account or download their platform or
+01:32:43  their software that's linked to their
+01:32:46  broker they're wolves and sheep's
+01:32:48  clothing right that's why I call them
+01:32:49  wolves it's it's they look like they're
+01:32:52  doing you a favor but they're actually
+01:32:53  not
+01:32:54  Trader fund challenges and things like
+01:32:57  that right all those kind of things a
+01:32:59  lot of them are wolves in sheep clothing
+01:33:00  the odds are stacked highly in their
+01:33:03  favor and they've got not your best
+01:33:04  interest at heart at all
+01:33:06  next one do not give money to other
+01:33:08  Traders as I said before your job to to
+01:33:12  speculate your skill has to be to
+01:33:14  speculate if you're if you're not
+01:33:15  willing to develop the skill to in a
+01:33:17  speculation whether that's property or
+01:33:19  stock trading or Forex Trading or
+01:33:22  business startup whatever it might be
+01:33:24  that is all speculation and it's your
+01:33:27  job to take control of that you do not
+01:33:29  put your money with other speculators
+01:33:31  okay and if you do it should be a very
+01:33:33  small portion of your money
+01:33:35  next thing don't learn everything don't
+01:33:38  go to the book off the book of the book
+01:33:40  or go to babypips.com or go to YouTube
+01:33:43  video after YouTube video because you'll
+01:33:45  lose direction it will take you forever
+01:33:47  and you'll end up in Conflict okay
+01:33:50  you'll go you'll you'll just lose trust
+01:33:52  in the whole process there's a very good
+01:33:54  analogy that I use uh saying the best
+01:33:57  way to learn how to have a conversation
+01:33:59  in English is not to read the English
+01:34:01  dictionary you can learn every single
+01:34:03  word in the Oxford dictionary and still
+01:34:05  not how to string us not know how to
+01:34:06  string a sentence together because
+01:34:09  you don't need to know all of that right
+01:34:11  to string a sentence together and the
+01:34:13  truth is in trading it's the same you
+01:34:14  need One Direction One Mentor one you
+01:34:18  know to get you from A to B and then yes
+01:34:21  take pieces from other people but you
+01:34:23  need to get profitable first and if
+01:34:24  you're going flipping from book to book
+01:34:26  and video to video You're gonna take
+01:34:28  forever I've seen it happen over and
+01:34:30  over again next one do not approach this
+01:34:32  as a gambler okay I get asked all the
+01:34:34  time is trading risky
+01:34:36  the approach is what's risky is what
+01:34:39  makes it risky the Market's just the
+01:34:40  market okay the market just does what
+01:34:42  the market does every day it doesn't
+01:34:43  care about you whether it's risky or not
+01:34:46  is how you approach it if you've earned
+01:34:48  this level of skill this level of you
+01:34:50  know earned your right to risk and the
+01:34:52  truth is this think about the casino you
+01:34:55  go in the casino there's all these
+01:34:56  random people playing games losing money
+01:34:58  every night but if you look over at the
+01:35:00  tournament table it's the same poker
+01:35:01  players every night okay and that is one
+01:35:04  difference between the person who's
+01:35:06  random and the person on that table and
+01:35:08  it's because they treat it and approach
+01:35:10  it as a business with a logical mind and
+01:35:12  they know the numbers and they know the
+01:35:14  projections and they know their risk
+01:35:16  management and they know their money
+01:35:17  management and they have a trade plan
+01:35:18  okay they are there every night not
+01:35:22  through luck
+01:35:23  but through skill and they are not
+01:35:27  treating poker as a risky Endeavor
+01:35:30  because it's not risky they've got a
+01:35:32  plan
+01:35:32  so don't do that right now
+01:35:35  what you should you can easily overcome
+01:35:37  all these as well and here's what you
+01:35:39  should do to accelerate your journey
+01:35:41  first of all go and get an IQ test
+01:35:43  really really simple very quick as takes
+01:35:46  under 10 minutes you know you can go and
+01:35:48  do it for free brain I've got this one
+01:35:50  here brainer tea which is a good one I
+01:35:52  think it's free
+01:35:53  um and it'll just give you an IQ test
+01:35:55  three minute IQ test okay it'll give you
+01:35:57  a good place to start and at least
+01:35:59  you'll know ballpark where you're at
+01:36:01  okay the next thing is do my wealth test
+01:36:04  all of these links are in the
+01:36:05  description by the way my wealth profile
+01:36:07  test will assess your entire situation
+01:36:10  all the pillars of wealth creation and
+01:36:12  it's very quick and simple it's quick
+01:36:14  yes no answers and at the end of it it
+01:36:17  will profile you and give you a
+01:36:19  personalized video and a personalized
+01:36:21  55-page Report with a blueprint and
+01:36:24  roadmap on what to do in what order so
+01:36:27  that you can become financially free as
+01:36:29  quickly as possible now the the power in
+01:36:32  this is this is the difference between
+01:36:34  it taking you seven years to learn to
+01:36:36  trade or one year to learn to trade
+01:36:38  because there might be certain things
+01:36:40  that hold you back that's taking you
+01:36:41  longer to learn
+01:36:43  whereas if you just do that one piece
+01:36:45  then learning to trade and becoming
+01:36:47  profitable in trading is much quicker so
+01:36:49  make sure you do this and then you've
+01:36:51  got a roadmap to follow next thing is
+01:36:53  make sure you know your numbers
+01:36:55  you know test manage and learn your
+01:36:58  incomings your outgoings your
+01:36:59  projections and keep a level head and
+01:37:02  never risk more than 10 of your total
+01:37:05  net worth in speculation you won't have
+01:37:07  lasting results doing that and finally
+01:37:09  if you really want to go from naught to
+01:37:12  100 professional Trader as quickly as
+01:37:14  possible then join my 30-day Trader
+01:37:17  program I introduced it and touched on
+01:37:19  it in the last video in part one but I
+01:37:21  get asked all the time about what books
+01:37:24  people can read and what other
+01:37:25  informational videos I have and the
+01:37:27  truth is I've got lots of free content
+01:37:29  on this channel but if you really really
+01:37:31  want to accelerate your journey and want
+01:37:34  to work with me and the other Traders
+01:37:36  and my team at a very very small cost
+01:37:38  relative to your time then this is the
+01:37:43  most cheapest and efficient way to do
+01:37:45  that I promise you you get access to me
+01:37:47  my team we cover all of my personal
+01:37:49  Trend strategies all of my reversal
+01:37:51  strategies you get access to my
+01:37:53  accountability group and I'm going to
+01:37:55  share my tools and then I'm going to
+01:37:56  show you how to literally how I place
+01:37:58  orders how to work out your position
+01:38:01  sizes in your portfolio how to work out
+01:38:03  leverage how to trade Trend in multiple
+01:38:05  ways and reversals in multiple ways and
+01:38:08  also cover in detail the negative carry
+01:38:10  in the positive carry as well as all the
+01:38:12  rollover costs and spread fluctuations
+01:38:14  and also Capital partitioning which is a
+01:38:16  very very powerful strategy for Traders
+01:38:18  this is literally all you need so after
+01:38:21  the 30-day Trader program you will be
+01:38:23  flying it's a no-brainer and also you
+01:38:26  get it for life it's not just the next
+01:38:28  30 days if you're watching this video in
+01:38:31  the future click on the link it will be
+01:38:33  available for you to join and come and
+01:38:34  work with me I'm not going anywhere and
+01:38:36  you get it for as long as you like so
+01:38:38  it's open now so hit the link in the
+01:38:40  description and join me straight away
+01:38:42  let's get you trading professionally
+01:38:44  once and for all click the link in the
+01:38:46  description and let's work together all
+01:38:48  right that wraps up trading for
+01:38:49  beginners part one and part two on a
+01:38:51  final note I just want to say I really
+01:38:52  really enjoyed making this video so I
+01:38:55  hope that you've enjoyed watching it all
+01:38:57  I ask is one small favor is that you
+01:38:59  share this video to get it out to as
+01:39:01  many people as possible so we can
+01:39:03  achieve that goal that we set at the
+01:39:05  beginning of reaching as many people
+01:39:07  with this high quality information so
+01:39:09  that they actually build wealth and
+01:39:10  don't lose money and become victims to
+01:39:12  scams I believe you can be a great
+01:39:15  Trader and with the help of this video I
+01:39:17  hope this has pushed you along your
+01:39:18  journey a little bit please feel free to
+01:39:20  ask me any questions in the comments or
+01:39:22  reach out to me and remember all of the
+01:39:24  tools and the resources and the links
+01:39:26  for everything I've covered in this
+01:39:28  video are in the description go down
+01:39:30  there now and make sure you click on
+01:39:32  every single one and finally if you'd
+01:39:34  like me to do an Investing For Beginners
+01:39:36  or stop picking for beginners or
+01:39:37  Business for Beginners let me know in
+01:39:39  the comments and if there's enough
+01:39:40  people that want that I'll do that next
+01:39:42  take care
+01:39:43  [Music]
+01:39:50  thank you
+01:39:52  [Music]

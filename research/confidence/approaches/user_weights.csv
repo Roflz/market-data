@@ -1,0 +1,89 @@
+signal,entry_weight,exit_weight,note
+pat_dragonfly_doji,,,"pattern: +1 fired WITH the trade, -1 fired AGAINST it, 0 none"
+pat_gravestone_doji,,,"pattern: +1 fired WITH the trade, -1 fired AGAINST it, 0 none"
+pat_hammer,,,"pattern: +1 fired WITH the trade, -1 fired AGAINST it, 0 none"
+pat_hanging_man,,,"pattern: +1 fired WITH the trade, -1 fired AGAINST it, 0 none"
+pat_inverted_hammer,,,"pattern: +1 fired WITH the trade, -1 fired AGAINST it, 0 none"
+pat_shooting_star,,,"pattern: +1 fired WITH the trade, -1 fired AGAINST it, 0 none"
+pat_marubozu,,,"pattern: +1 fired WITH the trade, -1 fired AGAINST it, 0 none"
+pat_engulfing,,,"pattern: +1 fired WITH the trade, -1 fired AGAINST it, 0 none"
+pat_harami,,,"pattern: +1 fired WITH the trade, -1 fired AGAINST it, 0 none"
+pat_piercing,,,"pattern: +1 fired WITH the trade, -1 fired AGAINST it, 0 none"
+pat_dark_cloud,,,"pattern: +1 fired WITH the trade, -1 fired AGAINST it, 0 none"
+pat_morning_evening_star,,,"pattern: +1 fired WITH the trade, -1 fired AGAINST it, 0 none"
+pat_three_soldiers_crows,,,"pattern: +1 fired WITH the trade, -1 fired AGAINST it, 0 none"
+pat_three_inside,,,"pattern: +1 fired WITH the trade, -1 fired AGAINST it, 0 none"
+pat_outside_bar,,,"pattern: +1 fired WITH the trade, -1 fired AGAINST it, 0 none"
+pat_pin_bar,,,"pattern: +1 fired WITH the trade, -1 fired AGAINST it, 0 none"
+pat_tweezer,,,"pattern: +1 fired WITH the trade, -1 fired AGAINST it, 0 none"
+pat_inside_bar_breakout,,,"pattern: +1 fired WITH the trade, -1 fired AGAINST it, 0 none"
+pat_nr7_breakout,,,"pattern: +1 fired WITH the trade, -1 fired AGAINST it, 0 none"
+pat_clv_extreme,,,"pattern: +1 fired WITH the trade, -1 fired AGAINST it, 0 none"
+pat_bar_80_20,,,"pattern: +1 fired WITH the trade, -1 fired AGAINST it, 0 none"
+pat_tall_trend_bar,,,"pattern: +1 fired WITH the trade, -1 fired AGAINST it, 0 none"
+pat_five_lower_lows_higher_highs,,,"pattern: +1 fired WITH the trade, -1 fired AGAINST it, 0 none"
+pat_clv5_extreme,,,"pattern: +1 fired WITH the trade, -1 fired AGAINST it, 0 none"
+pat_doji,,,"neutral pattern, 1 = present (no direction)"
+pat_spinning_top,,,"neutral pattern, 1 = present (no direction)"
+pat_inside_bar,,,"neutral pattern, 1 = present (no direction)"
+pat_nr7,,,"neutral pattern, 1 = present (no direction)"
+fam_reversal,,,"pattern family: +1 with the trade, -1 against, 0 none"
+fam_continuation,,,"pattern family: +1 with the trade, -1 against, 0 none"
+fam_breakout,,,"pattern family: +1 with the trade, -1 against, 0 none"
+fam_closeloc,,,"pattern family: +1 with the trade, -1 against, 0 none"
+fam_exhaustion,,,"pattern family: +1 with the trade, -1 against, 0 none"
+dist_swhi_5,,,"signed context (+ = with the trade), unit as in SPEC.md (distances in average bars)"
+dist_swlo_5,,,"signed context (+ = with the trade), unit as in SPEC.md (distances in average bars)"
+brk_5,,,"signed context (+ = with the trade), unit as in SPEC.md (distances in average bars)"
+struct_5,,,"signed context (+ = with the trade), unit as in SPEC.md (distances in average bars)"
+fibpos_5,,,"signed context (+ = with the trade), unit as in SPEC.md (distances in average bars)"
+atfib_5,,,1 if the close is within 0.15 bars of a 38/50/62% level of the latest swing leg
+dist_swhi_10,,,"signed context (+ = with the trade), unit as in SPEC.md (distances in average bars)"
+dist_swlo_10,,,"signed context (+ = with the trade), unit as in SPEC.md (distances in average bars)"
+brk_10,,,"signed context (+ = with the trade), unit as in SPEC.md (distances in average bars)"
+struct_10,,,"signed context (+ = with the trade), unit as in SPEC.md (distances in average bars)"
+fibpos_10,,,"signed context (+ = with the trade), unit as in SPEC.md (distances in average bars)"
+atfib_10,,,1 if the close is within 0.15 bars of a 38/50/62% level of the latest swing leg
+ema_stack,,,"signed context (+ = with the trade), unit as in SPEC.md (distances in average bars)"
+ema20_slope,,,"signed context (+ = with the trade), unit as in SPEC.md (distances in average bars)"
+dist_ema8,,,"signed context (+ = with the trade), unit as in SPEC.md (distances in average bars)"
+dist_ema20,,,"signed context (+ = with the trade), unit as in SPEC.md (distances in average bars)"
+dist_ema50,,,"signed context (+ = with the trade), unit as in SPEC.md (distances in average bars)"
+above_ema20_share,,,"signed context (+ = with the trade), unit as in SPEC.md (distances in average bars)"
+mom,,,"signed context (+ = with the trade), unit as in SPEC.md (distances in average bars)"
+mom_slope3,,,"signed context (+ = with the trade), unit as in SPEC.md (distances in average bars)"
+mom_x100,,,"signed context (+ = with the trade), unit as in SPEC.md (distances in average bars)"
+dist_vwap,,,"signed context (+ = with the trade), unit as in SPEC.md (distances in average bars)"
+rng_rel,,,bar range / average bar (no direction)
+body_frac,,,body / range (0-1) (no direction)
+clv,,,"signed context (+ = with the trade), unit as in SPEC.md (distances in average bars)"
+vol_rel,,,volume / average (no direction)
+gap_open,,,"signed context (+ = with the trade), unit as in SPEC.md (distances in average bars)"
+day_range_rel,,,day range so far / average day range (no direction)
+day_ret,,,"signed context (+ = with the trade), unit as in SPEC.md (distances in average bars)"
+tod_asia,,,time one-hot (1 = this bucket)
+tod_europe,,,time one-hot (1 = this bucket)
+tod_uspre,,,time one-hot (1 = this bucket)
+tod_open,,,time one-hot (1 = this bucket)
+tod_midday,,,time one-hot (1 = this bucket)
+tod_close,,,time one-hot (1 = this bucket)
+dow_0,,,time one-hot (1 = this bucket)
+dow_1,,,time one-hot (1 = this bucket)
+dow_2,,,time one-hot (1 = this bucket)
+dow_3,,,time one-hot (1 = this bucket)
+dow_4,,,time one-hot (1 = this bucket)
+h1_ema_stack,,,"signed context (+ = with the trade), unit as in SPEC.md (distances in average bars)"
+h1_mom,,,"signed context (+ = with the trade), unit as in SPEC.md (distances in average bars)"
+h1_struct_5,,,"signed context (+ = with the trade), unit as in SPEC.md (distances in average bars)"
+x_ES_ret,,,other market's same bar: + = moving / trending with the trade
+x_ES_ema_stack,,,other market's same bar: + = moving / trending with the trade
+x_NQ_ret,,,other market's same bar: + = moving / trending with the trade
+x_NQ_ema_stack,,,other market's same bar: + = moving / trending with the trade
+x_YM_ret,,,other market's same bar: + = moving / trending with the trade
+x_YM_ema_stack,,,other market's same bar: + = moving / trending with the trade
+open_R,,,exit rows only: open profit in R (risk units)
+mfe_R,,,exit rows only: best open profit so far (R)
+mae_R,,,exit rows only: worst open loss so far (R)
+bars_held,,,exit rows only: bars in the trade
+dist_stop_R,,,exit rows only: distance to the stop in R
+mins_to_1645,,,exit rows only: minutes left to 16:45 ET

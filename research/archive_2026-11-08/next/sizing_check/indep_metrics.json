@@ -1,0 +1,542 @@
+{
+ "fixed_plain_100|2026": [
+  {
+   "net": 699.0,
+   "per_yr": 831.6,
+   "dd": 1397.0,
+   "worst_day": -135.5,
+   "worst_month": -610.0,
+   "skip_pct": 81.0
+  },
+  {
+   "net_usd": 699.0,
+   "net_per_year": 831.63,
+   "max_dd": 1397.0,
+   "worst_day": -135.5,
+   "worst_month": -610.0,
+   "skipped_1micro_pct": 80.99
+  }
+ ],
+ "fixed_plain_100|2019_2026": [
+  {
+   "net": 34003.0,
+   "per_yr": 4336.5,
+   "dd": 5489.0,
+   "worst_day": -275.5,
+   "worst_month": -1383.5,
+   "skip_pct": 36.8
+  },
+  {
+   "net_usd": 34003.0,
+   "net_per_year": 4336.45,
+   "max_dd": 5489.0,
+   "worst_day": -275.5,
+   "worst_month": -1383.5,
+   "skipped_1micro_pct": 36.85
+  }
+ ],
+ "fixed_plain_100|full": [
+  {
+   "net": 36007.0,
+   "per_yr": 2194.1,
+   "dd": 15290.0,
+   "worst_day": -277.0,
+   "worst_month": -2155.0,
+   "skip_pct": 18.9
+  },
+  {
+   "net_usd": 36007.0,
+   "net_per_year": 2194.12,
+   "max_dd": 15290.0,
+   "worst_day": -277.0,
+   "worst_month": -2155.0,
+   "skipped_1micro_pct": 18.93
+  }
+ ],
+ "fixed_combined_100|2026": [
+  {
+   "net": -267.0,
+   "per_yr": -317.7,
+   "dd": 1397.0,
+   "worst_day": -135.5,
+   "worst_month": -610.0,
+   "skip_pct": 81.3
+  },
+  {
+   "net_usd": -267.0,
+   "net_per_year": -317.66,
+   "max_dd": 1397.0,
+   "worst_day": -135.5,
+   "worst_month": -610.0,
+   "skipped_1micro_pct": 80.99
+  }
+ ],
+ "fixed_combined_100|2019_2026": [
+  {
+   "net": 29065.0,
+   "per_yr": 3706.7,
+   "dd": 4919.5,
+   "worst_day": -193.5,
+   "worst_month": -1318.5,
+   "skip_pct": 39.4
+  },
+  {
+   "net_usd": 29065.0,
+   "net_per_year": 3706.7,
+   "max_dd": 4919.5,
+   "worst_day": -193.5,
+   "worst_month": -1318.5,
+   "skipped_1micro_pct": 36.85
+  }
+ ],
+ "fixed_combined_100|full": [
+  {
+   "net": 28066.5,
+   "per_yr": 1710.3,
+   "dd": 16304.0,
+   "worst_day": -199.0,
+   "worst_month": -2043.0,
+   "skip_pct": 20.3
+  },
+  {
+   "net_usd": 28066.5,
+   "net_per_year": 1710.26,
+   "max_dd": 16304.0,
+   "worst_day": -199.0,
+   "worst_month": -2043.0,
+   "skipped_1micro_pct": 18.93
+  }
+ ],
+ "scaled_plain_100|2026": [
+  {
+   "net": 796.5,
+   "per_yr": 947.6,
+   "dd": 1459.0,
+   "worst_day": -135.5,
+   "worst_month": -610.0,
+   "skip_pct": 80.6
+  },
+  {
+   "net_usd": 796.5,
+   "net_per_year": 947.63,
+   "max_dd": 1459.0,
+   "worst_day": -135.5,
+   "worst_month": -610.0,
+   "skipped_1micro_pct": 80.63
+  }
+ ],
+ "scaled_plain_100|2019_2026": [
+  {
+   "net": 9954.5,
+   "per_yr": 1269.5,
+   "dd": 1758.5,
+   "worst_day": -160.5,
+   "worst_month": -610.0,
+   "skip_pct": 75.3
+  },
+  {
+   "net_usd": 9954.5,
+   "net_per_year": 1269.51,
+   "max_dd": 1758.5,
+   "worst_day": -160.5,
+   "worst_month": -610.0,
+   "skipped_1micro_pct": 75.34
+  }
+ ],
+ "scaled_plain_100|full": [
+  {
+   "net": 9310.0,
+   "per_yr": 567.3,
+   "dd": 1758.5,
+   "worst_day": -160.5,
+   "worst_month": -610.0,
+   "skip_pct": 70.4
+  },
+  {
+   "net_usd": 9310.0,
+   "net_per_year": 567.31,
+   "max_dd": 1758.5,
+   "worst_day": -160.5,
+   "worst_month": -610.0,
+   "skipped_1micro_pct": 70.39
+  }
+ ],
+ "scaled_combined_100|2026": [
+  {
+   "net": -169.5,
+   "per_yr": -201.7,
+   "dd": 1459.0,
+   "worst_day": -135.5,
+   "worst_month": -610.0,
+   "skip_pct": 81.0
+  },
+  {
+   "net_usd": -169.5,
+   "net_per_year": -201.66,
+   "max_dd": 1459.0,
+   "worst_day": -135.5,
+   "worst_month": -610.0,
+   "skipped_1micro_pct": 80.63
+  }
+ ],
+ "scaled_combined_100|2019_2026": [
+  {
+   "net": 8699.0,
+   "per_yr": 1109.4,
+   "dd": 1536.0,
+   "worst_day": -135.5,
+   "worst_month": -610.0,
+   "skip_pct": 76.4
+  },
+  {
+   "net_usd": 8699.0,
+   "net_per_year": 1109.4,
+   "max_dd": 1536.0,
+   "worst_day": -135.5,
+   "worst_month": -610.0,
+   "skipped_1micro_pct": 75.34
+  }
+ ],
+ "scaled_combined_100|full": [
+  {
+   "net": 8226.0,
+   "per_yr": 501.3,
+   "dd": 1536.0,
+   "worst_day": -135.5,
+   "worst_month": -610.0,
+   "skip_pct": 71.5
+  },
+  {
+   "net_usd": 8226.0,
+   "net_per_year": 501.26,
+   "max_dd": 1536.0,
+   "worst_day": -135.5,
+   "worst_month": -610.0,
+   "skipped_1micro_pct": 70.39
+  }
+ ],
+ "fixed_plain_200|2026": [
+  {
+   "net": 1795.0,
+   "per_yr": 2135.6,
+   "dd": 4973.5,
+   "worst_day": -385.0,
+   "worst_month": -2276.0,
+   "skip_pct": 33.5
+  },
+  {
+   "net_usd": 1795.0,
+   "net_per_year": 2135.58,
+   "max_dd": 4973.5,
+   "worst_day": -385.0,
+   "worst_month": -2276.0,
+   "skipped_1micro_pct": 33.45
+  }
+ ],
+ "fixed_plain_200|2019_2026": [
+  {
+   "net": 87004.0,
+   "per_yr": 11095.7,
+   "dd": 11013.5,
+   "worst_day": -551.0,
+   "worst_month": -3104.0,
+   "skip_pct": 9.0
+  },
+  {
+   "net_usd": 87004.0,
+   "net_per_year": 11095.74,
+   "max_dd": 11013.5,
+   "worst_day": -551.0,
+   "worst_month": -3104.0,
+   "skipped_1micro_pct": 9.02
+  }
+ ],
+ "fixed_plain_200|full": [
+  {
+   "net": 106023.5,
+   "per_yr": 6460.6,
+   "dd": 17896.5,
+   "worst_day": -593.0,
+   "worst_month": -3879.5,
+   "skip_pct": 4.5
+  },
+  {
+   "net_usd": 106023.5,
+   "net_per_year": 6460.64,
+   "max_dd": 17896.5,
+   "worst_day": -593.0,
+   "worst_month": -3879.5,
+   "skipped_1micro_pct": 4.54
+  }
+ ],
+ "scaled_plain_200|2026": [
+  {
+   "net": 2170.5,
+   "per_yr": 2582.3,
+   "dd": 3943.5,
+   "worst_day": -430.0,
+   "worst_month": -1705.5,
+   "skip_pct": 34.9
+  },
+  {
+   "net_usd": 2170.5,
+   "net_per_year": 2582.33,
+   "max_dd": 3943.5,
+   "worst_day": -430.0,
+   "worst_month": -1705.5,
+   "skipped_1micro_pct": 34.86
+  }
+ ],
+ "scaled_plain_200|2019_2026": [
+  {
+   "net": 37425.0,
+   "per_yr": 4772.9,
+   "dd": 5689.5,
+   "worst_day": -430.0,
+   "worst_month": -1730.5,
+   "skip_pct": 28.2
+  },
+  {
+   "net_usd": 37425.0,
+   "net_per_year": 4772.86,
+   "max_dd": 5689.5,
+   "worst_day": -430.0,
+   "worst_month": -1730.5,
+   "skipped_1micro_pct": 28.17
+  }
+ ],
+ "scaled_plain_200|full": [
+  {
+   "net": 39887.0,
+   "per_yr": 2430.6,
+   "dd": 5689.5,
+   "worst_day": -430.0,
+   "worst_month": -1730.5,
+   "skip_pct": 23.0
+  },
+  {
+   "net_usd": 39887.0,
+   "net_per_year": 2430.55,
+   "max_dd": 5689.5,
+   "worst_day": -430.0,
+   "worst_month": -1730.5,
+   "skipped_1micro_pct": 22.95
+  }
+ ],
+ "fixed_combined_200|2026": [
+  {
+   "net": 587.0,
+   "per_yr": 698.4,
+   "dd": 4597.5,
+   "worst_day": -385.0,
+   "worst_month": -2084.5,
+   "skip_pct": 35.6
+  },
+  {
+   "net_usd": 587.0,
+   "net_per_year": 698.38,
+   "max_dd": 4597.5,
+   "worst_day": -385.0,
+   "worst_month": -2084.5,
+   "skipped_1micro_pct": 33.45
+  }
+ ],
+ "fixed_combined_200|2019_2026": [
+  {
+   "net": 75310.0,
+   "per_yr": 9604.4,
+   "dd": 9956.0,
+   "worst_day": -389.0,
+   "worst_month": -2724.0,
+   "skip_pct": 10.5
+  },
+  {
+   "net_usd": 75310.0,
+   "net_per_year": 9604.39,
+   "max_dd": 9956.0,
+   "worst_day": -389.0,
+   "worst_month": -2724.0,
+   "skipped_1micro_pct": 9.02
+  }
+ ],
+ "fixed_combined_200|full": [
+  {
+   "net": 90040.5,
+   "per_yr": 5486.7,
+   "dd": 18914.0,
+   "worst_day": -398.0,
+   "worst_month": -3646.5,
+   "skip_pct": 5.3
+  },
+  {
+   "net_usd": 90040.5,
+   "net_per_year": 5486.7,
+   "max_dd": 18914.0,
+   "worst_day": -398.0,
+   "worst_month": -3646.5,
+   "skipped_1micro_pct": 4.54
+  }
+ ],
+ "scaled_combined_200|2026": [
+  {
+   "net": 1570.0,
+   "per_yr": 1867.9,
+   "dd": 3635.0,
+   "worst_day": -430.0,
+   "worst_month": -1505.0,
+   "skip_pct": 37.3
+  },
+  {
+   "net_usd": 1570.0,
+   "net_per_year": 1867.89,
+   "max_dd": 3635.0,
+   "worst_day": -430.0,
+   "worst_month": -1505.0,
+   "skipped_1micro_pct": 34.86
+  }
+ ],
+ "scaled_combined_200|2019_2026": [
+  {
+   "net": 32553.0,
+   "per_yr": 4151.5,
+   "dd": 4934.0,
+   "worst_day": -430.0,
+   "worst_month": -1603.5,
+   "skip_pct": 31.4
+  },
+  {
+   "net_usd": 32553.0,
+   "net_per_year": 4151.53,
+   "max_dd": 4934.0,
+   "worst_day": -430.0,
+   "worst_month": -1603.5,
+   "skipped_1micro_pct": 28.17
+  }
+ ],
+ "scaled_combined_200|full": [
+  {
+   "net": 34594.5,
+   "per_yr": 2108.0,
+   "dd": 4934.0,
+   "worst_day": -430.0,
+   "worst_month": -1603.5,
+   "skip_pct": 25.9
+  },
+  {
+   "net_usd": 34594.5,
+   "net_per_year": 2108.05,
+   "max_dd": 4934.0,
+   "worst_day": -430.0,
+   "worst_month": -1603.5,
+   "skipped_1micro_pct": 22.95
+  }
+ ],
+ "fixed_plain_50|2026": [
+  {
+   "net": -288.5,
+   "per_yr": -343.2,
+   "dd": 288.5,
+   "worst_day": -46.5,
+   "worst_month": -121.5,
+   "skip_pct": 97.5
+  },
+  {
+   "net_usd": -288.5,
+   "net_per_year": -343.24,
+   "max_dd": 288.5,
+   "worst_day": -46.5,
+   "worst_month": -121.5,
+   "skipped_1micro_pct": 97.54
+  }
+ ],
+ "fixed_plain_50|2019_2026": [
+  {
+   "net": 3123.5,
+   "per_yr": 398.3,
+   "dd": 2393.5,
+   "worst_day": -98.0,
+   "worst_month": -549.5,
+   "skip_pct": 75.2
+  },
+  {
+   "net_usd": 3123.5,
+   "net_per_year": 398.34,
+   "max_dd": 2393.5,
+   "worst_day": -98.0,
+   "worst_month": -549.5,
+   "skipped_1micro_pct": 75.22
+  }
+ ],
+ "fixed_plain_50|full": [
+  {
+   "net": 2865.0,
+   "per_yr": 174.6,
+   "dd": 7463.0,
+   "worst_day": -138.5,
+   "worst_month": -1028.0,
+   "skip_pct": 40.2
+  },
+  {
+   "net_usd": 2865.0,
+   "net_per_year": 174.58,
+   "max_dd": 7463.0,
+   "worst_day": -138.5,
+   "worst_month": -1028.0,
+   "skipped_1micro_pct": 40.22
+  }
+ ],
+ "fixed_combined_50|2026": [
+  {
+   "net": -288.5,
+   "per_yr": -343.2,
+   "dd": 288.5,
+   "worst_day": -46.5,
+   "worst_month": -121.5,
+   "skip_pct": 97.5
+  },
+  {
+   "net_usd": -288.5,
+   "net_per_year": -343.24,
+   "max_dd": 288.5,
+   "worst_day": -46.5,
+   "worst_month": -121.5,
+   "skipped_1micro_pct": 97.54
+  }
+ ],
+ "fixed_combined_50|2019_2026": [
+  {
+   "net": 2737.0,
+   "per_yr": 349.1,
+   "dd": 2189.5,
+   "worst_day": -86.5,
+   "worst_month": -510.0,
+   "skip_pct": 76.2
+  },
+  {
+   "net_usd": 2737.0,
+   "net_per_year": 349.05,
+   "max_dd": 2189.5,
+   "worst_day": -86.5,
+   "worst_month": -510.0,
+   "skipped_1micro_pct": 75.22
+  }
+ ],
+ "fixed_combined_50|full": [
+  {
+   "net": 1404.5,
+   "per_yr": 85.6,
+   "dd": 7699.0,
+   "worst_day": -99.5,
+   "worst_month": -994.5,
+   "skip_pct": 41.1
+  },
+  {
+   "net_usd": 1404.5,
+   "net_per_year": 85.58,
+   "max_dd": 7699.0,
+   "worst_day": -99.5,
+   "worst_month": -994.5,
+   "skipped_1micro_pct": 40.22
+  }
+ ]
+}

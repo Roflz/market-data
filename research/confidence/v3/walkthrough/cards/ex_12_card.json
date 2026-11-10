@@ -1,0 +1,503 @@
+{
+ "title": "DECISION CARD  ex12_oppexit_mym_loss  MYM SHORT  exit decision 2018-04-25 08:00",
+ "decision": "Opposite evidence 3 of 7 >= N=3 at the 08:00 close  ->  EXIT at the next 60-min open 23,986 (entered 02:00 at 23,943)",
+ "drivers": [
+  "Entry: Config A kept the 01:00 60-min signal (pb_break) with score 0.402 >= 2018 threshold 0.390; stop 24,033.",
+  "Exit: at each 60-min close the 7 kinds below are checked against the trade; this bar only (_1b). 3 or more = leave at the next bar's first-minute\n    open; the stop stays live meanwhile.",
+  "Kinds that fired at the exit bar: 1 reversal candle against, 2 Momentum moved against the trade since the previous 60-min bar, 7 5-min trigger other\n    way"
+ ],
+ "outcome": "OUTCOME: rule exit -23.50 $ vs hold -47.52 $ (stopped 09:30) -> exit saved 24.02 $ = RIGHT",
+ "why": "Price kept going against the short after the exit and hit the stop; leaving on the evidence count cut the loss by 24.02 $.",
+ "win": true,
+ "notes": [
+  "Recomputed with v2/dataset.py load_frames + evidence_types; data: 1-minute (signals.bars), 1-minute walk (stop first, +1 tick). Stored labels (v2_events_YM_60): opp3_1b\n    -23.50 $ exit 08:01, hold -47.52 $ exit 10:00. Costs $2.00/trade."
+ ],
+ "inputs": [
+  {
+   "plain": "kind 1 reversal candle against (engulfing, tweezer)",
+   "value": "YES",
+   "read": "against",
+   "where": "v2/dataset.py:221-237"
+  },
+  {
+   "plain": "kind 2 Momentum moved against the trade since the previous 60-min bar",
+   "value": "YES",
+   "read": "against",
+   "where": "v2/dataset.py:221-237"
+  },
+  {
+   "plain": "kind 3 close wrong side of EMA20",
+   "value": "no",
+   "read": "neutral",
+   "where": "v2/dataset.py:221-237"
+  },
+  {
+   "plain": "kind 4 EMA8 wrong side of EMA20",
+   "value": "no",
+   "read": "neutral",
+   "where": "v2/dataset.py:221-237"
+  },
+  {
+   "plain": "kind 5 close beyond last swing",
+   "value": "no",
+   "read": "neutral",
+   "where": "v2/dataset.py:221-237"
+  },
+  {
+   "plain": "kind 6 60-min trend not with us",
+   "value": "no",
+   "read": "neutral",
+   "where": "v2/dataset.py:221-237"
+  },
+  {
+   "plain": "kind 7 5-min trigger other way (pb_break)",
+   "value": "YES",
+   "read": "against",
+   "where": "v2/dataset.py:221-237"
+  },
+  {
+   "plain": "07:00 bar: close",
+   "value": 23986.0,
+   "read": "info",
+   "where": "signals.py:92-116"
+  },
+  {
+   "plain": "07:00 bar: EMA20",
+   "value": 24022.508,
+   "read": "info",
+   "where": "signals.py:92-116"
+  },
+  {
+   "plain": "07:00 bar: EMA8",
+   "value": 23939.565,
+   "read": "info",
+   "where": "signals.py:92-116"
+  },
+  {
+   "plain": "07:00 bar: Momentum(14) now",
+   "value": "99.95",
+   "read": "info",
+   "where": "signals.py:92-116"
+  },
+  {
+   "plain": "07:00 bar: last confirmed swing high",
+   "value": 23998.0,
+   "read": "info",
+   "where": "signals.py:92-116"
+  },
+  {
+   "plain": "07:00 bar: latest closed 60-min trend (+1 up, -1 down, 0 none)",
+   "value": "-1 (down)",
+   "read": "info",
+   "where": "signals.py:92-116"
+  },
+  {
+   "plain": "count at signal bar close (kinds 2)",
+   "value": "1 of 7",
+   "read": "neutral",
+   "where": "not checked (signal bar)"
+  },
+  {
+   "plain": "count at 02:00-03:00 close (kinds 2)",
+   "value": "1 of 7",
+   "read": "neutral",
+   "where": "exit if >= 3"
+  },
+  {
+   "plain": "count at 03:00-04:00 close (kinds 2)",
+   "value": "1 of 7",
+   "read": "neutral",
+   "where": "exit if >= 3"
+  },
+  {
+   "plain": "count at 04:00-05:00 close (kinds 2)",
+   "value": "1 of 7",
+   "read": "neutral",
+   "where": "exit if >= 3"
+  },
+  {
+   "plain": "count at 05:00-06:00 close (kinds 1,2)",
+   "value": "2 of 7",
+   "read": "neutral",
+   "where": "exit if >= 3"
+  },
+  {
+   "plain": "count at 06:00-07:00 close (kinds -)",
+   "value": "0 of 7",
+   "read": "neutral",
+   "where": "exit if >= 3"
+  },
+  {
+   "plain": "count at 07:00-08:00 close (kinds 1,2,7)",
+   "value": "3 of 7",
+   "read": "against",
+   "where": "exit if >= 3"
+  }
+ ],
+ "example": "ex12_oppexit_mym_loss",
+ "grid": [
+  {
+   "bar": "2018-04-25 01:00:00",
+   "close": "2018-04-25 02:00:00",
+   "O": 23965.0,
+   "H": 23976.0,
+   "L": 23924.0,
+   "C": 23943.0,
+   "ema8": 23983.9232,
+   "ema20": 24102.0984,
+   "mom": 98.2478,
+   "swing_lo": 23907.0,
+   "swing_hi": 24600.0,
+   "t60": -1.0,
+   "c1": 1,
+   "c2": 1,
+   "pats_against": [],
+   "trig5_against": [],
+   "trig5_times": [],
+   "1 reversal candle against": false,
+   "2 Momentum moved against the trade since the previous 60-min bar": true,
+   "3 close wrong side of EMA20": false,
+   "4 EMA8 wrong side of EMA20": false,
+   "5 close beyond last swing": false,
+   "6 60-min trend not with us": false,
+   "7 5-min trigger other way": false
+  },
+  {
+   "bar": "2018-04-25 02:00:00",
+   "close": "2018-04-25 03:00:00",
+   "O": 23943.0,
+   "H": 23969.0,
+   "L": 23936.0,
+   "C": 23949.0,
+   "ema8": 23976.1625,
+   "ema20": 24087.5176,
+   "mom": 98.714,
+   "swing_lo": 23907.0,
+   "swing_hi": 24600.0,
+   "t60": -1.0,
+   "c1": 1,
+   "c2": 1,
+   "pats_against": [],
+   "trig5_against": [],
+   "trig5_times": [],
+   "1 reversal candle against": false,
+   "2 Momentum moved against the trade since the previous 60-min bar": true,
+   "3 close wrong side of EMA20": false,
+   "4 EMA8 wrong side of EMA20": false,
+   "5 close beyond last swing": false,
+   "6 60-min trend not with us": false,
+   "7 5-min trigger other way": false
+  },
+  {
+   "bar": "2018-04-25 03:00:00",
+   "close": "2018-04-25 04:00:00",
+   "O": 23950.0,
+   "H": 23998.0,
+   "L": 23921.0,
+   "C": 23957.0,
+   "ema8": 23971.9042,
+   "ema20": 24075.0874,
+   "mom": 99.7751,
+   "swing_lo": 23907.0,
+   "swing_hi": 24600.0,
+   "t60": -1.0,
+   "c1": 1,
+   "c2": 1,
+   "pats_against": [],
+   "trig5_against": [],
+   "trig5_times": [],
+   "1 reversal candle against": false,
+   "2 Momentum moved against the trade since the previous 60-min bar": true,
+   "3 close wrong side of EMA20": false,
+   "4 EMA8 wrong side of EMA20": false,
+   "5 close beyond last swing": false,
+   "6 60-min trend not with us": false,
+   "7 5-min trigger other way": false
+  },
+  {
+   "bar": "2018-04-25 04:00:00",
+   "close": "2018-04-25 05:00:00",
+   "O": 23959.0,
+   "H": 23962.0,
+   "L": 23865.0,
+   "C": 23884.0,
+   "ema8": 23952.3699,
+   "ema20": 24056.8886,
+   "mom": 100.0545,
+   "swing_lo": 23907.0,
+   "swing_hi": 24600.0,
+   "t60": -1.0,
+   "c1": 1,
+   "c2": 1,
+   "pats_against": [],
+   "trig5_against": [],
+   "trig5_times": [],
+   "1 reversal candle against": false,
+   "2 Momentum moved against the trade since the previous 60-min bar": true,
+   "3 close wrong side of EMA20": false,
+   "4 EMA8 wrong side of EMA20": false,
+   "5 close beyond last swing": false,
+   "6 60-min trend not with us": false,
+   "7 5-min trigger other way": false
+  },
+  {
+   "bar": "2018-04-25 05:00:00",
+   "close": "2018-04-25 06:00:00",
+   "O": 23884.0,
+   "H": 23922.0,
+   "L": 23863.0,
+   "C": 23919.0,
+   "ema8": 23944.9544,
+   "ema20": 24043.7563,
+   "mom": 100.0879,
+   "swing_lo": 23907.0,
+   "swing_hi": 24600.0,
+   "t60": -1.0,
+   "c1": 2,
+   "c2": 2,
+   "pats_against": [
+    "tweezer"
+   ],
+   "trig5_against": [],
+   "trig5_times": [],
+   "1 reversal candle against": true,
+   "2 Momentum moved against the trade since the previous 60-min bar": true,
+   "3 close wrong side of EMA20": false,
+   "4 EMA8 wrong side of EMA20": false,
+   "5 close beyond last swing": false,
+   "6 60-min trend not with us": false,
+   "7 5-min trigger other way": false
+  },
+  {
+   "bar": "2018-04-25 06:00:00",
+   "close": "2018-04-25 07:00:00",
+   "O": 23919.0,
+   "H": 23944.0,
+   "L": 23859.0,
+   "C": 23861.0,
+   "ema8": 23926.2978,
+   "ema20": 24026.351,
+   "mom": 99.4955,
+   "swing_lo": 23907.0,
+   "swing_hi": 23998.0,
+   "t60": -1.0,
+   "c1": 0,
+   "c2": 2,
+   "pats_against": [],
+   "trig5_against": [],
+   "trig5_times": [],
+   "1 reversal candle against": false,
+   "2 Momentum moved against the trade since the previous 60-min bar": false,
+   "3 close wrong side of EMA20": false,
+   "4 EMA8 wrong side of EMA20": false,
+   "5 close beyond last swing": false,
+   "6 60-min trend not with us": false,
+   "7 5-min trigger other way": false
+  },
+  {
+   "bar": "2018-04-25 07:00:00",
+   "close": "2018-04-25 08:00:00",
+   "O": 23861.0,
+   "H": 23993.0,
+   "L": 23856.0,
+   "C": 23986.0,
+   "ema8": 23939.565,
+   "ema20": 24022.508,
+   "mom": 99.95,
+   "swing_lo": 23907.0,
+   "swing_hi": 23998.0,
+   "t60": -1.0,
+   "c1": 3,
+   "c2": 3,
+   "pats_against": [
+    "engulfing",
+    "tweezer"
+   ],
+   "trig5_against": [
+    "pb_break"
+   ],
+   "trig5_times": [
+    "2018-04-25 07:50:00"
+   ],
+   "1 reversal candle against": true,
+   "2 Momentum moved against the trade since the previous 60-min bar": true,
+   "3 close wrong side of EMA20": false,
+   "4 EMA8 wrong side of EMA20": false,
+   "5 close beyond last swing": false,
+   "6 60-min trend not with us": false,
+   "7 5-min trigger other way": true
+  },
+  {
+   "bar": "2018-04-25 08:00:00",
+   "close": "2018-04-25 09:00:00",
+   "O": 23986.0,
+   "H": 24024.0,
+   "L": 23942.0,
+   "C": 23967.0,
+   "ema8": 23945.6617,
+   "ema20": 24017.2215,
+   "mom": 99.8084,
+   "swing_lo": 23907.0,
+   "swing_hi": 23998.0,
+   "t60": -1.0,
+   "c1": 1,
+   "c2": 3,
+   "pats_against": [],
+   "trig5_against": [
+    "ema50_pb",
+    "pb_break"
+   ],
+   "trig5_times": [
+    "2018-04-25 08:10:00",
+    "2018-04-25 08:30:00",
+    "2018-04-25 08:50:00"
+   ],
+   "1 reversal candle against": false,
+   "2 Momentum moved against the trade since the previous 60-min bar": false,
+   "3 close wrong side of EMA20": false,
+   "4 EMA8 wrong side of EMA20": false,
+   "5 close beyond last swing": false,
+   "6 60-min trend not with us": false,
+   "7 5-min trigger other way": true
+  },
+  {
+   "bar": "2018-04-25 09:00:00",
+   "close": "2018-04-25 10:00:00",
+   "O": 23966.0,
+   "H": 24045.0,
+   "L": 23782.0,
+   "C": 23809.0,
+   "ema8": 23915.2924,
+   "ema20": 23997.3909,
+   "mom": 99.1216,
+   "swing_lo": 23907.0,
+   "swing_hi": 23998.0,
+   "t60": -1.0,
+   "c1": 1,
+   "c2": 1,
+   "pats_against": [],
+   "trig5_against": [
+    "ema20_pb",
+    "ema8_pb",
+    "pb_break"
+   ],
+   "trig5_times": [
+    "2018-04-25 09:00:00",
+    "2018-04-25 09:25:00",
+    "2018-04-25 09:25:00"
+   ],
+   "1 reversal candle against": false,
+   "2 Momentum moved against the trade since the previous 60-min bar": false,
+   "3 close wrong side of EMA20": false,
+   "4 EMA8 wrong side of EMA20": false,
+   "5 close beyond last swing": false,
+   "6 60-min trend not with us": false,
+   "7 5-min trigger other way": true
+  },
+  {
+   "bar": "2018-04-25 10:00:00",
+   "close": "2018-04-25 11:00:00",
+   "O": 23808.0,
+   "H": 23985.0,
+   "L": 23803.0,
+   "C": 23955.0,
+   "ema8": 23924.1163,
+   "ema20": 23993.3537,
+   "mom": 99.7211,
+   "swing_lo": 23907.0,
+   "swing_hi": 23998.0,
+   "t60": -1.0,
+   "c1": 2,
+   "c2": 3,
+   "pats_against": [
+    "piercing"
+   ],
+   "trig5_against": [],
+   "trig5_times": [],
+   "1 reversal candle against": true,
+   "2 Momentum moved against the trade since the previous 60-min bar": true,
+   "3 close wrong side of EMA20": false,
+   "4 EMA8 wrong side of EMA20": false,
+   "5 close beyond last swing": false,
+   "6 60-min trend not with us": false,
+   "7 5-min trigger other way": false
+  },
+  {
+   "bar": "2018-04-25 11:00:00",
+   "close": "2018-04-25 12:00:00",
+   "O": 23955.0,
+   "H": 23991.0,
+   "L": 23852.0,
+   "C": 23858.0,
+   "ema8": 23909.4238,
+   "ema20": 23980.4628,
+   "mom": 99.6075,
+   "swing_lo": 23907.0,
+   "swing_hi": 23998.0,
+   "t60": -1.0,
+   "c1": 1,
+   "c2": 3,
+   "pats_against": [],
+   "trig5_against": [
+    "ema20_pb",
+    "ema50_pb",
+    "mom_turn"
+   ],
+   "trig5_times": [
+    "2018-04-25 11:20:00",
+    "2018-04-25 11:20:00",
+    "2018-04-25 11:20:00",
+    "2018-04-25 11:25:00",
+    "2018-04-25 11:25:00"
+   ],
+   "1 reversal candle against": false,
+   "2 Momentum moved against the trade since the previous 60-min bar": false,
+   "3 close wrong side of EMA20": false,
+   "4 EMA8 wrong side of EMA20": false,
+   "5 close beyond last swing": false,
+   "6 60-min trend not with us": false,
+   "7 5-min trigger other way": true
+  },
+  {
+   "bar": "2018-04-25 12:00:00",
+   "close": "2018-04-25 13:00:00",
+   "O": 23858.0,
+   "H": 23943.0,
+   "L": 23832.0,
+   "C": 23917.0,
+   "ema8": 23911.1074,
+   "ema20": 23974.4188,
+   "mom": 99.8539,
+   "swing_lo": 23782.0,
+   "swing_hi": 24045.0,
+   "t60": -1.0,
+   "c1": 2,
+   "c2": 3,
+   "pats_against": [
+    "piercing"
+   ],
+   "trig5_against": [],
+   "trig5_times": [],
+   "1 reversal candle against": true,
+   "2 Momentum moved against the trade since the previous 60-min bar": true,
+   "3 close wrong side of EMA20": false,
+   "4 EMA8 wrong side of EMA20": false,
+   "5 close beyond last swing": false,
+   "6 60-min trend not with us": false,
+   "7 5-min trigger other way": false
+  }
+ ],
+ "rule_exit": {
+  "t": "2018-04-25 08:00:00",
+  "px": 23986.0,
+  "how": "rule exit at the next bar's first-minute open",
+  "pnl": -23.5
+ },
+ "hold_exit": {
+  "t": "2018-04-25 09:30:00",
+  "px": 24034.05,
+  "how": "stop (1-minute walk, +1 tick slip)",
+  "pnl": -47.525
+ },
+ "threshold": 0.3899
+}

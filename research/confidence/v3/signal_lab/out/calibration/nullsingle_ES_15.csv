@@ -1,0 +1,201 @@
+shape,p_dir,verdict,cls,size_verdict
+ar_cont,1.0,none,INCONCLUSIVE,none
+clustered_events,0.8463696727020694,none,INCONCLUSIVE,none
+rare_events,0.016263991211662054,possible,INCONCLUSIVE,none
+ar_cont,1.0,none,CONFIDENTLY NOTHING,none
+clustered_events,0.15156670850637832,none,CONFIDENTLY NOTHING,none
+rare_events,0.6329485281053182,none,INCONCLUSIVE,none
+ar_cont,0.6256979006937506,none,INCONCLUSIVE,none
+clustered_events,1.0,none,CONFIDENTLY NOTHING,none
+rare_events,1.0,none,INCONCLUSIVE,none
+ar_cont,1.0,none,CONFIDENTLY NOTHING,none
+clustered_events,1.0,none,CONFIDENTLY NOTHING,none
+rare_events,0.6684582599852671,none,CONFIDENTLY NOTHING,none
+ar_cont,1.0,none,CONFIDENTLY NOTHING,none
+clustered_events,0.9457180420047047,none,INCONCLUSIVE,none
+rare_events,1.0,none,INCONCLUSIVE,none
+ar_cont,0.6609677965110394,none,INCONCLUSIVE,none
+clustered_events,1.0,none,CONFIDENTLY NOTHING,none
+rare_events,1.0,none,CONFIDENTLY NOTHING,none
+ar_cont,1.0,none,CONFIDENTLY NOTHING,none
+clustered_events,0.085244152422649,none,INCONCLUSIVE,none
+rare_events,1.0,none,CONFIDENTLY NOTHING,none
+ar_cont,0.08199006334434074,none,CONFIDENTLY NOTHING,none
+clustered_events,0.6291933781123512,none,CONFIDENTLY NOTHING,none
+rare_events,0.20490679130806438,none,INCONCLUSIVE,none
+ar_cont,0.805285979075626,none,CONFIDENTLY NOTHING,none
+clustered_events,0.15750218700854268,none,INCONCLUSIVE,none
+rare_events,1.0,none,CONFIDENTLY NOTHING,none
+ar_cont,0.5490009408185781,none,CONFIDENTLY NOTHING,none
+clustered_events,1.0,none,CONFIDENTLY NOTHING,none
+rare_events,0.004301528647791545,possible,INCONCLUSIVE,none
+ar_cont,1.0,none,CONFIDENTLY NOTHING,none
+clustered_events,0.22405482988575157,none,CONFIDENTLY NOTHING,none
+rare_events,1.0,none,INCONCLUSIVE,none
+ar_cont,1.0,none,INCONCLUSIVE,none
+clustered_events,1.0,none,CONFIDENTLY NOTHING,none
+rare_events,1.0,none,INCONCLUSIVE,none
+ar_cont,0.13133951678638656,none,INCONCLUSIVE,none
+clustered_events,0.6891999550360738,none,INCONCLUSIVE,none
+rare_events,0.200857379599922,none,INCONCLUSIVE,none
+ar_cont,1.0,none,CONFIDENTLY NOTHING,none
+clustered_events,0.0039855924530681295,CONFIRMED,REAL BUT TOO SMALL,none
+rare_events,0.14929536698709545,none,INCONCLUSIVE,none
+ar_cont,1.0,none,CONFIDENTLY NOTHING,none
+clustered_events,1.0,none,CONFIDENTLY NOTHING,none
+rare_events,1.0,none,CONFIDENTLY NOTHING,none
+ar_cont,1.0,none,INCONCLUSIVE,none
+clustered_events,0.7480153618498518,none,CONFIDENTLY NOTHING,none
+rare_events,0.07431084258148599,none,INCONCLUSIVE,none
+ar_cont,1.0,none,CONFIDENTLY NOTHING,none
+clustered_events,1.0,none,CONFIDENTLY NOTHING,none
+rare_events,0.34105728097298316,none,INCONCLUSIVE,none
+ar_cont,1.0,none,CONFIDENTLY NOTHING,none
+clustered_events,1.0,none,INCONCLUSIVE,none
+rare_events,0.5365804726258022,none,INCONCLUSIVE,none
+ar_cont,0.41474554158382815,none,CONFIDENTLY NOTHING,none
+clustered_events,0.43904177717114967,none,INCONCLUSIVE,none
+rare_events,0.9453290513745032,none,INCONCLUSIVE,none
+ar_cont,1.0,none,CONFIDENTLY NOTHING,none
+clustered_events,1.0,none,CONFIDENTLY NOTHING,none
+rare_events,0.7670843789942701,none,INCONCLUSIVE,none
+ar_cont,1.0,none,CONFIDENTLY NOTHING,none
+clustered_events,1.0,none,INCONCLUSIVE,none
+rare_events,0.06287018221863323,none,INCONCLUSIVE,none
+ar_cont,0.6634616521191232,none,CONFIDENTLY NOTHING,none
+clustered_events,1.0,none,CONFIDENTLY NOTHING,none
+rare_events,1.0,none,CONFIDENTLY NOTHING,none
+ar_cont,1.0,none,CONFIDENTLY NOTHING,none
+clustered_events,1.0,none,CONFIDENTLY NOTHING,none
+rare_events,0.9513402861306879,none,INCONCLUSIVE,none
+ar_cont,1.0,none,CONFIDENTLY NOTHING,none
+clustered_events,0.6579595304482966,none,CONFIDENTLY NOTHING,none
+rare_events,0.8464972172895223,none,CONFIDENTLY NOTHING,none
+ar_cont,0.8955633320042805,none,CONFIDENTLY NOTHING,none
+clustered_events,1.0,none,CONFIDENTLY NOTHING,none
+rare_events,1.0,none,CONFIDENTLY NOTHING,none
+ar_cont,1.0,none,CONFIDENTLY NOTHING,none
+clustered_events,0.0208138788666272,possible,CONFIDENTLY NOTHING,none
+rare_events,0.5749646277691092,none,INCONCLUSIVE,none
+ar_cont,1.0,none,CONFIDENTLY NOTHING,none
+clustered_events,1.0,none,CONFIDENTLY NOTHING,none
+rare_events,0.06867043075846137,none,INCONCLUSIVE,none
+ar_cont,1.0,none,INCONCLUSIVE,none
+clustered_events,1.0,none,INCONCLUSIVE,none
+rare_events,0.3478418438734699,none,CONFIDENTLY NOTHING,none
+ar_cont,1.0,none,INCONCLUSIVE,none
+clustered_events,0.3339183942652939,none,INCONCLUSIVE,none
+rare_events,0.949085874662623,none,CONFIDENTLY NOTHING,none
+ar_cont,0.943566964355852,none,INCONCLUSIVE,none
+clustered_events,0.2853782163364447,none,CONFIDENTLY NOTHING,none
+rare_events,1.0,none,CONFIDENTLY NOTHING,none
+ar_cont,0.20937036703922068,none,CONFIDENTLY NOTHING,none
+clustered_events,0.22741322519890403,none,INCONCLUSIVE,none
+rare_events,0.5771747841581686,none,INCONCLUSIVE,none
+ar_cont,1.0,none,CONFIDENTLY NOTHING,none
+clustered_events,1.0,none,CONFIDENTLY NOTHING,none
+rare_events,1.0,none,INCONCLUSIVE,none
+ar_cont,0.0382026545974143,none,INCONCLUSIVE,none
+clustered_events,0.871216009334757,none,INCONCLUSIVE,none
+rare_events,1.0,none,INCONCLUSIVE,none
+ar_cont,1.0,none,CONFIDENTLY NOTHING,none
+clustered_events,1.0,none,CONFIDENTLY NOTHING,none
+rare_events,1.0,none,CONFIDENTLY NOTHING,none
+ar_cont,1.0,none,CONFIDENTLY NOTHING,none
+clustered_events,1.0,none,CONFIDENTLY NOTHING,none
+rare_events,0.3931174874822148,none,CONFIDENTLY NOTHING,none
+ar_cont,1.0,none,CONFIDENTLY NOTHING,none
+clustered_events,1.0,none,CONFIDENTLY NOTHING,none
+rare_events,1.0,none,INCONCLUSIVE,none
+ar_cont,1.0,none,CONFIDENTLY NOTHING,none
+clustered_events,1.0,none,CONFIDENTLY NOTHING,none
+rare_events,0.9800573926253835,none,CONFIDENTLY NOTHING,CONFIRMED
+ar_cont,0.8559318719095629,none,CONFIDENTLY NOTHING,none
+clustered_events,1.0,none,CONFIDENTLY NOTHING,none
+rare_events,0.8359475950127666,none,INCONCLUSIVE,none
+ar_cont,1.0,none,INCONCLUSIVE,none
+clustered_events,1.0,none,INCONCLUSIVE,none
+rare_events,0.6841503224921697,none,INCONCLUSIVE,none
+ar_cont,1.0,none,CONFIDENTLY NOTHING,none
+clustered_events,0.7467110857799382,none,CONFIDENTLY NOTHING,none
+rare_events,1.0,none,CONFIDENTLY NOTHING,none
+ar_cont,1.0,none,CONFIDENTLY NOTHING,none
+clustered_events,1.0,none,CONFIDENTLY NOTHING,none
+rare_events,1.0,none,CONFIDENTLY NOTHING,none
+ar_cont,1.0,none,CONFIDENTLY NOTHING,none
+clustered_events,1.0,none,CONFIDENTLY NOTHING,none
+rare_events,1.0,none,INCONCLUSIVE,none
+ar_cont,0.7072139968357254,none,CONFIDENTLY NOTHING,none
+clustered_events,1.0,none,CONFIDENTLY NOTHING,none
+rare_events,1.0,none,INCONCLUSIVE,none
+ar_cont,1.0,none,CONFIDENTLY NOTHING,none
+clustered_events,1.0,none,CONFIDENTLY NOTHING,none
+rare_events,0.6514227965937223,none,CONFIDENTLY NOTHING,none
+ar_cont,1.0,none,CONFIDENTLY NOTHING,none
+clustered_events,0.9133425046932242,none,INCONCLUSIVE,none
+rare_events,1.0,none,CONFIDENTLY NOTHING,none
+ar_cont,1.0,none,CONFIDENTLY NOTHING,none
+clustered_events,1.0,none,CONFIDENTLY NOTHING,none
+rare_events,1.0,none,CONFIDENTLY NOTHING,none
+ar_cont,1.0,none,CONFIDENTLY NOTHING,none
+clustered_events,1.0,none,CONFIDENTLY NOTHING,none
+rare_events,1.0,none,INCONCLUSIVE,none
+ar_cont,1.0,none,CONFIDENTLY NOTHING,none
+clustered_events,0.7243444404525823,none,CONFIDENTLY NOTHING,none
+rare_events,1.0,none,CONFIDENTLY NOTHING,none
+ar_cont,0.950850916842201,none,INCONCLUSIVE,none
+clustered_events,0.40250912359728963,none,INCONCLUSIVE,none
+rare_events,0.37974773683612595,none,CONFIDENTLY NOTHING,none
+ar_cont,0.18166382524444916,none,INCONCLUSIVE,none
+clustered_events,0.04286069624700632,none,INCONCLUSIVE,none
+rare_events,0.3326944446178479,none,CONFIDENTLY NOTHING,none
+ar_cont,0.7949626658345582,none,INCONCLUSIVE,none
+clustered_events,1.0,none,CONFIDENTLY NOTHING,none
+rare_events,1.0,none,CONFIDENTLY NOTHING,none
+ar_cont,1.0,none,INCONCLUSIVE,none
+clustered_events,1.0,none,INCONCLUSIVE,none
+rare_events,0.2683508075496691,none,INCONCLUSIVE,none
+ar_cont,1.0,none,CONFIDENTLY NOTHING,none
+clustered_events,0.21634500063489318,none,INCONCLUSIVE,none
+rare_events,0.9675828144728233,none,CONFIDENTLY NOTHING,none
+ar_cont,1.0,none,CONFIDENTLY NOTHING,none
+clustered_events,1.0,none,INCONCLUSIVE,none
+rare_events,1.0,none,INCONCLUSIVE,none
+ar_cont,1.0,none,CONFIDENTLY NOTHING,none
+clustered_events,1.0,none,CONFIDENTLY NOTHING,none
+rare_events,0.37611008530987544,none,CONFIDENTLY NOTHING,none
+ar_cont,0.09734096379885801,none,CONFIDENTLY NOTHING,none
+clustered_events,0.33852258605594765,none,INCONCLUSIVE,none
+rare_events,1.0,none,CONFIDENTLY NOTHING,none
+ar_cont,1.0,none,CONFIDENTLY NOTHING,none
+clustered_events,0.43786489152763375,none,CONFIDENTLY NOTHING,none
+rare_events,0.9752880948235398,none,INCONCLUSIVE,none
+ar_cont,1.0,none,INCONCLUSIVE,none
+clustered_events,1.0,none,CONFIDENTLY NOTHING,none
+rare_events,0.8790966892711687,none,CONFIDENTLY NOTHING,none
+ar_cont,1.0,none,CONFIDENTLY NOTHING,none
+clustered_events,0.7893259432610087,none,CONFIDENTLY NOTHING,none
+rare_events,1.0,none,CONFIDENTLY NOTHING,none
+ar_cont,1.0,none,CONFIDENTLY NOTHING,none
+clustered_events,1.0,none,INCONCLUSIVE,none
+rare_events,1.0,none,INCONCLUSIVE,none
+ar_cont,1.0,none,CONFIDENTLY NOTHING,none
+clustered_events,0.958955889488752,none,INCONCLUSIVE,none
+rare_events,1.0,none,CONFIDENTLY NOTHING,none
+ar_cont,1.0,none,CONFIDENTLY NOTHING,none
+clustered_events,1.0,none,CONFIDENTLY NOTHING,none
+rare_events,0.29064410366751936,none,INCONCLUSIVE,none
+ar_cont,1.0,none,CONFIDENTLY NOTHING,none
+clustered_events,0.6071590089414307,none,INCONCLUSIVE,none
+rare_events,0.8702055349748357,none,INCONCLUSIVE,none
+ar_cont,1.0,none,CONFIDENTLY NOTHING,none
+clustered_events,0.5565958846065059,none,CONFIDENTLY NOTHING,none
+rare_events,1.0,none,INCONCLUSIVE,none
+ar_cont,1.0,none,INCONCLUSIVE,none
+clustered_events,0.1032573768904529,none,CONFIDENTLY NOTHING,none
+rare_events,0.7464153445962722,none,INCONCLUSIVE,none
+ar_cont,1.0,none,CONFIDENTLY NOTHING,none
+clustered_events,1.0,none,CONFIDENTLY NOTHING,none
+rare_events,1.0,none,CONFIDENTLY NOTHING,none
+ar_cont,0.10394456429769783,none,INCONCLUSIVE,none
+clustered_events,0.8242989823952973,none,INCONCLUSIVE,none

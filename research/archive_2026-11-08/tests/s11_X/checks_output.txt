@@ -1,0 +1,38 @@
+SPOT CHECKS (raw CSV, minute loops)
+  fade 2015-04-15 dec 13:30 P=4419.5 side short entry 4419.5 stop 4431.0 tgt 4413.75 -> exit 4422.75 at 14:30 (time); csv: 4419.5/4422.75/14:30/time  OK
+  fade 2013-05-20 dec 13:00 P=3021.5 side long entry 3021.75 stop 3012.75 tgt 3026.0 -> exit 3012.75 at 13:46 (stop); csv: 3021.75/3012.75/13:46/stop  OK
+  fade 2023-05-23 dec 12:30 P=13835.25 side long entry 13835.5 stop 13801.75 tgt 13852.25 -> exit 13801.75 at 12:38 (stop); csv: 13835.5/13801.75/12:38/stop  OK
+  fade 2021-11-05 dec 13:00 P=16382.0 side long entry 16381.75 stop 16335.25 tgt 16405.25 -> exit 16335.25 at 13:25 (stop); csv: 16381.75/16335.25/13:25/stop  OK
+  fade 2010-09-14 dec 11:30 P=1927.5 side short entry 1927.75 stop 1936.0 tgt 1923.25 -> exit 1936.0 at 12:25 (stop); csv: 1927.75/1936.0/12:25/stop  OK
+  fade 2010-07-27 dec 13:30 P=1878.5 side long entry 1878.75 stop 1870.25 tgt 1882.75 -> exit 1882.75 at 13:48 (target); csv: 1878.75/1882.75/13:48/target  OK
+  fade 2026-09-24 dec 11:30 P=7729.25 side long entry 7729.25 stop 7704.0 tgt 7742.0 -> exit 7742.0 at 12:15 (target); csv: 7729.25/7742.0/12:15/target  OK
+  fade 2021-07-14 dec 11:30 P=4364.5 side long entry 4364.5 stop 4355.5 tgt 4369.0 -> exit 4355.5 at 11:47 (stop); csv: 4364.5/4355.5/11:47/stop  OK
+  vwap 2023-12-29 dec 12:30 P=16952.25 side long entry 16952.0 stop 16884.75 tgt 17019.5 -> exit 17019.5 at 13:08 (target); csv: 16952.0/17019.5/13:08/target  OK
+  vwap 2016-04-28 dec 14:00 P=4409.0 side long entry 4409.0 stop 4393.75 tgt 4424.25 -> exit 4393.75 at 14:45 (stop); csv: 4409.0/4393.75/14:45/stop  OK
+  B 2026-06-11 arm 13:30 peak 13:30 entry 13:32 @29117.5 M=426.25 stop 29543.75 -> 29209.25 at 13:47 (time); csv arm 13:30 peak 13:30 29117.5/29209.25/13:47  OK
+  B 2017-06-09 arm 12:16 peak 12:16 entry 12:18 @5835.25 M=23.0 stop 5812.25 -> 5832.5 at 12:33 (time); csv arm 12:16 peak 12:16 5835.25/5832.5/12:33  OK
+  B 2021-01-08 arm 13:23 peak 13:23 entry 13:25 @12969.25 M=55.0 stop 12914.25 -> 12967.0 at 13:40 (time); csv arm 13:23 peak 13:23 12969.25/12967.0/13:40  OK
+  B 2024-02-12 arm 14:19 peak 14:19 entry 14:21 @5037.5 M=14.75 stop 5022.75 -> 5041.0 at 14:36 (time); csv arm 14:19 peak 14:19 5037.5/5041.0/14:36  OK
+  B 2026-03-31 arm 12:40 peak 12:41 entry 12:43 @6555.75 M=67.75 stop 6623.5 -> 6528.5 at 12:58 (time); csv arm 12:40 peak 12:41 6555.75/6528.5/12:58  OK
+  C 2025-08-28 ORB long OR 23629.75-23742.25 mid 23686.0 fail bar 09:45 rev entry 09:50@23657.75 stop 23737.25 -> 23737.25 at 11:16 (stop); csv 09:45 23657.75/23737.25/11:16/stop  OK
+  C 2022-11-30 ORB long OR 11518.75-11569.25 mid 11544.0 fail bar 09:35 rev entry 09:40@11540.0 stop 11573.75 -> 11573.75 at 09:42 (stop); csv 09:35 11540.0/11573.75/09:42/stop  OK
+  C 2015-02-24 ORB short OR 4435.0-4443.25 mid 4439.125 fail bar 10:05 rev entry 10:10@4439.25 stop 4426.5 -> 4448.75 at 14:00 (time); csv 10:05 4439.25/4448.75/14:00/time  OK
+  C 2026-03-10 ORB long OR 24990.5-25081.75 mid 25036.125 fail bar 09:35 rev entry 09:40@25014.0 stop 25038.25 -> 25038.25 at 09:40 (stop); csv 09:35 25014.0/25038.25/09:40/stop  OK
+  C 2010-06-16 ORB long OR 1886.75-1892.0 mid 1889.375 fail bar 10:30 rev entry 10:35@1889.0 stop 1898.75 -> 1898.75 at 11:08 (stop); csv 10:30 1889.0/1898.75/11:08/stop  OK
+ROLL CHECKS
+  roll check A: 1261 trades, violations 0
+  roll check A1-MES: 1240 trades, violations 0
+  roll check A2-VWAP: 415 trades, violations 0
+  roll check B: 23 trades, violations 0
+  roll check B-MES: 20 trades, violations 0
+  roll check B1: 20 trades, violations 0
+  roll check C reverse: 1217 trades, violations 0
+  roll check C2 reverse: 1217 trades, violations 0
+LOOK-AHEAD CHECKS
+  A: entries at/after decision bar, no overlapping positions (violations 0), all flat by 15:00
+  A1-MES: entries at/after decision bar, no overlapping positions (violations 0), all flat by 15:00
+  A2-VWAP: entries at/after decision bar, no overlapping positions (violations 0), all flat by 15:00
+  B: entry bar >= peak+2 (peak confirmed by the close of bar peak+1), entry <= 14:30, exit <= 14:45: True
+  B-MES: entry bar >= peak+2 (peak confirmed by the close of bar peak+1), entry <= 14:30, exit <= 14:45: True
+  B1: entry bar >= peak+2 (peak confirmed by the close of bar peak+1), entry <= 14:30, exit <= 14:45: True
+  C: reverse entry at/after the bar following the failure 5-min bar's close (all)

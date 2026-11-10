@@ -1,0 +1,72 @@
+[ES 60m classes] nulls done 22s
+[ES 60m classes] rep 10/100 33s
+[ES 60m classes] rep 20/100 45s
+[ES 60m classes] rep 30/100 56s
+[ES 60m classes] rep 40/100 67s
+[ES 60m classes] rep 50/100 78s
+[ES 60m classes] rep 60/100 89s
+[ES 60m classes] rep 70/100 100s
+[ES 60m classes] rep 80/100 111s
+[ES 60m classes] rep 90/100 122s
+[ES 60m classes] rep 100/100 133s
+[ES 60m classes] 137s null NOTHING 0.12, zero NOTHING 0.03, false-no at edge=cost 0.00, false-tradable at edge=cost 0.05, tradable at 2x 0.95, NOTHING long8-alone 0.00 build16 0.00
+[ES 15m classes] nulls done 71s
+[ES 15m classes] rep 10/100 120s
+[ES 15m classes] rep 20/100 168s
+[ES 15m classes] rep 30/100 220s
+[ES 15m classes] rep 40/100 273s
+[ES 15m classes] rep 50/100 325s
+[ES 15m classes] rep 60/100 376s
+[ES 15m classes] rep 70/100 427s
+[ES 15m classes] rep 80/100 479s
+[ES 15m classes] rep 90/100 530s
+[ES 15m classes] rep 100/100 581s
+[ES 15m classes] 592s null NOTHING 0.60, zero NOTHING 0.46, false-no at edge=cost 0.00, false-tradable at edge=cost 0.06, tradable at 2x 1.00, NOTHING long8-alone 0.00 build16 0.01
+[NQ 60m classes] nulls done 23s
+[NQ 60m classes] rep 10/100 35s
+[NQ 60m classes] rep 20/100 48s
+[NQ 60m classes] rep 30/100 60s
+[NQ 60m classes] rep 40/100 72s
+[NQ 60m classes] rep 50/100 84s
+[NQ 60m classes] rep 60/100 96s
+[NQ 60m classes] rep 70/100 107s
+[NQ 60m classes] rep 80/100 119s
+[NQ 60m classes] rep 90/100 131s
+[NQ 60m classes] rep 100/100 142s
+[NQ 60m classes] 147s null NOTHING 0.00, zero NOTHING 0.00, false-no at edge=cost 0.00, false-tradable at edge=cost 0.03, tradable at 2x 0.33, NOTHING long8-alone 0.00 build16 0.00
+[NQ 15m classes] nulls done 73s
+[NQ 15m classes] rep 10/100 122s
+[NQ 15m classes] rep 20/100 167s
+[NQ 15m classes] rep 30/100 211s
+[NQ 15m classes] rep 40/100 257s
+[NQ 15m classes] rep 50/100 304s
+[NQ 15m classes] rep 60/100 349s
+[NQ 15m classes] rep 70/100 394s
+[NQ 15m classes] rep 80/100 439s
+[NQ 15m classes] rep 90/100 485s
+[NQ 15m classes] rep 100/100 531s
+[NQ 15m classes] 541s null NOTHING 0.03, zero NOTHING 0.00, false-no at edge=cost 0.00, false-tradable at edge=cost 0.06, tradable at 2x 0.74, NOTHING long8-alone 0.00 build16 0.00
+[YM 60m classes] nulls done 12s
+[YM 60m classes] rep 10/100 18s
+[YM 60m classes] rep 20/100 23s
+[YM 60m classes] rep 30/100 29s
+[YM 60m classes] rep 40/100 34s
+[YM 60m classes] rep 50/100 39s
+[YM 60m classes] rep 60/100 45s
+[YM 60m classes] rep 70/100 50s
+[YM 60m classes] rep 80/100 56s
+[YM 60m classes] rep 90/100 62s
+[YM 60m classes] rep 100/100 67s
+[YM 60m classes] 69s null NOTHING 0.00, zero NOTHING 0.00, false-no at edge=cost 0.00, false-tradable at edge=cost 0.12, tradable at 2x 0.85, NOTHING long8-alone 0.00 build16 0.00
+[YM 15m classes] nulls done 33s
+[YM 15m classes] rep 10/100 53s
+[YM 15m classes] rep 20/100 73s
+[YM 15m classes] rep 30/100 92s
+[YM 15m classes] rep 40/100 112s
+[YM 15m classes] rep 50/100 132s
+[YM 15m classes] rep 60/100 153s
+[YM 15m classes] rep 70/100 174s
+[YM 15m classes] rep 80/100 195s
+[YM 15m classes] rep 90/100 217s
+[YM 15m classes] rep 100/100 238s
+[YM 15m classes] 243s null NOTHING 0.14, zero NOTHING 0.00, false-no at edge=cost 0.00, false-tradable at edge=cost 0.08, tradable at 2x 1.00, NOTHING long8-alone 0.00 build16 0.00

@@ -1,0 +1,2786 @@
+{
+ "base": {
+  "n": 3509,
+  "usd": 19438.0
+ },
+ "results": [
+  {
+   "filter": "T1",
+   "cost_extra_per_trade": 0.0,
+   "kept": 1806,
+   "removed": 1703,
+   "share_removed": 0.4853,
+   "kept_usd": 15353.0,
+   "removed_usd": 4085.0,
+   "removed_usd_2010_17": -181.5,
+   "removed_usd_2018_26": 4266.5,
+   "kept_per_trade": 8.50110741971207,
+   "removed_per_trade": 2.398708162066941,
+   "welch_t": 1.1152,
+   "welch_df": 3466.1,
+   "p_one_sided": 0.13242718191223773,
+   "dd_before": 4351.5,
+   "dd_after": 2401.5,
+   "worst_day_before": -407.0,
+   "worst_day_after": -390.0,
+   "model_net_before": 19438.0,
+   "model_net_after": 15353.0,
+   "a_removed_lose": false,
+   "b_welch": false,
+   "c_dd_worst": true,
+   "passed": false,
+   "eras": {
+    "2010-13": {
+     "kept": {
+      "n": 358,
+      "usd": -176.5,
+      "per_trade": -0.493
+     },
+     "removed": {
+      "n": 337,
+      "usd": -417.5,
+      "per_trade": -1.239
+     },
+     "share_removed": 0.4849
+    },
+    "2014-17": {
+     "kept": {
+      "n": 405,
+      "usd": -350.0,
+      "per_trade": -0.864
+     },
+     "removed": {
+      "n": 454,
+      "usd": 236.0,
+      "per_trade": 0.52
+     },
+     "share_removed": 0.5285
+    },
+    "2018-20": {
+     "kept": {
+      "n": 346,
+      "usd": 4689.5,
+      "per_trade": 13.553
+     },
+     "removed": {
+      "n": 301,
+      "usd": 81.5,
+      "per_trade": 0.271
+     },
+     "share_removed": 0.4652
+    },
+    "2021-23": {
+     "kept": {
+      "n": 364,
+      "usd": 5397.0,
+      "per_trade": 14.827
+     },
+     "removed": {
+      "n": 299,
+      "usd": 2545.0,
+      "per_trade": 8.512
+     },
+     "share_removed": 0.451
+    },
+    "2024-26": {
+     "kept": {
+      "n": 333,
+      "usd": 5793.0,
+      "per_trade": 17.396
+     },
+     "removed": {
+      "n": 312,
+      "usd": 1640.0,
+      "per_trade": 5.256
+     },
+     "share_removed": 0.4837
+    },
+    "2023-26": {
+     "kept": {
+      "n": 465,
+      "usd": 5765.5,
+      "per_trade": 12.399
+     },
+     "removed": {
+      "n": 406,
+      "usd": 1550.5,
+      "per_trade": 3.819
+     },
+     "share_removed": 0.4661
+    },
+    "2010-17": {
+     "kept": {
+      "n": 763,
+      "usd": -526.5,
+      "per_trade": -0.69
+     },
+     "removed": {
+      "n": 791,
+      "usd": -181.5,
+      "per_trade": -0.229
+     },
+     "share_removed": 0.509
+    },
+    "2018-26": {
+     "kept": {
+      "n": 1043,
+      "usd": 15879.5,
+      "per_trade": 15.225
+     },
+     "removed": {
+      "n": 912,
+      "usd": 4266.5,
+      "per_trade": 4.678
+     },
+     "share_removed": 0.4665
+    }
+   },
+   "years": {
+    "2010": {
+     "kept": {
+      "n": 60,
+      "usd": -57.0,
+      "per_trade": -0.95
+     },
+     "removed": {
+      "n": 51,
+      "usd": -200.0,
+      "per_trade": -3.922
+     }
+    },
+    "2011": {
+     "kept": {
+      "n": 89,
+      "usd": -24.5,
+      "per_trade": -0.275
+     },
+     "removed": {
+      "n": 98,
+      "usd": -119.0,
+      "per_trade": -1.214
+     }
+    },
+    "2012": {
+     "kept": {
+      "n": 99,
+      "usd": -293.5,
+      "per_trade": -2.965
+     },
+     "removed": {
+      "n": 98,
+      "usd": -0.5,
+      "per_trade": -0.005
+     }
+    },
+    "2013": {
+     "kept": {
+      "n": 110,
+      "usd": 198.5,
+      "per_trade": 1.805
+     },
+     "removed": {
+      "n": 90,
+      "usd": -98.0,
+      "per_trade": -1.089
+     }
+    },
+    "2014": {
+     "kept": {
+      "n": 98,
+      "usd": 209.5,
+      "per_trade": 2.138
+     },
+     "removed": {
+      "n": 110,
+      "usd": 237.0,
+      "per_trade": 2.155
+     }
+    },
+    "2015": {
+     "kept": {
+      "n": 98,
+      "usd": -582.0,
+      "per_trade": -5.939
+     },
+     "removed": {
+      "n": 117,
+      "usd": -181.0,
+      "per_trade": -1.547
+     }
+    },
+    "2016": {
+     "kept": {
+      "n": 105,
+      "usd": 435.0,
+      "per_trade": 4.143
+     },
+     "removed": {
+      "n": 108,
+      "usd": 66.5,
+      "per_trade": 0.616
+     }
+    },
+    "2017": {
+     "kept": {
+      "n": 104,
+      "usd": -412.5,
+      "per_trade": -3.966
+     },
+     "removed": {
+      "n": 119,
+      "usd": 113.5,
+      "per_trade": 0.954
+     }
+    },
+    "2018": {
+     "kept": {
+      "n": 118,
+      "usd": 3192.5,
+      "per_trade": 27.055
+     },
+     "removed": {
+      "n": 96,
+      "usd": 386.0,
+      "per_trade": 4.021
+     }
+    },
+    "2019": {
+     "kept": {
+      "n": 112,
+      "usd": 448.5,
+      "per_trade": 4.004
+     },
+     "removed": {
+      "n": 113,
+      "usd": 460.5,
+      "per_trade": 4.075
+     }
+    },
+    "2020": {
+     "kept": {
+      "n": 116,
+      "usd": 1048.5,
+      "per_trade": 9.039
+     },
+     "removed": {
+      "n": 92,
+      "usd": -765.0,
+      "per_trade": -8.315
+     }
+    },
+    "2021": {
+     "kept": {
+      "n": 119,
+      "usd": 2569.0,
+      "per_trade": 21.588
+     },
+     "removed": {
+      "n": 107,
+      "usd": -586.5,
+      "per_trade": -5.481
+     }
+    },
+    "2022": {
+     "kept": {
+      "n": 113,
+      "usd": 2855.5,
+      "per_trade": 25.27
+     },
+     "removed": {
+      "n": 98,
+      "usd": 3221.0,
+      "per_trade": 32.867
+     }
+    },
+    "2023": {
+     "kept": {
+      "n": 132,
+      "usd": -27.5,
+      "per_trade": -0.208
+     },
+     "removed": {
+      "n": 94,
+      "usd": -89.5,
+      "per_trade": -0.952
+     }
+    },
+    "2024": {
+     "kept": {
+      "n": 115,
+      "usd": 2320.5,
+      "per_trade": 20.178
+     },
+     "removed": {
+      "n": 113,
+      "usd": 735.0,
+      "per_trade": 6.504
+     }
+    },
+    "2025": {
+     "kept": {
+      "n": 123,
+      "usd": -211.0,
+      "per_trade": -1.715
+     },
+     "removed": {
+      "n": 101,
+      "usd": 5244.0,
+      "per_trade": 51.921
+     }
+    },
+    "2026": {
+     "kept": {
+      "n": 95,
+      "usd": 3683.5,
+      "per_trade": 38.774
+     },
+     "removed": {
+      "n": 98,
+      "usd": -4339.0,
+      "per_trade": -44.276
+     }
+    }
+   },
+   "book": {
+    "net_before": 50657.0,
+    "net_after": 46572.0,
+    "dd_before": 7949.0,
+    "dd_after": 4435.0,
+    "worst_day_before": -758.0,
+    "worst_day_after": -740.5
+   },
+   "decisions_csv": "/tmp/claude-1000/-home-roflz--claude-spares-spare-NhXWo6/fb7c622e-dc01-4189-9bb7-9001db03cb79/scratchpad/filters/T_Y/T1_decisions.csv",
+   "p_holm": 0.5297087276489509
+  },
+  {
+   "filter": "T2",
+   "cost_extra_per_trade": 0.0,
+   "kept": 1657,
+   "removed": 1852,
+   "share_removed": 0.5278,
+   "kept_usd": 11043.0,
+   "removed_usd": 8395.0,
+   "removed_usd_2010_17": -339.0,
+   "removed_usd_2018_26": 8734.0,
+   "kept_per_trade": 6.664453832226916,
+   "removed_per_trade": 4.532937365010799,
+   "welch_t": 0.3915,
+   "welch_df": 3505.3,
+   "p_one_sided": 0.3477130270212814,
+   "dd_before": 4351.5,
+   "dd_after": 2251.0,
+   "worst_day_before": -407.0,
+   "worst_day_after": -407.0,
+   "model_net_before": 19438.0,
+   "model_net_after": 11043.0,
+   "a_removed_lose": false,
+   "b_welch": false,
+   "c_dd_worst": true,
+   "passed": false,
+   "eras": {
+    "2010-13": {
+     "kept": {
+      "n": 336,
+      "usd": -269.5,
+      "per_trade": -0.802
+     },
+     "removed": {
+      "n": 359,
+      "usd": -324.5,
+      "per_trade": -0.904
+     },
+     "share_removed": 0.5165
+    },
+    "2014-17": {
+     "kept": {
+      "n": 395,
+      "usd": -99.5,
+      "per_trade": -0.252
+     },
+     "removed": {
+      "n": 464,
+      "usd": -14.5,
+      "per_trade": -0.031
+     },
+     "share_removed": 0.5402
+    },
+    "2018-20": {
+     "kept": {
+      "n": 304,
+      "usd": 3750.0,
+      "per_trade": 12.336
+     },
+     "removed": {
+      "n": 343,
+      "usd": 1021.0,
+      "per_trade": 2.977
+     },
+     "share_removed": 0.5301
+    },
+    "2021-23": {
+     "kept": {
+      "n": 324,
+      "usd": 2873.0,
+      "per_trade": 8.867
+     },
+     "removed": {
+      "n": 339,
+      "usd": 5069.0,
+      "per_trade": 14.953
+     },
+     "share_removed": 0.5113
+    },
+    "2024-26": {
+     "kept": {
+      "n": 298,
+      "usd": 4789.0,
+      "per_trade": 16.07
+     },
+     "removed": {
+      "n": 347,
+      "usd": 2644.0,
+      "per_trade": 7.62
+     },
+     "share_removed": 0.538
+    },
+    "2023-26": {
+     "kept": {
+      "n": 416,
+      "usd": 3777.0,
+      "per_trade": 9.079
+     },
+     "removed": {
+      "n": 455,
+      "usd": 3539.0,
+      "per_trade": 7.778
+     },
+     "share_removed": 0.5224
+    },
+    "2010-17": {
+     "kept": {
+      "n": 731,
+      "usd": -369.0,
+      "per_trade": -0.505
+     },
+     "removed": {
+      "n": 823,
+      "usd": -339.0,
+      "per_trade": -0.412
+     },
+     "share_removed": 0.5296
+    },
+    "2018-26": {
+     "kept": {
+      "n": 926,
+      "usd": 11412.0,
+      "per_trade": 12.324
+     },
+     "removed": {
+      "n": 1029,
+      "usd": 8734.0,
+      "per_trade": 8.488
+     },
+     "share_removed": 0.5263
+    }
+   },
+   "years": {
+    "2010": {
+     "kept": {
+      "n": 51,
+      "usd": 37.5,
+      "per_trade": 0.735
+     },
+     "removed": {
+      "n": 60,
+      "usd": -294.5,
+      "per_trade": -4.908
+     }
+    },
+    "2011": {
+     "kept": {
+      "n": 85,
+      "usd": 128.5,
+      "per_trade": 1.512
+     },
+     "removed": {
+      "n": 102,
+      "usd": -272.0,
+      "per_trade": -2.667
+     }
+    },
+    "2012": {
+     "kept": {
+      "n": 98,
+      "usd": -275.0,
+      "per_trade": -2.806
+     },
+     "removed": {
+      "n": 99,
+      "usd": -19.0,
+      "per_trade": -0.192
+     }
+    },
+    "2013": {
+     "kept": {
+      "n": 102,
+      "usd": -160.5,
+      "per_trade": -1.574
+     },
+     "removed": {
+      "n": 98,
+      "usd": 261.0,
+      "per_trade": 2.663
+     }
+    },
+    "2014": {
+     "kept": {
+      "n": 89,
+      "usd": -71.0,
+      "per_trade": -0.798
+     },
+     "removed": {
+      "n": 119,
+      "usd": 517.5,
+      "per_trade": 4.349
+     }
+    },
+    "2015": {
+     "kept": {
+      "n": 89,
+      "usd": -551.5,
+      "per_trade": -6.197
+     },
+     "removed": {
+      "n": 126,
+      "usd": -211.5,
+      "per_trade": -1.679
+     }
+    },
+    "2016": {
+     "kept": {
+      "n": 103,
+      "usd": 686.5,
+      "per_trade": 6.665
+     },
+     "removed": {
+      "n": 110,
+      "usd": -185.0,
+      "per_trade": -1.682
+     }
+    },
+    "2017": {
+     "kept": {
+      "n": 114,
+      "usd": -163.5,
+      "per_trade": -1.434
+     },
+     "removed": {
+      "n": 109,
+      "usd": -135.5,
+      "per_trade": -1.243
+     }
+    },
+    "2018": {
+     "kept": {
+      "n": 96,
+      "usd": 2091.5,
+      "per_trade": 21.786
+     },
+     "removed": {
+      "n": 118,
+      "usd": 1487.0,
+      "per_trade": 12.602
+     }
+    },
+    "2019": {
+     "kept": {
+      "n": 111,
+      "usd": -58.5,
+      "per_trade": -0.527
+     },
+     "removed": {
+      "n": 114,
+      "usd": 967.5,
+      "per_trade": 8.487
+     }
+    },
+    "2020": {
+     "kept": {
+      "n": 97,
+      "usd": 1717.0,
+      "per_trade": 17.701
+     },
+     "removed": {
+      "n": 111,
+      "usd": -1433.5,
+      "per_trade": -12.914
+     }
+    },
+    "2021": {
+     "kept": {
+      "n": 108,
+      "usd": 1224.0,
+      "per_trade": 11.333
+     },
+     "removed": {
+      "n": 118,
+      "usd": 758.5,
+      "per_trade": 6.428
+     }
+    },
+    "2022": {
+     "kept": {
+      "n": 98,
+      "usd": 2661.0,
+      "per_trade": 27.153
+     },
+     "removed": {
+      "n": 113,
+      "usd": 3415.5,
+      "per_trade": 30.226
+     }
+    },
+    "2023": {
+     "kept": {
+      "n": 118,
+      "usd": -1012.0,
+      "per_trade": -8.576
+     },
+     "removed": {
+      "n": 108,
+      "usd": 895.0,
+      "per_trade": 8.287
+     }
+    },
+    "2024": {
+     "kept": {
+      "n": 99,
+      "usd": 3092.5,
+      "per_trade": 31.237
+     },
+     "removed": {
+      "n": 129,
+      "usd": -37.0,
+      "per_trade": -0.287
+     }
+    },
+    "2025": {
+     "kept": {
+      "n": 109,
+      "usd": -1410.5,
+      "per_trade": -12.94
+     },
+     "removed": {
+      "n": 115,
+      "usd": 6443.5,
+      "per_trade": 56.03
+     }
+    },
+    "2026": {
+     "kept": {
+      "n": 90,
+      "usd": 3107.0,
+      "per_trade": 34.522
+     },
+     "removed": {
+      "n": 103,
+      "usd": -3762.5,
+      "per_trade": -36.529
+     }
+    }
+   },
+   "book": {
+    "net_before": 50657.0,
+    "net_after": 42262.0,
+    "dd_before": 7949.0,
+    "dd_after": 5197.0,
+    "worst_day_before": -758.0,
+    "worst_day_after": -758.0
+   },
+   "decisions_csv": "/tmp/claude-1000/-home-roflz--claude-spares-spare-NhXWo6/fb7c622e-dc01-4189-9bb7-9001db03cb79/scratchpad/filters/T_Y/T2_decisions.csv",
+   "p_holm": 1.0
+  },
+  {
+   "filter": "T3",
+   "cost_extra_per_trade": 0.0,
+   "kept": 1809,
+   "removed": 1700,
+   "share_removed": 0.4845,
+   "kept_usd": 11060.0,
+   "removed_usd": 8378.0,
+   "removed_usd_2010_17": -859.0,
+   "removed_usd_2018_26": 9237.0,
+   "kept_per_trade": 6.11387506909895,
+   "removed_per_trade": 4.9282352941176475,
+   "welch_t": 0.22,
+   "welch_df": 3030.0,
+   "p_one_sided": 0.41293883311690827,
+   "dd_before": 4351.5,
+   "dd_after": 3856.0,
+   "worst_day_before": -407.0,
+   "worst_day_after": -407.0,
+   "model_net_before": 19438.0,
+   "model_net_after": 11060.0,
+   "a_removed_lose": false,
+   "b_welch": false,
+   "c_dd_worst": true,
+   "passed": false,
+   "eras": {
+    "2010-13": {
+     "kept": {
+      "n": 385,
+      "usd": -9.5,
+      "per_trade": -0.025
+     },
+     "removed": {
+      "n": 310,
+      "usd": -584.5,
+      "per_trade": -1.885
+     },
+     "share_removed": 0.446
+    },
+    "2014-17": {
+     "kept": {
+      "n": 441,
+      "usd": 160.5,
+      "per_trade": 0.364
+     },
+     "removed": {
+      "n": 418,
+      "usd": -274.5,
+      "per_trade": -0.657
+     },
+     "share_removed": 0.4866
+    },
+    "2018-20": {
+     "kept": {
+      "n": 317,
+      "usd": 2117.5,
+      "per_trade": 6.68
+     },
+     "removed": {
+      "n": 330,
+      "usd": 2653.5,
+      "per_trade": 8.041
+     },
+     "share_removed": 0.51
+    },
+    "2021-23": {
+     "kept": {
+      "n": 327,
+      "usd": 1329.0,
+      "per_trade": 4.064
+     },
+     "removed": {
+      "n": 336,
+      "usd": 6613.0,
+      "per_trade": 19.682
+     },
+     "share_removed": 0.5068
+    },
+    "2024-26": {
+     "kept": {
+      "n": 339,
+      "usd": 7462.5,
+      "per_trade": 22.013
+     },
+     "removed": {
+      "n": 306,
+      "usd": -29.5,
+      "per_trade": -0.096
+     },
+     "share_removed": 0.4744
+    },
+    "2023-26": {
+     "kept": {
+      "n": 447,
+      "usd": 6491.0,
+      "per_trade": 14.521
+     },
+     "removed": {
+      "n": 424,
+      "usd": 825.0,
+      "per_trade": 1.946
+     },
+     "share_removed": 0.4868
+    },
+    "2010-17": {
+     "kept": {
+      "n": 826,
+      "usd": 151.0,
+      "per_trade": 0.183
+     },
+     "removed": {
+      "n": 728,
+      "usd": -859.0,
+      "per_trade": -1.18
+     },
+     "share_removed": 0.4685
+    },
+    "2018-26": {
+     "kept": {
+      "n": 983,
+      "usd": 10909.0,
+      "per_trade": 11.098
+     },
+     "removed": {
+      "n": 972,
+      "usd": 9237.0,
+      "per_trade": 9.503
+     },
+     "share_removed": 0.4972
+    }
+   },
+   "years": {
+    "2010": {
+     "kept": {
+      "n": 70,
+      "usd": -20.5,
+      "per_trade": -0.293
+     },
+     "removed": {
+      "n": 41,
+      "usd": -236.5,
+      "per_trade": -5.768
+     }
+    },
+    "2011": {
+     "kept": {
+      "n": 108,
+      "usd": -59.0,
+      "per_trade": -0.546
+     },
+     "removed": {
+      "n": 79,
+      "usd": -84.5,
+      "per_trade": -1.07
+     }
+    },
+    "2012": {
+     "kept": {
+      "n": 107,
+      "usd": 30.0,
+      "per_trade": 0.28
+     },
+     "removed": {
+      "n": 90,
+      "usd": -324.0,
+      "per_trade": -3.6
+     }
+    },
+    "2013": {
+     "kept": {
+      "n": 100,
+      "usd": 40.0,
+      "per_trade": 0.4
+     },
+     "removed": {
+      "n": 100,
+      "usd": 60.5,
+      "per_trade": 0.605
+     }
+    },
+    "2014": {
+     "kept": {
+      "n": 109,
+      "usd": 711.0,
+      "per_trade": 6.523
+     },
+     "removed": {
+      "n": 99,
+      "usd": -264.5,
+      "per_trade": -2.672
+     }
+    },
+    "2015": {
+     "kept": {
+      "n": 109,
+      "usd": -430.0,
+      "per_trade": -3.945
+     },
+     "removed": {
+      "n": 106,
+      "usd": -333.0,
+      "per_trade": -3.142
+     }
+    },
+    "2016": {
+     "kept": {
+      "n": 105,
+      "usd": 189.0,
+      "per_trade": 1.8
+     },
+     "removed": {
+      "n": 108,
+      "usd": 312.5,
+      "per_trade": 2.894
+     }
+    },
+    "2017": {
+     "kept": {
+      "n": 118,
+      "usd": -309.5,
+      "per_trade": -2.623
+     },
+     "removed": {
+      "n": 105,
+      "usd": 10.5,
+      "per_trade": 0.1
+     }
+    },
+    "2018": {
+     "kept": {
+      "n": 113,
+      "usd": 3251.5,
+      "per_trade": 28.774
+     },
+     "removed": {
+      "n": 101,
+      "usd": 327.0,
+      "per_trade": 3.238
+     }
+    },
+    "2019": {
+     "kept": {
+      "n": 97,
+      "usd": 445.5,
+      "per_trade": 4.593
+     },
+     "removed": {
+      "n": 128,
+      "usd": 463.5,
+      "per_trade": 3.621
+     }
+    },
+    "2020": {
+     "kept": {
+      "n": 107,
+      "usd": -1579.5,
+      "per_trade": -14.762
+     },
+     "removed": {
+      "n": 101,
+      "usd": 1863.0,
+      "per_trade": 18.446
+     }
+    },
+    "2021": {
+     "kept": {
+      "n": 116,
+      "usd": 19.5,
+      "per_trade": 0.168
+     },
+     "removed": {
+      "n": 110,
+      "usd": 1963.0,
+      "per_trade": 17.845
+     }
+    },
+    "2022": {
+     "kept": {
+      "n": 103,
+      "usd": 2281.0,
+      "per_trade": 22.146
+     },
+     "removed": {
+      "n": 108,
+      "usd": 3795.5,
+      "per_trade": 35.144
+     }
+    },
+    "2023": {
+     "kept": {
+      "n": 108,
+      "usd": -971.5,
+      "per_trade": -8.995
+     },
+     "removed": {
+      "n": 118,
+      "usd": 854.5,
+      "per_trade": 7.242
+     }
+    },
+    "2024": {
+     "kept": {
+      "n": 124,
+      "usd": 4389.0,
+      "per_trade": 35.395
+     },
+     "removed": {
+      "n": 104,
+      "usd": -1333.5,
+      "per_trade": -12.822
+     }
+    },
+    "2025": {
+     "kept": {
+      "n": 117,
+      "usd": 1801.0,
+      "per_trade": 15.393
+     },
+     "removed": {
+      "n": 107,
+      "usd": 3232.0,
+      "per_trade": 30.206
+     }
+    },
+    "2026": {
+     "kept": {
+      "n": 98,
+      "usd": 1272.5,
+      "per_trade": 12.985
+     },
+     "removed": {
+      "n": 95,
+      "usd": -1928.0,
+      "per_trade": -20.295
+     }
+    }
+   },
+   "book": {
+    "net_before": 50657.0,
+    "net_after": 42279.0,
+    "dd_before": 7949.0,
+    "dd_after": 6448.5,
+    "worst_day_before": -758.0,
+    "worst_day_after": -758.0
+   },
+   "decisions_csv": "/tmp/claude-1000/-home-roflz--claude-spares-spare-NhXWo6/fb7c622e-dc01-4189-9bb7-9001db03cb79/scratchpad/filters/T_Y/T3_decisions.csv",
+   "p_holm": 1.0
+  },
+  {
+   "filter": "T4",
+   "cost_extra_per_trade": 0.0,
+   "kept": 1782,
+   "removed": 1727,
+   "share_removed": 0.4922,
+   "kept_usd": 6927.5,
+   "removed_usd": 12510.5,
+   "removed_usd_2010_17": -878.5,
+   "removed_usd_2018_26": 13389.0,
+   "kept_per_trade": 3.8874859708193044,
+   "removed_per_trade": 7.244064852345107,
+   "welch_t": -0.6104,
+   "welch_df": 2921.5,
+   "p_one_sided": 0.7291717986057207,
+   "dd_before": 4351.5,
+   "dd_after": 5697.5,
+   "worst_day_before": -407.0,
+   "worst_day_after": -390.0,
+   "model_net_before": 19438.0,
+   "model_net_after": 6927.5,
+   "a_removed_lose": false,
+   "b_welch": false,
+   "c_dd_worst": false,
+   "passed": false,
+   "eras": {
+    "2010-13": {
+     "kept": {
+      "n": 349,
+      "usd": -267.0,
+      "per_trade": -0.765
+     },
+     "removed": {
+      "n": 346,
+      "usd": -327.0,
+      "per_trade": -0.945
+     },
+     "share_removed": 0.4978
+    },
+    "2014-17": {
+     "kept": {
+      "n": 437,
+      "usd": 437.5,
+      "per_trade": 1.001
+     },
+     "removed": {
+      "n": 422,
+      "usd": -551.5,
+      "per_trade": -1.307
+     },
+     "share_removed": 0.4913
+    },
+    "2018-20": {
+     "kept": {
+      "n": 340,
+      "usd": 3255.5,
+      "per_trade": 9.575
+     },
+     "removed": {
+      "n": 307,
+      "usd": 1515.5,
+      "per_trade": 4.936
+     },
+     "share_removed": 0.4745
+    },
+    "2021-23": {
+     "kept": {
+      "n": 334,
+      "usd": 6192.0,
+      "per_trade": 18.539
+     },
+     "removed": {
+      "n": 329,
+      "usd": 1750.0,
+      "per_trade": 5.319
+     },
+     "share_removed": 0.4962
+    },
+    "2024-26": {
+     "kept": {
+      "n": 322,
+      "usd": -2690.5,
+      "per_trade": -8.356
+     },
+     "removed": {
+      "n": 323,
+      "usd": 10123.5,
+      "per_trade": 31.342
+     },
+     "share_removed": 0.5008
+    },
+    "2023-26": {
+     "kept": {
+      "n": 434,
+      "usd": -2090.0,
+      "per_trade": -4.816
+     },
+     "removed": {
+      "n": 437,
+      "usd": 9406.0,
+      "per_trade": 21.524
+     },
+     "share_removed": 0.5017
+    },
+    "2010-17": {
+     "kept": {
+      "n": 786,
+      "usd": 170.5,
+      "per_trade": 0.217
+     },
+     "removed": {
+      "n": 768,
+      "usd": -878.5,
+      "per_trade": -1.144
+     },
+     "share_removed": 0.4942
+    },
+    "2018-26": {
+     "kept": {
+      "n": 996,
+      "usd": 6757.0,
+      "per_trade": 6.784
+     },
+     "removed": {
+      "n": 959,
+      "usd": 13389.0,
+      "per_trade": 13.961
+     },
+     "share_removed": 0.4905
+    }
+   },
+   "years": {
+    "2010": {
+     "kept": {
+      "n": 68,
+      "usd": -71.5,
+      "per_trade": -1.051
+     },
+     "removed": {
+      "n": 43,
+      "usd": -185.5,
+      "per_trade": -4.314
+     }
+    },
+    "2011": {
+     "kept": {
+      "n": 87,
+      "usd": 43.0,
+      "per_trade": 0.494
+     },
+     "removed": {
+      "n": 100,
+      "usd": -186.5,
+      "per_trade": -1.865
+     }
+    },
+    "2012": {
+     "kept": {
+      "n": 96,
+      "usd": -365.0,
+      "per_trade": -3.802
+     },
+     "removed": {
+      "n": 101,
+      "usd": 71.0,
+      "per_trade": 0.703
+     }
+    },
+    "2013": {
+     "kept": {
+      "n": 98,
+      "usd": 126.5,
+      "per_trade": 1.291
+     },
+     "removed": {
+      "n": 102,
+      "usd": -26.0,
+      "per_trade": -0.255
+     }
+    },
+    "2014": {
+     "kept": {
+      "n": 104,
+      "usd": -282.0,
+      "per_trade": -2.712
+     },
+     "removed": {
+      "n": 104,
+      "usd": 728.5,
+      "per_trade": 7.005
+     }
+    },
+    "2015": {
+     "kept": {
+      "n": 106,
+      "usd": -97.5,
+      "per_trade": -0.92
+     },
+     "removed": {
+      "n": 109,
+      "usd": -665.5,
+      "per_trade": -6.106
+     }
+    },
+    "2016": {
+     "kept": {
+      "n": 115,
+      "usd": 422.5,
+      "per_trade": 3.674
+     },
+     "removed": {
+      "n": 98,
+      "usd": 79.0,
+      "per_trade": 0.806
+     }
+    },
+    "2017": {
+     "kept": {
+      "n": 112,
+      "usd": 394.5,
+      "per_trade": 3.522
+     },
+     "removed": {
+      "n": 111,
+      "usd": -693.5,
+      "per_trade": -6.248
+     }
+    },
+    "2018": {
+     "kept": {
+      "n": 102,
+      "usd": 186.0,
+      "per_trade": 1.824
+     },
+     "removed": {
+      "n": 112,
+      "usd": 3392.5,
+      "per_trade": 30.29
+     }
+    },
+    "2019": {
+     "kept": {
+      "n": 131,
+      "usd": 468.0,
+      "per_trade": 3.573
+     },
+     "removed": {
+      "n": 94,
+      "usd": 441.0,
+      "per_trade": 4.691
+     }
+    },
+    "2020": {
+     "kept": {
+      "n": 107,
+      "usd": 2601.5,
+      "per_trade": 24.313
+     },
+     "removed": {
+      "n": 101,
+      "usd": -2318.0,
+      "per_trade": -22.95
+     }
+    },
+    "2021": {
+     "kept": {
+      "n": 117,
+      "usd": 1330.0,
+      "per_trade": 11.368
+     },
+     "removed": {
+      "n": 109,
+      "usd": 652.5,
+      "per_trade": 5.986
+     }
+    },
+    "2022": {
+     "kept": {
+      "n": 105,
+      "usd": 4261.5,
+      "per_trade": 40.586
+     },
+     "removed": {
+      "n": 106,
+      "usd": 1815.0,
+      "per_trade": 17.123
+     }
+    },
+    "2023": {
+     "kept": {
+      "n": 112,
+      "usd": 600.5,
+      "per_trade": 5.362
+     },
+     "removed": {
+      "n": 114,
+      "usd": -717.5,
+      "per_trade": -6.294
+     }
+    },
+    "2024": {
+     "kept": {
+      "n": 113,
+      "usd": -2064.0,
+      "per_trade": -18.265
+     },
+     "removed": {
+      "n": 115,
+      "usd": 5119.5,
+      "per_trade": 44.517
+     }
+    },
+    "2025": {
+     "kept": {
+      "n": 120,
+      "usd": -216.5,
+      "per_trade": -1.804
+     },
+     "removed": {
+      "n": 104,
+      "usd": 5249.5,
+      "per_trade": 50.476
+     }
+    },
+    "2026": {
+     "kept": {
+      "n": 89,
+      "usd": -410.0,
+      "per_trade": -4.607
+     },
+     "removed": {
+      "n": 104,
+      "usd": -245.5,
+      "per_trade": -2.361
+     }
+    }
+   },
+   "book": {
+    "net_before": 50657.0,
+    "net_after": 38146.5,
+    "dd_before": 7949.0,
+    "dd_after": 6080.0,
+    "worst_day_before": -758.0,
+    "worst_day_after": -758.0
+   },
+   "decisions_csv": "/tmp/claude-1000/-home-roflz--claude-spares-spare-NhXWo6/fb7c622e-dc01-4189-9bb7-9001db03cb79/scratchpad/filters/T_Y/T4_decisions.csv",
+   "p_holm": 1.0
+  }
+ ],
+ "results_2tick": [
+  {
+   "filter": "T1",
+   "cost_extra_per_trade": 1.0,
+   "kept": 1806,
+   "removed": 1703,
+   "share_removed": 0.4853,
+   "kept_usd": 13547.0,
+   "removed_usd": 2382.0,
+   "removed_usd_2010_17": -972.5,
+   "removed_usd_2018_26": 3354.5,
+   "kept_per_trade": 7.501107419712071,
+   "removed_per_trade": 1.3987081620669406,
+   "welch_t": 1.1152,
+   "welch_df": 3466.1,
+   "p_one_sided": 0.13242718191223773,
+   "dd_before": 4487.5,
+   "dd_after": 2432.5,
+   "worst_day_before": -408.0,
+   "worst_day_after": -391.0,
+   "model_net_before": 15929.0,
+   "model_net_after": 13547.0,
+   "a_removed_lose": false,
+   "b_welch": false,
+   "c_dd_worst": true,
+   "passed": false,
+   "eras": {
+    "2010-13": {
+     "kept": {
+      "n": 358,
+      "usd": -534.5,
+      "per_trade": -1.493
+     },
+     "removed": {
+      "n": 337,
+      "usd": -754.5,
+      "per_trade": -2.239
+     },
+     "share_removed": 0.4849
+    },
+    "2014-17": {
+     "kept": {
+      "n": 405,
+      "usd": -755.0,
+      "per_trade": -1.864
+     },
+     "removed": {
+      "n": 454,
+      "usd": -218.0,
+      "per_trade": -0.48
+     },
+     "share_removed": 0.5285
+    },
+    "2018-20": {
+     "kept": {
+      "n": 346,
+      "usd": 4343.5,
+      "per_trade": 12.553
+     },
+     "removed": {
+      "n": 301,
+      "usd": -219.5,
+      "per_trade": -0.729
+     },
+     "share_removed": 0.4652
+    },
+    "2021-23": {
+     "kept": {
+      "n": 364,
+      "usd": 5033.0,
+      "per_trade": 13.827
+     },
+     "removed": {
+      "n": 299,
+      "usd": 2246.0,
+      "per_trade": 7.512
+     },
+     "share_removed": 0.451
+    },
+    "2024-26": {
+     "kept": {
+      "n": 333,
+      "usd": 5460.0,
+      "per_trade": 16.396
+     },
+     "removed": {
+      "n": 312,
+      "usd": 1328.0,
+      "per_trade": 4.256
+     },
+     "share_removed": 0.4837
+    },
+    "2023-26": {
+     "kept": {
+      "n": 465,
+      "usd": 5300.5,
+      "per_trade": 11.399
+     },
+     "removed": {
+      "n": 406,
+      "usd": 1144.5,
+      "per_trade": 2.819
+     },
+     "share_removed": 0.4661
+    },
+    "2010-17": {
+     "kept": {
+      "n": 763,
+      "usd": -1289.5,
+      "per_trade": -1.69
+     },
+     "removed": {
+      "n": 791,
+      "usd": -972.5,
+      "per_trade": -1.229
+     },
+     "share_removed": 0.509
+    },
+    "2018-26": {
+     "kept": {
+      "n": 1043,
+      "usd": 14836.5,
+      "per_trade": 14.225
+     },
+     "removed": {
+      "n": 912,
+      "usd": 3354.5,
+      "per_trade": 3.678
+     },
+     "share_removed": 0.4665
+    }
+   },
+   "years": {
+    "2010": {
+     "kept": {
+      "n": 60,
+      "usd": -117.0,
+      "per_trade": -1.95
+     },
+     "removed": {
+      "n": 51,
+      "usd": -251.0,
+      "per_trade": -4.922
+     }
+    },
+    "2011": {
+     "kept": {
+      "n": 89,
+      "usd": -113.5,
+      "per_trade": -1.275
+     },
+     "removed": {
+      "n": 98,
+      "usd": -217.0,
+      "per_trade": -2.214
+     }
+    },
+    "2012": {
+     "kept": {
+      "n": 99,
+      "usd": -392.5,
+      "per_trade": -3.965
+     },
+     "removed": {
+      "n": 98,
+      "usd": -98.5,
+      "per_trade": -1.005
+     }
+    },
+    "2013": {
+     "kept": {
+      "n": 110,
+      "usd": 88.5,
+      "per_trade": 0.805
+     },
+     "removed": {
+      "n": 90,
+      "usd": -188.0,
+      "per_trade": -2.089
+     }
+    },
+    "2014": {
+     "kept": {
+      "n": 98,
+      "usd": 111.5,
+      "per_trade": 1.138
+     },
+     "removed": {
+      "n": 110,
+      "usd": 127.0,
+      "per_trade": 1.155
+     }
+    },
+    "2015": {
+     "kept": {
+      "n": 98,
+      "usd": -680.0,
+      "per_trade": -6.939
+     },
+     "removed": {
+      "n": 117,
+      "usd": -298.0,
+      "per_trade": -2.547
+     }
+    },
+    "2016": {
+     "kept": {
+      "n": 105,
+      "usd": 330.0,
+      "per_trade": 3.143
+     },
+     "removed": {
+      "n": 108,
+      "usd": -41.5,
+      "per_trade": -0.384
+     }
+    },
+    "2017": {
+     "kept": {
+      "n": 104,
+      "usd": -516.5,
+      "per_trade": -4.966
+     },
+     "removed": {
+      "n": 119,
+      "usd": -5.5,
+      "per_trade": -0.046
+     }
+    },
+    "2018": {
+     "kept": {
+      "n": 118,
+      "usd": 3074.5,
+      "per_trade": 26.055
+     },
+     "removed": {
+      "n": 96,
+      "usd": 290.0,
+      "per_trade": 3.021
+     }
+    },
+    "2019": {
+     "kept": {
+      "n": 112,
+      "usd": 336.5,
+      "per_trade": 3.004
+     },
+     "removed": {
+      "n": 113,
+      "usd": 347.5,
+      "per_trade": 3.075
+     }
+    },
+    "2020": {
+     "kept": {
+      "n": 116,
+      "usd": 932.5,
+      "per_trade": 8.039
+     },
+     "removed": {
+      "n": 92,
+      "usd": -857.0,
+      "per_trade": -9.315
+     }
+    },
+    "2021": {
+     "kept": {
+      "n": 119,
+      "usd": 2450.0,
+      "per_trade": 20.588
+     },
+     "removed": {
+      "n": 107,
+      "usd": -693.5,
+      "per_trade": -6.481
+     }
+    },
+    "2022": {
+     "kept": {
+      "n": 113,
+      "usd": 2742.5,
+      "per_trade": 24.27
+     },
+     "removed": {
+      "n": 98,
+      "usd": 3123.0,
+      "per_trade": 31.867
+     }
+    },
+    "2023": {
+     "kept": {
+      "n": 132,
+      "usd": -159.5,
+      "per_trade": -1.208
+     },
+     "removed": {
+      "n": 94,
+      "usd": -183.5,
+      "per_trade": -1.952
+     }
+    },
+    "2024": {
+     "kept": {
+      "n": 115,
+      "usd": 2205.5,
+      "per_trade": 19.178
+     },
+     "removed": {
+      "n": 113,
+      "usd": 622.0,
+      "per_trade": 5.504
+     }
+    },
+    "2025": {
+     "kept": {
+      "n": 123,
+      "usd": -334.0,
+      "per_trade": -2.715
+     },
+     "removed": {
+      "n": 101,
+      "usd": 5143.0,
+      "per_trade": 50.921
+     }
+    },
+    "2026": {
+     "kept": {
+      "n": 95,
+      "usd": 3588.5,
+      "per_trade": 37.774
+     },
+     "removed": {
+      "n": 98,
+      "usd": -4437.0,
+      "per_trade": -45.276
+     }
+    }
+   },
+   "book": {
+    "net_before": 45220.0,
+    "net_after": 42838.0,
+    "dd_before": 8181.0,
+    "dd_after": 4563.0,
+    "worst_day_before": -760.0,
+    "worst_day_after": -742.5
+   }
+  },
+  {
+   "filter": "T2",
+   "cost_extra_per_trade": 1.0,
+   "kept": 1657,
+   "removed": 1852,
+   "share_removed": 0.5278,
+   "kept_usd": 9386.0,
+   "removed_usd": 6543.0,
+   "removed_usd_2010_17": -1162.0,
+   "removed_usd_2018_26": 7705.0,
+   "kept_per_trade": 5.664453832226916,
+   "removed_per_trade": 3.5329373650107994,
+   "welch_t": 0.3915,
+   "welch_df": 3505.3,
+   "p_one_sided": 0.3477130270212814,
+   "dd_before": 4487.5,
+   "dd_after": 2384.0,
+   "worst_day_before": -408.0,
+   "worst_day_after": -408.0,
+   "model_net_before": 15929.0,
+   "model_net_after": 9386.0,
+   "a_removed_lose": false,
+   "b_welch": false,
+   "c_dd_worst": true,
+   "passed": false,
+   "eras": {
+    "2010-13": {
+     "kept": {
+      "n": 336,
+      "usd": -605.5,
+      "per_trade": -1.802
+     },
+     "removed": {
+      "n": 359,
+      "usd": -683.5,
+      "per_trade": -1.904
+     },
+     "share_removed": 0.5165
+    },
+    "2014-17": {
+     "kept": {
+      "n": 395,
+      "usd": -494.5,
+      "per_trade": -1.252
+     },
+     "removed": {
+      "n": 464,
+      "usd": -478.5,
+      "per_trade": -1.031
+     },
+     "share_removed": 0.5402
+    },
+    "2018-20": {
+     "kept": {
+      "n": 304,
+      "usd": 3446.0,
+      "per_trade": 11.336
+     },
+     "removed": {
+      "n": 343,
+      "usd": 678.0,
+      "per_trade": 1.977
+     },
+     "share_removed": 0.5301
+    },
+    "2021-23": {
+     "kept": {
+      "n": 324,
+      "usd": 2549.0,
+      "per_trade": 7.867
+     },
+     "removed": {
+      "n": 339,
+      "usd": 4730.0,
+      "per_trade": 13.953
+     },
+     "share_removed": 0.5113
+    },
+    "2024-26": {
+     "kept": {
+      "n": 298,
+      "usd": 4491.0,
+      "per_trade": 15.07
+     },
+     "removed": {
+      "n": 347,
+      "usd": 2297.0,
+      "per_trade": 6.62
+     },
+     "share_removed": 0.538
+    },
+    "2023-26": {
+     "kept": {
+      "n": 416,
+      "usd": 3361.0,
+      "per_trade": 8.079
+     },
+     "removed": {
+      "n": 455,
+      "usd": 3084.0,
+      "per_trade": 6.778
+     },
+     "share_removed": 0.5224
+    },
+    "2010-17": {
+     "kept": {
+      "n": 731,
+      "usd": -1100.0,
+      "per_trade": -1.505
+     },
+     "removed": {
+      "n": 823,
+      "usd": -1162.0,
+      "per_trade": -1.412
+     },
+     "share_removed": 0.5296
+    },
+    "2018-26": {
+     "kept": {
+      "n": 926,
+      "usd": 10486.0,
+      "per_trade": 11.324
+     },
+     "removed": {
+      "n": 1029,
+      "usd": 7705.0,
+      "per_trade": 7.488
+     },
+     "share_removed": 0.5263
+    }
+   },
+   "years": {
+    "2010": {
+     "kept": {
+      "n": 51,
+      "usd": -13.5,
+      "per_trade": -0.265
+     },
+     "removed": {
+      "n": 60,
+      "usd": -354.5,
+      "per_trade": -5.908
+     }
+    },
+    "2011": {
+     "kept": {
+      "n": 85,
+      "usd": 43.5,
+      "per_trade": 0.512
+     },
+     "removed": {
+      "n": 102,
+      "usd": -374.0,
+      "per_trade": -3.667
+     }
+    },
+    "2012": {
+     "kept": {
+      "n": 98,
+      "usd": -373.0,
+      "per_trade": -3.806
+     },
+     "removed": {
+      "n": 99,
+      "usd": -118.0,
+      "per_trade": -1.192
+     }
+    },
+    "2013": {
+     "kept": {
+      "n": 102,
+      "usd": -262.5,
+      "per_trade": -2.574
+     },
+     "removed": {
+      "n": 98,
+      "usd": 163.0,
+      "per_trade": 1.663
+     }
+    },
+    "2014": {
+     "kept": {
+      "n": 89,
+      "usd": -160.0,
+      "per_trade": -1.798
+     },
+     "removed": {
+      "n": 119,
+      "usd": 398.5,
+      "per_trade": 3.349
+     }
+    },
+    "2015": {
+     "kept": {
+      "n": 89,
+      "usd": -640.5,
+      "per_trade": -7.197
+     },
+     "removed": {
+      "n": 126,
+      "usd": -337.5,
+      "per_trade": -2.679
+     }
+    },
+    "2016": {
+     "kept": {
+      "n": 103,
+      "usd": 583.5,
+      "per_trade": 5.665
+     },
+     "removed": {
+      "n": 110,
+      "usd": -295.0,
+      "per_trade": -2.682
+     }
+    },
+    "2017": {
+     "kept": {
+      "n": 114,
+      "usd": -277.5,
+      "per_trade": -2.434
+     },
+     "removed": {
+      "n": 109,
+      "usd": -244.5,
+      "per_trade": -2.243
+     }
+    },
+    "2018": {
+     "kept": {
+      "n": 96,
+      "usd": 1995.5,
+      "per_trade": 20.786
+     },
+     "removed": {
+      "n": 118,
+      "usd": 1369.0,
+      "per_trade": 11.602
+     }
+    },
+    "2019": {
+     "kept": {
+      "n": 111,
+      "usd": -169.5,
+      "per_trade": -1.527
+     },
+     "removed": {
+      "n": 114,
+      "usd": 853.5,
+      "per_trade": 7.487
+     }
+    },
+    "2020": {
+     "kept": {
+      "n": 97,
+      "usd": 1620.0,
+      "per_trade": 16.701
+     },
+     "removed": {
+      "n": 111,
+      "usd": -1544.5,
+      "per_trade": -13.914
+     }
+    },
+    "2021": {
+     "kept": {
+      "n": 108,
+      "usd": 1116.0,
+      "per_trade": 10.333
+     },
+     "removed": {
+      "n": 118,
+      "usd": 640.5,
+      "per_trade": 5.428
+     }
+    },
+    "2022": {
+     "kept": {
+      "n": 98,
+      "usd": 2563.0,
+      "per_trade": 26.153
+     },
+     "removed": {
+      "n": 113,
+      "usd": 3302.5,
+      "per_trade": 29.226
+     }
+    },
+    "2023": {
+     "kept": {
+      "n": 118,
+      "usd": -1130.0,
+      "per_trade": -9.576
+     },
+     "removed": {
+      "n": 108,
+      "usd": 787.0,
+      "per_trade": 7.287
+     }
+    },
+    "2024": {
+     "kept": {
+      "n": 99,
+      "usd": 2993.5,
+      "per_trade": 30.237
+     },
+     "removed": {
+      "n": 129,
+      "usd": -166.0,
+      "per_trade": -1.287
+     }
+    },
+    "2025": {
+     "kept": {
+      "n": 109,
+      "usd": -1519.5,
+      "per_trade": -13.94
+     },
+     "removed": {
+      "n": 115,
+      "usd": 6328.5,
+      "per_trade": 55.03
+     }
+    },
+    "2026": {
+     "kept": {
+      "n": 90,
+      "usd": 3017.0,
+      "per_trade": 33.522
+     },
+     "removed": {
+      "n": 103,
+      "usd": -3865.5,
+      "per_trade": -37.529
+     }
+    }
+   },
+   "book": {
+    "net_before": 45220.0,
+    "net_after": 38677.0,
+    "dd_before": 8181.0,
+    "dd_after": 5343.0,
+    "worst_day_before": -760.0,
+    "worst_day_after": -760.0
+   }
+  },
+  {
+   "filter": "T3",
+   "cost_extra_per_trade": 1.0,
+   "kept": 1809,
+   "removed": 1700,
+   "share_removed": 0.4845,
+   "kept_usd": 9251.0,
+   "removed_usd": 6678.0,
+   "removed_usd_2010_17": -1587.0,
+   "removed_usd_2018_26": 8265.0,
+   "kept_per_trade": 5.11387506909895,
+   "removed_per_trade": 3.928235294117647,
+   "welch_t": 0.22,
+   "welch_df": 3030.0,
+   "p_one_sided": 0.4129388331169082,
+   "dd_before": 4487.5,
+   "dd_after": 3960.0,
+   "worst_day_before": -408.0,
+   "worst_day_after": -408.0,
+   "model_net_before": 15929.0,
+   "model_net_after": 9251.0,
+   "a_removed_lose": false,
+   "b_welch": false,
+   "c_dd_worst": true,
+   "passed": false,
+   "eras": {
+    "2010-13": {
+     "kept": {
+      "n": 385,
+      "usd": -394.5,
+      "per_trade": -1.025
+     },
+     "removed": {
+      "n": 310,
+      "usd": -894.5,
+      "per_trade": -2.885
+     },
+     "share_removed": 0.446
+    },
+    "2014-17": {
+     "kept": {
+      "n": 441,
+      "usd": -280.5,
+      "per_trade": -0.636
+     },
+     "removed": {
+      "n": 418,
+      "usd": -692.5,
+      "per_trade": -1.657
+     },
+     "share_removed": 0.4866
+    },
+    "2018-20": {
+     "kept": {
+      "n": 317,
+      "usd": 1800.5,
+      "per_trade": 5.68
+     },
+     "removed": {
+      "n": 330,
+      "usd": 2323.5,
+      "per_trade": 7.041
+     },
+     "share_removed": 0.51
+    },
+    "2021-23": {
+     "kept": {
+      "n": 327,
+      "usd": 1002.0,
+      "per_trade": 3.064
+     },
+     "removed": {
+      "n": 336,
+      "usd": 6277.0,
+      "per_trade": 18.682
+     },
+     "share_removed": 0.5068
+    },
+    "2024-26": {
+     "kept": {
+      "n": 339,
+      "usd": 7123.5,
+      "per_trade": 21.013
+     },
+     "removed": {
+      "n": 306,
+      "usd": -335.5,
+      "per_trade": -1.096
+     },
+     "share_removed": 0.4744
+    },
+    "2023-26": {
+     "kept": {
+      "n": 447,
+      "usd": 6044.0,
+      "per_trade": 13.521
+     },
+     "removed": {
+      "n": 424,
+      "usd": 401.0,
+      "per_trade": 0.946
+     },
+     "share_removed": 0.4868
+    },
+    "2010-17": {
+     "kept": {
+      "n": 826,
+      "usd": -675.0,
+      "per_trade": -0.817
+     },
+     "removed": {
+      "n": 728,
+      "usd": -1587.0,
+      "per_trade": -2.18
+     },
+     "share_removed": 0.4685
+    },
+    "2018-26": {
+     "kept": {
+      "n": 983,
+      "usd": 9926.0,
+      "per_trade": 10.098
+     },
+     "removed": {
+      "n": 972,
+      "usd": 8265.0,
+      "per_trade": 8.503
+     },
+     "share_removed": 0.4972
+    }
+   },
+   "years": {
+    "2010": {
+     "kept": {
+      "n": 70,
+      "usd": -90.5,
+      "per_trade": -1.293
+     },
+     "removed": {
+      "n": 41,
+      "usd": -277.5,
+      "per_trade": -6.768
+     }
+    },
+    "2011": {
+     "kept": {
+      "n": 108,
+      "usd": -167.0,
+      "per_trade": -1.546
+     },
+     "removed": {
+      "n": 79,
+      "usd": -163.5,
+      "per_trade": -2.07
+     }
+    },
+    "2012": {
+     "kept": {
+      "n": 107,
+      "usd": -77.0,
+      "per_trade": -0.72
+     },
+     "removed": {
+      "n": 90,
+      "usd": -414.0,
+      "per_trade": -4.6
+     }
+    },
+    "2013": {
+     "kept": {
+      "n": 100,
+      "usd": -60.0,
+      "per_trade": -0.6
+     },
+     "removed": {
+      "n": 100,
+      "usd": -39.5,
+      "per_trade": -0.395
+     }
+    },
+    "2014": {
+     "kept": {
+      "n": 109,
+      "usd": 602.0,
+      "per_trade": 5.523
+     },
+     "removed": {
+      "n": 99,
+      "usd": -363.5,
+      "per_trade": -3.672
+     }
+    },
+    "2015": {
+     "kept": {
+      "n": 109,
+      "usd": -539.0,
+      "per_trade": -4.945
+     },
+     "removed": {
+      "n": 106,
+      "usd": -439.0,
+      "per_trade": -4.142
+     }
+    },
+    "2016": {
+     "kept": {
+      "n": 105,
+      "usd": 84.0,
+      "per_trade": 0.8
+     },
+     "removed": {
+      "n": 108,
+      "usd": 204.5,
+      "per_trade": 1.894
+     }
+    },
+    "2017": {
+     "kept": {
+      "n": 118,
+      "usd": -427.5,
+      "per_trade": -3.623
+     },
+     "removed": {
+      "n": 105,
+      "usd": -94.5,
+      "per_trade": -0.9
+     }
+    },
+    "2018": {
+     "kept": {
+      "n": 113,
+      "usd": 3138.5,
+      "per_trade": 27.774
+     },
+     "removed": {
+      "n": 101,
+      "usd": 226.0,
+      "per_trade": 2.238
+     }
+    },
+    "2019": {
+     "kept": {
+      "n": 97,
+      "usd": 348.5,
+      "per_trade": 3.593
+     },
+     "removed": {
+      "n": 128,
+      "usd": 335.5,
+      "per_trade": 2.621
+     }
+    },
+    "2020": {
+     "kept": {
+      "n": 107,
+      "usd": -1686.5,
+      "per_trade": -15.762
+     },
+     "removed": {
+      "n": 101,
+      "usd": 1762.0,
+      "per_trade": 17.446
+     }
+    },
+    "2021": {
+     "kept": {
+      "n": 116,
+      "usd": -96.5,
+      "per_trade": -0.832
+     },
+     "removed": {
+      "n": 110,
+      "usd": 1853.0,
+      "per_trade": 16.845
+     }
+    },
+    "2022": {
+     "kept": {
+      "n": 103,
+      "usd": 2178.0,
+      "per_trade": 21.146
+     },
+     "removed": {
+      "n": 108,
+      "usd": 3687.5,
+      "per_trade": 34.144
+     }
+    },
+    "2023": {
+     "kept": {
+      "n": 108,
+      "usd": -1079.5,
+      "per_trade": -9.995
+     },
+     "removed": {
+      "n": 118,
+      "usd": 736.5,
+      "per_trade": 6.242
+     }
+    },
+    "2024": {
+     "kept": {
+      "n": 124,
+      "usd": 4265.0,
+      "per_trade": 34.395
+     },
+     "removed": {
+      "n": 104,
+      "usd": -1437.5,
+      "per_trade": -13.822
+     }
+    },
+    "2025": {
+     "kept": {
+      "n": 117,
+      "usd": 1684.0,
+      "per_trade": 14.393
+     },
+     "removed": {
+      "n": 107,
+      "usd": 3125.0,
+      "per_trade": 29.206
+     }
+    },
+    "2026": {
+     "kept": {
+      "n": 98,
+      "usd": 1174.5,
+      "per_trade": 11.985
+     },
+     "removed": {
+      "n": 95,
+      "usd": -2023.0,
+      "per_trade": -21.295
+     }
+    }
+   },
+   "book": {
+    "net_before": 45220.0,
+    "net_after": 38542.0,
+    "dd_before": 8181.0,
+    "dd_after": 6581.5,
+    "worst_day_before": -760.0,
+    "worst_day_after": -760.0
+   }
+  },
+  {
+   "filter": "T4",
+   "cost_extra_per_trade": 1.0,
+   "kept": 1782,
+   "removed": 1727,
+   "share_removed": 0.4922,
+   "kept_usd": 5145.5,
+   "removed_usd": 10783.5,
+   "removed_usd_2010_17": -1646.5,
+   "removed_usd_2018_26": 12430.0,
+   "kept_per_trade": 2.8874859708193044,
+   "removed_per_trade": 6.244064852345107,
+   "welch_t": -0.6104,
+   "welch_df": 2921.5,
+   "p_one_sided": 0.7291717986057207,
+   "dd_before": 4487.5,
+   "dd_after": 5925.5,
+   "worst_day_before": -408.0,
+   "worst_day_after": -391.0,
+   "model_net_before": 15929.0,
+   "model_net_after": 5145.5,
+   "a_removed_lose": false,
+   "b_welch": false,
+   "c_dd_worst": false,
+   "passed": false,
+   "eras": {
+    "2010-13": {
+     "kept": {
+      "n": 349,
+      "usd": -616.0,
+      "per_trade": -1.765
+     },
+     "removed": {
+      "n": 346,
+      "usd": -673.0,
+      "per_trade": -1.945
+     },
+     "share_removed": 0.4978
+    },
+    "2014-17": {
+     "kept": {
+      "n": 437,
+      "usd": 0.5,
+      "per_trade": 0.001
+     },
+     "removed": {
+      "n": 422,
+      "usd": -973.5,
+      "per_trade": -2.307
+     },
+     "share_removed": 0.4913
+    },
+    "2018-20": {
+     "kept": {
+      "n": 340,
+      "usd": 2915.5,
+      "per_trade": 8.575
+     },
+     "removed": {
+      "n": 307,
+      "usd": 1208.5,
+      "per_trade": 3.936
+     },
+     "share_removed": 0.4745
+    },
+    "2021-23": {
+     "kept": {
+      "n": 334,
+      "usd": 5858.0,
+      "per_trade": 17.539
+     },
+     "removed": {
+      "n": 329,
+      "usd": 1421.0,
+      "per_trade": 4.319
+     },
+     "share_removed": 0.4962
+    },
+    "2024-26": {
+     "kept": {
+      "n": 322,
+      "usd": -3012.5,
+      "per_trade": -9.356
+     },
+     "removed": {
+      "n": 323,
+      "usd": 9800.5,
+      "per_trade": 30.342
+     },
+     "share_removed": 0.5008
+    },
+    "2023-26": {
+     "kept": {
+      "n": 434,
+      "usd": -2524.0,
+      "per_trade": -5.816
+     },
+     "removed": {
+      "n": 437,
+      "usd": 8969.0,
+      "per_trade": 20.524
+     },
+     "share_removed": 0.5017
+    },
+    "2010-17": {
+     "kept": {
+      "n": 786,
+      "usd": -615.5,
+      "per_trade": -0.783
+     },
+     "removed": {
+      "n": 768,
+      "usd": -1646.5,
+      "per_trade": -2.144
+     },
+     "share_removed": 0.4942
+    },
+    "2018-26": {
+     "kept": {
+      "n": 996,
+      "usd": 5761.0,
+      "per_trade": 5.784
+     },
+     "removed": {
+      "n": 959,
+      "usd": 12430.0,
+      "per_trade": 12.961
+     },
+     "share_removed": 0.4905
+    }
+   },
+   "years": {
+    "2010": {
+     "kept": {
+      "n": 68,
+      "usd": -139.5,
+      "per_trade": -2.051
+     },
+     "removed": {
+      "n": 43,
+      "usd": -228.5,
+      "per_trade": -5.314
+     }
+    },
+    "2011": {
+     "kept": {
+      "n": 87,
+      "usd": -44.0,
+      "per_trade": -0.506
+     },
+     "removed": {
+      "n": 100,
+      "usd": -286.5,
+      "per_trade": -2.865
+     }
+    },
+    "2012": {
+     "kept": {
+      "n": 96,
+      "usd": -461.0,
+      "per_trade": -4.802
+     },
+     "removed": {
+      "n": 101,
+      "usd": -30.0,
+      "per_trade": -0.297
+     }
+    },
+    "2013": {
+     "kept": {
+      "n": 98,
+      "usd": 28.5,
+      "per_trade": 0.291
+     },
+     "removed": {
+      "n": 102,
+      "usd": -128.0,
+      "per_trade": -1.255
+     }
+    },
+    "2014": {
+     "kept": {
+      "n": 104,
+      "usd": -386.0,
+      "per_trade": -3.712
+     },
+     "removed": {
+      "n": 104,
+      "usd": 624.5,
+      "per_trade": 6.005
+     }
+    },
+    "2015": {
+     "kept": {
+      "n": 106,
+      "usd": -203.5,
+      "per_trade": -1.92
+     },
+     "removed": {
+      "n": 109,
+      "usd": -774.5,
+      "per_trade": -7.106
+     }
+    },
+    "2016": {
+     "kept": {
+      "n": 115,
+      "usd": 307.5,
+      "per_trade": 2.674
+     },
+     "removed": {
+      "n": 98,
+      "usd": -19.0,
+      "per_trade": -0.194
+     }
+    },
+    "2017": {
+     "kept": {
+      "n": 112,
+      "usd": 282.5,
+      "per_trade": 2.522
+     },
+     "removed": {
+      "n": 111,
+      "usd": -804.5,
+      "per_trade": -7.248
+     }
+    },
+    "2018": {
+     "kept": {
+      "n": 102,
+      "usd": 84.0,
+      "per_trade": 0.824
+     },
+     "removed": {
+      "n": 112,
+      "usd": 3280.5,
+      "per_trade": 29.29
+     }
+    },
+    "2019": {
+     "kept": {
+      "n": 131,
+      "usd": 337.0,
+      "per_trade": 2.573
+     },
+     "removed": {
+      "n": 94,
+      "usd": 347.0,
+      "per_trade": 3.691
+     }
+    },
+    "2020": {
+     "kept": {
+      "n": 107,
+      "usd": 2494.5,
+      "per_trade": 23.313
+     },
+     "removed": {
+      "n": 101,
+      "usd": -2419.0,
+      "per_trade": -23.95
+     }
+    },
+    "2021": {
+     "kept": {
+      "n": 117,
+      "usd": 1213.0,
+      "per_trade": 10.368
+     },
+     "removed": {
+      "n": 109,
+      "usd": 543.5,
+      "per_trade": 4.986
+     }
+    },
+    "2022": {
+     "kept": {
+      "n": 105,
+      "usd": 4156.5,
+      "per_trade": 39.586
+     },
+     "removed": {
+      "n": 106,
+      "usd": 1709.0,
+      "per_trade": 16.123
+     }
+    },
+    "2023": {
+     "kept": {
+      "n": 112,
+      "usd": 488.5,
+      "per_trade": 4.362
+     },
+     "removed": {
+      "n": 114,
+      "usd": -831.5,
+      "per_trade": -7.294
+     }
+    },
+    "2024": {
+     "kept": {
+      "n": 113,
+      "usd": -2177.0,
+      "per_trade": -19.265
+     },
+     "removed": {
+      "n": 115,
+      "usd": 5004.5,
+      "per_trade": 43.517
+     }
+    },
+    "2025": {
+     "kept": {
+      "n": 120,
+      "usd": -336.5,
+      "per_trade": -2.804
+     },
+     "removed": {
+      "n": 104,
+      "usd": 5145.5,
+      "per_trade": 49.476
+     }
+    },
+    "2026": {
+     "kept": {
+      "n": 89,
+      "usd": -499.0,
+      "per_trade": -5.607
+     },
+     "removed": {
+      "n": 104,
+      "usd": -349.5,
+      "per_trade": -3.361
+     }
+    }
+   },
+   "book": {
+    "net_before": 45220.0,
+    "net_after": 34436.5,
+    "dd_before": 8181.0,
+    "dd_after": 6204.0,
+    "worst_day_before": -760.0,
+    "worst_day_after": -760.0
+   }
+  }
+ ]
+}

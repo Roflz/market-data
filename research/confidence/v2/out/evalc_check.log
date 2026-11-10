@@ -1,0 +1,14 @@
+  NQ: frames + 1-minute data loaded (6s)
+  A NQ: hand + truncation checks done
+  B NQ: hand + truncation checks done
+  C NQ: hand + truncation checks done
+  ES: frames + 1-minute data loaded (6s)
+  A ES: hand + truncation checks done
+  B ES: hand + truncation checks done
+  C ES: hand + truncation checks done
+  YM: frames + 1-minute data loaded (3s)
+  A YM: hand + truncation checks done
+  B YM: hand + truncation checks done
+  C YM: hand + truncation checks done
+hand check: 540 positions, max diff 0.00e+00; truncation: 81/81 identical
+done (36s)

@@ -1,0 +1,20 @@
+A1 s from feat file == trades_vol sigma*rv_60: 1.0000
+A4 s from feat file == trades_vol sigma*rv_240: 1.0000
+A3 s from _sess_har == trades_vol sqrt(har_log_d*share): 1.0000; s NaN by rule: {'A1': 0, 'A3': 13, 'A4': 0}
+size_loop vs eval_sim ('fixed', 3): micros identical=True, max |eval diff|=0.00e+00
+size_loop vs eval_sim ('fixed', 10): micros identical=True, max |eval diff|=7.11e-15
+size_loop vs eval_sim ('risk', 250): micros identical=True, max |eval diff|=7.11e-15
+real done 2.0 s
+twins: 413553 trades, reps 200, by rule {'A1': 324122, 'A3': 53845, 'A4': 35586}, s NaN share by rule {'A1': 0.0, 'A3': 0.0468, 'A4': 0.001}, risk NaN 0
+twin 0 5.3 s
+twin 20 14.0 s
+twin 40 23.0 s
+twin 60 31.9 s
+twin 80 40.1 s
+twin 100 48.9 s
+twin 120 57.3 s
+twin 140 66.2 s
+twin 160 73.8 s
+twin 180 83.1 s
+twins done 91.6 s
+all done 103.2 s

@@ -1,0 +1,8 @@
+ES 120m: 50,407 bars, prepared in 2s
+ES 120m exit study: 1920 rows in 3s
+ES 60m: 97,875 bars, prepared in 1s
+ES 60m exit study: 1920 rows in 3s
+ES 15m: 385,237 bars, prepared in 2s
+ES 15m exit study: 1920 rows in 12s
+ES 5m: 1,155,004 bars, prepared in 4s
+ES 5m exit study: 1920 rows in 49s

@@ -1,0 +1,16 @@
+NQ: 10,544 pending H/L orders (21s)
+  stop=stop: 4,487 of 10,544 orders triggered
+  stop=stop_sig: 4,487 of 10,544 orders triggered
+saved 8,974 labelled trades (22s)
+stop_kind att    n  usd_trade  hit  usd_1R  usd_2R  risk_usd
+     stop   1 1982      -1.45 0.39   -2.39   -0.96      14.0
+     stop   2 1168      -0.38 0.41    0.05   -0.94      14.5
+     stop  3+ 1337       1.07 0.40    1.23    1.06      17.0
+ stop_sig   1 1982      -1.50 0.39   -2.13   -0.76      13.5
+ stop_sig   2 1168      -2.17 0.39   -1.55   -2.46      10.0
+ stop_sig  3+ 1337      -1.12 0.37   -1.07   -0.60       8.5
+{'stop_kind': 'stop', 'model': 'logit', 'n': 3409, 'auc': np.float64(0.543), 'kept': 677, 'keep_share': np.float64(0.199), 'usd_trade': np.float64(2.17), 'usd_year': np.float64(127.81), 'all_usd_trade': np.float64(0.335), 'random_usd_trade': np.float64(-0.608)}
+{'stop_kind': 'stop', 'model': 'gbm', 'n': 3715, 'auc': np.float64(0.537), 'kept': 1397, 'keep_share': np.float64(0.376), 'usd_trade': np.float64(1.439), 'usd_year': np.float64(160.886), 'all_usd_trade': np.float64(0.025), 'random_usd_trade': np.float64(-2.206)}
+{'stop_kind': 'stop_sig', 'model': 'logit', 'n': 3409, 'auc': np.float64(0.524), 'kept': 803, 'keep_share': np.float64(0.236), 'usd_trade': np.float64(-0.329), 'usd_year': np.float64(-23.009), 'all_usd_trade': np.float64(-1.057), 'random_usd_trade': np.float64(-1.335)}
+{'stop_kind': 'stop_sig', 'model': 'gbm', 'n': 3715, 'auc': np.float64(0.52), 'kept': 1401, 'keep_share': np.float64(0.377), 'usd_trade': np.float64(0.17), 'usd_year': np.float64(19.028), 'all_usd_trade': np.float64(-1.264), 'random_usd_trade': np.float64(-1.343)}
+done in 3842s

@@ -1,0 +1,3 @@
+  truncation check: 40 random (session, mark) cuts, all earlier marks compared
+  trades checked: 399 {'time': 215, 'stop': 126, 'target': 55, 'close': 3} dropped: {'unknown_session': 0, 'exit_not_after_entry': 0, 'no_entry_price': 1}
+ALL TESTS PASSED

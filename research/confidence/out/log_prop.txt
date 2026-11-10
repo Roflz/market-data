@@ -1,0 +1,7 @@
+[23:58:55] === stage prop
+[23:59:00] prop pooled logit (chosen): history pass 2.7%, net/yr -9,031, block-20 median 2.5%
+[23:59:02] prop pooled vote: history pass 0.0%, net/yr -91,566, block-20 median 0.0%
+[23:59:06] prop pooled gbm: history pass 6.4%, net/yr -3,889, block-20 median 6.8%
+[23:59:07] prop all events: history pass 0.0%, net/yr -182,001, block-20 median 0.0%
+[23:59:15] prop random skip: history pass mean 0.5%, net/yr -12,910
+[23:59:15] done in 21s

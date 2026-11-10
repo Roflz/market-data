@@ -1,0 +1,283 @@
+<!doctype html><html><head><meta charset='utf-8'><title>Pullback study</title><style>body{font-family:system-ui,sans-serif;margin:0 auto;padding:16px;background:#fcfcfb;color:#1f1e1c;max-width:1600px}h1{font-size:24px}h2{margin-top:40px;font-size:20px;border-bottom:1px solid #e1e0d9;padding-bottom:6px}h3{margin:10px 0 6px}p,li{max-width:1150px;line-height:1.5}nav{margin:10px 0}nav a{margin-right:14px;font-size:15px}table{border-collapse:collapse;font-size:13px;margin:6px 0}td,th{border:1px solid #e1e0d9;padding:3px 7px;text-align:right}th{background:#f1f0eb}td:first-child,td:nth-child(2){text-align:left}tr.gs td{border-top:2px solid #b9b7ae}.two{display:flex;gap:28px;flex-wrap:wrap;align-items:flex-start}.note{color:#55534e;font-size:13px}.ex{display:grid;grid-template-columns:minmax(0,1fr) 380px;gap:18px;align-items:start;margin:18px 0 34px;padding:14px;background:#fff;border:1px solid #e6e4de;border-radius:10px}@media(max-width:1100px){.ex{grid-template-columns:1fr}}.ex img{width:100%;display:block}.card{font-size:14px}.card .hd{margin-bottom:10px;line-height:1.5}.mut{color:#8a8780;font-size:13px}.badge{display:inline-block;padding:2px 10px;border-radius:12px;font-weight:600;margin-right:6px;font-size:13px}.badge.ok{background:#e3f4ec;color:#1d7a50}.badge.bad{background:#fbe6e4;color:#a8352e}.badge.mid{background:#efeeea;color:#55534e}.kpis{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:8px 0 12px}.kpis div{background:#f6f5f1;border-radius:8px;padding:8px 10px}.kpis .k{display:block;font-size:20px;font-weight:650}.kpis .l{font-size:12px;color:#55534e}.card table{width:100%;font-size:13px}.card td,.card th{border:none;border-bottom:1px solid #efeeea;padding:4px 4px;text-align:left;vertical-align:top}.card th{background:none;color:#55534e;font-size:12px;text-transform:uppercase;letter-spacing:.04em;padding-top:12px}.card td:last-child{text-align:right;color:#1f1e1c}</style></head><body>
+<h1>Pullbacks in a trend: summary over all detected pullbacks (5-bar swings for the leg)</h1>
+<p>Each market / timeframe below counts every pullback found in the whole data set. <b>Continuation %</b> = share that went past SH (the leg's extreme) before closing past PL (the pullback low/high); <b>Failure %</b> = closed past PL first; <b>Neither</b> = neither within the window. <b>Avg best / worst move</b> = largest move for / against the trade from the event close within the window (up to 40 bars, same session, flat 16:45 ET), measured over the whole window in any order; <b>Avg $ to SH / to PL</b> = how far SH and PL were from the event close (what a target at SH would make and a stop at PL would risk, before costs). All $ are per 1 micro contract.</p>
+<p>Jump to: <a href='#NQ5'>MNQ 5-min</a> <a href='#NQ15'>MNQ 15-min</a> <a href='#NQ60'>MNQ 60-min</a> <a href='#ES15'>MES 15-min</a> <a href='#YM15'>MYM 15-min</a></p>
+<h2>Example charts</h2><ul>
+<li><a href='pullbacks_1.html'>Page 1</a>: 6 charts (MNQ 5-min bullish)</li>
+<li><a href='pullbacks_2.html'>Page 2</a>: 6 charts (MNQ 5-min bearish)</li>
+<li><a href='pullbacks_3.html'>Page 3</a>: 6 charts (MNQ 15-min bullish)</li>
+<li><a href='pullbacks_4.html'>Page 4</a>: 6 charts (MNQ 15-min bearish)</li>
+<li><a href='pullbacks_5.html'>Page 5</a>: 6 charts (MNQ 60-min bullish)</li>
+<li><a href='pullbacks_6.html'>Page 6</a>: 6 charts (MNQ 60-min bearish)</li>
+<li><a href='pullbacks_7.html'>Page 7</a>: 6 charts (MES 15-min bullish, MES 15-min bearish)</li>
+<li><a href='pullbacks_8.html'>Page 8</a>: 6 charts (MES 15-min bearish, MYM 15-min bullish)</li>
+<li><a href='pullbacks_9.html'>Page 9</a>: 4 charts (MYM 15-min bearish)</li>
+</ul><h3>Pullback definition (bullish; bearish is the mirror)</h3><ol>
+<li>Impulse leg: a 5-bar swing low SL, then a 5-bar swing high SH, same contract; SL is the lowest and SH the highest price
+between them; EMA 8 &gt; EMA 20 &gt; EMA 50 at the SH bar.</li>
+<li>Pullback low PL: the first 3-bar swing low after SH. It must stay above SL, be the lowest price since SH, and no bar may close
+above SH before the setup is known.</li>
+<li>Depth = (SH - PL) / (SH - SL), kept between 0.1 and 1.</li>
+<li>Event = PL + 3 bars (the swing low is confirmed); if SH itself is confirmed later, the event waits for that.</li>
+<li>What happened next: from the event close, up to 40 bars in the same session, flat by 16:45 ET.</li></ol>
+<h2 id='NQ5'>MNQ (NQ) 5-minute bars: 29,855 pullbacks</h2>
+<div class='two'><div><h3>Count per year</h3><table><tr><th>Year</th><th>All</th><th>Bullish</th><th>Bearish</th><th>Continuation %</th></tr>
+<tr><td>2010</td><td>701</td><td>376</td><td>325</td><td>42</td></tr>
+<tr><td>2011</td><td>1,391</td><td>761</td><td>630</td><td>47</td></tr>
+<tr><td>2012</td><td>1,349</td><td>699</td><td>650</td><td>45</td></tr>
+<tr><td>2013</td><td>1,176</td><td>631</td><td>545</td><td>44</td></tr>
+<tr><td>2014</td><td>1,398</td><td>812</td><td>586</td><td>45</td></tr>
+<tr><td>2015</td><td>1,679</td><td>909</td><td>770</td><td>45</td></tr>
+<tr><td>2016</td><td>1,639</td><td>839</td><td>800</td><td>45</td></tr>
+<tr><td>2017</td><td>1,540</td><td>904</td><td>636</td><td>45</td></tr>
+<tr><td>2018</td><td>1,966</td><td>1,057</td><td>909</td><td>45</td></tr>
+<tr><td>2019</td><td>1,922</td><td>1,071</td><td>851</td><td>47</td></tr>
+<tr><td>2020</td><td>2,216</td><td>1,248</td><td>968</td><td>49</td></tr>
+<tr><td>2021</td><td>2,175</td><td>1,208</td><td>967</td><td>46</td></tr>
+<tr><td>2022</td><td>2,201</td><td>1,107</td><td>1,094</td><td>46</td></tr>
+<tr><td>2023</td><td>2,085</td><td>1,112</td><td>973</td><td>47</td></tr>
+<tr><td>2024</td><td>2,177</td><td>1,185</td><td>992</td><td>49</td></tr>
+<tr><td>2025</td><td>2,276</td><td>1,235</td><td>1,041</td><td>47</td></tr>
+<tr><td>2026</td><td>1,964</td><td>1,061</td><td>903</td><td>50</td></tr>
+</table></div><div><h3>What happened next, by group</h3><table><tr><th>Group</th><th></th><th>n</th><th>Continuation %</th><th>Failure %</th><th>Neither %</th><th>Avg best move $</th><th>Avg worst move $</th><th>Avg best pts</th><th>Avg worst pts</th><th>Avg $ to SH at event</th><th>Avg $ to PL at event</th></tr>
+<tr class='gs'><td>All</td><td>all</td><td>29,283</td><td><b>46.5</b></td><td>47.2</td><td>6.4</td><td>69</td><td>69</td><td>34.5</td><td>34.5</td><td>36</td><td>26</td></tr>
+<tr class='gs'><td>Direction</td><td>bullish</td><td>15,911</td><td><b>49.6</b></td><td>44.2</td><td>6.2</td><td>63</td><td>65</td><td>31.3</td><td>32.7</td><td>30</td><td>24</td></tr>
+<tr><td></td><td>bearish</td><td>13,372</td><td><b>42.7</b></td><td>50.7</td><td>6.6</td><td>77</td><td>73</td><td>38.3</td><td>36.6</td><td>44</td><td>28</td></tr>
+<tr class='gs'><td>Depth (share of the leg given back)</td><td>&lt;0.236</td><td>1,614</td><td><b>54.6</b></td><td>41.8</td><td>3.6</td><td>59</td><td>53</td><td>29.5</td><td>26.5</td><td>21</td><td>20</td></tr>
+<tr><td></td><td>0.236-0.382</td><td>5,031</td><td><b>49.7</b></td><td>46.4</td><td>3.9</td><td>66</td><td>68</td><td>33.2</td><td>33.9</td><td>28</td><td>23</td></tr>
+<tr><td></td><td>0.382-0.5</td><td>5,116</td><td><b>47.8</b></td><td>47.2</td><td>5.0</td><td>70</td><td>70</td><td>35.0</td><td>35.1</td><td>32</td><td>25</td></tr>
+<tr><td></td><td>0.5-0.618</td><td>5,014</td><td><b>46.6</b></td><td>46.7</td><td>6.7</td><td>69</td><td>67</td><td>34.4</td><td>33.6</td><td>36</td><td>26</td></tr>
+<tr><td></td><td>0.618-0.786</td><td>6,364</td><td><b>44.4</b></td><td>48.6</td><td>7.0</td><td>70</td><td>70</td><td>35.1</td><td>35.0</td><td>40</td><td>27</td></tr>
+<tr><td></td><td>&gt;=0.786</td><td>6,144</td><td><b>42.6</b></td><td>48.2</td><td>9.2</td><td>72</td><td>73</td><td>36.1</td><td>36.7</td><td>48</td><td>29</td></tr>
+<tr class='gs'><td>Leg size ($ per micro)</td><td>&lt; $50</td><td>11,641</td><td><b>47.9</b></td><td>47.4</td><td>4.7</td><td>23</td><td>23</td><td>11.6</td><td>11.4</td><td>9</td><td>7</td></tr>
+<tr><td></td><td>$50-100</td><td>6,744</td><td><b>46.9</b></td><td>47.1</td><td>6.0</td><td>60</td><td>58</td><td>29.9</td><td>28.9</td><td>24</td><td>18</td></tr>
+<tr><td></td><td>$100-200</td><td>5,703</td><td><b>45.8</b></td><td>47.5</td><td>6.7</td><td>94</td><td>96</td><td>47.2</td><td>48.2</td><td>46</td><td>33</td></tr>
+<tr><td></td><td>$200-500</td><td>4,311</td><td><b>43.8</b></td><td>46.7</td><td>9.6</td><td>141</td><td>143</td><td>70.3</td><td>71.6</td><td>87</td><td>61</td></tr>
+<tr><td></td><td>&gt;= $500</td><td>884</td><td><b>41.4</b></td><td>44.9</td><td>13.7</td><td>230</td><td>223</td><td>114.9</td><td>111.6</td><td>184</td><td>111</td></tr>
+<tr class='gs'><td>Trend at the event</td><td>still with the leg</td><td>23,479</td><td><b>50.8</b></td><td>44.2</td><td>5.0</td><td>70</td><td>70</td><td>34.9</td><td>34.8</td><td>30</td><td>27</td></tr>
+<tr><td></td><td>not any more</td><td>5,804</td><td><b>29.1</b></td><td>59.2</td><td>11.8</td><td>66</td><td>67</td><td>32.8</td><td>33.3</td><td>61</td><td>22</td></tr>
+<tr class='gs'><td>Hidden momentum divergence</td><td>yes</td><td>10,672</td><td><b>42.4</b></td><td>49.6</td><td>8.0</td><td>69</td><td>69</td><td>34.4</td><td>34.4</td><td>42</td><td>26</td></tr>
+<tr><td></td><td>no</td><td>18,611</td><td><b>48.8</b></td><td>45.8</td><td>5.4</td><td>69</td><td>69</td><td>34.6</td><td>34.5</td><td>33</td><td>25</td></tr>
+<tr class='gs'><td>PL touched EMA20</td><td>yes</td><td>22,045</td><td><b>44.8</b></td><td>48.0</td><td>7.2</td><td>69</td><td>69</td><td>34.5</td><td>34.6</td><td>40</td><td>27</td></tr>
+<tr><td></td><td>no</td><td>7,238</td><td><b>51.5</b></td><td>44.7</td><td>3.8</td><td>69</td><td>68</td><td>34.6</td><td>34.0</td><td>27</td><td>23</td></tr>
+<tr class='gs'><td>PL touched EMA50</td><td>yes</td><td>10,930</td><td><b>42.3</b></td><td>48.9</td><td>8.8</td><td>70</td><td>70</td><td>34.8</td><td>34.9</td><td>46</td><td>28</td></tr>
+<tr><td></td><td>no</td><td>18,353</td><td><b>49.0</b></td><td>46.2</td><td>4.9</td><td>69</td><td>68</td><td>34.3</td><td>34.2</td><td>31</td><td>24</td></tr>
+<tr class='gs'><td>PL touched VWAP</td><td>yes</td><td>10,359</td><td><b>41.3</b></td><td>50.2</td><td>8.5</td><td>63</td><td>63</td><td>31.5</td><td>31.4</td><td>43</td><td>25</td></tr>
+<tr><td></td><td>no</td><td>18,924</td><td><b>49.3</b></td><td>45.5</td><td>5.2</td><td>72</td><td>72</td><td>36.2</td><td>36.2</td><td>33</td><td>26</td></tr>
+<tr class='gs'><td>Time of day of the event</td><td>Asia (18-2)</td><td>9,340</td><td><b>44.2</b></td><td>51.0</td><td>4.8</td><td>49</td><td>47</td><td>24.3</td><td>23.6</td><td>27</td><td>17</td></tr>
+<tr><td></td><td>Europe (2-8)</td><td>7,812</td><td><b>48.6</b></td><td>50.1</td><td>1.3</td><td>72</td><td>73</td><td>36.2</td><td>36.4</td><td>29</td><td>20</td></tr>
+<tr><td></td><td>US pre (8-9:30)</td><td>1,874</td><td><b>56.0</b></td><td>44.0</td><td>0.1</td><td>121</td><td>127</td><td>60.7</td><td>63.6</td><td>32</td><td>23</td></tr>
+<tr><td></td><td>Open (9:30-10:30)</td><td>815</td><td><b>52.5</b></td><td>43.6</td><td>3.9</td><td>99</td><td>106</td><td>49.5</td><td>52.8</td><td>59</td><td>52</td></tr>
+<tr><td></td><td>Midday (10:30-15)</td><td>7,257</td><td><b>49.1</b></td><td>46.8</td><td>4.1</td><td>85</td><td>84</td><td>42.6</td><td>41.9</td><td>52</td><td>38</td></tr>
+<tr><td></td><td>Close (15-16)</td><td>1,354</td><td><b>42.6</b></td><td>37.2</td><td>20.2</td><td>48</td><td>48</td><td>23.8</td><td>24.1</td><td>42</td><td>35</td></tr>
+<tr><td></td><td>Post (16-17)</td><td>831</td><td><b>7.7</b></td><td>6.5</td><td>85.8</td><td>14</td><td>13</td><td>6.8</td><td>6.7</td><td>62</td><td>33</td></tr>
+</table><p class='note'>$ per 1 MNQ contract ($2 per point). Outcome columns use only pullbacks with at least one bar left before 16:45 ET (29,283 of 29,855).</p></div></div>
+<h2 id='NQ15'>MNQ (NQ) 15-minute bars: 10,256 pullbacks</h2>
+<div class='two'><div><h3>Count per year</h3><table><tr><th>Year</th><th>All</th><th>Bullish</th><th>Bearish</th><th>Continuation %</th></tr>
+<tr><td>2010</td><td>277</td><td>147</td><td>130</td><td>44</td></tr>
+<tr><td>2011</td><td>529</td><td>275</td><td>254</td><td>47</td></tr>
+<tr><td>2012</td><td>511</td><td>289</td><td>222</td><td>50</td></tr>
+<tr><td>2013</td><td>447</td><td>258</td><td>189</td><td>41</td></tr>
+<tr><td>2014</td><td>513</td><td>310</td><td>203</td><td>45</td></tr>
+<tr><td>2015</td><td>602</td><td>330</td><td>272</td><td>44</td></tr>
+<tr><td>2016</td><td>585</td><td>336</td><td>249</td><td>44</td></tr>
+<tr><td>2017</td><td>581</td><td>365</td><td>216</td><td>41</td></tr>
+<tr><td>2018</td><td>641</td><td>349</td><td>292</td><td>46</td></tr>
+<tr><td>2019</td><td>672</td><td>380</td><td>292</td><td>41</td></tr>
+<tr><td>2020</td><td>759</td><td>469</td><td>290</td><td>47</td></tr>
+<tr><td>2021</td><td>695</td><td>408</td><td>287</td><td>43</td></tr>
+<tr><td>2022</td><td>714</td><td>350</td><td>364</td><td>45</td></tr>
+<tr><td>2023</td><td>680</td><td>374</td><td>306</td><td>43</td></tr>
+<tr><td>2024</td><td>683</td><td>375</td><td>308</td><td>47</td></tr>
+<tr><td>2025</td><td>724</td><td>410</td><td>314</td><td>48</td></tr>
+<tr><td>2026</td><td>643</td><td>327</td><td>316</td><td>50</td></tr>
+</table></div><div><h3>What happened next, by group</h3><table><tr><th>Group</th><th></th><th>n</th><th>Continuation %</th><th>Failure %</th><th>Neither %</th><th>Avg best move $</th><th>Avg worst move $</th><th>Avg best pts</th><th>Avg worst pts</th><th>Avg $ to SH at event</th><th>Avg $ to PL at event</th></tr>
+<tr class='gs'><td>All</td><td>all</td><td>9,649</td><td><b>45.2</b></td><td>44.4</td><td>10.4</td><td>113</td><td>113</td><td>56.4</td><td>56.4</td><td>60</td><td>42</td></tr>
+<tr class='gs'><td>Direction</td><td>bullish</td><td>5,419</td><td><b>49.3</b></td><td>40.4</td><td>10.2</td><td>100</td><td>107</td><td>49.9</td><td>53.4</td><td>47</td><td>38</td></tr>
+<tr><td></td><td>bearish</td><td>4,230</td><td><b>39.9</b></td><td>49.5</td><td>10.6</td><td>129</td><td>120</td><td>64.7</td><td>60.1</td><td>76</td><td>47</td></tr>
+<tr class='gs'><td>Depth (share of the leg given back)</td><td>&lt;0.236</td><td>923</td><td><b>51.4</b></td><td>44.7</td><td>3.9</td><td>84</td><td>83</td><td>41.9</td><td>41.5</td><td>34</td><td>28</td></tr>
+<tr><td></td><td>0.236-0.382</td><td>1,690</td><td><b>48.9</b></td><td>43.7</td><td>7.4</td><td>105</td><td>107</td><td>52.6</td><td>53.5</td><td>44</td><td>36</td></tr>
+<tr><td></td><td>0.382-0.5</td><td>1,588</td><td><b>44.8</b></td><td>46.1</td><td>9.1</td><td>111</td><td>117</td><td>55.5</td><td>58.4</td><td>53</td><td>40</td></tr>
+<tr><td></td><td>0.5-0.618</td><td>1,578</td><td><b>43.9</b></td><td>43.9</td><td>12.2</td><td>110</td><td>112</td><td>54.8</td><td>55.8</td><td>58</td><td>42</td></tr>
+<tr><td></td><td>0.618-0.786</td><td>1,917</td><td><b>44.4</b></td><td>43.0</td><td>12.6</td><td>120</td><td>122</td><td>60.0</td><td>61.2</td><td>70</td><td>48</td></tr>
+<tr><td></td><td>&gt;=0.786</td><td>1,953</td><td><b>41.2</b></td><td>45.2</td><td>13.6</td><td>130</td><td>120</td><td>64.9</td><td>59.9</td><td>83</td><td>50</td></tr>
+<tr class='gs'><td>Leg size ($ per micro)</td><td>&lt; $50</td><td>2,369</td><td><b>51.2</b></td><td>43.5</td><td>5.3</td><td>35</td><td>35</td><td>17.5</td><td>17.4</td><td>10</td><td>8</td></tr>
+<tr><td></td><td>$50-100</td><td>2,060</td><td><b>42.4</b></td><td>46.8</td><td>10.8</td><td>62</td><td>63</td><td>31.2</td><td>31.5</td><td>23</td><td>17</td></tr>
+<tr><td></td><td>$100-200</td><td>1,965</td><td><b>46.4</b></td><td>44.6</td><td>9.0</td><td>121</td><td>123</td><td>60.7</td><td>61.4</td><td>45</td><td>34</td></tr>
+<tr><td></td><td>$200-500</td><td>2,304</td><td><b>42.6</b></td><td>44.8</td><td>12.6</td><td>176</td><td>180</td><td>87.8</td><td>89.9</td><td>94</td><td>70</td></tr>
+<tr><td></td><td>&gt;= $500</td><td>951</td><td><b>40.1</b></td><td>39.9</td><td>20.1</td><td>246</td><td>231</td><td>122.9</td><td>115.5</td><td>208</td><td>130</td></tr>
+<tr class='gs'><td>Trend at the event</td><td>still with the leg</td><td>7,983</td><td><b>48.9</b></td><td>41.9</td><td>9.2</td><td>112</td><td>113</td><td>56.0</td><td>56.5</td><td>49</td><td>43</td></tr>
+<tr><td></td><td>not any more</td><td>1,666</td><td><b>27.5</b></td><td>56.4</td><td>16.1</td><td>116</td><td>112</td><td>58.2</td><td>55.8</td><td>108</td><td>37</td></tr>
+<tr class='gs'><td>Hidden momentum divergence</td><td>yes</td><td>3,411</td><td><b>42.7</b></td><td>45.2</td><td>12.1</td><td>112</td><td>108</td><td>56.1</td><td>53.8</td><td>69</td><td>41</td></tr>
+<tr><td></td><td>no</td><td>6,238</td><td><b>46.6</b></td><td>44.0</td><td>9.5</td><td>113</td><td>115</td><td>56.6</td><td>57.7</td><td>55</td><td>43</td></tr>
+<tr class='gs'><td>PL touched EMA20</td><td>yes</td><td>6,705</td><td><b>42.7</b></td><td>44.7</td><td>12.6</td><td>116</td><td>117</td><td>58.1</td><td>58.5</td><td>68</td><td>45</td></tr>
+<tr><td></td><td>no</td><td>2,944</td><td><b>50.9</b></td><td>43.6</td><td>5.5</td><td>105</td><td>103</td><td>52.4</td><td>51.5</td><td>40</td><td>35</td></tr>
+<tr class='gs'><td>PL touched EMA50</td><td>yes</td><td>3,189</td><td><b>39.7</b></td><td>44.0</td><td>16.3</td><td>118</td><td>113</td><td>58.8</td><td>56.4</td><td>83</td><td>52</td></tr>
+<tr><td></td><td>no</td><td>6,460</td><td><b>47.9</b></td><td>44.6</td><td>7.5</td><td>110</td><td>113</td><td>55.2</td><td>56.3</td><td>48</td><td>37</td></tr>
+<tr class='gs'><td>PL touched VWAP</td><td>yes</td><td>6,231</td><td><b>42.3</b></td><td>47.0</td><td>10.7</td><td>107</td><td>104</td><td>53.4</td><td>51.9</td><td>67</td><td>42</td></tr>
+<tr><td></td><td>no</td><td>3,418</td><td><b>50.4</b></td><td>39.6</td><td>9.9</td><td>124</td><td>129</td><td>61.9</td><td>64.5</td><td>46</td><td>43</td></tr>
+<tr class='gs'><td>Time of day of the event</td><td>Asia (18-2)</td><td>3,617</td><td><b>42.7</b></td><td>53.4</td><td>4.0</td><td>101</td><td>97</td><td>50.5</td><td>48.7</td><td>56</td><td>29</td></tr>
+<tr><td></td><td>Europe (2-8)</td><td>2,348</td><td><b>51.1</b></td><td>48.8</td><td>0.1</td><td>165</td><td>176</td><td>82.4</td><td>88.2</td><td>45</td><td>35</td></tr>
+<tr><td></td><td>US pre (8-9:30)</td><td>589</td><td><b>60.4</b></td><td>39.4</td><td>0.2</td><td>157</td><td>150</td><td>78.7</td><td>74.9</td><td>46</td><td>37</td></tr>
+<tr><td></td><td>Open (9:30-10:30)</td><td>98</td><td><b>57.1</b></td><td>36.7</td><td>6.1</td><td>126</td><td>114</td><td>62.8</td><td>57.0</td><td>64</td><td>66</td></tr>
+<tr><td></td><td>Midday (10:30-15)</td><td>2,367</td><td><b>44.5</b></td><td>35.3</td><td>20.2</td><td>87</td><td>82</td><td>43.6</td><td>41.2</td><td>77</td><td>65</td></tr>
+<tr><td></td><td>Close (15-16)</td><td>506</td><td><b>28.3</b></td><td>20.8</td><td>51.0</td><td>45</td><td>50</td><td>22.6</td><td>25.0</td><td>81</td><td>61</td></tr>
+<tr><td></td><td>Post (16-17)</td><td>124</td><td><b>6.5</b></td><td>0.0</td><td>93.5</td><td>13</td><td>11</td><td>6.5</td><td>5.3</td><td>78</td><td>71</td></tr>
+</table><p class='note'>$ per 1 MNQ contract ($2 per point). Outcome columns use only pullbacks with at least one bar left before 16:45 ET (9,649 of 10,256).</p></div></div>
+<h2 id='NQ60'>MNQ (NQ) 60-minute bars: 2,565 pullbacks</h2>
+<div class='two'><div><h3>Count per year</h3><table><tr><th>Year</th><th>All</th><th>Bullish</th><th>Bearish</th><th>Continuation %</th></tr>
+<tr><td>2010</td><td>79</td><td>50</td><td>29</td><td>46</td></tr>
+<tr><td>2011</td><td>146</td><td>79</td><td>67</td><td>43</td></tr>
+<tr><td>2012</td><td>146</td><td>75</td><td>71</td><td>48</td></tr>
+<tr><td>2013</td><td>143</td><td>97</td><td>46</td><td>48</td></tr>
+<tr><td>2014</td><td>141</td><td>94</td><td>47</td><td>47</td></tr>
+<tr><td>2015</td><td>156</td><td>86</td><td>70</td><td>47</td></tr>
+<tr><td>2016</td><td>157</td><td>89</td><td>68</td><td>33</td></tr>
+<tr><td>2017</td><td>156</td><td>109</td><td>47</td><td>40</td></tr>
+<tr><td>2018</td><td>150</td><td>76</td><td>74</td><td>43</td></tr>
+<tr><td>2019</td><td>154</td><td>103</td><td>51</td><td>46</td></tr>
+<tr><td>2020</td><td>163</td><td>104</td><td>59</td><td>41</td></tr>
+<tr><td>2021</td><td>174</td><td>105</td><td>69</td><td>47</td></tr>
+<tr><td>2022</td><td>161</td><td>71</td><td>90</td><td>40</td></tr>
+<tr><td>2023</td><td>158</td><td>90</td><td>68</td><td>38</td></tr>
+<tr><td>2024</td><td>164</td><td>93</td><td>71</td><td>43</td></tr>
+<tr><td>2025</td><td>172</td><td>99</td><td>73</td><td>47</td></tr>
+<tr><td>2026</td><td>145</td><td>73</td><td>72</td><td>50</td></tr>
+</table></div><div><h3>What happened next, by group</h3><table><tr><th>Group</th><th></th><th>n</th><th>Continuation %</th><th>Failure %</th><th>Neither %</th><th>Avg best move $</th><th>Avg worst move $</th><th>Avg best pts</th><th>Avg worst pts</th><th>Avg $ to SH at event</th><th>Avg $ to PL at event</th></tr>
+<tr class='gs'><td>All</td><td>all</td><td>2,313</td><td><b>43.6</b></td><td>40.6</td><td>15.8</td><td>148</td><td>152</td><td>74.1</td><td>76.2</td><td>123</td><td>73</td></tr>
+<tr class='gs'><td>Direction</td><td>bullish</td><td>1,362</td><td><b>47.9</b></td><td>36.0</td><td>16.1</td><td>116</td><td>135</td><td>58.1</td><td>67.6</td><td>89</td><td>65</td></tr>
+<tr><td></td><td>bearish</td><td>951</td><td><b>37.5</b></td><td>47.0</td><td>15.5</td><td>194</td><td>177</td><td>97.1</td><td>88.7</td><td>172</td><td>86</td></tr>
+<tr class='gs'><td>Depth (share of the leg given back)</td><td>&lt;0.236</td><td>321</td><td><b>62.3</b></td><td>34.9</td><td>2.8</td><td>159</td><td>174</td><td>79.4</td><td>87.2</td><td>54</td><td>51</td></tr>
+<tr><td></td><td>0.236-0.382</td><td>508</td><td><b>50.8</b></td><td>40.9</td><td>8.3</td><td>152</td><td>148</td><td>75.9</td><td>73.8</td><td>87</td><td>58</td></tr>
+<tr><td></td><td>0.382-0.5</td><td>376</td><td><b>48.1</b></td><td>38.6</td><td>13.3</td><td>145</td><td>143</td><td>72.7</td><td>71.7</td><td>108</td><td>69</td></tr>
+<tr><td></td><td>0.5-0.618</td><td>332</td><td><b>38.6</b></td><td>41.0</td><td>20.5</td><td>150</td><td>148</td><td>74.8</td><td>74.2</td><td>148</td><td>80</td></tr>
+<tr><td></td><td>0.618-0.786</td><td>380</td><td><b>35.3</b></td><td>42.6</td><td>22.1</td><td>146</td><td>143</td><td>72.8</td><td>71.6</td><td>149</td><td>83</td></tr>
+<tr><td></td><td>&gt;=0.786</td><td>396</td><td><b>27.3</b></td><td>44.2</td><td>28.5</td><td>139</td><td>162</td><td>69.4</td><td>80.9</td><td>194</td><td>100</td></tr>
+<tr class='gs'><td>Leg size ($ per micro)</td><td>&lt; $50</td><td>118</td><td><b>53.4</b></td><td>39.8</td><td>6.8</td><td>29</td><td>31</td><td>14.4</td><td>15.3</td><td>15</td><td>12</td></tr>
+<tr><td></td><td>$50-100</td><td>452</td><td><b>44.7</b></td><td>39.4</td><td>15.9</td><td>37</td><td>35</td><td>18.7</td><td>17.4</td><td>24</td><td>16</td></tr>
+<tr><td></td><td>$100-200</td><td>455</td><td><b>42.6</b></td><td>38.9</td><td>18.5</td><td>58</td><td>52</td><td>29.2</td><td>26.1</td><td>43</td><td>25</td></tr>
+<tr><td></td><td>$200-500</td><td>599</td><td><b>44.1</b></td><td>41.6</td><td>14.4</td><td>147</td><td>171</td><td>73.7</td><td>85.4</td><td>107</td><td>70</td></tr>
+<tr><td></td><td>&gt;= $500</td><td>689</td><td><b>41.5</b></td><td>41.7</td><td>16.8</td><td>301</td><td>301</td><td>150.7</td><td>150.4</td><td>273</td><td>157</td></tr>
+<tr class='gs'><td>Trend at the event</td><td>still with the leg</td><td>1,911</td><td><b>48.2</b></td><td>38.7</td><td>13.0</td><td>150</td><td>152</td><td>75.2</td><td>76.0</td><td>101</td><td>73</td></tr>
+<tr><td></td><td>not any more</td><td>402</td><td><b>21.6</b></td><td>49.3</td><td>29.1</td><td>137</td><td>154</td><td>68.7</td><td>77.1</td><td>228</td><td>76</td></tr>
+<tr class='gs'><td>Hidden momentum divergence</td><td>yes</td><td>772</td><td><b>36.7</b></td><td>41.7</td><td>21.6</td><td>131</td><td>142</td><td>65.4</td><td>71.2</td><td>149</td><td>84</td></tr>
+<tr><td></td><td>no</td><td>1,541</td><td><b>47.1</b></td><td>40.0</td><td>12.9</td><td>157</td><td>157</td><td>78.5</td><td>78.7</td><td>110</td><td>68</td></tr>
+<tr class='gs'><td>PL touched EMA20</td><td>yes</td><td>1,458</td><td><b>37.9</b></td><td>38.9</td><td>23.3</td><td>136</td><td>148</td><td>67.8</td><td>73.9</td><td>146</td><td>86</td></tr>
+<tr><td></td><td>no</td><td>855</td><td><b>53.5</b></td><td>43.4</td><td>3.2</td><td>170</td><td>161</td><td>84.8</td><td>80.3</td><td>84</td><td>51</td></tr>
+<tr class='gs'><td>PL touched EMA50</td><td>yes</td><td>694</td><td><b>31.0</b></td><td>38.9</td><td>30.1</td><td>131</td><td>141</td><td>65.3</td><td>70.4</td><td>173</td><td>93</td></tr>
+<tr><td></td><td>no</td><td>1,619</td><td><b>49.0</b></td><td>41.3</td><td>9.7</td><td>156</td><td>157</td><td>77.9</td><td>78.7</td><td>102</td><td>65</td></tr>
+<tr class='gs'><td>PL touched VWAP</td><td>yes</td><td>2,234</td><td><b>43.0</b></td><td>40.7</td><td>16.3</td><td>147</td><td>153</td><td>73.6</td><td>76.5</td><td>125</td><td>74</td></tr>
+<tr><td></td><td>no</td><td>79</td><td><b>60.8</b></td><td>36.7</td><td>2.5</td><td>174</td><td>136</td><td>87.2</td><td>68.1</td><td>75</td><td>55</td></tr>
+<tr class='gs'><td>Time of day of the event</td><td>Asia (18-2)</td><td>1,153</td><td><b>40.8</b></td><td>52.4</td><td>6.8</td><td>164</td><td>166</td><td>81.8</td><td>83.0</td><td>133</td><td>58</td></tr>
+<tr><td></td><td>Europe (2-8)</td><td>625</td><td><b>56.2</b></td><td>39.2</td><td>4.6</td><td>171</td><td>178</td><td>85.6</td><td>88.9</td><td>103</td><td>70</td></tr>
+<tr><td></td><td>US pre (8-9:30)</td><td>141</td><td><b>61.0</b></td><td>28.4</td><td>10.6</td><td>149</td><td>143</td><td>74.7</td><td>71.5</td><td>102</td><td>74</td></tr>
+<tr><td></td><td>Open (9:30-10:30)</td><td>25</td><td><b>48.0</b></td><td>28.0</td><td>24.0</td><td>131</td><td>135</td><td>65.5</td><td>67.7</td><td>151</td><td>144</td></tr>
+<tr><td></td><td>Midday (10:30-15)</td><td>369</td><td><b>24.1</b></td><td>11.4</td><td>64.5</td><td>62</td><td>72</td><td>31.0</td><td>36.1</td><td>132</td><td>124</td></tr>
+</table><p class='note'>$ per 1 MNQ contract ($2 per point). Outcome columns use only pullbacks with at least one bar left before 16:45 ET (2,313 of 2,565).</p></div></div>
+<h2 id='ES15'>MES (ES) 15-minute bars: 8,370 pullbacks</h2>
+<div class='two'><div><h3>Count per year</h3><table><tr><th>Year</th><th>All</th><th>Bullish</th><th>Bearish</th><th>Continuation %</th></tr>
+<tr><td>2010</td><td>223</td><td>103</td><td>120</td><td>48</td></tr>
+<tr><td>2011</td><td>450</td><td>223</td><td>227</td><td>51</td></tr>
+<tr><td>2012</td><td>395</td><td>207</td><td>188</td><td>49</td></tr>
+<tr><td>2013</td><td>394</td><td>208</td><td>186</td><td>42</td></tr>
+<tr><td>2014</td><td>424</td><td>231</td><td>193</td><td>45</td></tr>
+<tr><td>2015</td><td>485</td><td>242</td><td>243</td><td>43</td></tr>
+<tr><td>2016</td><td>482</td><td>261</td><td>221</td><td>48</td></tr>
+<tr><td>2017</td><td>364</td><td>205</td><td>159</td><td>40</td></tr>
+<tr><td>2018</td><td>533</td><td>277</td><td>256</td><td>44</td></tr>
+<tr><td>2019</td><td>502</td><td>290</td><td>212</td><td>42</td></tr>
+<tr><td>2020</td><td>628</td><td>351</td><td>277</td><td>47</td></tr>
+<tr><td>2021</td><td>556</td><td>315</td><td>241</td><td>45</td></tr>
+<tr><td>2022</td><td>626</td><td>320</td><td>306</td><td>45</td></tr>
+<tr><td>2023</td><td>546</td><td>289</td><td>257</td><td>48</td></tr>
+<tr><td>2024</td><td>575</td><td>322</td><td>253</td><td>48</td></tr>
+<tr><td>2025</td><td>622</td><td>333</td><td>289</td><td>45</td></tr>
+<tr><td>2026</td><td>565</td><td>289</td><td>276</td><td>47</td></tr>
+</table></div><div><h3>What happened next, by group</h3><table><tr><th>Group</th><th></th><th>n</th><th>Continuation %</th><th>Failure %</th><th>Neither %</th><th>Avg best move $</th><th>Avg worst move $</th><th>Avg best pts</th><th>Avg worst pts</th><th>Avg $ to SH at event</th><th>Avg $ to PL at event</th></tr>
+<tr class='gs'><td>All</td><td>all</td><td>7,855</td><td><b>45.9</b></td><td>43.7</td><td>10.4</td><td>72</td><td>71</td><td>14.3</td><td>14.3</td><td>41</td><td>29</td></tr>
+<tr class='gs'><td>Direction</td><td>bullish</td><td>4,207</td><td><b>49.4</b></td><td>40.2</td><td>10.4</td><td>64</td><td>67</td><td>12.7</td><td>13.5</td><td>33</td><td>26</td></tr>
+<tr><td></td><td>bearish</td><td>3,648</td><td><b>41.9</b></td><td>47.8</td><td>10.3</td><td>81</td><td>76</td><td>16.1</td><td>15.2</td><td>50</td><td>31</td></tr>
+<tr class='gs'><td>Depth (share of the leg given back)</td><td>&lt;0.236</td><td>681</td><td><b>51.7</b></td><td>44.6</td><td>3.7</td><td>63</td><td>62</td><td>12.5</td><td>12.5</td><td>25</td><td>20</td></tr>
+<tr><td></td><td>0.236-0.382</td><td>1,373</td><td><b>50.9</b></td><td>43.0</td><td>6.0</td><td>67</td><td>65</td><td>13.3</td><td>12.9</td><td>30</td><td>23</td></tr>
+<tr><td></td><td>0.382-0.5</td><td>1,283</td><td><b>47.8</b></td><td>43.9</td><td>8.3</td><td>69</td><td>70</td><td>13.7</td><td>14.0</td><td>35</td><td>27</td></tr>
+<tr><td></td><td>0.5-0.618</td><td>1,330</td><td><b>45.0</b></td><td>43.5</td><td>11.4</td><td>74</td><td>71</td><td>14.8</td><td>14.2</td><td>40</td><td>30</td></tr>
+<tr><td></td><td>0.618-0.786</td><td>1,628</td><td><b>42.0</b></td><td>44.2</td><td>13.8</td><td>74</td><td>77</td><td>14.8</td><td>15.4</td><td>48</td><td>31</td></tr>
+<tr><td></td><td>&gt;=0.786</td><td>1,560</td><td><b>42.4</b></td><td>43.5</td><td>14.2</td><td>78</td><td>76</td><td>15.5</td><td>15.3</td><td>56</td><td>34</td></tr>
+<tr class='gs'><td>Leg size ($ per micro)</td><td>&lt; $50</td><td>1,736</td><td><b>52.4</b></td><td>42.3</td><td>5.4</td><td>37</td><td>35</td><td>7.4</td><td>6.9</td><td>12</td><td>10</td></tr>
+<tr><td></td><td>$50-100</td><td>2,349</td><td><b>47.9</b></td><td>42.3</td><td>9.8</td><td>55</td><td>53</td><td>11.0</td><td>10.7</td><td>23</td><td>18</td></tr>
+<tr><td></td><td>$100-200</td><td>2,166</td><td><b>43.9</b></td><td>46.3</td><td>9.9</td><td>83</td><td>84</td><td>16.6</td><td>16.8</td><td>44</td><td>30</td></tr>
+<tr><td></td><td>$200-500</td><td>1,386</td><td><b>39.0</b></td><td>43.4</td><td>17.7</td><td>107</td><td>108</td><td>21.5</td><td>21.6</td><td>82</td><td>57</td></tr>
+<tr><td></td><td>&gt;= $500</td><td>218</td><td><b>38.5</b></td><td>47.7</td><td>13.8</td><td>183</td><td>195</td><td>36.5</td><td>39.0</td><td>180</td><td>94</td></tr>
+<tr class='gs'><td>Trend at the event</td><td>still with the leg</td><td>6,256</td><td><b>50.5</b></td><td>40.8</td><td>8.6</td><td>72</td><td>73</td><td>14.4</td><td>14.6</td><td>34</td><td>30</td></tr>
+<tr><td></td><td>not any more</td><td>1,599</td><td><b>27.8</b></td><td>55.2</td><td>17.0</td><td>70</td><td>65</td><td>14.1</td><td>13.1</td><td>68</td><td>24</td></tr>
+<tr class='gs'><td>Hidden momentum divergence</td><td>yes</td><td>2,778</td><td><b>41.9</b></td><td>45.9</td><td>12.3</td><td>69</td><td>69</td><td>13.8</td><td>13.8</td><td>48</td><td>28</td></tr>
+<tr><td></td><td>no</td><td>5,077</td><td><b>48.1</b></td><td>42.6</td><td>9.3</td><td>73</td><td>72</td><td>14.6</td><td>14.5</td><td>38</td><td>29</td></tr>
+<tr class='gs'><td>PL touched EMA20</td><td>yes</td><td>5,788</td><td><b>43.2</b></td><td>44.4</td><td>12.4</td><td>72</td><td>73</td><td>14.4</td><td>14.6</td><td>46</td><td>30</td></tr>
+<tr><td></td><td>no</td><td>2,067</td><td><b>53.7</b></td><td>41.8</td><td>4.5</td><td>71</td><td>67</td><td>14.2</td><td>13.4</td><td>28</td><td>24</td></tr>
+<tr class='gs'><td>PL touched EMA50</td><td>yes</td><td>3,050</td><td><b>40.5</b></td><td>44.1</td><td>15.4</td><td>69</td><td>70</td><td>13.9</td><td>13.9</td><td>53</td><td>32</td></tr>
+<tr><td></td><td>no</td><td>4,805</td><td><b>49.4</b></td><td>43.5</td><td>7.1</td><td>73</td><td>72</td><td>14.6</td><td>14.5</td><td>34</td><td>26</td></tr>
+<tr class='gs'><td>PL touched VWAP</td><td>yes</td><td>5,504</td><td><b>42.8</b></td><td>46.1</td><td>11.0</td><td>69</td><td>68</td><td>13.7</td><td>13.6</td><td>46</td><td>29</td></tr>
+<tr><td></td><td>no</td><td>2,351</td><td><b>53.2</b></td><td>38.1</td><td>8.8</td><td>79</td><td>79</td><td>15.7</td><td>15.9</td><td>30</td><td>29</td></tr>
+<tr class='gs'><td>Time of day of the event</td><td>Asia (18-2)</td><td>2,794</td><td><b>42.1</b></td><td>53.1</td><td>4.8</td><td>64</td><td>61</td><td>12.8</td><td>12.3</td><td>40</td><td>20</td></tr>
+<tr><td></td><td>Europe (2-8)</td><td>1,897</td><td><b>53.4</b></td><td>46.3</td><td>0.3</td><td>101</td><td>104</td><td>20.2</td><td>20.9</td><td>31</td><td>24</td></tr>
+<tr><td></td><td>US pre (8-9:30)</td><td>540</td><td><b>58.7</b></td><td>40.9</td><td>0.4</td><td>98</td><td>94</td><td>19.6</td><td>18.8</td><td>32</td><td>25</td></tr>
+<tr><td></td><td>Open (9:30-10:30)</td><td>137</td><td><b>54.7</b></td><td>38.0</td><td>7.3</td><td>72</td><td>81</td><td>14.5</td><td>16.2</td><td>41</td><td>40</td></tr>
+<tr><td></td><td>Midday (10:30-15)</td><td>1,971</td><td><b>46.3</b></td><td>35.7</td><td>18.0</td><td>59</td><td>57</td><td>11.8</td><td>11.4</td><td>51</td><td>40</td></tr>
+<tr><td></td><td>Close (15-16)</td><td>425</td><td><b>25.4</b></td><td>21.6</td><td>52.9</td><td>29</td><td>36</td><td>5.8</td><td>7.3</td><td>54</td><td>44</td></tr>
+<tr><td></td><td>Post (16-17)</td><td>91</td><td><b>6.6</b></td><td>4.4</td><td>89.0</td><td>10</td><td>10</td><td>1.9</td><td>2.1</td><td>69</td><td>57</td></tr>
+</table><p class='note'>$ per 1 MES contract ($5 per point). Outcome columns use only pullbacks with at least one bar left before 16:45 ET (7,855 of 8,370).</p></div></div>
+<h2 id='YM15'>MYM (YM) 15-minute bars: 5,863 pullbacks</h2>
+<div class='two'><div><h3>Count per year</h3><table><tr><th>Year</th><th>All</th><th>Bullish</th><th>Bearish</th><th>Continuation %</th></tr>
+<tr><td>2018</td><td>641</td><td>334</td><td>307</td><td>45</td></tr>
+<tr><td>2019</td><td>663</td><td>364</td><td>299</td><td>42</td></tr>
+<tr><td>2020</td><td>713</td><td>388</td><td>325</td><td>48</td></tr>
+<tr><td>2021</td><td>695</td><td>381</td><td>314</td><td>49</td></tr>
+<tr><td>2022</td><td>693</td><td>367</td><td>326</td><td>43</td></tr>
+<tr><td>2023</td><td>592</td><td>315</td><td>277</td><td>45</td></tr>
+<tr><td>2024</td><td>617</td><td>323</td><td>294</td><td>45</td></tr>
+<tr><td>2025</td><td>659</td><td>338</td><td>321</td><td>46</td></tr>
+<tr><td>2026</td><td>590</td><td>301</td><td>289</td><td>45</td></tr>
+</table></div><div><h3>What happened next, by group</h3><table><tr><th>Group</th><th></th><th>n</th><th>Continuation %</th><th>Failure %</th><th>Neither %</th><th>Avg best move $</th><th>Avg worst move $</th><th>Avg best pts</th><th>Avg worst pts</th><th>Avg $ to SH at event</th><th>Avg $ to PL at event</th></tr>
+<tr class='gs'><td>All</td><td>all</td><td>5,545</td><td><b>45.4</b></td><td>43.9</td><td>10.7</td><td>69</td><td>70</td><td>138.4</td><td>140.8</td><td>38</td><td>27</td></tr>
+<tr class='gs'><td>Direction</td><td>bullish</td><td>2,950</td><td><b>48.4</b></td><td>41.2</td><td>10.4</td><td>65</td><td>68</td><td>129.1</td><td>135.9</td><td>32</td><td>25</td></tr>
+<tr><td></td><td>bearish</td><td>2,595</td><td><b>42.0</b></td><td>46.9</td><td>11.1</td><td>74</td><td>73</td><td>149.0</td><td>146.5</td><td>45</td><td>29</td></tr>
+<tr class='gs'><td>Depth (share of the leg given back)</td><td>&lt;0.236</td><td>446</td><td><b>55.4</b></td><td>41.0</td><td>3.6</td><td>57</td><td>56</td><td>114.6</td><td>111.2</td><td>21</td><td>18</td></tr>
+<tr><td></td><td>0.236-0.382</td><td>950</td><td><b>49.7</b></td><td>42.4</td><td>7.9</td><td>68</td><td>63</td><td>136.3</td><td>125.4</td><td>29</td><td>23</td></tr>
+<tr><td></td><td>0.382-0.5</td><td>916</td><td><b>43.7</b></td><td>45.7</td><td>10.6</td><td>67</td><td>76</td><td>133.6</td><td>152.2</td><td>36</td><td>27</td></tr>
+<tr><td></td><td>0.5-0.618</td><td>938</td><td><b>45.4</b></td><td>43.1</td><td>11.5</td><td>71</td><td>69</td><td>141.4</td><td>137.4</td><td>39</td><td>28</td></tr>
+<tr><td></td><td>0.618-0.786</td><td>1,127</td><td><b>44.5</b></td><td>43.2</td><td>12.2</td><td>72</td><td>71</td><td>143.5</td><td>142.4</td><td>42</td><td>29</td></tr>
+<tr><td></td><td>&gt;=0.786</td><td>1,168</td><td><b>40.2</b></td><td>45.9</td><td>13.9</td><td>73</td><td>79</td><td>145.7</td><td>157.1</td><td>50</td><td>30</td></tr>
+<tr class='gs'><td>Leg size ($ per micro)</td><td>&lt; $50</td><td>1,044</td><td><b>54.9</b></td><td>43.6</td><td>1.5</td><td>58</td><td>60</td><td>115.2</td><td>119.7</td><td>13</td><td>11</td></tr>
+<tr><td></td><td>$50-100</td><td>1,699</td><td><b>47.7</b></td><td>45.5</td><td>6.8</td><td>66</td><td>64</td><td>131.4</td><td>128.0</td><td>25</td><td>19</td></tr>
+<tr><td></td><td>$100-200</td><td>1,819</td><td><b>41.7</b></td><td>42.8</td><td>15.4</td><td>69</td><td>70</td><td>138.9</td><td>140.3</td><td>43</td><td>30</td></tr>
+<tr><td></td><td>$200-500</td><td>903</td><td><b>38.1</b></td><td>42.5</td><td>19.4</td><td>81</td><td>86</td><td>162.2</td><td>171.1</td><td>73</td><td>47</td></tr>
+<tr><td></td><td>&gt;= $500</td><td>80</td><td><b>38.8</b></td><td>51.2</td><td>10.0</td><td>156</td><td>180</td><td>311.5</td><td>359.7</td><td>161</td><td>92</td></tr>
+<tr class='gs'><td>Trend at the event</td><td>still with the leg</td><td>4,568</td><td><b>49.5</b></td><td>41.0</td><td>9.5</td><td>69</td><td>71</td><td>138.7</td><td>141.3</td><td>32</td><td>27</td></tr>
+<tr><td></td><td>not any more</td><td>977</td><td><b>26.3</b></td><td>57.1</td><td>16.6</td><td>69</td><td>69</td><td>137.2</td><td>138.5</td><td>68</td><td>23</td></tr>
+<tr class='gs'><td>Hidden momentum divergence</td><td>yes</td><td>2,010</td><td><b>40.9</b></td><td>46.1</td><td>12.9</td><td>67</td><td>66</td><td>134.0</td><td>132.1</td><td>44</td><td>26</td></tr>
+<tr><td></td><td>no</td><td>3,535</td><td><b>47.9</b></td><td>42.6</td><td>9.5</td><td>70</td><td>73</td><td>140.9</td><td>145.8</td><td>35</td><td>27</td></tr>
+<tr class='gs'><td>PL touched EMA20</td><td>yes</td><td>3,911</td><td><b>43.1</b></td><td>44.2</td><td>12.8</td><td>70</td><td>73</td><td>140.0</td><td>145.4</td><td>43</td><td>29</td></tr>
+<tr><td></td><td>no</td><td>1,634</td><td><b>50.9</b></td><td>43.1</td><td>5.9</td><td>67</td><td>65</td><td>134.7</td><td>130.0</td><td>27</td><td>22</td></tr>
+<tr class='gs'><td>PL touched EMA50</td><td>yes</td><td>1,876</td><td><b>38.8</b></td><td>44.5</td><td>16.7</td><td>69</td><td>73</td><td>138.2</td><td>146.0</td><td>52</td><td>32</td></tr>
+<tr><td></td><td>no</td><td>3,669</td><td><b>48.8</b></td><td>43.5</td><td>7.7</td><td>69</td><td>69</td><td>138.5</td><td>138.2</td><td>31</td><td>24</td></tr>
+<tr class='gs'><td>PL touched VWAP</td><td>yes</td><td>3,537</td><td><b>42.6</b></td><td>46.9</td><td>10.5</td><td>68</td><td>68</td><td>135.4</td><td>136.8</td><td>44</td><td>27</td></tr>
+<tr><td></td><td>no</td><td>2,008</td><td><b>50.3</b></td><td>38.4</td><td>11.2</td><td>72</td><td>74</td><td>143.7</td><td>148.0</td><td>29</td><td>26</td></tr>
+<tr class='gs'><td>Time of day of the event</td><td>Asia (18-2)</td><td>2,095</td><td><b>44.6</b></td><td>51.7</td><td>3.6</td><td>61</td><td>59</td><td>122.8</td><td>118.3</td><td>34</td><td>17</td></tr>
+<tr><td></td><td>Europe (2-8)</td><td>1,295</td><td><b>52.1</b></td><td>47.8</td><td>0.1</td><td>99</td><td>104</td><td>197.9</td><td>208.2</td><td>28</td><td>22</td></tr>
+<tr><td></td><td>US pre (8-9:30)</td><td>370</td><td><b>58.4</b></td><td>41.6</td><td>0.0</td><td>99</td><td>109</td><td>198.4</td><td>218.0</td><td>33</td><td>27</td></tr>
+<tr><td></td><td>Open (9:30-10:30)</td><td>66</td><td><b>59.1</b></td><td>34.8</td><td>6.1</td><td>76</td><td>76</td><td>151.6</td><td>151.8</td><td>43</td><td>48</td></tr>
+<tr><td></td><td>Midday (10:30-15)</td><td>1,347</td><td><b>43.4</b></td><td>37.3</td><td>19.3</td><td>57</td><td>57</td><td>115.0</td><td>114.5</td><td>52</td><td>41</td></tr>
+<tr><td></td><td>Close (15-16)</td><td>267</td><td><b>23.2</b></td><td>18.0</td><td>58.8</td><td>26</td><td>32</td><td>52.5</td><td>64.6</td><td>53</td><td>41</td></tr>
+<tr><td></td><td>Post (16-17)</td><td>105</td><td><b>5.7</b></td><td>1.0</td><td>93.3</td><td>8</td><td>7</td><td>15.4</td><td>13.7</td><td>56</td><td>44</td></tr>
+</table><p class='note'>$ per 1 MYM contract ($0.5 per point). Outcome columns use only pullbacks with at least one bar left before 16:45 ET (5,545 of 5,863).</p></div></div>
+<h3>How to read a chart</h3><ul>
+<li><b>White arrow</b> = the impulse leg, from the leg start to the leg high (low for bearish). <b>Yellow ring</b> = the pullback
+low (high for bearish); its yellow dashed line is the level that, if price CLOSES past it, counts as a failure. The solid grey
+line at the leg high is the level that counts as a continuation once price trades past it.</li>
+<li><b>Dashed grey lines</b> = Fibonacci retracements of the leg (38.2%, 50%, 61.8%), labelled on the right.</li>
+<li><b>White vertical line</b> = the moment the setup is known (3 bars after the pullback low). Everything in the blue-grey area
+to its right is what happened next; the green dot / red X marks the bar where it continued or failed.</li>
+<li>EMA 8 red dashed, EMA 20 orange dashed, EMA 50 green dashed, VWAP cyan. Thin dashed vertical lines = a new session (18:00 ET).</li>
+<li>Bottom panel: Momentum(14) = 100 &times; close / close 14 bars earlier; dots at the leg start, leg end and pullback.
+A yellow dashed line = hidden divergence (higher low in price, lower momentum).</li>
+<li>The panel on the right lists every stat; $ are per 1 micro contract (MES $5, MNQ $2, MYM $0.50 per point), before costs.</li></ul></body></html>

@@ -1,0 +1,97 @@
+
+NQ 15m: 393,334 labelled trades (8s); $/trade at 1.5R:
+span             2010-2020  2021-2025H1
+rule      side                         
+ema20_pb  long       -1.45         0.56
+          short      -3.76        -5.26
+ema50_pb  long       -1.25        -2.86
+          short      -3.46        -7.15
+ema8_pb   long       -1.52        -0.54
+          short      -3.12        -3.26
+mom_turn  long       -1.46        -0.12
+          short      -3.77        -4.04
+pb_break  long       -1.06         1.31
+          short      -2.61        -1.79
+trend_all long       -1.57         0.52
+          short      -3.50        -2.89
+
+NQ 60m: 92,899 labelled trades (5s); $/trade at 1.5R:
+span             2010-2020  2021-2025H1
+rule      side                         
+ema20_pb  long       -0.95        -0.42
+          short      -6.50       -12.06
+ema50_pb  long        3.49         0.26
+          short      -9.61       -11.15
+ema8_pb   long       -0.54         2.25
+          short      -5.19        -0.28
+mom_turn  long       -1.26         0.91
+          short      -4.85        -1.74
+pb_break  long       -1.20         1.39
+          short      -5.26        -2.63
+trend_all long       -0.99         3.17
+          short      -4.40        -6.34
+
+ES 15m: 387,418 labelled trades (8s); $/trade at 1.5R:
+span             2010-2020  2021-2025H1
+rule      side                         
+ema20_pb  long       -3.99        -3.00
+          short      -5.70        -6.14
+ema50_pb  long       -4.43        -3.30
+          short      -5.64        -5.58
+ema8_pb   long       -4.14        -3.21
+          short      -4.60        -5.27
+mom_turn  long       -4.34        -2.09
+          short      -5.29        -6.08
+pb_break  long       -3.58        -2.75
+          short      -5.34        -5.22
+trend_all long       -4.10        -2.95
+          short      -5.36        -5.75
+
+ES 60m: 92,820 labelled trades (5s); $/trade at 1.5R:
+span             2010-2020  2021-2025H1
+rule      side                         
+ema20_pb  long       -2.30        -1.84
+          short      -5.51        -4.45
+ema50_pb  long       -0.47        -8.15
+          short      -9.14        -3.30
+ema8_pb   long       -2.75        -2.57
+          short      -5.81        -9.31
+mom_turn  long       -2.09        -1.02
+          short      -4.33        -5.54
+pb_break  long       -5.50        -2.67
+          short      -8.01        -3.02
+trend_all long       -2.63        -0.66
+          short      -5.42        -6.75
+
+YM 15m: 196,398 labelled trades (4s); $/trade at 1.5R:
+span             2010-2020  2021-2025H1
+rule      side                         
+ema20_pb  long       -1.63        -1.73
+          short      -1.27        -4.77
+ema50_pb  long       -1.82        -1.78
+          short      -1.98        -5.16
+ema8_pb   long       -1.96        -1.38
+          short      -2.27        -3.54
+mom_turn  long       -2.52        -1.05
+          short      -3.53        -3.67
+pb_break  long       -1.61        -1.89
+          short      -2.22        -4.35
+trend_all long       -1.87        -1.80
+          short      -2.78        -3.82
+
+YM 60m: 45,560 labelled trades (2s); $/trade at 1.5R:
+span             2010-2020  2021-2025H1
+rule      side                         
+ema20_pb  long        0.06        -0.87
+          short      -8.95        -7.34
+ema50_pb  long        2.89         1.58
+          short      -3.23        -8.36
+ema8_pb   long       -1.19        -1.93
+          short      -4.61        -6.79
+mom_turn  long        1.13        -3.90
+          short      -2.14        -4.51
+pb_break  long       -1.80        -0.52
+          short      -9.46        -1.87
+trend_all long       -0.32        -0.73
+          short      -4.46        -4.70
+done

@@ -1,0 +1,26 @@
+frozen {'state_prep.pkl': '48d675aa1879b28754a635656ef24e9db42da54be93171163339d79f526a1b9d', 'state_gmm.pkl': 'c84c4c4400ee6071cdae136ffdd4e6470b5e7039c99ca1e3f66bb2fd9f736bbe', 'shape_kmeans.pkl': '12e5f2c3cae06aa36305ee7edffd6f435631aec1169322f355069e2f525214ed'}
+labelled rows: state 0.897, motif 0.954; 51s
+ state  freq_ES  freq_NQ  freq_YM  p_stay  mean_dwell_min  rth_share peak_hours_et                                                                                                                            words
+     0   0.1237   0.1185   0.1318   0.663            14.9   0.321619   13h,06h,07h                                                                                                       average on every statistic
+     1   0.1134   0.1370   0.1173   0.702            16.8   0.035276   00h,23h,01h                                                    quiet, volume low for the time of day, minute returns choppy (neg. autocorr.)
+     2   0.1265   0.1240   0.1166   0.588            12.1   0.090231   02h,01h,20h                    near the session high, at the top of the hour's range, quiet, volume on up minutes, rising over the last hour
+     3   0.1247   0.1177   0.1206   0.605            12.7   0.202096   07h,06h,08h                                                                      near the session high, session up so far, above VWAP, quiet
+     4   0.1141   0.1061   0.1097   0.654            14.5   0.067272   20h,02h,21h                                                              near the session low, below VWAP, quiet, falling over the last hour
+     5   0.0659   0.0712   0.0696   0.609            12.8   0.617207   12h,13h,11h                                        near the session high, above VWAP, session up so far, volatile, rising over the last hour
+     6   0.0711   0.0625   0.0641   0.561            11.4   0.314767   03h,20h,04h                       near the session high, at the top of the hour's range, above VWAP, volume on up minutes, session up so far
+     7   0.0614   0.0562   0.0645   0.630            13.5   0.313120   03h,04h,09h               near the session low, below VWAP, falling over the last hour, session down so far, volume high for the time of day
+     8   0.0604   0.0540   0.0587   0.523            10.5   0.616766   15h,16h,10h down sharply in the last 15 min, at the bottom of the hour's range, volume on down minutes, volatile, falling over the last hour
+     9   0.0509   0.0606   0.0544   0.750            20.0   0.813443   11h,10h,12h         volatile, session down so far, volume high for the time of day, below VWAP, minute returns trending (positive autocorr.)
+    10   0.0489   0.0501   0.0523   0.608            12.8   0.684043   10h,09h,16h                   rising over the last hour, up sharply in the last 15 min, volatile, at the top of the hour's range, above VWAP
+    11   0.0391   0.0421   0.0404   0.685            15.9   0.734343   10h,09h,11h                          near the session low, falling over the last hour, below VWAP, volatile, down sharply in the last 15 min
+ motif  freq_ES  freq_NQ  freq_YM  p_stay  mean_dwell_min  rth_share peak_hours_et                                                  words
+     0   0.1603   0.1612   0.1555   0.649            14.3   0.309434   10h,16h,11h                           rise, mostly early then flat
+     1   0.1440   0.1429   0.1452   0.648            14.2   0.293265   16h,10h,04h                           fall, mostly early then flat
+     2   0.1232   0.1231   0.1244   0.656            14.5   0.298471   09h,03h,08h                                fall, accelerating late
+     3   0.1191   0.1195   0.1177   0.623            13.3   0.304006   12h,11h,13h                           rise, mostly early then flat
+     4   0.1030   0.1042   0.1023   0.616            13.0   0.298087   09h,03h,02h                           steady rise through the hour
+     5   0.0790   0.0807   0.0812   0.565            11.5   0.277970   16h,22h,19h                           fall, mostly early then flat
+     6   0.0722   0.0717   0.0726   0.438             8.9   0.295704   23h,12h,05h                     V: fall then recover, low mid-hour
+     7   0.0691   0.0675   0.0692   0.435             8.8   0.302682   01h,09h,15h                     V: fall then recover, low mid-hour
+     8   0.0657   0.0647   0.0660   0.453             9.1   0.298444   09h,15h,01h              inverted V: rise then fall, high mid-hour
+     9   0.0644   0.0645   0.0659   0.438             8.9   0.284469   23h,00h,19h inverted V: rise then fall, high mid-hour, ends higher

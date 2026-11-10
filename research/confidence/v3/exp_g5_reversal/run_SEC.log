@@ -1,0 +1,25 @@
+A5_N1_5lags n=9491 $/tr=-1.67 d/tr=3.86 t_d=1.41 p_d=0.1106 p_net=0.7335 fails=['2_net_halves', '3_years_pos_U2', '4_wo_top10', '5_winsor', '6_mc_rank', '7_gross_vs_cost', '8_beats_drift', '9_markets'] kill=True 123s
+A5_N2_equal n=9491 $/tr=-2.64 d/tr=2.66 t_d=0.97 p_d=0.2034 p_net=0.8556 fails=['2_net_halves', '3_years_pos_U2', '4_wo_top10', '5_winsor', '6_mc_rank', '7_gross_vs_cost', '8_beats_drift', '9_markets'] kill=True 141s
+A5_N3_overnight n=9491 $/tr=-1.65 d/tr=2.35 t_d=1.42 p_d=0.1062 p_net=0.8528 fails=['2_net_halves', '3_years_pos_U2', '4_wo_top10', '5_winsor', '6_mc_rank', '7_gross_vs_cost', '8_beats_drift', '9_markets'] kill=True 127s
+A5_N4_daypart n=9661 $/tr=-1.31 d/tr=2.19 t_d=0.96 p_d=0.1992 p_net=0.7181 fails=['2_net_halves', '3_years_pos_U2', '4_wo_top10', '5_winsor', '6_mc_rank', '7_gross_vs_cost', '8_beats_drift', '9_markets'] kill=True 82s
+S5.1_MES n=3716 $/tr=-0.69 d/tr=4.04 t_d=1.52 p_d=0.0738 p_net=0.5995 fails=['2_net_halves', '3_years_pos_U2', '4_wo_top10', '5_winsor', '6_mc_rank', '7_gross_vs_cost', '8_beats_drift'] kill=True 30s
+S5.1_MNQ n=3720 $/tr=6.39 d/tr=10.69 t_d=2.33 p_d=0.0178 p_net=0.0852 fails=['2_net_halves', '3_years_pos_U2', '8_beats_drift'] kill=False 34s
+S5.1_MYM n=1865 $/tr=-5.33 d/tr=-2.56 t_d=-0.67 p_d=0.7465 p_net=0.9196 fails=['1_d_halves', '2_net_halves', '3_years_pos_U2', '4_wo_top10', '5_winsor', '6_mc_rank', '7_gross_vs_cost', '8_beats_drift'] kill=True 28s
+S5.2_MES n=1132 $/tr=5.64 d/tr=10.68 t_d=1.80 p_d=0.0478 p_net=0.1856 fails=['2_net_halves', '4_wo_top10'] kill=False 23s
+S5.2_MNQ n=1159 $/tr=10.47 d/tr=14.78 t_d=1.63 p_d=0.0616 p_net=0.1338 fails=['4_wo_top10'] kill=False 25s
+S5.2_MYM n=562 $/tr=7.06 d/tr=9.69 t_d=1.10 p_d=0.1460 p_net=0.2148 fails=['2_net_halves', '3_years_pos_U2', '4_wo_top10', '6_mc_rank'] kill=False 18s
+S5.3_MES n=535 $/tr=10.06 d/tr=4.43 t_d=0.62 p_d=0.2799 p_net=0.0996 fails=['6_mc_rank', '8_beats_drift'] kill=False 23s
+S5.3_MNQ n=577 $/tr=14.45 d/tr=2.96 t_d=0.26 p_d=0.4199 p_net=0.1116 fails=['1_d_halves', '4_wo_top10', '6_mc_rank', '8_beats_drift'] kill=False 18s
+S5.3_MYM n=263 $/tr=4.90 d/tr=-0.34 t_d=-0.04 p_d=0.5245 p_net=0.3201 fails=['1_d_halves', '3_years_pos_U2', '4_wo_top10', '6_mc_rank', '8_beats_drift'] kill=True 13s
+S5.4_MES n=158 $/tr=8.81 d/tr=14.08 t_d=1.11 p_d=0.2084 p_net=0.3073 fails=['1_d_halves', '2_net_halves', '3_years_pos_U2', '4_wo_top10', '6_mc_rank'] kill=False 10s
+S5.4_MNQ n=139 $/tr=2.77 d/tr=4.92 t_d=0.17 p_d=0.4471 p_net=0.4843 fails=['1_d_halves', '2_net_halves', '3_years_pos_U2', '4_wo_top10', '6_mc_rank'] kill=False 14s
+S5.4_MYM n=143 $/tr=-0.07 d/tr=6.87 t_d=0.42 p_d=0.3479 p_net=0.5141 fails=['2_net_halves', '3_years_pos_U2', '4_wo_top10', '5_winsor', '6_mc_rank', '7_gross_vs_cost', '8_beats_drift'] kill=True 11s
+S5.5_MES n=1759 $/tr=-1.92 d/tr=0.72 t_d=1.15 p_d=0.1304 p_net=0.9994 fails=['2_net_halves', '3_years_pos_U2', '4_wo_top10', '5_winsor', '6_mc_rank', '7_gross_vs_cost', '8_beats_drift'] kill=True 21s
+S5.5_MNQ n=1806 $/tr=0.44 d/tr=1.29 t_d=1.41 p_d=0.0804 p_net=0.3299 fails=['2_net_halves', '4_wo_top10', '6_mc_rank', '8_beats_drift'] kill=False 20s
+S5.5_MYM n=925 $/tr=-1.93 d/tr=0.03 t_d=0.04 p_d=0.5049 p_net=0.9922 fails=['2_net_halves', '3_years_pos_U2', '4_wo_top10', '5_winsor', '6_mc_rank', '7_gross_vs_cost', '8_beats_drift'] kill=True 15s
+S5.6_MES n=1759 $/tr=-1.13 d/tr=0.23 t_d=0.13 p_d=0.4507 p_net=0.7275 fails=['2_net_halves', '3_years_pos_U2', '4_wo_top10', '5_winsor', '6_mc_rank', '7_gross_vs_cost', '8_beats_drift'] kill=True 25s
+S5.6_MNQ n=1806 $/tr=0.64 d/tr=1.02 t_d=0.38 p_d=0.3555 p_net=0.4063 fails=['2_net_halves', '4_wo_top10', '6_mc_rank', '8_beats_drift'] kill=False 27s
+S5.6_MYM n=925 $/tr=-2.27 d/tr=-0.95 t_d=-0.41 p_d=0.6709 p_net=0.8350 fails=['1_d_halves', '2_net_halves', '3_years_pos_U2', '4_wo_top10', '5_winsor', '6_mc_rank', '7_gross_vs_cost', '8_beats_drift'] kill=True 17s
+G5_BENCH_long1800_0930_MES n=3802 $/tr=0.63 d/tr=-0.12 t_d=-0.08 p_d=0.5427 p_net=0.3463 fails=['1_d_halves', '2_net_halves', '4_wo_top10', '6_mc_rank', '8_beats_drift'] kill=True 13s
+G5_BENCH_long1800_0930_MNQ n=3791 $/tr=3.32 d/tr=-0.31 t_d=-0.15 p_d=0.5673 p_net=0.0878 fails=['1_d_halves', '6_mc_rank', '8_beats_drift'] kill=True 12s
+G5_BENCH_long1800_0930_MYM n=1902 $/tr=0.55 d/tr=-0.24 t_d=-0.12 p_d=0.5569 p_net=0.4165 fails=['1_d_halves', '2_net_halves', '4_wo_top10', '6_mc_rank', '7_gross_vs_cost', '8_beats_drift'] kill=True 10s

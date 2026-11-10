@@ -1,0 +1,8 @@
+YM 120m: 27,276 bars, prepared in 1s
+YM 120m exit study: 1776 rows in 2s
+YM 60m: 52,302 bars, prepared in 1s
+YM 60m exit study: 1920 rows in 2s
+YM 15m: 208,188 bars, prepared in 1s
+YM 15m exit study: 1920 rows in 7s
+YM 5m: 624,136 bars, prepared in 1s
+YM 5m exit study: 1920 rows in 27s

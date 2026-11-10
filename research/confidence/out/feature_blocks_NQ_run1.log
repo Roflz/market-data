@@ -1,0 +1,5 @@
+R20 check: 331,394/331,394 rows bit-identical to entries.R20 (NaN rows 565)
+block NaN share at entries: ret1 0.002, ret2 0.002, ret3 0.002, ret5 0.002, ret10 0.002, ret20 0.002, ret60_volscaled 0.009, rsv5 0.002, rsv20 0.002, rsv60 0.009, prev_close_rsv20 0.002, bars_since_high20 0.002, bars_since_low20 0.002, bars_since_high60 0.009, bars_since_low60 0.009, range20_width 0.002
+[mem] available 13374 MB -> start v1 all logit
+v1      all          logit: auc 0.6192  kept 26,399  $/tr -0.69  all -2.22  random -1.93  $/yr -1461  (302s)
+[mem] available 13655 MB -> start v1 all gbm

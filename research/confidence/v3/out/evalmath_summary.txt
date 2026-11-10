@@ -1,0 +1,571 @@
+=== EVAL MATH - KEY FINDINGS (v3/exp_evalmath, 2026-11-09 12:22) ===
+1. Calibration: zero-edge Gaussian days at daily sd $350-500 pass within 10 days 10-11% (40% rule) = the v2 luck bar 8-11%.
+2. STRUCTURE BEATS THE OLD LUCK BAR WITHOUT ANY EDGE. Real pre-holdout random trades (luck pools, real costs) with
+   "fixed $ risk $250-400/trade, up to 2-3 trades/day, only take a trade whose stop fits in the $600 daily room,
+   stop for the day once green" pass within 10 days 18-22% (MES 18, MNQ 22, MYM 21; 2018+ starts, 40% rule),
+   vs 5-7% (random side) / 11-14% (always long) without the stop-once-green rule. Idealized two-point trades: 32%.
+   => the honest luck control for any strategy is its zero-edge twin with the SAME day management (~20% pass10,
+   ~22-28% eventual pass rate), not the v2 bar.
+3. Speed is cheap, pass PROBABILITY needs edge. With zero edge the eventual pass rate is capped near 33-36% by the
+   geometry ($1,000 drawdown vs $1,250 target); edge raises it: net expectancy per trade +0.05R -> 44-53%,
+   +0.10R -> 54-74%, +0.20R -> 72-95% (fast vs slow sizing). Pass within 10 days: 32% (0R) -> 37% (0.05R)
+   -> 45% (0.10R) -> 63% (0.20R).
+4. Gaussian view: daily Sharpe (mean/sd of daily $) 0.10 -> 1.55x luck within 10 days, 0.15 -> 1.9x, 0.20 -> 2.3x,
+   0.30 -> 3.1x; best daily sd $400 (40% rule) / $500 (50% rule). Annualized: 0.15 daily = 2.4.
+5. Skew: under the 40% consistency rule + trailing drawdown + $600 daily limit, high-win-rate / small-target trades
+   beat lottery trades at the same mean & sd (pass10 22.6% vs 11.5% at win rate 85% vs 15%), and b=1R targets beat
+   3R targets at the same R-expectancy. Best DAY shape: upside capped near $500 (= 40% of target), downside limited
+   by the daily room; i.e. stop once green / at +$500. Stopping after one red trade HURTS (keep the room).
+6. Combining weak edges: combined daily Sharpe = s*sqrt(K)/sqrt(1+(K-1)rho). 16 uncorrelated s=0.05 streams -> 0.20
+   (pass20 26% -> 48%); with rho=0.3 it saturates near 0.09 (useless). Each stream must be scaled DOWN so total daily
+   sd stays $300-450; stacking at full size pushes sd past the optimum and lowers pass odds.
+7. Sizing: fixed $ risk per trade (micros = $B / stop $ per micro) > fixed micros (11.7 vs 18.1% pass10 at +0.1R) >
+   trailing-vol targeting (lags). Cushion-proportional sizing never busts but stalls (zombie accounts). Scale-up after
+   gains: worse; scale-down after +$500: higher pass rate, slower. Daily profit stop is the biggest lever (+20 pts).
+   $250-300 risk/trade for speed (median ~6 days); $150 for pass probability (69% at +0.1R, median 13 days).
+8. Event-only edges (<= 1 day/month) cannot drive a fast pass (0-5% within 10 days even at per-day Sharpe 0.8).
+   Positive autocorrelation of daily P&L helps (phi 0.4: pass10 13 -> 24% at S 0.1); negative hurts.
+9. Modeling caveats: flooring the day's END P&L at -$600 (prop_sim / eval_sim style) adds a phantom edge for wide
+   days (+$3/day at sd 300, +$12 at 400, +$50 at 600 for a zero-edge stream) - A/C/D here use an exact Brownian
+   intraday stop instead. Enforcing the trailing drawdown intraday (real-time) costs <= 1 pt of pass10 but +8-10 pts
+   of bust-within-20 at sd $250-500.
+TARGET SPEC: net >= +0.10R per trade after costs, beyond the plain-drift control, in both halves and 2022+ (MES 60-min
+stops ~$59/micro -> >= $6/micro/trade; MES 15-min >= $3; MNQ 60-min >= $10, 15-min >= $4.5; MYM 60-min >= $4.5);
+>= 1 trade on >= 80% of days (2-3 chances/day ideal); win rate >= 45% with 1-1.5R targets; daily Sharpe of the managed
+stream >= 0.15; top-10-days removal keeps most of the profit; proof needs t >= 3 on ~1,400-2,300 trades at 0.10R
+(350-600 at 0.20R), day-clustered. Judge pass10 and eventual pass rate against the zero-edge twin with the same
+management (MES ~18%, MNQ ~22%, MYM ~21% pass10 at 40%).
+============================================================================================================
+EVAL MATH (synthetic) - LucidFlex 25K: +$1,250 target, $1,000 EOD trailing DD (locks +100), $600 daily limit, consistency 40%/50%. 20,000 independent accounts per cell. pass10 = % of accounts passed within 10 trading days.
+Zero-edge Gaussian at daily sd $350-500 passes within 10 days 10-11% (c=40%) = the v2 luck bar (8-11%): calibrated.
+
+A. Gaussian days, hard -600 daily stop, consistency 40%: pass within 10 days %; rows = daily Sharpe (mean/sd), cols = daily sd $
+sd    100   150   200   250   300   350   400   500   600   800   1000
+S                                                                     
+0.00   0.0   0.5   3.0   6.2   8.6  10.0  10.6  10.7  10.2   7.8   6.1
+0.05   0.0   0.8   4.2   8.4  11.2  12.7  13.4  13.6  12.4   9.7   7.4
+0.10   0.0   1.2   5.8  10.8  14.0  15.7  16.6  16.5  15.0  11.8   9.1
+0.15   0.0   1.8   7.7  13.4  17.3  19.3  20.2  19.8  18.2  14.4  11.2
+0.20   0.1   2.6  10.1  16.9  21.1  23.5  24.2  23.6  21.7  17.1  13.4
+0.25   0.1   3.8  13.0  20.9  25.6  27.9  28.6  27.8  25.7  20.3  15.9
+0.30   0.1   5.1  16.2  25.4  30.3  32.5  33.2  32.1  29.6  23.8  18.8
+0.40   0.4   9.6  24.9  35.5  40.9  42.8  43.3  41.8  38.9  32.0  25.7
+0.50   0.9  15.7  35.4  47.1  51.8  53.8  54.0  52.1  48.7  40.6  33.5
+
+A. Gaussian days, hard -600 daily stop, consistency 40%: pass within 20 days %; rows = daily Sharpe (mean/sd), cols = daily sd $
+sd    100   150   200   250   300   350   400   500   600   800   1000
+S                                                                     
+0.00   0.3   4.5  11.7  17.3  20.2  21.0  20.4  18.7  16.8  12.7  10.0
+0.05   0.6   7.0  16.2  23.2  26.0  26.5  25.9  23.6  21.0  16.1  12.6
+0.10   1.1  10.2  22.4  29.7  32.4  32.8  32.0  29.0  25.5  19.9  16.0
+0.15   1.9  14.6  29.3  37.1  39.9  40.1  38.8  35.0  31.1  24.5  19.6
+0.20   3.4  20.6  37.0  45.2  47.8  47.8  46.4  41.8  37.4  29.1  23.8
+0.25   5.4  27.4  45.4  53.6  55.9  55.5  53.8  48.6  43.7  34.3  28.2
+0.30   8.3  35.1  54.0  61.6  63.6  62.5  60.6  55.2  49.8  40.0  33.0
+0.40  17.3  52.5  70.2  76.1  76.8  75.5  73.6  67.7  61.6  51.5  43.1
+0.50  31.5  69.3  82.8  86.8  86.8  85.6  83.4  78.3  72.4  62.0  53.1
+
+A. Gaussian days, hard -600 daily stop, consistency 40%: bust within 20 days %; rows = daily Sharpe (mean/sd), cols = daily sd $
+sd    100   150   200   250   300   350   400   500   600   800   1000
+S                                                                     
+0.00   2.7  17.0  33.9  47.3  56.9  63.2  68.0  73.3  76.3  81.0  83.6
+0.05   1.7  12.5  27.4  39.8  49.2  56.1  61.1  67.3  71.4  76.9  80.0
+0.10   1.1   8.7  21.4  32.9  41.8  48.5  53.9  61.1  66.0  72.3  75.9
+0.15   0.6   5.9  16.2  26.6  34.9  41.2  46.7  54.8  59.9  67.2  71.5
+0.20   0.3   4.0  11.9  21.3  28.8  34.7  39.9  48.2  53.8  62.3  67.1
+0.25   0.2   2.7   8.5  16.1  22.8  28.4  33.5  41.8  47.9  57.1  62.7
+0.30   0.1   1.7   6.0  11.8  17.9  23.2  27.7  36.1  42.3  51.9  58.3
+0.40   0.0   0.7   2.8   6.2  10.2  14.6  18.2  25.8  32.1  42.1  49.5
+0.50   0.0   0.2   1.2   3.0   5.4   8.2  11.4  17.5  23.5  33.2  41.2
+
+A. Gaussian days, hard -600 daily stop, consistency 40%: eventual pass rate % (pass/(pass+fail), 120 d); rows = daily Sharpe (mean/sd), cols = daily sd $
+sd     100   150   200   250   300   350   400   500   600   800   1000
+S                                                                      
+0.00   28.7  31.9  32.4  31.5  29.8  27.8  25.7  22.6  20.0  15.6  12.9
+0.05   51.4  47.8  44.1  41.4  38.4  35.5  32.7  28.5  25.1  19.9  16.5
+0.10   73.1  62.8  56.4  51.6  47.4  43.9  40.5  35.2  30.7  24.7  20.8
+0.15   86.9  75.6  67.8  61.4  56.5  52.6  48.8  42.0  37.4  30.1  25.4
+0.20   94.2  85.3  77.4  70.4  65.3  60.9  56.8  49.5  44.0  35.6  30.5
+0.25   97.5  91.5  84.8  78.4  73.0  68.6  64.1  56.5  50.6  41.2  35.4
+0.30   99.0  95.2  90.2  84.7  79.5  74.7  70.5  62.7  56.7  46.9  40.3
+0.40   99.9  98.6  96.1  92.8  88.9  84.6  81.1  73.7  67.4  57.4  49.8
+0.50  100.0  99.6  98.5  96.7  94.4  91.6  88.4  82.3  76.3  66.6  58.6
+
+A. Gaussian days, hard -600 daily stop, consistency 50%: pass within 10 days %; rows = daily Sharpe (mean/sd), cols = daily sd $
+sd    100   150   200   250   300   350   400   500   600   800   1000
+S                                                                     
+0.00   0.0   0.5   3.2   7.7  12.1  15.2  17.1  18.6  17.9  14.8  11.9
+0.05   0.0   0.8   4.5  10.2  15.1  18.7  20.9  22.3  21.4  17.5  14.1
+0.10   0.0   1.2   6.3  13.0  18.9  23.0  25.4  26.6  25.2  20.4  16.7
+0.15   0.0   1.8   8.4  16.1  23.1  27.5  30.0  31.0  29.4  24.0  19.8
+0.20   0.1   2.7  11.1  20.4  27.7  32.6  34.9  35.5  33.8  27.8  23.1
+0.25   0.1   3.8  14.1  24.9  32.9  37.8  40.1  40.6  38.4  32.0  26.5
+0.30   0.1   5.2  17.5  29.9  38.4  43.3  45.6  45.7  43.3  36.2  30.3
+0.40   0.4   9.7  26.7  41.2  50.3  54.6  56.6  55.9  53.2  45.1  38.0
+0.50   0.9  15.9  37.7  53.5  61.7  66.0  67.2  66.2  62.8  54.1  46.4
+
+A. Gaussian days, hard -600 daily stop, consistency 50%: pass within 20 days %; rows = daily Sharpe (mean/sd), cols = daily sd $
+sd    100   150   200   250   300   350   400   500   600   800   1000
+S                                                                     
+0.00   0.3   4.5  12.4  19.9  25.0  27.2  27.3  26.0  23.8  18.9  15.5
+0.05   0.6   7.0  17.2  26.6  31.4  33.4  33.4  31.5  28.6  22.7  18.6
+0.10   1.1  10.3  23.6  33.4  38.8  40.8  40.6  37.4  33.8  26.7  22.4
+0.15   1.9  14.7  30.6  41.4  46.9  48.4  47.6  43.6  39.3  31.6  26.3
+0.20   3.4  20.6  38.5  49.7  54.8  55.8  54.6  49.9  45.3  36.6  30.6
+0.25   5.4  27.5  47.1  58.3  62.5  63.1  61.5  56.3  50.9  41.6  35.1
+0.30   8.3  35.3  55.7  66.0  70.1  69.9  68.0  62.2  56.5  46.7  39.8
+0.40  17.3  52.7  71.7  79.6  81.5  80.6  78.8  73.0  67.1  56.9  48.5
+0.50  31.5  69.4  84.0  89.3  90.2  89.1  86.8  81.7  75.9  65.8  57.5
+
+A. Gaussian days, hard -600 daily stop, consistency 50%: bust within 20 days %; rows = daily Sharpe (mean/sd), cols = daily sd $
+sd    100   150   200   250   300   350   400   500   600   800   1000
+S                                                                     
+0.00   2.7  17.0  33.9  47.0  56.0  61.6  65.7  70.2  73.2  78.3  81.7
+0.05   1.7  12.5  27.4  39.5  48.5  54.5  58.9  64.3  68.4  74.3  78.1
+0.10   1.1   8.7  21.3  32.7  41.0  47.0  51.6  58.3  63.0  70.0  74.1
+0.15   0.6   5.9  16.2  26.4  34.1  39.8  44.8  52.2  57.3  65.0  69.9
+0.20   0.3   4.0  11.9  21.1  28.1  33.4  38.2  46.0  51.4  60.3  65.7
+0.25   0.2   2.7   8.5  15.9  22.2  27.4  32.2  39.9  45.9  55.3  61.5
+0.30   0.1   1.7   6.0  11.7  17.4  22.4  26.6  34.4  40.6  50.4  57.2
+0.40   0.0   0.7   2.8   6.1   9.9  14.1  17.5  24.6  31.0  41.0  48.8
+0.50   0.0   0.2   1.2   3.0   5.2   7.9  11.0  16.9  22.8  32.6  40.6
+
+A. Gaussian days, hard -600 daily stop, consistency 50%: eventual pass rate % (pass/(pass+fail), 120 d); rows = daily Sharpe (mean/sd), cols = daily sd $
+sd     100   150   200   250   300   350   400   500   600   800   1000
+S                                                                      
+0.00   28.7  31.9  33.1  33.5  33.1  32.0  30.4  27.9  25.1  20.1  16.6
+0.05   51.4  47.9  44.8  43.4  41.4  39.4  37.4  33.6  30.1  24.3  20.2
+0.10   73.1  62.9  56.9  53.2  50.2  47.8  45.0  40.0  35.7  28.7  24.4
+0.15   86.9  75.6  68.3  62.8  59.0  55.9  52.6  46.5  41.6  33.8  28.7
+0.20   94.2  85.3  77.7  71.5  67.2  63.6  59.7  52.9  47.7  38.8  33.1
+0.25   97.5  91.5  85.0  79.1  74.4  70.4  66.3  59.3  53.4  43.9  37.7
+0.30   99.0  95.2  90.3  85.1  80.5  76.2  72.4  65.0  58.9  49.1  42.2
+0.40   99.9  98.6  96.1  92.9  89.3  85.4  82.1  75.1  68.8  58.8  50.8
+0.50  100.0  99.6  98.5  96.8  94.5  92.0  88.9  83.0  77.1  67.2  59.2
+
+A2. intraday enforcement of the drawdown (c=40%), pass10 minus EOD-only pass10, and bust20 change:
+sd    100   150   200   250   300   350   400   500   600   800   1000
+S                                                                     
+0.00   0.0   0.0   0.0   0.0  -0.0  -0.1  -0.2  -0.5  -0.7  -0.7  -0.7
+0.05   0.0   0.0   0.0   0.0  -0.0  -0.1  -0.2  -0.6  -0.9  -0.9  -0.8
+0.10   0.0   0.0   0.0   0.0  -0.0  -0.1  -0.3  -0.7  -1.1  -1.1  -1.0
+0.15   0.0   0.0   0.0  -0.0  -0.0  -0.1  -0.3  -0.8  -1.2  -1.3  -1.2
+0.20   0.0   0.0   0.0  -0.0  -0.0  -0.2  -0.4  -0.9  -1.4  -1.4  -1.4
+0.25   0.0   0.0   0.0  -0.0  -0.1  -0.1  -0.4  -1.1  -1.7  -1.8  -1.6
+0.30   0.0   0.0   0.0  -0.0  -0.1  -0.2  -0.5  -1.2  -1.8  -2.0  -1.8
+0.40   0.0   0.0   0.0  -0.0  -0.1  -0.2  -0.5  -1.4  -2.3  -2.6  -2.5
+0.50   0.0   0.0   0.0  -0.0  -0.1  -0.3  -0.6  -1.5  -2.5  -3.3  -3.1
+sd    100   150   200   250   300   350   400   500   600   800   1000
+S                                                                     
+0.00   1.1   4.6   7.7   9.4   9.4   8.8   7.6   6.5   5.8   4.7   3.9
+0.05   0.6   3.8   7.3   9.3  10.0   9.5   8.7   7.7   6.7   5.5   4.5
+0.10   0.5   3.3   6.8   9.1  10.2  10.5   9.9   8.3   7.6   6.4   5.4
+0.15   0.3   2.5   6.0   8.3   9.8  10.5  10.2   9.5   9.0   7.3   6.1
+0.20   0.2   1.8   5.2   7.5   9.1  10.3  10.5  10.2   9.9   7.8   7.0
+0.25   0.1   1.3   4.3   7.1   8.7  10.1  10.7  10.5  10.5   8.4   7.3
+0.30   0.1   1.0   3.4   6.1   7.9   9.1  10.3  10.4  10.5   9.1   7.8
+0.40   0.0   0.5   1.9   4.2   6.0   7.4   8.9  10.3  10.5   9.8   8.8
+0.50   0.0   0.2   1.0   2.4   4.4   5.9   7.1   9.0  10.1  10.3   9.2
+
+G. Two-point trades (stop -1R = $B, target +bR), up to nmax trades/day, never risk past the $600 daily room, daily profit stop. ER = net expectancy in R per trade. Best config per row (c=40%):
+ ER   b  win_rate   B  nmax     pstop lstop  S_day  pass5  pass10  pass20  bust20  pass_rate  med_days_pass
+0.0 2.0      0.33 250     4 first_win  none   -0.0  20.26   31.88   33.69   66.27      33.73            5.0
+0.0 2.0      0.33 250     3 first_win  none   -0.0  20.26   31.88   33.69   66.27      33.73            5.0
+0.0 2.0      0.33 300     4 first_win  none   -0.0  20.26   31.88   33.69   66.27      33.73            5.0
+  ER   b  win_rate   B  nmax     pstop lstop  S_day  pass5  pass10  pass20  bust20  pass_rate  med_days_pass
+0.05 1.0      0.52 300     3       500  none   0.08  18.69   36.66   43.63   55.59      44.07            6.0
+0.05 1.0      0.52 250     3       500  none   0.08  18.69   36.66   43.63   55.59      44.07            6.0
+0.05 2.0      0.35 300     3 first_win  none   0.05  22.90   35.61   37.75   62.24      37.76            5.0
+ ER   b  win_rate   B  nmax pstop lstop  S_day  pass5  pass10  pass20  bust20  pass_rate  med_days_pass
+0.1 1.0      0.55 250     3   500  none   0.16  23.65   45.37   53.77   45.62      54.14            6.0
+0.1 1.0      0.55 300     3   500  none   0.16  23.65   45.37   53.77   45.62      54.14            6.0
+0.1 1.0      0.55 250     4   500  none   0.18  23.36   43.64   49.41   50.40      49.53            6.0
+ ER   b  win_rate   B  nmax pstop lstop  S_day  pass5  pass10  pass20  bust20  pass_rate  med_days_pass
+0.2 1.0       0.6 300     3   500  none   0.33  36.18   63.02   71.89   27.78      72.13            5.0
+0.2 1.0       0.6 250     3   500  none   0.33  36.18   63.02   71.89   27.78      72.13            5.0
+0.2 1.0       0.6 250     4   500  none   0.36  36.44   62.29   68.51   31.42      68.55            5.0
+
+G: best pass10 by payoff b (target in R) (rows = ER):
+b      1.0   1.5   2.0   3.0
+ER                          
+0.00  28.8  30.7  31.9  27.4
+0.05  36.7  35.6  35.6  31.8
+0.10  45.4  40.5  39.8  36.7
+0.20  63.0  51.4  49.0  46.7
+
+G: best pass10 by daily profit stop (rows = ER):
+pstop   500  first_win  none
+ER                          
+0.00   31.9       31.9  26.4
+0.05   36.7       35.6  29.7
+0.10   45.4       40.5  33.5
+0.20   63.0       51.4  51.2
+
+G: best pass10 by stop after a red day (rows = ER):
+lstop  none  one_loss
+ER                   
+0.00   31.9      26.4
+0.05   36.7      31.3
+0.10   45.4      38.8
+0.20   63.0      56.0
+
+G: best pass10 by max trades/day (rows = ER):
+nmax     1     2     3     4
+ER                          
+0.00  26.4  31.9  31.9  31.9
+0.05  29.7  35.6  36.7  35.6
+0.10  33.5  40.5  45.4  43.6
+0.20  44.1  51.4  63.0  62.3
+
+G: best pass10 by $ risk per trade (rows = ER):
+B      100   150   200   250   300   400
+ER                                      
+0.00  15.2  27.4  27.2  31.9  31.9  25.0
+0.05  19.4  31.8  31.6  36.7  36.7  28.8
+0.10  24.2  36.7  36.6  45.4  45.4  35.8
+0.20  35.3  50.3  57.4  63.0  63.0  51.8
+
+G: best eventual pass rate by payoff b:
+b      1.0   1.5   2.0   3.0
+ER                          
+0.00  34.8  36.2  35.4  35.8
+0.05  52.9  49.1  45.7  41.8
+0.10  74.4  63.9  59.0  49.8
+0.20  95.0  86.1  80.9  66.7
+
+F2. REAL random trades (v2 luck pools, 15-min bars, 1.5R target / 16-bar exit, costs in, 2018-2025H1), random side, demeaned to zero edge, + edge $/micro/trade; sequential with the daily-room rule. Best pass10 per market x edge (c=40%):
+edge_usd    0     2     5     10    20
+market                                
+ES        20.1  28.1  45.0  71.4  90.3
+NQ        22.4  28.2  37.3  56.6  78.0
+YM        19.5  29.7  52.8  81.2  95.6
+same, eventual pass rate:
+edge_usd    0     2     5     10     20
+market                                 
+ES        35.5  61.9  89.5  98.7  100.0
+NQ        37.6  55.8  79.3  94.3   99.7
+YM        41.2  71.5  95.3  99.5   99.9
+ES fixed micros, 2 trades/day, no profit stop (pass10 / pass_rate):
+size       k1   k2    k3    k5    k8
+edge_usd                            
+0         0.0  0.3   1.1   2.9   4.2
+2         0.0  0.4   1.6   4.6   7.2
+5         0.0  0.6   2.7   8.7  15.5
+10        0.1  1.4   7.1  24.7  40.1
+20        0.2  8.1  40.0  74.6  80.1
+size        k1    k2    k3    k5    k8
+edge_usd                              
+0         26.4  23.8  23.8  22.0  18.6
+2         48.5  49.3  47.8  43.6  37.9
+5         80.3  82.2  78.0  71.7  64.3
+10        97.6  96.0  93.7  89.8  86.5
+20        99.7  99.0  98.5  97.8  97.5
+ES with/without first-win profit stop (best pass10 over size, n):
+pstop     first_win  none
+edge_usd                 
+0              20.1  14.1
+2              28.1  16.8
+5              45.0  30.5
+10             71.4  61.7
+20             90.3  89.8
+
+E. sizing rules, ER 0.05, 2 trades/day (1.5R target), vol clustering, daily-room rule (c=40%). best per rule:
+                policy  param  pstop  micros_avg  pass5  pass10  pass20  bust20  pass60  pass_rate  med_days_pass
+fixed_risk+profit_stop  300.0    250         5.9   15.0    33.1    40.3    58.8    40.8       40.8            7.0
+            fixed_risk  250.0      0         4.9    2.7    14.3    29.7    59.7    35.2       35.2           12.0
+    scale_up_after_500  200.0      0         4.5    2.2    10.6    23.4    59.3    30.4       30.4           13.0
+          fixed_micros    4.0      0         3.9    1.7     9.0    21.2    57.4    31.2       31.5           15.0
+            vol_target  400.0      0         4.7    2.0     7.2    16.1    63.1    25.3       26.0           16.0
+  scale_down_after_500  300.0      0         4.3    0.5     6.7    19.7    57.6    33.4       33.9           18.0
+               cushion    0.2      0         1.9    1.6     5.8    14.5     0.0    29.5      100.0           21.0
+      target_remaining    3.0      0         2.7    0.7     4.6    11.4    52.5    24.6       29.7           22.0
+
+E. sizing rules, ER 0.10, 2 trades/day (1.5R target), vol clustering, daily-room rule (c=40%). best per rule:
+                policy  param  pstop  micros_avg  pass5  pass10  pass20  bust20  pass60  pass_rate  med_days_pass
+fixed_risk+profit_stop  300.0    250         6.0   17.5    38.4    46.8    52.3    47.3       47.3            7.0
+            fixed_risk  250.0      0         4.9    3.4    18.1    37.4    51.5    44.2       44.2           11.0
+    scale_up_after_500  200.0      0         4.6    2.8    13.6    30.4    51.8    39.1       39.1           13.5
+          fixed_micros    4.0      0         3.9    2.2    11.7    27.4    49.9    40.5       40.9           15.0
+            vol_target  400.0      0         4.7    2.5     9.2    21.1    55.6    34.1       35.2           16.0
+  scale_down_after_500  300.0      0         4.3    0.7     9.0    26.2    49.5    43.4       43.9           17.0
+               cushion    0.2      0         1.9    2.1     7.9    20.0     0.0    41.8      100.0           21.0
+      target_remaining    3.0      0         2.6    1.0     6.2    14.9    45.8    33.6       40.2           23.0
+
+E. sizing rules, ER 0.20, 2 trades/day (1.5R target), vol clustering, daily-room rule (c=40%). best per rule:
+                policy  param  pstop  micros_avg  pass5  pass10  pass20  bust20  pass60  pass_rate  med_days_pass
+fixed_risk+profit_stop  300.0    250         6.0   23.0    48.6    58.6    40.8    59.0       59.0            6.0
+            fixed_risk  250.0      0         4.9    5.7    28.7    55.2    35.2    62.3       62.3           11.0
+    scale_up_after_500  200.0      0         4.7    4.6    22.3    47.4    35.9    58.5       58.5           13.0
+          fixed_micros    4.0      0         3.9    3.7    19.6    44.0    34.8    60.1       60.4           14.0
+  scale_down_after_500  300.0      0         4.2    1.2    15.7    42.7    35.0    61.9       62.2           16.0
+            vol_target  400.0      0         4.7    4.2    15.6    34.9    40.9    53.2       54.1           15.0
+               cushion    0.2      0         2.1    3.5    14.1    34.9     0.0    68.7      100.0           20.0
+      target_remaining    5.0      0         2.5    0.4     9.5    34.5    24.2    68.8       72.0           20.0
+
+C. autocorrelation / regimes / sparse event-day edges (daily sd $300, c=40%):
+                 kind   S  param  pass5  pass10  pass20  bust20  pass_rate
+                  AR1 0.0   -0.3    0.3     3.1    11.2    48.4       24.7
+                  AR1 0.0    0.0    1.4     8.2    20.0    57.2       29.4
+                  AR1 0.0    0.2    3.0    12.7    25.5    59.3       32.2
+                  AR1 0.0    0.4    5.6    18.3    31.0    59.2       35.6
+                  AR1 0.0    0.6    9.7    24.6    36.8    56.8       39.8
+        regime_on_off 0.0    5.0    1.4     8.2    20.0    57.2       29.4
+        regime_on_off 0.0   20.0    1.4     8.2    20.0    57.2       29.4
+        regime_on_off 0.0   60.0    1.4     8.2    20.0    57.2       29.4
+                  AR1 0.1   -0.3    0.7     6.8    24.7    29.0       54.1
+                  AR1 0.1    0.0    2.5    13.4    32.4    42.1       47.6
+                  AR1 0.1    0.2    4.3    18.4    36.7    47.0       46.1
+                  AR1 0.1    0.4    7.5    24.1    41.0    48.9       46.7
+                  AR1 0.1    0.6   12.0    30.0    44.8    48.9       48.3
+        regime_on_off 0.1    5.0    2.6    13.8    32.7    42.7       47.1
+        regime_on_off 0.1   20.0    2.5    14.2    33.5    42.8       47.4
+        regime_on_off 0.1   60.0    2.6    14.7    33.8    42.5       47.7
+                  AR1 0.2   -0.3    1.4    13.4    43.8    14.9       78.8
+                  AR1 0.2    0.0    3.8    20.7    47.9    28.3       65.5
+                  AR1 0.2    0.2    6.1    25.5    49.6    35.1       60.2
+                  AR1 0.2    0.4    9.9    30.9    51.2    39.1       57.6
+                  AR1 0.2    0.6   14.9    36.2    52.7    41.2       56.4
+        regime_on_off 0.2    5.0    4.3    22.1    47.7    30.8       63.2
+        regime_on_off 0.2   20.0    4.6    23.4    48.5    32.3       61.9
+        regime_on_off 0.2   60.0    4.7    23.9    48.6    33.2       60.5
+               sparse 0.2    1.0    3.8    20.7    47.9    28.3       65.5
+               sparse 0.2    0.5    0.5     4.8    21.0    15.9       64.3
+               sparse 0.2    0.2    0.1     0.7     5.3     5.2       61.2
+               sparse 0.2    0.0    0.0     0.0     0.1     0.2       41.2
+               sparse 0.4    1.0    8.1    40.0    77.1     9.9       89.1
+               sparse 0.4    0.5    1.1    10.2    39.5     6.0       88.7
+               sparse 0.4    0.2    0.1     1.4    10.7     2.1       87.7
+               sparse 0.4    0.0    0.0     0.0     0.1     0.1       76.3
+               sparse 0.8    1.0   26.2    81.3    98.6     0.7       99.3
+               sparse 0.8    0.5    3.2    27.9    77.1     0.5       99.4
+               sparse 0.8    0.2    0.5     4.8    28.2     0.2       99.4
+               sparse 0.8    0.0    0.0     0.0     0.4     0.0       99.1
+sparse5%+filler_sd150 0.4    0.0    0.0     1.0     7.3    16.0       39.2
+sparse5%+filler_sd300 0.4    0.0    1.6     9.2    22.1    54.4       32.4
+sparse5%+filler_sd150 0.8    0.0    0.0     1.3     9.2    13.6       48.0
+sparse5%+filler_sd300 0.8    0.0    1.9    10.1    24.2    51.7       35.5
+
+D. K streams of daily Sharpe s each; 'rescaled' = total daily sd kept at $300, 'fixed_each' = each at $150 sd (c=40%):
+ s_each  rho  K  S_comb       mode      sd  pass10  pass20  bust20  pass_rate
+   0.03  0.0  1    0.03 fixed_each  150.00    0.62    5.68   13.85      38.56
+   0.03  0.0  1    0.03   rescaled  300.00    9.87   23.42   52.82      34.03
+   0.03  0.0  2    0.04 fixed_each  212.13    4.61   17.45   32.29      40.59
+   0.03  0.0  2    0.04   rescaled  300.00   10.50   25.02   50.84      36.38
+   0.03  0.0  4    0.06 fixed_each  300.00   11.56   27.16   48.20      39.70
+   0.03  0.0  4    0.06   rescaled  300.00   11.56   27.16   48.20      39.70
+   0.03  0.0  8    0.08 fixed_each  424.26   15.63   29.32   58.58      36.19
+   0.03  0.0  8    0.08   rescaled  300.00   13.04   30.40   44.66      44.18
+   0.03  0.0 16    0.12 fixed_each  600.00   16.33   27.96   63.50      33.21
+   0.03  0.0 16    0.12   rescaled  300.00   15.21   35.62   39.48      50.85
+   0.03  0.3  1    0.03 fixed_each  150.00    0.62    5.68   13.85      38.56
+   0.03  0.3  1    0.03   rescaled  300.00    9.87   23.42   52.82      34.03
+   0.03  0.3  2    0.04 fixed_each  241.87    6.64   20.52   40.84      38.08
+   0.03  0.3  2    0.04   rescaled  300.00   10.21   24.28   51.64      35.26
+   0.03  0.3  4    0.04 fixed_each  413.52   13.12   24.83   63.15      30.89
+   0.03  0.3  4    0.04   rescaled  300.00   10.56   25.14   50.67      36.61
+   0.03  0.3  8    0.05 fixed_each  746.99   10.17   16.92   75.82      20.50
+   0.03  0.3  8    0.05   rescaled  300.00   10.88   25.74   50.04      37.54
+   0.03  0.3 16    0.05 fixed_each 1407.12    4.70    8.57   83.43      12.19
+   0.03  0.3 16    0.05   rescaled  300.00   11.04   26.15   49.56      38.11
+   0.05  0.0  1    0.05 fixed_each  150.00    0.74    6.86   12.10      45.17
+   0.05  0.0  1    0.05   rescaled  300.00   10.97   26.00   49.74      37.88
+   0.05  0.0  2    0.07 fixed_each  212.13    5.45   20.64   28.35      47.31
+   0.05  0.0  2    0.07   rescaled  300.00   12.18   28.48   46.54      41.64
+   0.05  0.0  4    0.10 fixed_each  300.00   13.95   32.57   42.40      47.05
+   0.05  0.0  4    0.10   rescaled  300.00   13.95   32.57   42.40      47.05
+   0.05  0.0  8    0.14 fixed_each  424.26   19.64   36.80   50.44      45.28
+   0.05  0.0  8    0.14   rescaled  300.00   16.77   38.62   36.65      54.85
+   0.05  0.0 16    0.20 fixed_each  600.00   21.73   37.10   54.02      43.75
+   0.05  0.0 16    0.20   rescaled  300.00   21.19   47.70   28.59      65.00
+   0.05  0.3  1    0.05 fixed_each  150.00    0.74    6.86   12.10      45.17
+   0.05  0.3  1    0.05   rescaled  300.00   10.97   26.00   49.74      37.88
+   0.05  0.3  2    0.06 fixed_each  241.87    7.75   23.48   36.99      43.40
+   0.05  0.3  2    0.06   rescaled  300.00   11.71   27.33   47.84      40.04
+   0.05  0.3  4    0.07 fixed_each  413.52   14.90   28.40   59.30      35.07
+   0.05  0.3  4    0.07   rescaled  300.00   12.31   28.71   46.32      41.91
+   0.05  0.3  8    0.08 fixed_each  746.99   11.68   19.50   72.80      23.79
+   0.05  0.3  8    0.08   rescaled  300.00   12.76   29.76   45.26      43.32
+   0.05  0.3 16    0.09 fixed_each 1407.12    5.42   10.12   81.50      14.41
+   0.05  0.3 16    0.09   rescaled  300.00   13.07   30.45   44.62      44.24
+   0.08  0.0  1    0.08 fixed_each  150.00    0.96    8.92    9.98      54.68
+   0.08  0.0  1    0.08   rescaled  300.00   12.74   29.71   45.29      43.29
+   0.08  0.0  2    0.11 fixed_each  212.13    7.10   26.17   23.03      57.19
+   0.08  0.0  2    0.11   rescaled  300.00   14.77   34.60   40.46      49.53
+   0.08  0.0  4    0.16 fixed_each  300.00   18.08   41.42   34.02      58.13
+   0.08  0.0  4    0.16   rescaled  300.00   18.08   41.42   34.02      58.13
+   0.08  0.0  8    0.23 fixed_each  424.26   26.31   48.48   39.29      57.98
+   0.08  0.0  8    0.23   rescaled  300.00   23.48   51.83   25.33      69.34
+   0.08  0.0 16    0.32 fixed_each  600.00   31.51   51.92   39.97      58.94
+   0.08  0.0 16    0.32   rescaled  300.00   32.40   65.92   15.94      81.68
+   0.08  0.3  1    0.08 fixed_each  150.00    0.96    8.92    9.98      54.68
+   0.08  0.3  1    0.08   rescaled  300.00   12.74   29.71   45.29      43.29
+   0.08  0.3  2    0.10 fixed_each  241.87    9.44   28.58   31.80      51.26
+   0.08  0.3  2    0.10   rescaled  300.00   13.92   32.46   42.48      46.93
+   0.08  0.3  4    0.12 fixed_each  413.52   17.70   33.74   53.02      41.98
+   0.08  0.3  4    0.12   rescaled  300.00   14.97   35.02   40.07      50.07
+   0.08  0.3  8    0.13 fixed_each  746.99   14.30   24.10   67.80      29.25
+   0.08  0.3  8    0.13   rescaled  300.00   15.82   36.79   38.25      52.47
+   0.08  0.3 16    0.14 fixed_each 1407.12    6.62   12.63   78.40      17.84
+   0.08  0.3 16    0.14   rescaled  300.00   16.38   37.94   37.41      53.80
+   0.10  0.0  1    0.10 fixed_each  150.00    1.16   10.32    8.66      61.14
+   0.10  0.0  1    0.10   rescaled  300.00   13.95   32.57   42.40      47.05
+   0.10  0.0  2    0.14 fixed_each  212.13    8.36   30.19   19.82      63.70
+   0.10  0.0  2    0.14   rescaled  300.00   16.77   38.62   36.65      54.85
+   0.10  0.0  4    0.20 fixed_each  300.00   21.19   47.70   28.59      65.00
+   0.10  0.0  4    0.20   rescaled  300.00   21.19   47.70   28.59      65.00
+   0.10  0.0  8    0.28 fixed_each  424.26   31.32   56.14   32.18      65.79
+   0.10  0.0  8    0.28   rescaled  300.00   28.68   60.30   19.24      77.28
+   0.10  0.0 16    0.40 fixed_each  600.00   39.16   61.47   32.12      67.29
+   0.10  0.0 16    0.40   rescaled  300.00   40.76   76.70    9.89      89.03
+   0.10  0.3  1    0.10 fixed_each  150.00    1.16   10.32    8.66      61.14
+   0.10  0.3  1    0.10   rescaled  300.00   13.95   32.57   42.40      47.05
+   0.10  0.3  2    0.12 fixed_each  241.87   10.92   32.30   28.28      56.74
+   0.10  0.3  2    0.12   rescaled  300.00   15.45   36.20   38.88      51.60
+   0.10  0.3  4    0.15 fixed_each  413.52   19.96   37.80   48.94      46.60
+   0.10  0.3  4    0.15   rescaled  300.00   17.05   39.17   36.13      55.43
+   0.10  0.3  8    0.16 fixed_each  746.99   16.06   27.16   64.54      32.81
+   0.10  0.3  8    0.16   rescaled  300.00   18.15   41.52   33.98      58.24
+   0.10  0.3 16    0.17 fixed_each 1407.12    7.66   14.58   75.76      20.66
+   0.10  0.3 16    0.17   rescaled  300.00   18.94   43.16   32.61      59.88
+
+B. skew at matched trade mean & sd (daily sd ~$300), EOD check, no profit stop, c=40% (caveat: two-point lattice effects):
+pass10 (rows S, n; cols win rate)
+win_rate  0.15  0.30  0.50  0.70  0.85
+S   n                                 
+0.0 1      6.2  17.1  10.7  16.9  19.5
+    2      7.4   7.6  18.7  14.1   7.5
+    4      6.6   7.5  10.7  13.8  15.4
+0.1 1      7.6  23.8  22.9  22.1  23.6
+    2     12.0  11.0  19.2  19.1  24.7
+    4     11.5  12.7  13.4  23.2  22.6
+0.2 1     10.9  28.2  29.4  42.2  31.8
+    2     18.5  15.5  32.2  31.0  31.0
+    4     14.2  15.8  21.2  34.7  31.4
+pass20 (rows S, n; cols win rate)
+win_rate  0.15  0.30  0.50  0.70  0.85
+S   n                                 
+0.0 1     16.2  28.9  25.0  30.8  32.6
+    2     15.2  18.3  33.5  29.6  28.2
+    4     14.9  18.2  24.4  28.2  30.0
+0.1 1     23.4  45.2  40.9  44.7  52.1
+    2     25.8  29.2  42.1  42.6  47.8
+    4     25.2  30.1  33.6  43.6  45.8
+0.2 1     36.1  56.0  57.0  58.8  64.2
+    2     41.1  42.7  56.0  58.4  63.4
+    4     36.2  40.4  49.0  57.8  58.1
+bust20 (rows S, n; cols win rate)
+win_rate  0.15  0.30  0.50  0.70  0.85
+S   n                                 
+0.0 1     64.9  57.4  57.8  56.8  45.7
+    2     62.9  62.3  47.4  54.2  52.5
+    4     63.6  57.9  52.7  53.9  53.7
+0.1 1     37.0  41.1  47.2  47.6  38.8
+    2     43.1  43.4  42.8  42.3  34.9
+    4     40.8  41.8  43.3  41.3  40.6
+0.2 1     10.8  23.6  28.5  31.4  32.2
+    2     20.2  28.7  29.5  30.4  26.4
+    4     24.3  31.3  29.3  29.8  30.6
+pass_rate (rows S, n; cols win rate)
+win_rate  0.15  0.30  0.50  0.70  0.85
+S   n                                 
+0.0 1     22.6  33.5  32.6  36.2  47.3
+    2     22.8  25.9  41.6  37.5  39.3
+    4     22.7  27.4  34.2  36.1  38.1
+0.1 1     43.9  51.6  48.1  49.2  58.9
+    2     42.7  44.5  50.5  51.9  59.8
+    4     43.9  45.9  47.1  52.3  54.0
+0.2 1     74.6  69.4  67.2  66.3  66.8
+    2     69.7  63.4  66.7  66.5  71.4
+    4     65.5  62.0  64.7  66.9  66.4
+A*. Gaussian: best daily sd for passing within 10 days, per daily Sharpe (S) and consistency
+ cons    S  ann_sharpe  best_sd10  pass10  lift_vs_luck  bust20_at_best  pass_rate_at_best  best_sd20  pass20
+  0.4 0.00        0.00      500.0   10.72          1.00           73.27              22.61      350.0   20.95
+  0.4 0.05        0.79      500.0   13.56          1.26           67.26              28.48      350.0   26.48
+  0.4 0.10        1.59      400.0   16.63          1.55           53.88              40.54      350.0   32.83
+  0.4 0.15        2.38      400.0   20.18          1.88           46.68              48.79      350.0   40.13
+  0.4 0.20        3.17      400.0   24.24          2.26           39.86              56.75      350.0   47.84
+  0.4 0.25        3.97      400.0   28.58          2.67           33.53              64.10      300.0   55.89
+  0.4 0.30        4.76      400.0   33.16          3.09           27.72              70.53      300.0   63.55
+  0.4 0.40        6.35      400.0   43.30          4.04           18.23              81.09      300.0   76.76
+  0.4 0.50        7.94      400.0   53.96          5.03           11.42              88.38      300.0   86.82
+  0.5 0.00        0.00      500.0   18.58          1.00           70.19              27.86      400.0   27.32
+  0.5 0.05        0.79      500.0   22.29          1.20           64.33              33.60      400.0   33.44
+  0.5 0.10        1.59      500.0   26.63          1.43           58.26              39.99      350.0   40.78
+  0.5 0.15        2.38      500.0   30.96          1.67           52.16              46.46      350.0   48.42
+  0.5 0.20        3.17      500.0   35.49          1.91           45.98              52.91      350.0   55.81
+  0.5 0.25        3.97      500.0   40.64          2.19           39.88              59.28      350.0   63.10
+  0.5 0.30        4.76      500.0   45.68          2.46           34.42              64.95      300.0   70.08
+  0.5 0.40        6.35      400.0   56.58          3.05           17.49              82.06      300.0   81.50
+  0.5 0.50        7.94      400.0   67.24          3.62           11.02              88.86      300.0   90.25
+
+G*. speed vs often frontier (c=40%): highest eventual pass rate among configs whose median days to pass <= D
+  ER                        <= 6d                      <= 8d                       <= 10d                       <= 15d                       <= 20d                       <= 30d
+0.00 36% (B300,b1.5,n2,first_win) 36% (B150,b3,n3,first_win)   36% (B150,b3,n3,first_win) 36% (B150,b1.5,n4,first_win) 36% (B150,b1.5,n4,first_win) 36% (B150,b1.5,n4,first_win)
+0.05         44% (B250,b1,n3,500)       44% (B250,b1,n3,500) 45% (B200,b1.5,n4,first_win)        52% (B150,b1,n4,none)        52% (B150,b1,n4,none)        53% (B100,b1,n4,none)
+0.10         54% (B250,b1,n3,500)       54% (B250,b1,n3,500)         56% (B200,b1,n4,500)        69% (B150,b1,n4,none)        69% (B150,b1,n4,none)        74% (B100,b1,n4,none)
+0.20         72% (B250,b1,n3,500)       80% (B200,b1,n4,500)        91% (B150,b1,n4,none)        95% (B100,b1,n4,none)        95% (B100,b1,n4,none)        95% (B100,b1,n4,none)
+
+POWER. trades needed for t = 3 (independent trades): n = (3 x sd_R / ER)^2; sd_R of a 1.5R-target two-point trade ~1.25, real pool trades 1.1-2.2
+   ER  n_sdR_1_25  n_sdR_1_6  n_sdR_2_2  usd_per_micro_MES60  usd_per_micro_MES15  usd_per_micro_MNQ60  usd_per_micro_MNQ15  usd_per_micro_MYM60
+0.025       22500      36864      69696                  1.5                  0.7                  2.5                  1.1                  1.1
+0.050        5625       9216      17424                  3.0                  1.4                  5.0                  2.2                  2.3
+0.100        1406       2304       4356                  5.9                  2.8                 10.0                  4.5                  4.5
+0.150         625       1024       1936                  8.9                  4.1                 14.9                  6.8                  6.8
+0.200         351        576       1089                 11.8                  5.5                 19.9                  9.0                  9.0
+(usd_per_micro_* = ER x median stop $/micro of the v2 random-trade pools, 2018-2025H1: MES 60-min $59, 15-min $27.5; MNQ $99.5 / $45; MYM 60-min $45)
+LUCK 2.0 (real pre-holdout trades, real costs and drift): best pass-within-10-days % over sizes/n, c=40%
+side           long       random     
+pstop         green  none  green none
+market window                        
+ES     2013+   15.2   9.3   15.6  4.7
+       2018+   18.1  10.8   18.0  5.6
+       2022+   18.0  11.7   18.9  5.3
+NQ     2013+   18.7  12.1   18.9  5.8
+       2018+   20.6  12.4   22.0  6.9
+       2022+   21.6  11.5   22.2  6.4
+YM     2013+   20.3  14.1   20.2  6.9
+       2018+   19.6  13.7   20.7  6.8
+       2022+   20.3  14.8   21.4  7.7
+
+same, best eventual pass rate %
+side           long       random      
+pstop         green  none  green  none
+market window                         
+ES     2013+   18.2  17.8   18.1  10.5
+       2018+   21.1  21.9   22.0  13.9
+       2022+   22.3  23.6   22.5  14.7
+NQ     2013+   24.2  25.3   23.8  16.4
+       2018+   25.9  27.3   28.0  21.2
+       2022+   27.6  30.0   28.1  21.1
+YM     2013+   24.5  26.1   24.3  17.4
+       2018+   23.8  25.2   25.2  17.7
+       2022+   24.5  25.6   26.8  18.6
+
+best single configs per market (2018+ starts, c=40%) by pass10
+market  tf    exit   side  n size pstop  day_mean  pass5  pass10  pass20  bust20  pass_rate  med_days_pass
+    NQ  60 pnl_old random  3 B400 green     -22.5   11.5    22.0    26.7    72.6       27.0            6.0
+    YM  60 pnl_old random  3 B400 green     -36.5   11.4    20.7    24.3    75.3       24.5            6.0
+    NQ  60 pnl_old   long  3 B400 green     -39.3   11.0    20.6    24.1    75.4       24.3            6.0
+    NQ  60 pnl_old random  2 B400 green     -19.2    9.7    20.2    27.3    71.0       28.0            7.0
+    NQ  15 pnl_old   long  3 B400 green     -25.8    9.0    20.2    25.4    73.5       25.9            7.0
+    YM  60 pnl_old random  2 B400 green     -30.6    9.9    19.8    24.8    74.1       25.2            7.0
+    YM  60 pnl_old   long  3 B400 green     -49.4   10.9    19.6    22.1    77.7       22.2            6.0
+    YM  60 pnl_old   long  2 B400 green     -40.2   10.3    19.5    23.5    76.0       23.8            6.0
+    ES  60 pnl_old   long  3 B400 green     -61.3   10.3    18.1    20.7    79.1       20.8            6.0
+    ES  60 pnl_old random  3 B400 green     -51.4    9.8    18.0    21.0    78.8       21.1            6.0
+    ES  60 pnl_old   long  2 B400 green     -51.0    9.8    17.9    20.9    78.5       21.1            6.0
+    ES  60 pnl_old random  2 B400 green     -44.5    8.7    17.9    21.7    77.4       22.0            7.0
+
+c=50%: best pass10 by market/window/side/pstop
+side           long       random      
+pstop         green  none  green  none
+market window                         
+ES     2013+   17.2  15.9   17.5   8.7
+       2018+   20.6  18.7   20.8  10.4
+       2022+   20.8  19.0   22.0   9.8
+NQ     2013+   21.7  19.7   21.8  10.1
+       2018+   24.0  21.8   25.6  12.6
+       2022+   25.4  20.5   25.3  11.7
+YM     2013+   23.4  22.3   23.3  12.3
+       2018+   22.9  22.4   24.0  12.5
+       2022+   23.6  21.9   24.8  13.8

@@ -1,0 +1,13 @@
+                       cfg   role   wins     score      n     per_year       usd  edge_drift  tc_drift  edge_rskip  tc_rskip
+0    60|opp3_1b|M3|cls|exp  best3   True  1.690432  10858  1031.003799  3.038791    5.290350  1.742268    4.729783  1.690432
+1  60|ema_cross|M3|reg|exp  best3  False  1.259508   9322   884.164977 -0.518914    4.235506  1.259508    3.851255  1.290475
+2    60|opp3_1b|M3|reg|exp  best3  False  1.258508   8985   841.642439  0.993649    3.571985  1.422694    2.904648  1.258508
+3       15|hold|M3|cls|exp  extra  False  0.829431  39859  3773.626837  2.978748    1.361423  0.829431    2.436490  1.519179
+oos_M3_cls_opp3_1b_60m_exp.parquet: 10,858 trades
+  hand check 45 trades: max |diff| 0.000000, 0 differ
+oos_M3_reg_ema_cross_60m_exp.parquet: 9,322 trades
+  hand check 45 trades: max |diff| 0.000000, 0 differ
+oos_M3_reg_opp3_1b_60m_exp.parquet: 8,985 trades
+  hand check 45 trades: max |diff| 0.000000, 0 differ
+oos_M3_cls_hold_15m_exp.parquet: 39,859 trades
+  hand check 45 trades: max |diff| 0.000000, 0 differ

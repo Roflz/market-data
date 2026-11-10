@@ -1,0 +1,28 @@
+  NQ: 5,567,303 1-min bars, 4220 dates with RTH bars, bars from a non-09:30 contract inside RTH: 0  (load 2.7s)
+[1] rebuilt 3509 trades $19,438.00 vs csv 3509 $19,438.00; only-one-side rows 0; side mismatches 0; max |usd diff| 0.000000
+    first-candle range vs lit_p5_orb grid on trade days: max |diff| 0.000000
+[2] 2023-09-08 truncated-at-9:35 vs full: max |diff| 3.64e-12
+[2] 2021-10-04 truncated-at-9:35 vs full: max |diff| 1.82e-12
+[2] 2022-02-01 truncated-at-9:35 vs full: max |diff| 3.64e-12
+[2] 2017-03-08 truncated-at-9:35 vs full: max |diff| 9.09e-13
+[2] 2024-05-07 truncated-at-9:35 vs full: max |diff| 0.00e+00
+[2] 2015-12-15 truncated-at-9:35 vs full: max |diff| 2.73e-12
+[2] 2014-02-11 truncated-at-9:35 vs full: max |diff| 1.82e-12
+[2] 2026-08-31 truncated-at-9:35 vs full: max |diff| 3.64e-12
+[2] 2014-06-27 truncated-at-9:35 vs full: max |diff| 9.09e-13
+[2] 2023-07-19 truncated-at-9:35 vs full: max |diff| 1.82e-12
+[2] 2016-03-28 truncated-at-9:35 vs full: max |diff| 1.82e-12
+[2] 2021-03-29 truncated-at-9:35 vs full: max |diff| 0.00e+00
+[2] 2010-07-23 truncated-at-9:35 vs full: max |diff| 1.14e-12
+[2] 2026-11-05 truncated-at-9:35 vs full: max |diff| 0.00e+00
+    worst over 14 dates: 3.64e-12
+[3] 2010-08-02 short: fc 7.25 (ours 7.25) med20 5.875 (ours 5.875); on 21.00 (ours 21.00) med20 17.625 (ours 17.625); gap +22.25 (ours +22.25); 9:34 close raw 1882.25 (ours adj 5654.25, adj offset +3772.00)
+[3] 2014-12-24 long: fc 7.25 (ours 7.25) med20 10.625 (ours 10.625); on 10.00 (ours 10.00) med20 23.125 (ours 23.125); gap +4.75 (ours +4.75); 9:34 close raw 4287.25 (ours adj 8142.50, adj offset +3855.25)
+[3] 2019-02-25 long: fc 9.50 (ours 9.50) med20 18.375 (ours 18.375); on 51.75 (ours 51.75) med20 59.625 (ours 59.625); gap +53.75 (ours +53.75); 9:34 close raw 7156.25 (ours adj 10924.50, adj offset +3768.25)
+[3] 2023-04-13 long: fc 39.00 (ours 39.00) med20 40.750 (ours 40.750); on 112.50 (ours 112.50) med20 125.750 (ours 125.750); gap +69.25 (ours +69.25); 9:34 close raw 13057.25 (ours adj 16425.50, adj offset +3368.25)
+[3] 2026-05-19 long: fc 148.75 (ours 148.75) med20 83.625 (ours 83.625); on 385.75 (ours 385.75) med20 290.125 (ours 290.125); gap -248.50 (ours -248.50); 9:34 close raw 28957.75 (ours adj 29568.75, adj offset +611.00)
+[3] T1 2010-08-02: prev session 2010-07-30 EMA20 5614.155 (ours 5614.155), 9:34 close 5654.25, trend +1 (ours +1)
+[3] T1 2014-12-24: prev session 2014-12-23 EMA20 8093.989 (ours 8093.989), 9:34 close 8142.50, trend +1 (ours +1)
+[3] T1 2019-02-25: prev session 2019-02-22 EMA20 10726.139 (ours 10726.139), 9:34 close 10924.50, trend +1 (ours +1)
+[3] T1 2023-04-13: prev session 2023-04-12 EMA20 16313.345 (ours 16313.345), 9:34 close 16425.50, trend +1 (ours +1)
+[3] T1 2026-05-19: prev session 2026-05-18 EMA20 28852.189 (ours 28852.189), 9:34 close 29568.75, trend +1 (ours +1)

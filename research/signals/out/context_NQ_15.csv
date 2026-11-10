@@ -1,0 +1,1197 @@
+market,tf,pattern,direction,signal,state,share_at_pattern,share_all_bars
+NQ,15,doji,present,trend,down,0.3203757197788533,0.32438955099969385
+NQ,15,doji,present,trend,mixed,0.22294492376561514,0.23243261133988488
+NQ,15,doji,present,trend,up,0.45667935645553154,0.4431778376604213
+NQ,15,doji,present,momentum,falling,0.511449505480841,0.5013639084181696
+NQ,15,doji,present,momentum,flat,0.011210376293688902,0.0032215268603076447
+NQ,15,doji,present,momentum,rising,0.4773401182254701,0.49541456472152273
+NQ,15,doji,present,near support (<0.5 ATR),no,0.8091749086526505,0.7621972578407495
+NQ,15,doji,present,near support (<0.5 ATR),yes,0.19082509134734948,0.23780274215925043
+NQ,15,doji,present,near resistance (<0.5 ATR),no,0.7194536376331949,0.6983100774766178
+NQ,15,doji,present,near resistance (<0.5 ATR),yes,0.280546362366805,0.3016899225233823
+NQ,15,doji,present,vs VWAP,above,0.5714231056185793,0.5553768883029339
+NQ,15,doji,present,vs VWAP,below,0.4285768943814206,0.44462311169706614
+NQ,15,doji,present,mom14 above 100,no,0.45440284659384383,0.46862734822554
+NQ,15,doji,present,mom14 above 100,yes,0.5455971534061561,0.53137265177446
+NQ,15,doji,present,close location,0-20%,0.11895242285692423,0.20916093314897763
+NQ,15,doji,present,close location,20-40%,0.2357239875270216,0.18935925352497496
+NQ,15,doji,present,close location,40-60%,0.2820767891645783,0.1775030840943526
+NQ,15,doji,present,close location,60-80%,0.2428978631415836,0.1969901446971516
+NQ,15,doji,present,close location,80-100%,0.1203489373098923,0.22698658453454323
+NQ,15,doji,present,volatility,calm (<0.8x),0.3643866547280726,0.39029805293042813
+NQ,15,doji,present,volatility,high (>1.2x),0.26608790438743335,0.25493223007811294
+NQ,15,doji,present,volatility,normal,0.3695254408844941,0.3547697169914589
+NQ,15,doji,present,time of day,Asia (18-2),0.4367646777495074,0.3688868907576932
+NQ,15,doji,present,time of day,Close (15-16),0.02682072963097584,0.030519002319609665
+NQ,15,doji,present,time of day,Europe (2-8),0.2418456947181145,0.2794178083136355
+NQ,15,doji,present,time of day,Midday (10:30-15),0.21735886595374285,0.20483725497226674
+NQ,15,doji,present,time of day,Open (9:30-10:30),0.02222944923765615,0.046516310358808585
+NQ,15,doji,present,time of day,Post (16-17),3.826066994433073e-05,2.4823409026343153e-05
+NQ,15,doji,present,time of day,US pre (8-9:30),0.05494232204005892,0.06979790986895998
+NQ,15,dragonfly_doji,bullish,trend,against,0.3244766505636071,0.32438955099969385
+NQ,15,dragonfly_doji,bullish,trend,mixed,0.22678475577026302,0.23243261133988488
+NQ,15,dragonfly_doji,bullish,trend,with,0.4487385936661299,0.4431778376604213
+NQ,15,dragonfly_doji,bullish,momentum,flat,0.017176596886741814,0.0032215268603076447
+NQ,15,dragonfly_doji,bullish,momentum,turning against,0.5177133655394525,0.5013639084181696
+NQ,15,dragonfly_doji,bullish,momentum,turning with,0.4651100375738057,0.49541456472152273
+NQ,15,dragonfly_doji,bullish,level in signal direction,at support/resistance,0.2010198604401503,0.23780274215925043
+NQ,15,dragonfly_doji,bullish,level in signal direction,not near,0.7989801395598497,0.7621972578407495
+NQ,15,dragonfly_doji,bullish,vs VWAP,on the cheap side,0.43800322061191627,0.44462311169706614
+NQ,15,dragonfly_doji,bullish,vs VWAP,on the rich side,0.5619967793880838,0.5553768883029339
+NQ,15,dragonfly_doji,bullish,mom14 above 100,no,0.4712828770799785,0.46862734822554
+NQ,15,dragonfly_doji,bullish,mom14 above 100,yes,0.5287171229200215,0.53137265177446
+NQ,15,dragonfly_doji,bullish,close location,0-20%,0.0,0.20916093314897763
+NQ,15,dragonfly_doji,bullish,close location,20-40%,0.0,0.18935925352497496
+NQ,15,dragonfly_doji,bullish,close location,40-60%,0.00322061191626409,0.1775030840943526
+NQ,15,dragonfly_doji,bullish,close location,60-80%,0.11782071926999463,0.1969901446971516
+NQ,15,dragonfly_doji,bullish,close location,80-100%,0.8789586688137413,0.22698658453454323
+NQ,15,dragonfly_doji,bullish,volatility,calm (<0.8x),0.3773224043715847,0.39029805293042813
+NQ,15,dragonfly_doji,bullish,volatility,high (>1.2x),0.24699453551912567,0.25493223007811294
+NQ,15,dragonfly_doji,bullish,volatility,normal,0.3756830601092896,0.3547697169914589
+NQ,15,dragonfly_doji,bullish,time of day,Asia (18-2),0.5579710144927537,0.3688868907576932
+NQ,15,dragonfly_doji,bullish,time of day,Close (15-16),0.019860440150295224,0.030519002319609665
+NQ,15,dragonfly_doji,bullish,time of day,Europe (2-8),0.20128824476650564,0.2794178083136355
+NQ,15,dragonfly_doji,bullish,time of day,Midday (10:30-15),0.166935050993022,0.20483725497226674
+NQ,15,dragonfly_doji,bullish,time of day,Open (9:30-10:30),0.014492753623188406,0.046516310358808585
+NQ,15,dragonfly_doji,bullish,time of day,Post (16-17),0.0,2.4823409026343153e-05
+NQ,15,dragonfly_doji,bullish,time of day,US pre (8-9:30),0.039452495974235106,0.06979790986895998
+NQ,15,gravestone_doji,bearish,trend,against,0.46808510638297873,0.4431778376604213
+NQ,15,gravestone_doji,bearish,trend,mixed,0.22311673375503163,0.23243261133988488
+NQ,15,gravestone_doji,bearish,trend,with,0.30879815986198966,0.32438955099969385
+NQ,15,gravestone_doji,bearish,momentum,flat,0.017826336975273145,0.0032215268603076447
+NQ,15,gravestone_doji,bearish,momentum,turning against,0.47814836112708453,0.49541456472152273
+NQ,15,gravestone_doji,bearish,momentum,turning with,0.5040253018976423,0.5013639084181696
+NQ,15,gravestone_doji,bearish,level in signal direction,at support/resistance,0.281196089706728,0.3016899225233823
+NQ,15,gravestone_doji,bearish,level in signal direction,not near,0.718803910293272,0.6983100774766178
+NQ,15,gravestone_doji,bearish,vs VWAP,on the cheap side,0.5572167912593444,0.5553768883029339
+NQ,15,gravestone_doji,bearish,vs VWAP,on the rich side,0.4427832087406556,0.44462311169706614
+NQ,15,gravestone_doji,bearish,mom14 above 100,no,0.4399079930994825,0.46862734822554
+NQ,15,gravestone_doji,bearish,mom14 above 100,yes,0.5600920069005175,0.53137265177446
+NQ,15,gravestone_doji,bearish,close location,0-20%,0.8962047153536515,0.20916093314897763
+NQ,15,gravestone_doji,bearish,close location,20-40%,0.10379528464634848,0.18935925352497496
+NQ,15,gravestone_doji,bearish,close location,40-60%,0.0,0.1775030840943526
+NQ,15,gravestone_doji,bearish,close location,60-80%,0.0,0.1969901446971516
+NQ,15,gravestone_doji,bearish,close location,80-100%,0.0,0.22698658453454323
+NQ,15,gravestone_doji,bearish,volatility,calm (<0.8x),0.39347634440199825,0.39029805293042813
+NQ,15,gravestone_doji,bearish,volatility,high (>1.2x),0.21951219512195122,0.25493223007811294
+NQ,15,gravestone_doji,bearish,volatility,normal,0.38701146047605056,0.3547697169914589
+NQ,15,gravestone_doji,bearish,time of day,Asia (18-2),0.5692926969522715,0.3688868907576932
+NQ,15,gravestone_doji,bearish,time of day,Close (15-16),0.017826336975273145,0.030519002319609665
+NQ,15,gravestone_doji,bearish,time of day,Europe (2-8),0.20759056929269695,0.2794178083136355
+NQ,15,gravestone_doji,bearish,time of day,Midday (10:30-15),0.15267395054629096,0.20483725497226674
+NQ,15,gravestone_doji,bearish,time of day,Open (9:30-10:30),0.014951121334100058,0.046516310358808585
+NQ,15,gravestone_doji,bearish,time of day,Post (16-17),0.0,2.4823409026343153e-05
+NQ,15,gravestone_doji,bearish,time of day,US pre (8-9:30),0.037665324899367456,0.06979790986895998
+NQ,15,hammer,bullish,trend,against,0.5072805981896891,0.32438955099969385
+NQ,15,hammer,bullish,trend,mixed,0.2715466351829988,0.23243261133988488
+NQ,15,hammer,bullish,trend,with,0.22117276662731208,0.4431778376604213
+NQ,15,hammer,bullish,momentum,flat,0.005509641873278237,0.0032215268603076447
+NQ,15,hammer,bullish,momentum,turning against,0.52262888626525,0.5013639084181696
+NQ,15,hammer,bullish,momentum,turning with,0.47186147186147187,0.49541456472152273
+NQ,15,hammer,bullish,level in signal direction,at support/resistance,0.568280204643841,0.23780274215925043
+NQ,15,hammer,bullish,level in signal direction,not near,0.431719795356159,0.7621972578407495
+NQ,15,hammer,bullish,vs VWAP,on the cheap side,0.7977174340810704,0.44462311169706614
+NQ,15,hammer,bullish,vs VWAP,on the rich side,0.20228256591892957,0.5553768883029339
+NQ,15,hammer,bullish,mom14 above 100,no,0.8189689098780008,0.46862734822554
+NQ,15,hammer,bullish,mom14 above 100,yes,0.18103109012199922,0.53137265177446
+NQ,15,hammer,bullish,close location,0-20%,0.0,0.20916093314897763
+NQ,15,hammer,bullish,close location,20-40%,0.0,0.18935925352497496
+NQ,15,hammer,bullish,close location,40-60%,0.003935458480913027,0.1775030840943526
+NQ,15,hammer,bullish,close location,60-80%,0.3892168437622983,0.1969901446971516
+NQ,15,hammer,bullish,close location,80-100%,0.6068476977567887,0.22698658453454323
+NQ,15,hammer,bullish,volatility,calm (<0.8x),0.4092911493792551,0.39029805293042813
+NQ,15,hammer,bullish,volatility,high (>1.2x),0.25350420504605525,0.25493223007811294
+NQ,15,hammer,bullish,volatility,normal,0.33720464557468965,0.3547697169914589
+NQ,15,hammer,bullish,time of day,Asia (18-2),0.29319165682802045,0.3688868907576932
+NQ,15,hammer,bullish,time of day,Close (15-16),0.03502558048012593,0.030519002319609665
+NQ,15,hammer,bullish,time of day,Europe (2-8),0.31995277449822906,0.2794178083136355
+NQ,15,hammer,bullish,time of day,Midday (10:30-15),0.15387642660369932,0.20483725497226674
+NQ,15,hammer,bullish,time of day,Open (9:30-10:30),0.10271546635182999,0.046516310358808585
+NQ,15,hammer,bullish,time of day,Post (16-17),0.0,2.4823409026343153e-05
+NQ,15,hammer,bullish,time of day,US pre (8-9:30),0.09523809523809523,0.06979790986895998
+NQ,15,hanging_man,bearish,trend,against,0.6116207951070336,0.4431778376604213
+NQ,15,hanging_man,bearish,trend,mixed,0.23037716615698267,0.23243261133988488
+NQ,15,hanging_man,bearish,trend,with,0.1580020387359837,0.32438955099969385
+NQ,15,hanging_man,bearish,momentum,flat,0.0056065239551478085,0.0032215268603076447
+NQ,15,hanging_man,bearish,momentum,turning against,0.4398572884811417,0.49541456472152273
+NQ,15,hanging_man,bearish,momentum,turning with,0.5545361875637105,0.5013639084181696
+NQ,15,hanging_man,bearish,level in signal direction,at support/resistance,0.5147808358817533,0.3016899225233823
+NQ,15,hanging_man,bearish,level in signal direction,not near,0.48521916411824667,0.6983100774766178
+NQ,15,hanging_man,bearish,vs VWAP,on the cheap side,0.8425076452599388,0.5553768883029339
+NQ,15,hanging_man,bearish,vs VWAP,on the rich side,0.15749235474006115,0.44462311169706614
+NQ,15,hanging_man,bearish,mom14 above 100,no,0.2038735983690112,0.46862734822554
+NQ,15,hanging_man,bearish,mom14 above 100,yes,0.7961264016309888,0.53137265177446
+NQ,15,hanging_man,bearish,close location,0-20%,0.0,0.20916093314897763
+NQ,15,hanging_man,bearish,close location,20-40%,0.0,0.18935925352497496
+NQ,15,hanging_man,bearish,close location,40-60%,0.007135575942915392,0.1775030840943526
+NQ,15,hanging_man,bearish,close location,60-80%,0.3985728848114169,0.1969901446971516
+NQ,15,hanging_man,bearish,close location,80-100%,0.5942915392456677,0.22698658453454323
+NQ,15,hanging_man,bearish,volatility,calm (<0.8x),0.5116883116883116,0.39029805293042813
+NQ,15,hanging_man,bearish,volatility,high (>1.2x),0.17246753246753246,0.25493223007811294
+NQ,15,hanging_man,bearish,volatility,normal,0.31584415584415587,0.3547697169914589
+NQ,15,hanging_man,bearish,time of day,Asia (18-2),0.30988786952089703,0.3688868907576932
+NQ,15,hanging_man,bearish,time of day,Close (15-16),0.03873598369011213,0.030519002319609665
+NQ,15,hanging_man,bearish,time of day,Europe (2-8),0.327217125382263,0.2794178083136355
+NQ,15,hanging_man,bearish,time of day,Midday (10:30-15),0.10754332313965341,0.20483725497226674
+NQ,15,hanging_man,bearish,time of day,Open (9:30-10:30),0.1162079510703364,0.046516310358808585
+NQ,15,hanging_man,bearish,time of day,Post (16-17),0.0,2.4823409026343153e-05
+NQ,15,hanging_man,bearish,time of day,US pre (8-9:30),0.10040774719673802,0.06979790986895998
+NQ,15,inverted_hammer,bullish,trend,against,0.47055016181229775,0.32438955099969385
+NQ,15,inverted_hammer,bullish,trend,mixed,0.2796116504854369,0.23243261133988488
+NQ,15,inverted_hammer,bullish,trend,with,0.24983818770226537,0.4431778376604213
+NQ,15,inverted_hammer,bullish,momentum,flat,0.006472491909385114,0.0032215268603076447
+NQ,15,inverted_hammer,bullish,momentum,turning against,0.4692556634304207,0.5013639084181696
+NQ,15,inverted_hammer,bullish,momentum,turning with,0.5242718446601942,0.49541456472152273
+NQ,15,inverted_hammer,bullish,level in signal direction,at support/resistance,0.4880258899676375,0.23780274215925043
+NQ,15,inverted_hammer,bullish,level in signal direction,not near,0.5119741100323625,0.7621972578407495
+NQ,15,inverted_hammer,bullish,vs VWAP,on the cheap side,0.7799352750809061,0.44462311169706614
+NQ,15,inverted_hammer,bullish,vs VWAP,on the rich side,0.22006472491909385,0.5553768883029339
+NQ,15,inverted_hammer,bullish,mom14 above 100,no,0.7909385113268609,0.46862734822554
+NQ,15,inverted_hammer,bullish,mom14 above 100,yes,0.20906148867313915,0.53137265177446
+NQ,15,inverted_hammer,bullish,close location,0-20%,0.6148867313915858,0.20916093314897763
+NQ,15,inverted_hammer,bullish,close location,20-40%,0.3851132686084142,0.18935925352497496
+NQ,15,inverted_hammer,bullish,close location,40-60%,0.0,0.1775030840943526
+NQ,15,inverted_hammer,bullish,close location,60-80%,0.0,0.1969901446971516
+NQ,15,inverted_hammer,bullish,close location,80-100%,0.0,0.22698658453454323
+NQ,15,inverted_hammer,bullish,volatility,calm (<0.8x),0.5125827814569537,0.39029805293042813
+NQ,15,inverted_hammer,bullish,volatility,high (>1.2x),0.1781456953642384,0.25493223007811294
+NQ,15,inverted_hammer,bullish,volatility,normal,0.30927152317880796,0.3547697169914589
+NQ,15,inverted_hammer,bullish,time of day,Asia (18-2),0.3106796116504854,0.3688868907576932
+NQ,15,inverted_hammer,bullish,time of day,Close (15-16),0.038187702265372166,0.030519002319609665
+NQ,15,inverted_hammer,bullish,time of day,Europe (2-8),0.3566343042071197,0.2794178083136355
+NQ,15,inverted_hammer,bullish,time of day,Midday (10:30-15),0.09190938511326861,0.20483725497226674
+NQ,15,inverted_hammer,bullish,time of day,Open (9:30-10:30),0.09773462783171522,0.046516310358808585
+NQ,15,inverted_hammer,bullish,time of day,Post (16-17),0.0,2.4823409026343153e-05
+NQ,15,inverted_hammer,bullish,time of day,US pre (8-9:30),0.10485436893203884,0.06979790986895998
+NQ,15,shooting_star,bearish,trend,against,0.6583949313621964,0.4431778376604213
+NQ,15,shooting_star,bearish,trend,mixed,0.21647307286166842,0.23243261133988488
+NQ,15,shooting_star,bearish,trend,with,0.12513199577613515,0.32438955099969385
+NQ,15,shooting_star,bearish,momentum,flat,0.005807814149947202,0.0032215268603076447
+NQ,15,shooting_star,bearish,momentum,turning against,0.5116156282998944,0.49541456472152273
+NQ,15,shooting_star,bearish,momentum,turning with,0.4825765575501584,0.5013639084181696
+NQ,15,shooting_star,bearish,level in signal direction,at support/resistance,0.6019007391763463,0.3016899225233823
+NQ,15,shooting_star,bearish,level in signal direction,not near,0.39809926082365366,0.6983100774766178
+NQ,15,shooting_star,bearish,vs VWAP,on the cheap side,0.8690601900739177,0.5553768883029339
+NQ,15,shooting_star,bearish,vs VWAP,on the rich side,0.13093980992608237,0.44462311169706614
+NQ,15,shooting_star,bearish,mom14 above 100,no,0.17106652587117213,0.46862734822554
+NQ,15,shooting_star,bearish,mom14 above 100,yes,0.8289334741288279,0.53137265177446
+NQ,15,shooting_star,bearish,close location,0-20%,0.5913410770855333,0.20916093314897763
+NQ,15,shooting_star,bearish,close location,20-40%,0.40865892291446676,0.18935925352497496
+NQ,15,shooting_star,bearish,close location,40-60%,0.0,0.1775030840943526
+NQ,15,shooting_star,bearish,close location,60-80%,0.0,0.1969901446971516
+NQ,15,shooting_star,bearish,close location,80-100%,0.0,0.22698658453454323
+NQ,15,shooting_star,bearish,volatility,calm (<0.8x),0.554003224073079,0.39029805293042813
+NQ,15,shooting_star,bearish,volatility,high (>1.2x),0.10531972058033315,0.25493223007811294
+NQ,15,shooting_star,bearish,volatility,normal,0.3406770553465879,0.3547697169914589
+NQ,15,shooting_star,bearish,time of day,Asia (18-2),0.3558606124604013,0.3688868907576932
+NQ,15,shooting_star,bearish,time of day,Close (15-16),0.02692713833157339,0.030519002319609665
+NQ,15,shooting_star,bearish,time of day,Europe (2-8),0.36589229144667373,0.2794178083136355
+NQ,15,shooting_star,bearish,time of day,Midday (10:30-15),0.06546990496304118,0.20483725497226674
+NQ,15,shooting_star,bearish,time of day,Open (9:30-10:30),0.08658922914466737,0.046516310358808585
+NQ,15,shooting_star,bearish,time of day,Post (16-17),0.0,2.4823409026343153e-05
+NQ,15,shooting_star,bearish,time of day,US pre (8-9:30),0.09926082365364308,0.06979790986895998
+NQ,15,marubozu,bullish,trend,against,0.29314453946446095,0.32438955099969385
+NQ,15,marubozu,bullish,trend,mixed,0.2408523762792654,0.23243261133988488
+NQ,15,marubozu,bullish,trend,with,0.4660030842562737,0.4431778376604213
+NQ,15,marubozu,bullish,momentum,flat,0.0014019346698443853,0.0032215268603076447
+NQ,15,marubozu,bullish,momentum,turning against,0.09042478620496285,0.5013639084181696
+NQ,15,marubozu,bullish,momentum,turning with,0.9081732791251927,0.49541456472152273
+NQ,15,marubozu,bullish,level in signal direction,at support/resistance,0.0982756203560914,0.23780274215925043
+NQ,15,marubozu,bullish,level in signal direction,not near,0.9017243796439086,0.7621972578407495
+NQ,15,marubozu,bullish,vs VWAP,on the cheap side,0.20636478340109352,0.44462311169706614
+NQ,15,marubozu,bullish,vs VWAP,on the rich side,0.7936352165989065,0.5553768883029339
+NQ,15,marubozu,bullish,mom14 above 100,no,0.30253750175241834,0.46862734822554
+NQ,15,marubozu,bullish,mom14 above 100,yes,0.6974624982475817,0.53137265177446
+NQ,15,marubozu,bullish,close location,0-20%,0.0,0.20916093314897763
+NQ,15,marubozu,bullish,close location,20-40%,0.0,0.18935925352497496
+NQ,15,marubozu,bullish,close location,40-60%,0.0,0.1775030840943526
+NQ,15,marubozu,bullish,close location,60-80%,0.0,0.1969901446971516
+NQ,15,marubozu,bullish,close location,80-100%,1.0,0.22698658453454323
+NQ,15,marubozu,bullish,volatility,calm (<0.8x),0.44916583487808354,0.39029805293042813
+NQ,15,marubozu,bullish,volatility,high (>1.2x),0.2116070155425638,0.25493223007811294
+NQ,15,marubozu,bullish,volatility,normal,0.3392271495793526,0.3547697169914589
+NQ,15,marubozu,bullish,time of day,Asia (18-2),0.4330576195149306,0.3688868907576932
+NQ,15,marubozu,bullish,time of day,Close (15-16),0.024253469788307863,0.030519002319609665
+NQ,15,marubozu,bullish,time of day,Europe (2-8),0.28445254451142576,0.2794178083136355
+NQ,15,marubozu,bullish,time of day,Midday (10:30-15),0.16122248703210432,0.20483725497226674
+NQ,15,marubozu,bullish,time of day,Open (9:30-10:30),0.04135707276040936,0.046516310358808585
+NQ,15,marubozu,bullish,time of day,Post (16-17),0.0,2.4823409026343153e-05
+NQ,15,marubozu,bullish,time of day,US pre (8-9:30),0.0556568063928221,0.06979790986895998
+NQ,15,marubozu,bearish,trend,against,0.3789853934348987,0.4431778376604213
+NQ,15,marubozu,bearish,trend,mixed,0.2500392649599497,0.23243261133988488
+NQ,15,marubozu,bearish,trend,with,0.37097534160515155,0.32438955099969385
+NQ,15,marubozu,bearish,momentum,flat,0.0014135385581906705,0.0032215268603076447
+NQ,15,marubozu,bearish,momentum,turning against,0.0755457829433014,0.49541456472152273
+NQ,15,marubozu,bearish,momentum,turning with,0.9230406784985079,0.5013639084181696
+NQ,15,marubozu,bearish,level in signal direction,at support/resistance,0.11575310193183604,0.3016899225233823
+NQ,15,marubozu,bearish,level in signal direction,not near,0.8842468980681639,0.6983100774766178
+NQ,15,marubozu,bearish,vs VWAP,on the cheap side,0.2635464111826606,0.5553768883029339
+NQ,15,marubozu,bearish,vs VWAP,on the rich side,0.7364535888173394,0.44462311169706614
+NQ,15,marubozu,bearish,mom14 above 100,no,0.6725302340191613,0.46862734822554
+NQ,15,marubozu,bearish,mom14 above 100,yes,0.3274697659808387,0.53137265177446
+NQ,15,marubozu,bearish,close location,0-20%,1.0,0.20916093314897763
+NQ,15,marubozu,bearish,close location,20-40%,0.0,0.18935925352497496
+NQ,15,marubozu,bearish,close location,40-60%,0.0,0.1775030840943526
+NQ,15,marubozu,bearish,close location,60-80%,0.0,0.1969901446971516
+NQ,15,marubozu,bearish,close location,80-100%,0.0,0.22698658453454323
+NQ,15,marubozu,bearish,volatility,calm (<0.8x),0.45230473751600514,0.39029805293042813
+NQ,15,marubozu,bearish,volatility,high (>1.2x),0.21959026888604352,0.25493223007811294
+NQ,15,marubozu,bearish,volatility,normal,0.32810499359795137,0.3547697169914589
+NQ,15,marubozu,bearish,time of day,Asia (18-2),0.42767394377257734,0.3688868907576932
+NQ,15,marubozu,bearish,time of day,Close (15-16),0.025286634207633107,0.030519002319609665
+NQ,15,marubozu,bearish,time of day,Europe (2-8),0.29495837914245326,0.2794178083136355
+NQ,15,marubozu,bearish,time of day,Midday (10:30-15),0.15910161771634992,0.20483725497226674
+NQ,15,marubozu,bearish,time of day,Open (9:30-10:30),0.03486728443536988,0.046516310358808585
+NQ,15,marubozu,bearish,time of day,Post (16-17),0.0,2.4823409026343153e-05
+NQ,15,marubozu,bearish,time of day,US pre (8-9:30),0.05811214072561646,0.06979790986895998
+NQ,15,spinning_top,present,trend,down,0.31983142880298243,0.32438955099969385
+NQ,15,spinning_top,present,trend,mixed,0.2363400599724451,0.23243261133988488
+NQ,15,spinning_top,present,trend,up,0.4438285112245725,0.4431778376604213
+NQ,15,spinning_top,present,momentum,falling,0.5131858335359429,0.5013639084181696
+NQ,15,spinning_top,present,momentum,flat,0.00437636761487965,0.0032215268603076447
+NQ,15,spinning_top,present,momentum,rising,0.4824377988491774,0.49541456472152273
+NQ,15,spinning_top,present,near support (<0.5 ATR),no,0.7709052597455224,0.7621972578407495
+NQ,15,spinning_top,present,near support (<0.5 ATR),yes,0.22909474025447768,0.23780274215925043
+NQ,15,spinning_top,present,near resistance (<0.5 ATR),no,0.7140935245968069,0.6983100774766178
+NQ,15,spinning_top,present,near resistance (<0.5 ATR),yes,0.28590647540319314,0.3016899225233823
+NQ,15,spinning_top,present,vs VWAP,above,0.5562201150822595,0.5553768883029339
+NQ,15,spinning_top,present,vs VWAP,below,0.4437798849177405,0.44462311169706614
+NQ,15,spinning_top,present,mom14 above 100,no,0.46909798200826647,0.46862734822554
+NQ,15,spinning_top,present,mom14 above 100,yes,0.5309020179917335,0.53137265177446
+NQ,15,spinning_top,present,close location,0-20%,0.05640651592511549,0.20916093314897763
+NQ,15,spinning_top,present,close location,20-40%,0.26425156009401085,0.18935925352497496
+NQ,15,spinning_top,present,close location,40-60%,0.34587892049598834,0.1775030840943526
+NQ,15,spinning_top,present,close location,60-80%,0.27535456682064996,0.1969901446971516
+NQ,15,spinning_top,present,close location,80-100%,0.058108436664235354,0.22698658453454323
+NQ,15,spinning_top,present,volatility,calm (<0.8x),0.40434897293019884,0.39029805293042813
+NQ,15,spinning_top,present,volatility,high (>1.2x),0.24522734016947476,0.25493223007811294
+NQ,15,spinning_top,present,volatility,normal,0.35042368690032644,0.3547697169914589
+NQ,15,spinning_top,present,time of day,Asia (18-2),0.30282843018072775,0.3688868907576932
+NQ,15,spinning_top,present,time of day,Close (15-16),0.03653456519977308,0.030519002319609665
+NQ,15,spinning_top,present,time of day,Europe (2-8),0.30310397925277577,0.2794178083136355
+NQ,15,spinning_top,present,time of day,Midday (10:30-15),0.2162736040197747,0.20483725497226674
+NQ,15,spinning_top,present,time of day,Open (9:30-10:30),0.05711970175865143,0.046516310358808585
+NQ,15,spinning_top,present,time of day,Post (16-17),4.862630683199611e-05,2.4823409026343153e-05
+NQ,15,spinning_top,present,time of day,US pre (8-9:30),0.08409109328146527,0.06979790986895998
+NQ,15,engulfing,bullish,trend,against,0.45508408120589006,0.32438955099969385
+NQ,15,engulfing,bullish,trend,mixed,0.2457088089221922,0.23243261133988488
+NQ,15,engulfing,bullish,trend,with,0.29920710987191773,0.4431778376604213
+NQ,15,engulfing,bullish,momentum,flat,0.0007841770497516772,0.0032215268603076447
+NQ,15,engulfing,bullish,momentum,turning against,0.0987191774854056,0.5013639084181696
+NQ,15,engulfing,bullish,momentum,turning with,0.9004966454648428,0.49541456472152273
+NQ,15,engulfing,bullish,level in signal direction,at support/resistance,0.22061514333013854,0.23780274215925043
+NQ,15,engulfing,bullish,level in signal direction,not near,0.7793848566698615,0.7621972578407495
+NQ,15,engulfing,bullish,vs VWAP,on the cheap side,0.4583079201882025,0.44462311169706614
+NQ,15,engulfing,bullish,vs VWAP,on the rich side,0.5416920798117975,0.5553768883029339
+NQ,15,engulfing,bullish,mom14 above 100,no,0.564171821904679,0.46862734822554
+NQ,15,engulfing,bullish,mom14 above 100,yes,0.4358281780953211,0.53137265177446
+NQ,15,engulfing,bullish,close location,0-20%,0.0,0.20916093314897763
+NQ,15,engulfing,bullish,close location,20-40%,0.004705062298510063,0.18935925352497496
+NQ,15,engulfing,bullish,close location,40-60%,0.048706107867909736,0.1775030840943526
+NQ,15,engulfing,bullish,close location,60-80%,0.25686154918532716,0.1969901446971516
+NQ,15,engulfing,bullish,close location,80-100%,0.6897272806482531,0.22698658453454323
+NQ,15,engulfing,bullish,volatility,calm (<0.8x),0.3876991150442478,0.39029805293042813
+NQ,15,engulfing,bullish,volatility,high (>1.2x),0.2649557522123894,0.25493223007811294
+NQ,15,engulfing,bullish,volatility,normal,0.3473451327433628,0.3547697169914589
+NQ,15,engulfing,bullish,time of day,Asia (18-2),0.28448200749324737,0.3688868907576932
+NQ,15,engulfing,bullish,time of day,Close (15-16),0.036682059771717346,0.030519002319609665
+NQ,15,engulfing,bullish,time of day,Europe (2-8),0.31393221225058815,0.2794178083136355
+NQ,15,engulfing,bullish,time of day,Midday (10:30-15),0.1978740088873399,0.20483725497226674
+NQ,15,engulfing,bullish,time of day,Open (9:30-10:30),0.0792018820249194,0.046516310358808585
+NQ,15,engulfing,bullish,time of day,Post (16-17),0.0,2.4823409026343153e-05
+NQ,15,engulfing,bullish,time of day,US pre (8-9:30),0.08782782957218785,0.06979790986895998
+NQ,15,engulfing,bearish,trend,against,0.5640355889315158,0.4431778376604213
+NQ,15,engulfing,bearish,trend,mixed,0.21998204228226267,0.23243261133988488
+NQ,15,engulfing,bearish,trend,with,0.21598236878622154,0.32438955099969385
+NQ,15,engulfing,bearish,momentum,flat,0.000571381928005877,0.0032215268603076447
+NQ,15,engulfing,bearish,momentum,turning against,0.10717492449595951,0.49541456472152273
+NQ,15,engulfing,bearish,momentum,turning with,0.8922536935760346,0.5013639084181696
+NQ,15,engulfing,bearish,level in signal direction,at support/resistance,0.24495959513509102,0.3016899225233823
+NQ,15,engulfing,bearish,level in signal direction,not near,0.755040404864909,0.6983100774766178
+NQ,15,engulfing,bearish,vs VWAP,on the cheap side,0.5477103909884907,0.5553768883029339
+NQ,15,engulfing,bearish,vs VWAP,on the rich side,0.4522896090115093,0.44462311169706614
+NQ,15,engulfing,bearish,mom14 above 100,no,0.41261937800995835,0.46862734822554
+NQ,15,engulfing,bearish,mom14 above 100,yes,0.5873806219900416,0.53137265177446
+NQ,15,engulfing,bearish,close location,0-20%,0.6597828748673578,0.20916093314897763
+NQ,15,engulfing,bearish,close location,20-40%,0.27230430168965797,0.18935925352497496
+NQ,15,engulfing,bearish,close location,40-60%,0.06146437025548935,0.1775030840943526
+NQ,15,engulfing,bearish,close location,60-80%,0.006448453187494899,0.1969901446971516
+NQ,15,engulfing,bearish,close location,80-100%,0.0,0.22698658453454323
+NQ,15,engulfing,bearish,volatility,calm (<0.8x),0.41883467708419914,0.39029805293042813
+NQ,15,engulfing,bearish,volatility,high (>1.2x),0.23505942980633363,0.25493223007811294
+NQ,15,engulfing,bearish,volatility,normal,0.3461058931094672,0.3547697169914589
+NQ,15,engulfing,bearish,time of day,Asia (18-2),0.29213941719043346,0.3688868907576932
+NQ,15,engulfing,bearish,time of day,Close (15-16),0.04007836095012652,0.030519002319609665
+NQ,15,engulfing,bearish,time of day,Europe (2-8),0.29948575626479473,0.2794178083136355
+NQ,15,engulfing,bearish,time of day,Midday (10:30-15),0.20545261611297036,0.20483725497226674
+NQ,15,engulfing,bearish,time of day,Open (9:30-10:30),0.07942208799281691,0.046516310358808585
+NQ,15,engulfing,bearish,time of day,Post (16-17),8.162598971512529e-05,2.4823409026343153e-05
+NQ,15,engulfing,bearish,time of day,US pre (8-9:30),0.08334013549914293,0.06979790986895998
+NQ,15,harami,bullish,trend,against,0.461991341991342,0.32438955099969385
+NQ,15,harami,bullish,trend,mixed,0.259047619047619,0.23243261133988488
+NQ,15,harami,bullish,trend,with,0.27896103896103897,0.4431778376604213
+NQ,15,harami,bullish,momentum,flat,0.0012121212121212121,0.0032215268603076447
+NQ,15,harami,bullish,momentum,turning against,0.30303030303030304,0.5013639084181696
+NQ,15,harami,bullish,momentum,turning with,0.6957575757575758,0.49541456472152273
+NQ,15,harami,bullish,level in signal direction,at support/resistance,0.43948051948051947,0.23780274215925043
+NQ,15,harami,bullish,level in signal direction,not near,0.5605194805194805,0.7621972578407495
+NQ,15,harami,bullish,vs VWAP,on the cheap side,0.7357575757575757,0.44462311169706614
+NQ,15,harami,bullish,vs VWAP,on the rich side,0.2642424242424242,0.5553768883029339
+NQ,15,harami,bullish,mom14 above 100,no,0.7312554112554113,0.46862734822554
+NQ,15,harami,bullish,mom14 above 100,yes,0.26874458874458873,0.53137265177446
+NQ,15,harami,bullish,close location,0-20%,0.033073593073593074,0.20916093314897763
+NQ,15,harami,bullish,close location,20-40%,0.13073593073593073,0.18935925352497496
+NQ,15,harami,bullish,close location,40-60%,0.25402597402597404,0.1775030840943526
+NQ,15,harami,bullish,close location,60-80%,0.30874458874458877,0.1969901446971516
+NQ,15,harami,bullish,close location,80-100%,0.2734199134199134,0.22698658453454323
+NQ,15,harami,bullish,volatility,calm (<0.8x),0.4203664552501762,0.39029805293042813
+NQ,15,harami,bullish,volatility,high (>1.2x),0.23308668076109937,0.25493223007811294
+NQ,15,harami,bullish,volatility,normal,0.3465468639887245,0.3547697169914589
+NQ,15,harami,bullish,time of day,Asia (18-2),0.3887445887445887,0.3688868907576932
+NQ,15,harami,bullish,time of day,Close (15-16),0.024761904761904763,0.030519002319609665
+NQ,15,harami,bullish,time of day,Europe (2-8),0.30303030303030304,0.2794178083136355
+NQ,15,harami,bullish,time of day,Midday (10:30-15),0.17367965367965368,0.20483725497226674
+NQ,15,harami,bullish,time of day,Open (9:30-10:30),0.039480519480519484,0.046516310358808585
+NQ,15,harami,bullish,time of day,Post (16-17),0.0,2.4823409026343153e-05
+NQ,15,harami,bullish,time of day,US pre (8-9:30),0.0703030303030303,0.06979790986895998
+NQ,15,harami,bearish,trend,against,0.5666448872917347,0.4431778376604213
+NQ,15,harami,bearish,trend,mixed,0.22525318523358379,0.23243261133988488
+NQ,15,harami,bearish,trend,with,0.20810192747468148,0.32438955099969385
+NQ,15,harami,bearish,momentum,flat,0.0009800718719372753,0.0032215268603076447
+NQ,15,harami,bearish,momentum,turning against,0.30986605684416857,0.49541456472152273
+NQ,15,harami,bearish,momentum,turning with,0.6891538712838942,0.5013639084181696
+NQ,15,harami,bearish,level in signal direction,at support/resistance,0.5060437765436132,0.3016899225233823
+NQ,15,harami,bearish,level in signal direction,not near,0.4939562234563868,0.6983100774766178
+NQ,15,harami,bearish,vs VWAP,on the cheap side,0.795328324077099,0.5553768883029339
+NQ,15,harami,bearish,vs VWAP,on the rich side,0.204671675922901,0.44462311169706614
+NQ,15,harami,bearish,mom14 above 100,no,0.25808559294348254,0.46862734822554
+NQ,15,harami,bearish,mom14 above 100,yes,0.7419144070565175,0.53137265177446
+NQ,15,harami,bearish,close location,0-20%,0.2675596210388762,0.20916093314897763
+NQ,15,harami,bearish,close location,20-40%,0.31525645213982356,0.18935925352497496
+NQ,15,harami,bearish,close location,40-60%,0.25383861483175435,0.1775030840943526
+NQ,15,harami,bearish,close location,60-80%,0.12724599803985626,0.1969901446971516
+NQ,15,harami,bearish,close location,80-100%,0.03609931394968965,0.22698658453454323
+NQ,15,harami,bearish,volatility,calm (<0.8x),0.455317024463305,0.39029805293042813
+NQ,15,harami,bearish,volatility,high (>1.2x),0.1797304043934099,0.25493223007811294
+NQ,15,harami,bearish,volatility,normal,0.36495257114328505,0.3547697169914589
+NQ,15,harami,bearish,time of day,Asia (18-2),0.3776543613198301,0.3688868907576932
+NQ,15,harami,bearish,time of day,Close (15-16),0.02466514211042143,0.030519002319609665
+NQ,15,harami,bearish,time of day,Europe (2-8),0.31819666775563543,0.2794178083136355
+NQ,15,harami,bearish,time of day,Midday (10:30-15),0.15501470107807905,0.20483725497226674
+NQ,15,harami,bearish,time of day,Open (9:30-10:30),0.04426657954916694,0.046516310358808585
+NQ,15,harami,bearish,time of day,Post (16-17),0.0001633453119895459,2.4823409026343153e-05
+NQ,15,harami,bearish,time of day,US pre (8-9:30),0.0800392028748775,0.06979790986895998
+NQ,15,piercing,bullish,trend,against,0.37575559549093285,0.32438955099969385
+NQ,15,piercing,bullish,trend,mixed,0.25796438490442736,0.23243261133988488
+NQ,15,piercing,bullish,trend,with,0.36628001960463974,0.4431778376604213
+NQ,15,piercing,bullish,momentum,flat,0.00032674399607907203,0.0032215268603076447
+NQ,15,piercing,bullish,momentum,turning against,0.16565920601208953,0.5013639084181696
+NQ,15,piercing,bullish,momentum,turning with,0.8340140499918314,0.49541456472152273
+NQ,15,piercing,bullish,level in signal direction,at support/resistance,0.31285737624571147,0.23780274215925043
+NQ,15,piercing,bullish,level in signal direction,not near,0.6871426237542885,0.7621972578407495
+NQ,15,piercing,bullish,vs VWAP,on the cheap side,0.5234438817186734,0.44462311169706614
+NQ,15,piercing,bullish,vs VWAP,on the rich side,0.4765561182813266,0.5553768883029339
+NQ,15,piercing,bullish,mom14 above 100,no,0.5587322332952132,0.46862734822554
+NQ,15,piercing,bullish,mom14 above 100,yes,0.4412677667047868,0.53137265177446
+NQ,15,piercing,bullish,close location,0-20%,0.0,0.20916093314897763
+NQ,15,piercing,bullish,close location,20-40%,0.01437673582747917,0.18935925352497496
+NQ,15,piercing,bullish,close location,40-60%,0.10014703479823558,0.1775030840943526
+NQ,15,piercing,bullish,close location,60-80%,0.3189021401731743,0.1969901446971516
+NQ,15,piercing,bullish,close location,80-100%,0.566574089201111,0.22698658453454323
+NQ,15,piercing,bullish,volatility,calm (<0.8x),0.3613193403298351,0.39029805293042813
+NQ,15,piercing,bullish,volatility,high (>1.2x),0.29118773946360155,0.25493223007811294
+NQ,15,piercing,bullish,volatility,normal,0.34749292020656336,0.3547697169914589
+NQ,15,piercing,bullish,time of day,Asia (18-2),0.26776670478679954,0.3688868907576932
+NQ,15,piercing,bullish,time of day,Close (15-16),0.037248815553014215,0.030519002319609665
+NQ,15,piercing,bullish,time of day,Europe (2-8),0.30403528835157656,0.2794178083136355
+NQ,15,piercing,bullish,time of day,Midday (10:30-15),0.23002777323966672,0.20483725497226674
+NQ,15,piercing,bullish,time of day,Open (9:30-10:30),0.07384414311387029,0.046516310358808585
+NQ,15,piercing,bullish,time of day,Post (16-17),0.00016337199803953602,2.4823409026343153e-05
+NQ,15,piercing,bullish,time of day,US pre (8-9:30),0.08691390295703316,0.06979790986895998
+NQ,15,dark_cloud,bearish,trend,against,0.4753224419604471,0.4431778376604213
+NQ,15,dark_cloud,bearish,trend,mixed,0.23164230438521066,0.23243261133988488
+NQ,15,dark_cloud,bearish,trend,with,0.29303525365434224,0.32438955099969385
+NQ,15,dark_cloud,bearish,momentum,flat,0.00034393809114359415,0.0032215268603076447
+NQ,15,dark_cloud,bearish,momentum,turning against,0.15683576956147893,0.49541456472152273
+NQ,15,dark_cloud,bearish,momentum,turning with,0.8428202923473774,0.5013639084181696
+NQ,15,dark_cloud,bearish,level in signal direction,at support/resistance,0.32828890799656063,0.3016899225233823
+NQ,15,dark_cloud,bearish,level in signal direction,not near,0.6717110920034394,0.6983100774766178
+NQ,15,dark_cloud,bearish,vs VWAP,on the cheap side,0.579707652622528,0.5553768883029339
+NQ,15,dark_cloud,bearish,vs VWAP,on the rich side,0.42029234737747206,0.44462311169706614
+NQ,15,dark_cloud,bearish,mom14 above 100,no,0.4424763542562339,0.46862734822554
+NQ,15,dark_cloud,bearish,mom14 above 100,yes,0.5575236457437661,0.53137265177446
+NQ,15,dark_cloud,bearish,close location,0-20%,0.5365434221840069,0.20916093314897763
+NQ,15,dark_cloud,bearish,close location,20-40%,0.32639724849527085,0.18935925352497496
+NQ,15,dark_cloud,bearish,close location,40-60%,0.12192605331040413,0.1775030840943526
+NQ,15,dark_cloud,bearish,close location,60-80%,0.014617368873602751,0.1969901446971516
+NQ,15,dark_cloud,bearish,close location,80-100%,0.0005159071367153912,0.22698658453454323
+NQ,15,dark_cloud,bearish,volatility,calm (<0.8x),0.389326334208224,0.39029805293042813
+NQ,15,dark_cloud,bearish,volatility,high (>1.2x),0.26701662292213474,0.25493223007811294
+NQ,15,dark_cloud,bearish,volatility,normal,0.34365704286964127,0.3547697169914589
+NQ,15,dark_cloud,bearish,time of day,Asia (18-2),0.26741186586414445,0.3688868907576932
+NQ,15,dark_cloud,bearish,time of day,Close (15-16),0.04230438521066208,0.030519002319609665
+NQ,15,dark_cloud,bearish,time of day,Europe (2-8),0.31556319862424764,0.2794178083136355
+NQ,15,dark_cloud,bearish,time of day,Midday (10:30-15),0.2116938950988822,0.20483725497226674
+NQ,15,dark_cloud,bearish,time of day,Open (9:30-10:30),0.07308684436801376,0.046516310358808585
+NQ,15,dark_cloud,bearish,time of day,Post (16-17),0.00017196904557179707,2.4823409026343153e-05
+NQ,15,dark_cloud,bearish,time of day,US pre (8-9:30),0.08976784178847808,0.06979790986895998
+NQ,15,morning_evening_star,bullish,trend,against,0.49216300940438873,0.32438955099969385
+NQ,15,morning_evening_star,bullish,trend,mixed,0.24033437826541273,0.23243261133988488
+NQ,15,morning_evening_star,bullish,trend,with,0.26750261233019856,0.4431778376604213
+NQ,15,morning_evening_star,bullish,momentum,flat,0.0,0.0032215268603076447
+NQ,15,morning_evening_star,bullish,momentum,turning against,0.0877742946708464,0.5013639084181696
+NQ,15,morning_evening_star,bullish,momentum,turning with,0.9122257053291536,0.49541456472152273
+NQ,15,morning_evening_star,bullish,level in signal direction,at support/resistance,0.3605015673981191,0.23780274215925043
+NQ,15,morning_evening_star,bullish,level in signal direction,not near,0.6394984326018809,0.7621972578407495
+NQ,15,morning_evening_star,bullish,vs VWAP,on the cheap side,0.554858934169279,0.44462311169706614
+NQ,15,morning_evening_star,bullish,vs VWAP,on the rich side,0.445141065830721,0.5553768883029339
+NQ,15,morning_evening_star,bullish,mom14 above 100,no,0.6353187042842215,0.46862734822554
+NQ,15,morning_evening_star,bullish,mom14 above 100,yes,0.36468129571577845,0.53137265177446
+NQ,15,morning_evening_star,bullish,close location,0-20%,0.0,0.20916093314897763
+NQ,15,morning_evening_star,bullish,close location,20-40%,0.01044932079414838,0.18935925352497496
+NQ,15,morning_evening_star,bullish,close location,40-60%,0.04911180773249739,0.1775030840943526
+NQ,15,morning_evening_star,bullish,close location,60-80%,0.2727272727272727,0.1969901446971516
+NQ,15,morning_evening_star,bullish,close location,80-100%,0.6677115987460815,0.22698658453454323
+NQ,15,morning_evening_star,bullish,volatility,calm (<0.8x),0.4188759278897137,0.39029805293042813
+NQ,15,morning_evening_star,bullish,volatility,high (>1.2x),0.24284199363732767,0.25493223007811294
+NQ,15,morning_evening_star,bullish,volatility,normal,0.33828207847295866,0.3547697169914589
+NQ,15,morning_evening_star,bullish,time of day,Asia (18-2),0.28213166144200624,0.3688868907576932
+NQ,15,morning_evening_star,bullish,time of day,Close (15-16),0.02821316614420063,0.030519002319609665
+NQ,15,morning_evening_star,bullish,time of day,Europe (2-8),0.3375130616509927,0.2794178083136355
+NQ,15,morning_evening_star,bullish,time of day,Midday (10:30-15),0.1922675026123302,0.20483725497226674
+NQ,15,morning_evening_star,bullish,time of day,Open (9:30-10:30),0.06374085684430512,0.046516310358808585
+NQ,15,morning_evening_star,bullish,time of day,Post (16-17),0.0,2.4823409026343153e-05
+NQ,15,morning_evening_star,bullish,time of day,US pre (8-9:30),0.0961337513061651,0.06979790986895998
+NQ,15,morning_evening_star,bearish,trend,against,0.5739583333333333,0.4431778376604213
+NQ,15,morning_evening_star,bearish,trend,mixed,0.22604166666666667,0.23243261133988488
+NQ,15,morning_evening_star,bearish,trend,with,0.2,0.32438955099969385
+NQ,15,morning_evening_star,bearish,momentum,flat,0.0,0.0032215268603076447
+NQ,15,morning_evening_star,bearish,momentum,turning against,0.07083333333333333,0.49541456472152273
+NQ,15,morning_evening_star,bearish,momentum,turning with,0.9291666666666667,0.5013639084181696
+NQ,15,morning_evening_star,bearish,level in signal direction,at support/resistance,0.3385416666666667,0.3016899225233823
+NQ,15,morning_evening_star,bearish,level in signal direction,not near,0.6614583333333334,0.6983100774766178
+NQ,15,morning_evening_star,bearish,vs VWAP,on the cheap side,0.615625,0.5553768883029339
+NQ,15,morning_evening_star,bearish,vs VWAP,on the rich side,0.384375,0.44462311169706614
+NQ,15,morning_evening_star,bearish,mom14 above 100,no,0.384375,0.46862734822554
+NQ,15,morning_evening_star,bearish,mom14 above 100,yes,0.615625,0.53137265177446
+NQ,15,morning_evening_star,bearish,close location,0-20%,0.6270833333333333,0.20916093314897763
+NQ,15,morning_evening_star,bearish,close location,20-40%,0.31145833333333334,0.18935925352497496
+NQ,15,morning_evening_star,bearish,close location,40-60%,0.052083333333333336,0.1775030840943526
+NQ,15,morning_evening_star,bearish,close location,60-80%,0.008333333333333333,0.1969901446971516
+NQ,15,morning_evening_star,bearish,close location,80-100%,0.0010416666666666667,0.22698658453454323
+NQ,15,morning_evening_star,bearish,volatility,calm (<0.8x),0.43217665615141954,0.39029805293042813
+NQ,15,morning_evening_star,bearish,volatility,high (>1.2x),0.2082018927444795,0.25493223007811294
+NQ,15,morning_evening_star,bearish,volatility,normal,0.35962145110410093,0.3547697169914589
+NQ,15,morning_evening_star,bearish,time of day,Asia (18-2),0.31354166666666666,0.3688868907576932
+NQ,15,morning_evening_star,bearish,time of day,Close (15-16),0.025,0.030519002319609665
+NQ,15,morning_evening_star,bearish,time of day,Europe (2-8),0.3104166666666667,0.2794178083136355
+NQ,15,morning_evening_star,bearish,time of day,Midday (10:30-15),0.18958333333333333,0.20483725497226674
+NQ,15,morning_evening_star,bearish,time of day,Open (9:30-10:30),0.08020833333333334,0.046516310358808585
+NQ,15,morning_evening_star,bearish,time of day,Post (16-17),0.0,2.4823409026343153e-05
+NQ,15,morning_evening_star,bearish,time of day,US pre (8-9:30),0.08125,0.06979790986895998
+NQ,15,three_soldiers_crows,bullish,trend,against,0.20574162679425836,0.32438955099969385
+NQ,15,three_soldiers_crows,bullish,trend,mixed,0.22009569377990432,0.23243261133988488
+NQ,15,three_soldiers_crows,bullish,trend,with,0.5741626794258373,0.4431778376604213
+NQ,15,three_soldiers_crows,bullish,momentum,flat,0.0,0.0032215268603076447
+NQ,15,three_soldiers_crows,bullish,momentum,turning against,0.1371610845295056,0.5013639084181696
+NQ,15,three_soldiers_crows,bullish,momentum,turning with,0.8628389154704944,0.49541456472152273
+NQ,15,three_soldiers_crows,bullish,level in signal direction,at support/resistance,0.017543859649122806,0.23780274215925043
+NQ,15,three_soldiers_crows,bullish,level in signal direction,not near,0.9824561403508771,0.7621972578407495
+NQ,15,three_soldiers_crows,bullish,vs VWAP,on the cheap side,0.07814992025518341,0.44462311169706614
+NQ,15,three_soldiers_crows,bullish,vs VWAP,on the rich side,0.9218500797448166,0.5553768883029339
+NQ,15,three_soldiers_crows,bullish,mom14 above 100,no,0.16108452950558214,0.46862734822554
+NQ,15,three_soldiers_crows,bullish,mom14 above 100,yes,0.8389154704944178,0.53137265177446
+NQ,15,three_soldiers_crows,bullish,close location,0-20%,0.0,0.20916093314897763
+NQ,15,three_soldiers_crows,bullish,close location,20-40%,0.0,0.18935925352497496
+NQ,15,three_soldiers_crows,bullish,close location,40-60%,0.0,0.1775030840943526
+NQ,15,three_soldiers_crows,bullish,close location,60-80%,0.046251993620414676,0.1969901446971516
+NQ,15,three_soldiers_crows,bullish,close location,80-100%,0.9537480063795853,0.22698658453454323
+NQ,15,three_soldiers_crows,bullish,volatility,calm (<0.8x),0.4065040650406504,0.39029805293042813
+NQ,15,three_soldiers_crows,bullish,volatility,high (>1.2x),0.2682926829268293,0.25493223007811294
+NQ,15,three_soldiers_crows,bullish,volatility,normal,0.3252032520325203,0.3547697169914589
+NQ,15,three_soldiers_crows,bullish,time of day,Asia (18-2),0.2822966507177033,0.3688868907576932
+NQ,15,three_soldiers_crows,bullish,time of day,Close (15-16),0.04146730462519936,0.030519002319609665
+NQ,15,three_soldiers_crows,bullish,time of day,Europe (2-8),0.31738437001594894,0.2794178083136355
+NQ,15,three_soldiers_crows,bullish,time of day,Midday (10:30-15),0.22647527910685805,0.20483725497226674
+NQ,15,three_soldiers_crows,bullish,time of day,Open (9:30-10:30),0.05901116427432217,0.046516310358808585
+NQ,15,three_soldiers_crows,bullish,time of day,Post (16-17),0.001594896331738437,2.4823409026343153e-05
+NQ,15,three_soldiers_crows,bullish,time of day,US pre (8-9:30),0.07177033492822966,0.06979790986895998
+NQ,15,three_soldiers_crows,bearish,trend,against,0.21063394683026584,0.4431778376604213
+NQ,15,three_soldiers_crows,bearish,trend,mixed,0.294478527607362,0.23243261133988488
+NQ,15,three_soldiers_crows,bearish,trend,with,0.4948875255623722,0.32438955099969385
+NQ,15,three_soldiers_crows,bearish,momentum,flat,0.002044989775051125,0.0032215268603076447
+NQ,15,three_soldiers_crows,bearish,momentum,turning against,0.065439672801636,0.49541456472152273
+NQ,15,three_soldiers_crows,bearish,momentum,turning with,0.9325153374233128,0.5013639084181696
+NQ,15,three_soldiers_crows,bearish,level in signal direction,at support/resistance,0.02044989775051125,0.3016899225233823
+NQ,15,three_soldiers_crows,bearish,level in signal direction,not near,0.9795501022494888,0.6983100774766178
+NQ,15,three_soldiers_crows,bearish,vs VWAP,on the cheap side,0.0736196319018405,0.5553768883029339
+NQ,15,three_soldiers_crows,bearish,vs VWAP,on the rich side,0.9263803680981595,0.44462311169706614
+NQ,15,three_soldiers_crows,bearish,mom14 above 100,no,0.8732106339468303,0.46862734822554
+NQ,15,three_soldiers_crows,bearish,mom14 above 100,yes,0.12678936605316973,0.53137265177446
+NQ,15,three_soldiers_crows,bearish,close location,0-20%,0.9652351738241309,0.20916093314897763
+NQ,15,three_soldiers_crows,bearish,close location,20-40%,0.034764826175869123,0.18935925352497496
+NQ,15,three_soldiers_crows,bearish,close location,40-60%,0.0,0.1775030840943526
+NQ,15,three_soldiers_crows,bearish,close location,60-80%,0.0,0.1969901446971516
+NQ,15,three_soldiers_crows,bearish,close location,80-100%,0.0,0.22698658453454323
+NQ,15,three_soldiers_crows,bearish,volatility,calm (<0.8x),0.38235294117647056,0.39029805293042813
+NQ,15,three_soldiers_crows,bearish,volatility,high (>1.2x),0.27521008403361347,0.25493223007811294
+NQ,15,three_soldiers_crows,bearish,volatility,normal,0.34243697478991597,0.3547697169914589
+NQ,15,three_soldiers_crows,bearish,time of day,Asia (18-2),0.3006134969325153,0.3688868907576932
+NQ,15,three_soldiers_crows,bearish,time of day,Close (15-16),0.034764826175869123,0.030519002319609665
+NQ,15,three_soldiers_crows,bearish,time of day,Europe (2-8),0.3047034764826176,0.2794178083136355
+NQ,15,three_soldiers_crows,bearish,time of day,Midday (10:30-15),0.21267893660531698,0.20483725497226674
+NQ,15,three_soldiers_crows,bearish,time of day,Open (9:30-10:30),0.053169734151329244,0.046516310358808585
+NQ,15,three_soldiers_crows,bearish,time of day,Post (16-17),0.0,2.4823409026343153e-05
+NQ,15,three_soldiers_crows,bearish,time of day,US pre (8-9:30),0.09406952965235174,0.06979790986895998
+NQ,15,three_inside,bullish,trend,against,0.4568023833167825,0.32438955099969385
+NQ,15,three_inside,bullish,trend,mixed,0.25819265143992054,0.23243261133988488
+NQ,15,three_inside,bullish,trend,with,0.28500496524329694,0.4431778376604213
+NQ,15,three_inside,bullish,momentum,flat,0.0,0.0032215268603076447
+NQ,15,three_inside,bullish,momentum,turning against,0.11817279046673287,0.5013639084181696
+NQ,15,three_inside,bullish,momentum,turning with,0.8818272095332671,0.49541456472152273
+NQ,15,three_inside,bullish,level in signal direction,at support/resistance,0.2025819265143992,0.23780274215925043
+NQ,15,three_inside,bullish,level in signal direction,not near,0.7974180734856008,0.7621972578407495
+NQ,15,three_inside,bullish,vs VWAP,on the cheap side,0.4011916583912612,0.44462311169706614
+NQ,15,three_inside,bullish,vs VWAP,on the rich side,0.5988083416087389,0.5553768883029339
+NQ,15,three_inside,bullish,mom14 above 100,no,0.5362462760675273,0.46862734822554
+NQ,15,three_inside,bullish,mom14 above 100,yes,0.4637537239324727,0.53137265177446
+NQ,15,three_inside,bullish,close location,0-20%,0.0,0.20916093314897763
+NQ,15,three_inside,bullish,close location,20-40%,0.01787487586891758,0.18935925352497496
+NQ,15,three_inside,bullish,close location,40-60%,0.07845084409136048,0.1775030840943526
+NQ,15,three_inside,bullish,close location,60-80%,0.27805362462760674,0.1969901446971516
+NQ,15,three_inside,bullish,close location,80-100%,0.6256206554121152,0.22698658453454323
+NQ,15,three_inside,bullish,volatility,calm (<0.8x),0.43605236656596175,0.39029805293042813
+NQ,15,three_inside,bullish,volatility,high (>1.2x),0.23162134944612287,0.25493223007811294
+NQ,15,three_inside,bullish,volatility,normal,0.3323262839879154,0.3547697169914589
+NQ,15,three_inside,bullish,time of day,Asia (18-2),0.3455809334657398,0.3688868907576932
+NQ,15,three_inside,bullish,time of day,Close (15-16),0.021847070506454815,0.030519002319609665
+NQ,15,three_inside,bullish,time of day,Europe (2-8),0.32671300893743793,0.2794178083136355
+NQ,15,three_inside,bullish,time of day,Midday (10:30-15),0.17378351539225423,0.20483725497226674
+NQ,15,three_inside,bullish,time of day,Open (9:30-10:30),0.0506454816285998,0.046516310358808585
+NQ,15,three_inside,bullish,time of day,Post (16-17),0.0,2.4823409026343153e-05
+NQ,15,three_inside,bullish,time of day,US pre (8-9:30),0.0814299900695134,0.06979790986895998
+NQ,15,three_inside,bearish,trend,against,0.5448207171314741,0.4431778376604213
+NQ,15,three_inside,bearish,trend,mixed,0.21314741035856574,0.23243261133988488
+NQ,15,three_inside,bearish,trend,with,0.24203187250996017,0.32438955099969385
+NQ,15,three_inside,bearish,momentum,flat,0.0,0.0032215268603076447
+NQ,15,three_inside,bearish,momentum,turning against,0.12250996015936255,0.49541456472152273
+NQ,15,three_inside,bearish,momentum,turning with,0.8774900398406374,0.5013639084181696
+NQ,15,three_inside,bearish,level in signal direction,at support/resistance,0.21215139442231076,0.3016899225233823
+NQ,15,three_inside,bearish,level in signal direction,not near,0.7878486055776892,0.6983100774766178
+NQ,15,three_inside,bearish,vs VWAP,on the cheap side,0.4651394422310757,0.5553768883029339
+NQ,15,three_inside,bearish,vs VWAP,on the rich side,0.5348605577689243,0.44462311169706614
+NQ,15,three_inside,bearish,mom14 above 100,no,0.49701195219123506,0.46862734822554
+NQ,15,three_inside,bearish,mom14 above 100,yes,0.5029880478087649,0.53137265177446
+NQ,15,three_inside,bearish,close location,0-20%,0.5786852589641435,0.20916093314897763
+NQ,15,three_inside,bearish,close location,20-40%,0.3147410358565737,0.18935925352497496
+NQ,15,three_inside,bearish,close location,40-60%,0.08864541832669323,0.1775030840943526
+NQ,15,three_inside,bearish,close location,60-80%,0.01693227091633466,0.1969901446971516
+NQ,15,three_inside,bearish,close location,80-100%,0.00099601593625498,0.22698658453454323
+NQ,15,three_inside,bearish,volatility,calm (<0.8x),0.4801627670396745,0.39029805293042813
+NQ,15,three_inside,bearish,volatility,high (>1.2x),0.18209562563580875,0.25493223007811294
+NQ,15,three_inside,bearish,volatility,normal,0.3377416073245168,0.3547697169914589
+NQ,15,three_inside,bearish,time of day,Asia (18-2),0.3147410358565737,0.3688868907576932
+NQ,15,three_inside,bearish,time of day,Close (15-16),0.029880478087649404,0.030519002319609665
+NQ,15,three_inside,bearish,time of day,Europe (2-8),0.33167330677290835,0.2794178083136355
+NQ,15,three_inside,bearish,time of day,Midday (10:30-15),0.1553784860557769,0.20483725497226674
+NQ,15,three_inside,bearish,time of day,Open (9:30-10:30),0.0796812749003984,0.046516310358808585
+NQ,15,three_inside,bearish,time of day,Post (16-17),0.0,2.4823409026343153e-05
+NQ,15,three_inside,bearish,time of day,US pre (8-9:30),0.08864541832669323,0.06979790986895998
+NQ,15,inside_bar,present,trend,down,0.32403380834504136,0.32438955099969385
+NQ,15,inside_bar,present,trend,mixed,0.22885305858477734,0.23243261133988488
+NQ,15,inside_bar,present,trend,up,0.4471131330701813,0.4431778376604213
+NQ,15,inside_bar,present,momentum,falling,0.5021743493677661,0.5013639084181696
+NQ,15,inside_bar,present,momentum,flat,0.003367453892642894,0.0032215268603076447
+NQ,15,inside_bar,present,momentum,rising,0.494458196739591,0.49541456472152273
+NQ,15,inside_bar,present,near support (<0.5 ATR),no,0.7746035993844919,0.7621972578407495
+NQ,15,inside_bar,present,near support (<0.5 ATR),yes,0.22539640061550814,0.23780274215925043
+NQ,15,inside_bar,present,near resistance (<0.5 ATR),no,0.7060725675163355,0.6983100774766178
+NQ,15,inside_bar,present,near resistance (<0.5 ATR),yes,0.2939274324836645,0.3016899225233823
+NQ,15,inside_bar,present,vs VWAP,above,0.5560090096117393,0.5553768883029339
+NQ,15,inside_bar,present,vs VWAP,below,0.44399099038826073,0.44462311169706614
+NQ,15,inside_bar,present,mom14 above 100,no,0.4640173055908655,0.46862734822554
+NQ,15,inside_bar,present,mom14 above 100,yes,0.5359826944091345,0.53137265177446
+NQ,15,inside_bar,present,close location,0-20%,0.18284605606476215,0.20916093314897763
+NQ,15,inside_bar,present,close location,20-40%,0.20329609063134185,0.18935925352497496
+NQ,15,inside_bar,present,close location,40-60%,0.20780089650097008,0.1775030840943526
+NQ,15,inside_bar,present,close location,60-80%,0.21020940656988024,0.1969901446971516
+NQ,15,inside_bar,present,close location,80-100%,0.19584755023304565,0.22698658453454323
+NQ,15,inside_bar,present,volatility,calm (<0.8x),0.3699092970521542,0.39029805293042813
+NQ,15,inside_bar,present,volatility,high (>1.2x),0.25979591836734695,0.25493223007811294
+NQ,15,inside_bar,present,volatility,normal,0.37029478458049886,0.3547697169914589
+NQ,15,inside_bar,present,time of day,Asia (18-2),0.3928993555005464,0.3688868907576932
+NQ,15,inside_bar,present,time of day,Close (15-16),0.025579268972592047,0.030519002319609665
+NQ,15,inside_bar,present,time of day,Europe (2-8),0.27289757141901383,0.2794178083136355
+NQ,15,inside_bar,present,time of day,Midday (10:30-15),0.19702950424834415,0.20483725497226674
+NQ,15,inside_bar,present,time of day,Open (9:30-10:30),0.041948217033518434,0.046516310358808585
+NQ,15,inside_bar,present,time of day,Post (16-17),0.0,2.4823409026343153e-05
+NQ,15,inside_bar,present,time of day,US pre (8-9:30),0.06964608282598515,0.06979790986895998
+NQ,15,outside_bar,bullish,trend,against,0.31014417792719984,0.32438955099969385
+NQ,15,outside_bar,bullish,trend,mixed,0.23527510182970193,0.23243261133988488
+NQ,15,outside_bar,bullish,trend,with,0.4545807202430982,0.4431778376604213
+NQ,15,outside_bar,bullish,momentum,flat,0.0008404991271739833,0.0032215268603076447
+NQ,15,outside_bar,bullish,momentum,turning against,0.204758518135385,0.5013639084181696
+NQ,15,outside_bar,bullish,momentum,turning with,0.794400982737441,0.49541456472152273
+NQ,15,outside_bar,bullish,level in signal direction,at support/resistance,0.12827309756255253,0.23780274215925043
+NQ,15,outside_bar,bullish,level in signal direction,not near,0.8717269024374474,0.7621972578407495
+NQ,15,outside_bar,bullish,vs VWAP,on the cheap side,0.3058770285123165,0.44462311169706614
+NQ,15,outside_bar,bullish,vs VWAP,on the rich side,0.6941229714876834,0.5553768883029339
+NQ,15,outside_bar,bullish,mom14 above 100,no,0.3773841081011185,0.46862734822554
+NQ,15,outside_bar,bullish,mom14 above 100,yes,0.6226158918988814,0.53137265177446
+NQ,15,outside_bar,bullish,close location,0-20%,0.00252149738152195,0.20916093314897763
+NQ,15,outside_bar,bullish,close location,20-40%,0.028835585439968968,0.18935925352497496
+NQ,15,outside_bar,bullish,close location,40-60%,0.1105579621128855,0.1775030840943526
+NQ,15,outside_bar,bullish,close location,60-80%,0.29857115148380425,0.1969901446971516
+NQ,15,outside_bar,bullish,close location,80-100%,0.5595138035818193,0.22698658453454323
+NQ,15,outside_bar,bullish,volatility,calm (<0.8x),0.3887938971458635,0.39029805293042813
+NQ,15,outside_bar,bullish,volatility,high (>1.2x),0.2412863343417072,0.25493223007811294
+NQ,15,outside_bar,bullish,volatility,normal,0.3699197685124293,0.3547697169914589
+NQ,15,outside_bar,bullish,time of day,Asia (18-2),0.29967026572703176,0.3688868907576932
+NQ,15,outside_bar,bullish,time of day,Close (15-16),0.03200362061162475,0.030519002319609665
+NQ,15,outside_bar,bullish,time of day,Europe (2-8),0.2940453869528674,0.2794178083136355
+NQ,15,outside_bar,bullish,time of day,Midday (10:30-15),0.19098726320553436,0.20483725497226674
+NQ,15,outside_bar,bullish,time of day,Open (9:30-10:30),0.10040731880778432,0.046516310358808585
+NQ,15,outside_bar,bullish,time of day,Post (16-17),0.0,2.4823409026343153e-05
+NQ,15,outside_bar,bullish,time of day,US pre (8-9:30),0.08288614469515743,0.06979790986895998
+NQ,15,outside_bar,bearish,trend,against,0.4364374034003091,0.4431778376604213
+NQ,15,outside_bar,bearish,trend,mixed,0.24220762493560022,0.23243261133988488
+NQ,15,outside_bar,bearish,trend,with,0.32135497166409066,0.32438955099969385
+NQ,15,outside_bar,bearish,momentum,flat,0.001287995878413189,0.0032215268603076447
+NQ,15,outside_bar,bearish,momentum,turning against,0.18965739309634208,0.49541456472152273
+NQ,15,outside_bar,bearish,momentum,turning with,0.8090546110252447,0.5013639084181696
+NQ,15,outside_bar,bearish,level in signal direction,at support/resistance,0.17394384337970117,0.3016899225233823
+NQ,15,outside_bar,bearish,level in signal direction,not near,0.8260561566202989,0.6983100774766178
+NQ,15,outside_bar,bearish,vs VWAP,on the cheap side,0.43070582174137045,0.5553768883029339
+NQ,15,outside_bar,bearish,vs VWAP,on the rich side,0.5692941782586296,0.44462311169706614
+NQ,15,outside_bar,bearish,mom14 above 100,no,0.5571870170015456,0.46862734822554
+NQ,15,outside_bar,bearish,mom14 above 100,yes,0.4428129829984544,0.53137265177446
+NQ,15,outside_bar,bearish,close location,0-20%,0.5189335394126738,0.20916093314897763
+NQ,15,outside_bar,bearish,close location,20-40%,0.3116306027820711,0.18935925352497496
+NQ,15,outside_bar,bearish,close location,40-60%,0.12828438948995363,0.1775030840943526
+NQ,15,outside_bar,bearish,close location,60-80%,0.03838227717671303,0.1969901446971516
+NQ,15,outside_bar,bearish,close location,80-100%,0.0027691911385883563,0.22698658453454323
+NQ,15,outside_bar,bearish,volatility,calm (<0.8x),0.3864395676383885,0.39029805293042813
+NQ,15,outside_bar,bearish,volatility,high (>1.2x),0.2397641663937111,0.25493223007811294
+NQ,15,outside_bar,bearish,volatility,normal,0.37379626596790044,0.3547697169914589
+NQ,15,outside_bar,bearish,time of day,Asia (18-2),0.29920144255538383,0.3688868907576932
+NQ,15,outside_bar,bearish,time of day,Close (15-16),0.03458268933539413,0.030519002319609665
+NQ,15,outside_bar,bearish,time of day,Europe (2-8),0.28329469345698094,0.2794178083136355
+NQ,15,outside_bar,bearish,time of day,Midday (10:30-15),0.19712776919113859,0.20483725497226674
+NQ,15,outside_bar,bearish,time of day,Open (9:30-10:30),0.09795208655332303,0.046516310358808585
+NQ,15,outside_bar,bearish,time of day,Post (16-17),6.439979392065946e-05,2.4823409026343153e-05
+NQ,15,outside_bar,bearish,time of day,US pre (8-9:30),0.08777691911385883,0.06979790986895998
+NQ,15,pin_bar,bullish,trend,against,0.3413968006242684,0.32438955099969385
+NQ,15,pin_bar,bullish,trend,mixed,0.2549096111327871,0.23243261133988488
+NQ,15,pin_bar,bullish,trend,with,0.4036935882429445,0.4431778376604213
+NQ,15,pin_bar,bullish,momentum,flat,0.007803355442840421,0.0032215268603076447
+NQ,15,pin_bar,bullish,momentum,turning against,0.5338795682143321,0.5013639084181696
+NQ,15,pin_bar,bullish,momentum,turning with,0.4583170763428274,0.49541456472152273
+NQ,15,pin_bar,bullish,level in signal direction,at support/resistance,0.3286513200676291,0.23780274215925043
+NQ,15,pin_bar,bullish,level in signal direction,not near,0.6713486799323709,0.7621972578407495
+NQ,15,pin_bar,bullish,vs VWAP,on the cheap side,0.5030563142151125,0.44462311169706614
+NQ,15,pin_bar,bullish,vs VWAP,on the rich side,0.4969436857848875,0.5553768883029339
+NQ,15,pin_bar,bullish,mom14 above 100,no,0.5385615814800364,0.46862734822554
+NQ,15,pin_bar,bullish,mom14 above 100,yes,0.4614384185199636,0.53137265177446
+NQ,15,pin_bar,bullish,close location,0-20%,0.0,0.20916093314897763
+NQ,15,pin_bar,bullish,close location,20-40%,0.0,0.18935925352497496
+NQ,15,pin_bar,bullish,close location,40-60%,0.0,0.1775030840943526
+NQ,15,pin_bar,bullish,close location,60-80%,0.5033164260632071,0.1969901446971516
+NQ,15,pin_bar,bullish,close location,80-100%,0.4966835739367928,0.22698658453454323
+NQ,15,pin_bar,bullish,volatility,calm (<0.8x),0.4627715951245363,0.39029805293042813
+NQ,15,pin_bar,bullish,volatility,high (>1.2x),0.20892951775304716,0.25493223007811294
+NQ,15,pin_bar,bullish,volatility,normal,0.32829888712241656,0.3547697169914589
+NQ,15,pin_bar,bullish,time of day,Asia (18-2),0.30172974378982964,0.3688868907576932
+NQ,15,pin_bar,bullish,time of day,Close (15-16),0.035505267264923916,0.030519002319609665
+NQ,15,pin_bar,bullish,time of day,Europe (2-8),0.32370919495383016,0.2794178083136355
+NQ,15,pin_bar,bullish,time of day,Midday (10:30-15),0.12771491741448823,0.20483725497226674
+NQ,15,pin_bar,bullish,time of day,Open (9:30-10:30),0.1140590453895175,0.046516310358808585
+NQ,15,pin_bar,bullish,time of day,Post (16-17),0.0,2.4823409026343153e-05
+NQ,15,pin_bar,bullish,time of day,US pre (8-9:30),0.09728183118741059,0.06979790986895998
+NQ,15,pin_bar,bearish,trend,against,0.4665881164787073,0.4431778376604213
+NQ,15,pin_bar,bearish,trend,mixed,0.25029456320484766,0.23243261133988488
+NQ,15,pin_bar,bearish,trend,with,0.28311732031644504,0.32438955099969385
+NQ,15,pin_bar,bearish,momentum,flat,0.00976266621780845,0.0032215268603076447
+NQ,15,pin_bar,bearish,momentum,turning against,0.4923413566739606,0.49541456472152273
+NQ,15,pin_bar,bearish,momentum,turning with,0.4978959771082309,0.5013639084181696
+NQ,15,pin_bar,bearish,level in signal direction,at support/resistance,0.3494361218650059,0.3016899225233823
+NQ,15,pin_bar,bearish,level in signal direction,not near,0.6505638781349941,0.6983100774766178
+NQ,15,pin_bar,bearish,vs VWAP,on the cheap side,0.559165123716546,0.5553768883029339
+NQ,15,pin_bar,bearish,vs VWAP,on the rich side,0.44083487628345397,0.44462311169706614
+NQ,15,pin_bar,bearish,mom14 above 100,no,0.45564719744150817,0.46862734822554
+NQ,15,pin_bar,bearish,mom14 above 100,yes,0.5443528025584918,0.53137265177446
+NQ,15,pin_bar,bearish,close location,0-20%,0.515569769399091,0.20916093314897763
+NQ,15,pin_bar,bearish,close location,20-40%,0.48443023060090895,0.18935925352497496
+NQ,15,pin_bar,bearish,close location,40-60%,0.0,0.1775030840943526
+NQ,15,pin_bar,bearish,close location,60-80%,0.0,0.1969901446971516
+NQ,15,pin_bar,bearish,close location,80-100%,0.0,0.22698658453454323
+NQ,15,pin_bar,bearish,volatility,calm (<0.8x),0.5357571600068599,0.39029805293042813
+NQ,15,pin_bar,bearish,volatility,high (>1.2x),0.136683244726462,0.25493223007811294
+NQ,15,pin_bar,bearish,volatility,normal,0.3275595952666781,0.3547697169914589
+NQ,15,pin_bar,bearish,time of day,Asia (18-2),0.3211580541996297,0.3688868907576932
+NQ,15,pin_bar,bearish,time of day,Close (15-16),0.03181282612354822,0.030519002319609665
+NQ,15,pin_bar,bearish,time of day,Europe (2-8),0.3642484430230601,0.2794178083136355
+NQ,15,pin_bar,bearish,time of day,Midday (10:30-15),0.074061605790271,0.20483725497226674
+NQ,15,pin_bar,bearish,time of day,Open (9:30-10:30),0.10233967345564719,0.046516310358808585
+NQ,15,pin_bar,bearish,time of day,Post (16-17),0.0,2.4823409026343153e-05
+NQ,15,pin_bar,bearish,time of day,US pre (8-9:30),0.1063793974078438,0.06979790986895998
+NQ,15,nr7,present,trend,down,0.331968331968332,0.32438955099969385
+NQ,15,nr7,present,trend,mixed,0.22024297024297024,0.23243261133988488
+NQ,15,nr7,present,trend,up,0.4477886977886978,0.4431778376604213
+NQ,15,nr7,present,momentum,falling,0.49162799162799165,0.5013639084181696
+NQ,15,nr7,present,momentum,flat,0.005300755300755301,0.0032215268603076447
+NQ,15,nr7,present,momentum,rising,0.5030712530712531,0.49541456472152273
+NQ,15,nr7,present,near support (<0.5 ATR),no,0.8338338338338338,0.7621972578407495
+NQ,15,nr7,present,near support (<0.5 ATR),yes,0.16616616616616617,0.23780274215925043
+NQ,15,nr7,present,near resistance (<0.5 ATR),no,0.7091864591864592,0.6983100774766178
+NQ,15,nr7,present,near resistance (<0.5 ATR),yes,0.2908135408135408,0.3016899225233823
+NQ,15,nr7,present,vs VWAP,above,0.5883383383383384,0.5553768883029339
+NQ,15,nr7,present,vs VWAP,below,0.4116616616616617,0.44462311169706614
+NQ,15,nr7,present,mom14 above 100,no,0.44712894712894713,0.46862734822554
+NQ,15,nr7,present,mom14 above 100,yes,0.5528710528710529,0.53137265177446
+NQ,15,nr7,present,close location,0-20%,0.16687141687141688,0.20916093314897763
+NQ,15,nr7,present,close location,20-40%,0.20770770770770772,0.18935925352497496
+NQ,15,nr7,present,close location,40-60%,0.23077623077623077,0.1775030840943526
+NQ,15,nr7,present,close location,60-80%,0.21717171717171718,0.1969901446971516
+NQ,15,nr7,present,close location,80-100%,0.17747292747292748,0.22698658453454323
+NQ,15,nr7,present,volatility,calm (<0.8x),0.3667970648827573,0.39029805293042813
+NQ,15,nr7,present,volatility,high (>1.2x),0.3071225203120298,0.25493223007811294
+NQ,15,nr7,present,volatility,normal,0.3260804148052128,0.3547697169914589
+NQ,15,nr7,present,time of day,Asia (18-2),0.3344025844025844,0.3688868907576932
+NQ,15,nr7,present,time of day,Close (15-16),0.02325052325052325,0.030519002319609665
+NQ,15,nr7,present,time of day,Europe (2-8),0.2669260169260169,0.2794178083136355
+NQ,15,nr7,present,time of day,Midday (10:30-15),0.3352898352898353,0.20483725497226674
+NQ,15,nr7,present,time of day,Open (9:30-10:30),0.001456001456001456,0.046516310358808585
+NQ,15,nr7,present,time of day,Post (16-17),4.55000455000455e-05,2.4823409026343153e-05
+NQ,15,nr7,present,time of day,US pre (8-9:30),0.03862953862953863,0.06979790986895998
+NQ,15,tweezer,bullish,trend,against,0.4648755780665052,0.32438955099969385
+NQ,15,tweezer,bullish,trend,mixed,0.24102620568156793,0.23243261133988488
+NQ,15,tweezer,bullish,trend,with,0.2940982162519269,0.4431778376604213
+NQ,15,tweezer,bullish,momentum,flat,0.0026425897379431843,0.0032215268603076447
+NQ,15,tweezer,bullish,momentum,turning against,0.2273728253688615,0.5013639084181696
+NQ,15,tweezer,bullish,momentum,turning with,0.7699845848931953,0.49541456472152273
+NQ,15,tweezer,bullish,level in signal direction,at support/resistance,0.2936577846289364,0.23780274215925043
+NQ,15,tweezer,bullish,level in signal direction,not near,0.7063422153710637,0.7621972578407495
+NQ,15,tweezer,bullish,vs VWAP,on the cheap side,0.6196872935476767,0.44462311169706614
+NQ,15,tweezer,bullish,vs VWAP,on the rich side,0.3803127064523233,0.5553768883029339
+NQ,15,tweezer,bullish,mom14 above 100,no,0.6606474344857961,0.46862734822554
+NQ,15,tweezer,bullish,mom14 above 100,yes,0.3393525655142039,0.53137265177446
+NQ,15,tweezer,bullish,close location,0-20%,0.01024003523452984,0.20916093314897763
+NQ,15,tweezer,bullish,close location,20-40%,0.07597445496586655,0.18935925352497496
+NQ,15,tweezer,bullish,close location,40-60%,0.17088746972032592,0.1775030840943526
+NQ,15,tweezer,bullish,close location,60-80%,0.30808192028187625,0.1969901446971516
+NQ,15,tweezer,bullish,close location,80-100%,0.4348161197974015,0.22698658453454323
+NQ,15,tweezer,bullish,volatility,calm (<0.8x),0.38383273703041143,0.39029805293042813
+NQ,15,tweezer,bullish,volatility,high (>1.2x),0.2783989266547406,0.25493223007811294
+NQ,15,tweezer,bullish,volatility,normal,0.33776833631484793,0.3547697169914589
+NQ,15,tweezer,bullish,time of day,Asia (18-2),0.4025545034133451,0.3688868907576932
+NQ,15,tweezer,bullish,time of day,Close (15-16),0.029398810834617924,0.030519002319609665
+NQ,15,tweezer,bullish,time of day,Europe (2-8),0.2685531821184761,0.2794178083136355
+NQ,15,tweezer,bullish,time of day,Midday (10:30-15),0.2139396608676503,0.20483725497226674
+NQ,15,tweezer,bullish,time of day,Open (9:30-10:30),0.02510460251046025,0.046516310358808585
+NQ,15,tweezer,bullish,time of day,Post (16-17),0.0,2.4823409026343153e-05
+NQ,15,tweezer,bullish,time of day,US pre (8-9:30),0.06044924025545034,0.06979790986895998
+NQ,15,tweezer,bearish,trend,against,0.5762036716314514,0.4431778376604213
+NQ,15,tweezer,bearish,trend,mixed,0.21285071007966747,0.23243261133988488
+NQ,15,tweezer,bearish,trend,with,0.2109456182888812,0.32438955099969385
+NQ,15,tweezer,bearish,momentum,flat,0.0020782819535850364,0.0032215268603076447
+NQ,15,tweezer,bearish,momentum,turning against,0.24792171804641497,0.49541456472152273
+NQ,15,tweezer,bearish,momentum,turning with,0.75,0.5013639084181696
+NQ,15,tweezer,bearish,level in signal direction,at support/resistance,0.3508832698302736,0.3016899225233823
+NQ,15,tweezer,bearish,level in signal direction,not near,0.6491167301697264,0.6983100774766178
+NQ,15,tweezer,bearish,vs VWAP,on the cheap side,0.7034984412885348,0.5553768883029339
+NQ,15,tweezer,bearish,vs VWAP,on the rich side,0.29650155871146516,0.44462311169706614
+NQ,15,tweezer,bearish,mom14 above 100,no,0.31243505368895047,0.46862734822554
+NQ,15,tweezer,bearish,mom14 above 100,yes,0.6875649463110496,0.53137265177446
+NQ,15,tweezer,bearish,close location,0-20%,0.4069968825770696,0.20916093314897763
+NQ,15,tweezer,bearish,close location,20-40%,0.3077589192933841,0.18935925352497496
+NQ,15,tweezer,bearish,close location,40-60%,0.19007620367163144,0.1775030840943526
+NQ,15,tweezer,bearish,close location,60-80%,0.08443020436439211,0.1969901446971516
+NQ,15,tweezer,bearish,close location,80-100%,0.010737790093522688,0.22698658453454323
+NQ,15,tweezer,bearish,volatility,calm (<0.8x),0.3924631541788015,0.39029805293042813
+NQ,15,tweezer,bearish,volatility,high (>1.2x),0.25514076427499777,0.25493223007811294
+NQ,15,tweezer,bearish,volatility,normal,0.35239608154620067,0.3547697169914589
+NQ,15,tweezer,bearish,time of day,Asia (18-2),0.38482854173882924,0.3688868907576932
+NQ,15,tweezer,bearish,time of day,Close (15-16),0.03316591617596121,0.030519002319609665
+NQ,15,tweezer,bearish,time of day,Europe (2-8),0.2646345687564946,0.2794178083136355
+NQ,15,tweezer,bearish,time of day,Midday (10:30-15),0.23510564599930725,0.20483725497226674
+NQ,15,tweezer,bearish,time of day,Open (9:30-10:30),0.024506408036023553,0.046516310358808585
+NQ,15,tweezer,bearish,time of day,Post (16-17),8.659508139937652e-05,2.4823409026343153e-05
+NQ,15,tweezer,bearish,time of day,US pre (8-9:30),0.05767232421198476,0.06979790986895998
+NQ,15,inside_bar_breakout,bullish,trend,against,0.2874204344117068,0.32438955099969385
+NQ,15,inside_bar_breakout,bullish,trend,mixed,0.22376796377715072,0.23243261133988488
+NQ,15,inside_bar_breakout,bullish,trend,with,0.48881160181114247,0.4431778376604213
+NQ,15,inside_bar_breakout,bullish,momentum,flat,0.0005249688299757202,0.0032215268603076447
+NQ,15,inside_bar_breakout,bullish,momentum,turning against,0.15112540192926044,0.5013639084181696
+NQ,15,inside_bar_breakout,bullish,momentum,turning with,0.8483496292407638,0.49541456472152273
+NQ,15,inside_bar_breakout,bullish,level in signal direction,at support/resistance,0.05289060962005381,0.23780274215925043
+NQ,15,inside_bar_breakout,bullish,level in signal direction,not near,0.9471093903799462,0.7621972578407495
+NQ,15,inside_bar_breakout,bullish,vs VWAP,on the cheap side,0.19325415053481199,0.44462311169706614
+NQ,15,inside_bar_breakout,bullish,vs VWAP,on the rich side,0.806745849465188,0.5553768883029339
+NQ,15,inside_bar_breakout,bullish,mom14 above 100,no,0.29614804121005317,0.46862734822554
+NQ,15,inside_bar_breakout,bullish,mom14 above 100,yes,0.7038519587899469,0.53137265177446
+NQ,15,inside_bar_breakout,bullish,close location,0-20%,0.0015749064899271605,0.20916093314897763
+NQ,15,inside_bar_breakout,bullish,close location,20-40%,0.01929260450160772,0.18935925352497496
+NQ,15,inside_bar_breakout,bullish,close location,40-60%,0.09875976113918236,0.1775030840943526
+NQ,15,inside_bar_breakout,bullish,close location,60-80%,0.30008530743487105,0.1969901446971516
+NQ,15,inside_bar_breakout,bullish,close location,80-100%,0.5802874204344117,0.22698658453454323
+NQ,15,inside_bar_breakout,bullish,volatility,calm (<0.8x),0.37644310977644313,0.39029805293042813
+NQ,15,inside_bar_breakout,bullish,volatility,high (>1.2x),0.2523857190523857,0.25493223007811294
+NQ,15,inside_bar_breakout,bullish,volatility,normal,0.37117117117117115,0.3547697169914589
+NQ,15,inside_bar_breakout,bullish,time of day,Asia (18-2),0.35218846380996127,0.3688868907576932
+NQ,15,inside_bar_breakout,bullish,time of day,Close (15-16),0.030251328827350876,0.030519002319609665
+NQ,15,inside_bar_breakout,bullish,time of day,Europe (2-8),0.28151453507447993,0.2794178083136355
+NQ,15,inside_bar_breakout,bullish,time of day,Midday (10:30-15),0.21169368068770916,0.20483725497226674
+NQ,15,inside_bar_breakout,bullish,time of day,Open (9:30-10:30),0.05321871513878863,0.046516310358808585
+NQ,15,inside_bar_breakout,bullish,time of day,Post (16-17),0.0,2.4823409026343153e-05
+NQ,15,inside_bar_breakout,bullish,time of day,US pre (8-9:30),0.07113327646171008,0.06979790986895998
+NQ,15,inside_bar_breakout,bearish,trend,against,0.38526362890595867,0.4431778376604213
+NQ,15,inside_bar_breakout,bearish,trend,mixed,0.23894399284062942,0.23243261133988488
+NQ,15,inside_bar_breakout,bearish,trend,with,0.3757923782534119,0.32438955099969385
+NQ,15,inside_bar_breakout,bearish,momentum,flat,0.00014915355358341412,0.0032215268603076447
+NQ,15,inside_bar_breakout,bearish,momentum,turning against,0.12327541203669178,0.49541456472152273
+NQ,15,inside_bar_breakout,bearish,momentum,turning with,0.8765754344097249,0.5013639084181696
+NQ,15,inside_bar_breakout,bearish,level in signal direction,at support/resistance,0.06972928630024611,0.3016899225233823
+NQ,15,inside_bar_breakout,bearish,level in signal direction,not near,0.9302707136997539,0.6983100774766178
+NQ,15,inside_bar_breakout,bearish,vs VWAP,on the cheap side,0.28234767693340296,0.5553768883029339
+NQ,15,inside_bar_breakout,bearish,vs VWAP,on the rich side,0.7176523230665971,0.44462311169706614
+NQ,15,inside_bar_breakout,bearish,mom14 above 100,no,0.6513535684987695,0.46862734822554
+NQ,15,inside_bar_breakout,bearish,mom14 above 100,yes,0.34864643150123054,0.53137265177446
+NQ,15,inside_bar_breakout,bearish,close location,0-20%,0.5706614960101425,0.20916093314897763
+NQ,15,inside_bar_breakout,bearish,close location,20-40%,0.30748005071220824,0.18935925352497496
+NQ,15,inside_bar_breakout,bearish,close location,40-60%,0.09888880602580356,0.1775030840943526
+NQ,15,inside_bar_breakout,bearish,close location,60-80%,0.020956074278469683,0.1969901446971516
+NQ,15,inside_bar_breakout,bearish,close location,80-100%,0.0020135729733760906,0.22698658453454323
+NQ,15,inside_bar_breakout,bearish,volatility,calm (<0.8x),0.38054775813671193,0.39029805293042813
+NQ,15,inside_bar_breakout,bearish,volatility,high (>1.2x),0.2549882406494196,0.25493223007811294
+NQ,15,inside_bar_breakout,bearish,volatility,normal,0.36446400121386846,0.3547697169914589
+NQ,15,inside_bar_breakout,bearish,time of day,Asia (18-2),0.34670743530464615,0.3688868907576932
+NQ,15,inside_bar_breakout,bearish,time of day,Close (15-16),0.03124766947572526,0.030519002319609665
+NQ,15,inside_bar_breakout,bearish,time of day,Europe (2-8),0.28674770676411365,0.2794178083136355
+NQ,15,inside_bar_breakout,bearish,time of day,Midday (10:30-15),0.20456409873965248,0.20483725497226674
+NQ,15,inside_bar_breakout,bearish,time of day,Open (9:30-10:30),0.054142739950779326,0.046516310358808585
+NQ,15,inside_bar_breakout,bearish,time of day,Post (16-17),0.0,2.4823409026343153e-05
+NQ,15,inside_bar_breakout,bearish,time of day,US pre (8-9:30),0.07659034976508315,0.06979790986895998
+NQ,15,nr7_breakout,bullish,trend,against,0.3061925989580536,0.32438955099969385
+NQ,15,nr7_breakout,bullish,trend,mixed,0.2146194747301144,0.23243261133988488
+NQ,15,nr7_breakout,bullish,trend,with,0.479187926311832,0.4431778376604213
+NQ,15,nr7_breakout,bullish,momentum,flat,0.00026854288629894193,0.0032215268603076447
+NQ,15,nr7_breakout,bullish,momentum,turning against,0.19163220366292497,0.5013639084181696
+NQ,15,nr7_breakout,bullish,momentum,turning with,0.808099253450776,0.49541456472152273
+NQ,15,nr7_breakout,bullish,level in signal direction,at support/resistance,0.07234545356893496,0.23780274215925043
+NQ,15,nr7_breakout,bullish,level in signal direction,not near,0.927654546431065,0.7621972578407495
+NQ,15,nr7_breakout,bullish,vs VWAP,on the cheap side,0.27579354422901337,0.44462311169706614
+NQ,15,nr7_breakout,bullish,vs VWAP,on the rich side,0.7242064557709866,0.5553768883029339
+NQ,15,nr7_breakout,bullish,mom14 above 100,no,0.34787045491164936,0.46862734822554
+NQ,15,nr7_breakout,bullish,mom14 above 100,yes,0.6521295450883506,0.53137265177446
+NQ,15,nr7_breakout,bullish,close location,0-20%,0.0032225146355873034,0.20916093314897763
+NQ,15,nr7_breakout,bullish,close location,20-40%,0.03195660346957409,0.18935925352497496
+NQ,15,nr7_breakout,bullish,close location,40-60%,0.12283151619313605,0.1775030840943526
+NQ,15,nr7_breakout,bullish,close location,60-80%,0.30855577635748427,0.1969901446971516
+NQ,15,nr7_breakout,bullish,close location,80-100%,0.5334335893442183,0.22698658453454323
+NQ,15,nr7_breakout,bullish,volatility,calm (<0.8x),0.38307398307398305,0.39029805293042813
+NQ,15,nr7_breakout,bullish,volatility,high (>1.2x),0.292001092001092,0.25493223007811294
+NQ,15,nr7_breakout,bullish,volatility,normal,0.3249249249249249,0.3547697169914589
+NQ,15,nr7_breakout,bullish,time of day,Asia (18-2),0.3239701380310436,0.3688868907576932
+NQ,15,nr7_breakout,bullish,time of day,Close (15-16),0.02701541436167356,0.030519002319609665
+NQ,15,nr7_breakout,bullish,time of day,Europe (2-8),0.27074493796659327,0.2794178083136355
+NQ,15,nr7_breakout,bullish,time of day,Midday (10:30-15),0.3193512003867018,0.20483725497226674
+NQ,15,nr7_breakout,bullish,time of day,Open (9:30-10:30),0.012030721306192598,0.046516310358808585
+NQ,15,nr7_breakout,bullish,time of day,Post (16-17),0.0,2.4823409026343153e-05
+NQ,15,nr7_breakout,bullish,time of day,US pre (8-9:30),0.04688758794779526,0.06979790986895998
+NQ,15,nr7_breakout,bearish,trend,against,0.42239558892538714,0.4431778376604213
+NQ,15,nr7_breakout,bearish,trend,mixed,0.22401454716095728,0.23243261133988488
+NQ,15,nr7_breakout,bearish,trend,with,0.35358986391365554,0.32438955099969385
+NQ,15,nr7_breakout,bearish,momentum,flat,0.0007038948850305022,0.0032215268603076447
+NQ,15,nr7_breakout,bearish,momentum,turning against,0.18131159080244016,0.49541456472152273
+NQ,15,nr7_breakout,bearish,momentum,turning with,0.8179845143125293,0.5013639084181696
+NQ,15,nr7_breakout,bearish,level in signal direction,at support/resistance,0.13151102768653214,0.3016899225233823
+NQ,15,nr7_breakout,bearish,level in signal direction,not near,0.8684889723134679,0.6983100774766178
+NQ,15,nr7_breakout,bearish,vs VWAP,on the cheap side,0.4239206945096199,0.5553768883029339
+NQ,15,nr7_breakout,bearish,vs VWAP,on the rich side,0.5760793054903801,0.44462311169706614
+NQ,15,nr7_breakout,bearish,mom14 above 100,no,0.560124354763022,0.46862734822554
+NQ,15,nr7_breakout,bearish,mom14 above 100,yes,0.4398756452369779,0.53137265177446
+NQ,15,nr7_breakout,bearish,close location,0-20%,0.5265720319099014,0.20916093314897763
+NQ,15,nr7_breakout,bearish,close location,20-40%,0.31464101360863445,0.18935925352497496
+NQ,15,nr7_breakout,bearish,close location,40-60%,0.12417878930079775,0.1775030840943526
+NQ,15,nr7_breakout,bearish,close location,60-80%,0.031557954012200844,0.1969901446971516
+NQ,15,nr7_breakout,bearish,close location,80-100%,0.003050211168465509,0.22698658453454323
+NQ,15,nr7_breakout,bearish,volatility,calm (<0.8x),0.3950263032042085,0.39029805293042813
+NQ,15,nr7_breakout,bearish,volatility,high (>1.2x),0.2895743663318986,0.25493223007811294
+NQ,15,nr7_breakout,bearish,volatility,normal,0.3153993304638929,0.3547697169914589
+NQ,15,nr7_breakout,bearish,time of day,Asia (18-2),0.3291295166588456,0.3688868907576932
+NQ,15,nr7_breakout,bearish,time of day,Close (15-16),0.030971374941342094,0.030519002319609665
+NQ,15,nr7_breakout,bearish,time of day,Europe (2-8),0.27158610980760206,0.2794178083136355
+NQ,15,nr7_breakout,bearish,time of day,Midday (10:30-15),0.30531440638198026,0.20483725497226674
+NQ,15,nr7_breakout,bearish,time of day,Open (9:30-10:30),0.010793054903801032,0.046516310358808585
+NQ,15,nr7_breakout,bearish,time of day,Post (16-17),0.0,2.4823409026343153e-05
+NQ,15,nr7_breakout,bearish,time of day,US pre (8-9:30),0.052205537306428906,0.06979790986895998
+NQ,15,clv_extreme,bullish,trend,against,0.35048824095722736,0.32438955099969385
+NQ,15,clv_extreme,bullish,trend,mixed,0.23771145647091185,0.23243261133988488
+NQ,15,clv_extreme,bullish,trend,with,0.41180030257186084,0.4431778376604213
+NQ,15,clv_extreme,bullish,momentum,flat,0.0016366387016916518,0.0032215268603076447
+NQ,15,clv_extreme,bullish,momentum,turning against,0.8095860266813368,0.5013639084181696
+NQ,15,clv_extreme,bullish,momentum,turning with,0.18877733461697152,0.49541456472152273
+NQ,15,clv_extreme,bullish,level in signal direction,at support/resistance,0.3602943199009765,0.23780274215925043
+NQ,15,clv_extreme,bullish,level in signal direction,not near,0.6397056800990235,0.7621972578407495
+NQ,15,clv_extreme,bullish,vs VWAP,on the cheap side,0.6063540090771559,0.44462311169706614
+NQ,15,clv_extreme,bullish,vs VWAP,on the rich side,0.3936459909228442,0.5553768883029339
+NQ,15,clv_extreme,bullish,mom14 above 100,no,0.5685600330078394,0.46862734822554
+NQ,15,clv_extreme,bullish,mom14 above 100,yes,0.43143996699216064,0.53137265177446
+NQ,15,clv_extreme,bullish,close location,0-20%,1.0,0.20916093314897763
+NQ,15,clv_extreme,bullish,close location,20-40%,0.0,0.18935925352497496
+NQ,15,clv_extreme,bullish,close location,40-60%,0.0,0.1775030840943526
+NQ,15,clv_extreme,bullish,close location,60-80%,0.0,0.1969901446971516
+NQ,15,clv_extreme,bullish,close location,80-100%,0.0,0.22698658453454323
+NQ,15,clv_extreme,bullish,volatility,calm (<0.8x),0.3848394868059835,0.39029805293042813
+NQ,15,clv_extreme,bullish,volatility,high (>1.2x),0.263908342204045,0.25493223007811294
+NQ,15,clv_extreme,bullish,volatility,normal,0.3512521709899714,0.3547697169914589
+NQ,15,clv_extreme,bullish,time of day,Asia (18-2),0.3515747490028882,0.3688868907576932
+NQ,15,clv_extreme,bullish,time of day,Close (15-16),0.03226516297620685,0.030519002319609665
+NQ,15,clv_extreme,bullish,time of day,Europe (2-8),0.2919268326227479,0.2794178083136355
+NQ,15,clv_extreme,bullish,time of day,Midday (10:30-15),0.2046210975106588,0.20483725497226674
+NQ,15,clv_extreme,bullish,time of day,Open (9:30-10:30),0.0479713932058864,0.046516310358808585
+NQ,15,clv_extreme,bullish,time of day,Post (16-17),2.7506532801540365e-05,2.4823409026343153e-05
+NQ,15,clv_extreme,bullish,time of day,US pre (8-9:30),0.07161325814881034,0.06979790986895998
+NQ,15,clv_extreme,bearish,trend,against,0.45209918625027007,0.4431778376604213
+NQ,15,clv_extreme,bearish,trend,mixed,0.22972226889747713,0.23243261133988488
+NQ,15,clv_extreme,bearish,trend,with,0.31817854485225283,0.32438955099969385
+NQ,15,clv_extreme,bearish,momentum,flat,0.0015362826760123862,0.0032215268603076447
+NQ,15,clv_extreme,bearish,momentum,turning against,0.7935260087856165,0.49541456472152273
+NQ,15,clv_extreme,bearish,momentum,turning with,0.20493770853837107,0.5013639084181696
+NQ,15,clv_extreme,bearish,level in signal direction,at support/resistance,0.4182769629611849,0.3016899225233823
+NQ,15,clv_extreme,bearish,level in signal direction,not near,0.5817230370388151,0.6983100774766178
+NQ,15,clv_extreme,bearish,vs VWAP,on the cheap side,0.6905350584507549,0.5553768883029339
+NQ,15,clv_extreme,bearish,vs VWAP,on the rich side,0.3094649415492451,0.44462311169706614
+NQ,15,clv_extreme,bearish,mom14 above 100,no,0.3871072277299023,0.46862734822554
+NQ,15,clv_extreme,bearish,mom14 above 100,yes,0.6128927722700978,0.53137265177446
+NQ,15,clv_extreme,bearish,close location,0-20%,0.0,0.20916093314897763
+NQ,15,clv_extreme,bearish,close location,20-40%,0.0,0.18935925352497496
+NQ,15,clv_extreme,bearish,close location,40-60%,0.0,0.1775030840943526
+NQ,15,clv_extreme,bearish,close location,60-80%,0.05158549173047841,0.1969901446971516
+NQ,15,clv_extreme,bearish,close location,80-100%,0.9484145082695216,0.22698658453454323
+NQ,15,clv_extreme,bearish,volatility,calm (<0.8x),0.3694406781731345,0.39029805293042813
+NQ,15,clv_extreme,bearish,volatility,high (>1.2x),0.27490930411521125,0.25493223007811294
+NQ,15,clv_extreme,bearish,volatility,normal,0.3556500177116543,0.3547697169914589
+NQ,15,clv_extreme,bearish,time of day,Asia (18-2),0.3432151515878922,0.3688868907576932
+NQ,15,clv_extreme,bearish,time of day,Close (15-16),0.032189922945822035,0.030519002319609665
+NQ,15,clv_extreme,bearish,time of day,Europe (2-8),0.2840802707698217,0.2794178083136355
+NQ,15,clv_extreme,bearish,time of day,Midday (10:30-15),0.2199884778799299,0.20483725497226674
+NQ,15,clv_extreme,bearish,time of day,Open (9:30-10:30),0.051417460812789556,0.046516310358808585
+NQ,15,clv_extreme,bearish,time of day,Post (16-17),2.4004416812693534e-05,2.4823409026343153e-05
+NQ,15,clv_extreme,bearish,time of day,US pre (8-9:30),0.069084711586932,0.06979790986895998
+NQ,15,bar_80_20,bullish,trend,against,0.3726482666411995,0.32438955099969385
+NQ,15,bar_80_20,bullish,trend,mixed,0.23900932734854996,0.23243261133988488
+NQ,15,bar_80_20,bullish,trend,with,0.38834240601025055,0.4431778376604213
+NQ,15,bar_80_20,bullish,momentum,flat,0.00031833954095438193,0.0032215268603076447
+NQ,15,bar_80_20,bullish,momentum,turning against,0.9014102441664279,0.5013639084181696
+NQ,15,bar_80_20,bullish,momentum,turning with,0.09827141629261771,0.49541456472152273
+NQ,15,bar_80_20,bullish,level in signal direction,at support/resistance,0.4485722471588196,0.23780274215925043
+NQ,15,bar_80_20,bullish,level in signal direction,not near,0.5514277528411804,0.7621972578407495
+NQ,15,bar_80_20,bullish,vs VWAP,on the cheap side,0.6904784643300544,0.44462311169706614
+NQ,15,bar_80_20,bullish,vs VWAP,on the rich side,0.30952153566994556,0.5553768883029339
+NQ,15,bar_80_20,bullish,mom14 above 100,no,0.6351510521121828,0.46862734822554
+NQ,15,bar_80_20,bullish,mom14 above 100,yes,0.36484894788781713,0.53137265177446
+NQ,15,bar_80_20,bullish,close location,0-20%,1.0,0.20916093314897763
+NQ,15,bar_80_20,bullish,close location,20-40%,0.0,0.18935925352497496
+NQ,15,bar_80_20,bullish,close location,40-60%,0.0,0.1775030840943526
+NQ,15,bar_80_20,bullish,close location,60-80%,0.0,0.1969901446971516
+NQ,15,bar_80_20,bullish,close location,80-100%,0.0,0.22698658453454323
+NQ,15,bar_80_20,bullish,volatility,calm (<0.8x),0.38035795344011414,0.39029805293042813
+NQ,15,bar_80_20,bullish,volatility,high (>1.2x),0.2684975034044485,0.25493223007811294
+NQ,15,bar_80_20,bullish,volatility,normal,0.3511445431554374,0.3547697169914589
+NQ,15,bar_80_20,bullish,time of day,Asia (18-2),0.3613472129373189,0.3688868907576932
+NQ,15,bar_80_20,bullish,time of day,Close (15-16),0.03068793174800242,0.030519002319609665
+NQ,15,bar_80_20,bullish,time of day,Europe (2-8),0.2942730716582307,0.2794178083136355
+NQ,15,bar_80_20,bullish,time of day,Midday (10:30-15),0.19657466653933084,0.20483725497226674
+NQ,15,bar_80_20,bullish,time of day,Open (9:30-10:30),0.047750931143157295,0.046516310358808585
+NQ,15,bar_80_20,bullish,time of day,Post (16-17),0.0,2.4823409026343153e-05
+NQ,15,bar_80_20,bullish,time of day,US pre (8-9:30),0.06936618597395983,0.06979790986895998
+NQ,15,bar_80_20,bearish,trend,against,0.4654308331909562,0.4431778376604213
+NQ,15,bar_80_20,bearish,trend,mixed,0.22982516088615526,0.23243261133988488
+NQ,15,bar_80_20,bearish,trend,with,0.30474400592288853,0.32438955099969385
+NQ,15,bar_80_20,bearish,momentum,flat,0.0004556068113218293,0.0032215268603076447
+NQ,15,bar_80_20,bearish,momentum,turning against,0.8888319380374736,0.49541456472152273
+NQ,15,bar_80_20,bearish,momentum,turning with,0.11071245515120451,0.5013639084181696
+NQ,15,bar_80_20,bearish,level in signal direction,at support/resistance,0.5025058374622701,0.3016899225233823
+NQ,15,bar_80_20,bearish,level in signal direction,not near,0.49749416253772993,0.6983100774766178
+NQ,15,bar_80_20,bearish,vs VWAP,on the cheap side,0.7650492624864742,0.5553768883029339
+NQ,15,bar_80_20,bearish,vs VWAP,on the rich side,0.23495073751352583,0.44462311169706614
+NQ,15,bar_80_20,bearish,mom14 above 100,no,0.33020103650549576,0.46862734822554
+NQ,15,bar_80_20,bearish,mom14 above 100,yes,0.6697989634945043,0.53137265177446
+NQ,15,bar_80_20,bearish,close location,0-20%,0.0,0.20916093314897763
+NQ,15,bar_80_20,bearish,close location,20-40%,0.0,0.18935925352497496
+NQ,15,bar_80_20,bearish,close location,40-60%,0.0,0.1775030840943526
+NQ,15,bar_80_20,bearish,close location,60-80%,0.05222393074776468,0.1969901446971516
+NQ,15,bar_80_20,bearish,close location,80-100%,0.9477760692522353,0.22698658453454323
+NQ,15,bar_80_20,bearish,volatility,calm (<0.8x),0.37453986840961134,0.39029805293042813
+NQ,15,bar_80_20,bearish,volatility,high (>1.2x),0.2670647227616591,0.25493223007811294
+NQ,15,bar_80_20,bearish,volatility,normal,0.3583954088287296,0.3547697169914589
+NQ,15,bar_80_20,bearish,time of day,Asia (18-2),0.35876188849023294,0.3688868907576932
+NQ,15,bar_80_20,bearish,time of day,Close (15-16),0.030013098695825503,0.030519002319609665
+NQ,15,bar_80_20,bearish,time of day,Europe (2-8),0.28651973347001536,0.2794178083136355
+NQ,15,bar_80_20,bearish,time of day,Midday (10:30-15),0.20892419841676632,0.20483725497226674
+NQ,15,bar_80_20,bearish,time of day,Open (9:30-10:30),0.04986047041403269,0.046516310358808585
+NQ,15,bar_80_20,bearish,time of day,Post (16-17),5.695085141522866e-05,2.4823409026343153e-05
+NQ,15,bar_80_20,bearish,time of day,US pre (8-9:30),0.06586365966171194,0.06979790986895998
+NQ,15,tall_trend_bar,bullish,trend,against,0.2762320590830972,0.32438955099969385
+NQ,15,tall_trend_bar,bullish,trend,mixed,0.24631891866784336,0.23243261133988488
+NQ,15,tall_trend_bar,bullish,trend,with,0.4774490222490594,0.4431778376604213
+NQ,15,tall_trend_bar,bullish,momentum,flat,9.289795160016721e-05,0.0032215268603076447
+NQ,15,tall_trend_bar,bullish,momentum,turning against,0.017929304658832274,0.5013639084181696
+NQ,15,tall_trend_bar,bullish,momentum,turning with,0.9819777973895676,0.49541456472152273
+NQ,15,tall_trend_bar,bullish,level in signal direction,at support/resistance,0.1436666821496586,0.23780274215925043
+NQ,15,tall_trend_bar,bullish,level in signal direction,not near,0.8563333178503414,0.7621972578407495
+NQ,15,tall_trend_bar,bullish,vs VWAP,on the cheap side,0.20651214640717172,0.44462311169706614
+NQ,15,tall_trend_bar,bullish,vs VWAP,on the rich side,0.7934878535928283,0.5553768883029339
+NQ,15,tall_trend_bar,bullish,mom14 above 100,no,0.2862650378559153,0.46862734822554
+NQ,15,tall_trend_bar,bullish,mom14 above 100,yes,0.7137349621440847,0.53137265177446
+NQ,15,tall_trend_bar,bullish,close location,0-20%,0.0,0.20916093314897763
+NQ,15,tall_trend_bar,bullish,close location,20-40%,0.0,0.18935925352497496
+NQ,15,tall_trend_bar,bullish,close location,40-60%,0.03827395605926889,0.1775030840943526
+NQ,15,tall_trend_bar,bullish,close location,60-80%,0.2781364670909006,0.1969901446971516
+NQ,15,tall_trend_bar,bullish,close location,80-100%,0.6835895768498305,0.22698658453454323
+NQ,15,tall_trend_bar,bullish,volatility,calm (<0.8x),0.39098170818168926,0.39029805293042813
+NQ,15,tall_trend_bar,bullish,volatility,high (>1.2x),0.27697688708228957,0.25493223007811294
+NQ,15,tall_trend_bar,bullish,volatility,normal,0.3320414047360212,0.3547697169914589
+NQ,15,tall_trend_bar,bullish,time of day,Asia (18-2),0.1371638255376469,0.3688868907576932
+NQ,15,tall_trend_bar,bullish,time of day,Close (15-16),0.014445631473826001,0.030519002319609665
+NQ,15,tall_trend_bar,bullish,time of day,Europe (2-8),0.41153792558874075,0.2794178083136355
+NQ,15,tall_trend_bar,bullish,time of day,Midday (10:30-15),0.17153606762970877,0.20483725497226674
+NQ,15,tall_trend_bar,bullish,time of day,Open (9:30-10:30),0.17488039388731477,0.046516310358808585
+NQ,15,tall_trend_bar,bullish,time of day,Post (16-17),0.0,2.4823409026343153e-05
+NQ,15,tall_trend_bar,bullish,time of day,US pre (8-9:30),0.09043615588276278,0.06979790986895998
+NQ,15,tall_trend_bar,bearish,trend,against,0.31343216329473256,0.4431778376604213
+NQ,15,tall_trend_bar,bearish,trend,mixed,0.2769341684314874,0.23243261133988488
+NQ,15,tall_trend_bar,bearish,trend,with,0.40963366827378,0.32438955099969385
+NQ,15,tall_trend_bar,bearish,momentum,flat,9.011850583517325e-05,0.0032215268603076447
+NQ,15,tall_trend_bar,bearish,momentum,turning against,0.016716982832424638,0.49541456472152273
+NQ,15,tall_trend_bar,bearish,momentum,turning with,0.9831928986617402,0.5013639084181696
+NQ,15,tall_trend_bar,bearish,level in signal direction,at support/resistance,0.11116117694768621,0.3016899225233823
+NQ,15,tall_trend_bar,bearish,level in signal direction,not near,0.8888388230523138,0.6983100774766178
+NQ,15,tall_trend_bar,bearish,vs VWAP,on the cheap side,0.20091920875951877,0.5553768883029339
+NQ,15,tall_trend_bar,bearish,vs VWAP,on the rich side,0.7990807912404813,0.44462311169706614
+NQ,15,tall_trend_bar,bearish,mom14 above 100,no,0.7639345739647637,0.46862734822554
+NQ,15,tall_trend_bar,bearish,mom14 above 100,yes,0.23606542603523634,0.53137265177446
+NQ,15,tall_trend_bar,bearish,close location,0-20%,0.6508809083945388,0.20916093314897763
+NQ,15,tall_trend_bar,bearish,close location,20-40%,0.3073491641508584,0.18935925352497496
+NQ,15,tall_trend_bar,bearish,close location,40-60%,0.041769927454602805,0.1775030840943526
+NQ,15,tall_trend_bar,bearish,close location,60-80%,0.0,0.1969901446971516
+NQ,15,tall_trend_bar,bearish,close location,80-100%,0.0,0.22698658453454323
+NQ,15,tall_trend_bar,bearish,volatility,calm (<0.8x),0.36994828138587577,0.39029805293042813
+NQ,15,tall_trend_bar,bearish,volatility,high (>1.2x),0.30495674859261296,0.25493223007811294
+NQ,15,tall_trend_bar,bearish,volatility,normal,0.3250949700215113,0.3547697169914589
+NQ,15,tall_trend_bar,bearish,time of day,Asia (18-2),0.1404947505970351,0.3688868907576932
+NQ,15,tall_trend_bar,bearish,time of day,Close (15-16),0.018654530707880864,0.030519002319609665
+NQ,15,tall_trend_bar,bearish,time of day,Europe (2-8),0.39764790699770197,0.2794178083136355
+NQ,15,tall_trend_bar,bearish,time of day,Midday (10:30-15),0.19524174289190285,0.20483725497226674
+NQ,15,tall_trend_bar,bearish,time of day,Open (9:30-10:30),0.15622042986527285,0.046516310358808585
+NQ,15,tall_trend_bar,bearish,time of day,Post (16-17),0.0,2.4823409026343153e-05
+NQ,15,tall_trend_bar,bearish,time of day,US pre (8-9:30),0.09174063894020637,0.06979790986895998
+NQ,15,five_lower_lows_higher_highs,bullish,trend,against,0.5629759081263263,0.32438955099969385
+NQ,15,five_lower_lows_higher_highs,bullish,trend,mixed,0.27299962551491697,0.23243261133988488
+NQ,15,five_lower_lows_higher_highs,bullish,trend,with,0.1640244663587567,0.4431778376604213
+NQ,15,five_lower_lows_higher_highs,bullish,momentum,flat,0.0016227686930470602,0.0032215268603076447
+NQ,15,five_lower_lows_higher_highs,bullish,momentum,turning against,0.65310198477094,0.5013639084181696
+NQ,15,five_lower_lows_higher_highs,bullish,momentum,turning with,0.345275246536013,0.49541456472152273
+NQ,15,five_lower_lows_higher_highs,bullish,level in signal direction,at support/resistance,0.7548370989888903,0.23780274215925043
+NQ,15,five_lower_lows_higher_highs,bullish,level in signal direction,not near,0.2451629010111097,0.7621972578407495
+NQ,15,five_lower_lows_higher_highs,bullish,vs VWAP,on the cheap side,0.8890275870677818,0.44462311169706614
+NQ,15,five_lower_lows_higher_highs,bullish,vs VWAP,on the rich side,0.1109724129322182,0.5553768883029339
+NQ,15,five_lower_lows_higher_highs,bullish,mom14 above 100,no,0.8693047060292098,0.46862734822554
+NQ,15,five_lower_lows_higher_highs,bullish,mom14 above 100,yes,0.13069529397079016,0.53137265177446
+NQ,15,five_lower_lows_higher_highs,bullish,close location,0-20%,0.27100237173885905,0.20916093314897763
+NQ,15,five_lower_lows_higher_highs,bullish,close location,20-40%,0.213206840594183,0.18935925352497496
+NQ,15,five_lower_lows_higher_highs,bullish,close location,40-60%,0.16677069030083636,0.1775030840943526
+NQ,15,five_lower_lows_higher_highs,bullish,close location,60-80%,0.157034078142554,0.1969901446971516
+NQ,15,five_lower_lows_higher_highs,bullish,close location,80-100%,0.1919860192235676,0.22698658453454323
+NQ,15,five_lower_lows_higher_highs,bullish,volatility,calm (<0.8x),0.3198880264664716,0.39029805293042813
+NQ,15,five_lower_lows_higher_highs,bullish,volatility,high (>1.2x),0.3318488357297366,0.25493223007811294
+NQ,15,five_lower_lows_higher_highs,bullish,volatility,normal,0.3482631378037918,0.3547697169914589
+NQ,15,five_lower_lows_higher_highs,bullish,time of day,Asia (18-2),0.23592560229684184,0.3688868907576932
+NQ,15,five_lower_lows_higher_highs,bullish,time of day,Close (15-16),0.041068530770190986,0.030519002319609665
+NQ,15,five_lower_lows_higher_highs,bullish,time of day,Europe (2-8),0.29209836474847084,0.2794178083136355
+NQ,15,five_lower_lows_higher_highs,bullish,time of day,Midday (10:30-15),0.2575209087504681,0.20483725497226674
+NQ,15,five_lower_lows_higher_highs,bullish,time of day,Open (9:30-10:30),0.08775433778554488,0.046516310358808585
+NQ,15,five_lower_lows_higher_highs,bullish,time of day,Post (16-17),0.00012482836100362001,2.4823409026343153e-05
+NQ,15,five_lower_lows_higher_highs,bullish,time of day,US pre (8-9:30),0.08550742728747972,0.06979790986895998
+NQ,15,five_lower_lows_higher_highs,bearish,trend,against,0.6328373015873016,0.4431778376604213
+NQ,15,five_lower_lows_higher_highs,bearish,trend,mixed,0.2220238095238095,0.23243261133988488
+NQ,15,five_lower_lows_higher_highs,bearish,trend,with,0.1451388888888889,0.32438955099969385
+NQ,15,five_lower_lows_higher_highs,bearish,momentum,flat,0.0010912698412698413,0.0032215268603076447
+NQ,15,five_lower_lows_higher_highs,bearish,momentum,turning against,0.6307539682539682,0.49541456472152273
+NQ,15,five_lower_lows_higher_highs,bearish,momentum,turning with,0.36815476190476193,0.5013639084181696
+NQ,15,five_lower_lows_higher_highs,bearish,level in signal direction,at support/resistance,0.7634920634920634,0.3016899225233823
+NQ,15,five_lower_lows_higher_highs,bearish,level in signal direction,not near,0.2365079365079365,0.6983100774766178
+NQ,15,five_lower_lows_higher_highs,bearish,vs VWAP,on the cheap side,0.9090277777777778,0.5553768883029339
+NQ,15,five_lower_lows_higher_highs,bearish,vs VWAP,on the rich side,0.09097222222222222,0.44462311169706614
+NQ,15,five_lower_lows_higher_highs,bearish,mom14 above 100,no,0.141765873015873,0.46862734822554
+NQ,15,five_lower_lows_higher_highs,bearish,mom14 above 100,yes,0.8582341269841269,0.53137265177446
+NQ,15,five_lower_lows_higher_highs,bearish,close location,0-20%,0.15982142857142856,0.20916093314897763
+NQ,15,five_lower_lows_higher_highs,bearish,close location,20-40%,0.16498015873015873,0.18935925352497496
+NQ,15,five_lower_lows_higher_highs,bearish,close location,40-60%,0.16726190476190475,0.1775030840943526
+NQ,15,five_lower_lows_higher_highs,bearish,close location,60-80%,0.2288690476190476,0.1969901446971516
+NQ,15,five_lower_lows_higher_highs,bearish,close location,80-100%,0.2790674603174603,0.22698658453454323
+NQ,15,five_lower_lows_higher_highs,bearish,volatility,calm (<0.8x),0.3382189426867482,0.39029805293042813
+NQ,15,five_lower_lows_higher_highs,bearish,volatility,high (>1.2x),0.3032447184878197,0.25493223007811294
+NQ,15,five_lower_lows_higher_highs,bearish,volatility,normal,0.3585363388254321,0.3547697169914589
+NQ,15,five_lower_lows_higher_highs,bearish,time of day,Asia (18-2),0.22281746031746033,0.3688868907576932
+NQ,15,five_lower_lows_higher_highs,bearish,time of day,Close (15-16),0.04404761904761905,0.030519002319609665
+NQ,15,five_lower_lows_higher_highs,bearish,time of day,Europe (2-8),0.2839285714285714,0.2794178083136355
+NQ,15,five_lower_lows_higher_highs,bearish,time of day,Midday (10:30-15),0.29732142857142857,0.20483725497226674
+NQ,15,five_lower_lows_higher_highs,bearish,time of day,Open (9:30-10:30),0.07926587301587301,0.046516310358808585
+NQ,15,five_lower_lows_higher_highs,bearish,time of day,Post (16-17),0.0,2.4823409026343153e-05
+NQ,15,five_lower_lows_higher_highs,bearish,time of day,US pre (8-9:30),0.07261904761904762,0.06979790986895998
+NQ,15,clv5_extreme,bullish,trend,against,0.44122142477405635,0.32438955099969385
+NQ,15,clv5_extreme,bullish,trend,mixed,0.25315656565656564,0.23243261133988488
+NQ,15,clv5_extreme,bullish,trend,with,0.305622009569378,0.4431778376604213
+NQ,15,clv5_extreme,bullish,momentum,flat,0.001960393407761829,0.0032215268603076447
+NQ,15,clv5_extreme,bullish,momentum,turning against,0.8615762892078681,0.5013639084181696
+NQ,15,clv5_extreme,bullish,momentum,turning with,0.13646331738437,0.49541456472152273
+NQ,15,clv5_extreme,bullish,level in signal direction,at support/resistance,0.6366959064327485,0.23780274215925043
+NQ,15,clv5_extreme,bullish,level in signal direction,not near,0.36330409356725146,0.7621972578407495
+NQ,15,clv5_extreme,bullish,vs VWAP,on the cheap side,0.8251262626262627,0.44462311169706614
+NQ,15,clv5_extreme,bullish,vs VWAP,on the rich side,0.17487373737373738,0.5553768883029339
+NQ,15,clv5_extreme,bullish,mom14 above 100,no,0.7657496012759171,0.46862734822554
+NQ,15,clv5_extreme,bullish,mom14 above 100,yes,0.23425039872408293,0.53137265177446
+NQ,15,clv5_extreme,bullish,close location,0-20%,0.8641347687400319,0.20916093314897763
+NQ,15,clv5_extreme,bullish,close location,20-40%,0.12470095693779905,0.18935925352497496
+NQ,15,clv5_extreme,bullish,close location,40-60%,0.009901648059542797,0.1775030840943526
+NQ,15,clv5_extreme,bullish,close location,60-80%,0.0009303561935140882,0.1969901446971516
+NQ,15,clv5_extreme,bullish,close location,80-100%,0.0003322700691121744,0.22698658453454323
+NQ,15,clv5_extreme,bullish,volatility,calm (<0.8x),0.40214776923337514,0.39029805293042813
+NQ,15,clv5_extreme,bullish,volatility,high (>1.2x),0.26244113960500015,0.25493223007811294
+NQ,15,clv5_extreme,bullish,volatility,normal,0.3354110911616247,0.3547697169914589
+NQ,15,clv5_extreme,bullish,time of day,Asia (18-2),0.3341640085061138,0.3688868907576932
+NQ,15,clv5_extreme,bullish,time of day,Close (15-16),0.03402445507708666,0.030519002319609665
+NQ,15,clv5_extreme,bullish,time of day,Europe (2-8),0.29721557682084,0.2794178083136355
+NQ,15,clv5_extreme,bullish,time of day,Midday (10:30-15),0.20394736842105263,0.20483725497226674
+NQ,15,clv5_extreme,bullish,time of day,Open (9:30-10:30),0.056319776714513554,0.046516310358808585
+NQ,15,clv5_extreme,bullish,time of day,Post (16-17),3.322700691121744e-05,2.4823409026343153e-05
+NQ,15,clv5_extreme,bullish,time of day,US pre (8-9:30),0.07429558745348219,0.06979790986895998
+NQ,15,clv5_extreme,bearish,trend,against,0.5418029984861064,0.4431778376604213
+NQ,15,clv5_extreme,bearish,trend,mixed,0.22088196513161107,0.23243261133988488
+NQ,15,clv5_extreme,bearish,trend,with,0.23731503638228257,0.32438955099969385
+NQ,15,clv5_extreme,bearish,momentum,flat,0.0016848171118816232,0.0032215268603076447
+NQ,15,clv5_extreme,bearish,momentum,turning against,0.8183327635884162,0.49541456472152273
+NQ,15,clv5_extreme,bearish,momentum,turning with,0.1799824192997021,0.5013639084181696
+NQ,15,clv5_extreme,bearish,level in signal direction,at support/resistance,0.6749523856033599,0.3016899225233823
+NQ,15,clv5_extreme,bearish,level in signal direction,not near,0.32504761439664015,0.6983100774766178
+NQ,15,clv5_extreme,bearish,vs VWAP,on the cheap side,0.876178151096352,0.5553768883029339
+NQ,15,clv5_extreme,bearish,vs VWAP,on the rich side,0.123821848903648,0.44462311169706614
+NQ,15,clv5_extreme,bearish,mom14 above 100,no,0.21668213117155832,0.46862734822554
+NQ,15,clv5_extreme,bearish,mom14 above 100,yes,0.7833178688284417,0.53137265177446
+NQ,15,clv5_extreme,bearish,close location,0-20%,0.0006104409825658056,0.20916093314897763
+NQ,15,clv5_extreme,bearish,close location,20-40%,0.00285686379840797,0.18935925352497496
+NQ,15,clv5_extreme,bearish,close location,40-60%,0.025345509596132246,0.1775030840943526
+NQ,15,clv5_extreme,bearish,close location,60-80%,0.18327880060555746,0.1969901446971516
+NQ,15,clv5_extreme,bearish,close location,80-100%,0.7879083850173365,0.22698658453454323
+NQ,15,clv5_extreme,bearish,volatility,calm (<0.8x),0.3838695241410173,0.39029805293042813
+NQ,15,clv5_extreme,bearish,volatility,high (>1.2x),0.26875839093033665,0.25493223007811294
+NQ,15,clv5_extreme,bearish,volatility,normal,0.347372084928646,0.3547697169914589
+NQ,15,clv5_extreme,bearish,time of day,Asia (18-2),0.3169165405088636,0.3688868907576932
+NQ,15,clv5_extreme,bearish,time of day,Close (15-16),0.03484397128485618,0.030519002319609665
+NQ,15,clv5_extreme,bearish,time of day,Europe (2-8),0.285686379840797,0.2794178083136355
+NQ,15,clv5_extreme,bearish,time of day,Midday (10:30-15),0.24112418811349318,0.20483725497226674
+NQ,15,clv5_extreme,bearish,time of day,Open (9:30-10:30),0.05740587000048835,0.046516310358808585
+NQ,15,clv5_extreme,bearish,time of day,Post (16-17),4.8835278605264445e-05,2.4823409026343153e-05
+NQ,15,clv5_extreme,bearish,time of day,US pre (8-9:30),0.06397421497289642,0.06979790986895998

@@ -1,0 +1,41 @@
+rows 840657, usable 0.897, PCA comps 13 (0.905)
+{'kind': 'state', 'k': 10, 'ari_seed': np.float64(0.6996177887820639), 'ari_market': np.float64(0.4593977641688564), 'stab': np.float64(0.4593977641688564), 'heldout_bic': np.float64(1832500.7284340782), 'heldout_ll': np.float64(-18.211507810137316), 'sec': 7.6951069831848145}
+{'kind': 'state', 'k': 12, 'ari_seed': np.float64(0.5385607975944424), 'ari_market': np.float64(0.4588466235736877), 'stab': np.float64(0.4588466235736877), 'heldout_bic': np.float64(1830532.8492379442), 'heldout_ll': np.float64(-18.16910748377872), 'sec': 11.552081108093262}
+{'kind': 'state', 'k': 15, 'ari_seed': np.float64(0.4460233781769101), 'ari_market': np.float64(0.4172188809564732), 'stab': np.float64(0.4172188809564732), 'heldout_bic': np.float64(1828180.0249999121), 'heldout_ll': np.float64(-18.111496939802503), 'sec': 14.078745126724243}
+{'kind': 'state', 'k': 18, 'ari_seed': np.float64(0.3993942225790718), 'ari_market': np.float64(0.4122809133189012), 'stab': np.float64(0.3993942225790718), 'heldout_bic': np.float64(1828451.838906411), 'heldout_ll': np.float64(-18.0801327772716), 'sec': 14.400672674179077}
+{'kind': 'state', 'k': 21, 'ari_seed': np.float64(0.35977683890545636), 'ari_market': np.float64(0.3654318081851262), 'stab': np.float64(0.35977683890545636), 'heldout_bic': np.float64(1829019.679431944), 'heldout_ll': np.float64(-18.051728880931034), 'sec': 18.622262477874756}
+{'kind': 'state', 'k': 24, 'ari_seed': np.float64(0.36043376327942395), 'ari_market': np.float64(0.3139072373061794), 'stab': np.float64(0.3139072373061794), 'heldout_bic': np.float64(1831181.1570749783), 'heldout_ll': np.float64(-18.039261355765486), 'sec': 21.705242156982422}
+{'kind': 'state', 'k': 28, 'ari_seed': np.float64(0.34461817172344805), 'ari_market': np.float64(0.30696427593211806), 'stab': np.float64(0.30696427593211806), 'heldout_bic': np.float64(1832506.859547382), 'heldout_ll': np.float64(-18.007075311695), 'sec': 27.26535987854004}
+{'kind': 'state', 'k': 32, 'ari_seed': np.float64(0.2980609466589004), 'ari_market': np.float64(0.2537242486177605), 'stab': np.float64(0.2537242486177605), 'heldout_bic': np.float64(1835064.9348661613), 'heldout_ll': np.float64(-17.98721299608827), 'sec': 31.782321453094482}
+{'kind': 'state', 'k': 36, 'ari_seed': np.float64(0.2770690940179508), 'ari_market': np.float64(0.2772459502333271), 'stab': np.float64(0.2770690940179508), 'heldout_bic': np.float64(1838390.5299095486), 'heldout_ll': np.float64(-17.97502587772762), 'sec': 36.79230856895447}
+{'kind': 'state', 'k': 40, 'ari_seed': np.float64(0.27617447493325015), 'ari_market': np.float64(0.2563915570051625), 'stab': np.float64(0.2563915570051625), 'heldout_bic': np.float64(1841541.9586263692), 'heldout_ll': np.float64(-17.961097096101305), 'sec': 44.586034536361694}
+{'kind': 'shape', 'k': 8, 'ari_seed': np.float64(0.5856404006676953), 'ari_market': np.float64(0.46353897709657915), 'stab': np.float64(0.46353897709657915), 'heldout_bic': np.float64(4.373015427038744), 'heldout_ll': nan, 'sec': 1.484818696975708}
+{'kind': 'shape', 'k': 10, 'ari_seed': np.float64(0.5152497999475653), 'ari_market': np.float64(0.6239984131755834), 'stab': np.float64(0.5152497999475653), 'heldout_bic': np.float64(4.0879811223298885), 'heldout_ll': nan, 'sec': 1.8555209636688232}
+{'kind': 'shape', 'k': 12, 'ari_seed': np.float64(0.6454541338738191), 'ari_market': np.float64(0.42833270877069135), 'stab': np.float64(0.42833270877069135), 'heldout_bic': np.float64(3.877732611685273), 'heldout_ll': nan, 'sec': 2.0003774166107178}
+{'kind': 'shape', 'k': 14, 'ari_seed': np.float64(0.5005303544177128), 'ari_market': np.float64(0.48653097896972436), 'stab': np.float64(0.48653097896972436), 'heldout_bic': np.float64(3.7195732796258927), 'heldout_ll': nan, 'sec': 1.9337882995605469}
+{'kind': 'shape', 'k': 16, 'ari_seed': np.float64(0.42196176559200865), 'ari_market': np.float64(0.41445832354212264), 'stab': np.float64(0.41445832354212264), 'heldout_bic': np.float64(3.5909855524379757), 'heldout_ll': nan, 'sec': 2.148123025894165}
+{'kind': 'shape', 'k': 18, 'ari_seed': np.float64(0.3821220071544272), 'ari_market': np.float64(0.40748679900174317), 'stab': np.float64(0.3821220071544272), 'heldout_bic': np.float64(3.4809644418021457), 'heldout_ll': nan, 'sec': 2.5251739025115967}
+{'kind': 'shape', 'k': 20, 'ari_seed': np.float64(0.40796545726587374), 'ari_market': np.float64(0.41215392508505966), 'stab': np.float64(0.40796545726587374), 'heldout_bic': np.float64(3.387911733237743), 'heldout_ll': nan, 'sec': 2.687568426132202}
+{'kind': 'shape', 'k': 22, 'ari_seed': np.float64(0.365324794732798), 'ari_market': np.float64(0.4000593647545503), 'stab': np.float64(0.365324794732798), 'heldout_bic': np.float64(3.306546189564017), 'heldout_ll': nan, 'sec': 3.032794713973999}
+{'kind': 'shape', 'k': 24, 'ari_seed': np.float64(0.3442291772594106), 'ari_market': np.float64(0.3758113764983289), 'stab': np.float64(0.3442291772594106), 'heldout_bic': np.float64(3.234566411100882), 'heldout_ll': nan, 'sec': 3.0534613132476807}
+ kind  k  ari_seed  ari_market   stab  heldout_bic  heldout_ll     sec  chosen
+state 10    0.6996      0.4594 0.4594 1832500.7284    -18.2115  7.6951   False
+state 12    0.5386      0.4588 0.4588 1830532.8492    -18.1691 11.5521    True
+state 15    0.4460      0.4172 0.4172 1828180.0250    -18.1115 14.0787   False
+state 18    0.3994      0.4123 0.3994 1828451.8389    -18.0801 14.4007   False
+state 21    0.3598      0.3654 0.3598 1829019.6794    -18.0517 18.6223   False
+state 24    0.3604      0.3139 0.3139 1831181.1571    -18.0393 21.7052   False
+state 28    0.3446      0.3070 0.3070 1832506.8595    -18.0071 27.2654   False
+state 32    0.2981      0.2537 0.2537 1835064.9349    -17.9872 31.7823   False
+state 36    0.2771      0.2772 0.2771 1838390.5299    -17.9750 36.7923   False
+state 40    0.2762      0.2564 0.2564 1841541.9586    -17.9611 44.5860   False
+shape  8    0.5856      0.4635 0.4635       4.3730         NaN  1.4848   False
+shape 10    0.5152      0.6240 0.5152       4.0880         NaN  1.8555    True
+shape 12    0.6455      0.4283 0.4283       3.8777         NaN  2.0004   False
+shape 14    0.5005      0.4865 0.4865       3.7196         NaN  1.9338   False
+shape 16    0.4220      0.4145 0.4145       3.5910         NaN  2.1481   False
+shape 18    0.3821      0.4075 0.3821       3.4810         NaN  2.5252   False
+shape 20    0.4080      0.4122 0.4080       3.3879         NaN  2.6876   False
+shape 22    0.3653      0.4001 0.3653       3.3065         NaN  3.0328   False
+shape 24    0.3442      0.3758 0.3442       3.2346         NaN  3.0535   False
+chosen 12 10 254s

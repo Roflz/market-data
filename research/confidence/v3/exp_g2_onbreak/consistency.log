@@ -1,0 +1,20 @@
+NQ 50 trades; stops 13 close 1
+ES 15 trades; stops 6 close 2
+YM 10 trades; stops 6 close 0
+   market      field  identical
+0      NQ   entry_px       True
+1      NQ    exit_px       True
+2      NQ    pnl_usd       True
+3      NQ  exit_kind       True
+4      NQ     t_exit       True
+5      ES   entry_px       True
+6      ES    exit_px       True
+7      ES    pnl_usd       True
+8      ES  exit_kind       True
+9      ES     t_exit       True
+10     YM   entry_px       True
+11     YM    exit_px       True
+12     YM    pnl_usd       True
+13     YM  exit_kind       True
+14     YM     t_exit       True
+CONSISTENCY OK: walker == H.time_trades on all mark-aligned test trades

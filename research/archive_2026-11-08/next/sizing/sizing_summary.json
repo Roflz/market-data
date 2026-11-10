@@ -1,0 +1,2602 @@
+{
+ "check": {
+  "n_rebuilt": 5437,
+  "n_csv": 5437,
+  "only_rebuilt": 0,
+  "only_csv": 0,
+  "usd_mismatch": 0,
+  "on_stop_vs_csv_R_max_diff": 2.842170943040401e-14,
+  "orb_stop_vs_fill_risk_median_abs_diff": 0.25
+ },
+ "p26": 27961.327102803738,
+ "k_exp": 0.9376222579466482,
+ "k_exp_pre2019": 0.8515296657490541,
+ "cap": 10,
+ "open_cap": 1.5,
+ "day_limit": 2.0,
+ "account_x": 100,
+ "scenarios": {
+  "fixed_plain_50": {
+   "full": {
+    "years": 16.410677618069816,
+    "net_usd": 2865.0,
+    "net_per_year": 174.58145645645646,
+    "max_dd": 7463.0,
+    "worst_day": -138.5,
+    "worst_day_date": "2018-04-23",
+    "worst_month": -1028.0,
+    "worst_month_id": "2017-03",
+    "ret_pct": 57.3,
+    "ret_pct_per_year": 3.491629129129129,
+    "dd_pct": 149.26,
+    "dd_budgets": 149.26,
+    "net_per_budget": 57.3,
+    "skipped_1micro_pct": 40.2243884495126,
+    "open_cap_binds": 0,
+    "day_limit_binds": 0,
+    "days_2plus_trades": 1581,
+    "per_model": {
+     "overnight_break": {
+      "trades": 1731,
+      "taken": 1008,
+      "contracts_median": 2.0,
+      "contracts_min": 1,
+      "contracts_max": 8,
+      "skipped_1micro_too_big_pct": 41.76776429809358,
+      "at_cap_pct": 0.0,
+      "net_usd": 4545.0
+     },
+     "opening_range": {
+      "trades": 3509,
+      "taken": 2231,
+      "contracts_median": 2.0,
+      "contracts_min": 1,
+      "contracts_max": 7,
+      "skipped_1micro_too_big_pct": 36.420632658877174,
+      "at_cap_pct": 0.0,
+      "net_usd": -1818.0
+     },
+     "expiry_fade": {
+      "trades": 197,
+      "taken": 11,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 1,
+      "skipped_1micro_too_big_pct": 94.41624365482234,
+      "at_cap_pct": 0.0,
+      "net_usd": 138.0
+     }
+    }
+   },
+   "2019_2026": {
+    "years": 7.841204654346338,
+    "net_usd": 3123.5,
+    "net_per_year": 398.34440467877096,
+    "max_dd": 2393.5,
+    "worst_day": -98.0,
+    "worst_day_date": "2023-03-29",
+    "worst_month": -549.5,
+    "worst_month_id": "2019-02",
+    "ret_pct": 62.47,
+    "ret_pct_per_year": 7.9668880935754185,
+    "dd_pct": 47.87,
+    "dd_budgets": 47.87,
+    "net_per_budget": 62.47,
+    "skipped_1micro_pct": 75.22354694485843,
+    "open_cap_binds": 0,
+    "day_limit_binds": 0,
+    "days_2plus_trades": 803,
+    "per_model": {
+     "overnight_break": {
+      "trades": 849,
+      "taken": 158,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 3,
+      "skipped_1micro_too_big_pct": 81.38987043580683,
+      "at_cap_pct": 0.0,
+      "net_usd": 2127.5
+     },
+     "opening_range": {
+      "trades": 1741,
+      "taken": 507,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 7,
+      "skipped_1micro_too_big_pct": 70.87880528431936,
+      "at_cap_pct": 0.0,
+      "net_usd": 996.0
+     },
+     "expiry_fade": {
+      "trades": 94,
+      "taken": 0,
+      "contracts_median": 0.0,
+      "contracts_min": 0,
+      "contracts_max": 0,
+      "skipped_1micro_too_big_pct": 100.0,
+      "at_cap_pct": 0.0,
+      "net_usd": 0.0
+     }
+    }
+   },
+   "2010_2018": {
+    "years": 8.563997262149213,
+    "net_usd": -258.5,
+    "net_per_year": -30.18450287723785,
+    "max_dd": 7463.0,
+    "worst_day": -138.5,
+    "worst_day_date": "2018-04-23",
+    "worst_month": -1028.0,
+    "worst_month_id": "2017-03",
+    "ret_pct": -5.17,
+    "ret_pct_per_year": -0.603690057544757,
+    "dd_pct": 149.26,
+    "dd_budgets": 149.26,
+    "net_per_budget": -5.17,
+    "skipped_1micro_pct": 6.102433708681438,
+    "open_cap_binds": 0,
+    "day_limit_binds": 0,
+    "days_2plus_trades": 778,
+    "per_model": {
+     "overnight_break": {
+      "trades": 882,
+      "taken": 850,
+      "contracts_median": 2.0,
+      "contracts_min": 1,
+      "contracts_max": 8,
+      "skipped_1micro_too_big_pct": 3.6281179138321997,
+      "at_cap_pct": 0.0,
+      "net_usd": 2417.5
+     },
+     "opening_range": {
+      "trades": 1768,
+      "taken": 1724,
+      "contracts_median": 3.0,
+      "contracts_min": 1,
+      "contracts_max": 7,
+      "skipped_1micro_too_big_pct": 2.48868778280543,
+      "at_cap_pct": 0.0,
+      "net_usd": -2814.0
+     },
+     "expiry_fade": {
+      "trades": 103,
+      "taken": 11,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 1,
+      "skipped_1micro_too_big_pct": 89.32038834951457,
+      "at_cap_pct": 0.0,
+      "net_usd": 138.0
+     }
+    }
+   },
+   "2026": {
+    "years": 0.840520191649555,
+    "net_usd": -288.5,
+    "net_per_year": -343.23982084690556,
+    "max_dd": 288.5,
+    "worst_day": -46.5,
+    "worst_day_date": "2026-04-28",
+    "worst_month": -121.5,
+    "worst_month_id": "2026-04",
+    "ret_pct": -5.77,
+    "ret_pct_per_year": -6.864796416938111,
+    "dd_pct": 5.77,
+    "dd_budgets": 5.77,
+    "net_per_budget": -5.77,
+    "skipped_1micro_pct": 97.53521126760563,
+    "open_cap_binds": 0,
+    "day_limit_binds": 0,
+    "days_2plus_trades": 77,
+    "per_model": {
+     "overnight_break": {
+      "trades": 81,
+      "taken": 0,
+      "contracts_median": 0.0,
+      "contracts_min": 0,
+      "contracts_max": 0,
+      "skipped_1micro_too_big_pct": 100.0,
+      "at_cap_pct": 0.0,
+      "net_usd": 0.0
+     },
+     "opening_range": {
+      "trades": 193,
+      "taken": 7,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 2,
+      "skipped_1micro_too_big_pct": 96.37305699481865,
+      "at_cap_pct": 0.0,
+      "net_usd": -288.5
+     },
+     "expiry_fade": {
+      "trades": 10,
+      "taken": 0,
+      "contracts_median": 0.0,
+      "contracts_min": 0,
+      "contracts_max": 0,
+      "skipped_1micro_too_big_pct": 100.0,
+      "at_cap_pct": 0.0,
+      "net_usd": 0.0
+     }
+    }
+   }
+  },
+  "fixed_plain_100": {
+   "full": {
+    "years": 16.410677618069816,
+    "net_usd": 36007.0,
+    "net_per_year": 2194.1202452452453,
+    "max_dd": 15290.0,
+    "worst_day": -277.0,
+    "worst_day_date": "2018-04-23",
+    "worst_month": -2155.0,
+    "worst_month_id": "2017-03",
+    "ret_pct": 360.07,
+    "ret_pct_per_year": 21.94120245245245,
+    "dd_pct": 152.9,
+    "dd_budgets": 152.9,
+    "net_per_budget": 360.07,
+    "skipped_1micro_pct": 18.925878241677395,
+    "open_cap_binds": 0,
+    "day_limit_binds": 0,
+    "days_2plus_trades": 1581,
+    "per_model": {
+     "overnight_break": {
+      "trades": 1731,
+      "taken": 1381,
+      "contracts_median": 3.0,
+      "contracts_min": 1,
+      "contracts_max": 10,
+      "skipped_1micro_too_big_pct": 20.21952628538417,
+      "at_cap_pct": 2.2530329289428077,
+      "net_usd": 22832.5
+     },
+     "opening_range": {
+      "trades": 3509,
+      "taken": 2956,
+      "contracts_median": 4.0,
+      "contracts_min": 1,
+      "contracts_max": 10,
+      "skipped_1micro_too_big_pct": 15.759475634083783,
+      "at_cap_pct": 7.466514676546024,
+      "net_usd": 12344.5
+     },
+     "expiry_fade": {
+      "trades": 197,
+      "taken": 71,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 2,
+      "skipped_1micro_too_big_pct": 63.95939086294417,
+      "at_cap_pct": 0.0,
+      "net_usd": 830.0
+     }
+    }
+   },
+   "2019_2026": {
+    "years": 7.841204654346338,
+    "net_usd": 34003.0,
+    "net_per_year": 4336.451030027933,
+    "max_dd": 5489.0,
+    "worst_day": -275.5,
+    "worst_day_date": "2024-03-19",
+    "worst_month": -1383.5,
+    "worst_month_id": "2020-12",
+    "ret_pct": 340.03,
+    "ret_pct_per_year": 43.36451030027933,
+    "dd_pct": 54.89,
+    "dd_budgets": 54.89,
+    "net_per_budget": 340.03,
+    "skipped_1micro_pct": 36.847988077496275,
+    "open_cap_binds": 0,
+    "day_limit_binds": 0,
+    "days_2plus_trades": 803,
+    "per_model": {
+     "overnight_break": {
+      "trades": 849,
+      "taken": 503,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 6,
+      "skipped_1micro_too_big_pct": 40.753828032979975,
+      "at_cap_pct": 0.0,
+      "net_usd": 17614.5
+     },
+     "opening_range": {
+      "trades": 1741,
+      "taken": 1192,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 10,
+      "skipped_1micro_too_big_pct": 31.533601378518096,
+      "at_cap_pct": 0.5169442848937392,
+      "net_usd": 16388.5
+     },
+     "expiry_fade": {
+      "trades": 94,
+      "taken": 0,
+      "contracts_median": 0.0,
+      "contracts_min": 0,
+      "contracts_max": 0,
+      "skipped_1micro_too_big_pct": 100.0,
+      "at_cap_pct": 0.0,
+      "net_usd": 0.0
+     }
+    }
+   },
+   "2010_2018": {
+    "years": 8.563997262149213,
+    "net_usd": 2004.0,
+    "net_per_year": 234.00287723785166,
+    "max_dd": 15290.0,
+    "worst_day": -277.0,
+    "worst_day_date": "2018-04-23",
+    "worst_month": -2155.0,
+    "worst_month_id": "2017-03",
+    "ret_pct": 20.04,
+    "ret_pct_per_year": 2.3400287723785165,
+    "dd_pct": 152.9,
+    "dd_budgets": 152.9,
+    "net_per_budget": 20.04,
+    "skipped_1micro_pct": 1.452960406828914,
+    "open_cap_binds": 0,
+    "day_limit_binds": 0,
+    "days_2plus_trades": 778,
+    "per_model": {
+     "overnight_break": {
+      "trades": 882,
+      "taken": 878,
+      "contracts_median": 5.0,
+      "contracts_min": 1,
+      "contracts_max": 10,
+      "skipped_1micro_too_big_pct": 0.45351473922902497,
+      "at_cap_pct": 4.421768707482993,
+      "net_usd": 5218.0
+     },
+     "opening_range": {
+      "trades": 1768,
+      "taken": 1764,
+      "contracts_median": 6.0,
+      "contracts_min": 1,
+      "contracts_max": 10,
+      "skipped_1micro_too_big_pct": 0.22624434389140274,
+      "at_cap_pct": 14.30995475113122,
+      "net_usd": -4044.0
+     },
+     "expiry_fade": {
+      "trades": 103,
+      "taken": 71,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 2,
+      "skipped_1micro_too_big_pct": 31.06796116504854,
+      "at_cap_pct": 0.0,
+      "net_usd": 830.0
+     }
+    }
+   },
+   "2026": {
+    "years": 0.840520191649555,
+    "net_usd": 699.0,
+    "net_per_year": 831.6278501628665,
+    "max_dd": 1397.0,
+    "worst_day": -135.5,
+    "worst_day_date": "2026-04-13",
+    "worst_month": -610.0,
+    "worst_month_id": "2026-04",
+    "ret_pct": 6.99,
+    "ret_pct_per_year": 8.316278501628664,
+    "dd_pct": 13.97,
+    "dd_budgets": 13.97,
+    "net_per_budget": 6.99,
+    "skipped_1micro_pct": 80.98591549295774,
+    "open_cap_binds": 0,
+    "day_limit_binds": 0,
+    "days_2plus_trades": 77,
+    "per_model": {
+     "overnight_break": {
+      "trades": 81,
+      "taken": 10,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 1,
+      "skipped_1micro_too_big_pct": 87.65432098765432,
+      "at_cap_pct": 0.0,
+      "net_usd": 1521.0
+     },
+     "opening_range": {
+      "trades": 193,
+      "taken": 44,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 4,
+      "skipped_1micro_too_big_pct": 77.2020725388601,
+      "at_cap_pct": 0.0,
+      "net_usd": -822.0
+     },
+     "expiry_fade": {
+      "trades": 10,
+      "taken": 0,
+      "contracts_median": 0.0,
+      "contracts_min": 0,
+      "contracts_max": 0,
+      "skipped_1micro_too_big_pct": 100.0,
+      "at_cap_pct": 0.0,
+      "net_usd": 0.0
+     }
+    }
+   }
+  },
+  "fixed_plain_200": {
+   "full": {
+    "years": 16.410677618069816,
+    "net_usd": 106023.5,
+    "net_per_year": 6460.6412037037035,
+    "max_dd": 17896.5,
+    "worst_day": -593.0,
+    "worst_day_date": "2018-04-23",
+    "worst_month": -3879.5,
+    "worst_month_id": "2015-10",
+    "ret_pct": 530.1175,
+    "ret_pct_per_year": 32.303206018518516,
+    "dd_pct": 89.4825,
+    "dd_budgets": 89.4825,
+    "net_per_budget": 530.1175,
+    "skipped_1micro_pct": 4.5429464778370425,
+    "open_cap_binds": 0,
+    "day_limit_binds": 0,
+    "days_2plus_trades": 1581,
+    "per_model": {
+     "overnight_break": {
+      "trades": 1731,
+      "taken": 1672,
+      "contracts_median": 5.0,
+      "contracts_min": 1,
+      "contracts_max": 10,
+      "skipped_1micro_too_big_pct": 3.40843443096476,
+      "at_cap_pct": 27.49855574812247,
+      "net_usd": 54055.0
+     },
+     "opening_range": {
+      "trades": 3509,
+      "taken": 3411,
+      "contracts_median": 6.0,
+      "contracts_min": 1,
+      "contracts_max": 10,
+      "skipped_1micro_too_big_pct": 2.792818466799658,
+      "at_cap_pct": 34.39726417782844,
+      "net_usd": 49940.0
+     },
+     "expiry_fade": {
+      "trades": 197,
+      "taken": 107,
+      "contracts_median": 2.0,
+      "contracts_min": 1,
+      "contracts_max": 4,
+      "skipped_1micro_too_big_pct": 45.68527918781726,
+      "at_cap_pct": 0.0,
+      "net_usd": 2028.5
+     }
+    }
+   },
+   "2019_2026": {
+    "years": 7.841204654346338,
+    "net_usd": 87004.0,
+    "net_per_year": 11095.74406424581,
+    "max_dd": 11013.5,
+    "worst_day": -551.0,
+    "worst_day_date": "2024-03-19",
+    "worst_month": -3104.0,
+    "worst_month_id": "2020-12",
+    "ret_pct": 435.02,
+    "ret_pct_per_year": 55.47872032122905,
+    "dd_pct": 55.0675,
+    "dd_budgets": 55.0675,
+    "net_per_budget": 435.02,
+    "skipped_1micro_pct": 9.01639344262295,
+    "open_cap_binds": 0,
+    "day_limit_binds": 0,
+    "days_2plus_trades": 803,
+    "per_model": {
+     "overnight_break": {
+      "trades": 849,
+      "taken": 790,
+      "contracts_median": 2.0,
+      "contracts_min": 1,
+      "contracts_max": 10,
+      "skipped_1micro_too_big_pct": 6.9493521790341575,
+      "at_cap_pct": 0.35335689045936397,
+      "net_usd": 42428.0
+     },
+     "opening_range": {
+      "trades": 1741,
+      "taken": 1643,
+      "contracts_median": 2.0,
+      "contracts_min": 1,
+      "contracts_max": 10,
+      "skipped_1micro_too_big_pct": 5.6289488799540495,
+      "at_cap_pct": 3.4462952326249283,
+      "net_usd": 44206.0
+     },
+     "expiry_fade": {
+      "trades": 94,
+      "taken": 9,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 1,
+      "skipped_1micro_too_big_pct": 90.42553191489363,
+      "at_cap_pct": 0.0,
+      "net_usd": 370.0
+     }
+    }
+   },
+   "2010_2018": {
+    "years": 8.563997262149213,
+    "net_usd": 19019.5,
+    "net_per_year": 2220.867127557545,
+    "max_dd": 17896.5,
+    "worst_day": -593.0,
+    "worst_day_date": "2018-04-23",
+    "worst_month": -3879.5,
+    "worst_month_id": "2015-10",
+    "ret_pct": 95.0975,
+    "ret_pct_per_year": 11.104335637787724,
+    "dd_pct": 89.4825,
+    "dd_budgets": 89.4825,
+    "net_per_budget": 95.0975,
+    "skipped_1micro_pct": 0.18162005085361424,
+    "open_cap_binds": 0,
+    "day_limit_binds": 0,
+    "days_2plus_trades": 778,
+    "per_model": {
+     "overnight_break": {
+      "trades": 882,
+      "taken": 882,
+      "contracts_median": 10.0,
+      "contracts_min": 1,
+      "contracts_max": 10,
+      "skipped_1micro_too_big_pct": 0.0,
+      "at_cap_pct": 53.6281179138322,
+      "net_usd": 11627.0
+     },
+     "opening_range": {
+      "trades": 1768,
+      "taken": 1768,
+      "contracts_median": 10.0,
+      "contracts_min": 1,
+      "contracts_max": 10,
+      "skipped_1micro_too_big_pct": 0.0,
+      "at_cap_pct": 64.87556561085974,
+      "net_usd": 5734.0
+     },
+     "expiry_fade": {
+      "trades": 103,
+      "taken": 98,
+      "contracts_median": 2.0,
+      "contracts_min": 1,
+      "contracts_max": 4,
+      "skipped_1micro_too_big_pct": 4.854368932038835,
+      "at_cap_pct": 0.0,
+      "net_usd": 1658.5
+     }
+    }
+   },
+   "2026": {
+    "years": 0.840520191649555,
+    "net_usd": 1795.0,
+    "net_per_year": 2135.5822475570035,
+    "max_dd": 4973.5,
+    "worst_day": -385.0,
+    "worst_day_date": "2026-05-21",
+    "worst_month": -2276.0,
+    "worst_month_id": "2026-03",
+    "ret_pct": 8.975,
+    "ret_pct_per_year": 10.677911237785016,
+    "dd_pct": 24.8675,
+    "dd_budgets": 24.8675,
+    "net_per_budget": 8.975,
+    "skipped_1micro_pct": 33.45070422535211,
+    "open_cap_binds": 0,
+    "day_limit_binds": 0,
+    "days_2plus_trades": 77,
+    "per_model": {
+     "overnight_break": {
+      "trades": 81,
+      "taken": 54,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 2,
+      "skipped_1micro_too_big_pct": 33.33333333333333,
+      "at_cap_pct": 0.0,
+      "net_usd": 3455.5
+     },
+     "opening_range": {
+      "trades": 193,
+      "taken": 135,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 8,
+      "skipped_1micro_too_big_pct": 30.05181347150259,
+      "at_cap_pct": 0.0,
+      "net_usd": -1660.5
+     },
+     "expiry_fade": {
+      "trades": 10,
+      "taken": 0,
+      "contracts_median": 0.0,
+      "contracts_min": 0,
+      "contracts_max": 0,
+      "skipped_1micro_too_big_pct": 100.0,
+      "at_cap_pct": 0.0,
+      "net_usd": 0.0
+     }
+    }
+   }
+  },
+  "fixed_combined_50": {
+   "full": {
+    "years": 16.410677618069816,
+    "net_usd": 1404.5,
+    "net_per_year": 85.58452202202201,
+    "max_dd": 7699.0,
+    "worst_day": -99.5,
+    "worst_day_date": "2012-04-19",
+    "worst_month": -994.5,
+    "worst_month_id": "2013-01",
+    "ret_pct": 28.09,
+    "ret_pct_per_year": 1.7116904404404405,
+    "dd_pct": 153.98,
+    "dd_budgets": 153.98,
+    "net_per_budget": 28.09,
+    "skipped_1micro_pct": 40.2243884495126,
+    "open_cap_binds": 322,
+    "day_limit_binds": 13,
+    "days_2plus_trades": 1581,
+    "per_model": {
+     "overnight_break": {
+      "trades": 1731,
+      "taken": 961,
+      "contracts_median": 2.0,
+      "contracts_min": 1,
+      "contracts_max": 7,
+      "skipped_1micro_too_big_pct": 41.76776429809358,
+      "at_cap_pct": 0.0,
+      "net_usd": 3084.5
+     },
+     "opening_range": {
+      "trades": 3509,
+      "taken": 2231,
+      "contracts_median": 2.0,
+      "contracts_min": 1,
+      "contracts_max": 7,
+      "skipped_1micro_too_big_pct": 36.420632658877174,
+      "at_cap_pct": 0.0,
+      "net_usd": -1818.0
+     },
+     "expiry_fade": {
+      "trades": 197,
+      "taken": 11,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 1,
+      "skipped_1micro_too_big_pct": 94.41624365482234,
+      "at_cap_pct": 0.0,
+      "net_usd": 138.0
+     }
+    }
+   },
+   "2019_2026": {
+    "years": 7.841204654346338,
+    "net_usd": 2737.0,
+    "net_per_year": 349.0535090782123,
+    "max_dd": 2189.5,
+    "worst_day": -86.5,
+    "worst_day_date": "2020-06-17",
+    "worst_month": -510.0,
+    "worst_month_id": "2019-02",
+    "ret_pct": 54.74,
+    "ret_pct_per_year": 6.981070181564246,
+    "dd_pct": 43.79,
+    "dd_budgets": 43.79,
+    "net_per_budget": 54.74,
+    "skipped_1micro_pct": 75.22354694485843,
+    "open_cap_binds": 32,
+    "day_limit_binds": 0,
+    "days_2plus_trades": 803,
+    "per_model": {
+     "overnight_break": {
+      "trades": 849,
+      "taken": 133,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 2,
+      "skipped_1micro_too_big_pct": 81.38987043580683,
+      "at_cap_pct": 0.0,
+      "net_usd": 1741.0
+     },
+     "opening_range": {
+      "trades": 1741,
+      "taken": 507,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 7,
+      "skipped_1micro_too_big_pct": 70.87880528431936,
+      "at_cap_pct": 0.0,
+      "net_usd": 996.0
+     },
+     "expiry_fade": {
+      "trades": 94,
+      "taken": 0,
+      "contracts_median": 0.0,
+      "contracts_min": 0,
+      "contracts_max": 0,
+      "skipped_1micro_too_big_pct": 100.0,
+      "at_cap_pct": 0.0,
+      "net_usd": 0.0
+     }
+    }
+   },
+   "2010_2018": {
+    "years": 8.563997262149213,
+    "net_usd": -1332.5,
+    "net_per_year": -155.59323049872123,
+    "max_dd": 7699.0,
+    "worst_day": -99.5,
+    "worst_day_date": "2012-04-19",
+    "worst_month": -994.5,
+    "worst_month_id": "2013-01",
+    "ret_pct": -26.65,
+    "ret_pct_per_year": -3.1118646099744245,
+    "dd_pct": 153.98,
+    "dd_budgets": 153.98,
+    "net_per_budget": -26.65,
+    "skipped_1micro_pct": 6.102433708681438,
+    "open_cap_binds": 290,
+    "day_limit_binds": 13,
+    "days_2plus_trades": 778,
+    "per_model": {
+     "overnight_break": {
+      "trades": 882,
+      "taken": 828,
+      "contracts_median": 2.0,
+      "contracts_min": 1,
+      "contracts_max": 7,
+      "skipped_1micro_too_big_pct": 3.6281179138321997,
+      "at_cap_pct": 0.0,
+      "net_usd": 1343.5
+     },
+     "opening_range": {
+      "trades": 1768,
+      "taken": 1724,
+      "contracts_median": 3.0,
+      "contracts_min": 1,
+      "contracts_max": 7,
+      "skipped_1micro_too_big_pct": 2.48868778280543,
+      "at_cap_pct": 0.0,
+      "net_usd": -2814.0
+     },
+     "expiry_fade": {
+      "trades": 103,
+      "taken": 11,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 1,
+      "skipped_1micro_too_big_pct": 89.32038834951457,
+      "at_cap_pct": 0.0,
+      "net_usd": 138.0
+     }
+    }
+   },
+   "2026": {
+    "years": 0.840520191649555,
+    "net_usd": -288.5,
+    "net_per_year": -343.23982084690556,
+    "max_dd": 288.5,
+    "worst_day": -46.5,
+    "worst_day_date": "2026-04-28",
+    "worst_month": -121.5,
+    "worst_month_id": "2026-04",
+    "ret_pct": -5.77,
+    "ret_pct_per_year": -6.864796416938111,
+    "dd_pct": 5.77,
+    "dd_budgets": 5.77,
+    "net_per_budget": -5.77,
+    "skipped_1micro_pct": 97.53521126760563,
+    "open_cap_binds": 0,
+    "day_limit_binds": 0,
+    "days_2plus_trades": 77,
+    "per_model": {
+     "overnight_break": {
+      "trades": 81,
+      "taken": 0,
+      "contracts_median": 0.0,
+      "contracts_min": 0,
+      "contracts_max": 0,
+      "skipped_1micro_too_big_pct": 100.0,
+      "at_cap_pct": 0.0,
+      "net_usd": 0.0
+     },
+     "opening_range": {
+      "trades": 193,
+      "taken": 7,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 2,
+      "skipped_1micro_too_big_pct": 96.37305699481865,
+      "at_cap_pct": 0.0,
+      "net_usd": -288.5
+     },
+     "expiry_fade": {
+      "trades": 10,
+      "taken": 0,
+      "contracts_median": 0.0,
+      "contracts_min": 0,
+      "contracts_max": 0,
+      "skipped_1micro_too_big_pct": 100.0,
+      "at_cap_pct": 0.0,
+      "net_usd": 0.0
+     }
+    }
+   }
+  },
+  "fixed_combined_100": {
+   "full": {
+    "years": 16.410677618069816,
+    "net_usd": 28066.5,
+    "net_per_year": 1710.2584459459458,
+    "max_dd": 16304.0,
+    "worst_day": -199.0,
+    "worst_day_date": "2018-04-23",
+    "worst_month": -2043.0,
+    "worst_month_id": "2013-01",
+    "ret_pct": 280.665,
+    "ret_pct_per_year": 17.10258445945946,
+    "dd_pct": 163.04,
+    "dd_budgets": 163.04,
+    "net_per_budget": 280.665,
+    "skipped_1micro_pct": 18.925878241677395,
+    "open_cap_binds": 518,
+    "day_limit_binds": 18,
+    "days_2plus_trades": 1581,
+    "per_model": {
+     "overnight_break": {
+      "trades": 1731,
+      "taken": 1307,
+      "contracts_median": 3.0,
+      "contracts_min": 1,
+      "contracts_max": 10,
+      "skipped_1micro_too_big_pct": 20.21952628538417,
+      "at_cap_pct": 2.2530329289428077,
+      "net_usd": 14892.0
+     },
+     "opening_range": {
+      "trades": 3509,
+      "taken": 2956,
+      "contracts_median": 4.0,
+      "contracts_min": 1,
+      "contracts_max": 10,
+      "skipped_1micro_too_big_pct": 15.759475634083783,
+      "at_cap_pct": 7.466514676546024,
+      "net_usd": 12344.5
+     },
+     "expiry_fade": {
+      "trades": 197,
+      "taken": 71,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 2,
+      "skipped_1micro_too_big_pct": 63.95939086294417,
+      "at_cap_pct": 0.0,
+      "net_usd": 830.0
+     }
+    }
+   },
+   "2019_2026": {
+    "years": 7.841204654346338,
+    "net_usd": 29065.0,
+    "net_per_year": 3706.700855446927,
+    "max_dd": 4919.5,
+    "worst_day": -193.5,
+    "worst_day_date": "2024-04-29",
+    "worst_month": -1318.5,
+    "worst_month_id": "2020-12",
+    "ret_pct": 290.65,
+    "ret_pct_per_year": 37.06700855446927,
+    "dd_pct": 49.195,
+    "dd_budgets": 49.195,
+    "net_per_budget": 290.65,
+    "skipped_1micro_pct": 36.847988077496275,
+    "open_cap_binds": 149,
+    "day_limit_binds": 1,
+    "days_2plus_trades": 803,
+    "per_model": {
+     "overnight_break": {
+      "trades": 849,
+      "taken": 435,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 5,
+      "skipped_1micro_too_big_pct": 40.753828032979975,
+      "at_cap_pct": 0.0,
+      "net_usd": 12676.5
+     },
+     "opening_range": {
+      "trades": 1741,
+      "taken": 1192,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 10,
+      "skipped_1micro_too_big_pct": 31.533601378518096,
+      "at_cap_pct": 0.5169442848937392,
+      "net_usd": 16388.5
+     },
+     "expiry_fade": {
+      "trades": 94,
+      "taken": 0,
+      "contracts_median": 0.0,
+      "contracts_min": 0,
+      "contracts_max": 0,
+      "skipped_1micro_too_big_pct": 100.0,
+      "at_cap_pct": 0.0,
+      "net_usd": 0.0
+     }
+    }
+   },
+   "2010_2018": {
+    "years": 8.563997262149213,
+    "net_usd": -998.5,
+    "net_per_year": -116.59275095907928,
+    "max_dd": 16304.0,
+    "worst_day": -199.0,
+    "worst_day_date": "2018-04-23",
+    "worst_month": -2043.0,
+    "worst_month_id": "2013-01",
+    "ret_pct": -9.985,
+    "ret_pct_per_year": -1.1659275095907928,
+    "dd_pct": 163.04,
+    "dd_budgets": 163.04,
+    "net_per_budget": -9.985,
+    "skipped_1micro_pct": 1.452960406828914,
+    "open_cap_binds": 369,
+    "day_limit_binds": 17,
+    "days_2plus_trades": 778,
+    "per_model": {
+     "overnight_break": {
+      "trades": 882,
+      "taken": 872,
+      "contracts_median": 4.0,
+      "contracts_min": 1,
+      "contracts_max": 10,
+      "skipped_1micro_too_big_pct": 0.45351473922902497,
+      "at_cap_pct": 4.421768707482993,
+      "net_usd": 2215.5
+     },
+     "opening_range": {
+      "trades": 1768,
+      "taken": 1764,
+      "contracts_median": 6.0,
+      "contracts_min": 1,
+      "contracts_max": 10,
+      "skipped_1micro_too_big_pct": 0.22624434389140274,
+      "at_cap_pct": 14.30995475113122,
+      "net_usd": -4044.0
+     },
+     "expiry_fade": {
+      "trades": 103,
+      "taken": 71,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 2,
+      "skipped_1micro_too_big_pct": 31.06796116504854,
+      "at_cap_pct": 0.0,
+      "net_usd": 830.0
+     }
+    }
+   },
+   "2026": {
+    "years": 0.840520191649555,
+    "net_usd": -267.0,
+    "net_per_year": -317.6604234527687,
+    "max_dd": 1397.0,
+    "worst_day": -135.5,
+    "worst_day_date": "2026-04-13",
+    "worst_month": -610.0,
+    "worst_month_id": "2026-04",
+    "ret_pct": -2.67,
+    "ret_pct_per_year": -3.1766042345276873,
+    "dd_pct": 13.97,
+    "dd_budgets": 13.97,
+    "net_per_budget": -2.67,
+    "skipped_1micro_pct": 80.98591549295774,
+    "open_cap_binds": 1,
+    "day_limit_binds": 0,
+    "days_2plus_trades": 77,
+    "per_model": {
+     "overnight_break": {
+      "trades": 81,
+      "taken": 9,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 1,
+      "skipped_1micro_too_big_pct": 87.65432098765432,
+      "at_cap_pct": 0.0,
+      "net_usd": 555.0
+     },
+     "opening_range": {
+      "trades": 193,
+      "taken": 44,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 4,
+      "skipped_1micro_too_big_pct": 77.2020725388601,
+      "at_cap_pct": 0.0,
+      "net_usd": -822.0
+     },
+     "expiry_fade": {
+      "trades": 10,
+      "taken": 0,
+      "contracts_median": 0.0,
+      "contracts_min": 0,
+      "contracts_max": 0,
+      "skipped_1micro_too_big_pct": 100.0,
+      "at_cap_pct": 0.0,
+      "net_usd": 0.0
+     }
+    }
+   }
+  },
+  "fixed_combined_200": {
+   "full": {
+    "years": 16.410677618069816,
+    "net_usd": 90040.5,
+    "net_per_year": 5486.702139639639,
+    "max_dd": 18914.0,
+    "worst_day": -398.0,
+    "worst_day_date": "2018-04-23",
+    "worst_month": -3646.5,
+    "worst_month_id": "2015-10",
+    "ret_pct": 450.2025,
+    "ret_pct_per_year": 27.433510698198198,
+    "dd_pct": 94.57,
+    "dd_budgets": 94.57,
+    "net_per_budget": 450.2025,
+    "skipped_1micro_pct": 4.5429464778370425,
+    "open_cap_binds": 501,
+    "day_limit_binds": 25,
+    "days_2plus_trades": 1581,
+    "per_model": {
+     "overnight_break": {
+      "trades": 1731,
+      "taken": 1632,
+      "contracts_median": 4.0,
+      "contracts_min": 1,
+      "contracts_max": 10,
+      "skipped_1micro_too_big_pct": 3.40843443096476,
+      "at_cap_pct": 27.49855574812247,
+      "net_usd": 38072.0
+     },
+     "opening_range": {
+      "trades": 3509,
+      "taken": 3411,
+      "contracts_median": 6.0,
+      "contracts_min": 1,
+      "contracts_max": 10,
+      "skipped_1micro_too_big_pct": 2.792818466799658,
+      "at_cap_pct": 34.39726417782844,
+      "net_usd": 49940.0
+     },
+     "expiry_fade": {
+      "trades": 197,
+      "taken": 107,
+      "contracts_median": 2.0,
+      "contracts_min": 1,
+      "contracts_max": 4,
+      "skipped_1micro_too_big_pct": 45.68527918781726,
+      "at_cap_pct": 0.0,
+      "net_usd": 2028.5
+     }
+    }
+   },
+   "2019_2026": {
+    "years": 7.841204654346338,
+    "net_usd": 75310.0,
+    "net_per_year": 9604.39158519553,
+    "max_dd": 9956.0,
+    "worst_day": -389.0,
+    "worst_day_date": "2025-12-30",
+    "worst_month": -2724.0,
+    "worst_month_id": "2023-09",
+    "ret_pct": 376.55,
+    "ret_pct_per_year": 48.02195792597765,
+    "dd_pct": 49.78,
+    "dd_budgets": 49.78,
+    "net_per_budget": 376.55,
+    "skipped_1micro_pct": 9.01639344262295,
+    "open_cap_binds": 293,
+    "day_limit_binds": 12,
+    "days_2plus_trades": 803,
+    "per_model": {
+     "overnight_break": {
+      "trades": 849,
+      "taken": 751,
+      "contracts_median": 2.0,
+      "contracts_min": 1,
+      "contracts_max": 10,
+      "skipped_1micro_too_big_pct": 6.9493521790341575,
+      "at_cap_pct": 0.35335689045936397,
+      "net_usd": 30734.0
+     },
+     "opening_range": {
+      "trades": 1741,
+      "taken": 1643,
+      "contracts_median": 2.0,
+      "contracts_min": 1,
+      "contracts_max": 10,
+      "skipped_1micro_too_big_pct": 5.6289488799540495,
+      "at_cap_pct": 3.4462952326249283,
+      "net_usd": 44206.0
+     },
+     "expiry_fade": {
+      "trades": 94,
+      "taken": 9,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 1,
+      "skipped_1micro_too_big_pct": 90.42553191489363,
+      "at_cap_pct": 0.0,
+      "net_usd": 370.0
+     }
+    }
+   },
+   "2010_2018": {
+    "years": 8.563997262149213,
+    "net_usd": 14730.5,
+    "net_per_year": 1720.0495923913043,
+    "max_dd": 18914.0,
+    "worst_day": -398.0,
+    "worst_day_date": "2018-04-23",
+    "worst_month": -3646.5,
+    "worst_month_id": "2015-10",
+    "ret_pct": 73.6525,
+    "ret_pct_per_year": 8.600247961956521,
+    "dd_pct": 94.57,
+    "dd_budgets": 94.57,
+    "net_per_budget": 73.6525,
+    "skipped_1micro_pct": 0.18162005085361424,
+    "open_cap_binds": 208,
+    "day_limit_binds": 13,
+    "days_2plus_trades": 778,
+    "per_model": {
+     "overnight_break": {
+      "trades": 882,
+      "taken": 881,
+      "contracts_median": 9.0,
+      "contracts_min": 1,
+      "contracts_max": 10,
+      "skipped_1micro_too_big_pct": 0.0,
+      "at_cap_pct": 53.6281179138322,
+      "net_usd": 7338.0
+     },
+     "opening_range": {
+      "trades": 1768,
+      "taken": 1768,
+      "contracts_median": 10.0,
+      "contracts_min": 1,
+      "contracts_max": 10,
+      "skipped_1micro_too_big_pct": 0.0,
+      "at_cap_pct": 64.87556561085974,
+      "net_usd": 5734.0
+     },
+     "expiry_fade": {
+      "trades": 103,
+      "taken": 98,
+      "contracts_median": 2.0,
+      "contracts_min": 1,
+      "contracts_max": 4,
+      "skipped_1micro_too_big_pct": 4.854368932038835,
+      "at_cap_pct": 0.0,
+      "net_usd": 1658.5
+     }
+    }
+   },
+   "2026": {
+    "years": 0.840520191649555,
+    "net_usd": 587.0,
+    "net_per_year": 698.377035830619,
+    "max_dd": 4597.5,
+    "worst_day": -385.0,
+    "worst_day_date": "2026-05-21",
+    "worst_month": -2084.5,
+    "worst_month_id": "2026-03",
+    "ret_pct": 2.935,
+    "ret_pct_per_year": 3.491885179153095,
+    "dd_pct": 22.9875,
+    "dd_budgets": 22.9875,
+    "net_per_budget": 2.935,
+    "skipped_1micro_pct": 33.45070422535211,
+    "open_cap_binds": 10,
+    "day_limit_binds": 0,
+    "days_2plus_trades": 77,
+    "per_model": {
+     "overnight_break": {
+      "trades": 81,
+      "taken": 48,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 2,
+      "skipped_1micro_too_big_pct": 33.33333333333333,
+      "at_cap_pct": 0.0,
+      "net_usd": 2247.5
+     },
+     "opening_range": {
+      "trades": 193,
+      "taken": 135,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 8,
+      "skipped_1micro_too_big_pct": 30.05181347150259,
+      "at_cap_pct": 0.0,
+      "net_usd": -1660.5
+     },
+     "expiry_fade": {
+      "trades": 10,
+      "taken": 0,
+      "contracts_median": 0.0,
+      "contracts_min": 0,
+      "contracts_max": 0,
+      "skipped_1micro_too_big_pct": 100.0,
+      "at_cap_pct": 0.0,
+      "net_usd": 0.0
+     }
+    }
+   }
+  },
+  "scaled_plain_50": {
+   "full": {
+    "years": 16.410677618069816,
+    "net_usd": 1748.5,
+    "net_per_year": 106.54648398398398,
+    "max_dd": 481.0,
+    "worst_day": -46.5,
+    "worst_day_date": "2026-04-28",
+    "worst_month": -121.5,
+    "worst_month_id": "2026-04",
+    "ret_pct": 34.97,
+    "ret_pct_per_year": 2.1309296796796797,
+    "dd_pct": 9.62,
+    "dd_budgets": 9.62,
+    "net_per_budget": 34.97,
+    "skipped_1micro_pct": 97.03880816626817,
+    "open_cap_binds": 0,
+    "day_limit_binds": 0,
+    "days_2plus_trades": 1581,
+    "per_model": {
+     "overnight_break": {
+      "trades": 1731,
+      "taken": 10,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 1,
+      "skipped_1micro_too_big_pct": 99.42229924898902,
+      "at_cap_pct": 0.0,
+      "net_usd": 21.0
+     },
+     "opening_range": {
+      "trades": 3509,
+      "taken": 150,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 3,
+      "skipped_1micro_too_big_pct": 95.7252778569393,
+      "at_cap_pct": 0.0,
+      "net_usd": 1724.0
+     },
+     "expiry_fade": {
+      "trades": 197,
+      "taken": 1,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 1,
+      "skipped_1micro_too_big_pct": 99.49238578680203,
+      "at_cap_pct": 0.0,
+      "net_usd": 3.5
+     }
+    }
+   },
+   "2019_2026": {
+    "years": 7.841204654346338,
+    "net_usd": 2170.0,
+    "net_per_year": 276.7431913407821,
+    "max_dd": 465.5,
+    "worst_day": -46.5,
+    "worst_day_date": "2026-04-28",
+    "worst_month": -121.5,
+    "worst_month_id": "2026-04",
+    "ret_pct": 43.4,
+    "ret_pct_per_year": 5.534863826815642,
+    "dd_pct": 9.31,
+    "dd_budgets": 9.31,
+    "net_per_budget": 43.4,
+    "skipped_1micro_pct": 96.68405365126677,
+    "open_cap_binds": 0,
+    "day_limit_binds": 0,
+    "days_2plus_trades": 803,
+    "per_model": {
+     "overnight_break": {
+      "trades": 849,
+      "taken": 2,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 1,
+      "skipped_1micro_too_big_pct": 99.76442873969376,
+      "at_cap_pct": 0.0,
+      "net_usd": 71.5
+     },
+     "opening_range": {
+      "trades": 1741,
+      "taken": 87,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 3,
+      "skipped_1micro_too_big_pct": 95.00287191269385,
+      "at_cap_pct": 0.0,
+      "net_usd": 2098.5
+     },
+     "expiry_fade": {
+      "trades": 94,
+      "taken": 0,
+      "contracts_median": 0.0,
+      "contracts_min": 0,
+      "contracts_max": 0,
+      "skipped_1micro_too_big_pct": 100.0,
+      "at_cap_pct": 0.0,
+      "net_usd": 0.0
+     }
+    }
+   },
+   "2010_2018": {
+    "years": 8.563997262149213,
+    "net_usd": -421.5,
+    "net_per_year": -49.21767103580562,
+    "max_dd": 425.0,
+    "worst_day": -22.5,
+    "worst_day_date": "2018-08-27",
+    "worst_month": -58.0,
+    "worst_month_id": "2017-03",
+    "ret_pct": -8.43,
+    "ret_pct_per_year": -0.9843534207161124,
+    "dd_pct": 8.5,
+    "dd_budgets": 8.5,
+    "net_per_budget": -8.43,
+    "skipped_1micro_pct": 97.38467126770796,
+    "open_cap_binds": 0,
+    "day_limit_binds": 0,
+    "days_2plus_trades": 778,
+    "per_model": {
+     "overnight_break": {
+      "trades": 882,
+      "taken": 8,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 1,
+      "skipped_1micro_too_big_pct": 99.09297052154194,
+      "at_cap_pct": 0.0,
+      "net_usd": -50.5
+     },
+     "opening_range": {
+      "trades": 1768,
+      "taken": 63,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 1,
+      "skipped_1micro_too_big_pct": 96.43665158371041,
+      "at_cap_pct": 0.0,
+      "net_usd": -374.5
+     },
+     "expiry_fade": {
+      "trades": 103,
+      "taken": 1,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 1,
+      "skipped_1micro_too_big_pct": 99.02912621359224,
+      "at_cap_pct": 0.0,
+      "net_usd": 3.5
+     }
+    }
+   },
+   "2026": {
+    "years": 0.840520191649555,
+    "net_usd": 214.0,
+    "net_per_year": 254.6042345276873,
+    "max_dd": 159.0,
+    "worst_day": -46.5,
+    "worst_day_date": "2026-04-28",
+    "worst_month": -121.5,
+    "worst_month_id": "2026-04",
+    "ret_pct": 4.28,
+    "ret_pct_per_year": 5.0920846905537465,
+    "dd_pct": 3.18,
+    "dd_budgets": 3.18,
+    "net_per_budget": 4.28,
+    "skipped_1micro_pct": 97.1830985915493,
+    "open_cap_binds": 0,
+    "day_limit_binds": 0,
+    "days_2plus_trades": 77,
+    "per_model": {
+     "overnight_break": {
+      "trades": 81,
+      "taken": 0,
+      "contracts_median": 0.0,
+      "contracts_min": 0,
+      "contracts_max": 0,
+      "skipped_1micro_too_big_pct": 100.0,
+      "at_cap_pct": 0.0,
+      "net_usd": 0.0
+     },
+     "opening_range": {
+      "trades": 193,
+      "taken": 8,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 2,
+      "skipped_1micro_too_big_pct": 95.85492227979275,
+      "at_cap_pct": 0.0,
+      "net_usd": 214.0
+     },
+     "expiry_fade": {
+      "trades": 10,
+      "taken": 0,
+      "contracts_median": 0.0,
+      "contracts_min": 0,
+      "contracts_max": 0,
+      "skipped_1micro_too_big_pct": 100.0,
+      "at_cap_pct": 0.0,
+      "net_usd": 0.0
+     }
+    }
+   }
+  },
+  "scaled_plain_100": {
+   "full": {
+    "years": 16.410677618069816,
+    "net_usd": 9310.0,
+    "net_per_year": 567.3135635635635,
+    "max_dd": 1758.5,
+    "worst_day": -160.5,
+    "worst_day_date": "2025-10-28",
+    "worst_month": -610.0,
+    "worst_month_id": "2026-04",
+    "ret_pct": 93.1,
+    "ret_pct_per_year": 5.673135635635635,
+    "dd_pct": 17.585,
+    "dd_budgets": 17.585,
+    "net_per_budget": 93.1,
+    "skipped_1micro_pct": 70.38808166268163,
+    "open_cap_binds": 0,
+    "day_limit_binds": 0,
+    "days_2plus_trades": 1581,
+    "per_model": {
+     "overnight_break": {
+      "trades": 1731,
+      "taken": 401,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 2,
+      "skipped_1micro_too_big_pct": 76.83419988445985,
+      "at_cap_pct": 0.0,
+      "net_usd": 4362.5
+     },
+     "opening_range": {
+      "trades": 3509,
+      "taken": 1208,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 7,
+      "skipped_1micro_too_big_pct": 65.57423767455116,
+      "at_cap_pct": 0.0,
+      "net_usd": 4944.0
+     },
+     "expiry_fade": {
+      "trades": 197,
+      "taken": 1,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 1,
+      "skipped_1micro_too_big_pct": 99.49238578680203,
+      "at_cap_pct": 0.0,
+      "net_usd": 3.5
+     }
+    }
+   },
+   "2019_2026": {
+    "years": 7.841204654346338,
+    "net_usd": 9954.5,
+    "net_per_year": 1269.51156599162,
+    "max_dd": 1758.5,
+    "worst_day": -160.5,
+    "worst_day_date": "2025-10-28",
+    "worst_month": -610.0,
+    "worst_month_id": "2026-04",
+    "ret_pct": 99.545,
+    "ret_pct_per_year": 12.695115659916201,
+    "dd_pct": 17.585,
+    "dd_budgets": 17.585,
+    "net_per_budget": 99.545,
+    "skipped_1micro_pct": 75.33532041728763,
+    "open_cap_binds": 0,
+    "day_limit_binds": 0,
+    "days_2plus_trades": 803,
+    "per_model": {
+     "overnight_break": {
+      "trades": 849,
+      "taken": 143,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 2,
+      "skipped_1micro_too_big_pct": 83.15665488810366,
+      "at_cap_pct": 0.0,
+      "net_usd": 3801.5
+     },
+     "opening_range": {
+      "trades": 1741,
+      "taken": 519,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 7,
+      "skipped_1micro_too_big_pct": 70.18954623779437,
+      "at_cap_pct": 0.0,
+      "net_usd": 6153.0
+     },
+     "expiry_fade": {
+      "trades": 94,
+      "taken": 0,
+      "contracts_median": 0.0,
+      "contracts_min": 0,
+      "contracts_max": 0,
+      "skipped_1micro_too_big_pct": 100.0,
+      "at_cap_pct": 0.0,
+      "net_usd": 0.0
+     }
+    }
+   },
+   "2010_2018": {
+    "years": 8.563997262149213,
+    "net_usd": -644.5,
+    "net_per_year": -75.25691336317135,
+    "max_dd": 1442.0,
+    "worst_day": -45.0,
+    "worst_day_date": "2018-08-27",
+    "worst_month": -289.5,
+    "worst_month_id": "2017-06",
+    "ret_pct": -6.445,
+    "ret_pct_per_year": -0.7525691336317135,
+    "dd_pct": 14.42,
+    "dd_budgets": 14.42,
+    "net_per_budget": -6.445,
+    "skipped_1micro_pct": 65.56483835815474,
+    "open_cap_binds": 0,
+    "day_limit_binds": 0,
+    "days_2plus_trades": 778,
+    "per_model": {
+     "overnight_break": {
+      "trades": 882,
+      "taken": 258,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 2,
+      "skipped_1micro_too_big_pct": 70.74829931972789,
+      "at_cap_pct": 0.0,
+      "net_usd": 561.0
+     },
+     "opening_range": {
+      "trades": 1768,
+      "taken": 689,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 3,
+      "skipped_1micro_too_big_pct": 61.029411764705884,
+      "at_cap_pct": 0.0,
+      "net_usd": -1209.0
+     },
+     "expiry_fade": {
+      "trades": 103,
+      "taken": 1,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 1,
+      "skipped_1micro_too_big_pct": 99.02912621359224,
+      "at_cap_pct": 0.0,
+      "net_usd": 3.5
+     }
+    }
+   },
+   "2026": {
+    "years": 0.840520191649555,
+    "net_usd": 796.5,
+    "net_per_year": 947.6274429967427,
+    "max_dd": 1459.0,
+    "worst_day": -135.5,
+    "worst_day_date": "2026-04-13",
+    "worst_month": -610.0,
+    "worst_month_id": "2026-04",
+    "ret_pct": 7.965,
+    "ret_pct_per_year": 9.476274429967427,
+    "dd_pct": 14.59,
+    "dd_budgets": 14.59,
+    "net_per_budget": 7.965,
+    "skipped_1micro_pct": 80.63380281690141,
+    "open_cap_binds": 0,
+    "day_limit_binds": 0,
+    "days_2plus_trades": 77,
+    "per_model": {
+     "overnight_break": {
+      "trades": 81,
+      "taken": 10,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 1,
+      "skipped_1micro_too_big_pct": 87.65432098765432,
+      "at_cap_pct": 0.0,
+      "net_usd": 940.0
+     },
+     "opening_range": {
+      "trades": 193,
+      "taken": 45,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 4,
+      "skipped_1micro_too_big_pct": 76.68393782383419,
+      "at_cap_pct": 0.0,
+      "net_usd": -143.5
+     },
+     "expiry_fade": {
+      "trades": 10,
+      "taken": 0,
+      "contracts_median": 0.0,
+      "contracts_min": 0,
+      "contracts_max": 0,
+      "skipped_1micro_too_big_pct": 100.0,
+      "at_cap_pct": 0.0,
+      "net_usd": 0.0
+     }
+    }
+   }
+  },
+  "scaled_plain_200": {
+   "full": {
+    "years": 16.410677618069816,
+    "net_usd": 39887.0,
+    "net_per_year": 2430.551676676677,
+    "max_dd": 5689.5,
+    "worst_day": -430.0,
+    "worst_day_date": "2026-10-02",
+    "worst_month": -1730.5,
+    "worst_month_id": "2024-02",
+    "ret_pct": 199.435,
+    "ret_pct_per_year": 12.152758383383384,
+    "dd_pct": 28.4475,
+    "dd_budgets": 28.4475,
+    "net_per_budget": 199.435,
+    "skipped_1micro_pct": 22.953834835387163,
+    "open_cap_binds": 0,
+    "day_limit_binds": 0,
+    "days_2plus_trades": 1581,
+    "per_model": {
+     "overnight_break": {
+      "trades": 1731,
+      "taken": 1304,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 5,
+      "skipped_1micro_too_big_pct": 24.66782206816869,
+      "at_cap_pct": 0.0,
+      "net_usd": 21654.0
+     },
+     "opening_range": {
+      "trades": 3509,
+      "taken": 2884,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 10,
+      "skipped_1micro_too_big_pct": 17.811342262752923,
+      "at_cap_pct": 0.028498147620404674,
+      "net_usd": 18229.5
+     },
+     "expiry_fade": {
+      "trades": 197,
+      "taken": 1,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 1,
+      "skipped_1micro_too_big_pct": 99.49238578680203,
+      "at_cap_pct": 0.0,
+      "net_usd": 3.5
+     }
+    }
+   },
+   "2019_2026": {
+    "years": 7.841204654346338,
+    "net_usd": 37425.0,
+    "net_per_year": 4772.863564944134,
+    "max_dd": 5689.5,
+    "worst_day": -430.0,
+    "worst_day_date": "2026-10-02",
+    "worst_month": -1730.5,
+    "worst_month_id": "2024-02",
+    "ret_pct": 187.125,
+    "ret_pct_per_year": 23.86431782472067,
+    "dd_pct": 28.4475,
+    "dd_budgets": 28.4475,
+    "net_per_budget": 187.125,
+    "skipped_1micro_pct": 28.166915052160952,
+    "open_cap_binds": 0,
+    "day_limit_binds": 0,
+    "days_2plus_trades": 803,
+    "per_model": {
+     "overnight_break": {
+      "trades": 849,
+      "taken": 586,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 4,
+      "skipped_1micro_too_big_pct": 30.977620730270907,
+      "at_cap_pct": 0.0,
+      "net_usd": 19286.0
+     },
+     "opening_range": {
+      "trades": 1741,
+      "taken": 1342,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 10,
+      "skipped_1micro_too_big_pct": 22.917863296955773,
+      "at_cap_pct": 0.05743825387708214,
+      "net_usd": 18139.0
+     },
+     "expiry_fade": {
+      "trades": 94,
+      "taken": 0,
+      "contracts_median": 0.0,
+      "contracts_min": 0,
+      "contracts_max": 0,
+      "skipped_1micro_too_big_pct": 100.0,
+      "at_cap_pct": 0.0,
+      "net_usd": 0.0
+     }
+    }
+   },
+   "2010_2018": {
+    "years": 8.563997262149213,
+    "net_usd": 2462.0,
+    "net_per_year": 287.4825767263427,
+    "max_dd": 4227.5,
+    "worst_day": -100.0,
+    "worst_day_date": "2018-07-09",
+    "worst_month": -742.0,
+    "worst_month_id": "2017-03",
+    "ret_pct": 12.31,
+    "ret_pct_per_year": 1.4374128836317135,
+    "dd_pct": 21.1375,
+    "dd_budgets": 21.1375,
+    "net_per_budget": 12.31,
+    "skipped_1micro_pct": 17.87141300399564,
+    "open_cap_binds": 0,
+    "day_limit_binds": 0,
+    "days_2plus_trades": 778,
+    "per_model": {
+     "overnight_break": {
+      "trades": 882,
+      "taken": 718,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 5,
+      "skipped_1micro_too_big_pct": 18.594104308390023,
+      "at_cap_pct": 0.0,
+      "net_usd": 2368.0
+     },
+     "opening_range": {
+      "trades": 1768,
+      "taken": 1542,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 6,
+      "skipped_1micro_too_big_pct": 12.782805429864252,
+      "at_cap_pct": 0.0,
+      "net_usd": 90.5
+     },
+     "expiry_fade": {
+      "trades": 103,
+      "taken": 1,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 1,
+      "skipped_1micro_too_big_pct": 99.02912621359224,
+      "at_cap_pct": 0.0,
+      "net_usd": 3.5
+     }
+    }
+   },
+   "2026": {
+    "years": 0.840520191649555,
+    "net_usd": 2170.5,
+    "net_per_year": 2582.329397394137,
+    "max_dd": 3943.5,
+    "worst_day": -430.0,
+    "worst_day_date": "2026-10-02",
+    "worst_month": -1705.5,
+    "worst_month_id": "2026-10",
+    "ret_pct": 10.8525,
+    "ret_pct_per_year": 12.911646986970684,
+    "dd_pct": 19.7175,
+    "dd_budgets": 19.7175,
+    "net_per_budget": 10.8525,
+    "skipped_1micro_pct": 34.859154929577464,
+    "open_cap_binds": 0,
+    "day_limit_binds": 0,
+    "days_2plus_trades": 77,
+    "per_model": {
+     "overnight_break": {
+      "trades": 81,
+      "taken": 49,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 2,
+      "skipped_1micro_too_big_pct": 39.50617283950617,
+      "at_cap_pct": 0.0,
+      "net_usd": 3353.0
+     },
+     "opening_range": {
+      "trades": 193,
+      "taken": 136,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 9,
+      "skipped_1micro_too_big_pct": 29.533678756476682,
+      "at_cap_pct": 0.0,
+      "net_usd": -1182.5
+     },
+     "expiry_fade": {
+      "trades": 10,
+      "taken": 0,
+      "contracts_median": 0.0,
+      "contracts_min": 0,
+      "contracts_max": 0,
+      "skipped_1micro_too_big_pct": 100.0,
+      "at_cap_pct": 0.0,
+      "net_usd": 0.0
+     }
+    }
+   }
+  },
+  "scaled_combined_50": {
+   "full": {
+    "years": 16.410677618069816,
+    "net_usd": 1669.0,
+    "net_per_year": 101.70207707707708,
+    "max_dd": 560.5,
+    "worst_day": -46.5,
+    "worst_day_date": "2026-04-28",
+    "worst_month": -121.5,
+    "worst_month_id": "2026-04",
+    "ret_pct": 33.38,
+    "ret_pct_per_year": 2.0340415415415416,
+    "dd_pct": 11.21,
+    "dd_budgets": 11.21,
+    "net_per_budget": 33.38,
+    "skipped_1micro_pct": 97.03880816626817,
+    "open_cap_binds": 3,
+    "day_limit_binds": 0,
+    "days_2plus_trades": 1581,
+    "per_model": {
+     "overnight_break": {
+      "trades": 1731,
+      "taken": 7,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 1,
+      "skipped_1micro_too_big_pct": 99.42229924898902,
+      "at_cap_pct": 0.0,
+      "net_usd": -58.5
+     },
+     "opening_range": {
+      "trades": 3509,
+      "taken": 150,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 3,
+      "skipped_1micro_too_big_pct": 95.7252778569393,
+      "at_cap_pct": 0.0,
+      "net_usd": 1724.0
+     },
+     "expiry_fade": {
+      "trades": 197,
+      "taken": 1,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 1,
+      "skipped_1micro_too_big_pct": 99.49238578680203,
+      "at_cap_pct": 0.0,
+      "net_usd": 3.5
+     }
+    }
+   },
+   "2019_2026": {
+    "years": 7.841204654346338,
+    "net_usd": 2071.5,
+    "net_per_year": 264.1813460195531,
+    "max_dd": 465.5,
+    "worst_day": -46.5,
+    "worst_day_date": "2026-04-28",
+    "worst_month": -121.5,
+    "worst_month_id": "2026-04",
+    "ret_pct": 41.43,
+    "ret_pct_per_year": 5.283626920391061,
+    "dd_pct": 9.31,
+    "dd_budgets": 9.31,
+    "net_per_budget": 41.43,
+    "skipped_1micro_pct": 96.68405365126677,
+    "open_cap_binds": 1,
+    "day_limit_binds": 0,
+    "days_2plus_trades": 803,
+    "per_model": {
+     "overnight_break": {
+      "trades": 849,
+      "taken": 1,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 1,
+      "skipped_1micro_too_big_pct": 99.76442873969376,
+      "at_cap_pct": 0.0,
+      "net_usd": -27.0
+     },
+     "opening_range": {
+      "trades": 1741,
+      "taken": 87,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 3,
+      "skipped_1micro_too_big_pct": 95.00287191269385,
+      "at_cap_pct": 0.0,
+      "net_usd": 2098.5
+     },
+     "expiry_fade": {
+      "trades": 94,
+      "taken": 0,
+      "contracts_median": 0.0,
+      "contracts_min": 0,
+      "contracts_max": 0,
+      "skipped_1micro_too_big_pct": 100.0,
+      "at_cap_pct": 0.0,
+      "net_usd": 0.0
+     }
+    }
+   },
+   "2010_2018": {
+    "years": 8.563997262149213,
+    "net_usd": -402.5,
+    "net_per_year": -46.99908088235294,
+    "max_dd": 406.0,
+    "worst_day": -11.0,
+    "worst_day_date": "2018-06-06",
+    "worst_month": -58.0,
+    "worst_month_id": "2017-03",
+    "ret_pct": -8.05,
+    "ret_pct_per_year": -0.9399816176470589,
+    "dd_pct": 8.12,
+    "dd_budgets": 8.12,
+    "net_per_budget": -8.05,
+    "skipped_1micro_pct": 97.38467126770796,
+    "open_cap_binds": 2,
+    "day_limit_binds": 0,
+    "days_2plus_trades": 778,
+    "per_model": {
+     "overnight_break": {
+      "trades": 882,
+      "taken": 6,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 1,
+      "skipped_1micro_too_big_pct": 99.09297052154194,
+      "at_cap_pct": 0.0,
+      "net_usd": -31.5
+     },
+     "opening_range": {
+      "trades": 1768,
+      "taken": 63,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 1,
+      "skipped_1micro_too_big_pct": 96.43665158371041,
+      "at_cap_pct": 0.0,
+      "net_usd": -374.5
+     },
+     "expiry_fade": {
+      "trades": 103,
+      "taken": 1,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 1,
+      "skipped_1micro_too_big_pct": 99.02912621359224,
+      "at_cap_pct": 0.0,
+      "net_usd": 3.5
+     }
+    }
+   },
+   "2026": {
+    "years": 0.840520191649555,
+    "net_usd": 214.0,
+    "net_per_year": 254.6042345276873,
+    "max_dd": 159.0,
+    "worst_day": -46.5,
+    "worst_day_date": "2026-04-28",
+    "worst_month": -121.5,
+    "worst_month_id": "2026-04",
+    "ret_pct": 4.28,
+    "ret_pct_per_year": 5.0920846905537465,
+    "dd_pct": 3.18,
+    "dd_budgets": 3.18,
+    "net_per_budget": 4.28,
+    "skipped_1micro_pct": 97.1830985915493,
+    "open_cap_binds": 0,
+    "day_limit_binds": 0,
+    "days_2plus_trades": 77,
+    "per_model": {
+     "overnight_break": {
+      "trades": 81,
+      "taken": 0,
+      "contracts_median": 0.0,
+      "contracts_min": 0,
+      "contracts_max": 0,
+      "skipped_1micro_too_big_pct": 100.0,
+      "at_cap_pct": 0.0,
+      "net_usd": 0.0
+     },
+     "opening_range": {
+      "trades": 193,
+      "taken": 8,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 2,
+      "skipped_1micro_too_big_pct": 95.85492227979275,
+      "at_cap_pct": 0.0,
+      "net_usd": 214.0
+     },
+     "expiry_fade": {
+      "trades": 10,
+      "taken": 0,
+      "contracts_median": 0.0,
+      "contracts_min": 0,
+      "contracts_max": 0,
+      "skipped_1micro_too_big_pct": 100.0,
+      "at_cap_pct": 0.0,
+      "net_usd": 0.0
+     }
+    }
+   }
+  },
+  "scaled_combined_100": {
+   "full": {
+    "years": 16.410677618069816,
+    "net_usd": 8226.0,
+    "net_per_year": 501.259009009009,
+    "max_dd": 1536.0,
+    "worst_day": -135.5,
+    "worst_day_date": "2026-04-13",
+    "worst_month": -610.0,
+    "worst_month_id": "2026-04",
+    "ret_pct": 82.26,
+    "ret_pct_per_year": 5.01259009009009,
+    "dd_pct": 15.36,
+    "dd_budgets": 15.36,
+    "net_per_budget": 82.26,
+    "skipped_1micro_pct": 70.38808166268163,
+    "open_cap_binds": 71,
+    "day_limit_binds": 0,
+    "days_2plus_trades": 1581,
+    "per_model": {
+     "overnight_break": {
+      "trades": 1731,
+      "taken": 338,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 2,
+      "skipped_1micro_too_big_pct": 76.83419988445985,
+      "at_cap_pct": 0.0,
+      "net_usd": 3278.5
+     },
+     "opening_range": {
+      "trades": 3509,
+      "taken": 1208,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 7,
+      "skipped_1micro_too_big_pct": 65.57423767455116,
+      "at_cap_pct": 0.0,
+      "net_usd": 4944.0
+     },
+     "expiry_fade": {
+      "trades": 197,
+      "taken": 1,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 1,
+      "skipped_1micro_too_big_pct": 99.49238578680203,
+      "at_cap_pct": 0.0,
+      "net_usd": 3.5
+     }
+    }
+   },
+   "2019_2026": {
+    "years": 7.841204654346338,
+    "net_usd": 8699.0,
+    "net_per_year": 1109.3958624301677,
+    "max_dd": 1536.0,
+    "worst_day": -135.5,
+    "worst_day_date": "2026-04-13",
+    "worst_month": -610.0,
+    "worst_month_id": "2026-04",
+    "ret_pct": 86.99,
+    "ret_pct_per_year": 11.093958624301676,
+    "dd_pct": 15.36,
+    "dd_budgets": 15.36,
+    "net_per_budget": 86.99,
+    "skipped_1micro_pct": 75.33532041728763,
+    "open_cap_binds": 30,
+    "day_limit_binds": 0,
+    "days_2plus_trades": 803,
+    "per_model": {
+     "overnight_break": {
+      "trades": 849,
+      "taken": 115,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 1,
+      "skipped_1micro_too_big_pct": 83.15665488810366,
+      "at_cap_pct": 0.0,
+      "net_usd": 2546.0
+     },
+     "opening_range": {
+      "trades": 1741,
+      "taken": 519,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 7,
+      "skipped_1micro_too_big_pct": 70.18954623779437,
+      "at_cap_pct": 0.0,
+      "net_usd": 6153.0
+     },
+     "expiry_fade": {
+      "trades": 94,
+      "taken": 0,
+      "contracts_median": 0.0,
+      "contracts_min": 0,
+      "contracts_max": 0,
+      "skipped_1micro_too_big_pct": 100.0,
+      "at_cap_pct": 0.0,
+      "net_usd": 0.0
+     }
+    }
+   },
+   "2010_2018": {
+    "years": 8.563997262149213,
+    "net_usd": -473.0,
+    "net_per_year": -55.231218030690535,
+    "max_dd": 1399.0,
+    "worst_day": -36.0,
+    "worst_day_date": "2017-09-28",
+    "worst_month": -282.0,
+    "worst_month_id": "2017-06",
+    "ret_pct": -4.73,
+    "ret_pct_per_year": -0.5523121803069054,
+    "dd_pct": 13.99,
+    "dd_budgets": 13.99,
+    "net_per_budget": -4.73,
+    "skipped_1micro_pct": 65.56483835815474,
+    "open_cap_binds": 41,
+    "day_limit_binds": 0,
+    "days_2plus_trades": 778,
+    "per_model": {
+     "overnight_break": {
+      "trades": 882,
+      "taken": 223,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 2,
+      "skipped_1micro_too_big_pct": 70.74829931972789,
+      "at_cap_pct": 0.0,
+      "net_usd": 732.5
+     },
+     "opening_range": {
+      "trades": 1768,
+      "taken": 689,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 3,
+      "skipped_1micro_too_big_pct": 61.029411764705884,
+      "at_cap_pct": 0.0,
+      "net_usd": -1209.0
+     },
+     "expiry_fade": {
+      "trades": 103,
+      "taken": 1,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 1,
+      "skipped_1micro_too_big_pct": 99.02912621359224,
+      "at_cap_pct": 0.0,
+      "net_usd": 3.5
+     }
+    }
+   },
+   "2026": {
+    "years": 0.840520191649555,
+    "net_usd": -169.5,
+    "net_per_year": -201.66083061889253,
+    "max_dd": 1459.0,
+    "worst_day": -135.5,
+    "worst_day_date": "2026-04-13",
+    "worst_month": -610.0,
+    "worst_month_id": "2026-04",
+    "ret_pct": -1.695,
+    "ret_pct_per_year": -2.016608306188925,
+    "dd_pct": 14.59,
+    "dd_budgets": 14.59,
+    "net_per_budget": -1.695,
+    "skipped_1micro_pct": 80.63380281690141,
+    "open_cap_binds": 1,
+    "day_limit_binds": 0,
+    "days_2plus_trades": 77,
+    "per_model": {
+     "overnight_break": {
+      "trades": 81,
+      "taken": 9,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 1,
+      "skipped_1micro_too_big_pct": 87.65432098765432,
+      "at_cap_pct": 0.0,
+      "net_usd": -26.0
+     },
+     "opening_range": {
+      "trades": 193,
+      "taken": 45,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 4,
+      "skipped_1micro_too_big_pct": 76.68393782383419,
+      "at_cap_pct": 0.0,
+      "net_usd": -143.5
+     },
+     "expiry_fade": {
+      "trades": 10,
+      "taken": 0,
+      "contracts_median": 0.0,
+      "contracts_min": 0,
+      "contracts_max": 0,
+      "skipped_1micro_too_big_pct": 100.0,
+      "at_cap_pct": 0.0,
+      "net_usd": 0.0
+     }
+    }
+   }
+  },
+  "scaled_combined_200": {
+   "full": {
+    "years": 16.410677618069816,
+    "net_usd": 34594.5,
+    "net_per_year": 2108.0482357357355,
+    "max_dd": 4934.0,
+    "worst_day": -430.0,
+    "worst_day_date": "2026-10-02",
+    "worst_month": -1603.5,
+    "worst_month_id": "2024-02",
+    "ret_pct": 172.9725,
+    "ret_pct_per_year": 10.540241178678679,
+    "dd_pct": 24.67,
+    "dd_budgets": 24.67,
+    "net_per_budget": 172.9725,
+    "skipped_1micro_pct": 22.953834835387163,
+    "open_cap_binds": 338,
+    "day_limit_binds": 6,
+    "days_2plus_trades": 1581,
+    "per_model": {
+     "overnight_break": {
+      "trades": 1731,
+      "taken": 1146,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 4,
+      "skipped_1micro_too_big_pct": 24.66782206816869,
+      "at_cap_pct": 0.0,
+      "net_usd": 16361.5
+     },
+     "opening_range": {
+      "trades": 3509,
+      "taken": 2884,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 10,
+      "skipped_1micro_too_big_pct": 17.811342262752923,
+      "at_cap_pct": 0.028498147620404674,
+      "net_usd": 18229.5
+     },
+     "expiry_fade": {
+      "trades": 197,
+      "taken": 1,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 1,
+      "skipped_1micro_too_big_pct": 99.49238578680203,
+      "at_cap_pct": 0.0,
+      "net_usd": 3.5
+     }
+    }
+   },
+   "2019_2026": {
+    "years": 7.841204654346338,
+    "net_usd": 32553.0,
+    "net_per_year": 4151.530464385475,
+    "max_dd": 4934.0,
+    "worst_day": -430.0,
+    "worst_day_date": "2026-10-02",
+    "worst_month": -1603.5,
+    "worst_month_id": "2024-02",
+    "ret_pct": 162.765,
+    "ret_pct_per_year": 20.757652321927374,
+    "dd_pct": 24.67,
+    "dd_budgets": 24.67,
+    "net_per_budget": 162.765,
+    "skipped_1micro_pct": 28.166915052160952,
+    "open_cap_binds": 155,
+    "day_limit_binds": 3,
+    "days_2plus_trades": 803,
+    "per_model": {
+     "overnight_break": {
+      "trades": 849,
+      "taken": 500,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 3,
+      "skipped_1micro_too_big_pct": 30.977620730270907,
+      "at_cap_pct": 0.0,
+      "net_usd": 14414.0
+     },
+     "opening_range": {
+      "trades": 1741,
+      "taken": 1342,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 10,
+      "skipped_1micro_too_big_pct": 22.917863296955773,
+      "at_cap_pct": 0.05743825387708214,
+      "net_usd": 18139.0
+     },
+     "expiry_fade": {
+      "trades": 94,
+      "taken": 0,
+      "contracts_median": 0.0,
+      "contracts_min": 0,
+      "contracts_max": 0,
+      "skipped_1micro_too_big_pct": 100.0,
+      "at_cap_pct": 0.0,
+      "net_usd": 0.0
+     }
+    }
+   },
+   "2010_2018": {
+    "years": 8.563997262149213,
+    "net_usd": 2041.5,
+    "net_per_year": 238.38167359335037,
+    "max_dd": 3965.5,
+    "worst_day": -93.5,
+    "worst_day_date": "2018-05-31",
+    "worst_month": -674.0,
+    "worst_month_id": "2017-03",
+    "ret_pct": 10.2075,
+    "ret_pct_per_year": 1.191908367966752,
+    "dd_pct": 19.8275,
+    "dd_budgets": 19.8275,
+    "net_per_budget": 10.2075,
+    "skipped_1micro_pct": 17.87141300399564,
+    "open_cap_binds": 183,
+    "day_limit_binds": 3,
+    "days_2plus_trades": 778,
+    "per_model": {
+     "overnight_break": {
+      "trades": 882,
+      "taken": 646,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 4,
+      "skipped_1micro_too_big_pct": 18.594104308390023,
+      "at_cap_pct": 0.0,
+      "net_usd": 1947.5
+     },
+     "opening_range": {
+      "trades": 1768,
+      "taken": 1542,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 6,
+      "skipped_1micro_too_big_pct": 12.782805429864252,
+      "at_cap_pct": 0.0,
+      "net_usd": 90.5
+     },
+     "expiry_fade": {
+      "trades": 103,
+      "taken": 1,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 1,
+      "skipped_1micro_too_big_pct": 99.02912621359224,
+      "at_cap_pct": 0.0,
+      "net_usd": 3.5
+     }
+    }
+   },
+   "2026": {
+    "years": 0.840520191649555,
+    "net_usd": 1570.0,
+    "net_per_year": 1867.8908794788274,
+    "max_dd": 3635.0,
+    "worst_day": -430.0,
+    "worst_day_date": "2026-10-02",
+    "worst_month": -1505.0,
+    "worst_month_id": "2026-10",
+    "ret_pct": 7.85,
+    "ret_pct_per_year": 9.339454397394137,
+    "dd_pct": 18.175,
+    "dd_budgets": 18.175,
+    "net_per_budget": 7.85,
+    "skipped_1micro_pct": 34.859154929577464,
+    "open_cap_binds": 10,
+    "day_limit_binds": 0,
+    "days_2plus_trades": 77,
+    "per_model": {
+     "overnight_break": {
+      "trades": 81,
+      "taken": 42,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 2,
+      "skipped_1micro_too_big_pct": 39.50617283950617,
+      "at_cap_pct": 0.0,
+      "net_usd": 2752.5
+     },
+     "opening_range": {
+      "trades": 193,
+      "taken": 136,
+      "contracts_median": 1.0,
+      "contracts_min": 1,
+      "contracts_max": 9,
+      "skipped_1micro_too_big_pct": 29.533678756476682,
+      "at_cap_pct": 0.0,
+      "net_usd": -1182.5
+     },
+     "expiry_fade": {
+      "trades": 10,
+      "taken": 0,
+      "contracts_median": 0.0,
+      "contracts_min": 0,
+      "contracts_max": 0,
+      "skipped_1micro_too_big_pct": 100.0,
+      "at_cap_pct": 0.0,
+      "net_usd": 0.0
+     }
+    }
+   }
+  }
+ },
+ "expiry_compare": {
+  "vol_50_full": {
+   "n": 197,
+   "contracts_median": 0.0,
+   "net": 138.0,
+   "worst": -17.0,
+   "worst_vs_budget": -0.34,
+   "sd": 5.885311163916075,
+   "mean_over_sd": 0.11902643627547493
+  },
+  "vol_50_2019_2026": {
+   "n": 94,
+   "contracts_median": 0.0,
+   "net": 0.0,
+   "worst": 0.0,
+   "worst_vs_budget": 0.0,
+   "sd": 0.0,
+   "mean_over_sd": NaN
+  },
+  "fixed1_50_full": {
+   "n": 197,
+   "contracts_median": 1.0,
+   "net": 8005.5,
+   "worst": -729.5,
+   "worst_vs_budget": -14.59,
+   "sd": 253.6691592297907,
+   "mean_over_sd": 0.1601970691311026
+  },
+  "fixed1_50_2019_2026": {
+   "n": 94,
+   "contracts_median": 1.0,
+   "net": 6509.0,
+   "worst": -729.5,
+   "worst_vs_budget": -14.59,
+   "sd": 358.5424327003308,
+   "mean_over_sd": 0.19312827307371574
+  },
+  "vol_100_full": {
+   "n": 197,
+   "contracts_median": 0.0,
+   "net": 830.0,
+   "worst": -81.5,
+   "worst_vs_budget": -0.815,
+   "sd": 27.828606783975705,
+   "mean_over_sd": 0.1513980919795523
+  },
+  "vol_100_2019_2026": {
+   "n": 94,
+   "contracts_median": 0.0,
+   "net": 0.0,
+   "worst": 0.0,
+   "worst_vs_budget": 0.0,
+   "sd": 0.0,
+   "mean_over_sd": NaN
+  },
+  "fixed1_100_full": {
+   "n": 197,
+   "contracts_median": 1.0,
+   "net": 8005.5,
+   "worst": -729.5,
+   "worst_vs_budget": -7.295,
+   "sd": 253.6691592297907,
+   "mean_over_sd": 0.1601970691311026
+  },
+  "fixed1_100_2019_2026": {
+   "n": 94,
+   "contracts_median": 1.0,
+   "net": 6509.0,
+   "worst": -729.5,
+   "worst_vs_budget": -7.295,
+   "sd": 358.5424327003308,
+   "mean_over_sd": 0.19312827307371574
+  },
+  "vol_200_full": {
+   "n": 197,
+   "contracts_median": 1.0,
+   "net": 2028.5,
+   "worst": -244.5,
+   "worst_vs_budget": -1.2225,
+   "sd": 73.70324108055571,
+   "mean_over_sd": 0.13970829727103196
+  },
+  "vol_200_2019_2026": {
+   "n": 94,
+   "contracts_median": 0.0,
+   "net": 370.0,
+   "worst": -76.5,
+   "worst_vs_budget": -0.3825,
+   "sd": 32.85658262409766,
+   "mean_over_sd": 0.11979852736964473
+  },
+  "fixed1_200_full": {
+   "n": 197,
+   "contracts_median": 1.0,
+   "net": 8005.5,
+   "worst": -729.5,
+   "worst_vs_budget": -3.6475,
+   "sd": 253.6691592297907,
+   "mean_over_sd": 0.1601970691311026
+  },
+  "fixed1_200_2019_2026": {
+   "n": 94,
+   "contracts_median": 1.0,
+   "net": 6509.0,
+   "worst": -729.5,
+   "worst_vs_budget": -3.6475,
+   "sd": 358.5424327003308,
+   "mean_over_sd": 0.19312827307371574
+  }
+ }
+}

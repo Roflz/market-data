@@ -1,0 +1,53 @@
+  want = d.dayofweek == 1
+  want = d.dayofweek == 1
+  want = d.dayofweek == 1
+  want = d.dayofweek == 1
+  want = d.dayofweek == 1
+  want = d.dayofweek == 1
+  want = d.dayofweek == 1
+  want = d.dayofweek == 1
+  want = d.dayofweek == 1
+  want = d.dayofweek == 1
+  want = d.dayofweek == 1
+  want = d.dayofweek == 1
+  want = d.dayofweek == 1
+  want = d.dayofweek == 1
+  want = d.dayofweek == 1
+  want = d.dayofweek == 1
+  want = d.dayofweek == 1
+  want = d.dayofweek == 1
+  want = d.dayofweek == 1
+  want = d.dayofweek == 1
+  want = d.dayofweek == 1
+  want = d.dayofweek == 1
+  want = d.dayofweek == 1
+  want = d.dayofweek == 1
+  want = d.dayofweek == 1
+  want = d.dayofweek == 1
+ES 2012-09-03 Mon TOM from truncated data: False | expected: False | ok True
+ES 2014-09-01 Mon TOM from truncated data: False | expected: False | ok True
+ES 2018-09-03 Mon TOM from truncated data: False | expected: False | ok True
+ES 2019-09-02 Mon TOM from truncated data: False | expected: False | ok True
+ES 2024-09-02 Mon TOM from truncated data: False | expected: False | ok True
+ES 2012-09-04 Tue TOM from truncated data: True | expected: True | ok True
+ES 2014-09-02 Tue TOM from truncated data: True | expected: True | ok True
+ES 2018-09-04 Tue TOM from truncated data: True | expected: True | ok True
+ES 2019-09-03 Tue TOM from truncated data: True | expected: True | ok True
+ES 2024-09-03 Tue TOM from truncated data: True | expected: True | ok True
+NQ 2012-09-03 Mon TOM from truncated data: False | expected: False | ok True
+NQ 2014-09-01 Mon TOM from truncated data: False | expected: False | ok True
+NQ 2018-09-03 Mon TOM from truncated data: False | expected: False | ok True
+NQ 2019-09-02 Mon TOM from truncated data: False | expected: False | ok True
+NQ 2024-09-02 Mon TOM from truncated data: False | expected: False | ok True
+NQ 2012-09-04 Tue TOM from truncated data: True | expected: True | ok True
+NQ 2014-09-02 Tue TOM from truncated data: True | expected: True | ok True
+NQ 2018-09-04 Tue TOM from truncated data: True | expected: True | ok True
+NQ 2019-09-03 Tue TOM from truncated data: True | expected: True | ok True
+NQ 2024-09-03 Tue TOM from truncated data: True | expected: True | ok True
+YM 2018-09-03 Mon TOM from truncated data: False | expected: False | ok True
+YM 2019-09-02 Mon TOM from truncated data: False | expected: False | ok True
+YM 2024-09-02 Mon TOM from truncated data: False | expected: False | ok True
+YM 2018-09-04 Tue TOM from truncated data: True | expected: True | ok True
+YM 2019-09-03 Tue TOM from truncated data: True | expected: True | ok True
+YM 2024-09-03 Tue TOM from truncated data: True | expected: True | ok True
+ALL TARGETED TOM CUTS PASSED

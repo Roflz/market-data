@@ -1,0 +1,1 @@
+sc:ml_logit_l2: AUC 0.620  kept 24,925 (9.1%)  -0.77 $/trade  all -2.22  random -1.91  (599s)

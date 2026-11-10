@@ -1,0 +1,57 @@
+sym,entry,year,chosen,net,trades
+MES,Overnight break + daily trend,2013,target_3 / stop 3,-298.25,122.0
+MES,Overnight break + daily trend,2014,ema60 / stop 6,-372.5,105.0
+MES,Overnight break + daily trend,2015,target_1.5 / stop 6,-1111.75,113.0
+MES,Overnight break + daily trend,2016,target_2 / stop 6,-409.0,99.0
+MES,Overnight break + daily trend,2017,target_2 / stop 6,-372.0,102.0
+MES,Overnight break + daily trend,2018,target_2 / stop 6,-26.5,114.0
+MES,Overnight break + daily trend,2019,trail_6 / stop 6,-318.0,98.0
+MES,Overnight break + daily trend,2020,ema60 / stop 6,-34.5,102.0
+MES,Overnight break + daily trend,2021,trail_6 / stop 6,196.75,117.0
+MES,Overnight break + daily trend,2022,target_1.5 / stop 4,-25.0,115.0
+MES,Overnight break + daily trend,2023,trail_6 / stop 6,555.0,110.0
+MES,Overnight break + daily trend,2024,trail_6 / stop 6,-886.25,125.0
+MES,Overnight break + daily trend,2025,trail_6 / stop 6,-915.25,119.0
+MES,Overnight break + daily trend,2026,trail_6 / stop 6,1684.0,101.0
+MES,RANDOM (avg 3 seeds),2013,ema60 / stop 6,-310.3333333333333,208.66666666666666
+MES,RANDOM (avg 3 seeds),2014,hold / stop 6,-133.66666666666666,177.0
+MES,RANDOM (avg 3 seeds),2015,hold / stop 6,-63.833333333333336,193.0
+MES,RANDOM (avg 3 seeds),2016,hold / stop 6,-738.0,198.0
+MES,RANDOM (avg 3 seeds),2017,hold / stop 6,-417.5833333333333,186.33333333333334
+MES,RANDOM (avg 3 seeds),2018,hold / stop 6,-1320.9166666666667,189.66666666666666
+MES,RANDOM (avg 3 seeds),2019,hold / stop 6,-505.0833333333333,194.66666666666666
+MES,RANDOM (avg 3 seeds),2020,hold / stop 6,-1277.5,185.0
+MES,RANDOM (avg 3 seeds),2021,target_1.5 / stop 4,-1318.25,225.33333333333334
+MES,RANDOM (avg 3 seeds),2022,hold / stop 6,384.0833333333333,198.0
+MES,RANDOM (avg 3 seeds),2023,ema60 / stop 6,-1471.0833333333333,210.66666666666666
+MES,RANDOM (avg 3 seeds),2024,ema60 / stop 6,-436.3333333333333,206.33333333333334
+MES,RANDOM (avg 3 seeds),2025,ema60 / stop 3,-898.25,218.66666666666666
+MES,RANDOM (avg 3 seeds),2026,ema60 / stop 4,-992.25,177.66666666666666
+MNQ,Overnight break + daily trend,2013,trail_6 / stop 4,-137.5,119.0
+MNQ,Overnight break + daily trend,2014,target_1.5 / stop 4,99.5,118.0
+MNQ,Overnight break + daily trend,2015,trail_6 / stop 6,-399.0,121.0
+MNQ,Overnight break + daily trend,2016,target_2 / stop 3,-442.5,108.0
+MNQ,Overnight break + daily trend,2017,trail_6 / stop 4,-366.5,122.0
+MNQ,Overnight break + daily trend,2018,trail_4 / stop 2,2603.5,125.0
+MNQ,Overnight break + daily trend,2019,trail_4 / stop 2,545.5,103.0
+MNQ,Overnight break + daily trend,2020,trail_4 / stop 2,1531.0,116.0
+MNQ,Overnight break + daily trend,2021,ema60 / stop 2,3250.0,121.0
+MNQ,Overnight break + daily trend,2022,ema60 / stop 2,3420.5,119.0
+MNQ,Overnight break + daily trend,2023,ema60 / stop 2,1900.0,125.0
+MNQ,Overnight break + daily trend,2024,ema60 / stop 2,2600.0,130.0
+MNQ,Overnight break + daily trend,2025,hold / stop 2,1987.5,120.0
+MNQ,Overnight break + daily trend,2026,hold / stop 2,2495.0,90.0
+MNQ,RANDOM (avg 3 seeds),2013,ema60 / stop 6,-406.8333333333333,213.66666666666666
+MNQ,RANDOM (avg 3 seeds),2014,ema60 / stop 6,-442.6666666666667,189.66666666666666
+MNQ,RANDOM (avg 3 seeds),2015,ema60 / stop 6,59.833333333333336,203.33333333333334
+MNQ,RANDOM (avg 3 seeds),2016,ema60 / stop 6,-587.0,204.33333333333334
+MNQ,RANDOM (avg 3 seeds),2017,ema60 / stop 4,115.5,201.0
+MNQ,RANDOM (avg 3 seeds),2018,ema60 / stop 4,-603.3333333333334,211.0
+MNQ,RANDOM (avg 3 seeds),2019,ema60 / stop 3,-107.83333333333333,213.66666666666666
+MNQ,RANDOM (avg 3 seeds),2020,ema60 / stop 3,75.0,209.0
+MNQ,RANDOM (avg 3 seeds),2021,hold / stop 2,936.8333333333334,226.33333333333334
+MNQ,RANDOM (avg 3 seeds),2022,ema60 / stop 6,-3689.8333333333335,210.66666666666666
+MNQ,RANDOM (avg 3 seeds),2023,hold / stop 2,-651.3333333333334,221.33333333333334
+MNQ,RANDOM (avg 3 seeds),2024,hold / stop 2,2852.0,220.66666666666666
+MNQ,RANDOM (avg 3 seeds),2025,hold / stop 2,-136.33333333333334,217.33333333333334
+MNQ,RANDOM (avg 3 seeds),2026,hold / stop 2,-1221.6666666666667,186.66666666666666

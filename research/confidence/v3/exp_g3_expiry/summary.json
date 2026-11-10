@@ -1,0 +1,636 @@
+{
+ "A3": {
+  "label": "SIGNIFICANT (PROVISIONAL: Holm uses a P0 rebuilt from the other groups' current files; final in the synthesis step)",
+  "holm_note": "A3 p_d 0.0108: Holm at 0.03 over K=6 needs p_d <= 0.005 if it is the smallest p, at best <= 0.03 if it is the largest and all others are rejected; PROVISIONAL Holm with P0 rebuilt here from the other groups' current files: A3 Holm-adjusted p 0.0216 -> reject (p_d: A1 0.0002, A2 0.0070, A3 0.0108, A4 0.0012, A5 0.0708, P0 0.0002)",
+  "holm_provisional": {
+   "weights": {
+    "A1": 0.1261,
+    "A2": 0.1393,
+    "A3": 0.1665,
+    "A4": 0.5404,
+    "A5": 0.0277
+   },
+   "p_d": {
+    "A1": 0.0001999600079984003,
+    "A2": 0.006998600279944011,
+    "A3": 0.010797840431913617,
+    "A4": 0.0011997600479904018,
+    "A5": 0.07078584283143372,
+    "P0": 0.0001999600079984003
+   },
+   "holm_adj": {
+    "A1": 0.0012,
+    "A2": 0.021,
+    "A3": 0.0216,
+    "A4": 0.0048,
+    "A5": 0.0708,
+    "P0": 0.0012
+   },
+   "A3_reject": true
+  },
+  "tierA_fails": [],
+  "gate_fails": [],
+  "eval_math_targets": {
+   "daily_sharpe": 0.03340433157567034,
+   "share_sessions_with_trade": 0.04669762641898865,
+   "win_rate": 0.5575221238938053,
+   "usd_per_trade_by_market": {
+    "ES": 16.25828729281768,
+    "NQ": 44.74033149171271,
+    "YM": 9.633333333333333
+   },
+   "share_profit_kept_wo_10_best": 0.06903067330100145
+  },
+  "per_market_eval_40pct": {
+   "ES": [
+    {
+     "policy": "1 micro",
+     "window": "2013+",
+     "pass_pct": 67.61,
+     "within_10": 0.0,
+     "bust_pct": 0.0,
+     "luck_within_10": 7.87,
+     "luck_pass_pct": 20.57
+    },
+    {
+     "policy": "1 micro",
+     "window": "2018+",
+     "pass_pct": 46.25,
+     "within_10": 0.0,
+     "bust_pct": 0.0,
+     "luck_within_10": 9.41,
+     "luck_pass_pct": 23.21
+    },
+    {
+     "policy": "1 micro",
+     "window": "2022+",
+     "pass_pct": 0.0,
+     "within_10": 0.0,
+     "bust_pct": 0.0,
+     "luck_within_10": 8.98,
+     "luck_pass_pct": 27.89
+    },
+    {
+     "policy": "3 micros",
+     "window": "2013+",
+     "pass_pct": 78.7,
+     "within_10": 0.0,
+     "bust_pct": 6.38,
+     "luck_within_10": 7.87,
+     "luck_pass_pct": 20.57
+    },
+    {
+     "policy": "3 micros",
+     "window": "2018+",
+     "pass_pct": 68.53,
+     "within_10": 0.0,
+     "bust_pct": 6.72,
+     "luck_within_10": 9.41,
+     "luck_pass_pct": 23.21
+    },
+    {
+     "policy": "3 micros",
+     "window": "2022+",
+     "pass_pct": 32.41,
+     "within_10": 0.0,
+     "bust_pct": 14.43,
+     "luck_within_10": 8.98,
+     "luck_pass_pct": 27.89
+    },
+    {
+     "policy": "5 micros",
+     "window": "2013+",
+     "pass_pct": 46.62,
+     "within_10": 0.0,
+     "bust_pct": 39.86,
+     "luck_within_10": 7.87,
+     "luck_pass_pct": 20.57
+    },
+    {
+     "policy": "5 micros",
+     "window": "2018+",
+     "pass_pct": 71.21,
+     "within_10": 0.0,
+     "bust_pct": 6.36,
+     "luck_within_10": 9.41,
+     "luck_pass_pct": 23.21
+    },
+    {
+     "policy": "5 micros",
+     "window": "2022+",
+     "pass_pct": 51.83,
+     "within_10": 0.0,
+     "bust_pct": 0.0,
+     "luck_within_10": 8.98,
+     "luck_pass_pct": 27.89
+    }
+   ],
+   "NQ": [
+    {
+     "policy": "1 micro",
+     "window": "2013+",
+     "pass_pct": 87.11,
+     "within_10": 0.0,
+     "bust_pct": 0.0,
+     "luck_within_10": 10.17,
+     "luck_pass_pct": 27.78
+    },
+    {
+     "policy": "1 micro",
+     "window": "2018+",
+     "pass_pct": 78.6,
+     "within_10": 0.0,
+     "bust_pct": 0.0,
+     "luck_within_10": 10.78,
+     "luck_pass_pct": 35.62
+    },
+    {
+     "policy": "1 micro",
+     "window": "2022+",
+     "pass_pct": 54.05,
+     "within_10": 0.0,
+     "bust_pct": 0.0,
+     "luck_within_10": 10.11,
+     "luck_pass_pct": 39.71
+    },
+    {
+     "policy": "3 micros",
+     "window": "2013+",
+     "pass_pct": 88.41,
+     "within_10": 0.0,
+     "bust_pct": 2.02,
+     "luck_within_10": 10.17,
+     "luck_pass_pct": 27.78
+    },
+    {
+     "policy": "3 micros",
+     "window": "2018+",
+     "pass_pct": 80.78,
+     "within_10": 0.0,
+     "bust_pct": 3.36,
+     "luck_within_10": 10.78,
+     "luck_pass_pct": 35.62
+    },
+    {
+     "policy": "3 micros",
+     "window": "2022+",
+     "pass_pct": 58.71,
+     "within_10": 0.0,
+     "bust_pct": 7.21,
+     "luck_within_10": 10.11,
+     "luck_pass_pct": 39.71
+    },
+    {
+     "policy": "5 micros",
+     "window": "2013+",
+     "pass_pct": 71.1,
+     "within_10": 0.0,
+     "bust_pct": 19.34,
+     "luck_within_10": 10.17,
+     "luck_pass_pct": 27.78
+    },
+    {
+     "policy": "5 micros",
+     "window": "2018+",
+     "pass_pct": 77.67,
+     "within_10": 0.0,
+     "bust_pct": 6.46,
+     "luck_within_10": 10.78,
+     "luck_pass_pct": 35.62
+    },
+    {
+     "policy": "5 micros",
+     "window": "2022+",
+     "pass_pct": 57.05,
+     "within_10": 0.0,
+     "bust_pct": 8.88,
+     "luck_within_10": 10.11,
+     "luck_pass_pct": 39.71
+    }
+   ],
+   "YM": [
+    {
+     "policy": "1 micro",
+     "window": "2013+",
+     "pass_pct": 58.36,
+     "within_10": 0.0,
+     "bust_pct": 0.0,
+     "luck_within_10": 11.43,
+     "luck_pass_pct": 25.14
+    },
+    {
+     "policy": "1 micro",
+     "window": "2018+",
+     "pass_pct": 30.9,
+     "within_10": 0.0,
+     "bust_pct": 0.0,
+     "luck_within_10": 11.43,
+     "luck_pass_pct": 25.14
+    },
+    {
+     "policy": "1 micro",
+     "window": "2022+",
+     "pass_pct": 0.0,
+     "within_10": 0.0,
+     "bust_pct": 0.0,
+     "luck_within_10": 11.97,
+     "luck_pass_pct": 24.94
+    },
+    {
+     "policy": "3 micros",
+     "window": "2013+",
+     "pass_pct": 69.64,
+     "within_10": 0.0,
+     "bust_pct": 23.45,
+     "luck_within_10": 11.43,
+     "luck_pass_pct": 25.14
+    },
+    {
+     "policy": "3 micros",
+     "window": "2018+",
+     "pass_pct": 49.61,
+     "within_10": 0.0,
+     "bust_pct": 38.91,
+     "luck_within_10": 11.43,
+     "luck_pass_pct": 25.14
+    },
+    {
+     "policy": "3 micros",
+     "window": "2022+",
+     "pass_pct": 2.22,
+     "within_10": 0.0,
+     "bust_pct": 73.14,
+     "luck_within_10": 11.97,
+     "luck_pass_pct": 24.94
+    },
+    {
+     "policy": "5 micros",
+     "window": "2013+",
+     "pass_pct": 24.1,
+     "within_10": 0.0,
+     "bust_pct": 72.35,
+     "luck_within_10": 11.43,
+     "luck_pass_pct": 25.14
+    },
+    {
+     "policy": "5 micros",
+     "window": "2018+",
+     "pass_pct": 40.0,
+     "within_10": 0.0,
+     "bust_pct": 54.11,
+     "luck_within_10": 11.43,
+     "luck_pass_pct": 25.14
+    },
+    {
+     "policy": "5 micros",
+     "window": "2022+",
+     "pass_pct": 9.43,
+     "within_10": 0.0,
+     "bust_pct": 82.91,
+     "luck_within_10": 11.97,
+     "luck_pass_pct": 24.94
+    }
+   ]
+  },
+  "neighbours": {
+   "A3-N0945": {
+    "usd_per_trade": 15.801438053097344,
+    "d_per_trade": 21.228011383828406,
+    "p_d": 0.03679264147170566,
+    "t_d": 1.8802131347292985,
+    "same_sign": true
+   },
+   "A3-N1500": {
+    "usd_per_trade": 21.01050884955752,
+    "d_per_trade": 26.920046313390113,
+    "p_d": 0.014997000599880024,
+    "t_d": 2.2517572109562716,
+    "same_sign": true
+   },
+   "A3-ES": {
+    "usd_per_trade": 16.25828729281768,
+    "d_per_trade": 22.09826516984302,
+    "p_d": 0.015196960607878424,
+    "t_d": 2.278218683348981,
+    "same_sign": true
+   },
+   "A3-NQ": {
+    "usd_per_trade": 44.74033149171271,
+    "d_per_trade": 50.07817091026332,
+    "p_d": 0.003199360127974405,
+    "t_d": 2.997502280712397,
+    "same_sign": true
+   },
+   "A3-YM": {
+    "usd_per_trade": 9.633333333333333,
+    "d_per_trade": 13.38714810290443,
+    "p_d": 0.16196760647870426,
+    "t_d": 1.0061553613903198,
+    "same_sign": true
+   }
+  },
+  "c3_non_expiry_fridays": {
+   "usd_per_trade": -13.474096796182685,
+   "p_net": 0.9782043591281744,
+   "t_net": -1.7804864856925597
+  }
+ },
+ "tierB": {
+  "S3.1": {
+   "stepm_p": 0.04979004199160168,
+   "stepm_t": 2.5042274883442466,
+   "tierb_fails": [
+    "StepM p 0.0498 > 0.004",
+    "NW t 2.46 < 3",
+    "DSR 0.57 < 0.95"
+   ],
+   "gate_fails": [],
+   "label": "PROMISING (forward paper test only)"
+  },
+  "S3.2": {
+   "stepm_p": 0.47170565886822635,
+   "stepm_t": 0.0892405413316183,
+   "tierb_fails": [
+    "StepM p 0.4717 > 0.004",
+    "NW t 0.09 < 3",
+    "DSR 0.02 < 0.95"
+   ],
+   "gate_fails": [
+    "2 U2 net>0 both halves; U1 net>0 2018-25H1 and 2022+",
+    "4 U1 net>0 w/o 10 best days",
+    "6 C1 rank p<=0.05",
+    "8 net beats plain drift and hour drift"
+   ],
+   "label": "NOT SIGNIFICANT"
+  },
+  "S3.3": {
+   "stepm_p": 0.13597280543891221,
+   "stepm_t": 1.9925210843688863,
+   "tierb_fails": [
+    "StepM p 0.1360 > 0.004",
+    "NW t 1.94 < 3",
+    "DSR 0.37 < 0.95"
+   ],
+   "gate_fails": [
+    "4 U1 net>0 w/o 10 best days"
+   ],
+   "label": "NOT SIGNIFICANT"
+  },
+  "S3.4": {
+   "stepm_p": 0.1869626074785043,
+   "stepm_t": 1.794807438704548,
+   "tierb_fails": [
+    "StepM p 0.1870 > 0.004",
+    "NW t 1.81 < 3",
+    "DSR 0.32 < 0.95"
+   ],
+   "gate_fails": [
+    "4 U1 net>0 w/o 10 best days"
+   ],
+   "label": "NOT SIGNIFICANT"
+  },
+  "S3.5": {
+   "stepm_p": 0.1923615276944611,
+   "stepm_t": 1.672796407186085,
+   "tierb_fails": [
+    "StepM p 0.1924 > 0.004",
+    "NW t 1.68 < 3",
+    "DSR 0.28 < 0.95"
+   ],
+   "gate_fails": [
+    "2 U2 net>0 both halves; U1 net>0 2018-25H1 and 2022+",
+    "4 U1 net>0 w/o 10 best days"
+   ],
+   "label": "NOT SIGNIFICANT"
+  },
+  "S3.6-ES": {
+   "stepm_p": 0.08258348330333934,
+   "stepm_t": 2.246659415621809,
+   "tierb_fails": [
+    "StepM p 0.0826 > 0.004",
+    "NW t 2.25 < 3",
+    "DSR 0.50 < 0.95"
+   ],
+   "gate_fails": [
+    "2 U2 net>0 both halves; U1 net>0 2018-25H1 and 2022+",
+    "3 >=60% of (2-year blocks if event) U2 positive",
+    "4 U1 net>0 w/o 10 best days"
+   ],
+   "label": "NOT SIGNIFICANT"
+  },
+  "S3.6-NQ": {
+   "stepm_p": 0.27494501099780044,
+   "stepm_t": 1.0494488585487836,
+   "tierb_fails": [
+    "StepM p 0.2749 > 0.004",
+    "NW t 1.06 < 3",
+    "DSR 0.10 < 0.95"
+   ],
+   "gate_fails": [
+    "2 U2 net>0 both halves; U1 net>0 2018-25H1 and 2022+",
+    "4 U1 net>0 w/o 10 best days",
+    "6 C1 rank p<=0.05"
+   ],
+   "label": "NOT SIGNIFICANT"
+  },
+  "S3.6-YM": {
+   "stepm_p": 0.1923615276944611,
+   "stepm_t": 1.4871007815341404,
+   "tierb_fails": [
+    "StepM p 0.1924 > 0.004",
+    "NW t 1.50 < 3",
+    "DSR 0.20 < 0.95"
+   ],
+   "gate_fails": [
+    "1 d>0 in 2010-17 and 2018-25H1",
+    "2 U2 net>0 both halves; U1 net>0 2018-25H1 and 2022+",
+    "3 >=60% of (2-year blocks if event) U2 positive",
+    "4 U1 net>0 w/o 10 best days",
+    "6 C1 rank p<=0.05"
+   ],
+   "label": "NOT SIGNIFICANT"
+  },
+  "S3.7": {
+   "stepm_p": 0.1923615276944611,
+   "stepm_t": 1.6286285934849745,
+   "tierb_fails": [
+    "StepM p 0.1924 > 0.004",
+    "NW t 1.65 < 3",
+    "DSR 0.28 < 0.95"
+   ],
+   "gate_fails": [
+    "2 U2 net>0 both halves; U1 net>0 2018-25H1 and 2022+",
+    "4 U1 net>0 w/o 10 best days",
+    "6 C1 rank p<=0.05",
+    "8 net beats plain drift and hour drift"
+   ],
+   "label": "NOT SIGNIFICANT"
+  }
+ },
+ "stepm_with_neighbours": {
+  "S3.1": 0.05558888222355529,
+  "S3.2": 0.47170565886822635,
+  "S3.3": 0.14557088582283542,
+  "S3.4": 0.19616076784643072,
+  "S3.5": 0.21115776844631073,
+  "S3.6-ES": 0.08898220355928814,
+  "S3.6-NQ": 0.34973005398920215,
+  "S3.6-YM": 0.21115776844631073,
+  "S3.7": 0.21115776844631073,
+  "A3-N0945": 0.16256748650269945,
+  "A3-N1500": 0.08218356328734253,
+  "A3-ES": 0.07958408318336332,
+  "A3-NQ": 0.015396920615876825,
+  "A3-YM": 0.34973005398920215
+ },
+ "neff_g3_secondaries": [
+  7.031907212784541,
+  6.0
+ ],
+ "by_year_A3": {
+  "2010": {
+   "net_U1": 170.0,
+   "net_U2": 1438.57,
+   "d": 248.41,
+   "net_ES": 130.5,
+   "net_NQ": 39.5,
+   "net_YM": 0.0,
+   "n_trades": 14
+  },
+  "2011": {
+   "net_U1": 309.75,
+   "net_U2": 2732.82,
+   "d": 364.94,
+   "net_ES": 106.75,
+   "net_NQ": 203.0,
+   "net_YM": 0.0,
+   "n_trades": 24
+  },
+  "2012": {
+   "net_U1": 379.5,
+   "net_U2": 2683.34,
+   "d": 480.09,
+   "net_ES": 145.5,
+   "net_NQ": 234.0,
+   "net_YM": 0.0,
+   "n_trades": 24
+  },
+  "2013": {
+   "net_U1": -272.5,
+   "net_U2": -1069.09,
+   "d": -99.19,
+   "net_ES": -149.5,
+   "net_NQ": -123.0,
+   "net_YM": 0.0,
+   "n_trades": 24
+  },
+  "2014": {
+   "net_U1": 160.5,
+   "net_U2": 880.89,
+   "d": 275.63,
+   "net_ES": 70.5,
+   "net_NQ": 90.0,
+   "net_YM": 0.0,
+   "n_trades": 24
+  },
+  "2015": {
+   "net_U1": 379.25,
+   "net_U2": 1650.47,
+   "d": 405.94,
+   "net_ES": 149.25,
+   "net_NQ": 230.0,
+   "net_YM": 0.0,
+   "n_trades": 24
+  },
+  "2016": {
+   "net_U1": -49.5,
+   "net_U2": -25.8,
+   "d": 100.52,
+   "net_ES": -79.5,
+   "net_NQ": 30.0,
+   "net_YM": 0.0,
+   "n_trades": 24
+  },
+  "2017": {
+   "net_U1": -232.5,
+   "net_U2": -495.52,
+   "d": -101.27,
+   "net_ES": -157.0,
+   "net_NQ": -75.5,
+   "net_YM": 0.0,
+   "n_trades": 24
+  },
+  "2018": {
+   "net_U1": 1138.75,
+   "net_U2": 3491.7,
+   "d": 867.93,
+   "net_ES": 246.75,
+   "net_NQ": 869.5,
+   "net_YM": 22.5,
+   "n_trades": 36
+  },
+  "2019": {
+   "net_U1": 104.25,
+   "net_U2": 489.33,
+   "d": 464.49,
+   "net_ES": -125.75,
+   "net_NQ": 376.5,
+   "net_YM": -146.5,
+   "n_trades": 36
+  },
+  "2020": {
+   "net_U1": 4038.75,
+   "net_U2": 8552.54,
+   "d": 4186.42,
+   "net_ES": 1186.75,
+   "net_NQ": 1908.5,
+   "net_YM": 943.5,
+   "n_trades": 36
+  },
+  "2021": {
+   "net_U1": 1948.25,
+   "net_U2": 2751.89,
+   "d": 2272.96,
+   "net_ES": 646.75,
+   "net_NQ": 786.5,
+   "net_YM": 515.0,
+   "n_trades": 36
+  },
+  "2022": {
+   "net_U1": 1081.25,
+   "net_U2": 1209.77,
+   "d": 1019.83,
+   "net_ES": 299.25,
+   "net_NQ": 942.0,
+   "net_YM": -160.0,
+   "n_trades": 36
+  },
+  "2023": {
+   "net_U1": 1328.75,
+   "net_U2": 1557.05,
+   "d": 2009.52,
+   "net_ES": 381.75,
+   "net_NQ": 790.0,
+   "net_YM": 157.0,
+   "n_trades": 36
+  },
+  "2024": {
+   "net_U1": -34.0,
+   "net_U2": 70.42,
+   "d": -84.7,
+   "net_ES": -237.0,
+   "net_NQ": 658.5,
+   "net_YM": -455.5,
+   "n_trades": 36
+  },
+  "2025": {
+   "net_U1": 1457.25,
+   "net_U2": 1321.68,
+   "d": 1806.24,
+   "net_ES": 327.75,
+   "net_NQ": 1138.5,
+   "net_YM": -9.0,
+   "n_trades": 18
+  }
+ }
+}

@@ -1,0 +1,82 @@
+
+################ MNQ: 1884 trades ################
+Sanity: median 20-day vol by year (annualized %): 2011: 17, 2012: 15, 2013: 12, 2014: 12, 2015: 14, 2016: 14, 2017: 9, 2018: 17, 2019: 15, 2020: 24, 2021: 16, 2022: 30, 2023: 15, 2024: 14, 2025: 17, 2026: 19
+
+-- 20-day realized vol (regime): Spearman rho with R = +0.261 (p 0.000); average within-year rho +0.166; top vs bottom fifth t = +1.16
+   trades      lo      hi  avg_R     win     usd  avg_R within-year
+q                                                                  
+1     377   6.589  11.597  0.065  28.647   967.0              0.163
+2     377  11.602  13.731  0.081  31.830  1342.5              0.118
+3     376  13.740  16.278  0.312  34.840  8929.0              0.274
+4     377  16.280  22.324  0.015  28.117  2241.0              0.102
+5     377  22.330  82.269  0.258  32.891  6029.0              0.074
+   2011-17 by tercile (avg R, n): low: -0.132 (279), mid: -0.082 (278), high: -0.003 (278)
+   2018-26 by tercile (avg R, n): low: +0.434 (350), mid: +0.167 (349), high: +0.360 (350)
+
+-- yesterday's realized vol: Spearman rho with R = +0.271 (p 0.000); average within-year rho +0.243; top vs bottom fifth t = +1.47
+   trades      lo       hi  avg_R     win     usd  avg_R within-year
+q                                                                   
+1     377   2.863   10.344 -0.035  28.912   917.5              0.089
+2     377  10.358   13.071  0.120  31.300  2578.0              0.073
+3     376  13.074   16.412  0.222  33.245  3638.0              0.320
+4     377  16.420   21.919  0.228  31.034  7469.5              0.099
+5     377  21.921  125.171  0.197  31.830  4905.5              0.151
+
+-- yesterday vs 20-day norm: Spearman rho with R = +0.075 (p 0.001); average within-year rho +0.152; top vs bottom fifth t = +0.73
+   trades     lo     hi  avg_R     win     usd  avg_R within-year
+q                                                                
+1     377  0.234  0.735  0.159  32.626  4480.0              0.150
+2     377  0.736  0.885  0.063  29.708  4726.0              0.054
+3     376  0.886  1.039  0.110  30.319   931.5              0.158
+4     377  1.040  1.228  0.115  31.300  2493.0              0.149
+5     377  1.228  3.918  0.284  32.361  6878.0              0.220
+
+-- overnight range vs 20-day norm: Spearman rho with R = +0.094 (p 0.000); average within-year rho +0.164; top vs bottom fifth t = -0.51
+   trades     lo     hi  avg_R     win     usd  avg_R within-year
+q                                                                
+1     377  0.273  0.596  0.068  28.382  2532.5              0.052
+2     377  0.596  0.776  0.189  30.769  4346.5              0.145
+3     376  0.776  0.977  0.124  32.181  4818.5              0.222
+4     377  0.977  1.307  0.361  33.422  6688.5              0.247
+5     377  1.307  5.696 -0.011  31.565  1122.5              0.067
+
+################ MES: 1750 trades ################
+Sanity: median 20-day vol by year (annualized %): 2011: 17, 2012: 13, 2013: 11, 2014: 11, 2015: 11, 2016: 11, 2017: 7, 2018: 11, 2019: 11, 2020: 19, 2021: 11, 2022: 23, 2023: 11, 2024: 10, 2025: 13, 2026: 11
+
+-- 20-day realized vol (regime): Spearman rho with R = +0.226 (p 0.000); average within-year rho +0.167; top vs bottom fifth t = +1.43
+   trades      lo      hi  avg_R     win      usd  avg_R within-year
+q                                                                   
+1     350   4.706   9.092 -0.177  28.286  -783.75             -0.109
+2     350   9.100  10.839 -0.129  29.714 -1341.25             -0.060
+3     350  10.843  12.960  0.046  31.143  1272.50             -0.053
+4     350  12.964  17.295  0.067  33.143  -156.25              0.009
+5     350  17.347  80.562  0.045  31.429  1205.00              0.067
+   2011-17 by tercile (avg R, n): low: -0.394 (250), mid: -0.160 (249), high: -0.030 (249)
+   2018-26 by tercile (avg R, n): low: +0.003 (334), mid: +0.118 (334), high: +0.161 (334)
+
+-- yesterday's realized vol: Spearman rho with R = +0.259 (p 0.000); average within-year rho +0.265; top vs bottom fifth t = +1.99
+   trades      lo       hi  avg_R     win      usd  avg_R within-year
+q                                                                    
+1     350   2.302    8.234 -0.173  29.429 -1306.25             -0.174
+2     350   8.236   10.288 -0.245  26.571 -1986.25             -0.168
+3     350  10.292   13.061 -0.003  32.857  1056.25              0.076
+4     350  13.074   17.874  0.123  32.000   905.00              0.068
+5     350  17.939  116.607  0.149  32.857  1527.50              0.053
+
+-- yesterday vs 20-day norm: Spearman rho with R = +0.088 (p 0.000); average within-year rho +0.154; top vs bottom fifth t = +1.55
+   trades     lo     hi  avg_R     win      usd  avg_R within-year
+q                                                                 
+1     350  0.219  0.745 -0.134  28.857   781.25             -0.155
+2     350  0.746  0.903 -0.027  30.000   -81.25             -0.028
+3     350  0.903  1.052  0.123  35.143  1101.25              0.117
+4     350  1.052  1.259 -0.232  28.571 -2701.25             -0.103
+5     350  1.260  4.456  0.123  31.143  1096.25              0.024
+
+-- overnight range vs 20-day norm: Spearman rho with R = +0.108 (p 0.000); average within-year rho +0.179; top vs bottom fifth t = +0.91
+   trades     lo     hi  avg_R     win      usd  avg_R within-year
+q                                                                 
+1     350  0.239  0.608 -0.142  27.714   157.50             -0.150
+2     350  0.608  0.806  0.059  32.571  1111.25              0.018
+3     350  0.806  1.017 -0.111  27.714  -715.00             -0.025
+4     350  1.017  1.312  0.058  32.857  1088.75              0.055
+5     350  1.317  9.863 -0.011  32.857 -1446.25             -0.041

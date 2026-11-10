@@ -1,0 +1,7 @@
+test,model,n_events,auc,kept,usd_trade,all_usd_trade,random_usd_trade,usd_year
+"all events, no stop/cost features",logit,273954,0.606,21109,-0.97,-2.22,-2.29,-1645
+"all events, no stop/cost features",gbm,273954,0.618,26391,0.44,-2.22,-2.03,937
+"cost<=15% of risk, all features",logit,97525,0.521,8141,2.36,-1.53,-1.47,1538
+"cost<=15% of risk, all features",gbm,97525,0.52,13930,2.29,-1.53,-1.23,2553
+"cost<=15% of risk, no stop/cost features",logit,97525,0.517,7462,2.16,-1.53,-1.4,1290
+"cost<=15% of risk, no stop/cost features",gbm,97525,0.518,13134,1.45,-1.53,-1.47,1520

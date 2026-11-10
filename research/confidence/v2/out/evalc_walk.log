@@ -1,0 +1,40 @@
+  NQ: frames + 1-minute data loaded (6s)
+    rskip: 20 draws, full-key match 100.0%
+    drift: 10 draws, full-key match 99.9%
+  A NQ: 4511/4511 kept signals walkable, stand-alone vs label pnl max diff 0.00e+00, 1-min contiguity breaks 0
+  A NQ: 31 sets x 3 modes x 7 policies walked, 1,650,545 legs (19s)
+    rskip: 20 draws, full-key match 100.0%
+    drift: 10 draws, full-key match 100.0%
+  B NQ: 16713/16713 kept signals walkable, stand-alone vs label pnl max diff 0.00e+00, 1-min contiguity breaks 0
+  B NQ: 31 sets x 3 modes x 7 policies walked, 4,232,634 legs (64s)
+    rskip: 20 draws, full-key match 100.0%
+    drift: 10 draws, full-key match 99.8%
+  C NQ: 3977/3977 kept signals walkable, stand-alone vs label pnl max diff 0.00e+00, 1-min contiguity breaks 0
+  C NQ: 31 sets x 3 modes x 7 policies walked, 1,470,600 legs (16s)
+  ES: frames + 1-minute data loaded (6s)
+    rskip: 20 draws, full-key match 100.0%
+    drift: 10 draws, full-key match 99.9%
+  A ES: 3311/3311 kept signals walkable, stand-alone vs label pnl max diff 0.00e+00, 1-min contiguity breaks 0
+  A ES: 31 sets x 3 modes x 7 policies walked, 1,280,360 legs (14s)
+    rskip: 20 draws, full-key match 100.0%
+    drift: 10 draws, full-key match 100.0%
+  B ES: 12189/12189 kept signals walkable, stand-alone vs label pnl max diff 0.00e+00, 1-min contiguity breaks 0
+  B ES: 31 sets x 3 modes x 7 policies walked, 3,268,394 legs (48s)
+    rskip: 20 draws, full-key match 100.0%
+    drift: 10 draws, full-key match 99.9%
+  C ES: 2711/2711 kept signals walkable, stand-alone vs label pnl max diff 0.00e+00, 1-min contiguity breaks 0
+  C ES: 31 sets x 3 modes x 7 policies walked, 1,058,075 legs (12s)
+  YM: frames + 1-minute data loaded (3s)
+    rskip: 20 draws, full-key match 100.0%
+    drift: 10 draws, full-key match 99.8%
+  A YM: 3036/3036 kept signals walkable, stand-alone vs label pnl max diff 0.00e+00, 1-min contiguity breaks 0
+  A YM: 31 sets x 3 modes x 7 policies walked, 1,169,818 legs (13s)
+    rskip: 20 draws, full-key match 100.0%
+    drift: 10 draws, full-key match 100.0%
+  B YM: 10957/10957 kept signals walkable, stand-alone vs label pnl max diff 0.00e+00, 1-min contiguity breaks 0
+  B YM: 31 sets x 3 modes x 7 policies walked, 2,772,969 legs (43s)
+    rskip: 20 draws, full-key match 100.0%
+    drift: 10 draws, full-key match 100.0%
+  C YM: 2297/2297 kept signals walkable, stand-alone vs label pnl max diff 0.00e+00, 1-min contiguity breaks 0
+  C YM: 31 sets x 3 modes x 7 policies walked, 901,469 legs (11s)
+done (255s)

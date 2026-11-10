@@ -1,0 +1,169 @@
+{
+ "A": {
+  "trades": 1271,
+  "share_while_ORB_open": 0.17230527143981117,
+  "share_ORB_same_dir": 0.058221872541306056,
+  "share_ORB_opposite_dir": 0.11408339889850512,
+  "share_while_ONbreak_open": 0.15499606608969316,
+  "share_ONbreak_same_dir": 0.024390243902439025,
+  "share_ONbreak_opposite_dir": 0.13060582218725414,
+  "daily_corr_zero_filled": {
+   "expiry_fade": 0.0016249980861464096,
+   "opening_range": 0.003165823141038364,
+   "overnight_break": -0.05236283814039917
+  },
+  "daily_corr_days_both_traded": {
+   "expiry_fade": null,
+   "opening_range": -0.010078942446014243,
+   "overnight_break": -0.26560972759938795
+  },
+  "existing_maxdd_usd": 7949.0,
+  "combined_maxdd_usd": 8167.5,
+  "existing_total_usd": 44343.5,
+  "combined_total_usd": 38278.0
+ },
+ "A1": {
+  "trades": 1255,
+  "share_while_ORB_open": 0.22470119521912352,
+  "share_ORB_same_dir": 0.08207171314741035,
+  "share_ORB_opposite_dir": 0.14262948207171314,
+  "share_while_ONbreak_open": 0.14820717131474104,
+  "share_ONbreak_same_dir": 0.026294820717131476,
+  "share_ONbreak_opposite_dir": 0.12191235059760956,
+  "daily_corr_zero_filled": {
+   "expiry_fade": 0.004012847701128466,
+   "opening_range": 0.0015133879578427293,
+   "overnight_break": -0.04789964666495696
+  },
+  "daily_corr_days_both_traded": {
+   "expiry_fade": null,
+   "opening_range": -0.021312111225606147,
+   "overnight_break": -0.21236136995957777
+  },
+  "existing_maxdd_usd": 7949.0,
+  "combined_maxdd_usd": 8366.5,
+  "existing_total_usd": 45180.5,
+  "combined_total_usd": 38040.5
+ },
+ "A2": {
+  "trades": 422,
+  "share_while_ORB_open": 0.16824644549763032,
+  "share_ORB_same_dir": 0.004739336492890996,
+  "share_ORB_opposite_dir": 0.16350710900473933,
+  "share_while_ONbreak_open": 0.23933649289099526,
+  "share_ONbreak_same_dir": 0.0,
+  "share_ONbreak_opposite_dir": 0.23933649289099526,
+  "daily_corr_zero_filled": {
+   "expiry_fade": 0.0008855312014133969,
+   "opening_range": -0.017733542958223873,
+   "overnight_break": -0.1022511943022338
+  },
+  "daily_corr_days_both_traded": {
+   "expiry_fade": null,
+   "opening_range": -0.08868771080042563,
+   "overnight_break": -0.5049594479881853
+  },
+  "existing_maxdd_usd": 7949.0,
+  "combined_maxdd_usd": 7699.5,
+  "existing_total_usd": 44791.0,
+  "combined_total_usd": 42279.0
+ },
+ "B": {
+  "trades": 23,
+  "share_while_ORB_open": 0.13043478260869565,
+  "share_ORB_same_dir": 0.08695652173913043,
+  "share_ORB_opposite_dir": 0.043478260869565216,
+  "share_while_ONbreak_open": 0.08695652173913043,
+  "share_ONbreak_same_dir": 0.043478260869565216,
+  "share_ONbreak_opposite_dir": 0.043478260869565216,
+  "daily_corr_zero_filled": {
+   "expiry_fade": 0.0003436551564293879,
+   "opening_range": 0.012517773958265886,
+   "overnight_break": 0.019730276082632555
+  },
+  "daily_corr_days_both_traded": {
+   "expiry_fade": null,
+   "opening_range": 0.32490762776079773,
+   "overnight_break": 0.6951499612994398
+  },
+  "existing_maxdd_usd": 5046.5,
+  "combined_maxdd_usd": 5105.5,
+  "existing_total_usd": 44402.0,
+  "combined_total_usd": 44176.5
+ },
+ "B-MES": {
+  "trades": 20,
+  "share_while_ORB_open": 0.2,
+  "share_ORB_same_dir": 0.1,
+  "share_ORB_opposite_dir": 0.1,
+  "share_while_ONbreak_open": 0.05,
+  "share_ONbreak_same_dir": 0.0,
+  "share_ONbreak_opposite_dir": 0.05,
+  "daily_corr_zero_filled": {
+   "expiry_fade": 0.0001413482944839163,
+   "opening_range": -0.005392377537598583,
+   "overnight_break": 0.025240487070398557
+  },
+  "daily_corr_days_both_traded": {
+   "expiry_fade": null,
+   "opening_range": -0.3512776394345983,
+   "overnight_break": 0.7644523971798614
+  },
+  "existing_maxdd_usd": 4886.5,
+  "combined_maxdd_usd": 4753.75,
+  "existing_total_usd": 44757.5,
+  "combined_total_usd": 44701.25
+ },
+ "B1": {
+  "trades": 20,
+  "share_while_ORB_open": 0.15,
+  "share_ORB_same_dir": 0.1,
+  "share_ORB_opposite_dir": 0.05,
+  "share_while_ONbreak_open": 0.1,
+  "share_ONbreak_same_dir": 0.05,
+  "share_ONbreak_opposite_dir": 0.05,
+  "daily_corr_zero_filled": {
+   "expiry_fade": 0.0007705806976913612,
+   "opening_range": 0.013180219921618786,
+   "overnight_break": 0.028717797085169798
+  },
+  "daily_corr_days_both_traded": {
+   "expiry_fade": null,
+   "opening_range": 0.48917678432929473,
+   "overnight_break": 0.6951499612994398
+  },
+  "existing_maxdd_usd": 3095.0,
+  "combined_maxdd_usd": 3095.0,
+  "existing_total_usd": 46984.0,
+  "combined_total_usd": 46688.0
+ },
+ "C_reverse_leg": {
+  "trades": 1217,
+  "share_while_ORB_open": 0.790468364831553,
+  "share_ORB_same_dir": 0.0,
+  "share_ORB_opposite_dir": 0.790468364831553,
+  "share_while_ONbreak_open": 0.056696795398520954,
+  "share_ONbreak_same_dir": 0.0016433853738701725,
+  "share_ONbreak_opposite_dir": 0.05505341002465078,
+  "daily_corr_zero_filled": {
+   "expiry_fade": 0.0013067247152363315,
+   "opening_range": -0.1070546960152179,
+   "overnight_break": 0.04648412884743656
+  },
+  "daily_corr_days_both_traded": {
+   "expiry_fade": null,
+   "opening_range": -0.1924227906961747,
+   "overnight_break": 0.13104266210829627
+  },
+  "existing_maxdd_usd": 7949.0,
+  "combined_maxdd_usd": 12358.0,
+  "existing_total_usd": 45670.0,
+  "combined_total_usd": 35506.5,
+  "share_ONbreak_same_dir_as_failed_ORB": 0.05505341002465078,
+  "n_ONbreak_same_dir_as_failed_ORB": 67
+ },
+ "B_vs_A": {
+  "days_both_trade": 7,
+  "B_trades_overlapping_an_A_trade_in_time": 4
+ }
+}

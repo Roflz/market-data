@@ -1,0 +1,4 @@
+{'market': 'YM', 'test': 'candles, cost<=15% of risk', 'n_test': 33832, 'auc': np.float64(0.516), 'kept': 5284, 'usd_trade': np.float64(-3.17), 'all_usd_trade': np.float64(-2.82), 'random_usd_trade': np.float64(-2.85), 'usd_year': -3728, 'by_year': '2021:-1.58(796); 2022:-2.40(3076); 2023:-4.54(505); 2024:-4.48(455); 2025H1:-8.36(452)'}
+H1/H2 YM: 1,884 triggered trades; unfiltered $/trade -1.40
+{'market': 'YM', 'test': 'H1/H2, pullback-low stop', 'n_test': 1008, 'auc': np.float64(0.477), 'kept': 423, 'usd_trade': np.float64(-1.9), 'all_usd_trade': np.float64(-1.98), 'random_usd_trade': np.float64(-2.33), 'usd_year': -178, 'by_year': '2021:-2.83(260); 2022:-8.77(72); 2023:-3.70(10); 2024:-2.45(54); 2025H1:+27.22(27)'}
+done in 20s

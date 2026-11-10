@@ -1,0 +1,8 @@
+NQ 120m: 50,407 bars, prepared in 2s
+NQ 120m exit study: 1872 rows in 3s
+NQ 60m: 97,835 bars, prepared in 1s
+NQ 60m exit study: 1920 rows in 3s
+NQ 15m: 385,019 bars, prepared in 2s
+NQ 15m exit study: 1920 rows in 12s
+NQ 5m: 1,153,059 bars, prepared in 4s
+NQ 5m exit study: 1920 rows in 50s

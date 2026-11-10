@@ -1,0 +1,1699 @@
+{
+ "L1": {
+  "NFP_2018_2026_MNQ_strict_time": {
+   "n": 103,
+   "mean": 37.06,
+   "total": 3817.5,
+   "t": 2.78,
+   "median": 12.0,
+   "hit": 0.544,
+   "worst": -246.5,
+   "best": 456.5,
+   "gross_mean": 39.06,
+   "gross_t": 2.93,
+   "net_bp": 12.17,
+   "gross_bp": 13.0,
+   "best5_share": 0.53,
+   "per_year": 11.64,
+   "by_year": {
+    "2018": {
+     "n": 12,
+     "mean": 14.75,
+     "total": 177.0
+    },
+    "2019": {
+     "n": 12,
+     "mean": 11.83,
+     "total": 142.0
+    },
+    "2020": {
+     "n": 12,
+     "mean": -17.42,
+     "total": -209.0
+    },
+    "2021": {
+     "n": 11,
+     "mean": 23.0,
+     "total": 253.0
+    },
+    "2022": {
+     "n": 12,
+     "mean": 80.58,
+     "total": 967.0
+    },
+    "2023": {
+     "n": 11,
+     "mean": 98.41,
+     "total": 1082.5
+    },
+    "2024": {
+     "n": 12,
+     "mean": 37.33,
+     "total": 448.0
+    },
+    "2025": {
+     "n": 11,
+     "mean": 17.59,
+     "total": 193.5
+    },
+    "2026": {
+     "n": 10,
+     "mean": 76.35,
+     "total": 763.5
+    }
+   },
+   "by_2yr": {
+    "2018-2019": {
+     "n": 24,
+     "mean": 13.29,
+     "total": 319.0,
+     "t": 1.48
+    },
+    "2020-2021": {
+     "n": 23,
+     "mean": 1.91,
+     "total": 44.0,
+     "t": 0.08
+    },
+    "2022-2023": {
+     "n": 23,
+     "mean": 89.11,
+     "total": 2049.5,
+     "t": 2.79
+    },
+    "2024-2025": {
+     "n": 23,
+     "mean": 27.89,
+     "total": 641.5,
+     "t": 0.87
+    },
+    "2026": {
+     "n": 10,
+     "mean": 76.35,
+     "total": 763.5,
+     "t": 1.25
+    }
+   }
+  },
+  "NFP_2018_2026_MES_strict_time": {
+   "n": 103,
+   "mean": 3.33,
+   "total": 343.25,
+   "t": 0.42,
+   "median": -8.5,
+   "hit": 0.476,
+   "worst": -204.75,
+   "best": 269.0,
+   "gross_mean": 6.83,
+   "gross_t": 0.86,
+   "net_bp": 1.35,
+   "gross_bp": 3.1,
+   "best5_share": 3.43,
+   "per_year": 11.64,
+   "by_year": {
+    "2018": {
+     "n": 12,
+     "mean": 3.69,
+     "total": 44.25
+    },
+    "2019": {
+     "n": 12,
+     "mean": 1.08,
+     "total": 13.0
+    },
+    "2020": {
+     "n": 12,
+     "mean": -14.96,
+     "total": -179.5
+    },
+    "2021": {
+     "n": 11,
+     "mean": -21.11,
+     "total": -232.25
+    },
+    "2022": {
+     "n": 12,
+     "mean": 42.12,
+     "total": 505.5
+    },
+    "2023": {
+     "n": 11,
+     "mean": 4.0,
+     "total": 44.0
+    },
+    "2024": {
+     "n": 12,
+     "mean": 4.1,
+     "total": 49.25
+    },
+    "2025": {
+     "n": 11,
+     "mean": -4.41,
+     "total": -48.5
+    },
+    "2026": {
+     "n": 10,
+     "mean": 14.75,
+     "total": 147.5
+    }
+   },
+   "by_2yr": {
+    "2018-2019": {
+     "n": 24,
+     "mean": 2.39,
+     "total": 57.25,
+     "t": 0.33
+    },
+    "2020-2021": {
+     "n": 23,
+     "mean": -17.9,
+     "total": -411.75,
+     "t": -1.69
+    },
+    "2022-2023": {
+     "n": 23,
+     "mean": 23.89,
+     "total": 549.5,
+     "t": 1.15
+    },
+    "2024-2025": {
+     "n": 23,
+     "mean": 0.03,
+     "total": 0.75,
+     "t": 0.0
+    },
+    "2026": {
+     "n": 10,
+     "mean": 14.75,
+     "total": 147.5,
+     "t": 0.4
+    }
+   }
+  },
+  "NFP_2018_2026_MNQ_time": {
+   "n": 103,
+   "mean": 36.21,
+   "total": 3729.5,
+   "t": 2.71,
+   "median": 10.0,
+   "hit": 0.534,
+   "worst": -246.5,
+   "best": 456.5,
+   "gross_mean": 38.21,
+   "gross_t": 2.86,
+   "net_bp": 11.87,
+   "gross_bp": 12.69,
+   "best5_share": 0.54,
+   "per_year": 11.64,
+   "by_year": {
+    "2018": {
+     "n": 12,
+     "mean": 14.75,
+     "total": 177.0
+    },
+    "2019": {
+     "n": 12,
+     "mean": 11.83,
+     "total": 142.0
+    },
+    "2020": {
+     "n": 12,
+     "mean": -17.42,
+     "total": -209.0
+    },
+    "2021": {
+     "n": 11,
+     "mean": 23.0,
+     "total": 253.0
+    },
+    "2022": {
+     "n": 12,
+     "mean": 73.25,
+     "total": 879.0
+    },
+    "2023": {
+     "n": 11,
+     "mean": 98.41,
+     "total": 1082.5
+    },
+    "2024": {
+     "n": 12,
+     "mean": 37.33,
+     "total": 448.0
+    },
+    "2025": {
+     "n": 11,
+     "mean": 17.59,
+     "total": 193.5
+    },
+    "2026": {
+     "n": 10,
+     "mean": 76.35,
+     "total": 763.5
+    }
+   },
+   "by_2yr": {
+    "2018-2019": {
+     "n": 24,
+     "mean": 13.29,
+     "total": 319.0,
+     "t": 1.48
+    },
+    "2020-2021": {
+     "n": 23,
+     "mean": 1.91,
+     "total": 44.0,
+     "t": 0.08
+    },
+    "2022-2023": {
+     "n": 23,
+     "mean": 85.28,
+     "total": 1961.5,
+     "t": 2.63
+    },
+    "2024-2025": {
+     "n": 23,
+     "mean": 27.89,
+     "total": 641.5,
+     "t": 0.87
+    },
+    "2026": {
+     "n": 10,
+     "mean": 76.35,
+     "total": 763.5,
+     "t": 1.25
+    }
+   }
+  },
+  "NFP_2018_2026_MES_time": {
+   "n": 101,
+   "mean": 3.83,
+   "total": 386.5,
+   "t": 0.48,
+   "median": -8.5,
+   "hit": 0.475,
+   "worst": -204.75,
+   "best": 269.0,
+   "gross_mean": 7.33,
+   "gross_t": 0.91,
+   "net_bp": 1.55,
+   "gross_bp": 3.3,
+   "best5_share": 3.04,
+   "per_year": 11.41,
+   "by_year": {
+    "2018": {
+     "n": 11,
+     "mean": 3.66,
+     "total": 40.25
+    },
+    "2019": {
+     "n": 12,
+     "mean": 1.08,
+     "total": 13.0
+    },
+    "2020": {
+     "n": 12,
+     "mean": -14.96,
+     "total": -179.5
+    },
+    "2021": {
+     "n": 10,
+     "mean": -18.5,
+     "total": -185.0
+    },
+    "2022": {
+     "n": 12,
+     "mean": 42.12,
+     "total": 505.5
+    },
+    "2023": {
+     "n": 11,
+     "mean": 4.0,
+     "total": 44.0
+    },
+    "2024": {
+     "n": 12,
+     "mean": 4.1,
+     "total": 49.25
+    },
+    "2025": {
+     "n": 11,
+     "mean": -4.41,
+     "total": -48.5
+    },
+    "2026": {
+     "n": 10,
+     "mean": 14.75,
+     "total": 147.5
+    }
+   },
+   "by_2yr": {
+    "2018-2019": {
+     "n": 23,
+     "mean": 2.32,
+     "total": 53.25,
+     "t": 0.31
+    },
+    "2020-2021": {
+     "n": 22,
+     "mean": -16.57,
+     "total": -364.5,
+     "t": -1.51
+    },
+    "2022-2023": {
+     "n": 23,
+     "mean": 23.89,
+     "total": 549.5,
+     "t": 1.15
+    },
+    "2024-2025": {
+     "n": 23,
+     "mean": 0.03,
+     "total": 0.75,
+     "t": 0.0
+    },
+    "2026": {
+     "n": 10,
+     "mean": 14.75,
+     "total": 147.5,
+     "t": 0.4
+    }
+   }
+  },
+  "NFP_2018_2026_MNQ_strict_stop2x": {
+   "n": 103,
+   "mean": 29.11,
+   "total": 2998.5,
+   "t": 2.29,
+   "median": -7.0,
+   "hit": 0.447,
+   "worst": -176.5,
+   "best": 456.5,
+   "gross_mean": 31.11,
+   "gross_t": 2.45,
+   "net_bp": 10.4,
+   "gross_bp": 11.22,
+   "best5_share": 0.66,
+   "per_year": 11.64,
+   "by_year": {
+    "2018": {
+     "n": 12,
+     "mean": 5.79,
+     "total": 69.5
+    },
+    "2019": {
+     "n": 12,
+     "mean": 11.83,
+     "total": 142.0
+    },
+    "2020": {
+     "n": 12,
+     "mean": 2.54,
+     "total": 30.5
+    },
+    "2021": {
+     "n": 11,
+     "mean": 27.73,
+     "total": 305.0
+    },
+    "2022": {
+     "n": 12,
+     "mean": 65.71,
+     "total": 788.5
+    },
+    "2023": {
+     "n": 11,
+     "mean": 87.68,
+     "total": 964.5
+    },
+    "2024": {
+     "n": 12,
+     "mean": 15.62,
+     "total": 187.5
+    },
+    "2025": {
+     "n": 11,
+     "mean": 13.55,
+     "total": 149.0
+    },
+    "2026": {
+     "n": 10,
+     "mean": 36.2,
+     "total": 362.0
+    }
+   },
+   "by_2yr": {
+    "2018-2019": {
+     "n": 24,
+     "mean": 8.81,
+     "total": 211.5,
+     "t": 0.98
+    },
+    "2020-2021": {
+     "n": 23,
+     "mean": 14.59,
+     "total": 335.5,
+     "t": 0.68
+    },
+    "2022-2023": {
+     "n": 23,
+     "mean": 76.22,
+     "total": 1753.0,
+     "t": 2.34
+    },
+    "2024-2025": {
+     "n": 23,
+     "mean": 14.63,
+     "total": 336.5,
+     "t": 0.43
+    },
+    "2026": {
+     "n": 10,
+     "mean": 36.2,
+     "total": 362.0,
+     "t": 0.71
+    }
+   },
+   "stop_exits": 24
+  },
+  "NFP_2018_2026_MES_strict_stop2x": {
+   "n": 103,
+   "mean": -5.56,
+   "total": -573.0,
+   "t": -0.73,
+   "median": -13.5,
+   "hit": 0.379,
+   "worst": -204.75,
+   "best": 269.0,
+   "gross_mean": -2.06,
+   "gross_t": -0.27,
+   "net_bp": -2.53,
+   "gross_bp": -0.77,
+   "best5_share": -1.95,
+   "per_year": 11.64,
+   "by_year": {
+    "2018": {
+     "n": 12,
+     "mean": 0.15,
+     "total": 1.75
+    },
+    "2019": {
+     "n": 12,
+     "mean": -0.9,
+     "total": -10.75
+    },
+    "2020": {
+     "n": 12,
+     "mean": -25.06,
+     "total": -300.75
+    },
+    "2021": {
+     "n": 11,
+     "mean": -35.2,
+     "total": -387.25
+    },
+    "2022": {
+     "n": 12,
+     "mean": 24.0,
+     "total": 288.0
+    },
+    "2023": {
+     "n": 11,
+     "mean": 17.64,
+     "total": 194.0
+    },
+    "2024": {
+     "n": 12,
+     "mean": 4.1,
+     "total": 49.25
+    },
+    "2025": {
+     "n": 11,
+     "mean": -34.86,
+     "total": -383.5
+    },
+    "2026": {
+     "n": 10,
+     "mean": -2.38,
+     "total": -23.75
+    }
+   },
+   "by_2yr": {
+    "2018-2019": {
+     "n": 24,
+     "mean": -0.38,
+     "total": -9.0,
+     "t": -0.05
+    },
+    "2020-2021": {
+     "n": 23,
+     "mean": -29.91,
+     "total": -688.0,
+     "t": -2.62
+    },
+    "2022-2023": {
+     "n": 23,
+     "mean": 20.96,
+     "total": 482.0,
+     "t": 1.02
+    },
+    "2024-2025": {
+     "n": 23,
+     "mean": -14.53,
+     "total": -334.25,
+     "t": -0.78
+    },
+    "2026": {
+     "n": 10,
+     "mean": -2.38,
+     "total": -23.75,
+     "t": -0.07
+    }
+   },
+   "stop_exits": 25
+  },
+  "NFP_2018_2026_MNQ_stop2x": {
+   "n": 103,
+   "mean": 29.24,
+   "total": 3011.5,
+   "t": 2.3,
+   "median": -7.0,
+   "hit": 0.447,
+   "worst": -176.5,
+   "best": 456.5,
+   "gross_mean": 31.24,
+   "gross_t": 2.46,
+   "net_bp": 10.48,
+   "gross_bp": 11.3,
+   "best5_share": 0.65,
+   "per_year": 11.64,
+   "by_year": {
+    "2018": {
+     "n": 12,
+     "mean": 5.79,
+     "total": 69.5
+    },
+    "2019": {
+     "n": 12,
+     "mean": 11.83,
+     "total": 142.0
+    },
+    "2020": {
+     "n": 12,
+     "mean": 3.62,
+     "total": 43.5
+    },
+    "2021": {
+     "n": 11,
+     "mean": 27.82,
+     "total": 306.0
+    },
+    "2022": {
+     "n": 12,
+     "mean": 65.71,
+     "total": 788.5
+    },
+    "2023": {
+     "n": 11,
+     "mean": 87.77,
+     "total": 965.5
+    },
+    "2024": {
+     "n": 12,
+     "mean": 15.62,
+     "total": 187.5
+    },
+    "2025": {
+     "n": 11,
+     "mean": 13.73,
+     "total": 151.0
+    },
+    "2026": {
+     "n": 10,
+     "mean": 35.8,
+     "total": 358.0
+    }
+   },
+   "by_2yr": {
+    "2018-2019": {
+     "n": 24,
+     "mean": 8.81,
+     "total": 211.5,
+     "t": 0.99
+    },
+    "2020-2021": {
+     "n": 23,
+     "mean": 15.2,
+     "total": 349.5,
+     "t": 0.71
+    },
+    "2022-2023": {
+     "n": 23,
+     "mean": 76.26,
+     "total": 1754.0,
+     "t": 2.34
+    },
+    "2024-2025": {
+     "n": 23,
+     "mean": 14.72,
+     "total": 338.5,
+     "t": 0.44
+    },
+    "2026": {
+     "n": 10,
+     "mean": 35.8,
+     "total": 358.0,
+     "t": 0.7
+    }
+   },
+   "stop_exits": 24
+  },
+  "NFP_2018_2026_MES_stop2x": {
+   "n": 101,
+   "mean": -5.42,
+   "total": -547.25,
+   "t": -0.69,
+   "median": -13.5,
+   "hit": 0.386,
+   "worst": -204.75,
+   "best": 269.0,
+   "gross_mean": -1.92,
+   "gross_t": -0.25,
+   "net_bp": -2.42,
+   "gross_bp": -0.68,
+   "best5_share": -2.04,
+   "per_year": 11.41,
+   "by_year": {
+    "2018": {
+     "n": 11,
+     "mean": 0.48,
+     "total": 5.25
+    },
+    "2019": {
+     "n": 12,
+     "mean": 0.25,
+     "total": 3.0
+    },
+    "2020": {
+     "n": 12,
+     "mean": -25.27,
+     "total": -303.25
+    },
+    "2021": {
+     "n": 10,
+     "mean": -37.62,
+     "total": -376.25
+    },
+    "2022": {
+     "n": 12,
+     "mean": 23.58,
+     "total": 283.0
+    },
+    "2023": {
+     "n": 11,
+     "mean": 17.86,
+     "total": 196.5
+    },
+    "2024": {
+     "n": 12,
+     "mean": 4.1,
+     "total": 49.25
+    },
+    "2025": {
+     "n": 11,
+     "mean": -34.64,
+     "total": -381.0
+    },
+    "2026": {
+     "n": 10,
+     "mean": -2.38,
+     "total": -23.75
+    }
+   },
+   "by_2yr": {
+    "2018-2019": {
+     "n": 23,
+     "mean": 0.36,
+     "total": 8.25,
+     "t": 0.05
+    },
+    "2020-2021": {
+     "n": 22,
+     "mean": -30.89,
+     "total": -679.5,
+     "t": -2.61
+    },
+    "2022-2023": {
+     "n": 23,
+     "mean": 20.85,
+     "total": 479.5,
+     "t": 1.02
+    },
+    "2024-2025": {
+     "n": 23,
+     "mean": -14.42,
+     "total": -331.75,
+     "t": -0.78
+    },
+    "2026": {
+     "n": 10,
+     "mean": -2.38,
+     "total": -23.75,
+     "t": -0.07
+    }
+   },
+   "stop_exits": 22
+  },
+  "NFP_2010-2017_MNQ_strict_time": {
+   "n": 88,
+   "mean": 1.72,
+   "total": 151.5,
+   "t": 0.7,
+   "median": 1.5,
+   "hit": 0.511,
+   "worst": -56.0,
+   "best": 56.5,
+   "gross_mean": 3.72,
+   "gross_t": 1.51,
+   "net_bp": 1.84,
+   "gross_bp": 4.89,
+   "best5_share": 1.67,
+   "per_year": 11.62
+  },
+  "NFP_2010-2017_MNQ_time": {
+   "n": 88,
+   "mean": 1.72,
+   "total": 151.5,
+   "t": 0.7,
+   "median": 1.5,
+   "hit": 0.511,
+   "worst": -56.0,
+   "best": 56.5,
+   "gross_mean": 3.72,
+   "gross_t": 1.51,
+   "net_bp": 1.84,
+   "gross_bp": 4.89,
+   "best5_share": 1.67,
+   "per_year": 11.62
+  },
+  "NFP_2010-2017_MES_strict_time": {
+   "n": 88,
+   "mean": 0.46,
+   "total": 40.75,
+   "t": 0.18,
+   "median": -0.9999999999999998,
+   "hit": 0.489,
+   "worst": -49.75,
+   "best": 80.25,
+   "gross_mean": 3.96,
+   "gross_t": 1.54,
+   "net_bp": 0.33,
+   "gross_bp": 4.5,
+   "best5_share": 6.87,
+   "per_year": 11.62
+  },
+  "NFP_2010-2017_MES_time": {
+   "n": 88,
+   "mean": 0.46,
+   "total": 40.75,
+   "t": 0.18,
+   "median": -0.9999999999999998,
+   "hit": 0.489,
+   "worst": -49.75,
+   "best": 80.25,
+   "gross_mean": 3.96,
+   "gross_t": 1.54,
+   "net_bp": 0.33,
+   "gross_bp": 4.5,
+   "best5_share": 6.87,
+   "per_year": 11.62
+  },
+  "NFP_2018-2026_MNQ_strict_time": {
+   "n": 103,
+   "mean": 37.06,
+   "total": 3817.5,
+   "t": 2.78,
+   "median": 12.0,
+   "hit": 0.544,
+   "worst": -246.5,
+   "best": 456.5,
+   "gross_mean": 39.06,
+   "gross_t": 2.93,
+   "net_bp": 12.17,
+   "gross_bp": 13.0,
+   "best5_share": 0.53,
+   "per_year": 11.64
+  },
+  "NFP_2018-2026_MNQ_time": {
+   "n": 103,
+   "mean": 36.21,
+   "total": 3729.5,
+   "t": 2.71,
+   "median": 10.0,
+   "hit": 0.534,
+   "worst": -246.5,
+   "best": 456.5,
+   "gross_mean": 38.21,
+   "gross_t": 2.86,
+   "net_bp": 11.87,
+   "gross_bp": 12.69,
+   "best5_share": 0.54,
+   "per_year": 11.64
+  },
+  "NFP_2018-2026_MES_strict_time": {
+   "n": 103,
+   "mean": 3.33,
+   "total": 343.25,
+   "t": 0.42,
+   "median": -8.5,
+   "hit": 0.476,
+   "worst": -204.75,
+   "best": 269.0,
+   "gross_mean": 6.83,
+   "gross_t": 0.86,
+   "net_bp": 1.35,
+   "gross_bp": 3.1,
+   "best5_share": 3.43,
+   "per_year": 11.64
+  },
+  "NFP_2018-2026_MES_time": {
+   "n": 101,
+   "mean": 3.83,
+   "total": 386.5,
+   "t": 0.48,
+   "median": -8.5,
+   "hit": 0.475,
+   "worst": -204.75,
+   "best": 269.0,
+   "gross_mean": 7.33,
+   "gross_t": 0.91,
+   "net_bp": 1.55,
+   "gross_bp": 3.3,
+   "best5_share": 3.04,
+   "per_year": 11.41
+  },
+  "NFP_2010-2026_MNQ_strict_time": {
+   "n": 191,
+   "mean": 20.78,
+   "total": 3969.0,
+   "t": 2.82,
+   "median": 4.5,
+   "hit": 0.529,
+   "worst": -246.5,
+   "best": 456.5,
+   "gross_mean": 22.78,
+   "gross_t": 3.09,
+   "net_bp": 7.41,
+   "gross_bp": 9.26,
+   "best5_share": 0.51,
+   "per_year": 11.63
+  },
+  "NFP_2010-2026_MNQ_time": {
+   "n": 191,
+   "mean": 20.32,
+   "total": 3881.0,
+   "t": 2.75,
+   "median": 4.0,
+   "hit": 0.524,
+   "worst": -246.5,
+   "best": 456.5,
+   "gross_mean": 22.32,
+   "gross_t": 3.02,
+   "net_bp": 7.25,
+   "gross_bp": 9.1,
+   "best5_share": 0.52,
+   "per_year": 11.63
+  },
+  "NFP_2010-2026_MES_strict_time": {
+   "n": 191,
+   "mean": 2.01,
+   "total": 384.0,
+   "t": 0.46,
+   "median": -0.9999999999999998,
+   "hit": 0.482,
+   "worst": -204.75,
+   "best": 269.0,
+   "gross_mean": 5.51,
+   "gross_t": 1.25,
+   "net_bp": 0.88,
+   "gross_bp": 3.75,
+   "best5_share": 3.06,
+   "per_year": 11.63
+  },
+  "NFP_2010-2026_MES_time": {
+   "n": 189,
+   "mean": 2.26,
+   "total": 427.25,
+   "t": 0.51,
+   "median": -0.9999999999999998,
+   "hit": 0.481,
+   "worst": -204.75,
+   "best": 269.0,
+   "gross_mean": 5.76,
+   "gross_t": 1.29,
+   "net_bp": 0.98,
+   "gross_bp": 3.86,
+   "best5_share": 2.75,
+   "per_year": 11.51
+  },
+  "CPI_2010-2017_MNQ_strict_time": {
+   "n": 88,
+   "mean": -1.22,
+   "total": -107.0,
+   "t": -0.57,
+   "median": 0.5,
+   "hit": 0.511,
+   "worst": -71.5,
+   "best": 42.5,
+   "gross_mean": 0.78,
+   "gross_t": 0.37,
+   "net_bp": -0.11,
+   "gross_bp": 2.97,
+   "best5_share": -1.61,
+   "per_year": 11.62
+  },
+  "CPI_2010-2017_MNQ_time": {
+   "n": 88,
+   "mean": -1.49,
+   "total": -131.5,
+   "t": -0.71,
+   "median": 0.0,
+   "hit": 0.5,
+   "worst": -71.5,
+   "best": 42.5,
+   "gross_mean": 0.51,
+   "gross_t": 0.24,
+   "net_bp": -0.67,
+   "gross_bp": 2.4,
+   "best5_share": -1.31,
+   "per_year": 11.62
+  },
+  "CPI_2010-2017_MES_strict_time": {
+   "n": 84,
+   "mean": -2.99,
+   "total": -251.5,
+   "t": -1.33,
+   "median": -0.9999999999999998,
+   "hit": 0.476,
+   "worst": -59.75,
+   "best": 42.75,
+   "gross_mean": 0.51,
+   "gross_t": 0.22,
+   "net_bp": -2.21,
+   "gross_bp": 1.95,
+   "best5_share": -0.65,
+   "per_year": 11.1
+  },
+  "CPI_2010-2017_MES_time": {
+   "n": 84,
+   "mean": -2.9,
+   "total": -244.0,
+   "t": -1.33,
+   "median": -1.625,
+   "hit": 0.464,
+   "worst": -59.75,
+   "best": 42.75,
+   "gross_mean": 0.6,
+   "gross_t": 0.27,
+   "net_bp": -2.49,
+   "gross_bp": 1.7,
+   "best5_share": -0.67,
+   "per_year": 11.1
+  },
+  "CPI_2018-2026_MNQ_strict_time": {
+   "n": 104,
+   "mean": 20.95,
+   "total": 2178.5,
+   "t": 1.83,
+   "median": 21.0,
+   "hit": 0.558,
+   "worst": -318.0,
+   "best": 300.5,
+   "gross_mean": 22.95,
+   "gross_t": 2.01,
+   "net_bp": 6.31,
+   "gross_bp": 7.12,
+   "best5_share": 0.61,
+   "per_year": 11.75
+  },
+  "CPI_2018-2026_MNQ_time": {
+   "n": 104,
+   "mean": 20.95,
+   "total": 2178.5,
+   "t": 1.83,
+   "median": 21.0,
+   "hit": 0.558,
+   "worst": -318.0,
+   "best": 300.5,
+   "gross_mean": 22.95,
+   "gross_t": 2.01,
+   "net_bp": 6.31,
+   "gross_bp": 7.12,
+   "best5_share": 0.61,
+   "per_year": 11.75
+  },
+  "CPI_2018-2026_MES_strict_time": {
+   "n": 104,
+   "mean": 6.15,
+   "total": 639.75,
+   "t": 1.03,
+   "median": 5.25,
+   "hit": 0.558,
+   "worst": -123.5,
+   "best": 175.25,
+   "gross_mean": 9.65,
+   "gross_t": 1.62,
+   "net_bp": 2.08,
+   "gross_bp": 3.82,
+   "best5_share": 1.09,
+   "per_year": 11.75
+  },
+  "CPI_2018-2026_MES_time": {
+   "n": 103,
+   "mean": 6.21,
+   "total": 639.5,
+   "t": 1.03,
+   "median": 5.25,
+   "hit": 0.553,
+   "worst": -123.5,
+   "best": 175.25,
+   "gross_mean": 9.71,
+   "gross_t": 1.61,
+   "net_bp": 2.1,
+   "gross_bp": 3.83,
+   "best5_share": 1.09,
+   "per_year": 11.64
+  },
+  "CPI_2010-2026_MNQ_strict_time": {
+   "n": 192,
+   "mean": 10.79,
+   "total": 2071.5,
+   "t": 1.71,
+   "median": 2.5,
+   "hit": 0.536,
+   "worst": -318.0,
+   "best": 300.5,
+   "gross_mean": 12.79,
+   "gross_t": 2.03,
+   "net_bp": 3.37,
+   "gross_bp": 5.22,
+   "best5_share": 0.64,
+   "per_year": 11.69
+  },
+  "CPI_2010-2026_MNQ_time": {
+   "n": 192,
+   "mean": 10.66,
+   "total": 2047.0,
+   "t": 1.69,
+   "median": 1.75,
+   "hit": 0.531,
+   "worst": -318.0,
+   "best": 300.5,
+   "gross_mean": 12.66,
+   "gross_t": 2.01,
+   "net_bp": 3.11,
+   "gross_bp": 4.96,
+   "best5_share": 0.65,
+   "per_year": 11.69
+  },
+  "CPI_2010-2026_MES_strict_time": {
+   "n": 188,
+   "mean": 2.07,
+   "total": 388.25,
+   "t": 0.6,
+   "median": 0.8750000000000002,
+   "hit": 0.521,
+   "worst": -123.5,
+   "best": 175.25,
+   "gross_mean": 5.57,
+   "gross_t": 1.61,
+   "net_bp": 0.16,
+   "gross_bp": 2.98,
+   "best5_share": 1.79,
+   "per_year": 11.45
+  },
+  "CPI_2010-2026_MES_time": {
+   "n": 187,
+   "mean": 2.11,
+   "total": 395.5,
+   "t": 0.61,
+   "median": 0.2500000000000002,
+   "hit": 0.513,
+   "worst": -123.5,
+   "best": 175.25,
+   "gross_mean": 5.61,
+   "gross_t": 1.62,
+   "net_bp": 0.04,
+   "gross_bp": 2.88,
+   "best5_share": 1.76,
+   "per_year": 11.39
+  },
+  "CPIorNFP_2010-2017_MNQ_strict_time": {
+   "n": 176,
+   "mean": 0.25,
+   "total": 44.5,
+   "t": 0.16,
+   "median": 0.75,
+   "hit": 0.511,
+   "worst": -71.5,
+   "best": 56.5,
+   "gross_mean": 2.25,
+   "gross_t": 1.38,
+   "net_bp": 0.86,
+   "gross_bp": 3.93,
+   "best5_share": 5.7,
+   "per_year": 23.25
+  },
+  "CPIorNFP_2010-2017_MNQ_time": {
+   "n": 176,
+   "mean": 0.11,
+   "total": 20.0,
+   "t": 0.07,
+   "median": 0.5,
+   "hit": 0.506,
+   "worst": -71.5,
+   "best": 56.5,
+   "gross_mean": 2.11,
+   "gross_t": 1.3,
+   "net_bp": 0.59,
+   "gross_bp": 3.64,
+   "best5_share": 12.68,
+   "per_year": 23.25
+  },
+  "CPIorNFP_2010-2017_MES_strict_time": {
+   "n": 172,
+   "mean": -1.23,
+   "total": -210.75,
+   "t": -0.72,
+   "median": -0.9999999999999998,
+   "hit": 0.483,
+   "worst": -59.75,
+   "best": 80.25,
+   "gross_mean": 2.27,
+   "gross_t": 1.33,
+   "net_bp": -0.91,
+   "gross_bp": 3.26,
+   "best5_share": -1.35,
+   "per_year": 22.72
+  },
+  "CPIorNFP_2010-2017_MES_time": {
+   "n": 172,
+   "mean": -1.18,
+   "total": -203.25,
+   "t": -0.7,
+   "median": -0.9999999999999998,
+   "hit": 0.477,
+   "worst": -59.75,
+   "best": 80.25,
+   "gross_mean": 2.32,
+   "gross_t": 1.37,
+   "net_bp": -1.05,
+   "gross_bp": 3.13,
+   "best5_share": -1.4,
+   "per_year": 22.72
+  },
+  "CPIorNFP_2018-2026_MNQ_strict_time": {
+   "n": 207,
+   "mean": 28.97,
+   "total": 5996.0,
+   "t": 3.3,
+   "median": 17.5,
+   "hit": 0.551,
+   "worst": -318.0,
+   "best": 456.5,
+   "gross_mean": 30.97,
+   "gross_t": 3.53,
+   "net_bp": 9.23,
+   "gross_bp": 10.05,
+   "best5_share": 0.34,
+   "per_year": 23.39
+  },
+  "CPIorNFP_2018-2026_MNQ_time": {
+   "n": 207,
+   "mean": 28.54,
+   "total": 5908.0,
+   "t": 3.25,
+   "median": 16.0,
+   "hit": 0.546,
+   "worst": -318.0,
+   "best": 456.5,
+   "gross_mean": 30.54,
+   "gross_t": 3.48,
+   "net_bp": 9.07,
+   "gross_bp": 9.89,
+   "best5_share": 0.34,
+   "per_year": 23.39
+  },
+  "CPIorNFP_2018-2026_MES_strict_time": {
+   "n": 207,
+   "mean": 4.75,
+   "total": 983.0,
+   "t": 0.96,
+   "median": 0.2500000000000002,
+   "hit": 0.517,
+   "worst": -204.75,
+   "best": 269.0,
+   "gross_mean": 8.25,
+   "gross_t": 1.67,
+   "net_bp": 1.72,
+   "gross_bp": 3.46,
+   "best5_share": 1.2,
+   "per_year": 23.39
+  },
+  "CPIorNFP_2018-2026_MES_time": {
+   "n": 204,
+   "mean": 5.03,
+   "total": 1026.0,
+   "t": 1.01,
+   "median": 0.8750000000000002,
+   "hit": 0.515,
+   "worst": -204.75,
+   "best": 269.0,
+   "gross_mean": 8.53,
+   "gross_t": 1.7,
+   "net_bp": 1.83,
+   "gross_bp": 3.57,
+   "best5_share": 1.15,
+   "per_year": 23.05
+  },
+  "CPIorNFP_2010-2026_MNQ_strict_time": {
+   "n": 383,
+   "mean": 15.77,
+   "total": 6040.5,
+   "t": 3.25,
+   "median": 3.5,
+   "hit": 0.533,
+   "worst": -318.0,
+   "best": 456.5,
+   "gross_mean": 17.77,
+   "gross_t": 3.67,
+   "net_bp": 5.38,
+   "gross_bp": 7.23,
+   "best5_share": 0.33,
+   "per_year": 23.33
+  },
+  "CPIorNFP_2010-2026_MNQ_time": {
+   "n": 383,
+   "mean": 15.48,
+   "total": 5928.0,
+   "t": 3.19,
+   "median": 3.0,
+   "hit": 0.527,
+   "worst": -318.0,
+   "best": 456.5,
+   "gross_mean": 17.48,
+   "gross_t": 3.6,
+   "net_bp": 5.17,
+   "gross_bp": 7.02,
+   "best5_share": 0.34,
+   "per_year": 23.33
+  },
+  "CPIorNFP_2010-2026_MES_strict_time": {
+   "n": 379,
+   "mean": 2.04,
+   "total": 772.25,
+   "t": 0.73,
+   "median": 0.2500000000000002,
+   "hit": 0.501,
+   "worst": -204.75,
+   "best": 269.0,
+   "gross_mean": 5.54,
+   "gross_t": 1.97,
+   "net_bp": 0.52,
+   "gross_bp": 3.37,
+   "best5_share": 1.52,
+   "per_year": 23.08
+  },
+  "CPIorNFP_2010-2026_MES_time": {
+   "n": 376,
+   "mean": 2.19,
+   "total": 822.75,
+   "t": 0.77,
+   "median": -0.9999999999999998,
+   "hit": 0.497,
+   "worst": -204.75,
+   "best": 269.0,
+   "gross_mean": 5.69,
+   "gross_t": 2.01,
+   "net_bp": 0.51,
+   "gross_bp": 3.37,
+   "best5_share": 1.43,
+   "per_year": 22.9
+  }
+ },
+ "criteria_strict_primary": {
+  "mnq_mean_gt0": "True",
+  "mnq_t_gt2": true,
+  "mes_same_sign": "True",
+  "PASS": true
+ },
+ "criteria_literal": {
+  "mnq_mean_gt0": "True",
+  "mnq_t_gt2": true,
+  "mes_same_sign": "True",
+  "PASS": true
+ },
+ "stress": {
+  "strict_time": {
+   "cost_x2_mnq": {
+    "mean": 35.06,
+    "t": 2.63
+   },
+   "cost_x2_mes_mean": -0.17,
+   "cost_x3_mnq": {
+    "mean": 33.06,
+    "t": 2.48
+   },
+   "cost_x3_mes_mean": -3.67,
+   "drop_best1": {
+    "mean": 32.95,
+    "t": 2.57
+   },
+   "drop_best3": {
+    "mean": 25.35,
+    "t": 2.14
+   },
+   "drop_best5": {
+    "mean": 18.45,
+    "t": 1.67
+   },
+   "drop_2026-11-06": {
+    "n": 102,
+    "mean": 33.95,
+    "t": 2.59
+   },
+   "leave_one_year_out_t": {
+    "2018": 2.67,
+    "2019": 2.7,
+    "2020": 3.1,
+    "2021": 2.72,
+    "2022": 2.33,
+    "2023": 2.11,
+    "2024": 2.54,
+    "2025": 2.97,
+    "2026": 2.47
+   },
+   "leave_one_year_out_min_t": 2.11,
+   "bootstrap_mean_95ci": [
+    12.27,
+    62.02
+   ],
+   "wilcoxon_p_two_sided": 0.041,
+   "sign_test_p": 0.431,
+   "random_direction_p_one_sided": 0.004
+  },
+  "time": {
+   "cost_x2_mnq": {
+    "mean": 34.21,
+    "t": 2.56
+   },
+   "cost_x2_mes_mean": 0.33,
+   "cost_x3_mnq": {
+    "mean": 32.21,
+    "t": 2.41
+   },
+   "cost_x3_mes_mean": -3.17,
+   "drop_best1": {
+    "mean": 32.09,
+    "t": 2.5
+   },
+   "drop_best3": {
+    "mean": 24.47,
+    "t": 2.06
+   },
+   "drop_best5": {
+    "mean": 17.55,
+    "t": 1.59
+   },
+   "drop_2026-11-06": {
+    "n": 102,
+    "mean": 33.08,
+    "t": 2.52
+   },
+   "leave_one_year_out_t": {
+    "2018": 2.6,
+    "2019": 2.63,
+    "2020": 3.02,
+    "2021": 2.64,
+    "2022": 2.33,
+    "2023": 2.04,
+    "2024": 2.47,
+    "2025": 2.89,
+    "2026": 2.39
+   },
+   "leave_one_year_out_min_t": 2.04,
+   "bootstrap_mean_95ci": [
+    11.41,
+    61.84
+   ],
+   "wilcoxon_p_two_sided": 0.055,
+   "sign_test_p": 0.555,
+   "random_direction_p_one_sided": 0.007
+  }
+ },
+ "controls": {
+  "X_strict_all_nonrelease_days_2010-2017": {
+   "n": 1668,
+   "mean": -1.37,
+   "t": -2.6
+  },
+  "X_strict_all_nonrelease_days_2018-2026": {
+   "n": 2056,
+   "mean": -2.48,
+   "t": -0.88
+  },
+  "Y_literal_nonrelease_cash_days_2010-2017": {
+   "n": 1648,
+   "mean": -1.25,
+   "t": -2.35
+  },
+  "Y_literal_nonrelease_cash_days_2018-2026": {
+   "n": 1990,
+   "mean": -2.26,
+   "t": -0.78
+  },
+  "X_strict_first_fridays_not_NFP_2018_2026": {
+   "n": 19,
+   "mean": 61.66,
+   "t": 1.77
+  },
+  "abs_signal_move_pts_median_NFP_vs_control_2018_26": [
+   31.25,
+   9.625
+  ]
+ },
+ "correlation_existing": {
+  "L1_NFP_strict": {
+   "all_cash_days_corr": {
+    "expiry_fade": -0.003,
+    "opening_range": -0.034,
+    "overnight_break": 0.004,
+    "all3": -0.021
+   },
+   "L1_days_only_corr": {
+    "expiry_fade": NaN,
+    "opening_range": -0.173,
+    "overnight_break": -0.01,
+    "all3": -0.108
+   },
+   "n_L1_days": 103,
+   "L1_days_not_in_cash_calendar": [],
+   "existing_days_traded_on_L1_days": {
+    "opening_range": 93,
+    "overnight_break": 54,
+    "expiry_fade": 0
+   },
+   "existing_usd_on_L1_days": 3472.0,
+   "worst_combined_day": -444.0,
+   "maxDD_existing": -7949.0,
+   "maxDD_existing_plus_L1": -7555.5,
+   "daily_sharpe_existing": 1.22,
+   "daily_sharpe_plus_L1": 1.3
+  },
+  "L1_CPIorNFP_strict": {
+   "all_cash_days_corr": {
+    "expiry_fade": -0.003,
+    "opening_range": -0.013,
+    "overnight_break": 0.003,
+    "all3": -0.008
+   },
+   "L1_days_only_corr": {
+    "expiry_fade": NaN,
+    "opening_range": -0.041,
+    "overnight_break": -0.005,
+    "all3": -0.031
+   },
+   "n_L1_days": 207,
+   "L1_days_not_in_cash_calendar": [],
+   "existing_days_traded_on_L1_days": {
+    "opening_range": 191,
+    "overnight_break": 92,
+    "expiry_fade": 0
+   },
+   "existing_usd_on_L1_days": 5409.5,
+   "worst_combined_day": -664.5,
+   "maxDD_existing": -7949.0,
+   "maxDD_existing_plus_L1": -7389.0,
+   "daily_sharpe_existing": 1.22,
+   "daily_sharpe_plus_L1": 1.35
+  }
+ },
+ "L2": {
+  "overnight_break": {
+   "2010-2017": {
+    "n_rel": 71,
+    "n_other": 700,
+    "usd": {
+     "rel": -3.056,
+     "other": -0.206,
+     "welch_t": -0.73,
+     "p": 0.47
+    },
+    "R": {
+     "rel": -0.18,
+     "other": -0.019,
+     "welch_t": -0.82,
+     "p": 0.414
+    },
+    "bp": {
+     "rel": -3.68,
+     "other": -0.277,
+     "welch_t": -0.64,
+     "p": 0.521
+    },
+    "rel_plain_t_usd": -0.82,
+    "rel_total_usd": -217.0,
+    "worse_p05": false
+   },
+   "2018-2026": {
+    "n_rel": 93,
+    "n_other": 867,
+    "usd": {
+     "rel": 44.172,
+     "other": 22.453,
+     "welch_t": 0.8,
+     "p": 0.423
+    },
+    "R": {
+     "rel": 0.518,
+     "other": 0.372,
+     "welch_t": 0.64,
+     "p": 0.523
+    },
+    "bp": {
+     "rel": 15.703,
+     "other": 8.348,
+     "welch_t": 0.95,
+     "p": 0.345
+    },
+    "rel_plain_t_usd": 1.7,
+    "rel_total_usd": 4108.0,
+    "worse_p05": false
+   },
+   "all": {
+    "n_rel": 164,
+    "n_other": 1567,
+    "usd": {
+     "rel": 23.726,
+     "other": 12.331,
+     "welch_t": 0.74,
+     "p": 0.462
+    },
+    "R": {
+     "rel": 0.216,
+     "other": 0.198,
+     "welch_t": 0.12,
+     "p": 0.908
+    },
+    "bp": {
+     "rel": 7.312,
+     "other": 4.495,
+     "welch_t": 0.56,
+     "p": 0.574
+    },
+    "rel_plain_t_usd": 1.59,
+    "rel_total_usd": 3891.0,
+    "worse_p05": false
+   },
+   "adopt_skip": false
+  },
+  "opening_range": {
+   "2010-2017": {
+    "n_rel": 138,
+    "n_other": 1416,
+    "usd": {
+     "rel": -1.42,
+     "other": -0.362,
+     "welch_t": -0.33,
+     "p": 0.743
+    },
+    "R": {
+     "rel": -0.181,
+     "other": -0.095,
+     "welch_t": -0.48,
+     "p": 0.634
+    },
+    "bp": {
+     "rel": -1.841,
+     "other": -0.804,
+     "welch_t": -0.23,
+     "p": 0.818
+    },
+    "rel_plain_t_usd": -0.46,
+    "rel_total_usd": -196.0,
+    "worse_p05": false
+   },
+   "2018-2026": {
+    "n_rel": 191,
+    "n_other": 1764,
+    "usd": {
+     "rel": 6.814,
+     "other": 10.683,
+     "welch_t": -0.25,
+     "p": 0.802
+    },
+    "R": {
+     "rel": 0.49,
+     "other": 0.145,
+     "welch_t": 1.23,
+     "p": 0.219
+    },
+    "bp": {
+     "rel": 4.287,
+     "other": 4.233,
+     "welch_t": 0.01,
+     "p": 0.992
+    },
+    "rel_plain_t_usd": 0.47,
+    "rel_total_usd": 1301.5,
+    "worse_p05": false
+   },
+   "all": {
+    "n_rel": 329,
+    "n_other": 3180,
+    "usd": {
+     "rel": 3.36,
+     "other": 5.765,
+     "welch_t": -0.27,
+     "p": 0.789
+    },
+    "R": {
+     "rel": 0.208,
+     "other": 0.038,
+     "welch_t": 0.95,
+     "p": 0.345
+    },
+    "bp": {
+     "rel": 1.716,
+     "other": 1.99,
+     "welch_t": -0.07,
+     "p": 0.942
+    },
+    "rel_plain_t_usd": 0.39,
+    "rel_total_usd": 1105.5,
+    "worse_p05": false
+   },
+   "adopt_skip": false
+  }
+ }
+}

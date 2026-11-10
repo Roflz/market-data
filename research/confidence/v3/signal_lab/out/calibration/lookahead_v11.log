@@ -1,0 +1,102 @@
+[ES 60m lookahead] next_bar_direction: flagged 5/5 seeds, share 0.9530, old 3-cut test missed 0/10
+[ES 60m lookahead] whole_sample_zscore: flagged 5/5 seeds, share 0.9860, old 3-cut test missed 0/10
+[ES 60m lookahead] centred_average: flagged 5/5 seeds, share 0.9867, old 3-cut test missed 0/10
+[ES 60m lookahead] inside_bar_next_breakout: flagged 5/5 seeds, share 0.0635, old 3-cut test missed 7/10
+[ES 60m lookahead] big_bar_next_close_beyond: flagged 5/5 seeds, share 0.0289, old 3-cut test missed 10/10
+[ES 60m lookahead] big_bar_next_open_gap: flagged 5/5 seeds, share 0.0907, old 3-cut test missed 7/10
+[ES 60m lookahead] very_rare_next_bar_continues: flagged 5/5 seeds, share 0.0117, old 3-cut test missed 10/10
+[ES 60m lookahead] honest_ema20_gap: flagged 0/5 seeds, share 0.9860
+[ES 60m lookahead] honest_inside_bar: flagged 0/5 seeds, share 0.1193
+[ES 60m lookahead] ema20_gap: flagged 0/2 seeds, share 0.9860
+[ES 60m lookahead] momentum14: flagged 0/2 seeds, share 0.9814
+[ES 60m lookahead] above_vwap: flagged 0/2 seeds, share 0.5541
+[ES 60m lookahead] big_bar_follow: flagged 0/2 seeds, share 0.0960
+[ES 60m lookahead] bar_return: flagged 0/2 seeds, share 0.9409
+[ES 60m lookahead] back4_return: flagged 0/2 seeds, share 0.7975
+[ES 60m lookahead] range_ratio: flagged 0/2 seeds, share 0.9864
+[ES 60m lookahead] done 28s: next_bar_direction INVALID (LOOK-AHEAD), whole_sample_zscore INVALID (LOOK-AHEAD), centred_average INVALID (LOOK-AHEAD), inside_bar_next_breakout INVALID (LOOK-AHEAD), big_bar_next_close_beyond INVALID (LOOK-AHEAD), big_bar_next_open_gap INVALID (LOOK-AHEAD), very_rare_next_bar_continues INVALID (LOOK-AHEAD), honest_ema20_gap CONFIDENTLY NOTHING, honest_inside_bar CONFIDENTLY NOTHING
+[ES 15m lookahead] next_bar_direction: flagged 5/5 seeds, share 0.9077, old 3-cut test missed 0/10
+[ES 15m lookahead] whole_sample_zscore: flagged 5/5 seeds, share 0.9964, old 3-cut test missed 0/10
+[ES 15m lookahead] centred_average: flagged 5/5 seeds, share 0.9729, old 3-cut test missed 0/10
+[ES 15m lookahead] inside_bar_next_breakout: flagged 5/5 seeds, share 0.0484, old 3-cut test missed 7/10
+[ES 15m lookahead] big_bar_next_close_beyond: flagged 5/5 seeds, share 0.0204, old 3-cut test missed 8/10
+[ES 15m lookahead] big_bar_next_open_gap: flagged 5/5 seeds, share 0.0752, old 3-cut test missed 6/10
+[ES 15m lookahead] very_rare_next_bar_continues: flagged 5/5 seeds, share 0.0087, old 3-cut test missed 10/10
+[ES 15m lookahead] honest_ema20_gap: flagged 0/5 seeds, share 0.9964
+[ES 15m lookahead] honest_inside_bar: flagged 0/5 seeds, share 0.0877
+[ES 15m lookahead] ema20_gap: flagged 0/2 seeds, share 0.9964
+[ES 15m lookahead] momentum14: flagged 0/2 seeds, share 0.9750
+[ES 15m lookahead] above_vwap: flagged 0/2 seeds, share 0.5530
+[ES 15m lookahead] big_bar_follow: flagged 0/2 seeds, share 0.0743
+[ES 15m lookahead] bar_return: flagged 0/2 seeds, share 0.9036
+[ES 15m lookahead] back4_return: flagged 0/2 seeds, share 0.9086
+[ES 15m lookahead] range_ratio: flagged 0/2 seeds, share 0.9957
+[ES 15m lookahead] done 54s: next_bar_direction INVALID (LOOK-AHEAD), whole_sample_zscore INVALID (LOOK-AHEAD), centred_average INVALID (LOOK-AHEAD), inside_bar_next_breakout INVALID (LOOK-AHEAD), big_bar_next_close_beyond INVALID (LOOK-AHEAD), big_bar_next_open_gap INVALID (LOOK-AHEAD), very_rare_next_bar_continues INVALID (LOOK-AHEAD), honest_ema20_gap CONFIDENTLY NOTHING, honest_inside_bar CONFIDENTLY NOTHING
+[NQ 60m lookahead] next_bar_direction: flagged 5/5 seeds, share 0.9798, old 3-cut test missed 0/10
+[NQ 60m lookahead] whole_sample_zscore: flagged 5/5 seeds, share 0.9860, old 3-cut test missed 0/10
+[NQ 60m lookahead] centred_average: flagged 5/5 seeds, share 0.9945, old 3-cut test missed 0/10
+[NQ 60m lookahead] inside_bar_next_breakout: flagged 5/5 seeds, share 0.0780, old 3-cut test missed 7/10
+[NQ 60m lookahead] big_bar_next_close_beyond: flagged 5/5 seeds, share 0.0364, old 3-cut test missed 10/10
+[NQ 60m lookahead] big_bar_next_open_gap: flagged 5/5 seeds, share 0.1282, old 3-cut test missed 6/10
+[NQ 60m lookahead] very_rare_next_bar_continues: flagged 5/5 seeds, share 0.0173, old 3-cut test missed 10/10
+[NQ 60m lookahead] honest_ema20_gap: flagged 0/5 seeds, share 0.9860
+[NQ 60m lookahead] honest_inside_bar: flagged 0/5 seeds, share 0.1464
+[NQ 60m lookahead] ema20_gap: flagged 0/2 seeds, share 0.9860
+[NQ 60m lookahead] momentum14: flagged 0/2 seeds, share 0.9867
+[NQ 60m lookahead] above_vwap: flagged 0/2 seeds, share 0.5571
+[NQ 60m lookahead] big_bar_follow: flagged 0/2 seeds, share 0.1141
+[NQ 60m lookahead] bar_return: flagged 0/2 seeds, share 0.9671
+[NQ 60m lookahead] back4_return: flagged 0/2 seeds, share 0.8070
+[NQ 60m lookahead] range_ratio: flagged 0/2 seeds, share 0.9864
+[NQ 60m lookahead] done 28s: next_bar_direction INVALID (LOOK-AHEAD), whole_sample_zscore INVALID (LOOK-AHEAD), centred_average INVALID (LOOK-AHEAD), inside_bar_next_breakout INVALID (LOOK-AHEAD), big_bar_next_close_beyond INVALID (LOOK-AHEAD), big_bar_next_open_gap INVALID (LOOK-AHEAD), very_rare_next_bar_continues INVALID (LOOK-AHEAD), honest_ema20_gap INCONCLUSIVE, honest_inside_bar INCONCLUSIVE
+[NQ 15m lookahead] next_bar_direction: flagged 5/5 seeds, share 0.9605, old 3-cut test missed 0/10
+[NQ 15m lookahead] whole_sample_zscore: flagged 5/5 seeds, share 0.9964, old 3-cut test missed 0/10
+[NQ 15m lookahead] centred_average: flagged 5/5 seeds, share 0.9882, old 3-cut test missed 0/10
+[NQ 15m lookahead] inside_bar_next_breakout: flagged 5/5 seeds, share 0.0691, old 3-cut test missed 8/10
+[NQ 15m lookahead] big_bar_next_close_beyond: flagged 5/5 seeds, share 0.0255, old 3-cut test missed 8/10
+[NQ 15m lookahead] big_bar_next_open_gap: flagged 5/5 seeds, share 0.1130, old 3-cut test missed 7/10
+[NQ 15m lookahead] very_rare_next_bar_continues: flagged 5/5 seeds, share 0.0132, old 3-cut test missed 8/10
+[NQ 15m lookahead] honest_ema20_gap: flagged 0/5 seeds, share 0.9964
+[NQ 15m lookahead] honest_inside_bar: flagged 0/5 seeds, share 0.1227
+[NQ 15m lookahead] ema20_gap: flagged 0/2 seeds, share 0.9964
+[NQ 15m lookahead] momentum14: flagged 0/2 seeds, share 0.9884
+[NQ 15m lookahead] above_vwap: flagged 0/2 seeds, share 0.5559
+[NQ 15m lookahead] big_bar_follow: flagged 0/2 seeds, share 0.0860
+[NQ 15m lookahead] bar_return: flagged 0/2 seeds, share 0.9563
+[NQ 15m lookahead] back4_return: flagged 0/2 seeds, share 0.9340
+[NQ 15m lookahead] range_ratio: flagged 0/2 seeds, share 0.9958
+[NQ 15m lookahead] done 54s: next_bar_direction INVALID (LOOK-AHEAD), whole_sample_zscore INVALID (LOOK-AHEAD), centred_average INVALID (LOOK-AHEAD), inside_bar_next_breakout INVALID (LOOK-AHEAD), big_bar_next_close_beyond INVALID (LOOK-AHEAD), big_bar_next_open_gap INVALID (LOOK-AHEAD), very_rare_next_bar_continues INVALID (LOOK-AHEAD), honest_ema20_gap INCONCLUSIVE, honest_inside_bar CONFIDENTLY NOTHING
+[YM 60m lookahead] next_bar_direction: flagged 5/5 seeds, share 0.9860, old 3-cut test missed 0/10
+[YM 60m lookahead] whole_sample_zscore: flagged 5/5 seeds, share 0.9860, old 3-cut test missed 0/10
+[YM 60m lookahead] centred_average: flagged 5/5 seeds, share 0.9963, old 3-cut test missed 0/10
+[YM 60m lookahead] inside_bar_next_breakout: flagged 5/5 seeds, share 0.0806, old 3-cut test missed 9/10
+[YM 60m lookahead] big_bar_next_close_beyond: flagged 5/5 seeds, share 0.0322, old 3-cut test missed 10/10
+[YM 60m lookahead] big_bar_next_open_gap: flagged 5/5 seeds, share 0.1354, old 3-cut test missed 2/10
+[YM 60m lookahead] very_rare_next_bar_continues: flagged 5/5 seeds, share 0.0153, old 3-cut test missed 10/10
+[YM 60m lookahead] honest_ema20_gap: flagged 0/5 seeds, share 0.9860
+[YM 60m lookahead] honest_inside_bar: flagged 0/5 seeds, share 0.1490
+[YM 60m lookahead] ema20_gap: flagged 0/2 seeds, share 0.9860
+[YM 60m lookahead] momentum14: flagged 0/2 seeds, share 0.9876
+[YM 60m lookahead] above_vwap: flagged 0/2 seeds, share 0.5469
+[YM 60m lookahead] big_bar_follow: flagged 0/2 seeds, share 0.1051
+[YM 60m lookahead] bar_return: flagged 0/2 seeds, share 0.9736
+[YM 60m lookahead] back4_return: flagged 0/2 seeds, share 0.8092
+[YM 60m lookahead] range_ratio: flagged 0/2 seeds, share 0.9862
+[YM 60m lookahead] done 16s: next_bar_direction INVALID (LOOK-AHEAD), whole_sample_zscore INVALID (LOOK-AHEAD), centred_average INVALID (LOOK-AHEAD), inside_bar_next_breakout INVALID (LOOK-AHEAD), big_bar_next_close_beyond INVALID (LOOK-AHEAD), big_bar_next_open_gap INVALID (LOOK-AHEAD), very_rare_next_bar_continues INVALID (LOOK-AHEAD), honest_ema20_gap INCONCLUSIVE, honest_inside_bar INCONCLUSIVE
+[YM 15m lookahead] next_bar_direction: flagged 5/5 seeds, share 0.9725, old 3-cut test missed 0/10
+[YM 15m lookahead] whole_sample_zscore: flagged 5/5 seeds, share 0.9964, old 3-cut test missed 0/10
+[YM 15m lookahead] centred_average: flagged 5/5 seeds, share 0.9916, old 3-cut test missed 0/10
+[YM 15m lookahead] inside_bar_next_breakout: flagged 5/5 seeds, share 0.0709, old 3-cut test missed 7/10
+[YM 15m lookahead] big_bar_next_close_beyond: flagged 5/5 seeds, share 0.0243, old 3-cut test missed 10/10
+[YM 15m lookahead] big_bar_next_open_gap: flagged 5/5 seeds, share 0.1176, old 3-cut test missed 6/10
+[YM 15m lookahead] very_rare_next_bar_continues: flagged 5/5 seeds, share 0.0115, old 3-cut test missed 10/10
+[YM 15m lookahead] honest_ema20_gap: flagged 0/5 seeds, share 0.9964
+[YM 15m lookahead] honest_inside_bar: flagged 0/5 seeds, share 0.1277
+[YM 15m lookahead] ema20_gap: flagged 0/2 seeds, share 0.9964
+[YM 15m lookahead] momentum14: flagged 0/2 seeds, share 0.9910
+[YM 15m lookahead] above_vwap: flagged 0/2 seeds, share 0.5453
+[YM 15m lookahead] big_bar_follow: flagged 0/2 seeds, share 0.0814
+[YM 15m lookahead] bar_return: flagged 0/2 seeds, share 0.9687
+[YM 15m lookahead] back4_return: flagged 0/2 seeds, share 0.9399
+[YM 15m lookahead] range_ratio: flagged 0/2 seeds, share 0.9958
+[YM 15m lookahead] done 28s: next_bar_direction INVALID (LOOK-AHEAD), whole_sample_zscore INVALID (LOOK-AHEAD), centred_average INVALID (LOOK-AHEAD), inside_bar_next_breakout INVALID (LOOK-AHEAD), big_bar_next_close_beyond INVALID (LOOK-AHEAD), big_bar_next_open_gap INVALID (LOOK-AHEAD), very_rare_next_bar_continues INVALID (LOOK-AHEAD), honest_ema20_gap CONFIDENTLY NOTHING, honest_inside_bar CONFIDENTLY NOTHING

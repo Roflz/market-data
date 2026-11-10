@@ -1,0 +1,486 @@
+{
+ "agreement": {
+  "T1": {
+   "decisions_equal": 3509,
+   "n": 3509,
+   "c934_adj": {
+    "max_abs_diff": 0.0,
+    "nan_mismatch": 0
+   },
+   "prev_ema20_adj": {
+    "max_abs_diff": 0.0,
+    "nan_mismatch": 0
+   },
+   "trend": {
+    "max_abs_diff": 0.0,
+    "nan_mismatch": 0
+   }
+  },
+  "T2": {
+   "decisions_equal": 3509,
+   "n": 3509,
+   "open930_adj": {
+    "max_abs_diff": 0.0,
+    "nan_mismatch": 0
+   },
+   "prev_close_adj": {
+    "max_abs_diff": 0.0,
+    "nan_mismatch": 0
+   },
+   "gap": {
+    "max_abs_diff": 0.0,
+    "nan_mismatch": 0
+   }
+  },
+  "T3": {
+   "decisions_equal": 3509,
+   "n": 3509,
+   "fc_range": {
+    "max_abs_diff": 0.0,
+    "nan_mismatch": 0
+   },
+   "fc_med20": {
+    "max_abs_diff": 0.0,
+    "nan_mismatch": 0
+   }
+  },
+  "T4": {
+   "decisions_equal": 3509,
+   "n": 3509,
+   "on_range": {
+    "max_abs_diff": 0.0,
+    "nan_mismatch": 0
+   },
+   "on_med20": {
+    "max_abs_diff": 0.0,
+    "nan_mismatch": 0
+   }
+  }
+ },
+ "results": {
+  "T1": {
+   "kept": 1806,
+   "removed": 1703,
+   "share_removed": 0.4853234539754916,
+   "kept_usd": 15353.0,
+   "removed_usd": 4085.0,
+   "rem_10_17": -181.5,
+   "rem_18_26": 4266.5,
+   "kept_pt": 8.50110741971207,
+   "rem_pt": 2.398708162066941,
+   "t": 1.115171232009705,
+   "df": 3466.0902164754343,
+   "p1": 0.13242718191223773,
+   "dd0": 4351.5,
+   "dd1": 2401.5,
+   "w0": -407.0,
+   "w1": -390.0,
+   "book": {
+    "net0": 50657.0,
+    "net1": 46572.0,
+    "dd0": 7949.0,
+    "dd1": 4435.0,
+    "w0": -758.0,
+    "w1": -740.5
+   },
+   "a": false,
+   "b": false,
+   "c": true,
+   "holm_rule_b": null,
+   "two_tick": {
+    "kept": 1806,
+    "removed": 1703,
+    "share_removed": 0.4853234539754916,
+    "kept_usd": 13547.0,
+    "removed_usd": 2382.0,
+    "rem_10_17": -972.5,
+    "rem_18_26": 3354.5,
+    "kept_pt": 7.501107419712071,
+    "rem_pt": 1.3987081620669406,
+    "t": 1.115171232009705,
+    "df": 3466.0902164754343,
+    "p1": 0.13242718191223773,
+    "dd0": 4487.5,
+    "dd1": 2432.5,
+    "w0": -408.0,
+    "w1": -391.0,
+    "book": {
+     "net0": 45220.0,
+     "net1": 42838.0,
+     "dd0": 8181.0,
+     "dd1": 4563.0,
+     "w0": -760.0,
+     "w1": -742.5
+    },
+    "a": false,
+    "b": false,
+    "c": true,
+    "passed": false
+   },
+   "passed": false,
+   "eras": {
+    "2010-13": {
+     "n": 695,
+     "removed": 337,
+     "kept_usd": -176.5,
+     "removed_usd": -417.5,
+     "removed_usd_2tick": -754.5
+    },
+    "2014-17": {
+     "n": 859,
+     "removed": 454,
+     "kept_usd": -350.0,
+     "removed_usd": 236.0,
+     "removed_usd_2tick": -218.0
+    },
+    "2018-20": {
+     "n": 647,
+     "removed": 301,
+     "kept_usd": 4689.5,
+     "removed_usd": 81.5,
+     "removed_usd_2tick": -219.5
+    },
+    "2021-23": {
+     "n": 663,
+     "removed": 299,
+     "kept_usd": 5397.0,
+     "removed_usd": 2545.0,
+     "removed_usd_2tick": 2246.0
+    },
+    "2024-26": {
+     "n": 645,
+     "removed": 312,
+     "kept_usd": 5793.0,
+     "removed_usd": 1640.0,
+     "removed_usd_2tick": 1328.0
+    },
+    "2023-26": {
+     "n": 871,
+     "removed": 406,
+     "kept_usd": 5765.5,
+     "removed_usd": 1550.5,
+     "removed_usd_2tick": 1144.5
+    }
+   },
+   "p_holm": 0.5297087276489509
+  },
+  "T2": {
+   "kept": 1657,
+   "removed": 1852,
+   "share_removed": 0.5277856939298946,
+   "kept_usd": 11043.0,
+   "removed_usd": 8395.0,
+   "rem_10_17": -339.0,
+   "rem_18_26": 8734.0,
+   "kept_pt": 6.664453832226916,
+   "rem_pt": 4.532937365010799,
+   "t": 0.39153441526409505,
+   "df": 3505.3390673624326,
+   "p1": 0.3477130270212814,
+   "dd0": 4351.5,
+   "dd1": 2251.0,
+   "w0": -407.0,
+   "w1": -407.0,
+   "book": {
+    "net0": 50657.0,
+    "net1": 42262.0,
+    "dd0": 7949.0,
+    "dd1": 5197.0,
+    "w0": -758.0,
+    "w1": -758.0
+   },
+   "a": false,
+   "b": false,
+   "c": true,
+   "holm_rule_b": null,
+   "two_tick": {
+    "kept": 1657,
+    "removed": 1852,
+    "share_removed": 0.5277856939298946,
+    "kept_usd": 9386.0,
+    "removed_usd": 6543.0,
+    "rem_10_17": -1162.0,
+    "rem_18_26": 7705.0,
+    "kept_pt": 5.664453832226916,
+    "rem_pt": 3.5329373650107994,
+    "t": 0.391534415264095,
+    "df": 3505.3390673624326,
+    "p1": 0.3477130270212814,
+    "dd0": 4487.5,
+    "dd1": 2384.0,
+    "w0": -408.0,
+    "w1": -408.0,
+    "book": {
+     "net0": 45220.0,
+     "net1": 38677.0,
+     "dd0": 8181.0,
+     "dd1": 5343.0,
+     "w0": -760.0,
+     "w1": -760.0
+    },
+    "a": false,
+    "b": false,
+    "c": true,
+    "passed": false
+   },
+   "passed": false,
+   "eras": {
+    "2010-13": {
+     "n": 695,
+     "removed": 359,
+     "kept_usd": -269.5,
+     "removed_usd": -324.5,
+     "removed_usd_2tick": -683.5
+    },
+    "2014-17": {
+     "n": 859,
+     "removed": 464,
+     "kept_usd": -99.5,
+     "removed_usd": -14.5,
+     "removed_usd_2tick": -478.5
+    },
+    "2018-20": {
+     "n": 647,
+     "removed": 343,
+     "kept_usd": 3750.0,
+     "removed_usd": 1021.0,
+     "removed_usd_2tick": 678.0
+    },
+    "2021-23": {
+     "n": 663,
+     "removed": 339,
+     "kept_usd": 2873.0,
+     "removed_usd": 5069.0,
+     "removed_usd_2tick": 4730.0
+    },
+    "2024-26": {
+     "n": 645,
+     "removed": 347,
+     "kept_usd": 4789.0,
+     "removed_usd": 2644.0,
+     "removed_usd_2tick": 2297.0
+    },
+    "2023-26": {
+     "n": 871,
+     "removed": 455,
+     "kept_usd": 3777.0,
+     "removed_usd": 3539.0,
+     "removed_usd_2tick": 3084.0
+    }
+   },
+   "p_holm": 1.0
+  },
+  "T3": {
+   "kept": 1809,
+   "removed": 1700,
+   "share_removed": 0.4844685095468795,
+   "kept_usd": 11060.0,
+   "removed_usd": 8378.0,
+   "rem_10_17": -859.0,
+   "rem_18_26": 9237.0,
+   "kept_pt": 6.11387506909895,
+   "rem_pt": 4.9282352941176475,
+   "t": 0.22001066965002886,
+   "df": 3029.9963978579294,
+   "p1": 0.41293883311690827,
+   "dd0": 4351.5,
+   "dd1": 3856.0,
+   "w0": -407.0,
+   "w1": -407.0,
+   "book": {
+    "net0": 50657.0,
+    "net1": 42279.0,
+    "dd0": 7949.0,
+    "dd1": 6448.5,
+    "w0": -758.0,
+    "w1": -758.0
+   },
+   "a": false,
+   "b": false,
+   "c": true,
+   "holm_rule_b": null,
+   "two_tick": {
+    "kept": 1809,
+    "removed": 1700,
+    "share_removed": 0.4844685095468795,
+    "kept_usd": 9251.0,
+    "removed_usd": 6678.0,
+    "rem_10_17": -1587.0,
+    "rem_18_26": 8265.0,
+    "kept_pt": 5.11387506909895,
+    "rem_pt": 3.928235294117647,
+    "t": 0.22001066965002894,
+    "df": 3029.9963978579294,
+    "p1": 0.4129388331169082,
+    "dd0": 4487.5,
+    "dd1": 3960.0,
+    "w0": -408.0,
+    "w1": -408.0,
+    "book": {
+     "net0": 45220.0,
+     "net1": 38542.0,
+     "dd0": 8181.0,
+     "dd1": 6581.5,
+     "w0": -760.0,
+     "w1": -760.0
+    },
+    "a": false,
+    "b": false,
+    "c": true,
+    "passed": false
+   },
+   "passed": false,
+   "eras": {
+    "2010-13": {
+     "n": 695,
+     "removed": 310,
+     "kept_usd": -9.5,
+     "removed_usd": -584.5,
+     "removed_usd_2tick": -894.5
+    },
+    "2014-17": {
+     "n": 859,
+     "removed": 418,
+     "kept_usd": 160.5,
+     "removed_usd": -274.5,
+     "removed_usd_2tick": -692.5
+    },
+    "2018-20": {
+     "n": 647,
+     "removed": 330,
+     "kept_usd": 2117.5,
+     "removed_usd": 2653.5,
+     "removed_usd_2tick": 2323.5
+    },
+    "2021-23": {
+     "n": 663,
+     "removed": 336,
+     "kept_usd": 1329.0,
+     "removed_usd": 6613.0,
+     "removed_usd_2tick": 6277.0
+    },
+    "2024-26": {
+     "n": 645,
+     "removed": 306,
+     "kept_usd": 7462.5,
+     "removed_usd": -29.5,
+     "removed_usd_2tick": -335.5
+    },
+    "2023-26": {
+     "n": 871,
+     "removed": 424,
+     "kept_usd": 6491.0,
+     "removed_usd": 825.0,
+     "removed_usd_2tick": 401.0
+    }
+   },
+   "p_holm": 1.0
+  },
+  "T4": {
+   "kept": 1782,
+   "removed": 1727,
+   "share_removed": 0.49216300940438873,
+   "kept_usd": 6927.5,
+   "removed_usd": 12510.5,
+   "rem_10_17": -878.5,
+   "rem_18_26": 13389.0,
+   "kept_pt": 3.8874859708193044,
+   "rem_pt": 7.244064852345107,
+   "t": -0.6103817925569397,
+   "df": 2921.5281459635958,
+   "p1": 0.7291717986057207,
+   "dd0": 4351.5,
+   "dd1": 5697.5,
+   "w0": -407.0,
+   "w1": -390.0,
+   "book": {
+    "net0": 50657.0,
+    "net1": 38146.5,
+    "dd0": 7949.0,
+    "dd1": 6080.0,
+    "w0": -758.0,
+    "w1": -758.0
+   },
+   "a": false,
+   "b": false,
+   "c": false,
+   "holm_rule_b": null,
+   "two_tick": {
+    "kept": 1782,
+    "removed": 1727,
+    "share_removed": 0.49216300940438873,
+    "kept_usd": 5145.5,
+    "removed_usd": 10783.5,
+    "rem_10_17": -1646.5,
+    "rem_18_26": 12430.0,
+    "kept_pt": 2.8874859708193044,
+    "rem_pt": 6.244064852345107,
+    "t": -0.6103817925569397,
+    "df": 2921.5281459635958,
+    "p1": 0.7291717986057207,
+    "dd0": 4487.5,
+    "dd1": 5925.5,
+    "w0": -408.0,
+    "w1": -391.0,
+    "book": {
+     "net0": 45220.0,
+     "net1": 34436.5,
+     "dd0": 8181.0,
+     "dd1": 6204.0,
+     "w0": -760.0,
+     "w1": -760.0
+    },
+    "a": false,
+    "b": false,
+    "c": false,
+    "passed": false
+   },
+   "passed": false,
+   "eras": {
+    "2010-13": {
+     "n": 695,
+     "removed": 346,
+     "kept_usd": -267.0,
+     "removed_usd": -327.0,
+     "removed_usd_2tick": -673.0
+    },
+    "2014-17": {
+     "n": 859,
+     "removed": 422,
+     "kept_usd": 437.5,
+     "removed_usd": -551.5,
+     "removed_usd_2tick": -973.5
+    },
+    "2018-20": {
+     "n": 647,
+     "removed": 307,
+     "kept_usd": 3255.5,
+     "removed_usd": 1515.5,
+     "removed_usd_2tick": 1208.5
+    },
+    "2021-23": {
+     "n": 663,
+     "removed": 329,
+     "kept_usd": 6192.0,
+     "removed_usd": 1750.0,
+     "removed_usd_2tick": 1421.0
+    },
+    "2024-26": {
+     "n": 645,
+     "removed": 323,
+     "kept_usd": -2690.5,
+     "removed_usd": 10123.5,
+     "removed_usd_2tick": 9800.5
+    },
+    "2023-26": {
+     "n": 871,
+     "removed": 437,
+     "kept_usd": -2090.0,
+     "removed_usd": 9406.0,
+     "removed_usd_2tick": 8969.0
+    }
+   },
+   "p_holm": 1.0
+  }
+ }
+}

@@ -1,0 +1,74 @@
+### calib_positive_controls.py  (run 2026-11-09 12:45, 15-min/5/60-min v3 bars, pre-holdout)
+===== ES 15-min, 3877 sessions 2010-06-06..2025-06-30
+TOD median range (pts): 03:00 3.25 | 08:15 2.25 | 08:30 3.25 | 09:30 6.50 | 12:00 3.50 | 15:45 5.00 | 16:30 1.75 | 20:00 2.00
+  2010-17: 08:30/08:15 = 1.29  09:30/12:00 = 2.12  09:30/03:00 = 1.89
+  2018-25H1: 08:30/08:15 = 1.38  09:30/12:00 = 1.79  09:30/03:00 = 2.15
+VOL CLUSTERING  IC(R20/slot-profile, next-bar range/slot-profile) pooled = 0.737 (n=343377)
+   per-session mean IC 0.085  NW t 15.0  sessions 3877
+   raw IC(R20, next range) (incl. time-of-day) = 0.768
+   IC(this bar range/prof, next range/prof) = 0.793
+LEVERAGE  IC(past-4-bar return in R20, next-4-bar range / profile) = -0.057 (expect < 0)
+DIRECTION  IC(bar ret, next bar ret) = -0.0224 ; IC(back4, fwd4) = -0.0139
+  overnight 18:00-09:30    2010-17: mean +0.53 pts/session  t +2.6  n 1895
+  overnight 18:00-09:30    2018-20: mean +2.17 pts/session  t +2.4  n 760
+  overnight 18:00-09:30    2021-25H1: mean +0.43 pts/session  t +0.5  n 1139
+  Euro open 02:00-03:00    2010-17: mean +0.24 pts/session  t +5.0  n 1934
+  Euro open 02:00-03:00    2018-20: mean +0.42 pts/session  t +2.0  n 775
+  Euro open 02:00-03:00    2021-25H1: mean -0.13 pts/session  t -0.7  n 1160
+  RTH 09:30-16:00          2010-17: mean +0.47 pts/session  t +1.8  n 1886
+  RTH 09:30-16:00          2018-20: mean -0.14 pts/session  t -0.1  n 748
+  RTH 09:30-16:00          2021-25H1: mean +1.19 pts/session  t +0.9  n 1119
+  16:00-16:45              2010-17: mean +0.07 pts/session  t +1.5  n 1886
+  16:00-16:45              2018-20: mean +0.36 pts/session  t +1.7  n 748
+  16:00-16:45              2021-25H1: mean +0.18 pts/session  t +0.8  n 1119
+  INTRADAY MOMENTUM corr(18:00->10:00, 15:30->16:00) 2010-17: +0.026 n 1844  (t ~ +1.1)
+  INTRADAY MOMENTUM corr(18:00->10:00, 15:30->16:00) 2018-25H1: +0.014 n 1836  (t ~ +0.6)
+  DAY VOL CLUSTERING corr(log RTH mark-range yesterday, today) = nan
+===== NQ 15-min, 3877 sessions 2010-06-06..2025-06-30
+TOD median range (pts): 03:00 8.75 | 08:15 6.50 | 08:30 9.00 | 09:30 23.25 | 12:00 10.75 | 15:45 13.25 | 16:30 5.00 | 20:00 5.75
+  2010-17: 08:30/08:15 = 1.31  09:30/12:00 = 2.40  09:30/03:00 = 2.67
+  2018-25H1: 08:30/08:15 = 1.35  09:30/12:00 = 2.13  09:30/03:00 = 2.90
+VOL CLUSTERING  IC(R20/slot-profile, next-bar range/slot-profile) pooled = 0.840 (n=343221)
+   per-session mean IC 0.072  NW t 11.1  sessions 3877
+   raw IC(R20, next range) (incl. time-of-day) = 0.858
+   IC(this bar range/prof, next range/prof) = 0.886
+LEVERAGE  IC(past-4-bar return in R20, next-4-bar range / profile) = -0.049 (expect < 0)
+DIRECTION  IC(bar ret, next bar ret) = -0.0184 ; IC(back4, fwd4) = -0.0095
+  overnight 18:00-09:30    2010-17: mean +1.53 pts/session  t +3.3  n 1885
+  overnight 18:00-09:30    2018-20: mean +6.63 pts/session  t +2.3  n 760
+  overnight 18:00-09:30    2021-25H1: mean +1.90 pts/session  t +0.5  n 1138
+  Euro open 02:00-03:00    2010-17: mean +0.52 pts/session  t +5.0  n 1934
+  Euro open 02:00-03:00    2018-20: mean +1.31 pts/session  t +1.9  n 775
+  Euro open 02:00-03:00    2021-25H1: mean +0.14 pts/session  t +0.2  n 1160
+  RTH 09:30-16:00          2010-17: mean +0.73 pts/session  t +1.1  n 1886
+  RTH 09:30-16:00          2018-20: mean +2.18 pts/session  t +0.6  n 748
+  RTH 09:30-16:00          2021-25H1: mean +3.75 pts/session  t +0.7  n 1119
+  16:00-16:45              2010-17: mean +0.45 pts/session  t +3.0  n 1886
+  16:00-16:45              2018-20: mean +1.92 pts/session  t +2.4  n 748
+  16:00-16:45              2021-25H1: mean +0.74 pts/session  t +0.6  n 1119
+  INTRADAY MOMENTUM corr(18:00->10:00, 15:30->16:00) 2010-17: -0.021 n 1834  (t ~ -0.9)
+  INTRADAY MOMENTUM corr(18:00->10:00, 15:30->16:00) 2018-25H1: +0.006 n 1835  (t ~ +0.2)
+  DAY VOL CLUSTERING corr(log RTH mark-range yesterday, today) = nan
+### calib_positive_controls_by_year.py  (run 2026-11-09 12:45, 15-min/5/60-min v3 bars, pre-holdout)
+ES next-bar reversal IC by year: -0.032 -0.023 -0.023 -0.033 -0.025 -0.034 -0.042 -0.043 -0.011 -0.028 -0.026 -0.023 -0.002 -0.012 -0.015 -0.023 | neg years 16 /16
+ES leverage IC by year:         -0.072 -0.073 -0.059 -0.082 -0.086 -0.046 -0.053 -0.060 -0.118 -0.092 -0.110 -0.132 -0.063 -0.071 -0.097 -0.129 | neg years 16 /16
+ES 8:30 bar median range: first-Friday 11.00 vs other days 3.00 (ratio 3.67); 8:15 bar 2.25
+ES DAY vol clustering corr(log RTH mark-range yesterday, today) = 0.66  n 3861
+NQ next-bar reversal IC by year: -0.016 -0.014 -0.020 -0.031 -0.027 -0.030 -0.039 -0.041 -0.003 -0.027 -0.010 -0.018 +0.002 -0.006 -0.012 -0.025 | neg years 15 /16
+NQ leverage IC by year:         -0.048 -0.072 -0.062 -0.078 -0.103 -0.060 -0.059 -0.086 -0.121 -0.100 -0.131 -0.124 -0.047 -0.065 -0.098 -0.132 | neg years 16 /16
+NQ 8:30 bar median range: first-Friday 27.62 vs other days 8.25 (ratio 3.35); 8:15 bar 6.50
+NQ DAY vol clustering corr(log RTH mark-range yesterday, today) = 0.76  n 3861
+YM next-bar reversal IC by year: +nan +nan +nan +nan +nan +nan +nan +nan -0.011 -0.031 -0.027 -0.035 -0.014 -0.009 -0.013 -0.026 | neg years 8 /16
+YM leverage IC by year:         +nan +nan +nan +nan +nan +nan +nan +nan -0.104 -0.073 -0.082 -0.105 -0.066 -0.065 -0.054 -0.108 | neg years 8 /16
+YM 8:30 bar median range: first-Friday 134.00 vs other days 39.00 (ratio 3.44); 8:15 bar 29.00
+YM DAY vol clustering corr(log RTH mark-range yesterday, today) = 0.47  n 1927
+### calib_cost_in_r20.py  (run 2026-11-09 12:45, 15-min/5/60-min v3 bars, pre-holdout)
+ES  5m cost 0.90 pts:  10-17: cost/R20 median all 0.97 RTH 0.59 | sd fwd1 0.71 fwd4 1.39 R20 | median R20 0.93 pts  ||  18-25H1: cost/R20 median all 0.39 RTH 0.22 | sd fwd1 nan fwd4 nan R20 | median R20 2.31 pts
+ES 15m cost 0.90 pts:  10-17: cost/R20 median all 0.54 RTH 0.37 | sd fwd1 0.73 fwd4 1.49 R20 | median R20 1.66 pts  ||  18-25H1: cost/R20 median all 0.21 RTH 0.14 | sd fwd1 nan fwd4 nan R20 | median R20 4.26 pts
+ES 60m cost 0.90 pts:  10-17: cost/R20 median all 0.26 RTH 0.27 | sd fwd1 0.75 fwd4 1.55 R20 | median R20 3.41 pts  ||  18-25H1: cost/R20 median all 0.10 RTH 0.10 | sd fwd1 0.81 fwd4 1.66 R20 | median R20 9.35 pts
+NQ  5m cost 1.50 pts:  10-17: cost/R20 median all 0.82 RTH 0.43 | sd fwd1 0.83 fwd4 1.72 R20 | median R20 1.84 pts  ||  18-25H1: cost/R20 median all 0.16 RTH 0.08 | sd fwd1 nan fwd4 nan R20 | median R20 9.46 pts
+NQ 15m cost 1.50 pts:  10-17: cost/R20 median all 0.42 RTH 0.26 | sd fwd1 0.83 fwd4 1.76 R20 | median R20 3.55 pts  ||  18-25H1: cost/R20 median all 0.09 RTH 0.05 | sd fwd1 nan fwd4 nan R20 | median R20 17.54 pts
+NQ 60m cost 1.50 pts:  10-17: cost/R20 median all 0.20 RTH 0.20 | sd fwd1 0.83 fwd4 1.72 R20 | median R20 7.66 pts  ||  18-25H1: cost/R20 median all 0.04 RTH 0.04 | sd fwd1 0.83 fwd4 1.72 R20 | median R20 40.70 pts
+YM  5m cost 6.00 pts:  18-25H1: cost/R20 median all 0.34 RTH 0.19 | sd fwd1 nan fwd4 nan R20 | median R20 17.75 pts
+YM 15m cost 6.00 pts:  18-25H1: cost/R20 median all 0.18 RTH 0.12 | sd fwd1 nan fwd4 nan R20 | median R20 33.30 pts
+YM 60m cost 6.00 pts:  18-25H1: cost/R20 median all 0.08 RTH 0.09 | sd fwd1 0.82 fwd4 1.68 R20 | median R20 72.30 pts

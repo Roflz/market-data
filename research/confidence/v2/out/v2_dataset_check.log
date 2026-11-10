@@ -1,0 +1,43 @@
+NQ: frames + 1-minute loaded (6s)
+  NQ 60m evidence check: 0 mismatches
+  NQ 60m hand check: 150 trades, max |diff| $0.000000, 0 differ
+  NQ 60m truncation check from 2014-05-05: 0 mismatches over 310 rows
+  NQ 60m truncation check from 2023-02-06: 0 mismatches over 326 rows
+  NQ 15m evidence check: 0 mismatches
+  NQ 15m hand check: 150 trades, max |diff| $0.000000, 0 differ
+  NQ 15m truncation check from 2014-05-05: 0 mismatches over 1742 rows
+  NQ 15m truncation check from 2023-02-06: 0 mismatches over 1726 rows
+  NQ 5m evidence check: 0 mismatches
+  NQ 5m hand check: 150 trades, max |diff| $0.000000, 0 differ
+  NQ 5m truncation check from 2014-05-05: 0 mismatches over 4142 rows
+  NQ 5m truncation check from 2023-02-06: 0 mismatches over 5371 rows
+NQ done (114s)
+ES: frames + 1-minute loaded (6s)
+  ES 60m evidence check: 0 mismatches
+  ES 60m hand check: 150 trades, max |diff| $0.000000, 0 differ
+  ES 60m truncation check from 2014-05-05: 0 mismatches over 337 rows
+  ES 60m truncation check from 2023-02-06: 0 mismatches over 325 rows
+  ES 15m evidence check: 0 mismatches
+  ES 15m hand check: 150 trades, max |diff| $0.000000, 0 differ
+  ES 15m truncation check from 2014-05-05: 0 mismatches over 1790 rows
+  ES 15m truncation check from 2023-02-06: 0 mismatches over 1722 rows
+  ES 5m evidence check: 0 mismatches
+  ES 5m hand check: 150 trades, max |diff| $0.000000, 0 differ
+  ES 5m truncation check from 2014-05-05: 0 mismatches over 4075 rows
+  ES 5m truncation check from 2023-02-06: 0 mismatches over 5018 rows
+ES done (115s)
+YM: frames + 1-minute loaded (3s)
+  YM 60m evidence check: 0 mismatches
+  YM 60m hand check: 150 trades, max |diff| $0.000000, 0 differ
+  YM 60m truncation check from 2019-09-09: 0 mismatches over 273 rows
+  YM 60m truncation check from 2023-02-06: 0 mismatches over 364 rows
+  YM 15m evidence check: 0 mismatches
+  YM 15m hand check: 150 trades, max |diff| $0.000000, 0 differ
+  YM 15m truncation check from 2019-09-09: 0 mismatches over 1967 rows
+  YM 15m truncation check from 2023-02-06: 0 mismatches over 1761 rows
+  YM 5m evidence check: 0 mismatches
+  YM 5m hand check: 150 trades, max |diff| $0.000000, 0 differ
+  YM 5m truncation check from 2019-09-09: 0 mismatches over 4787 rows
+  YM 5m truncation check from 2023-02-06: 0 mismatches over 4940 rows
+YM done (64s)
+done

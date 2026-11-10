@@ -1,0 +1,2 @@
+[00:39:58] === stage exit
+[00:39:59] exit pooled: 2,339,456 rows

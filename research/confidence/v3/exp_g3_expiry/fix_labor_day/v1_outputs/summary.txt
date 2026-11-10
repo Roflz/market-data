@@ -1,0 +1,131 @@
+=== G3 expiry-day flows: summary 2026-11-09 12:50 ===
+A3 label: SIGNIFICANT (PROVISIONAL: Holm uses a P0 rebuilt from the other groups' current files; final in the synthesis step)
+A3 p_d 0.0108: Holm at 0.03 over K=6 needs p_d <= 0.005 if it is the smallest p, at best <= 0.03 if it is the largest and all others are rejected; PROVISIONAL Holm with P0 rebuilt here from the other groups' current files: A3 Holm-adjusted p 0.0216 -> reject (p_d: A1 0.0002, A2 0.0070, A3 0.0108, A4 0.0012, A5 0.0708, P0 0.0002)
+  n_trades                     452
+  trades_per_year              29.386996904024766
+  usd_per_trade                26.3445796460177
+  usd_per_trade_U2             60.265612226236854
+  d_per_trade                  31.455251538542093
+  c1_per_trade                 -5.103993347195193
+  p_d                          0.010797840431913617
+  p_net                        0.023595280943811237
+  t_d_nw                       2.4739994009492436
+  t_net_nw                     2.0903260134046278
+  sharpe_ann_net               0.5302773243693967
+  mc_rank_p                    0.005
+  drift_per_trade              -31.545907079646017
+  hour_drift_per_trade         -0.6321710409647101
+  c2_random_side_per_trade     -3.6924115044247787
+  c2_rank_p                    0.019801980198019802
+  gross_2018_25H1              43.475
+  cost_2018_25H1               2.5
+  dsr_d_neff45                 0.5920675037676987
+  windows per trade U1: {'all': [26.3445796460177, 452], '2010-17': [4.6401098901098905, 182], '2018-25H1': [40.975, 270], '2022+': [30.422619047619047, 126]}
+  windows per trade U2: {'all': [60.265612226236854, 452], '2010-17': [42.83341572211469, 182], '2018-25H1': [72.01620394383033, 270], '2022+': [33.00732330467619, 126]}
+  robust net U1: {'all': [3.072174922600619, 2.0903260134046278], '2010_17': [0.43508500772797526, 0.8999304889640918], '2018_25H1': [5.717441860465116, 1.9735136246331362], '2022+': [4.254439511653718, 0.8285458157387179], 'drop_best': [0.21207430340557276, 0.19164590621655075], 'winsor': [2.882688338493289, 2.1363344322178186]}
+  robust d     : {'all': [3.6681562681684796, 2.4739994009492436], '2010_17': [0.8629937940029473, 1.7890977152073722], '2018_25H1': [6.48201692054848, 2.217013052456651], '2022+': [5.272911665871215, 1.0145702589107513], 'drop_best': [0.7593352046976174, 0.6813249502783733], 'winsor': [3.460616755156426, 2.5475543306508346]}
+  2-year blocks U2: {'2010-11': 4171.391309205952, '2012-13': 1614.2550365589107, '2014-15': 2531.3604662443213, '2016-17': -521.3251505843107, '2018-19': 3981.0254875501446, '2020-21': 11304.426840894845, '2022-23': 2766.8217753301547, '2024-25': 1392.100961059046}
+  gates: {'1 d>0 in 2010-17 and 2018-25H1': True, '2 U2 net>0 both halves; U1 net>0 2018-25H1 and 2022+': True, '3 >=60% of (2-year blocks if event) U2 positive': True, '4 U1 net>0 w/o 10 best days': True, '5 winsorised U1 net>0': True, '6 C1 rank p<=0.05': True, '7 gross 2018-25H1 >= 1.5x cost': True, '8 net beats plain drift and hour drift': True, '9 basket: U1 net>0 in >=2 of 3 markets': True}
+  cost stress +1 tick: {'usd_per_trade': 24.74391592920354, 't_net': 1.9651291953104593, 'p_net': 0.03159368126374725, 'by_window_per_trade': {'all': 24.74391592920354, '2010-17': 2.89010989010989, '2018-25H1': 39.475, '2022+': 28.922619047619047}}
+  by market: {"ES": {"n": 181, "usd_per_trade": 16.25828729281768, "total": 2942.75, "u2_per_trade": 37.03056131015752, "d_per_trade": 22.02442482357303, "c1_per_trade": -5.766137530755353, "t_d": 2.2941806529579085, "t_net": 1.7032229589854466, "usd_per_trade_2010_17": 2.379120879120879, "usd_per_trade_2018_25H1": 30.291666666666668, "usd_per_trade_2022p": 18.375, "net_pos": true}, "NQ": {"n": 181, "usd_per_trade": 44.74033149171271, "total": 8098.0, "u2_per_trade": 104.26619278977944, "d_per_trade": 49.88774061592015, "c1_per_trade": -5.147409124207442, "t_d": 2.979933765133438, "t_net": 2.6963288759830197, "usd_per_trade_2010_17": 6.9010989010989015, "usd_per_trade_2018_25H1": 83.0, "usd_per_trade_2022p": 84.02380952380952, "net_pos": true}, "YM": {"n": 90, "usd_per_trade": 9.633333333333333, "total": 867.0, "u2_per_trade": 18.5038248241164, "d_per_trade": 13.351908343030681, "c1_per_trade": -3.7185750096973513, "t_d": 0.9945246203781419, "t_net": 0.7232863553023479, "usd_per_trade_2010_17": NaN, "usd_per_trade_2018_25H1": 9.633333333333333, "usd_per_trade_2022p": -11.130952380952381, "net_pos": true}}
+  eval-math targets: {'daily_sharpe': 0.03340433157567034, 'share_sessions_with_trade': 0.04669762641898865, 'win_rate': 0.5575221238938053, 'usd_per_trade_by_market': {'ES': 16.25828729281768, 'NQ': 44.74033149171271, 'YM': 9.633333333333333}, 'share_profit_kept_wo_10_best': 0.06903067330100145}
+  C3 non-expiry Fridays: {'usd_per_trade': -13.474096796182685, 'p_net': 0.9782043591281744, 't_net': -1.7804864856925597}
+  neighbours: {'A3-N0945': {'usd_per_trade': 15.801438053097344, 'd_per_trade': 21.228011383828406, 'p_d': 0.03679264147170566, 't_d': 1.8802131347292985, 'same_sign': True}, 'A3-N1500': {'usd_per_trade': 21.01050884955752, 'd_per_trade': 26.920046313390113, 'p_d': 0.014997000599880024, 't_d': 2.2517572109562716, 'same_sign': True}, 'A3-ES': {'usd_per_trade': 16.25828729281768, 'd_per_trade': 22.09826516984302, 'p_d': 0.015196960607878424, 't_d': 2.278218683348981, 'same_sign': True}, 'A3-NQ': {'usd_per_trade': 44.74033149171271, 'd_per_trade': 50.07817091026332, 'p_d': 0.003199360127974405, 't_d': 2.997502280712397, 'same_sign': True}, 'A3-YM': {'usd_per_trade': 9.633333333333333, 'd_per_trade': 13.38714810290443, 'p_d': 0.16196760647870426, 't_d': 1.0061553613903198, 'same_sign': True}}
+
+A3 by year ($ per micro, basket summed):
+         net_U1  net_U2       d  net_ES  net_NQ  net_YM  n_trades
+session                                                          
+2010      170.0  1438.6   248.4   130.5    39.5     0.0        14
+2011      309.8  2732.8   364.9   106.8   203.0     0.0        24
+2012      379.5  2683.3   480.1   145.5   234.0     0.0        24
+2013     -272.5 -1069.1   -99.2  -149.5  -123.0     0.0        24
+2014      160.5   880.9   275.6    70.5    90.0     0.0        24
+2015      379.2  1650.5   405.9   149.2   230.0     0.0        24
+2016      -49.5   -25.8   100.5   -79.5    30.0     0.0        24
+2017     -232.5  -495.5  -101.3  -157.0   -75.5     0.0        24
+2018     1138.8  3491.7   867.9   246.8   869.5    22.5        36
+2019      104.2   489.3   464.5  -125.8   376.5  -146.5        36
+2020     4038.8  8552.5  4186.4  1186.8  1908.5   943.5        36
+2021     1948.2  2751.9  2273.0   646.8   786.5   515.0        36
+2022     1081.2  1209.8  1019.8   299.2   942.0  -160.0        36
+2023     1328.8  1557.1  2009.5   381.8   790.0   157.0        36
+2024      -34.0    70.4   -84.7  -237.0   658.5  -455.5        36
+2025     1457.2  1321.7  1806.2   327.8  1138.5    -9.0        18
+
+A3 basket eval vs 200 C1 twins (40% rule):
+      policy window  pass_pct  twin_pass_pct  within_10  twin_within_10  within_20  bust_pct  twin_bust_pct  rank_p_pass
+0    1 micro  2013+    83.058         17.479        0.0           0.002        0.0     4.049         76.066        0.005
+1    1 micro  2018+    71.886         16.096        0.0           0.004        0.0     6.718         73.202        0.005
+2    1 micro  2022+    39.623         12.860        0.0           0.008        0.0    14.428         65.564        0.080
+6   3 micros  2013+    53.317         23.520        0.0           0.005        0.0    36.998         70.537        0.020
+7   3 micros  2018+    74.574         27.113        0.0           0.007        0.0     9.354         63.025        0.005
+8   3 micros  2022+    49.612         23.090        0.0           0.011        0.0    15.871         56.544        0.080
+12  5 micros  2013+    50.794         28.585        0.0           0.006        0.0    40.268         65.939        0.035
+13  5 micros  2018+    75.814         34.424        0.0           0.009        0.0     9.354         56.489        0.005
+14  5 micros  2022+    54.495         30.422        0.0           0.011        0.0    13.651         50.314        0.070
+A3 basket eval (50% rule):
+      policy window  pass_pct  twin_pass_pct  within_10  twin_within_10  bust_pct  rank_p_pass
+3    1 micro  2013+    86.391         22.055        0.0           0.012     4.049        0.005
+4    1 micro  2018+    77.416         21.670        0.0           0.020     6.718        0.005
+5    1 micro  2022+    51.498         19.145        0.0           0.031    14.428        0.070
+9   3 micros  2013+    54.064         28.008        0.0           0.035    36.998        0.030
+10  3 micros  2018+    75.814         31.852        0.0           0.057     9.354        0.005
+11  3 micros  2022+    52.275         29.673        0.0           0.075    15.871        0.104
+15  5 micros  2013+    52.818         32.232        0.0           0.050    40.268        0.040
+16  5 micros  2018+    79.173         38.476        0.0           0.081     9.354        0.005
+17  5 micros  2022+    61.709         37.229        0.0           0.098    13.651        0.040
+
+Per-market eval (40%) vs v2 luck bar:
+ES      policy window  pass_pct  within_10  bust_pct  luck_within_10  luck_pass_pct
+0   1 micro  2013+     67.61        0.0      0.00            7.87          20.57
+1   1 micro  2018+     46.25        0.0      0.00            9.41          23.21
+2   1 micro  2022+      0.00        0.0      0.00            8.98          27.89
+3  3 micros  2013+     78.70        0.0      6.38            7.87          20.57
+4  3 micros  2018+     68.53        0.0      6.72            9.41          23.21
+5  3 micros  2022+     32.41        0.0     14.43            8.98          27.89
+6  5 micros  2013+     46.62        0.0     39.86            7.87          20.57
+7  5 micros  2018+     71.21        0.0      6.36            9.41          23.21
+8  5 micros  2022+     51.83        0.0      0.00            8.98          27.89
+NQ      policy window  pass_pct  within_10  bust_pct  luck_within_10  luck_pass_pct
+0   1 micro  2013+     87.11        0.0      0.00           10.17          27.78
+1   1 micro  2018+     78.60        0.0      0.00           10.78          35.62
+2   1 micro  2022+     54.05        0.0      0.00           10.11          39.71
+3  3 micros  2013+     88.41        0.0      2.02           10.17          27.78
+4  3 micros  2018+     80.78        0.0      3.36           10.78          35.62
+5  3 micros  2022+     58.71        0.0      7.21           10.11          39.71
+6  5 micros  2013+     71.10        0.0     19.34           10.17          27.78
+7  5 micros  2018+     77.67        0.0      6.46           10.78          35.62
+8  5 micros  2022+     57.05        0.0      8.88           10.11          39.71
+YM      policy window  pass_pct  within_10  bust_pct  luck_within_10  luck_pass_pct
+0   1 micro  2013+     58.36        0.0      0.00           11.43          25.14
+1   1 micro  2018+     30.90        0.0      0.00           11.43          25.14
+2   1 micro  2022+      0.00        0.0      0.00           11.97          24.94
+3  3 micros  2013+     69.64        0.0     23.45           11.43          25.14
+4  3 micros  2018+     49.61        0.0     38.91           11.43          25.14
+5  3 micros  2022+      2.22        0.0     73.14           11.97          24.94
+6  5 micros  2013+     24.10        0.0     72.35           11.43          25.14
+7  5 micros  2018+     40.00        0.0     54.11           11.43          25.14
+8  5 micros  2022+      9.43        0.0     82.91           11.97          24.94
+
+Tier B (StepM over the 9 G3 secondary columns, mean block 10, B 5000; N_eff Li-Ji of these columns (7.032174185763839, 5.9999999999999964)):
+       hid    n  usd_tr   d_tr     p_d   p_net   t_d   stepm    dsr   mc_p  n_gate_fail                                label
+0     S3.1  452   16.61  21.32  0.0074  0.0258  2.46  0.0504  0.569  0.005            0  PROMISING (forward paper test only)
+1     S3.2  452    2.63   0.70  0.4717  0.3697  0.09  0.4717  0.016  0.457            4                      NOT SIGNIFICANT
+2     S3.3  904   14.49  16.31  0.0312  0.0468  1.94  0.1356  0.373  0.004            1                      NOT SIGNIFICANT
+3     S3.4  300   20.53  25.88  0.0428  0.0836  1.81  0.1578  0.323  0.022            1                      NOT SIGNIFICANT
+4     S3.5  152   37.83  42.69  0.0574  0.0760  1.68  0.1578  0.275  0.008            2                      NOT SIGNIFICANT
+5  S3.6-ES   61    9.90  13.18  0.0210  0.0534  2.25  0.0846  0.501  0.035            3                      NOT SIGNIFICANT
+6  S3.6-NQ   61    8.00   9.24  0.1532  0.1870  1.06  0.2749  0.098  0.196            3                      NOT SIGNIFICANT
+7  S3.6-YM   30   12.55  13.45  0.0766  0.0908  1.50  0.1694  0.204  0.094            5                      NOT SIGNIFICANT
+8     S3.7  439   16.11  14.49  0.0296  0.0206  2.02  0.1356  0.412  0.039            1  PROMISING (forward paper test only)
+  S3.1: gate fails []; tier-B fails ['StepM p 0.0504 > 0.004', 'NW t 2.46 < 3', 'DSR 0.57 < 0.95']
+  S3.2: gate fails ['2 U2 net>0 both halves; U1 net>0 2018-25H1 and 2022+', '4 U1 net>0 w/o 10 best days', '6 C1 rank p<=0.05', '8 net beats plain drift and hour drift']; tier-B fails ['StepM p 0.4717 > 0.004', 'NW t 0.09 < 3', 'DSR 0.02 < 0.95']
+  S3.3: gate fails ['4 U1 net>0 w/o 10 best days']; tier-B fails ['StepM p 0.1356 > 0.004', 'NW t 1.94 < 3', 'DSR 0.37 < 0.95']
+  S3.4: gate fails ['4 U1 net>0 w/o 10 best days']; tier-B fails ['StepM p 0.1578 > 0.004', 'NW t 1.81 < 3', 'DSR 0.32 < 0.95']
+  S3.5: gate fails ['2 U2 net>0 both halves; U1 net>0 2018-25H1 and 2022+', '4 U1 net>0 w/o 10 best days']; tier-B fails ['StepM p 0.1578 > 0.004', 'NW t 1.68 < 3', 'DSR 0.28 < 0.95']
+  S3.6-ES: gate fails ['2 U2 net>0 both halves; U1 net>0 2018-25H1 and 2022+', '3 >=60% of (2-year blocks if event) U2 positive', '4 U1 net>0 w/o 10 best days']; tier-B fails ['StepM p 0.0846 > 0.004', 'NW t 2.25 < 3', 'DSR 0.50 < 0.95']
+  S3.6-NQ: gate fails ['2 U2 net>0 both halves; U1 net>0 2018-25H1 and 2022+', '4 U1 net>0 w/o 10 best days', '6 C1 rank p<=0.05']; tier-B fails ['StepM p 0.2749 > 0.004', 'NW t 1.06 < 3', 'DSR 0.10 < 0.95']
+  S3.6-YM: gate fails ['1 d>0 in 2010-17 and 2018-25H1', '2 U2 net>0 both halves; U1 net>0 2018-25H1 and 2022+', '3 >=60% of (2-year blocks if event) U2 positive', '4 U1 net>0 w/o 10 best days', '6 C1 rank p<=0.05']; tier-B fails ['StepM p 0.1694 > 0.004', 'NW t 1.50 < 3', 'DSR 0.20 < 0.95']
+  S3.7: gate fails ['8 net beats plain drift and hour drift']; tier-B fails ['StepM p 0.1356 > 0.004', 'NW t 2.02 < 3', 'DSR 0.41 < 0.95']
+
+StepM incl. neighbours (14 cols): {'S3.1': 0.0562, 'S3.2': 0.4717, 'S3.3': 0.145, 'S3.4': 0.1672, 'S3.5': 0.1716, 'S3.6-ES': 0.091, 'S3.6-NQ': 0.3497, 'S3.6-YM': 0.207, 'S3.7': 0.145, 'A3-N0945': 0.145, 'A3-N1500': 0.0828, 'A3-ES': 0.0802, 'A3-NQ': 0.0148, 'A3-YM': 0.3497}

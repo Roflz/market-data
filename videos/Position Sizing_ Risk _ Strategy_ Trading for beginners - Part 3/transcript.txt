@@ -1,0 +1,625 @@
+00:00:00  All right, welcome back to this series
+00:00:01  on learning how to trade. And if you've
+00:00:02  missed the first two episodes of this
+00:00:05  particular series, you can go back. I'll
+00:00:06  put the link in this video and in the
+00:00:09  description so you can start there
+00:00:10  because you're going to get this really
+00:00:12  great workbook, this resource that then
+00:00:14  becomes your bible of trading. So, uh,
+00:00:17  go and check that out. Um, today we're
+00:00:19  going to be going into the intermediate
+00:00:20  side of things. We're going to be
+00:00:22  talking about pips and points, position
+00:00:24  sizing, risk management, strategy stuff,
+00:00:27  uh orders, execution, and uh and trade
+00:00:30  management. So, it's a this is a really
+00:00:32  important lesson. So, find somewhere
+00:00:34  where you're going to be able to watch
+00:00:36  this video um in quiet with no
+00:00:39  distractions. Save the video so you can
+00:00:41  watch it later. And if you've got
+00:00:42  YouTube Premium, I recommend downloading
+00:00:44  the videos so that you can watch them on
+00:00:46  flights and places where you don't have
+00:00:48  Wi-Fi. It's always great when you get
+00:00:50  into no distraction zones and you can uh
+00:00:53  really knuckle down and learn this
+00:00:54  stuff. You really take the information
+00:00:56  in better. Let's get stuck into this.
+00:00:57  Anyway, so pips and points, what are
+00:00:59  they? We're we're we're looking at
+00:01:01  forex. Uh but if you use the stock
+00:01:04  market, for example, you'll refer to
+00:01:06  them as points. Uh but we're really
+00:01:08  talking about pips because this is about
+00:01:10  forex trading. And pips stands uh for
+00:01:14  percentage in point. and and what that
+00:01:16  is. So, when you look at a a currency
+00:01:18  pair in most pairs, what you'll see is
+00:01:21  something like this. So, you'll see the
+00:01:23  GBP
+00:01:24  uh USD and you'll see that it's um you
+00:01:29  know, I don't know,
+00:01:31  1.2500. Okay? And that's the price. And
+00:01:34  it's it's the price of one currency
+00:01:36  against the other. The the pound is what
+00:01:38  we call the the base currency because
+00:01:40  that's the first currency in the pair.
+00:01:43  And the second pair is called the terms
+00:01:45  currency. Okay? And what it means is if
+00:01:48  you was to buy the pound dollar, you
+00:01:52  would be getting 1.25
+00:01:56  uh dollars to the pound. All right? And
+00:01:58  that's what that means. So if it goes
+00:02:01  up, if this goes up uh 10 pips, then the
+00:02:06  price would be
+00:02:08  1.2510. So the the the pip is that
+00:02:12  fourth decimal point. So the fourth
+00:02:14  decimal point would be one pip. The
+00:02:16  second decimal point would be tens of
+00:02:18  pips. The third decimal point would be
+00:02:20  hundreds of pips. And then obviously
+00:02:22  thousands of pips uh on the left. So
+00:02:25  that's how it works. And and that's what
+00:02:27  a pip is. So a pip a pip is
+00:02:33  0.00001. That's that's one pip. Okay.
+00:02:37  Now for yen pairs it's slightly
+00:02:39  different. So yen JP any pair with the
+00:02:42  yen in it which is symbol JPY in in
+00:02:47  currency pairs it's 0.01. So it's just
+00:02:50  two decimal points. The same thing
+00:02:52  applies but it's just two decimal points
+00:02:55  instead of four. Okay. And it's going to
+00:02:58  be important if you're trading those uh
+00:03:00  any pair with a yen in it obviously. Um
+00:03:03  but here's the key, right? A pip value
+00:03:06  changes depending on your position size.
+00:03:10  So a pip isn't always the same value,
+00:03:13  right? And I'm going to explain position
+00:03:15  size. 10 pips on So if we go from 25 to
+00:03:20  2510, that's 10 pip move. Well, 10 pips
+00:03:23  on a microl lot, right? Isn't the same
+00:03:26  as 10 pips on a standard lot. And don't
+00:03:29  worry if you don't understand microlot
+00:03:31  and mini lot and standard lot. I'm going
+00:03:34  to I'm going to explain that now, right?
+00:03:36  But the but you need to know that it's
+00:03:37  important. And the reason it's important
+00:03:39  is because if you don't understand that
+00:03:41  and what you're doing, your position
+00:03:43  sizing, you can get you can lose control
+00:03:45  pretty quickly, especially as a new
+00:03:47  trader. And you need to know how much
+00:03:50  money you're risking, right? In terms of
+00:03:53  what those pips are worth in real money,
+00:03:56  right? So, we want to talk about
+00:03:58  position sizing. Now, position sizing,
+00:04:00  let's talk about that. So if I was to
+00:04:02  summarize position sizing, it's
+00:04:04  basically amount of currency units that
+00:04:06  you can buy or sell in a particular
+00:04:09  trade. Right now, more importantly,
+00:04:13  position sizing allows you to control
+00:04:15  your risk. And we're going to talk about
+00:04:17  money management later on. We're going
+00:04:19  to talk about risk management in this
+00:04:20  video as well. But it but that's what it
+00:04:22  does, right? A good trader doesn't ask
+00:04:25  how much can I make. A good trader asks,
+00:04:27  "How much can I afford to lose and still
+00:04:29  stay in the game?" There's a saying in
+00:04:31  poker, you lose all your chips, you you
+00:04:33  you lose your seat at the table, right?
+00:04:35  And you have to understand correct
+00:04:38  position sizing in order to be a really
+00:04:40  good risk manager and money manager. So,
+00:04:43  let's talk about how to calculate,
+00:04:45  right? Calculating
+00:04:47  uh position size. So, first of all, I'll
+00:04:49  give you the formula. And the formula
+00:04:51  looks like this. position size uh equals
+00:04:55  money risk. Okay, so the monetary risk
+00:04:59  uh divided by the pip value multiplied
+00:05:03  by the stop- loss. Right? Now, I know
+00:05:06  that looks painful, but it's it's much
+00:05:08  easier uh to understand once I give you
+00:05:10  an example. So, let's let's talk about
+00:05:12  an example here. So, most traders uh
+00:05:15  especially new traders, they tend to
+00:05:16  risk 1 to 2% of their trading account on
+00:05:20  any one trade. Okay? So, if you've got a
+00:05:25  £5,000 account, right, times 0.02, which
+00:05:30  is 2%, that's going to be that's going
+00:05:32  to be £100
+00:05:35  uh money risk. That's how much of your
+00:05:37  capital that you've decided that you
+00:05:39  want to risk on one trade. Now, here's
+00:05:41  where the formula comes in, because now
+00:05:43  you look at where your stop loss wants
+00:05:44  to be. here. And I'm going to cover this
+00:05:46  when I talk about strategy in a moment.
+00:05:47  But let's just say your stop loss is 25
+00:05:51  pips away from your entry. Okay? So,
+00:05:54  let's just say you're buying and you're
+00:05:56  getting in and your stop loss is going
+00:05:58  to be 25 pips below where you enter the
+00:06:01  trade. Meaning that if the trade drops,
+00:06:04  if the if the pair drops more than 25
+00:06:07  pips below where you entered, you'll be
+00:06:08  stopped out of the trade at a loss.
+00:06:10  Okay? So let's just say stop loss is 25
+00:06:15  pips. This is all an example by the way.
+00:06:17  Now before I give you the formula on
+00:06:19  this example, I just want to explain a
+00:06:21  bit about mini lots and microlots. So So
+00:06:24  if you're trading a standard pair, the
+00:06:26  pit value is approximately
+00:06:28  uh 0.0 uh sorry 0.1 per pip per,000
+00:06:34  units. That's what we call a microl lot.
+00:06:37  Okay. £1 per pip per
+00:06:42  10,000 units. That's what we call a mini
+00:06:47  lot. And 10 pound per pip per 100,000
+00:06:54  units is what we call a standard lot.
+00:06:59  Okay. Now, I want to stop at this point
+00:07:00  and say I get a few comments on these
+00:07:03  these videos saying well that you know
+00:07:06  there's nothing you it's too
+00:07:08  complicated. You're making it you're
+00:07:09  over complicating it. If you find this
+00:07:11  complicated that's because trading is
+00:07:14  right and if if you're going to learn
+00:07:16  trading it's not something you can just
+00:07:18  pick up and just run with after a day of
+00:07:20  learning it. This to this is a skill
+00:07:23  that requires you to be disciplined, to
+00:07:26  learn, to put in the education, to put
+00:07:28  in the hours, and you're not going to
+00:07:30  learn it just from watching this video
+00:07:31  once, okay? You really do have to embody
+00:07:36  what you're trying to do. You need to
+00:07:37  live it and breathe it, right? So, for
+00:07:39  all those people in the comments saying,
+00:07:41  "Oh, there's nothing like over
+00:07:42  complicating it or keep it simple."
+00:07:44  Well, trading isn't simple. I'm sorry.
+00:07:46  Um it's it's not a simple thing. And if
+00:07:48  if anyone's told you it is, well, good
+00:07:51  luck. You know, it's it's really not.
+00:07:53  They're selling you a dream, I'm afraid.
+00:07:55  So, if you do the formula here, you can
+00:07:57  see with a 100 pound risk because we've
+00:08:01  said we want a 100 pound risk of our,
+00:08:04  you know, total 100 pound risk on on the
+00:08:06  account of the account uh in money risk
+00:08:08  and we've got a 25 pip stop loss, right?
+00:08:12  we can afford a4 pound per pip trade,
+00:08:18  right? That means we trade
+00:08:21  0.4 lots, which is four mini lots. So,
+00:08:26  what position sizing does is it adjusts
+00:08:28  your exposure so that your risk stays
+00:08:32  consistent and it doesn't matter what
+00:08:33  the setup is, your risk will stay
+00:08:35  consistent. That's the that's the point
+00:08:36  of understanding correct position
+00:08:38  sizing. All right, so let's talk about
+00:08:39  risk management then because risk
+00:08:41  management is the art of staying in the
+00:08:42  game. Okay, as I said, you lose your
+00:08:44  chips, you can't play in the table
+00:08:46  anymore, right? So, it's about
+00:08:47  preserving capital so that when your
+00:08:49  edge plays out over a long period of
+00:08:52  time, you're still around to benefit.
+00:08:53  And if you haven't seen my my video on
+00:08:56  becoming an excellent risk manager as a
+00:08:59  trader, definitely go and check that
+00:09:00  out. It's been wildly popular, that
+00:09:03  video. In fact, I think that's the most
+00:09:05  important video you could ever watch on
+00:09:07  trading. So go and check that out. I'll
+00:09:09  leave it in the description as well. So
+00:09:11  what is proper risk management? Well,
+00:09:13  write this down, right? Know your risk
+00:09:18  per trade. And you want to know that in
+00:09:21  percentage and in real money. The next
+00:09:24  thing is you want to set a
+00:09:27  realistic
+00:09:29  stop-loss based on
+00:09:32  structure and not your emotions. You get
+00:09:35  a lot of traders who just have these
+00:09:38  mental stop- losses where they go, "Oh,
+00:09:39  yeah. I know where I'm getting out." Or
+00:09:41  they think they know what the market's
+00:09:42  going to do. You don't know what the
+00:09:43  market's going to do. Okay? You want to
+00:09:45  be you want to have a a very consistent
+00:09:47  and objective way of placing stop-loss.
+00:09:50  And things that you can use that that do
+00:09:52  that are things like ATR, so average
+00:09:55  true range. That means you place your
+00:09:58  stop loss an average true range above
+00:10:01  the high of that candle or the high of
+00:10:03  that test. Um, other ways that you can
+00:10:05  do it is you might have a fixed position
+00:10:07  stop like a 10 pip or a 20 pip depending
+00:10:10  on the time frame. So on the 60-minut
+00:10:12  you might just use a 10 pip on the 4
+00:10:14  hour you might use a 20 pip, right? And
+00:10:16  so on. So it's just uh you need a
+00:10:19  consistent way to
+00:10:20  objectively be consistent basically
+00:10:23  right so ATR uh fixed pip etc. Right? Um
+00:10:29  the next thing is keep your risk
+00:10:32  consistent. Okay. And what I mean by
+00:10:34  that is no overleveraging because the
+00:10:37  trade feels right. Okay. So you want to,
+00:10:40  you know, no
+00:10:43  overleveraging because the
+00:10:46  trade
+00:10:48  feels right. Right. You don't want to be
+00:10:50  doing that. And finally on this, I
+00:10:52  highly recommend you use a
+00:10:55  riskreward profile of at least a 2 to
+00:11:00  one. meaning that every time you stand
+00:11:04  to lose 10 pips, you stand to make 20.
+00:11:07  Okay? Basically, your reward, your
+00:11:09  target order should be double the size
+00:11:12  of your stop-loss. And what that stops
+00:11:15  you doing is relying on a very high win
+00:11:18  rate because as a trader, your win rate
+00:11:20  is going to be around 50 to
+00:11:25  65%ish. Okay? Okay. And I can say that
+00:11:27  confidently because I've worked with
+00:11:29  thousands of traders and I've met
+00:11:32  hundreds of very successful traders and
+00:11:35  it always seems to be in that kind of
+00:11:37  sweet spot. All right, let's talk about
+00:11:38  the strategy. So, rules of engagement.
+00:11:40  Now, the rules of engagement are going
+00:11:43  to be the things that you need in order
+00:11:45  to take the trade. Okay, so they're
+00:11:48  going to be a checklist. They're going
+00:11:49  to be a checklist that you work through
+00:11:51  where you go, okay, I'm looking for a
+00:11:54  setup. What do I need? What ducks do I
+00:11:57  need in a row in order for me to take
+00:11:59  this setup? Okay, now that might be a
+00:12:02  time of day. Okay, so it might be a
+00:12:05  certain time of day. You might go
+00:12:08  between 8:00 a.m. and 2:00 p.m. is when
+00:12:12  I'm allowed to trade. Okay, so that's
+00:12:14  the first thing I look at. So, is it
+00:12:15  between 8:00 a.m. or 2 p.m.? It might be
+00:12:17  between uh it might be between 9:00 p.m.
+00:12:20  and 10:00 p.m. before you go to bed,
+00:12:22  right? It might be between the London
+00:12:25  open and the New York open. It might be
+00:12:28  just the London open half 7 a.m. till
+00:12:30  8:30 a.m. And that is the time window,
+00:12:34  right? Window where you're looking for
+00:12:37  those setups. Okay. Another rule of
+00:12:39  engagement is you might need a bearish
+00:12:42  or bullish trend. You a bias. Okay. So a
+00:12:45  bias. What is the bias? So you look at
+00:12:47  the higher time frame higher time frame
+00:12:50  and you say okay well I'm bullish okay
+00:12:53  tick I'm looking for bullish setups so
+00:12:56  you might need a higher time frame
+00:12:58  confirmation that we are in a bullish
+00:13:01  prevailing trend other rules of
+00:13:03  engagement might be mental you know you
+00:13:06  might sense check yourself and say how
+00:13:08  fearful am I on a scale of 1 to 10 of
+00:13:11  being out of the market today or how
+00:13:14  greedy on a scale of 1 to 10 am am I for
+00:13:17  keen to be in the market today and you
+00:13:20  score yourself right and only when you
+00:13:22  score a five or a six are you poised and
+00:13:25  mentally balanced and then you need that
+00:13:28  as a rule of engagement to approach the
+00:13:31  markets this is something not many
+00:13:32  people talk about but it's a great habit
+00:13:34  to get into the into the thing of doing
+00:13:36  right so if you say I need mental I need
+00:13:41  I need to be mentally poised okay
+00:13:44  neutral you need to be neutral And only
+00:13:47  when you've got a neutral mentality and
+00:13:49  emotion, you can then proceed with your
+00:13:52  rules of engagement. Another rule of
+00:13:54  engagement might be no news, no major
+00:13:59  news releases. Okay? So in other words,
+00:14:03  a rule of engagement needs like I can't
+00:14:05  have FOMC or ECB press conferences or
+00:14:08  non-farm payroll coming out within the
+00:14:11  next hour. I only trade when those news
+00:14:13  events are not taking place. And that's
+00:14:16  a rule of engagement. And then there's
+00:14:18  other like emergency rules of
+00:14:20  engagements like um solid broadband. You
+00:14:23  know, the the last thing you want to do
+00:14:24  is be trading when you've got in
+00:14:26  intermittent um issues with your
+00:14:29  broadband or solid power. You might if
+00:14:32  you if you've got people doing road
+00:14:34  works outside your house and there's
+00:14:35  kind of or or a power cuts going on,
+00:14:38  right? You don't want to be getting into
+00:14:39  trades in those situations as well. So,
+00:14:41  you want to kind of think of as many
+00:14:43  things that are going to keep you as
+00:14:44  consistent as possible, including your
+00:14:46  emotions, external forces, and physical
+00:14:50  things, and market conditions that allow
+00:14:53  you to be really really consistent.
+00:14:55  Okay, so there's there's the rules of
+00:14:57  engagement. Now, once we do once we've
+00:15:01  got through all those, it's now, okay,
+00:15:03  what other rules of engagement might we
+00:15:05  get closer to actually entering the
+00:15:07  trade? Well, if you're looking for um a
+00:15:12  trend continuation, you could say, "Are
+00:15:14  we in a run or are we in a pullback?"
+00:15:17  And only when we're in a pullback am I
+00:15:19  looking to go to the next step. So,
+00:15:22  you're in the run now. We're in the
+00:15:24  pullback and we want to get in somewhere
+00:15:25  in that pullback. Okay. Now, um is there
+00:15:30  um deceleration in the in price as we
+00:15:33  get into that pullback? Is are we
+00:15:34  decelerating looking like we're going to
+00:15:37  um continue to the upside? Is there um
+00:15:41  support and resistance? Right? Is there
+00:15:44  indicators that I can use such as
+00:15:47  exponential moving averages? Right? You
+00:15:49  might use um RSI. You might use MACD.
+00:15:54  Okay, we we'll go into these a little
+00:15:56  bit later on in this series. So, are
+00:15:59  there indicators that you could use?
+00:16:00  Look at my spelling. Absolutely awful.
+00:16:03  Right now, if you've got a tick for all
+00:16:04  these things, okay, you might go to the
+00:16:07  next phase, which is the setup signal.
+00:16:09  Now, this is basically going to be some
+00:16:11  kind of uh candlestick pattern, okay? Or
+00:16:15  it's going to be a area that it's going
+00:16:18  to be a price point. So at this point
+00:16:20  it's going to be that the actual setup
+00:16:22  signal is going to be a candlestick
+00:16:24  pattern that allows you to go right I
+00:16:26  need if this candle closes at a certain
+00:16:29  position or in a certain form then I can
+00:16:32  enter the trade. Okay so this might be a
+00:16:35  uh a high test which is very popular. It
+00:16:38  might be a low test right. It might be a
+00:16:41  dogee which stands for
+00:16:44  indecision right. It might be
+00:16:47  tweezer
+00:16:48  tops or
+00:16:51  tweezer bottoms. Right? If you haven't
+00:16:54  seen my video on trading for dummies,
+00:16:56  trading for beginners, you can go and
+00:16:57  watch that. I cover all of this off and
+00:16:59  give you a check sheet as well that you
+00:17:01  can tick off, print out, tick off as
+00:17:03  you're looking through the trades, uh
+00:17:05  the markets with me. So, go and uh go
+00:17:07  and grab that if you haven't already. Um
+00:17:09  or you might use something called an
+00:17:12  engulfing candle which can be really
+00:17:14  really um popular and powerful too if
+00:17:17  used at the right locations in the
+00:17:19  market. So execution now it's really
+00:17:21  about having objective rules into that
+00:17:22  execution. Right? So once the signal is
+00:17:25  set and all of the the um you know the
+00:17:28  pre-market stuff the rules of engagement
+00:17:30  are met and then you've got the setup
+00:17:31  signal how are you executing that trade?
+00:17:33  Now basically what this is about is
+00:17:37  entries, stops and targets, right? And
+00:17:41  the reason I you want to get into the
+00:17:43  habit of saying it in that order as well
+00:17:45  because you want to set your entry and
+00:17:47  then you want to protect yourself.
+00:17:48  Remember risk is first and then set your
+00:17:51  target. So you place the orders in that
+00:17:53  entry. Entry stops targets. Now
+00:17:56  execution. So it's if
+00:18:00  then right. So all of this is if then
+00:18:03  but when it comes to the execution
+00:18:05  you're saying right if we get the signal
+00:18:08  candle that I need or the signaled entry
+00:18:10  um or the double top entry or the double
+00:18:12  bottom entry or whatever it might be
+00:18:14  right if we get that setup then then you
+00:18:17  go into your position size right so it's
+00:18:19  I risk my stop loss uh I enter and then
+00:18:23  this could be next bar market which
+00:18:26  means you enter live at market or you
+00:18:29  enter on a stop order. And a stop order
+00:18:34  means you're basically uh telling the
+00:18:37  broker that if we continue up to a price
+00:18:40  that is higher than what we're currently
+00:18:42  trading, I want you to buy more. Okay?
+00:18:45  If you're buying or or a sell stop would
+00:18:47  be the other way. So, if if price if we
+00:18:50  push down to a price lower than we're
+00:18:52  currently trading, I want you to sell
+00:18:54  this position. We're not going to be
+00:18:55  talking about shorting the market in
+00:18:56  this particular video, but that's what
+00:18:58  we're talking about, right? So, a stop
+00:19:00  order or a next bar order. Um, you
+00:19:02  probably won't have a limit order if
+00:19:05  you're looking for price action patterns
+00:19:07  unless you're I don't know, unless you
+00:19:08  just want some kind of set and forget,
+00:19:10  but we're talking about these two really
+00:19:12  in this particular uh example. My stop
+00:19:16  loss, right? And that's where you have
+00:19:18  your stop-loss rules, right? So, risk 1%
+00:19:22  of my
+00:19:24  account, right? you do um stop loss is
+00:19:30  um x pounds or dollars, right? And then
+00:19:36  stop loss is how many pips, right? X
+00:19:41  pips. Okay? And then you do the the
+00:19:43  formula and that's where your stop loss
+00:19:46  goes. That's the position size in. Okay?
+00:19:49  We're going to talk about orders in a
+00:19:50  moment, but that's kind of the execution
+00:19:52  that should be going through your head.
+00:19:54  And then the target
+00:19:56  equals two times stop-loss. I'll just
+00:19:59  keep it simple, but these are the rules
+00:20:01  that you're going to have to have in
+00:20:02  place uh when you're building this trade
+00:20:04  plan. That's what this is. This is a big
+00:20:06  trade plan that you're building out
+00:20:07  here, right? Okay. And then if is there
+00:20:11  anything else on execution? Um you just
+00:20:14  want to make sure that it gets filled.
+00:20:15  Remember, when you give an instruction
+00:20:17  to your broker to get you in at a
+00:20:20  certain point, it doesn't guarantee that
+00:20:22  you will be entered at that point. That
+00:20:24  is an instruction to your broker. They
+00:20:26  will fill you at the next available
+00:20:28  time. Okay? People who blame their
+00:20:30  brokers because they feel like they
+00:20:33  didn't get filled or they didn't get or
+00:20:35  they got stopped out too early, that is
+00:20:36  a just a a lack of education on how
+00:20:39  brokers work really. Okay? So, don't
+00:20:41  don't blame the broker for that kind of
+00:20:43  thing. That's just how they work. So the
+00:20:44  orders you go into your trading platform
+00:20:47  and you'll set a at market order, okay?
+00:20:52  Or you'll set a stop order, right? Buy
+00:20:57  or sell. Okay? And then you'll set your
+00:21:00  stop loss order, which will um also be a
+00:21:05  stop order. Okay? We don't want market
+00:21:07  orders for stop-loss, right? Um, it
+00:21:11  could be a limit order, but we're not
+00:21:12  talking about limit orders in this
+00:21:13  particular video. So, it could be a it
+00:21:16  will be a stop order. It won't be a
+00:21:17  atmarket order. And the reason it won't
+00:21:19  be an atmarket order is because you want
+00:21:21  to have a stop-loss in place. You don't
+00:21:23  want to be watching price and then have
+00:21:25  to at market to stop yourself out.
+00:21:27  That's crazy way of trading if you ask
+00:21:30  me. Um, no professional traders do that.
+00:21:32  So, uh, you shouldn't do that either,
+00:21:34  right? And then the only other thing to
+00:21:36  notice on orders is you're going to see
+00:21:38  something that is uh called good till
+00:21:42  close or good till cancel or you'll see
+00:21:45  end of day. Okay. Um EOD or sometimes
+00:21:49  they've got different references. But
+00:21:51  what that the difference between those
+00:21:52  two orders are um one will will go on
+00:21:56  until you close it out or it hits target
+00:21:59  and one will switch off at the end of
+00:22:01  the the daily session. and uh and that's
+00:22:04  not really what you want most of the
+00:22:06  time. So, you just make sure that you've
+00:22:08  got that set correctly um to suit your
+00:22:11  trading style. And then the
+00:22:13  execution, right, basically the
+00:22:16  execution is you just stay away, right?
+00:22:19  The execution, you've executed the
+00:22:20  trade, you've got into the trade, the
+00:22:22  hard work's done. Now, it's just going
+00:22:24  to be about um logging that trade,
+00:22:27  right? So logging trade in the journal
+00:22:31  and we're going to be talking about
+00:22:32  journals in a bit more detail later on.
+00:22:35  Okay. And then other than that,
+00:22:37  execution's done. That that's really it.
+00:22:39  You know, uh it just comes down to trade
+00:22:42  management after that. And the trade
+00:22:43  management is going to be things like um
+00:22:46  how you manage the trade. Uh if you're
+00:22:49  trailing stops, right? So trailing
+00:22:52  stops. Um when can you do you have a
+00:22:55  graceful exit technique? Right? Graceful
+00:22:59  exit. And what a graceful exit is is
+00:23:02  where you were kind of wrong. So the
+00:23:05  market goes against you but doesn't stop
+00:23:07  you out and then it comes back down to
+00:23:09  where you entered and you just close it
+00:23:11  out because you know it you was wrong
+00:23:14  about the direction of the trade. So you
+00:23:16  can close it out and you have a rule
+00:23:18  that you can do that. It has to be a
+00:23:20  rule because if you don't do the same
+00:23:22  thing on every trade, you don't know you
+00:23:25  don't know the outcome. you're then in
+00:23:26  random, the world of random, which
+00:23:28  doesn't go well with traders. Okay. Uh
+00:23:30  trade management, you might trail stops,
+00:23:32  you might have a graceful exit, you
+00:23:34  might um monitor during if you're in a
+00:23:37  trade already and then there's high
+00:23:38  impact news, you might just um you know
+00:23:42  roll your stop to break even, stop to
+00:23:45  break even. or you want to have a way of
+00:23:51  monitoring monitoring that that trade
+00:23:54  whilst that news is playing out. In my
+00:23:56  opinion, um trade management, you might
+00:23:58  use lower time frame to manage the
+00:24:01  trade. So you might trail stops on a
+00:24:04  lower time frame. If you trade on the 4
+00:24:06  hour, you might use the 60 or the 15 to
+00:24:09  trail your stops or manage your your
+00:24:12  position. And then of course once the
+00:24:14  trade has been filled, you've been
+00:24:15  stopped out, you've hit target, then
+00:24:18  it's
+00:24:19  logging the results in your trading
+00:24:24  journal. This is the process that you
+00:24:25  need to follow. Uh once you've logged
+00:24:27  the results in your trading journal, you
+00:24:29  now have a solid set of back tested
+00:24:31  rules of the live markets over a period
+00:24:34  of time that you can now use to optimize
+00:24:36  your strategy. Uh if you're going to do
+00:24:38  a six-month review or annual review,
+00:24:40  that's the information you're going to
+00:24:41  need. All of this, if you've done all of
+00:24:43  this, you're going to have enough
+00:24:45  consistent data and a consistent
+00:24:47  approach and a consistent execution to
+00:24:49  become better as a trader instead of
+00:24:51  going back to square one every couple of
+00:24:53  years, which is what I see hundreds of
+00:24:55  traders doing and it's just complete
+00:24:57  waste of time. So, in the next video,
+00:25:00  we're going to be talking about advanced
+00:25:02  stuff. We're going to be going through
+00:25:03  front running, positive and negative
+00:25:04  carry, the money management stuff. This
+00:25:06  is all stuff that is the secret world of
+00:25:08  trading where the real money's made. So,
+00:25:10  it's going to be important to learn that
+00:25:12  stuff. We're going to be talking about
+00:25:13  multi-time frame analysis, building a
+00:25:15  portfolio, account funding and scaling,
+00:25:18  which I know is very popular with you
+00:25:19  guys, and then capital partitioning. So,
+00:25:22  if you like this video, please give it a
+00:25:24  like and let me know in the comments
+00:25:26  what you'd love to see more of on this
+00:25:27  channel. What type of content has really
+00:25:29  resonated with you and given you the
+00:25:31  most value? I want to make sure we're
+00:25:32  producing more of that. And until next
+00:25:34  time, have a great rest of your day and
+00:25:36  I'll catch you then. Oh, and don't
+00:25:37  forget you can download this exact
+00:25:39  workbook for your reference in the
+00:25:41  description. So, go and get that now and
+00:25:43  I'll see you in the next one.
+00:25:45  [Music]

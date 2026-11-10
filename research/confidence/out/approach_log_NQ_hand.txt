@@ -1,0 +1,13 @@
+sc:hand_bulkowski: AUC 0.567  kept 61,711 (22.5%)  -1.74 $/trade  all -2.22  random -2.34  (27s)
+sc:hand_morris_woe: AUC 0.547  kept 50,810 (18.5%)  -2.06 $/trade  all -2.22  random -2.24  (64s)
+sc:hand_ndr_composite: AUC 0.549  kept 49,167 (17.9%)  -1.63 $/trade  all -2.22  random -2.20  (66s)
+sc:hand_user: FAILED HandWeightsMissing: hand_user: no entry_weight filled in /run/media/roflz/Disk 2/_/market_data/research/confidence/approaches/user_weights.csv; fill some weights or skip this scorer
+Traceback (most recent call last):
+  File "/run/media/roflz/Disk 2/_/market_data/research/confidence/compare_approaches.py", line 36, in <module>
+    res = wf.walk_forward(data, feats, model=spec, verbose=False, **rp.wf_args("entry"), **rp.WF_KW)
+  File "/run/media/roflz/Disk 2/_/market_data/research/confidence/walkforward.py", line 813, in walk_forward
+    m, thr, info = _fit_and_threshold(model, X, y_fit, w, pnl_fit, year, te, tr, kind, codes, min_keep, C_grid,
+                   ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                      gbm_params, vote_idx, purge, min_inner)
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+approach_hand.HandWeightsMissing: hand_user: no entry_weight filled in /run/media/roflz/Disk 2/_/market_data/research/confidence/approaches/user_weights.csv; fill some weights or skip this scorer

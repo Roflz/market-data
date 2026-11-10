@@ -1,0 +1,6 @@
+[ES 15m mde] {"rare_events": [0.0427, 0.0654, "dir_h1"], "continuous": [0.015, 0.0229, "dir_h1"]}
+[ES 60m mde] {"rare_events": [0.046, 0.0705, "dir_h1"], "continuous": [0.0308, 0.0472, "dir_h1"]}
+[NQ 15m mde] {"rare_events": [0.0455, 0.0697, "dir_h1"], "continuous": [0.0158, 0.0243, "dir_h1"]}
+[NQ 60m mde] {"rare_events": [0.0483, 0.0741, "dir_h1"], "continuous": [0.0324, 0.0497, "dir_h1"]}
+[YM 15m mde] {"rare_events": [0.0623, 0.0954, "dir_h1"], "continuous": [0.0239, 0.0366, "dir_h1"]}
+[YM 60m mde] {"rare_events": [0.066, 0.1012, "dir_h1"], "continuous": [0.0437, 0.0669, "dir_h1"]}

@@ -1,0 +1,230 @@
+POSITION SIZING - three live MNQ models (1 micro = $2/NQ point, $2 round-trip cost)
+Rebuilt 5437 trades vs 5437 in chosen_models_trades.csv: only-rebuilt 0, only-csv 0, $ mismatches 0
+  overnight_break stop = R_pts used by the CSV's R (max diff 2.8e-14 pts); opening_range sizing stop (9:34 close) differs from the fill-based risk by a median 0.25 pts
+2026 average NQ price used for 'scaled' budgets: 27,961
+
+Stop distances known at entry (NQ points), median by era:
+  overnight_break  2011:   6.9  2014:   7.4  2018:  16.7  2020:  30.5  2022:  56.3  2024:  46.9  2026:  86.2
+  opening_range    2011:   5.2  2014:   6.0  2018:  15.8  2020:  30.0  2022:  50.0  2024:  35.5  2026:  78.0
+  expiry ADR20     2011:  34.6  2014:  37.3  2018: 102.8  2020: 197.7  2022: 291.7  2024: 224.9  2026: 377.4
+
+EXPIRY FADE notional stop: K = 0.94 x ADR20 (mean loss of the worst 10% of 196 expiry trades, in ADR20 units; using only pre-2019 trades K = 0.85)
+  share of expiry trades losing more than K x ADR20: 4.6%; worst loss = 1.45 x ADR20; median loss of losers = 0.30 x ADR20
+
+======================================================================================================================
+RESULTS. Cap 10 micros/trade. 'combined' adds open-risk cap 1.5 x budget and daily loss limit 2.0 x budget. Return % on an assumed account of 100 x budget.
+skip1% = share of all signals skipped because one micro was already more risk than the budget.
+======================================================================================================================
+
+2019-2026 (real micros) | fixed budget | combined rules
+   budget  net $/yr   total $  max DD $ DD/bgt         worst day       worst month  ret % ret %/yr   DD % skip1%
+  $    50       349     2,737     2,190     44     -86 2020-06-17     -510  2019-02     55      7.0   43.8   75.2
+  $   100     3,707    29,065     4,920     49    -194 2024-04-29   -1,318  2020-12    291     37.1   49.2   36.8
+  $   200     9,604    75,310     9,956     50    -389 2025-12-30   -2,724  2023-09    377     48.0   49.8    9.0
+  contracts per taken trade, median [min-max]; % of signals skipped because 1 micro > budget; % capped
+    overnight_break  $50:  1.0 [1-2] skip 81.4% cap  0.0%   $100:  1.0 [1-5] skip 40.8% cap  0.0%   $200:  2.0 [1-10] skip  6.9% cap  0.4%
+    opening_range    $50:  1.0 [1-7] skip 70.9% cap  0.0%   $100:  1.0 [1-10] skip 31.5% cap  0.5%   $200:  2.0 [1-10] skip  5.6% cap  3.4%
+    expiry_fade      $50:  0.0 [0-0] skip 100.0% cap  0.0%   $100:  0.0 [0-0] skip 100.0% cap  0.0%   $200:  1.0 [1-1] skip 90.4% cap  0.0%
+  combined rules bound on: $50: open-cap 32 trades, day-limit 0 trades (of 803 days with 2+ trades)   $100: open-cap 149 trades, day-limit 1 trades (of 803 days with 2+ trades)   $200: open-cap 293 trades, day-limit 12 trades (of 803 days with 2+ trades)
+
+2019-2026 (real micros) | fixed budget | plain rules
+   budget  net $/yr   total $  max DD $ DD/bgt         worst day       worst month  ret % ret %/yr   DD % skip1%
+  $    50       398     3,124     2,394     48     -98 2023-03-29     -550  2019-02     62      8.0   47.9   75.2
+  $   100     4,336    34,003     5,489     55    -276 2024-03-19   -1,384  2020-12    340     43.4   54.9   36.8
+  $   200    11,096    87,004    11,014     55    -551 2024-03-19   -3,104  2020-12    435     55.5   55.1    9.0
+  contracts per taken trade, median [min-max]; % of signals skipped because 1 micro > budget; % capped
+    overnight_break  $50:  1.0 [1-3] skip 81.4% cap  0.0%   $100:  1.0 [1-6] skip 40.8% cap  0.0%   $200:  2.0 [1-10] skip  6.9% cap  0.4%
+    opening_range    $50:  1.0 [1-7] skip 70.9% cap  0.0%   $100:  1.0 [1-10] skip 31.5% cap  0.5%   $200:  2.0 [1-10] skip  5.6% cap  3.4%
+    expiry_fade      $50:  0.0 [0-0] skip 100.0% cap  0.0%   $100:  0.0 [0-0] skip 100.0% cap  0.0%   $200:  1.0 [1-1] skip 90.4% cap  0.0%
+
+2019-2026 (real micros) | scaled budget | combined rules (2019 NQ ~7,000 = 1/4 of 2026, so early budgets shrink to 1/4)
+   budget  net $/yr   total $  max DD $ DD/bgt         worst day       worst month  ret % ret %/yr   DD % skip1%
+  $    50       264     2,072       466      9     -46 2026-04-28     -122  2026-04     41      5.3    9.3   96.7
+  $   100     1,109     8,699     1,536     15    -136 2026-04-13     -610  2026-04     87     11.1   15.4   75.3
+  $   200     4,152    32,553     4,934     25    -430 2026-10-02   -1,604  2024-02    163     20.8   24.7   28.2
+  contracts per taken trade, median [min-max]; % of signals skipped because 1 micro > budget; % capped
+    overnight_break  $50:  1.0 [1-1] skip 99.8% cap  0.0%   $100:  1.0 [1-1] skip 83.2% cap  0.0%   $200:  1.0 [1-3] skip 31.0% cap  0.0%
+    opening_range    $50:  1.0 [1-3] skip 95.0% cap  0.0%   $100:  1.0 [1-7] skip 70.2% cap  0.0%   $200:  1.0 [1-10] skip 22.9% cap  0.1%
+    expiry_fade      $50:  0.0 [0-0] skip 100.0% cap  0.0%   $100:  0.0 [0-0] skip 100.0% cap  0.0%   $200:  0.0 [0-0] skip 100.0% cap  0.0%
+  combined rules bound on: $50: open-cap 1 trades, day-limit 0 trades (of 803 days with 2+ trades)   $100: open-cap 30 trades, day-limit 0 trades (of 803 days with 2+ trades)   $200: open-cap 155 trades, day-limit 3 trades (of 803 days with 2+ trades)
+
+2019-2026 (real micros) | scaled budget | plain rules (2019 NQ ~7,000 = 1/4 of 2026, so early budgets shrink to 1/4)
+   budget  net $/yr   total $  max DD $ DD/bgt         worst day       worst month  ret % ret %/yr   DD % skip1%
+  $    50       277     2,170       466      9     -46 2026-04-28     -122  2026-04     43      5.5    9.3   96.7
+  $   100     1,270     9,954     1,758     18    -160 2025-10-28     -610  2026-04    100     12.7   17.6   75.3
+  $   200     4,773    37,425     5,690     28    -430 2026-10-02   -1,730  2024-02    187     23.9   28.4   28.2
+  contracts per taken trade, median [min-max]; % of signals skipped because 1 micro > budget; % capped
+    overnight_break  $50:  1.0 [1-1] skip 99.8% cap  0.0%   $100:  1.0 [1-2] skip 83.2% cap  0.0%   $200:  1.0 [1-4] skip 31.0% cap  0.0%
+    opening_range    $50:  1.0 [1-3] skip 95.0% cap  0.0%   $100:  1.0 [1-7] skip 70.2% cap  0.0%   $200:  1.0 [1-10] skip 22.9% cap  0.1%
+    expiry_fade      $50:  0.0 [0-0] skip 100.0% cap  0.0%   $100:  0.0 [0-0] skip 100.0% cap  0.0%   $200:  0.0 [0-0] skip 100.0% cap  0.0%
+
+2026 so far (today's prices) | fixed budget | combined rules
+   budget  net $/yr   total $  max DD $ DD/bgt         worst day       worst month  ret % ret %/yr   DD % skip1%
+  $    50      -343      -288       288      6     -46 2026-04-28     -122  2026-04     -6     -6.9    5.8   97.5
+  $   100      -318      -267     1,397     14    -136 2026-04-13     -610  2026-04     -3     -3.2   14.0   81.0
+  $   200       698       587     4,598     23    -385 2026-05-21   -2,084  2026-03      3      3.5   23.0   33.5
+  contracts per taken trade, median [min-max]; % of signals skipped because 1 micro > budget; % capped
+    overnight_break  $50:  0.0 [0-0] skip 100.0% cap  0.0%   $100:  1.0 [1-1] skip 87.7% cap  0.0%   $200:  1.0 [1-2] skip 33.3% cap  0.0%
+    opening_range    $50:  1.0 [1-2] skip 96.4% cap  0.0%   $100:  1.0 [1-4] skip 77.2% cap  0.0%   $200:  1.0 [1-8] skip 30.1% cap  0.0%
+    expiry_fade      $50:  0.0 [0-0] skip 100.0% cap  0.0%   $100:  0.0 [0-0] skip 100.0% cap  0.0%   $200:  0.0 [0-0] skip 100.0% cap  0.0%
+  combined rules bound on: $50: open-cap 0 trades, day-limit 0 trades (of 77 days with 2+ trades)   $100: open-cap 1 trades, day-limit 0 trades (of 77 days with 2+ trades)   $200: open-cap 10 trades, day-limit 0 trades (of 77 days with 2+ trades)
+
+2026 so far (today's prices) | fixed budget | plain rules
+   budget  net $/yr   total $  max DD $ DD/bgt         worst day       worst month  ret % ret %/yr   DD % skip1%
+  $    50      -343      -288       288      6     -46 2026-04-28     -122  2026-04     -6     -6.9    5.8   97.5
+  $   100       832       699     1,397     14    -136 2026-04-13     -610  2026-04      7      8.3   14.0   81.0
+  $   200     2,136     1,795     4,974     25    -385 2026-05-21   -2,276  2026-03      9     10.7   24.9   33.5
+  contracts per taken trade, median [min-max]; % of signals skipped because 1 micro > budget; % capped
+    overnight_break  $50:  0.0 [0-0] skip 100.0% cap  0.0%   $100:  1.0 [1-1] skip 87.7% cap  0.0%   $200:  1.0 [1-2] skip 33.3% cap  0.0%
+    opening_range    $50:  1.0 [1-2] skip 96.4% cap  0.0%   $100:  1.0 [1-4] skip 77.2% cap  0.0%   $200:  1.0 [1-8] skip 30.1% cap  0.0%
+    expiry_fade      $50:  0.0 [0-0] skip 100.0% cap  0.0%   $100:  0.0 [0-0] skip 100.0% cap  0.0%   $200:  0.0 [0-0] skip 100.0% cap  0.0%
+
+2026 so far (today's prices) | scaled budget | combined rules
+   budget  net $/yr   total $  max DD $ DD/bgt         worst day       worst month  ret % ret %/yr   DD % skip1%
+  $    50       255       214       159      3     -46 2026-04-28     -122  2026-04      4      5.1    3.2   97.2
+  $   100      -202      -170     1,459     15    -136 2026-04-13     -610  2026-04     -2     -2.0   14.6   80.6
+  $   200     1,868     1,570     3,635     18    -430 2026-10-02   -1,505  2026-10      8      9.3   18.2   34.9
+  contracts per taken trade, median [min-max]; % of signals skipped because 1 micro > budget; % capped
+    overnight_break  $50:  0.0 [0-0] skip 100.0% cap  0.0%   $100:  1.0 [1-1] skip 87.7% cap  0.0%   $200:  1.0 [1-2] skip 39.5% cap  0.0%
+    opening_range    $50:  1.0 [1-2] skip 95.9% cap  0.0%   $100:  1.0 [1-4] skip 76.7% cap  0.0%   $200:  1.0 [1-9] skip 29.5% cap  0.0%
+    expiry_fade      $50:  0.0 [0-0] skip 100.0% cap  0.0%   $100:  0.0 [0-0] skip 100.0% cap  0.0%   $200:  0.0 [0-0] skip 100.0% cap  0.0%
+  combined rules bound on: $50: open-cap 0 trades, day-limit 0 trades (of 77 days with 2+ trades)   $100: open-cap 1 trades, day-limit 0 trades (of 77 days with 2+ trades)   $200: open-cap 10 trades, day-limit 0 trades (of 77 days with 2+ trades)
+
+2026 so far (today's prices) | scaled budget | plain rules
+   budget  net $/yr   total $  max DD $ DD/bgt         worst day       worst month  ret % ret %/yr   DD % skip1%
+  $    50       255       214       159      3     -46 2026-04-28     -122  2026-04      4      5.1    3.2   97.2
+  $   100       948       796     1,459     15    -136 2026-04-13     -610  2026-04      8      9.5   14.6   80.6
+  $   200     2,582     2,170     3,944     20    -430 2026-10-02   -1,706  2026-10     11     12.9   19.7   34.9
+  contracts per taken trade, median [min-max]; % of signals skipped because 1 micro > budget; % capped
+    overnight_break  $50:  0.0 [0-0] skip 100.0% cap  0.0%   $100:  1.0 [1-1] skip 87.7% cap  0.0%   $200:  1.0 [1-2] skip 39.5% cap  0.0%
+    opening_range    $50:  1.0 [1-2] skip 95.9% cap  0.0%   $100:  1.0 [1-4] skip 76.7% cap  0.0%   $200:  1.0 [1-9] skip 29.5% cap  0.0%
+    expiry_fade      $50:  0.0 [0-0] skip 100.0% cap  0.0%   $100:  0.0 [0-0] skip 100.0% cap  0.0%   $200:  0.0 [0-0] skip 100.0% cap  0.0%
+
+FULL 2010-2026 | fixed budget | combined rules
+   budget  net $/yr   total $  max DD $ DD/bgt         worst day       worst month  ret % ret %/yr   DD % skip1%
+  $    50        86     1,404     7,699    154    -100 2012-04-19     -994  2013-01     28      1.7  154.0   40.2
+  $   100     1,710    28,066    16,304    163    -199 2018-04-23   -2,043  2013-01    281     17.1  163.0   18.9
+  $   200     5,487    90,040    18,914     95    -398 2018-04-23   -3,646  2015-10    450     27.4   94.6    4.5
+  contracts per taken trade, median [min-max]; % of signals skipped because 1 micro > budget; % capped
+    overnight_break  $50:  2.0 [1-7] skip 41.8% cap  0.0%   $100:  3.0 [1-10] skip 20.2% cap  2.3%   $200:  4.0 [1-10] skip  3.4% cap 27.5%
+    opening_range    $50:  2.0 [1-7] skip 36.4% cap  0.0%   $100:  4.0 [1-10] skip 15.8% cap  7.5%   $200:  6.0 [1-10] skip  2.8% cap 34.4%
+    expiry_fade      $50:  1.0 [1-1] skip 94.4% cap  0.0%   $100:  1.0 [1-2] skip 64.0% cap  0.0%   $200:  2.0 [1-4] skip 45.7% cap  0.0%
+  combined rules bound on: $50: open-cap 322 trades, day-limit 13 trades (of 1581 days with 2+ trades)   $100: open-cap 518 trades, day-limit 18 trades (of 1581 days with 2+ trades)   $200: open-cap 501 trades, day-limit 25 trades (of 1581 days with 2+ trades)
+
+FULL 2010-2026 | fixed budget | plain rules
+   budget  net $/yr   total $  max DD $ DD/bgt         worst day       worst month  ret % ret %/yr   DD % skip1%
+  $    50       175     2,865     7,463    149    -138 2018-04-23   -1,028  2017-03     57      3.5  149.3   40.2
+  $   100     2,194    36,007    15,290    153    -277 2018-04-23   -2,155  2017-03    360     21.9  152.9   18.9
+  $   200     6,461   106,024    17,896     89    -593 2018-04-23   -3,880  2015-10    530     32.3   89.5    4.5
+  contracts per taken trade, median [min-max]; % of signals skipped because 1 micro > budget; % capped
+    overnight_break  $50:  2.0 [1-8] skip 41.8% cap  0.0%   $100:  3.0 [1-10] skip 20.2% cap  2.3%   $200:  5.0 [1-10] skip  3.4% cap 27.5%
+    opening_range    $50:  2.0 [1-7] skip 36.4% cap  0.0%   $100:  4.0 [1-10] skip 15.8% cap  7.5%   $200:  6.0 [1-10] skip  2.8% cap 34.4%
+    expiry_fade      $50:  1.0 [1-1] skip 94.4% cap  0.0%   $100:  1.0 [1-2] skip 64.0% cap  0.0%   $200:  2.0 [1-4] skip 45.7% cap  0.0%
+
+FULL 2010-2026 | scaled budget | combined rules
+   budget  net $/yr   total $  max DD $ DD/bgt         worst day       worst month  ret % ret %/yr   DD % skip1%
+  $    50       102     1,669       560     11     -46 2026-04-28     -122  2026-04     33      2.0   11.2   97.0
+  $   100       501     8,226     1,536     15    -136 2026-04-13     -610  2026-04     82      5.0   15.4   70.4
+  $   200     2,108    34,594     4,934     25    -430 2026-10-02   -1,604  2024-02    173     10.5   24.7   23.0
+  contracts per taken trade, median [min-max]; % of signals skipped because 1 micro > budget; % capped
+    overnight_break  $50:  1.0 [1-1] skip 99.4% cap  0.0%   $100:  1.0 [1-2] skip 76.8% cap  0.0%   $200:  1.0 [1-4] skip 24.7% cap  0.0%
+    opening_range    $50:  1.0 [1-3] skip 95.7% cap  0.0%   $100:  1.0 [1-7] skip 65.6% cap  0.0%   $200:  1.0 [1-10] skip 17.8% cap  0.0%
+    expiry_fade      $50:  1.0 [1-1] skip 99.5% cap  0.0%   $100:  1.0 [1-1] skip 99.5% cap  0.0%   $200:  1.0 [1-1] skip 99.5% cap  0.0%
+  combined rules bound on: $50: open-cap 3 trades, day-limit 0 trades (of 1581 days with 2+ trades)   $100: open-cap 71 trades, day-limit 0 trades (of 1581 days with 2+ trades)   $200: open-cap 338 trades, day-limit 6 trades (of 1581 days with 2+ trades)
+
+FULL 2010-2026 | scaled budget | plain rules
+   budget  net $/yr   total $  max DD $ DD/bgt         worst day       worst month  ret % ret %/yr   DD % skip1%
+  $    50       107     1,748       481     10     -46 2026-04-28     -122  2026-04     35      2.1    9.6   97.0
+  $   100       567     9,310     1,758     18    -160 2025-10-28     -610  2026-04     93      5.7   17.6   70.4
+  $   200     2,431    39,887     5,690     28    -430 2026-10-02   -1,730  2024-02    199     12.2   28.4   23.0
+  contracts per taken trade, median [min-max]; % of signals skipped because 1 micro > budget; % capped
+    overnight_break  $50:  1.0 [1-1] skip 99.4% cap  0.0%   $100:  1.0 [1-2] skip 76.8% cap  0.0%   $200:  1.0 [1-5] skip 24.7% cap  0.0%
+    opening_range    $50:  1.0 [1-3] skip 95.7% cap  0.0%   $100:  1.0 [1-7] skip 65.6% cap  0.0%   $200:  1.0 [1-10] skip 17.8% cap  0.0%
+    expiry_fade      $50:  1.0 [1-1] skip 99.5% cap  0.0%   $100:  1.0 [1-1] skip 99.5% cap  0.0%   $200:  1.0 [1-1] skip 99.5% cap  0.0%
+
+2010-2018 only | fixed budget | combined rules
+   budget  net $/yr   total $  max DD $ DD/bgt         worst day       worst month  ret % ret %/yr   DD % skip1%
+  $    50      -156    -1,332     7,699    154    -100 2012-04-19     -994  2013-01    -27     -3.1  154.0    6.1
+  $   100      -117      -998    16,304    163    -199 2018-04-23   -2,043  2013-01    -10     -1.2  163.0    1.5
+  $   200     1,720    14,730    18,914     95    -398 2018-04-23   -3,646  2015-10     74      8.6   94.6    0.2
+  contracts per taken trade, median [min-max]; % of signals skipped because 1 micro > budget; % capped
+    overnight_break  $50:  2.0 [1-7] skip  3.6% cap  0.0%   $100:  4.0 [1-10] skip  0.5% cap  4.4%   $200:  9.0 [1-10] skip  0.0% cap 53.6%
+    opening_range    $50:  3.0 [1-7] skip  2.5% cap  0.0%   $100:  6.0 [1-10] skip  0.2% cap 14.3%   $200: 10.0 [1-10] skip  0.0% cap 64.9%
+    expiry_fade      $50:  1.0 [1-1] skip 89.3% cap  0.0%   $100:  1.0 [1-2] skip 31.1% cap  0.0%   $200:  2.0 [1-4] skip  4.9% cap  0.0%
+  combined rules bound on: $50: open-cap 290 trades, day-limit 13 trades (of 778 days with 2+ trades)   $100: open-cap 369 trades, day-limit 17 trades (of 778 days with 2+ trades)   $200: open-cap 208 trades, day-limit 13 trades (of 778 days with 2+ trades)
+
+2010-2018 only | fixed budget | plain rules
+   budget  net $/yr   total $  max DD $ DD/bgt         worst day       worst month  ret % ret %/yr   DD % skip1%
+  $    50       -30      -258     7,463    149    -138 2018-04-23   -1,028  2017-03     -5     -0.6  149.3    6.1
+  $   100       234     2,004    15,290    153    -277 2018-04-23   -2,155  2017-03     20      2.3  152.9    1.5
+  $   200     2,221    19,020    17,896     89    -593 2018-04-23   -3,880  2015-10     95     11.1   89.5    0.2
+  contracts per taken trade, median [min-max]; % of signals skipped because 1 micro > budget; % capped
+    overnight_break  $50:  2.0 [1-8] skip  3.6% cap  0.0%   $100:  5.0 [1-10] skip  0.5% cap  4.4%   $200: 10.0 [1-10] skip  0.0% cap 53.6%
+    opening_range    $50:  3.0 [1-7] skip  2.5% cap  0.0%   $100:  6.0 [1-10] skip  0.2% cap 14.3%   $200: 10.0 [1-10] skip  0.0% cap 64.9%
+    expiry_fade      $50:  1.0 [1-1] skip 89.3% cap  0.0%   $100:  1.0 [1-2] skip 31.1% cap  0.0%   $200:  2.0 [1-4] skip  4.9% cap  0.0%
+
+2010-2018 only | scaled budget | combined rules
+   budget  net $/yr   total $  max DD $ DD/bgt         worst day       worst month  ret % ret %/yr   DD % skip1%
+  $    50       -47      -402       406      8     -11 2018-06-06      -58  2017-03     -8     -0.9    8.1   97.4
+  $   100       -55      -473     1,399     14     -36 2017-09-28     -282  2017-06     -5     -0.6   14.0   65.6
+  $   200       238     2,042     3,966     20     -94 2018-05-31     -674  2017-03     10      1.2   19.8   17.9
+  contracts per taken trade, median [min-max]; % of signals skipped because 1 micro > budget; % capped
+    overnight_break  $50:  1.0 [1-1] skip 99.1% cap  0.0%   $100:  1.0 [1-2] skip 70.7% cap  0.0%   $200:  1.0 [1-4] skip 18.6% cap  0.0%
+    opening_range    $50:  1.0 [1-1] skip 96.4% cap  0.0%   $100:  1.0 [1-3] skip 61.0% cap  0.0%   $200:  1.0 [1-6] skip 12.8% cap  0.0%
+    expiry_fade      $50:  1.0 [1-1] skip 99.0% cap  0.0%   $100:  1.0 [1-1] skip 99.0% cap  0.0%   $200:  1.0 [1-1] skip 99.0% cap  0.0%
+  combined rules bound on: $50: open-cap 2 trades, day-limit 0 trades (of 778 days with 2+ trades)   $100: open-cap 41 trades, day-limit 0 trades (of 778 days with 2+ trades)   $200: open-cap 183 trades, day-limit 3 trades (of 778 days with 2+ trades)
+
+2010-2018 only | scaled budget | plain rules
+   budget  net $/yr   total $  max DD $ DD/bgt         worst day       worst month  ret % ret %/yr   DD % skip1%
+  $    50       -49      -422       425      8     -22 2018-08-27      -58  2017-03     -8     -1.0    8.5   97.4
+  $   100       -75      -644     1,442     14     -45 2018-08-27     -290  2017-06     -6     -0.8   14.4   65.6
+  $   200       287     2,462     4,228     21    -100 2018-07-09     -742  2017-03     12      1.4   21.1   17.9
+  contracts per taken trade, median [min-max]; % of signals skipped because 1 micro > budget; % capped
+    overnight_break  $50:  1.0 [1-1] skip 99.1% cap  0.0%   $100:  1.0 [1-2] skip 70.7% cap  0.0%   $200:  1.0 [1-5] skip 18.6% cap  0.0%
+    opening_range    $50:  1.0 [1-1] skip 96.4% cap  0.0%   $100:  1.0 [1-3] skip 61.0% cap  0.0%   $200:  1.0 [1-6] skip 12.8% cap  0.0%
+    expiry_fade      $50:  1.0 [1-1] skip 99.0% cap  0.0%   $100:  1.0 [1-1] skip 99.0% cap  0.0%   $200:  1.0 [1-1] skip 99.0% cap  0.0%
+
+Skipped signals (1 micro > budget), fixed budget, % of that model's signals by year:
+  year overnigh$50   overnigh$100  overnigh$200  opening_$50   opening_$100  opening_$200 
+  2010            -            -            -            0            0            0
+  2011            0            0            0            0            0            0
+  2012            0            0            0            0            0            0
+  2013            0            0            0            0            0            0
+  2014            0            0            0            1            0            0
+  2015            3            0            0            0            0            0
+  2016            3            0            0            1            0            0
+  2017            0            0            0            1            0            0
+  2018           23            4            0           17            2            0
+  2019           17            3            0           13            0            0
+  2020           69           22            3           62           18            2
+  2021           73           25            3           71           19            1
+  2022          100           59            4           90           52            5
+  2023           91           24            2           70           16            0
+  2024           98           47            3           80           26            2
+  2025           99           67           14           89           50            8
+  2026          100           88           33           96           77           30
+
+Expiry fade sizing compared (fixed budget, no combined rules needed: nothing else trades on expiry days):
+  $50   2019_2026 vol-sized: median 0 micros, net $0, worst $0 (0.0x budget)  |  fixed 1 micro: net $6,509, worst $-730 (-14.6x budget)
+  $50   full      vol-sized: median 0 micros, net $138, worst $-17 (-0.3x budget)  |  fixed 1 micro: net $8,006, worst $-730 (-14.6x budget)
+  $100  2019_2026 vol-sized: median 0 micros, net $0, worst $0 (0.0x budget)  |  fixed 1 micro: net $6,509, worst $-730 (-7.3x budget)
+  $100  full      vol-sized: median 0 micros, net $830, worst $-82 (-0.8x budget)  |  fixed 1 micro: net $8,006, worst $-730 (-7.3x budget)
+  $200  2019_2026 vol-sized: median 0 micros, net $370, worst $-76 (-0.4x budget)  |  fixed 1 micro: net $6,509, worst $-730 (-3.6x budget)
+  $200  full      vol-sized: median 1 micros, net $2,028, worst $-244 (-1.2x budget)  |  fixed 1 micro: net $8,006, worst $-730 (-3.6x budget)
+
+Baseline for comparison: always exactly 1 micro on every signal (no budget, as chosen_models_trades.csv):
+  2019-2026 net $5,577/yr, total $43,734, max DD $7,949, worst day $-758 (2026-06-24), worst month $-2,284 (2026-06)
+  2026      net $2,755/yr, total $2,316, max DD $7,236, worst day $-758 (2026-06-24), worst month $-2,284 (2026-06)
+  full      net $3,087/yr, total $50,657, max DD $7,949, worst day $-758 (2026-06-24), worst month $-2,284 (2026-06)
+
+What 1 micro risks at the 2026 median stop (the smallest budget that trades it at all):
+  overnight_break  median $174  (25-75%: $121-$215)
+  opening_range    median $158  (25-75%: $107-$208)
+  expiry_fade      median $710  (notional 0.94 x ADR20)
+
+Are the skipped (big-stop) signals better or worse than the ones taken? 2019-2026, fixed budget, 1-micro results, R = net $ / (stop pts x $2 + $2):
+  $50   overnight_break: skipped 691 avg +0.31R ($+18,926 at 1 micro) | taken 158 avg +0.34R   opening_range: skipped 1234 avg +0.15R ($+15,454 at 1 micro) | taken 507 avg +0.13R
+  $100  overnight_break: skipped 346 avg +0.12R ($+5,936 at 1 micro) | taken 503 avg +0.44R   opening_range: skipped 549 avg +0.05R ($+4,335 at 1 micro) | taken 1192 avg +0.19R
+  $200  overnight_break: skipped 59 avg +0.12R ($+1,592 at 1 micro) | taken 790 avg +0.33R   opening_range: skipped 98 avg -0.19R ($-3,206 at 1 micro) | taken 1643 avg +0.16R
+
+saved to /tmp/claude-1000/-home-roflz--claude-spares-spare-NhXWo6/fb7c622e-dc01-4189-9bb7-9001db03cb79/scratchpad/next/sizing

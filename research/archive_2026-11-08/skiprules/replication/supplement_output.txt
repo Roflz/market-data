@@ -1,0 +1,39 @@
+=== R-unit (net R per trade) and robustness of the condition-day means ===
+MNQ overnight_break r1: n= 49  R/trade -0.395 vs  0.199 (t -2.85) | median $  -61.00 vs  -16.00 | ex-3-worst $  -45.61 (t -3.16)
+MNQ opening_range   r1: n=123  R/trade -0.444 vs  0.037 (t -2.87) | median $  -46.50 vs  -16.50 | ex-3-worst $  -31.42 (t -2.91)
+MNQ opening_range   r2: n=122  R/trade -0.476 vs  0.038 (t -2.81) | median $  -24.25 vs  -17.00 | ex-3-worst $  -24.09 (t -3.69)
+MNQ overnight_break r2: n= 59  R/trade -0.329 vs  0.201 (t -2.24) | median $  -22.00 vs  -16.50 | ex-3-worst $   -1.20 (t -0.82)
+MES overnight_break r1: n= 48  R/trade -0.257 vs  0.021 (t -0.91) | median $  -58.50 vs  -18.50 | ex-3-worst $  -23.67 (t -1.42)
+MES opening_range   r1: n=121  R/trade -0.426 vs -0.098 (t -1.99) | median $  -31.00 vs  -17.25 | ex-3-worst $  -17.27 (t -1.79)
+MES opening_range   r2: n=111  R/trade -0.586 vs -0.094 (t -2.66) | median $  -19.75 vs  -17.25 | ex-3-worst $  -13.05 (t -2.64)
+MES overnight_break r2: n= 55  R/trade -0.254 vs  0.022 (t -1.02) | median $  -22.25 vs  -18.50 | ex-3-worst $   -0.71 (t -0.18)
+
+=== per-year condition-day trades (n, $/trade) ===
+MNQ overnight_break r1: 2011:7/-14  2012:2/23  2013:1/-12  2014:2/53  2015:1/-32  2016:4/-13  2018:5/-56  2020:12/-35  2021:1/-158  2022:8/-102  2023:1/-90  2024:2/-212  2025:2/-268  2026:1/-380
+     ex-2022: n=41 $-57.12/tr  t -3.06
+MNQ opening_range r1: 2010:4/-3  2011:17/-6  2012:3/-15  2013:1/-8  2014:4/3  2015:5/-40  2016:5/55  2018:15/-30  2019:5/-36  2020:25/-40  2021:5/-65  2022:20/-66  2023:1/-46  2024:4/58  2025:6/-125  2026:3/-220
+     ex-2022: n=103 $-31.53/tr  t -2.63
+MNQ opening_range r2: 2010:2/-13  2011:7/-5  2012:6/8  2013:7/4  2014:7/-13  2015:8/2  2016:8/-4  2017:7/-1  2018:8/-39  2019:8/-25  2020:7/-48  2021:8/-27  2022:8/-93  2023:8/-8  2024:8/-16  2025:8/-60  2026:7/-124
+     ex-2022: n=114 $-23.68/tr  t -3.28
+MES overnight_break r1: 2011:8/-1  2013:1/-20  2014:3/-40  2015:1/-95  2016:4/-14  2018:9/8  2020:9/-38  2021:2/-54  2022:9/-81  2024:1/-82  2025:1/-61
+     ex-2022: n=39 $-21.03/tr  t -1.07
+MES opening_range r1: 2010:4/-7  2011:17/-6  2012:3/-17  2013:1/-14  2014:3/-22  2015:5/37  2016:5/52  2018:15/-9  2019:5/-10  2020:24/-35  2021:5/-7  2022:20/-39  2023:1/-17  2024:4/-68  2025:6/-71  2026:3/-63
+     ex-2022: n=101 $-17.77/tr  t -1.53
+MES opening_range r2: 2010:3/-14  2011:4/-24  2012:7/-7  2013:4/-15  2014:5/21  2015:8/16  2016:8/-13  2017:7/-9  2018:6/-25  2019:6/-21  2020:7/5  2021:8/13  2022:8/-54  2023:7/-24  2024:8/-19  2025:8/-35  2026:7/-40
+     ex-2022: n=103 $-11.69/tr  t -2.05
+
+=== system effect ===
+MNQ 3-model system (as traded)               trades  5729  total $   39,518  maxDD $  9,608  worst day $   -758
+  + R1 (skip both breakouts after SPX<=-2%)  trades  5557  total $   47,250  maxDD $  8,774  worst day $   -758  | removed  172 trades, d$   +7,732, dDD    -834
+  + R2 (skip opening_range on FOMC)          trades  5607  total $   42,962  maxDD $  8,783  worst day $   -758  | removed  122 trades, d$   +3,444, dDD    -825
+  + R1 + R2                                  trades  5437  total $   50,657  maxDD $  7,949  worst day $   -758  | removed  292 trades, d$  +11,140, dDD  -1,659
+   MNQ 2010-2015 base                        trades  1826  total $     -980  maxDD $  1,738  worst day $   -110
+   MNQ 2010-2015 R1+R2                       trades  1744  total $     -618  maxDD $  1,567  worst day $   -110  | removed   82 trades, d$     +363, dDD    -170
+   MNQ 2016-2020 base                        trades  1775  total $   10,788  maxDD $  2,536  worst day $   -690
+   MNQ 2016-2020 R1+R2                       trades  1666  total $   13,789  maxDD $  2,138  worst day $   -370  | removed  109 trades, d$   +3,002, dDD    -398
+   MNQ 2021-2026 base                        trades  2128  total $   29,710  maxDD $  9,608  worst day $   -758
+   MNQ 2021-2026 R1+R2                       trades  2027  total $   37,486  maxDD $  7,949  worst day $   -758  | removed  101 trades, d$   +7,775, dDD  -1,659
+MES analog (overnight_break + opening_range) trades  5037  total $   -4,410  maxDD $  8,229  worst day $   -419
+  + R1                                       trades  4868  total $     -292  maxDD $  6,412  worst day $   -419  | removed  169 trades, d$   +4,118, dDD  -1,818
+  + R2                                       trades  4926  total $   -2,774  maxDD $  6,742  worst day $   -419  | removed  111 trades, d$   +1,636, dDD  -1,486
+  + R1 + R2                                  trades  4758  total $    1,303  maxDD $  5,456  worst day $   -419  | removed  279 trades, d$   +5,713, dDD  -2,772

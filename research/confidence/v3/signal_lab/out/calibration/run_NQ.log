@@ -1,0 +1,42 @@
+[NQ 15m] panel 347117 bars, 3877 sessions, build 3.2s
+[NQ 15m] null done 333s: p_dir<0.05 0.025, classes {'INCONCLUSIVE': 198, 'CONFIDENTLY NOTHING': 2}
+[NQ 15m] negatives done 422s: dir p<0.05 0.000, size p<0.05 0.018
+[NQ 15m] positives done 435s: range_ratio +0.232 (+22%) p=6.1e-48 det=True, range4_ratio +0.233 (+10%) p=0.02 det=False, time_of_day +1.142 (+107%) p=1.8e-242 det=True, news_830 +3.602 (+335%) p=3.9e-33 det=True, reversal -0.005 (+nan%) p=0.34 det=False
+[NQ 15m] power rare_events rep 0 done 446s
+[NQ 15m] power rare_events rep 1 done 458s
+[NQ 15m] power rare_events rep 2 done 470s
+[NQ 15m] power rare_events rep 3 done 480s
+[NQ 15m] power rare_events rep 4 done 490s
+[NQ 15m] power rare_events rep 5 done 501s
+[NQ 15m] power rare_events rep 6 done 518s
+[NQ 15m] power rare_events rep 7 done 535s
+[NQ 15m] power continuous rep 0 done 552s
+[NQ 15m] power continuous rep 1 done 567s
+[NQ 15m] power continuous rep 2 done 585s
+[NQ 15m] power continuous rep 3 done 599s
+[NQ 15m] power continuous rep 4 done 612s
+[NQ 15m] power continuous rep 5 done 626s
+[NQ 15m] power continuous rep 6 done 640s
+[NQ 15m] power continuous rep 7 done 655s
+[NQ 15m] power done 655s: {"continuous": [0.0187, 0.029], "rare_events": [0.0688, 0.1129]}
+[NQ 60m] panel 88465 bars, 3877 sessions, build 1.0s
+[NQ 60m] null done 74s: p_dir<0.05 0.030, classes {'INCONCLUSIVE': 200}
+[NQ 60m] negatives done 87s: dir p<0.05 0.018, size p<0.05 0.018
+[NQ 60m] positives done 90s: range_ratio +0.227 (+21%) p=1.3e-62 det=True, range4_ratio +0.270 (+12%) p=2.9e-21 det=True, time_of_day +1.386 (+130%) p=0 det=True, news_830 +1.605 (+149%) p=1.2e-26 det=True, reversal +0.019 (+nan%) p=0.09 det=False
+[NQ 60m] power rare_events rep 0 done 92s
+[NQ 60m] power rare_events rep 1 done 94s
+[NQ 60m] power rare_events rep 2 done 96s
+[NQ 60m] power rare_events rep 3 done 98s
+[NQ 60m] power rare_events rep 4 done 99s
+[NQ 60m] power rare_events rep 5 done 101s
+[NQ 60m] power rare_events rep 6 done 103s
+[NQ 60m] power rare_events rep 7 done 105s
+[NQ 60m] power continuous rep 0 done 106s
+[NQ 60m] power continuous rep 1 done 108s
+[NQ 60m] power continuous rep 2 done 109s
+[NQ 60m] power continuous rep 3 done 111s
+[NQ 60m] power continuous rep 4 done 112s
+[NQ 60m] power continuous rep 5 done 114s
+[NQ 60m] power continuous rep 6 done 116s
+[NQ 60m] power continuous rep 7 done 117s
+[NQ 60m] power done 117s: {"continuous": [0.0332, 0.0549], "rare_events": [0.047, 0.0719]}
